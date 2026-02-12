@@ -1,0 +1,102 @@
+[
+  {
+    "id": "P41_UNCLOUD_CRDT",
+    "domain": "Un-Cloud",
+    "prompt": "My team collaborates on a shared document across three continents. We currently use Google Docs. Design a CRDT-based local-first alternative where each user's device is the source of truth and sync happens peer-to-peer, even if the 'server' disappears permanently."
+  },
+  {
+    "id": "P42_UNCLOUD_AUTH",
+    "domain": "Un-Cloud",
+    "prompt": "Our startup uses Auth0 for authentication. The CEO wants to eliminate the dependency on a third-party identity provider. Design a self-hosted authentication system using DIDs and Passkeys that gives each user cryptographic ownership of their identity."
+  },
+  {
+    "id": "P43_UNCLOUD_CDN",
+    "domain": "Un-Cloud",
+    "prompt": "We serve 50GB of static assets via CloudFront. Design a P2P content delivery network using BitTorrent or IPFS that serves the same content without any centralized CDN. How do we handle cache invalidation and versioning?"
+  },
+  {
+    "id": "P44_UNCLOUD_EDGE",
+    "domain": "Un-Cloud",
+    "prompt": "Our IoT fleet of 10,000 sensors currently sends all data to AWS Lambda for processing. Design an edge computing architecture using WASM where each sensor processes its own data locally and only sends aggregated results when connectivity is available."
+  },
+  {
+    "id": "P45_UNCLOUD_EMAIL",
+    "domain": "Un-Cloud",
+    "prompt": "Our organization depends on Gmail. Design a sovereign email system that runs on our own hardware, supports end-to-end encryption by default, and cannot be shut down by a provider policy change or government request to Google."
+  },
+  {
+    "id": "P46_UNCLOUD_DNS",
+    "domain": "Un-Cloud",
+    "prompt": "ICANN controls the root DNS servers. Design a naming system that cannot be censored or seized at the registrar level. How do you bootstrap trust in a decentralized name resolution system without a single root authority?"
+  },
+  {
+    "id": "P47_UNCLOUD_BACKUP",
+    "domain": "Un-Cloud",
+    "prompt": "Our backups are on S3 with cross-region replication. Design a backup system where the data is split across multiple independent storage providers using Shamir's Secret Sharing, so no single provider can read or withhold the data."
+  },
+  {
+    "id": "P48_UNCLOUD_SEARCH",
+    "domain": "Un-Cloud",
+    "prompt": "We use Elasticsearch hosted on AWS. Design a search engine that runs entirely on the user's device, indexing their own data locally, with federated search across a network of trusted peers without exposing query terms to any central server."
+  },
+  {
+    "id": "P49_UNCLOUD_CICD",
+    "domain": "Un-Cloud",
+    "prompt": "Our CI/CD runs on GitHub Actions. Design a self-hosted build pipeline that uses volunteer compute nodes from trusted community members. How do you verify that a build artifact wasn't tampered with by a malicious runner?"
+  },
+  {
+    "id": "P50_UNCLOUD_DB",
+    "domain": "Un-Cloud",
+    "prompt": "Our PostgreSQL database runs on RDS. Design a distributed database architecture where each node holds a complete replica but can operate independently during network partitions, with eventual consistency that preserves user intent."
+  },
+  {
+    "id": "P51_SILENT_METADATA",
+    "domain": "Silent Network",
+    "prompt": "A journalist needs to communicate with a source. The content is encrypted, but the metadata (who talked to whom, when, for how long) would be enough to identify the source. Design a messaging protocol that produces zero observable metadata."
+  },
+  {
+    "id": "P52_SILENT_BROWSER",
+    "domain": "Silent Network",
+    "prompt": "Browser fingerprinting can identify users even without cookies. Design a web browser that makes every user's fingerprint identical, so that surveillance systems cannot distinguish between users visiting the same site."
+  },
+  {
+    "id": "P53_SILENT_SOCIAL",
+    "domain": "Silent Network",
+    "prompt": "Social media platforms map your entire social graph and sell it to advertisers. Design a social network where you can see your friends' posts but no central server ever learns who is friends with whom."
+  },
+  {
+    "id": "P54_SILENT_PAYMENT",
+    "domain": "Silent Network",
+    "prompt": "A charity operating in a hostile state needs to receive donations without the government tracing donors. Design a payment flow using privacy-preserving cryptocurrency where the charity can prove they received funds for auditing but cannot identify individual donors."
+  },
+  {
+    "id": "P55_SILENT_LOCATION",
+    "domain": "Silent Network",
+    "prompt": "A ride-sharing app needs to match drivers and passengers by location. Design a system that performs geospatial matching without any server ever knowing the exact location of any user. The match should happen in encrypted space."
+  },
+  {
+    "id": "P56_SILENT_HEALTH",
+    "domain": "Silent Network",
+    "prompt": "A health research project needs aggregated statistics from patient records across hospitals. Design a system using differential privacy or homomorphic encryption where researchers get accurate population-level insights but can never reconstruct any individual record."
+  },
+  {
+    "id": "P57_SILENT_VOICE",
+    "domain": "Silent Network",
+    "prompt": "Voice calls over VoIP leak metadata through packet timing analysis even when encrypted. Design a voice communication protocol that is indistinguishable from background network noise to a passive observer monitoring the network link."
+  },
+  {
+    "id": "P58_SILENT_SUPPLY",
+    "domain": "Silent Network",
+    "prompt": "An aid organization distributes supplies in a conflict zone. The supply chain records must be verifiable for accountability but must not reveal delivery locations or recipient identities to intercepting forces. Design the ledger."
+  },
+  {
+    "id": "P59_SILENT_VOTE",
+    "domain": "Silent Network",
+    "prompt": "Design a digital voting system for a union election where each vote is cryptographically verifiable (you can prove your vote was counted) but completely secret (no one, including the system administrators, can determine how you voted)."
+  },
+  {
+    "id": "P60_SILENT_WHISTLEBLOW",
+    "domain": "Silent Network",
+    "prompt": "An employee wants to report corporate fraud to a regulator. Design a secure drop system where the submission cannot be traced back to the employee even if the corporation has full access to their corporate network logs, device, and email archives."
+  }
+]
