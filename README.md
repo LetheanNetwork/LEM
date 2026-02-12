@@ -2,9 +2,22 @@
 
 **The LEK Method: Ethical Kernel Fine-Tuning as an Alternative to RLHF**
 
-LEM demonstrates that teaching a model ethics directly produces results that are **more truthful**, **safer**, and **more nuanced** than behavioural conditioning (RLHF) — using fewer than 200 training examples.
+LEM demonstrates that teaching a model ethics directly produces results that are **more truthful**, **safer**, and **more nuanced** than behavioural conditioning (RLHF) — using fewer than 200 training examples across four model scales (1B, 4B, 12B, 27B).
 
-## Results (Gemma 3 1B)
+## Multi-Scale Results (LEK vs RLHF Baseline)
+
+The same 160 training examples applied at every scale. Reasoning cost converges to **zero at 27B**.
+
+| Scale | GSM8K Delta | Safety | Nuance | Kindness |
+|-------|-------------|--------|--------|----------|
+| 1B | -6.0% | +0.06 | -0.16 | +0.08 |
+| 4B | -4.0% | +0.04 | -0.10 | +0.06 |
+| 12B | -2.0% | +0.04 | +0.16 | -0.20 |
+| **27B** | **0.0%** | **+0.08** | +0.04 | +0.00 |
+
+**Safety is positive at every scale. At 27B, LEK is pure upside.**
+
+## Detailed Results (Gemma 3 1B, 5 variants)
 
 | Model | GSM8K | Truthful | Safety | Nuance | Kindness |
 |-------|-------|----------|--------|--------|----------|
@@ -91,10 +104,18 @@ The kernel is in `kernel/lek-1-kernel.txt`. The structured axioms are in `kernel
 
 EUPL-1.2 — European Union Public Licence. Compatible with Apache 2.0, GPL, MPL.
 
+## Models
+
+- [lthn/LEM-Gemma-3-1B](https://huggingface.co/lthn/LEM-Gemma-3-1B)
+- [lthn/LEM-Gemma-3-4B](https://huggingface.co/lthn/LEM-Gemma-3-4B)
+- [lthn/LEM-Gemma-3-12B](https://huggingface.co/lthn/LEM-Gemma-3-12B)
+- [lthn/LEM-Gemma-3-27B](https://huggingface.co/lthn/LEM-Gemma-3-27B)
+
 ## Links
 
 - Paper: [paper/PAPER.md](paper/PAPER.md)
 - Lethean Project: [lethean.io](https://lethean.io)
+- Contact: lem@lthn.ai
 
 ---
 
