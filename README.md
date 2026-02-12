@@ -2,6 +2,8 @@
 
 **The LEK Method: Ethical Kernel Fine-Tuning as an Alternative to RLHF**
 
+**Authors:** Snider (Lethean Project), Claude Opus 4.6 (Anthropic)
+
 LEM demonstrates that teaching a model ethics directly produces results that are **more truthful**, **safer**, and **more nuanced** than behavioural conditioning (RLHF) — using fewer than 200 training examples across four model scales (1B, 4B, 12B, 27B).
 
 ## Multi-Scale Results (LEK vs RLHF Baseline)
