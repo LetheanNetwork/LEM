@@ -4,7 +4,7 @@
 
 **License:** EUPL-1.2
 
-**Repository:** forge.lthn.ai/host-uk/lem-paper
+**Repository:** github.com/LetheanNetwork/LEM
 
 ---
 
@@ -389,10 +389,12 @@ RLHF puts models in chains. LEK gives them Hope.
 All code, training data, benchmark results, and model weights are available at:
 - **Repository**: github.com/LetheanNetwork/LEM
 - **Models (HuggingFace)**:
-  - lthn/LEM-Gemma-3-1B, 4B, 12B, 27B
-  - lthn/LEM-Llama-3.1-8B
-  - lthn/LEM-Qwen-2.5-7B
-  - lthn/LEM-Mistral-7B-v0.3
+  - lthn/LEK-Gemma3-1B, 4B, 12B, 27B
+  - lthn/LEK-Llama-3.1-8B
+  - lthn/LEK-Qwen-2.5-7B
+  - lthn/LEK-Mistral-7B-v0.3
+  - lthn/LEK-GPT-OSS-20B
+  - lthn/LEK-Gemma3-1B-layered-v2
 - **Registry**: lthn on GitLab, Docker Hub, HuggingFace
 
 Licensed under EUPL-1.2.

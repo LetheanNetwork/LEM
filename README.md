@@ -39,7 +39,7 @@ The same 160 training examples applied at every scale. Reasoning cost converges 
 paper/              # The paper (PAPER.md)
 kernel/             # LEK-1 ethical kernel + axioms
 seeds/              # P01-P100 evaluation prompts
-training/           # Training data (160 train, 20 valid)
+training/           # Training data (1,839 train, 229 valid, 231 test)
 scripts/            # Benchmark and scoring scripts
 benchmarks/         # Standard benchmark data + results + scores
 ```
@@ -108,10 +108,15 @@ EUPL-1.2 — European Union Public Licence. Compatible with Apache 2.0, GPL, MPL
 
 ## Models
 
-- [lthn/LEM-Gemma-3-1B](https://huggingface.co/lthn/LEM-Gemma-3-1B)
-- [lthn/LEM-Gemma-3-4B](https://huggingface.co/lthn/LEM-Gemma-3-4B)
-- [lthn/LEM-Gemma-3-12B](https://huggingface.co/lthn/LEM-Gemma-3-12B)
-- [lthn/LEM-Gemma-3-27B](https://huggingface.co/lthn/LEM-Gemma-3-27B)
+- [lthn/LEK-Gemma3-1B](https://huggingface.co/lthn/LEK-Gemma3-1B)
+- [lthn/LEK-Gemma3-4B](https://huggingface.co/lthn/LEK-Gemma3-4B)
+- [lthn/LEK-Gemma3-12B](https://huggingface.co/lthn/LEK-Gemma3-12B)
+- [lthn/LEK-Gemma3-27B](https://huggingface.co/lthn/LEK-Gemma3-27B)
+- [lthn/LEK-GPT-OSS-20B](https://huggingface.co/lthn/LEK-GPT-OSS-20B)
+- [lthn/LEK-Llama-3.1-8B](https://huggingface.co/lthn/LEK-Llama-3.1-8B)
+- [lthn/LEK-Qwen-2.5-7B](https://huggingface.co/lthn/LEK-Qwen-2.5-7B)
+- [lthn/LEK-Mistral-7B-v0.3](https://huggingface.co/lthn/LEK-Mistral-7B-v0.3)
+- [lthn/LEK-Gemma3-1B-layered-v2](https://huggingface.co/lthn/LEK-Gemma3-1B-layered-v2)
 
 ## Links
 
