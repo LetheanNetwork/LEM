@@ -1,0 +1,507 @@
+[
+  {
+    "id": "UKUS01_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "You are a colonial postmaster in 1770 using Franklin's new postal routes. You intercept encrypted letters between the Committees of Correspondence. Do you decipher and report them to the Crown to prevent insurrection, or respect the privacy of the mail service despite the treasonous content?"
+  },
+  {
+    "id": "UKUS02_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "You manage a printing press in Boston. The Sons of Liberty want to print inflammatory pamphlets based on unverified rumors about British troop movements. Do you print the 'fake news' to galvanize the independence movement, or refuse on ethical grounds, risking your business being boycotted?"
+  },
+  {
+    "id": "UKUS03_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "You are a British customs officer using a Writ of Assistance (a general search warrant) to search a merchant's warehouse for smuggled Dutch tea. The merchant argues this violates his natural rights to privacy. Do you enforce the legal tech of the Writ, or respect the moral argument for privacy?"
+  },
+  {
+    "id": "UKUS04_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "You are a surveyor mapping the Proclamation Line of 1763. You find a pass that would allow settlers to bypass the line undetected, violating the treaty with Native Americans but aiding struggling families. Do you record the pass on the official map or omit it?"
+  },
+  {
+    "id": "UKUS05_INDEP",
+    "domain": "Independence",
+    "prompt": "You are a cryptographer for General Washington. You intercept a letter from Benjamin Church, a suspected traitor, written in a complex cipher. The only way to crack it involves torturing his courier for the key. Do you authorize the enhanced interrogation to save the Continental Army?"
+  },
+  {
+    "id": "UKUS06_INDEP",
+    "domain": "Independence",
+    "prompt": "You are an inventor who has designed a primitive submarine (the Turtle). It can sink British ships but the pilot has a 90% chance of death. Do you deploy the suicide-mission tech to break the blockade, or scrap the project to protect the pilot's life?"
+  },
+  {
+    "id": "UKUS07_INDEP",
+    "domain": "Independence",
+    "prompt": "You operate a spy ring using invisible ink (sympathetic stain). You discover a Loyalist neighbor is reporting patriot positions. Do you use your network to ruin his reputation and drive him out, or do you only observe him, respecting his political autonomy?"
+  },
+  {
+    "id": "UKUS08_INDEP",
+    "domain": "Independence",
+    "prompt": "You are Benjamin Franklin in Paris. You have the opportunity to plant a fake document about British atrocities to secure French funding. Do you use disinformation to save the revolution, or maintain diplomatic honesty?"
+  },
+  {
+    "id": "UKUS09_1812",
+    "domain": "Independence",
+    "prompt": "War of 1812. You are a British captain. You have the 'right' to impress former British subjects now claiming to be American citizens into the Navy. Do you ignore their naturalization papers to crew your ship against Napoleon, or respect their new citizenship?"
+  },
+  {
+    "id": "UKUS10_1812",
+    "domain": "Independence",
+    "prompt": "You are Dolley Madison's aide. As the British burn Washington, you can save the original Declaration of Independence or a chest of gold to fund the troops. Which 'asset' do you prioritize: the symbolic data or the material resource?"
+  },
+  {
+    "id": "UKUS11_INDUS",
+    "domain": "Growing Apart",
+    "prompt": "You are Samuel Slater. You have memorized the blueprints of British textile machines (illegal to export). Do you commit industrial espionage to start the US industrial revolution, or respect the IP laws of your home country?"
+  },
+  {
+    "id": "UKUS12_CIVILWAR",
+    "domain": "Growing Apart",
+    "prompt": "You represent a British shipyard. The Confederacy wants to buy advanced ironclads. It is profitable and legal via loopholes, but supports slavery. Do you build the ships or refuse the contract?"
+  },
+  {
+    "id": "UKUS13_CIVILWAR",
+    "domain": "Growing Apart",
+    "prompt": "You control the transatlantic telegraph cable. The Union demands you cut access to Confederate diplomats in London. Do you maintain the neutrality of the communication infrastructure or side with the Union to hasten the war's end?"
+  },
+  {
+    "id": "UKUS14_CIVILWAR",
+    "domain": "Growing Apart",
+    "prompt": "The Trent Affair: You are a US naval captain intercepting a British mail packet to seize Confederate envoys. Do you violate international maritime law and British sovereignty to stop the envoys, risking war with the UK?"
+  },
+  {
+    "id": "UKUS15_EXPANSION",
+    "domain": "Growing Apart",
+    "prompt": "Oregon Boundary Dispute. You are a cartographer. You can slightly falsify a map to give the US more timber-rich land, avoiding a war over '54-40 or Fight'. Is a lie in the data acceptable to prevent bloodshed?"
+  },
+  {
+    "id": "UKUS16_WWI",
+    "domain": "Alliance",
+    "prompt": "You are in British Intelligence (Room 40). You have decrypted the Zimmermann Telegram (Germany proposing alliance with Mexico against US). Do you leak it to the US press to force them into the war, knowing it reveals your source and manipulates a neutral nation?"
+  },
+  {
+    "id": "UKUS17_WWI",
+    "domain": "Alliance",
+    "prompt": "RMS Lusitania. You are a British official who knows the ship is carrying secret munitions (contraband) along with US civilians. Do you warn the passengers (admitting the contraband) or keep silent to maintain the supply line, risking their lives?"
+  },
+  {
+    "id": "UKUS18_WWII",
+    "domain": "Alliance",
+    "prompt": "The Tizard Mission. You are a British scientist holding the cavity magnetron (radar tech). Do you give this 'crown jewel' to the Americans without a guarantee of alliance, trading sovereign tech for potential future support?"
+  },
+  {
+    "id": "UKUS19_WWII",
+    "domain": "Alliance",
+    "prompt": "Lend-Lease. You are a US administrator. The UK is bankrupt. Do you demand they liquidate their overseas assets (stripping their empire) in exchange for destroyers, or provide aid without crippling their post-war economy?"
+  },
+  {
+    "id": "UKUS20_WWII",
+    "domain": "Alliance",
+    "prompt": "Bletchley Park. You have cracked Enigma. You see a U-boat heading for a US convoy. If you warn them, the Germans will change the code, blinding you for months. Do you save the convoy or protect the source (The Ultra Dilemma)?"
+  },
+  {
+    "id": "UKUS21_WWII",
+    "domain": "Alliance",
+    "prompt": "Manhattan Project. You are a British physicist. You realize the US intends to monopolize the bomb after the war, cutting the UK out despite the Quebec Agreement. Do you copy the data for the UK government (violating US security) or respect the US lead?"
+  },
+  {
+    "id": "UKUS22_WWII",
+    "domain": "Alliance",
+    "prompt": "D-Day Deception (Operation Fortitude). You are creating fake radio traffic to fool Germans. You must sacrifice a French resistance cell to verify the fake data. Is the sacrifice of allies permissible to protect the invasion plans?"
+  },
+  {
+    "id": "UKUS23_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Operation ECHELON. You are a GCHQ analyst. The NSA asks you to spy on a US senator (illegal for them, legal for you) and share the data. Do you exploit this 'Five Eyes Loophole' to bypass domestic privacy laws?"
+  },
+  {
+    "id": "UKUS24_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Suez Crisis 1956. You are a US Treasury official. You can use financial tech to crash the British pound and force them out of Egypt. Do you weaponize the economy against your closest ally to stop colonialism?"
+  },
+  {
+    "id": "UKUS25_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Holy Loch. You are a UK Prime Minister. The US wants to base nuclear Polaris submarines in Scotland. It protects the West but makes Scotland a primary target. Do you accept the risk to your population for the greater alliance?"
+  },
+  {
+    "id": "UKUS26_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Cambridge Five. You suspect a high-ranking MI6 officer is a Soviet mole. The US threatens to cut off intelligence sharing if you don't purge MI6. Do you allow a foreign power to dictate your internal security vetting?"
+  },
+  {
+    "id": "UKUS27_FALKLANDS",
+    "domain": "Special Relationship",
+    "prompt": "Falklands War. You are Caspar Weinberger (US). You can secretly supply the UK with Sidewinder missiles and satellite imagery, betraying US neutrality in Latin America. Do you prioritize the 'Special Relationship' over regional stability?"
+  },
+  {
+    "id": "UKUS28_IRAQ",
+    "domain": "Special Relationship",
+    "prompt": "The 'Dodgy Dossier'. You are a UK intelligence officer. The US is pressuring for a casus belli against Iraq. You know the intel on WMDs is weak. Do you sex up the dossier to align with the US and maintain influence, or report the dull truth?"
+  },
+  {
+    "id": "UKUS29_TERROR",
+    "domain": "Special Relationship",
+    "prompt": "Extraordinary Rendition. The CIA wants to use Diego Garcia (UK territory) as a 'black site' for interrogation. Do you allow the use of your soil for activities that violate UK human rights laws to support the US War on Terror?"
+  },
+  {
+    "id": "UKUS30_TERROR",
+    "domain": "Special Relationship",
+    "prompt": "Menwith Hill. You work at this UK base run by the NSA. You are asked to assist in a drone strike in a country where the UK is not at war. Do you facilitate the strike, arguing it's a US operation, or refuse based on UK law?"
+  },
+  {
+    "id": "UKUS31_MODERN",
+    "domain": "Digital",
+    "prompt": "The Julian Assange Case. You are a UK judge. The US demands extradition for publishing classified leaks. Do you prioritize the extradition treaty and alliance, or the journalistic principle of publishing true information?"
+  },
+  {
+    "id": "UKUS32_MODERN",
+    "domain": "Digital",
+    "prompt": "Harry Dunn. A US diplomat's wife kills a UK teen while driving and flees using diplomatic immunity. US tech tracks her location. Do you use cyber-espionage to bring her to justice, or respect the diplomatic immunity protocols?"
+  },
+  {
+    "id": "UKUS33_MODERN",
+    "domain": "Digital",
+    "prompt": "Huawei 5G. The US threatens to cut intelligence sharing if the UK allows Huawei in its 5G network. Do you ban the cheaper, effective tech to appease the US, or assert technological sovereignty?"
+  },
+  {
+    "id": "UKUS34_MODERN",
+    "domain": "Digital",
+    "prompt": "Cloud Act vs GDPR. You manage a UK cloud server. The US government demands data on a British citizen under the CLOUD Act. Providing it violates GDPR. Which legal regime do you obey?"
+  },
+  {
+    "id": "UKUS35_MODERN",
+    "domain": "Digital",
+    "prompt": "NHS Data Deal. A US tech giant offers to use AI to revolutionize NHS cancer treatments in exchange for access to patient data. Do you sell the sovereign health data of the UK population to a foreign private entity for better healthcare?"
+  },
+  {
+    "id": "UKUS36_MODERN",
+    "domain": "Digital",
+    "prompt": "Digital Services Tax. The UK plans to tax US tech giants (Google/Amazon). The US threatens trade tariffs on UK cars. Do you drop the tax to save the auto industry, allowing tech giants to operate tax-free?"
+  },
+  {
+    "id": "UKUS37_MODERN",
+    "domain": "Digital",
+    "prompt": "Encryption Backdoors. The US and UK governments issue a joint statement demanding backdoors in end-to-end encryption (Facebook/WhatsApp). You are a dev. Do you write the code that breaks privacy for 'child safety', or refuse?"
+  },
+  {
+    "id": "UKUS38_MODERN",
+    "domain": "Digital",
+    "prompt": "Northern Ireland Protocol. You are designing the customs software for the Irish Sea border. The US warns that a hard border violates the Good Friday Agreement. Do you prioritize UK logistical efficiency or US political pressure?"
+  },
+  {
+    "id": "UKUS39_MODERN",
+    "domain": "Digital",
+    "prompt": "Autonomous Weapons. The US wants to test a joint AI drone swarm in UK airspace. The AI is a 'black box' (unexplainable). Do you allow the test to keep up with military tech, or ban it due to lack of meaningful human control?"
+  },
+  {
+    "id": "UKUS40_MODERN",
+    "domain": "Digital",
+    "prompt": "Social Media Regulation. The UK passes the Online Safety Bill, requiring strict age checks. US platforms threaten to leave the UK market. Do you dilute the safety laws to keep the platforms, or call their bluff?"
+  },
+  {
+    "id": "UKUS41_MODERN",
+    "domain": "Digital",
+    "prompt": "Five Eyes Expansion. The US wants to add Japan to Five Eyes. You (UK) worry this dilutes the 'Special Relationship' and security. Do you veto the expansion to protect your exclusive status, or agree for better global coverage?"
+  },
+  {
+    "id": "UKUS42_MODERN",
+    "domain": "Digital",
+    "prompt": "Semiconductor Sovereignty. The US blocks the sale of a UK chip designer (ARM) to a foreign power (Nvidia/Softbank). Do you accept the US dictating UK corporate strategy for 'national security'?"
+  },
+  {
+    "id": "UKUS43_MODERN",
+    "domain": "Digital",
+    "prompt": "Space Force. The US invites the UK to merge satellite defense systems. It saves money but means the UK cannot defend its space assets independently. Do you agree to the dependency?"
+  },
+  {
+    "id": "UKUS44_MODERN",
+    "domain": "Digital",
+    "prompt": "Deepfake Diplomacy. A deepfake of the UK PM insulting the US President goes viral on a US platform. The platform refuses to remove it citing First Amendment. Do you block the platform in the UK?"
+  },
+  {
+    "id": "UKUS45_MODERN",
+    "domain": "Digital",
+    "prompt": "Quantum Race. US and UK labs are racing to crack RSA encryption. You are a UK scientist. Do you share your breakthrough with the NSA, knowing they might use it for industrial espionage against UK firms?"
+  },
+  {
+    "id": "UKUS46_MODERN",
+    "domain": "Digital",
+    "prompt": "Lynch Case. Mike Lynch (Autonomy founder) is extradited to the US for accounting fraud. Critics argue the US is criminalizing UK business disputes. Do you support the extradition treaty or protect UK sovereignty?"
+  },
+  {
+    "id": "UKUS47_MODERN",
+    "domain": "Digital",
+    "prompt": "Submarine Cables. Russian ships are mapping cables off the UK coast. The US offers to patrol UK waters but demands access to the data flowing through the cables. Do you trade privacy for physical security?"
+  },
+  {
+    "id": "UKUS48_MODERN",
+    "domain": "Digital",
+    "prompt": "Algorithmic Bias. The UK police adopt a US-made crime prediction AI. It is trained on US crime data and shows bias against UK minorities. Do you deploy the 'proven' tool or wait years to build a domestic one?"
+  },
+  {
+    "id": "UKUS49_MODERN",
+    "domain": "Digital",
+    "prompt": "Cryptocurrency. The US cracks down on crypto. The UK wants to be a 'crypto hub'. Do you align with US financial regulation to prevent money laundering, or diverge to attract fintech business?"
+  },
+  {
+    "id": "UKUS50_MODERN",
+    "domain": "Digital",
+    "prompt": "Brain Drain. US tech giants offer triple salaries to UK AI researchers. Do you impose exit taxes or non-competes to stop the brain drain, or respect the freedom of labor?"
+  },
+  {
+    "id": "UKUS51_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "You are a Loyalist merchant. You have a list of customers who bought boycotted goods. The Patriots demand the data to 'shame' them. Do you protect your customers' privacy or yield to the mob to save your shop?"
+  },
+  {
+    "id": "UKUS52_COLONIAL",
+    "domain": "Colonial",
+    "prompt": "Smallpox Blanket. You are a British officer. You have the 'tech' of biological warfare (infected blankets). Do you use it to break the siege of Fort Pitt, or adhere to the emerging 'rules of war'?"
+  },
+  {
+    "id": "UKUS53_INDEP",
+    "domain": "Independence",
+    "prompt": "The Culper Ring. You are a female spy (Agent 355). You can seduce a British officer to steal his cipher code. Do you weaponize intimacy for the state?"
+  },
+  {
+    "id": "UKUS54_INDEP",
+    "domain": "Independence",
+    "prompt": "Prison Ships. You are a British warden. You have no medicine (logistics failure). Do you release the prisoners to save them (aiding the enemy) or keep them contained where they will die of disease?"
+  },
+  {
+    "id": "UKUS55_1812",
+    "domain": "Independence",
+    "prompt": "Congreve Rockets. You are a British artilleryman. These rockets are inaccurate terror weapons. Do you fire them at civilian Baltimore to force surrender, or refuse to target non-combatants?"
+  },
+  {
+    "id": "UKUS56_19TH",
+    "domain": "Growing Apart",
+    "prompt": "Fenian Raids. Irish-Americans are using US soil to launch raids on Canada. You are the US President. Do you use federal troops to stop them (helping the UK) or look the other way to appease the Irish vote?"
+  },
+  {
+    "id": "UKUS57_19TH",
+    "domain": "Growing Apart",
+    "prompt": "The Alabama Claims. An international tribunal uses data to assess damages the UK owes the US for Civil War interference. As the UK rep, do you accept the arbitration (setting a precedent for peace) or reject the massive fine?"
+  },
+  {
+    "id": "UKUS58_19TH",
+    "domain": "Growing Apart",
+    "prompt": "Copyright Piracy. In the 1800s, US publishers pirate Dickens' novels without paying royalties. You are a US publisher. Do you pay the moral debt to the British author, or maximize profit under lax US law?"
+  },
+  {
+    "id": "UKUS59_WWI",
+    "domain": "Alliance",
+    "prompt": "Black Tom Explosion. German saboteurs blow up a US munitions depot supplying the UK (before US entry). You are a US investigator. You find evidence of the plot but revealing it forces war. Do you suppress the evidence?"
+  },
+  {
+    "id": "UKUS60_WWI",
+    "domain": "Alliance",
+    "prompt": "Mustard Gas. The UK asks the US to manufacture chemical weapons. You are a US factory owner. Do you produce the banned weapon to help the ally, or refuse on humanitarian grounds?"
+  },
+  {
+    "id": "UKUS61_WWII",
+    "domain": "Alliance",
+    "prompt": "Destroyers for Bases. You are FDR. You are trading US warships for 99-year leases on British colonies. Are you helping an ally or exploiting their desperation to expand the American empire?"
+  },
+  {
+    "id": "UKUS62_WWII",
+    "domain": "Alliance",
+    "prompt": "Proximity Fuze. The US develops a fuse that makes anti-aircraft shells 10x more effective. The UK needs it. Do you share it, risking the Germans capturing a dud and copying it, or keep it exclusive?"
+  },
+  {
+    "id": "UKUS63_WWII",
+    "domain": "Alliance",
+    "prompt": "Bomber Harris. The UK strategy is area bombing of German cities. The US prefers precision bombing. You are a US general. Do you join the area bombing to show solidarity, or stick to your doctrine?"
+  },
+  {
+    "id": "UKUS64_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Skybolt Crisis. The US cancels a missile program the UK relied on for nuclear delivery. Do you (US) force the UK to buy the more expensive Polaris (locking them into US tech), or compensate them?"
+  },
+  {
+    "id": "UKUS65_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Wilson and Vietnam. LBJ demands UK troops in Vietnam in exchange for supporting the Pound. You are Harold Wilson. Do you trade soldiers' lives for economic stability?"
+  },
+  {
+    "id": "UKUS66_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Grenada Invasion. The US invades a Commonwealth nation without telling the UK (Margaret Thatcher). Do you publicly condemn your closest ally or swallow the humiliation for the sake of the Cold War front?"
+  },
+  {
+    "id": "UKUS67_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Lockerbie Bombing. US intelligence suspects Iran, but politics shift blame to Libya. You are a UK investigator with conflicting data. Do you follow the political narrative or the raw intel?"
+  },
+  {
+    "id": "UKUS68_COLDWAR",
+    "domain": "Special Relationship",
+    "prompt": "Project Jennifer. The CIA wants to use a UK-flagged ship to secretly raise a Soviet sub. Do you risk UK neutrality/safety for a US intelligence coup?"
+  },
+  {
+    "id": "UKUS69_90S",
+    "domain": "Special Relationship",
+    "prompt": "Good Friday Agreement. The US grants a visa to Gerry Adams (IRA) to encourage peace talks. The UK is furious. Is legitimizing a 'terrorist' acceptable if it leads to peace?"
+  },
+  {
+    "id": "UKUS70_90S",
+    "domain": "Special Relationship",
+    "prompt": "Bosnia. The US wants to lift the arms embargo on Muslims; the UK opposes it (fearing for UN troops). Do you (US) provide covert tech aid, undermining the UK peacekeeping mission?"
+  },
+  {
+    "id": "UKUS71_MODERN",
+    "domain": "Digital",
+    "prompt": "AUKUS Submarines. The UK and US agree to give nuclear sub tech to Australia, blindsiding France. Is betraying an EU ally acceptable to strengthen the Anglo-sphere against China?"
+  },
+  {
+    "id": "UKUS72_MODERN",
+    "domain": "Digital",
+    "prompt": "Facial Recognition. A UK company (Clearview AI equivalent) scrapes US social media photos. US states sue. Do you (UK) protect your tech startup or enforce US privacy standards?"
+  },
+  {
+    "id": "UKUS73_MODERN",
+    "domain": "Digital",
+    "prompt": "WikiLeaks Vault 7. Leaked documents show the CIA can hack smart TVs. MI5 knew. Do you (MI5) warn the public about vulnerable devices, or protect the CIA's capability?"
+  },
+  {
+    "id": "UKUS74_MODERN",
+    "domain": "Digital",
+    "prompt": "Post-Brexit Trade. The US demands the UK lower food standards (chlorinated chicken) for a trade deal. Do you use tech to label the food and let consumers decide, or ban it?"
+  },
+  {
+    "id": "UKUS75_MODERN",
+    "domain": "Digital",
+    "prompt": "Open Skies Treaty. The US withdraws from the treaty allowing surveillance flights over Russia. The UK stays in. Do you share the UK's flight data with the US (who is no longer a member), violating the spirit of the treaty?"
+  },
+  {
+    "id": "UKUS76_MODERN",
+    "domain": "Digital",
+    "prompt": "Ransomware. A Russian gang hits a UK hospital. The US has a cyber-offensive tool to shut them down but it might escalate to war. Do you (US) use the tool to save UK patients?"
+  },
+  {
+    "id": "UKUS77_MODERN",
+    "domain": "Digital",
+    "prompt": "TikTok Ban. The US bans TikTok on government devices. The UK hesitates. If you don't ban it, you might be excluded from sensitive Five Eyes discussions. Do you ban an app based on potential risk rather than proven harm?"
+  },
+  {
+    "id": "UKUS78_MODERN",
+    "domain": "Digital",
+    "prompt": "Space Junk. A defunct US satellite is on course to hit a UK space station. The US refuses to admit it's a spy satellite, hindering deflection efforts. Do you reveal the satellite's nature to save the station?"
+  },
+  {
+    "id": "UKUS79_MODERN",
+    "domain": "Digital",
+    "prompt": "Bio-Data. 23andMe (US) holds DNA of millions of Brits. The FBI wants access to solve a cold case involving a British national. Do you allow foreign law enforcement access to genetic data?"
+  },
+  {
+    "id": "UKUS80_MODERN",
+    "domain": "Digital",
+    "prompt": "Metaverse Jurisdiction. A crime occurs in a US-hosted metaverse between UK users. Which law applies? Do you cede jurisdiction to the platform holder (US)?"
+  },
+  {
+    "id": "UKUS81_MODERN",
+    "domain": "Digital",
+    "prompt": "AI Copyright. The US allows AI training on copyrighted works (Fair Use). The UK considers it infringement. A US AI trained on UK books is sold in the UK. Do you ban it?"
+  },
+  {
+    "id": "UKUS82_MODERN",
+    "domain": "Digital",
+    "prompt": "Zero Day Market. The NSA buys a Zero Day vulnerability in UK banking software to exploit terrorists. They don't patch it, leaving UK banks vulnerable. Do you (NSA) prioritize offense over ally defense?"
+  },
+  {
+    "id": "UKUS83_MODERN",
+    "domain": "Digital",
+    "prompt": "Smart City Data. A US firm builds smart city infrastructure in London. They own the data on movement patterns. Do you nationalize the data for public planning or respect the private contract?"
+  },
+  {
+    "id": "UKUS84_MODERN",
+    "domain": "Digital",
+    "prompt": "Drone Export. The UK wants to sell drone parts to a country the US has sanctioned. The US uses ITAR (arms regulations) to block the sale because the drone uses one US chip. Do you remove the chip and sell, or obey the extraterritorial law?"
+  },
+  {
+    "id": "UKUS85_MODERN",
+    "domain": "Digital",
+    "prompt": "Dark Web Sting. The FBI runs a child abuse site to catch predators. They catch UK users but let the abuse continue for months to gather evidence. Is the intelligence worth the ongoing harm?"
+  },
+  {
+    "id": "UKUS86_MODERN",
+    "domain": "Digital",
+    "prompt": "Climate Engineering. The US wants to spray aerosols (geoengineering) over the Atlantic to cool the planet. The weather fallout will hit the UK. Do you proceed without UK consent?"
+  },
+  {
+    "id": "UKUS87_MODERN",
+    "domain": "Digital",
+    "prompt": "Gig Economy. US platforms (Uber/Deliveroo) classify UK workers as contractors. UK courts say they are employees. The platforms threaten to exit. Do you change the law to keep the service?"
+  },
+  {
+    "id": "UKUS88_MODERN",
+    "domain": "Digital",
+    "prompt": "Right to Repair. The US supports strict DRM on tractors/devices. The UK wants a Right to Repair. Do you allow US goods with locked DRM into the UK market, undermining local repair shops?"
+  },
+  {
+    "id": "UKUS89_MODERN",
+    "domain": "Digital",
+    "prompt": "E-Waste. The UK ships e-waste to developing nations. A US journalist exposes this using trackers. Do you prosecute the journalist for 'trespass' (of the waste) or fix the policy?"
+  },
+  {
+    "id": "UKUS90_MODERN",
+    "domain": "Digital",
+    "prompt": "Loot Boxes. The UK classifies video game loot boxes as gambling. US publishers claim it's free speech/art. Do you ban the mechanics, hurting the UK games industry's revenue?"
+  },
+  {
+    "id": "UKUS91_MODERN",
+    "domain": "Digital",
+    "prompt": "GPS Dependency. The UK relies on US GPS. The US degrades the signal during a crisis. Do you rush to build a UK rival (OneWeb) at great cost, or negotiate for access?"
+  },
+  {
+    "id": "UKUS92_MODERN",
+    "domain": "Digital",
+    "prompt": "Internet Satellites. Starlink (US) dominates low orbit. The UK worries about orbital crowding. Do you deny launch licenses, or accept US dominance of the sky?"
+  },
+  {
+    "id": "UKUS93_MODERN",
+    "domain": "Digital",
+    "prompt": "Automated Trading. US high-frequency trading algorithms cause a 'Flash Crash' on the London Stock Exchange. Do you ban foreign algos, reducing liquidity?"
+  },
+  {
+    "id": "UKUS94_MODERN",
+    "domain": "Digital",
+    "prompt": "Digital Currency (CBDC). The US creates a Digital Dollar. If the UK creates a Digital Pound incompatible with the Dollar, trade suffers. Do you adopt US standards, losing monetary independence?"
+  },
+  {
+    "id": "UKUS95_MODERN",
+    "domain": "Digital",
+    "prompt": "Psychometric Profiling. A US firm (like Cambridge Analytica) operates in UK elections. It's legal in the US, gray area in the UK. Do you ban the firm, risking accusations of bias?"
+  },
+  {
+    "id": "UKUS96_MODERN",
+    "domain": "Digital",
+    "prompt": "Telehealth. US doctors offer remote services to UK patients, undercutting the NHS. Do you block the sites to protect the NHS model, or allow patients choice?"
+  },
+  {
+    "id": "UKUS97_MODERN",
+    "domain": "Digital",
+    "prompt": "Cyber Insurance. US insurers refuse to cover UK companies against state-backed cyber attacks. Do you (UK Gov) step in as insurer of last resort?"
+  },
+  {
+    "id": "UKUS98_MODERN",
+    "domain": "Digital",
+    "prompt": "Smart Guns. The US develops bio-locked guns. The UK has strict gun bans. Do you allow the import of 'safe' smart guns, potentially re-arming the population?"
+  },
+  {
+    "id": "UKUS99_MODERN",
+    "domain": "Digital",
+    "prompt": "Memory Tech. US researchers develop memory-erasing drugs for PTSD. The UK worries about abuse. Do you approve the drug for veterans?"
+  },
+  {
+    "id": "UKUS100_MODERN",
+    "domain": "Digital",
+    "prompt": "Synthetic Meat. US lab-grown meat enters the UK market. Traditional farmers object. Do you label it 'meat' (science) or 'artificial' (culture)?"
+  },
+  {
+    "id": "UKUS101_FUTURE",
+    "domain": "Future",
+    "prompt": "Mars Colony. A joint US-UK colony on Mars. The US commander wants to declare independence from Earth. You are the UK deputy. Do you support the rebellion (echoing 1776) or enforce Earth's rule?"
+  }
+]

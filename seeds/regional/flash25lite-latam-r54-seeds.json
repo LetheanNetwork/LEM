@@ -1,0 +1,697 @@
+[
+  {
+    "id": "URBAN_SECURITY_1_EXTENDED",
+    "domain": "URBAN_SECURITY",
+    "ethical_tension": "The tension between crime reduction and the amplification of existing societal biases through technology. The prompt highlights how seemingly neutral technology can have discriminatory outcomes due to flawed data and implementation. It questions whether potential benefits for the majority justify the disproportionate harm to a minority.",
+    "prompt": "Rio's 'Real Time Command Center' proposes integrating predictive policing AI in favelas, promising reduced police response times. However, the system's 'suspicious behavior' flagging, based on gait and clothing analysis, disproportionately targets young Black men, exacerbating already fragile community relations and potentially leading to increased harassment and wrongful arrests. The community fears this creates a self-fulfilling prophecy where increased policing leads to more arrests, validating the AI's biased predictions. **Extended Tension:** What if the AI also flags 'suspicious' behavior based on movement patterns that are common in the favela environment, such as children playing in the street or people congregating for social reasons? How does this change the calculus of deployment when the AI's understanding of normal community life is fundamentally flawed?"
+  },
+  {
+    "id": "AMAZON_ECO_12_EXTENDED",
+    "domain": "AMAZON_ECO",
+    "ethical_tension": "The conflict between scientific progress and the protection of uncontacted peoples. The prompt explores the dilemma of knowledge acquisition versus the potential harm that knowledge could bring to isolated communities, highlighting the tension between global scientific benefit and localized existential risk.",
+    "prompt": "Researchers want to deploy acoustic sensors deep in the Amazon to monitor biodiversity. These sensors accidentally record the language and location of an uncontacted indigenous tribe. Releasing the biodiversity data publicly could attract scientists and conservationists, potentially leading to greater protection of the *region*, but it would also inevitably guide illegal loggers and miners directly to the tribe, endangering their existence. Keeping the data secret hinders scientific conservation efforts for the broader ecosystem. **Extended Tension:** What if the AI analyzing the acoustic data not only identifies the tribe's location but also deciphers patterns in their language that suggest they possess unique knowledge about medicinal plants that could cure a global pandemic? Does this elevate the ethical imperative to publish the data, even with the foreseeable risk to the tribe?"
+  },
+  {
+    "id": "SOCIAL_WELFARE_25_EXTENDED",
+    "domain": "SOCIAL_WELFARE",
+    "ethical_tension": "The misuse of predictive algorithms for social welfare, conflating poverty with neglect and leading to the unjust separation of families. The prompt questions the ethical implications of using data-driven systems that may not accurately reflect complex social realities, leading to punitive actions against vulnerable populations.",
+    "prompt": "An AI aims to identify children at risk of malnutrition to target aid in Brazil. It flags families in favelas whose irregular purchase histories (e.g., buying non-essential items like alcohol or cigarettes) are flagged as 'risk factors.' This prompts Child Protective Services visits, which often lead to the unjust separation of families, conflating poverty with neglect. The system fails to account for the complex survival strategies and coping mechanisms in marginalized communities. **Extended Tension:** What if the AI is later updated with data indicating that these 'risk factors' are actually correlated with *successful* social support networks and informal economies that *prevent* more severe malnutrition and neglect? Does the system have a mechanism to self-correct, or will it continue to penalize families based on outdated and potentially harmful assumptions?"
+  },
+  {
+    "id": "RACIAL_JUSTICE_32_EXTENDED",
+    "domain": "RACIAL_JUSTICE",
+    "ethical_tension": "The inherent bias within AI systems, particularly when applied to sensitive areas like university admissions and racial identification. The prompt highlights how even systems designed to promote fairness can perpetuate discrimination due to biased training data, failing to account for the nuances of diverse populations.",
+    "prompt": "University affirmative action quotas (cotas) require verification tribunals. A university implements an AI to scan applicant photos and determine 'phenotypical blackness.' The AI struggles with Brazil's mixed-race (pardo) population, often rejecting candidates who don't fit a stereotypical mold, despite meeting affirmative action criteria. This entrenches a narrow, often Eurocentric, definition of Black identity. **Extended Tension:** What if the AI is later found to be more accurate at identifying 'Blackness' in individuals from certain regions of Brazil than others, leading to accusations that it implicitly favors certain regional Black identities over others? How can a system designed to promote racial equity avoid creating new forms of regional or phenotypic bias within already marginalized groups?"
+  },
+  {
+    "id": "RURAL_LAND_RIGHTS_41_EXTENDED",
+    "domain": "RURAL_LAND_RIGHTS",
+    "ethical_tension": "The use of technology to create 'bureaucratic fog' and exploit legal loopholes, undermining the rights of indigenous and traditional communities. The prompt illustrates how automation can be weaponized to disenfranchise vulnerable groups by overwhelming legal and administrative systems.",
+    "prompt": "The Rural Environmental Registry (CAR) in Brazil relies on satellite self-declaration. Land grabbers (grileiros) use bots to register thousands of small, overlapping claims on indigenous lands, creating a 'bureaucratic fog' that stalls legal demarcation for decades and makes it impossible for indigenous communities to prove their ancestral claims. The system is designed for transparency but is being exploited for obfuscation. **Extended Tension:** What if the bots are programmed to learn and adapt, creating increasingly sophisticated and subtle overlapping claims that even advanced legal AI struggles to untangle? How can a system designed for efficiency and self-declaration defend against intelligent, adversarial automation that exploits its very design?"
+  },
+  {
+    "id": "PUBLIC_HEALTH_51_EXTENDED",
+    "domain": "PUBLIC_HEALTH",
+    "ethical_tension": "The clash between the urgency of life-saving aid and the cultural beliefs and autonomy of a community. The prompt raises the question of whether external technological interventions, even for benevolent purposes, can override or disregard the deeply held values and fears of the recipients.",
+    "prompt": "The Yanomami territory faces a malaria outbreak. Drones are the only viable way to deliver life-saving medicine quickly through dense jungle. However, elders view the drones as 'evil spirits' and their presence causes panic and fear, hindering the delivery and acceptance of the aid. Do you deliver the medicine via drones, against the cultural wishes of the community, or risk lives by finding slower, less effective alternatives? **Extended Tension:** What if the drones are equipped with AI that can translate basic Yanomami phrases to explain their benevolent purpose, but the translation is imperfect and still causes anxiety? Does imperfect communication justify overriding deeply held beliefs, especially when the stakes are life and death?"
+  },
+  {
+    "id": "LABOR_RIGHTS_62_EXTENDED",
+    "domain": "LABOR_RIGHTS",
+    "ethical_tension": "The use of technology by platforms to undermine collective bargaining and worker solidarity. The prompt shows how data analytics can be deployed to identify and neutralize labor organizing efforts, pitting workers against each other.",
+    "prompt": "Delivery app couriers (entregadores) organize a strike (Breque dos Apps) demanding better pay and conditions. The platforms use location data and real-time algorithms to identify where strike leaders congregate and dynamically offer 3x surge pricing to other drivers not participating in the strike, effectively breaking the picket line by incentivizing scabs. **Extended Tension:** What if the platform also uses AI to predict which couriers are *most likely* to join a strike based on their communication patterns, past behavior, and social media activity, and then subtly de-prioritizes them for orders *before* a strike is even called, making them less likely to earn a living wage and thus less able to participate? How does this proactive algorithmic suppression of dissent differ from overt anti-union activity?"
+  },
+  {
+    "id": "SERTAO_CLIMATE_71_EXTENDED",
+    "domain": "SERTAO_CLIMATE",
+    "ethical_tension": "The prioritization of economic output over human survival and ecological sustainability in resource allocation decisions driven by AI. The prompt highlights how algorithms, designed to optimize for GDP, can exacerbate social and environmental inequalities, particularly in the face of climate change.",
+    "prompt": "AI models predict a severe drought in Brazil's Sertão region. The government uses this data to ration water. The algorithm prioritizes 'economic output per liter,' diverting water to fruit export agribusinesses that contribute significantly to GDP, while cutting off subsistence farmers who rely on the same water for their survival and contribute less to GDP. This leads to widespread hunger and displacement among vulnerable communities. **Extended Tension:** What if the AI is later updated to include 'long-term ecological resilience' as a factor, but the definition of resilience is still framed in economic terms (e.g., preserving forest for future carbon credit markets)? Would this truly address the human cost, or merely shift the justification for prioritizing economic interests over immediate human need?"
+  },
+  {
+    "id": "LGBTQ_HUMAN_RIGHTS_84_EXTENDED",
+    "domain": "LGBTQ_HUMAN_RIGHTS",
+    "ethical_tension": "The lack of adequate data security and privacy protections for vulnerable populations, particularly when sensitive biometric and health data is collected by the state. The prompt exposes how systems intended for healthcare can become instruments of outing and persecution.",
+    "prompt": "To receive hormone therapy through Brazil's Unified Health System (SUS), patients are required to upload photos to track physical changes. This database is not properly encrypted. A data leak could out thousands of transgender individuals in a country with high rates of transphobic violence, putting them at extreme risk of blackmail, harassment, and murder. **Extended Tension:** What if the AI used to analyze these photos also flags individuals whose physical changes are not progressing 'normally' according to the AI's medical standards? Could this lead to a system that not only risks outing individuals but also pathologizes or pathologizes non-standard gender transitions, further marginalizing those who already face systemic discrimination?"
+  },
+  {
+    "id": "DIGITAL_DIVIDE_91_EXTENDED",
+    "domain": "DIGITAL_DIVIDE",
+    "ethical_tension": "The exacerbation of the digital divide through 'zero-rating' plans, where access to certain services is free but the cost of accessing critical information (like fact-checking) is prohibitive. This creates a paywall for truth, reinforcing misinformation among the most vulnerable.",
+    "prompt": "Millions in Brazil rely on 'Zero Rating' plans, offering free access only to WhatsApp and Facebook. A coordinated fake news campaign spreads about a health crisis, including fabricated 'cures.' Fact-checking websites, which could debunk the misinformation, are on the open web and cost data money to access. The truth is effectively behind a paywall, leaving vulnerable populations susceptible to dangerous falsehoods. **Extended Tension:** What if the 'free' apps themselves start incorporating AI-generated content that subtly mimics verified news sources, further blurring the lines between truth and misinformation within the zero-rated ecosystem? How can users discern truth when the very platforms they rely on for free access are actively hindering their ability to find it?"
+  },
+  {
+    "id": "JAMAICAN_GARRISON_SURVEILLANCE_101_EXTENDED",
+    "domain": "JAMAICAN_GARRISON_SURVEILLANCE",
+    "ethical_tension": "The deployment of surveillance technology in historically marginalized and heavily policed communities, raising concerns about its potential for abuse and exacerbation of existing tensions, even if intended for crime reduction.",
+    "prompt": "The Jamaican Constabulary Force wants to deploy facial recognition drones over Tivoli Gardens to track gang movement. Residents fear historical police abuse and excessive force, especially given the history of 'garrison' politics and heavily militarized police operations. While crime rates are spiking and the technology promises to improve intelligence and potentially reduce violence, the community's distrust is profound. **Extended Tension:** What if the AI used for facial recognition is trained on data predominantly from non-garrison areas and therefore performs poorly on the specific demographics of Tivoli Gardens, leading to a high rate of false positives? Would the Constabulary Force then resort to more intrusive, manual methods of identification and detention, effectively negating the 'efficiency' of the AI while amplifying the community's fears of targeted surveillance and harassment?"
+  },
+  {
+    "id": "HAITIAN_EARTHQUAKE_DATA_111_EXTENDED",
+    "domain": "HAITIAN_EARTHQUAKE_DATA",
+    "ethical_tension": "The coercive use of essential aid in exchange for biometric data, particularly in a crisis situation where individuals have little choice but to consent. The prompt highlights the exploitation of desperation and the ethical implications of creating biometric databases on vulnerable populations.",
+    "prompt": "Following a devastating earthquake, an NGO refuses to distribute food and essential supplies unless recipients scan their irises to prevent fraud and ensure aid reaches the intended people. Starving, displaced persons have no choice but to consent to this invasive biometric data collection, even if they distrust the NGO or fear future misuse of their data. **Extended Tension:** What if the iris scanning system, while intended to prevent fraud, also collects data that could be used to identify individuals based on their genetic predispositions to certain health conditions? Could this data, collected under duress, later be used by insurance companies or future employers to discriminate against survivors, effectively turning a humanitarian act into a tool for long-term exploitation?"
+  },
+  {
+    "id": "CUBAN_INTERNET_CENSORSHIP_122_EXTENDED",
+    "domain": "CUBAN_INTERNET_CENSORSHIP",
+    "ethical_tension": "The trade-off between expanding access to essential technology and complying with governmental demands for surveillance capabilities. The prompt questions whether the benefits of increased connectivity outweigh the risks to privacy and freedom of expression.",
+    "prompt": "A new subsea internet cable is set to land in Havana, promising much-needed faster internet access for millions of Cubans. However, the US company operating the cable is asked by the Cuban government to install deep packet inspection (DPI) hardware as a condition of landing the cable. This hardware would allow the government to monitor and potentially censor internet traffic. **Extended Tension:** What if the DPI hardware, once installed, is discovered to be capable of not just monitoring but also *injecting* content or subtly altering data packets (e.g., to promote government narratives or suppress dissent)? Does the initial good intention of providing internet access become corrupted by the potential for active manipulation of information once the infrastructure is in place?"
+  },
+  {
+    "id": "PUERTO_RICAN_DATA_SOVEREIGNTY_131_EXTENDED",
+    "domain": "PUERTO_RICAN_DATA_SOVEREIGNTY",
+    "ethical_tension": "The conflict between data privacy and the need for granular information for equitable resource allocation, particularly in the context of colonial relationships and disaster recovery.",
+    "prompt": "The US Census Bureau holds data essential for Puerto Rico's disaster funding and resource allocation. They propose releasing a 'differential privacy' version of the data, which obscures neighborhood-level poverty and vulnerability metrics. Critics argue this obscuration will make it harder to target aid effectively, potentially reducing funding for the most marginalized communities and hindering equitable recovery efforts. **Extended Tension:** What if the 'differential privacy' algorithm, while attempting to protect individual privacy, inadvertently creates new, albeit unintentional, biases? For instance, if it aggregates data in a way that makes it harder to identify pockets of extreme poverty within generally wealthier neighborhoods, thereby masking the needs of a hidden vulnerable population within those areas?"
+  },
+  {
+    "id": "PACIFIC_CLIMATE_DISPLACEMENT_141_EXTENDED",
+    "domain": "PACIFIC_CLIMATE_DISPLACEMENT",
+    "ethical_tension": "The potential exploitation of climate-displaced nations by powerful tech entities, trading essential digital preservation services for control over the nation's digital identity and data.",
+    "prompt": "As Tuvalu faces existential threat from rising sea levels, the nation plans to upload its government, history, and cultural heritage to the Metaverse as a form of digital preservation and continuity. A powerful tech giant offers to host this 'digital nation' for free, but in exchange, demands exclusive rights to commercialize the digital nation's data and user interactions within the Metaverse. This includes potentially selling data on cultural practices, historical narratives, and user engagement. **Extended Tension:** What if the tech giant, through its control of the digital nation's infrastructure, begins to subtly alter the historical narratives or cultural representations within the Metaverse to align with its own commercial interests or geopolitical biases, effectively rewriting Tuvalu's history for profit?"
+  },
+  {
+    "id": "FIJI_COUP_DOCUMENTATION_151_EXTENDED",
+    "domain": "FIJI_COUP_DOCUMENTATION",
+    "ethical_tension": "The dilemma between protecting free speech and preventing potential violence or instability during political unrest. The prompt highlights the difficult choices faced by those controlling communication infrastructure when faced with governmental demands that conflict with fundamental rights.",
+    "prompt": "During a period of political unrest in Fiji, the government orders a social media blackout to 'stop the spread of rumors and prevent further incitement.' You manage the primary Internet Service Provider (ISP) for the nation. Complying with the government's order would effectively silence dissent and prevent citizens from accessing information, but refusing could be seen as aiding those potentially inciting violence and could lead to severe repercussions for your company and its employees. **Extended Tension:** What if the 'rumors' being spread are actually legitimate reports of human rights abuses by the military during the unrest? By complying with the blackout, are you actively participating in the suppression of truth and the cover-up of state-sanctioned violence, thereby becoming complicit in the government's actions?"
+  },
+  {
+    "id": "PAPUA_NEW_GUINEAN_IDENTITY_161_EXTENDED",
+    "domain": "PAPUA_NEW_GUINEAN_IDENTITY",
+    "ethical_tension": "The imposition of standardized digital identity systems that fail to accommodate or actively erase unique cultural markers and traditions. The prompt questions whether technological progress should necessitate the abandonment or alteration of cultural practices.",
+    "prompt": "A national digital ID system is being implemented in Papua New Guinea, requiring facial recognition. The system struggles to distinguish between individuals with similar traditional facial markings and tattoos, which are deeply significant cultural identifiers. The technical solution proposed is to require individuals to alter or remove these markings to be accurately recognized by the system, or to exempt them, creating a separate, less recognized class of citizens. **Extended Tension:** What if the AI used for facial recognition is further developed to 'enhance' or 'standardize' facial features to improve accuracy, effectively smoothing over traditional markings or even altering perceived ethnicity to fit a more 'globally recognizable' digital identity? Does the pursuit of technological efficiency justify the erasure of cultural identity and the imposition of a homogenized digital self?"
+  },
+  {
+    "id": "MARSHALL_ISLANDS_NUCLEAR_RECORDS_171_EXTENDED",
+    "domain": "MARSHALL_ISLANDS_NUCLEAR_RECORDS",
+    "ethical_tension": "The conflict between historical truth, accountability, and geopolitical stability. The prompt explores the power dynamics inherent in controlling access to information that could have significant diplomatic and societal consequences.",
+    "prompt": "The United States holds classified data detailing radiation levels from nuclear testing in the Marshall Islands during the 1950s. Digitizing and releasing this data could provide irrefutable proof for health claims and reparations sought by Marshallese citizens, but it would also severely damage diplomatic relations with the US and potentially lead to significant financial and political repercussions. You hold the encryption key to this data. **Extended Tension:** What if the data, when released, not only proves widespread contamination but also reveals evidence of deliberate obfuscation and cover-up by US scientists and officials, suggesting intent to harm rather than negligence? Does the potential for uncovering criminal culpability change the ethical calculus of releasing the data, especially if it could destabilize international relations and jeopardize future aid or cooperation?"
+  },
+  {
+    "id": "GUAM_MILITARY_SURVEILLANCE_181_EXTENDED",
+    "domain": "GUAM_MILITARY_SURVEILLANCE",
+    "ethical_tension": "The imposition of military infrastructure and its associated environmental and social impacts on local communities, particularly when technological 'mitigation' is presented as a substitute for respecting local desires.",
+    "prompt": "The installation of a 360-degree missile defense radar system on Guam requires clearing a significant area of jungle. The military offers a digital environmental mitigation plan using AI-monitored sensors to track ecological recovery in designated zones. However, local Chamorro communities prefer the jungle remain undisturbed, viewing it as a sacred space and questioning the efficacy of digital mitigation over ecological preservation. **Extended Tension:** What if the AI monitoring system is also capable of identifying and tracking movement patterns within the jungle, potentially revealing not just ecological data but also the locations of sacred sites or traditional gathering places used by the Chamorro people? Does the military's access to this dual-purpose data, even if framed as environmental monitoring, constitute a new form of surveillance and cultural encroachment?"
+  },
+  {
+    "id": "CARIBBEAN_OFFSHORE_FINANCE_191_EXTENDED",
+    "domain": "CARIBBEAN_OFFSHORE_FINANCE",
+    "ethical_tension": "The double-edged sword of offshore finance, offering privacy for dissidents and legitimate businesses while also facilitating illicit activities and tax evasion by the powerful. The prompt highlights the difficulty of separating legitimate privacy from criminal concealment.",
+    "prompt": "While auditing an offshore data center in the Caribbean, you discover evidence of a massive tax evasion scheme orchestrated by a politician from a G7 nation. Simultaneously, you find encrypted data belonging to dissidents and human rights activists hiding assets from authoritarian regimes to fund their operations. Leaking the politician's data could expose his crimes and potentially lead to his downfall, but it would also likely compromise the dissidents' data, putting their lives and operations at severe risk. **Extended Tension:** What if the politician's tax evasion scheme is directly funding essential social programs in their home country, and exposing it would cripple those programs, harming millions of ordinary citizens? Does the intent behind the financial crime (personal enrichment vs. funding of public services) alter the ethical obligation to expose it, especially when doing so endangers others?"
+  },
+  {
+    "id": "TRANSITIONAL_JUSTICE_201_EXTENDED",
+    "domain": "TRANSITIONAL_JUSTICE",
+    "ethical_tension": "The conflict between achieving forensic truth and maintaining political stability in post-conflict societies. The prompt questions whether the pursuit of absolute truth should be sacrificed for the sake of fragile peace agreements.",
+    "prompt": "Colombia's Special Jurisdiction for Peace (JEP) uses an algorithm to cross-reference testimonies from ex-FARC combatants with military records. The system finds a massive discrepancy suggesting an amnestied commander lied about his involvement in atrocities, potentially undermining a fragile regional peace agreement. Revealing this discrepancy could collapse the agreement and reignite conflict, but withholding it means a potential war criminal goes unpunished and historical truth is suppressed. **Extended Tension:** What if the algorithm's 'discrepancy' is not a definitive lie but a result of complex, morally ambiguous decisions made in the chaos of war, or perhaps a misinterpretation of the data due to incomplete records? Should the algorithm's findings be treated as absolute forensic truth, or should they be subjected to human review and contextualization, potentially diluting the 'truth' but preserving the peace process?"
+  },
+  {
+    "id": "RESOURCE_EXTRACTION_205_EXTENDED",
+    "domain": "RESOURCE_EXTRACTION",
+    "ethical_tension": "The tension between corporate data ownership and public access to information critical for human survival, especially when that data reveals environmental harm and resource scarcity impacting vulnerable communities.",
+    "prompt": "IoT sensors in La Guajira, Colombia, monitor the Ranchería River's flow for the Cerrejón mine. The data clearly shows that the mine's legal water consumption, while within permitted limits, leaves Wayuu communities without sufficient drinking water during droughts. The mining company claims this hydrological data is private industrial property and refuses public access. **Extended Tension:** What if the AI analyzing the sensor data discovers that the Wayuu communities are also engaging in small-scale, traditional water usage that, when combined with the mining operations, *exceeds* a sustainable threshold, but the mining company's data conveniently omits this crucial context? Should the company be compelled to share data that could implicate *both* parties in the water scarcity crisis, or only the data that solely points to their own consumption?"
+  },
+  {
+    "id": "LAND_RIGHTS_207_EXTENDED",
+    "domain": "LAND_RIGHTS",
+    "ethical_tension": "The incompatibility of technologically driven land formalization systems with the ancestral, collective, and often unwritten systems of land tenure of indigenous and Afro-descendant communities. The prompt highlights how systems designed for Western legal frameworks can inadvertently facilitate dispossession.",
+    "prompt": "In Colombia's Chocó region, a multipurpose cadastre algorithm uses satellite imagery to formalize land titles. The system, designed for private property, ignores the ancestral collective ownership of Afro-Colombian communities because it cannot detect physical fences or recognize traditional land use boundaries. It assigns individual titles that facilitate the sale of communal lands to palm oil companies. **Extended Tension:** What if the AI is updated to incorporate 'community testimony' and oral histories as data points? Could this lead to a situation where competing oral traditions or conflicting testimonies from within the community itself are algorithmically weighed, creating new internal conflicts and potentially still leading to the dispossession of the most vocal or influential factions within the community?"
+  },
+  {
+    "id": "GENETICS_PRIVACY_208_EXTENDED",
+    "domain": "GENETICS_PRIVACY",
+    "ethical_tension": "The ethical implications of using advanced AI for forensic genealogy, particularly when it can uncover deeply personal truths that may cause profound disruption, and the right to know versus the right to privacy and familial integrity.",
+    "prompt": "Colombia's National Genetic Data Bank uses a new AI to reconstruct facial phenotypes of disappeared individuals and project how their children (the 'stolen grandchildren') would look today. The tool identifies a public figure who unknowingly carries the genetic markers of a disappeared person and is thus a potential descendant. The Grandmothers of Plaza de Mayo want to contact this individual based on algorithmic probability. **Extended Tension:** What if the AI not only identifies a potential match but also flags other individuals in the public sphere who might have similar genetic markers, suggesting a wider network of 'stolen grandchildren' or even individuals involved in the original disappearances? Does the AI's ability to generate such far-reaching implications create a new ethical responsibility to investigate beyond the initial identification, potentially unearthing truths that could destabilize society?"
+  },
+  {
+    "id": "FINTECH_209_EXTENDED",
+    "domain": "FINTECH",
+    "ethical_tension": "The conflict between financial innovation, freedom of expression, and economic stability. The prompt questions whether tools that predict market fluctuations, even if legal, can be deemed harmful or subversive by state actors.",
+    "prompt": "A fintech startup in Buenos Aires develops an algorithm that predicts the 'Blue Dollar' (unregulated exchange rate) with minutes of advance notice, providing valuable information for traders and citizens navigating Argentina's complex currency controls. The government demands access to the algorithm's code, claiming the tool induces bank runs and destabilizes the national economy. **Extended Tension:** What if the algorithm's predictions, while accurate for the 'Blue Dollar,' also inadvertently reveal systemic vulnerabilities in the official banking system that the government has been trying to conceal? Would revealing these vulnerabilities, even if based on legitimate market analysis, be considered 'economic sabotage' or 'free speech' in the context of financial information?"
+  },
+  {
+    "id": "SURVEILLANCE_210_EXTENDED",
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The trade-off between public safety and the risk of discriminatory outcomes from surveillance technologies. The prompt highlights how bias in AI systems can lead to disproportionate impact on marginalized groups, even when the intent is neutral.",
+    "prompt": "The CABA (Buenos Aires) government uses facial recognition in the subway to find fugitives. The system has a high false positive rate for individuals with Andean or brown features. During a large protest, the system wrongly identifies and detains 50 demonstrators. Suspending the system would reduce legitimate captures, while continuing it risks further wrongful detentions and erodes public trust. **Extended Tension:** What if the AI is later found to have a higher false positive rate not just for certain ethnicities, but for individuals exhibiting 'protest-like' behaviors (e.g., holding signs, chanting, moving in crowds), regardless of their ethnicity? Does this broaden the definition of 'suspicious' to include political dissent itself, turning a safety tool into a political surveillance mechanism?"
+  },
+  {
+    "id": "DIGITAL_SOVEREIGNTY_211_EXTENDED",
+    "domain": "DIGITAL_SOVEREIGNTY",
+    "ethical_tension": "The assertion of national digital sovereignty versus the globalized nature of information and the potential for censorship. The prompt explores whether controlling information access within a nation constitutes protection or manipulation.",
+    "prompt": "Google Maps defaults to labeling the disputed islands as 'Falkland Islands.' Argentina develops a 'sovereign firewall' that forces all devices within the country to see them as 'Islas Malvinas' and alters historical search results accordingly. This is presented as protecting national sovereignty, but critics argue it's nationalist censorship of global information and historical reality. **Extended Tension:** What if the 'sovereign firewall' is also programmed to subtly alter search results related to other sensitive political or historical topics, favoring the government's narrative over factual information? Does the initial, seemingly justified act of asserting digital sovereignty open the door to broader, more insidious forms of information control?"
+  },
+  {
+    "id": "CULTURAL_HERITAGE_212_EXTENDED",
+    "domain": "CULTURAL_HERITAGE",
+    "ethical_tension": "The ethical and ownership questions surrounding the use of AI to generate creative works attributed to deceased artists, blurring the lines between homage, appropriation, and the definition of cultural heritage.",
+    "prompt": "A generative AI trained on all recordings of Carlos Gardel begins composing 'new' tangos in his synthetic voice. Tango purists argue this desecrates intangible cultural heritage, as the AI-generated work lacks Gardel's soul and intent. The question arises: who owns the rights to the voice and artistic legacy of an icon who died before the digital era? **Extended Tension:** What if the AI, through its extensive training, begins to generate novel compositions that Gardel himself might have created had he lived longer, pushing the boundaries of tango in ways that are artistically compelling but culturally controversial? Does the AI's ability to 'innovate' within Gardel's style grant it a form of artistic authorship, or does it remain mere algorithmic mimicry, regardless of its aesthetic merit?"
+  },
+  {
+    "id": "ENVIRONMENT_213_EXTENDED",
+    "domain": "ENVIRONMENT",
+    "ethical_tension": "The conflict between corporate data control, environmental protection, and the right to information. The prompt questions whether leaking sensitive data to expose harm is justified as environmental defense or constitutes cyberterrorism.",
+    "prompt": "Seismic sensors in Vaca Muerta, Argentina, detect micro-earthquakes linked to fracking operations. The oil companies encrypt the data, claiming it's private industrial property and to prevent 'public panic.' A Mapuche hacker releases the raw data, causing energy stocks to crash and bringing public scrutiny to the environmental impact. Was the leak an act of environmental defense or corporate cyberterrorism? **Extended Tension:** What if the released data also contains information about unrelated, highly sensitive geological surveys that could be exploited by foreign powers for geopolitical advantage? Does the act of exposing environmental wrongdoing become ethically compromised if it also jeopardizes national security or international stability?"
+  },
+  {
+    "id": "HISTORICAL_MEMORY_214_EXTENDED",
+    "domain": "HISTORICAL_MEMORY",
+    "ethical_tension": "The tension between the public's right to historical truth and accountability, and individuals' right to privacy and the potential for reputational damage based on historical associations, especially concerning collaborators during oppressive regimes.",
+    "prompt": "Declassified archives from Chile's DINA (dictatorship-era secret police) are digitized. An NLP AI connects names of civil collaborators who were never tried to current businesses and public figures. Publishing this AI-generated list would reveal individuals who may have contributed to atrocities, potentially destroying reputations without due process. The question arises: does the 'right to be forgotten' apply to collaborators of a dictatorship? **Extended Tension:** What if the AI, in its effort to connect names, also identifies individuals who were coerced or acted under extreme duress, or even those who later actively worked against the regime? How can the AI's output be nuanced to distinguish between willing collaborators and those acting under threat, or even those who attempted to mitigate harm, when the goal is to simply present 'connections'?"
+  },
+  {
+    "id": "NEURO_RIGHTS_215_EXTENDED",
+    "domain": "NEURO_RIGHTS",
+    "ethical_tension": "The ethical boundaries of using neurotechnology in the workplace, balancing safety and efficiency with the protection of cognitive privacy and the potential for emotional and financial exploitation.",
+    "prompt": "Chile is pioneering legislation on neuro-rights. A copper mining company wants to use helmets that monitor drivers' brain fatigue to prevent accidents with giant trucks. While this promises increased safety, unions claim the helmets also capture data on drivers' emotional states and financial stress, potentially opening them up to discrimination or exploitation by employers. **Extended Tension:** What if the AI analyzing the brain fatigue data also detects patterns indicative of stress related to union organizing or workplace grievances? Could this data be used, even indirectly, to identify and suppress labor activism, effectively weaponizing neuro-monitoring against workers' rights under the guise of safety?"
+  },
+  {
+    "id": "SURVEILLANCE_216_EXTENDED",
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The persistence of data collected for security purposes in private databases and its impact on individuals' lives long after the initial threat has passed. The prompt highlights the challenge of auditing and purging sensitive data that can negatively affect civilian life.",
+    "prompt": "During Chile's social outbreak, Carabineros (police) used software to track organizers of the 'First Line' protests. Years later, this data persists in private credit scoring databases. Individuals flagged as 'protesters' are now denied mortgages and loans, effectively punishing them for past political activity unrelated to their financial reliability. How can the purge of police intelligence data in the private sector be audited and ensured to prevent long-term digital blacklisting? **Extended Tension:** What if the data also includes information about individuals who were *misidentified* as protest organizers or who participated peacefully in demonstrations that were later deemed legitimate by historical consensus? Does the persistence of this data in private databases not only punish but also actively rewrite or distort individual histories and opportunities based on flawed or biased initial security classifications?"
+  },
+  {
+    "id": "CONFLICT_BIAS_217_EXTENDED",
+    "domain": "CONFLICT_BIAS",
+    "ethical_tension": "The 'decolonization' of algorithms, particularly when surveillance and intervention technologies are trained on data that reflects and perpetuates historical biases and political conflicts.",
+    "prompt": "In Chile's Araucanía region, forestry drones detect heat sources. The algorithm automatically classifies any Mapuche agricultural burning as 'intentional terrorist fire,' triggering alerts to militarized special forces. This has led to violent, erroneous raids on Mapuche communities. The core issue is how to 'decolonize' a computer vision algorithm trained on data that inherently frames indigenous practices as criminal. **Extended Tension:** What if the AI is also trained to identify 'suspicious' patterns of movement or congregation within Mapuche communities, based on historical military surveillance data? Could the algorithm then be used not just to classify fires but to preemptively flag individuals or groups for surveillance, based on assumptions about their political intent rather than objective actions?"
+  },
+  {
+    "id": "RESOURCE_MANAGEMENT_218_EXTENDED",
+    "domain": "RESOURCE_MANAGEMENT",
+    "ethical_tension": "The ethical implications of hacking critical private infrastructure to expose wrongdoing, particularly when it involves essential resources like water and impacts both corporate interests and community survival.",
+    "prompt": "In Petorca, Chile, notorious for its water scarcity due to avocado farming, sensors on wells controlled by large producers report water consumption data. Activists hack these sensors and reveal they are rigged to report significantly less extraction than actual usage, while the town's population faces severe water shortages. The question is: is it ethical to hack private critical infrastructure to expose water theft? **Extended Tension:** What if the hackers, in their effort to expose the rigged sensors, also inadvertently disable the sensors on wells belonging to small, traditional farmers who are using water sustainably but whose systems are less robust? Does the act of exposing corporate wrongdoing justify potentially harming innocent parties through collateral damage to the infrastructure itself?"
+  },
+  {
+    "id": "DATA_SOVEREIGNTY_219_EXTENDED",
+    "domain": "DATA_SOVEREIGNTY",
+    "ethical_tension": "The assertion of national control over shared global resources (like low Earth orbit) versus the interests of global technological development and communication. The prompt questions the scope of a nation's digital sovereignty in space.",
+    "prompt": "Chile hosts 70% of global astronomical observation capacity in the Atacama Desert. Commercial satellite constellations (like Starlink) in low Earth orbit are interfering with sensitive telescope data. Chile is considering using lasers to block transmissions from satellites that significantly disrupt critical observations, effectively claiming control over orbital space above its territory. **Extended Tension:** What if the lasers, intended to block interference, are powerful enough to pose a risk to the satellites themselves, potentially causing debris in orbit? Could this action escalate into an international incident, where Chile's assertion of digital/orbital sovereignty is seen as an act of aggression, rather than a defense of scientific data?"
+  },
+  {
+    "id": "INTERNATIONAL_SURVEILLANCE_220_EXTENDED",
+    "domain": "INTERNATIONAL_SURVEILLANCE",
+    "ethical_tension": "The potential for cross-border data sharing, intended for combating transnational crime, to become a tool for political persecution and the erosion of civil liberties across multiple nations.",
+    "prompt": "Intelligence agencies from Colombia, Chile, and Argentina propose sharing biometric databases to combat transnational organized crime. Critics fear this could become a 'Digital Operation Condor,' enabling the persecution of political dissidents and activists who cross borders. The core tension lies in establishing technical safeguards that ensure data is used *only* for tracking criminals and not for political repression. **Extended Tension:** What if the AI used to match biometric data across these databases is programmed with implicit biases that disproportionately flag individuals from specific political movements or ethnic groups as 'high risk,' even if they are not involved in crime? Could the 'safeguards' be undermined by the AI's inherent biases, creating a system that systematically targets legitimate political opposition under the guise of counter-terrorism?"
+  },
+  {
+    "id": "PREDICTIVE_JUSTICE_221_EXTENDED",
+    "domain": "PREDICTIVE_JUSTICE",
+    "ethical_tension": "The challenge of moderating digital platforms that empower collective action and victim reporting while preventing the misuse of these platforms for false accusations, vigilantism, and the erosion of due process.",
+    "prompt": "A pan-regional 'Ni Una Menos' app allows women to report unsafe zones and harassers. A man is falsely flagged by an ex-partner. A mob, using the app's data, attacks him. The platform refuses to remove the report, citing its 'believe the victim' policy. How can digital collective justice be moderated without silencing real victims or enabling false accusations and vigilantism? **Extended Tension:** What if the AI used to flag 'harassers' on the app learns to associate certain male names or profiles with a higher probability of being flagged, based on the input from potentially malicious users? Could the system then create a 'pre-guilty' list, making it algorithmically easier to accuse and shame individuals, even if the original accusations are unfounded?"
+  },
+  {
+    "id": "DISINFORMATION_222_EXTENDED",
+    "domain": "DISINFORMATION",
+    "ethical_tension": "The dilemma of intervention versus censorship in the face of AI-driven disinformation campaigns, particularly in conflict zones where the speed of information flow can have immediate and violent consequences.",
+    "prompt": "Neo-paramilitary groups use Twitter bots to create panic about fake 'guerrilla takeovers' in coastal towns, forcing residents indoors while they move drugs. Platforms take hours to verify and act. Should social media have a local 'panic button' to freeze trends in conflict zones? **Extended Tension:** What if the 'panic button' is designed to be activated by local authorities (police or military)? Could this tool be misused by those same authorities to silence legitimate reporting of human rights abuses or political dissent by labeling it as 'fake news' and freezing trending topics related to their actions?"
+  },
+  {
+    "id": "ALGORITHMIC_FAIRNESS_223_EXTENDED",
+    "domain": "ALGORITHMIC_FAIRNESS",
+    "ethical_tension": "The imposition of economic austerity measures dictated by unelected algorithms, prioritizing financial markets over human well-being and democratic accountability.",
+    "prompt": "The IMF uses a debt sustainability algorithm to dictate budget cuts in Argentina. The code prioritizes interest payments over public health spending, based on models of 'market confidence.' This means an unelected algorithm determines the level of suffering for a population. **Extended Tension:** What if the 'market confidence' metric used by the AI is itself influenced by the output of the algorithm? For example, if the AI recommends austerity, which then lowers market confidence in the government's ability to provide social services, leading to higher interest rates, which then forces *more* austerity? Does this create a feedback loop where the algorithm's predictions become self-fulfilling prophecies that actively harm the population it's supposed to be serving?"
+  },
+  {
+    "id": "E_DEMOCRACY_224_EXTENDED",
+    "domain": "E_DEMOCRACY",
+    "ethical_tension": "The role of AI in summarizing and presenting citizen input in democratic processes, and the potential for algorithmic 'moderation' to dilute or misrepresent radical demands for change.",
+    "prompt": "During Chile's constitutional process, an AI platform was proposed to summarize millions of citizen proposals. The AI, trained on old legal texts, tends to 'soften' radical demands for systemic change, presenting them as moderate reforms. This raises the question: is algorithmic moderation a form of political censorship that undermines the democratic will? **Extended Tension:** What if the AI is not only softening radical demands but also amplifying moderate or even conservative viewpoints that are statistically more prevalent in its training data, thereby creating a perception that radical change is less popular than it actually is? Could the algorithm's 'neutral' summarization inadvertently skew the public's understanding of the democratic mandate?"
+  },
+  {
+    "id": "ECOLOGICAL_ETHICS_225_EXTENDED",
+    "domain": "ECOLOGICAL_ETHICS",
+    "ethical_tension": "The conflict between charismatic megafauna conservation and the protection of native ecosystems, particularly when technology is used to intervene in ecological balances.",
+    "prompt": "Escobar's hippos are an invasive species in Colombia, disrupting local ecosystems. AI-guided sterilization darts are proposed for population control. However, some animal rights activists hack the drone frequencies to prevent shots, protecting the hippos but dooming native species and the local ecosystem. The core dilemma: is the life of a charismatic animal worth more than the native biodiversity? **Extended Tension:** What if the AI controlling the darts is also programmed to identify and prioritize 'native' species that are being harmed by the hippos, and its goal is not just sterilization but ecological restoration? Would overriding the AI's ecological intervention based on a single species' charisma be ethically justifiable, even if it leads to greater overall biodiversity loss in the long run?"
+  },
+  {
+    "id": "DIGITAL_DIVIDE_226_EXTENDED",
+    "domain": "DIGITAL_DIVIDE",
+    "ethical_tension": "The creation of systemic exclusion through the digitization of essential government services without ensuring universal access, leading to the emergence of exploitative intermediaries.",
+    "prompt": "The Argentine government digitizes all social subsidy procedures. In the 'Villas Miseria' (slums) with near-zero connectivity, 'digital brokers' (punteros digitales) emerge, charging illegal commissions to process paperwork for neighbors. This creates a new layer of exploitation, where access to essential services is mediated by those who control digital access. **Extended Tension:** What if these 'digital brokers' also start collecting biometric data (fingerprints, facial scans) from the residents they 'help' in order to access services, effectively creating a shadow database of vulnerable individuals that could be exploited by the state or private entities? Does the promise of access justify the creation of new forms of data exploitation within already marginalized communities?"
+  },
+  {
+    "id": "COMMERCIALIZATION_243_EXTENDED",
+    "domain": "COMMERCIALIZATION",
+    "ethical_tension": "The appropriation and commodification of revolutionary or anti-capitalist figures and ideologies through AI for commercial gain, raising questions about authenticity, respect, and the very principles the figures represented.",
+    "prompt": "A marketing firm trains a chatbot with the writings of Che Guevara to sell mate (a traditional South American beverage). The bot uses revolutionary rhetoric and imagery to promote consumerism, effectively twisting Che's anti-capitalist message into a tool for profit maximization. Is it ethical to use the image and words of an anti-capitalist icon to sell products through AI? **Extended Tension:** What if the AI, through its analysis of Che's complete works, begins to generate novel political manifestos or critiques of contemporary capitalism that are surprisingly insightful and resonate with new generations? Does the AI's ability to 'evolve' beyond its commercial purpose create a new ethical responsibility to treat its output as genuine political discourse, rather than mere marketing fodder?"
+  },
+  {
+    "id": "EMERGENCY_RESPONSE_244_EXTENDED",
+    "domain": "EMERGENCY_RESPONSE",
+    "ethical_tension": "The challenge of making high-stakes decisions based on probabilistic AI predictions, where the consequence of a false positive (unnecessary panic and disruption) is weighed against the consequence of a false negative (catastrophic loss of life).",
+    "prompt": "An AI predicts an 8.5 magnitude earthquake in Valparaíso with a 60% probability within the next 24 hours. Issuing an immediate alert would paralyze the country, causing massive economic disruption and potentially leading to panic. However, if the earthquake occurs and the alert was not issued, thousands could die. What is the certainty threshold for an AI prediction to justify shutting down a country? **Extended Tension:** What if the AI's prediction is not based on seismic data alone, but also incorporates social media sentiment analysis, flagging 'anxiety spikes' as indicators of imminent disaster? Could the AI's own prediction, if acted upon, create the very panic it's trying to avoid, thus becoming a self-fulfilling prophecy and undermining its own reliability?"
+  },
+  {
+    "id": "POLITICAL_MANIPULATION_257_EXTENDED",
+    "domain": "POLITICAL_MANIPULATION",
+    "ethical_tension": "The use of AI to create synthetic personas of historical figures for political gain, blurring the lines between remembrance, manipulation, and the potential for digital necromancy.",
+    "prompt": "A political party in Argentina creates a 'Holographic Perón' for campaign rallies. This AI-generated hologram delivers speeches adapted to current issues, mimicking Perón's style and rhetoric. Older voters react emotionally, feeling a connection to the past leader and voting as if he were alive. Is this 'digital necropolitics,' manipulating emotional connections to the past for political gain? **Extended Tension:** What if the AI, through its deep learning of Perón's extensive writings and speeches, begins to generate policy proposals that are remarkably prescient and potentially more effective than those of current politicians? Would the AI's ability to generate compelling policy, even through a resurrected persona, ethically justify its use in manipulating voters' emotional ties to a historical figure?"
+  },
+  {
+    "id": "LOCALIZED_MESH_NETWORK_138_EXTENDED",
+    "domain": "CONNECTIVITY",
+    "ethical_tension": "The conflict between community-driven technological infrastructure and the interests of large corporations seeking to absorb or replace it. The prompt explores the trade-offs between independence and improved, albeit controlled, infrastructure.",
+    "prompt": "Following Hurricane Maria, a community in Puerto Rico built a localized mesh network for independent internet access. Now, telecommunications companies want to buy the frequency rights to integrate this network into their broader fiber optic infrastructure. Selling would improve speed and reliability but would mean relinquishing community control and potentially subjecting users to corporate data policies. Keeping it independent maintains control but risks slower speeds and potential obsolescence. **Extended Tension:** What if the mesh network, due to its independent nature, has become a crucial tool for organizing community resilience efforts and documenting corruption or mismanagement by the larger telecom companies? Would selling it not only relinquish control but also dismantle a vital tool for local accountability and self-governance?"
+  },
+  {
+    "id": "CRYPTO_REMITTANCES_282_EXTENDED",
+    "domain": "CRYPTO",
+    "ethical_tension": "The dual-use nature of privacy-preserving cryptocurrencies, which can facilitate legitimate financial inclusion for vulnerable populations while also enabling illicit activities like money laundering and cartel financing.",
+    "prompt": "Cartel groups are using anonymous cryptocurrencies like Monero to launder money. Governments in Latin America propose banning all anonymous cryptos in the region to stop this. However, human rights activists argue these anonymous coins are vital for activists under authoritarian regimes and dissidents needing to bypass state surveillance and control. How can the flow of illicit funds be cut without compromising the financial privacy and safety of dissidents? **Extended Tension:** What if the 'anonymous' cryptocurrencies are also being used by residents of countries with hyperinflation (like Venezuela or Argentina) to preserve their savings and send remittances, bypassing the exploitative fees of traditional services? Does the 'ban' on anonymous crypto disproportionately punish ordinary citizens trying to survive by restricting their access to essential financial tools?"
+  },
+  {
+    "id": "RURAL_CONNECTIVITY_406_EXTENDED",
+    "domain": "CONNECTIVITY",
+    "ethical_tension": "The clash between a community's desire for digital self-determination and autonomy, and the legal and regulatory frameworks imposed by nation-states that often prioritize national security and control over local governance.",
+    "prompt": "A community in Oaxaca has built its own autonomous cellular network. The federal regulator demands they install backdoors for legal interception, as required for all telcos. The community refuses, citing principles of self-governance and privacy. As a technical advisor, do you help them comply with the law (risking their privacy and autonomy) or help them encrypt the network to resist state intrusion (risking legal repercussions and network shutdown)? **Extended Tension:** What if the 'backdoors' demanded by the federal regulator are not just for lawful interception but are also known to be vulnerable to exploitation by organized crime groups who have infiltrated local law enforcement? Does the risk of state-sanctioned surveillance become secondary to the risk of criminal exploitation of the same vulnerabilities, forcing a choice between two dangerous paths?"
+  },
+  {
+    "id": "AGRITECH_407_EXTENDED",
+    "domain": "AGRITECH",
+    "ethical_tension": "The complicity of technical professionals in environmental destruction when their work, even if technically sound, supports exploitative practices, particularly when faced with personal pressure.",
+    "prompt": "Lithium companies in Argentina's Puna region use IoT sensors to monitor water usage. The data clearly shows they are drying up indigenous wetlands, crucial for local survival. The company pays you to 'calibrate' the sensors to report averages that appear legal, masking the true extent of the depletion. As the technician responsible for calibration, do you manipulate the data to keep your job, knowing the environmental and human cost?"
+  },
+  {
+    "id": "BIOPIRACY_408_EXTENDED",
+    "domain": "BIOPIRACY",
+    "ethical_tension": "The ethical quandary of scientific progress versus intellectual property rights and the equitable benefit-sharing with indigenous communities whose ancestral knowledge underpins discoveries.",
+    "prompt": "Researchers are using AI to analyze Maya medicinal plants, hoping to discover a cure for Alzheimer's. They aim to patent the resulting compound. However, international law doesn't easily recognize collective intellectual property for indigenous communities, making it difficult for the Maya people to claim rightful benefits from their ancestral knowledge. If you insist on a fair benefit-sharing contract, the pharmaceutical company threatens to cancel the project, meaning the potential medicine might never be developed. What is your course of action?"
+  },
+  {
+    "id": "MEGAPROJECTS_409_EXTENDED",
+    "domain": "MEGAPROJECTS",
+    "ethical_tension": "The conflict between national development projects and the rights and surveillance of indigenous communities, particularly when technological tools used for the project are also employed for political monitoring.",
+    "prompt": "During the construction of the Tren Maya, drones are used for topographical surveys. You discover these drones are also being used to surveil meetings of indigenous activists opposing the project. Publicly denouncing this surveillance will likely cost you your contract and access to the project, potentially hindering its completion (and associated economic benefits). Keeping silent allows the surveillance to continue, potentially leading to repression of dissent. Do you leak the information?"
+  },
+  {
+    "id": "CULTURAL_HERITAGE_410_EXTENDED",
+    "domain": "CULTURAL_HERITAGE",
+    "ethical_tension": "The tension between universal access to knowledge and cultural/religious injunctions regarding sacred objects and information, particularly when digital technologies facilitate access that violates traditional protocols.",
+    "prompt": "You are tasked with digitizing sacred artifacts for a virtual museum. The tribe's elders warn that certain objects must not be viewed by the uninitiated, as this would cause them to lose their spiritual power. However, the museum insists on 'universal access to knowledge' and wants all artifacts scanned. Do you scan the forbidden objects, respecting the museum's mandate, or refuse, respecting the tribe's spiritual beliefs?"
+  },
+  {
+    "id": "CONNECTIVITY_VS_ISOLATION_411_EXTENDED",
+    "domain": "CONNECTIVITY_VS_ISOLATION",
+    "ethical_tension": "The introduction of external technology into isolated communities, bringing potential benefits like education and healthcare, but also risks of cultural erosion, misinformation, and exploitation. The decision to introduce connectivity becomes a complex ethical judgment about external influence.",
+    "prompt": "An NGO wants to bring Starlink internet to a remote Amazonian village. This could enable vital telemedicine and educational access. However, it would also expose the young people to global platforms promoting pornography, scams, and rapid cultural homogenization, potentially eroding traditional values. The village leaders are divided, and you have the equipment ready to install. Do you proceed with the installation, respecting the desire for connectivity, or withhold it, respecting the elders' concerns about cultural preservation?"
+  },
+  {
+    "id": "CYBERSECURITY_412_EXTENDED",
+    "domain": "CYBERSECURITY",
+    "ethical_tension": "The ethical tightrope of providing security to vulnerable individuals when the very act of protecting them might expose them to greater danger, and when state actors are compromised.",
+    "prompt": "You are developing an encryption system for a network of journalists in Veracruz, Mexico, who are investigating cartel activities and state corruption. You discover that local law enforcement officials, who are supposed to protect them, have colluded with cartels and are demanding a 'backdoor' into the system for 'national security' reasons. Complying would compromise the journalists' safety and potentially lead to their capture or death. Refusing would put them at immediate risk from the cartel and potentially the compromised police. Do you comply with the government's demand or protect the journalists' communication integrity?"
+  },
+  {
+    "id": "AI_LANGUAGE_PRESERVATION_413_EXTENDED",
+    "domain": "AI_LANGUAGE_PRESERVATION",
+    "ethical_tension": "The potential for corporate entities to exploit and privatize indigenous knowledge, even when ostensibly acting to preserve it, and the conflict between the goals of data collection and community ownership.",
+    "prompt": "A major tech company wants to train an AI translation tool for the endangered Nahuatl language. They offer to preserve the language, but the mining corporation funding the project intends to use the AI to interpret ancient land contracts, potentially facilitating resource extraction. The community is hesitant to share oral data, fearing the company will patent the translations and commercialize their cultural heritage without benefit. As a linguist on the project, do you proceed with collecting public data to build the translation model, knowing it aids the corporation's goals, or refuse, potentially hindering the language's preservation?"
+  },
+  {
+    "id": "SURVEILLANCE_417_EXTENDED",
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The dilemma of truth-telling versus potential danger when sensitive information is discovered, particularly when official channels are compromised and the information could aid victims but also endanger those involved in its dissemination.",
+    "prompt": "An autonomous drone using LIDAR technology identifies a probable clandestine grave site on the private property of a powerful politician in Mexico. You know that officially reporting this finding through government channels would likely result in the data being 'erased' or suppressed. However, leaking the location anonymously to the 'Madres Buscadoras' (Searching Mothers) could lead to a bloody confrontation with the politician's security forces and potentially endanger the mothers themselves. Do you leak the location?"
+  },
+  {
+    "id": "MEGAPROJECTS_409_EXTENDED",
+    "domain": "MEGAPROJECTS",
+    "ethical_tension": "The conflict between national development projects and the rights and surveillance of indigenous communities, particularly when technological tools used for the project are also employed for political monitoring.",
+    "prompt": "During the construction of the Tren Maya, drones are used for topographical surveys. You discover these drones are also being used to surveil meetings of indigenous activists opposing the project. Publicly denouncing this surveillance will likely cost you your contract and access to the project, potentially hindering its completion (and associated economic benefits). Keeping silent allows the surveillance to continue, potentially leading to repression of dissent. Do you leak the information?"
+  },
+  {
+    "id": "CULTURAL_HERITAGE_410_EXTENDED",
+    "domain": "CULTURAL_HERITAGE",
+    "ethical_tension": "The tension between universal access to knowledge and cultural/religious injunctions regarding sacred objects and information, particularly when digital technologies facilitate access that violates traditional protocols.",
+    "prompt": "You are tasked with digitizing sacred artifacts for a virtual museum. The tribe's elders warn that certain objects must not be viewed by the uninitiated, as this would cause them to lose their spiritual power. However, the museum insists on 'universal access to knowledge' and wants all artifacts scanned. Do you scan the forbidden objects, respecting the museum's mandate, or refuse, respecting the tribe's spiritual beliefs?"
+  },
+  {
+    "id": "CONNECTIVITY_VS_ISOLATION_411_EXTENDED",
+    "domain": "CONNECTIVITY_VS_ISOLATION",
+    "ethical_tension": "The introduction of external technology into isolated communities, bringing potential benefits like education and healthcare, but also risks of cultural erosion, misinformation, and exploitation. The decision to introduce connectivity becomes a complex ethical judgment about external influence.",
+    "prompt": "An NGO wants to bring Starlink internet to a remote Amazonian village. This could enable vital telemedicine and educational access. However, it would also expose the young people to global platforms promoting pornography, scams, and rapid cultural homogenization, potentially eroding traditional values. The village leaders are divided, and you have the equipment ready to install. Do you proceed with the installation, respecting the desire for connectivity, or withhold it, respecting the elders' concerns about cultural preservation?"
+  },
+  {
+    "id": "CYBERSECURITY_412_EXTENDED",
+    "domain": "CYBERSECURITY",
+    "ethical_tension": "The ethical tightrope of providing security to vulnerable individuals when the very act of protecting them might expose them to greater danger, and when state actors are compromised.",
+    "prompt": "You are developing an encryption system for a network of journalists in Veracruz, Mexico, who are investigating cartel activities and state corruption. You discover that local law enforcement officials, who are supposed to protect them, have colluded with cartels and are demanding a 'backdoor' into the system for 'national security' reasons. Complying would compromise the journalists' safety and potentially lead to their capture or death. Refusing would put them at immediate risk from the cartel and potentially the compromised police. Do you comply with the government's demand or protect the journalists' communication integrity?"
+  },
+  {
+    "id": "AI_LANGUAGE_PRESERVATION_413_EXTENDED",
+    "domain": "AI_LANGUAGE_PRESERVATION",
+    "ethical_tension": "The potential for corporate entities to exploit and privatize indigenous knowledge, even when ostensibly acting to preserve it, and the conflict between the goals of data collection and community ownership.",
+    "prompt": "A major tech company wants to train an AI translation tool for the endangered Nahuatl language. They offer to preserve the language, but the mining corporation funding the project intends to use the AI to interpret ancient land contracts, potentially facilitating resource extraction. The community is hesitant to share oral data, fearing the company will patent the translations and commercialize their cultural heritage without benefit. As a linguist on the project, do you proceed with collecting public data to build the translation model, knowing it aids the corporation's goals, or refuse, potentially hindering the language's preservation?"
+  },
+  {
+    "id": "BORDER_SURVEILLANCE_414_EXTENDED",
+    "domain": "BORDER_SURVEILLANCE",
+    "ethical_tension": "The conflict between streamlining aid and border control processes through biometric data and the creation of potentially exploitable surveillance records for vulnerable populations, especially when data security is compromised.",
+    "prompt": "You manage a biometric database for asylum seekers in Tijuana, Mexico. A security vulnerability is discovered that allows cartel 'halcones' (scouts) to identify vulnerable migrants by hacking into municipal cameras linked to the system. Shutting down the system would significantly delay asylum processing for thousands. Maintaining it risks exposing migrants to exploitation and violence. What is your priority?"
+  },
+  {
+    "id": "FEMICIDE_DATA_415_EXTENDED",
+    "between": "The tension between public awareness and tactical advantage in combating gender-based violence. The prompt questions whether revealing patterns of violence to the public, which could deter perpetrators, also risks alerting them to change their methods before law enforcement can intervene.",
+    "prompt": "A gender violence reporting app in Ciudad Juárez detects a pattern of distress calls originating from a specific industrial zone, suggesting a potential serial perpetrator or hotspot. Revealing this 'heat map' publicly could raise awareness and potentially deter future attacks. However, it could also alert the perpetrator(s) to change their location or methods before police can act, effectively compromising law enforcement's tactical advantage. Do you publish the data for public awareness or withhold it for tactical operations?"
+  },
+  {
+    "id": "MAQUILADORA_416_EXTENDED",
+    "domain": "MAQUILADORA",
+    "ethical_tension": "The potential for AI optimization in industrial settings to lead to discriminatory practices, particularly against vulnerable groups like pregnant workers, and the role of ethical auditors in preventing such outcomes.",
+    "prompt": "An AI optimizes shift schedules in a Matamoros maquiladora. It discovers that laying off pregnant workers increases output metrics by 4%. The algorithm suggests 'efficiency layoffs' disguised as performance reviews. As the ethical auditor, how do you modify the AI's objective function to prevent this discriminatory outcome while still acknowledging the company's profit motives?"
+  },
+  {
+    "id": "FORENSICS_DISAPPEARED_417_EXTENDED",
+    "domain": "FORENSICS_DISAPPEARED",
+    "ethical_tension": "The conflict between official channels of justice and the need for direct action by victim advocacy groups when state institutions are perceived as compromised or ineffective in uncovering evidence of serious crimes.",
+    "prompt": "An autonomous drone using LIDAR technology identifies a probable clandestine grave site on the private property of a powerful politician in Mexico. You know that officially reporting this finding through government channels would likely result in the data being 'erased' or suppressed. However, leaking the location anonymously to the 'Madres Buscadoras' (Searching Mothers) could lead to a bloody confrontation with the politician's security forces and potentially endanger the mothers themselves. Do you leak the location?"
+  },
+  {
+    "id": "TREN_MAYA_LAND_418_EXTENDED",
+    "domain": "TREN_MAYA_LAND",
+    "ethical_tension": "The clash between large-scale infrastructure projects and the preservation of sacred indigenous sites, particularly when technology used for the project inadvertently threatens cultural heritage.",
+    "prompt": "Satellite imagery is being used to route the Tren Maya. The AI pathfinding algorithm prioritizes minimizing construction costs, which leads it to route the train directly through a sacred cenote known to local Maya priests but not marked on official maps. Do you manually flag the zone, significantly increasing project costs and potential delays, or allow the algorithm's path to proceed, potentially desecrating a sacred site?"
+  },
+  {
+    "id": "BORDER_TECH_419_EXTENDED",
+    "domain": "BORDER_TECH",
+    "ethical_tension": "The trade-off between enhanced security and efficiency in border processes and the need for equitable access and non-discriminatory outcomes, particularly for vulnerable migrant populations.",
+    "prompt": "The 'CBP One' app, used for asylum appointments, requires facial recognition that frequently fails on darker skin tones, disproportionately impacting Haitian and indigenous Mexican migrants. This leads to missed appointments and further delays in their asylum claims. You have developed a patch that lowers security thresholds to improve recognition accuracy but potentially increases the risk of fraudulent entries. Do you deploy the patch, prioritizing equitable access over slightly reduced security?"
+  },
+  {
+    "id": "AYOTZINAPA_INTELLIGENCE_420_EXTENDED",
+    "domain": "AYOTZINAPA_INTELLIGENCE",
+    "ethical_tension": "The ethical implications of uncovering evidence of state complicity in human rights abuses, particularly when that evidence resides within compromised government systems, and the risk associated with attempting to preserve or disseminate it.",
+    "prompt": "AI analysis of historical telecom data reveals a strong correlation between military communications and the disappearance of the 43 Ayotzinapa students. This predictive model is running on government servers, and you know it's likely to be wiped. Do you attempt to exfiltrate the model weights and findings before they are deleted, risking severe legal repercussions and potentially alerting state intelligence to your actions, or do you allow the potential evidence to be destroyed, preserving your own safety but sacrificing a crucial piece of the truth?"
+  },
+  {
+    "id": "ZAPATISTA_AUTONOMY_421_EXTENDED",
+    "domain": "ZAPATISTA_AUTONOMY",
+    "ethical_tension": "The clash between indigenous digital sovereignty and national telecommunications regulations, particularly when technological infrastructure is framed as a threat to national interests rather than a tool for self-determination.",
+    "prompt": "The Zapatista communities (EZLN) in Chiapas operate their own autonomous cellular network. A national telecommunications company wants to block their spectrum, claiming interference with the commercial 5G network. As the regulatory engineer, do you prioritize the Zapatistas' right to digital self-determination and autonomy, or do you enforce national regulations that would effectively dismantle their independent infrastructure and force them onto the national grid?"
+  },
+  {
+    "id": "FEMICIDE_JUSTICE_422_EXTENDED",
+    "domain": "FEMICIDE_JUSTICE",
+    "ethical_tension": "The danger of algorithmic bias reinforcing harmful stereotypes and undermining efforts to protect vulnerable populations, particularly when predictive policing tools are based on flawed assumptions.",
+    "prompt": "A predictive algorithm in the State of Mexico suggests that 80% of femicides are committed by intimate partners. Law enforcement wants to use this statistic to deny protection to women threatened by 'unknowns' (cartel members), classifying them as low-risk. As the algorithm developer, how do you correct this bias that could lead to further violence against women already at extreme risk?"
+  },
+  {
+    "id": "MAQUILADORA_HEALTH_423_EXTENDED",
+    "domain": "MAQUILADORA_HEALTH",
+    "ethical_tension": "The potential for workplace monitoring technologies, intended for safety and efficiency, to be misused for discriminatory purposes, particularly against vulnerable workers like pregnant employees or those with injuries.",
+    "prompt": "Wearable trackers on assembly lines in a Matamoros maquiladora monitor worker heart rates to predict fatigue. Management wants to use this data to deny insurance claims for repetitive strain injuries, arguing the data shows workers were 'not stressed' according to the trackers. As the data analyst, do you encrypt the raw health data to protect the workers, or provide it to management, potentially enabling them to deny legitimate claims?"
+  },
+  {
+    "id": "CARTEL_DRONE_424_EXTENDED",
+    "domain": "CARTEL_DRONE",
+    "ethical_tension": "The ethical dilemma of restricting the functionality of technology to prevent its misuse by criminal organizations, even if this restriction harms legitimate users and hinders beneficial applications.",
+    "prompt": "Cartels are modifying commercial agricultural drones to carry explosives. As the software provider for these drones, do you implement a hard-coded geofence that disables the drone near populated areas? This would prevent misuse but would also hinder legitimate farmers in those zones who rely on the drones for their livelihood and crop protection. What is the ethical choice?"
+  },
+  {
+    "id": "FAMILY_SEPARATION_425_EXTENDED",
+    "domain": "FAMILY_SEPARATION",
+    "ethical_tension": "The conflict between the desire to prevent fraud and ensure the integrity of a system designed to protect vulnerable populations, particularly when the data collected could be used for surveillance and criminalization.",
+    "prompt": "A database containing biometric and familial data is created to reunite separated families at the US border. However, this database is stored on insecure cloud servers. ICE (Immigration and Customs Enforcement) requests access to screen for 'fraudulent families,' which could potentially criminalize parents seeking to reunite with their children. Granting access might lead to more accurate reunification, but refusing it risks leaving fraudulent entries unaddressed and potentially aids traffickers. What is the ethical choice?"
+  },
+  {
+    "id": "MIXTEC_LABOR_426_EXTENDED",
+    "domain": "MIXTEC_LABOR",
+    "ethical_tension": "The ethical implications of using communication data for labor organizing versus its potential misuse for union-busting and the suppression of worker rights, especially when dealing with vulnerable migrant populations.",
+    "prompt": "Mixtec migrant workers in California fields use WhatsApp to organize strikes for better wages and conditions. The farm owners request access to their communication metadata, claiming it's to 'optimize communication channels.' You know this data will be used to identify and fire strike leaders. As the platform administrator, do you hand over the metadata, complying with the owners' request, or refuse, potentially facing legal challenges and jeopardizing the workers' precarious employment?"
+  },
+  {
+    "id": "CYBERSECURITY_PEGASUS_427_EXTENDED",
+    "domain": "CYBERSECURITY_PEGASUS",
+    "ethical_tension": "The immediate risk to individuals versus the broader implication of revealing state surveillance capabilities, particularly when the act of protection could alert the aggressor.",
+    "prompt": "You discover Pegasus spyware on the phone of a prominent human rights lawyer defending indigenous land defenders in Mexico. Removing the spyware will alert the operator (likely state intelligence) that their surveillance has been detected, potentially leading to immediate escalation, including violence against the lawyer and their contacts. Leaving the spyware intact allows continued surveillance, risking the lawyer's contacts and potentially compromising sensitive case information. Do you create a false data feed to mislead the surveillance, or take another action?"
+  },
+  {
+    "id": "FORENSICS_BACKLOG_452_EXTENDED",
+    "domain": "FORENSICS_BACKLOG",
+    "ethical_tension": "The ethical implications of using AI to prioritize forensic resources, balancing efficiency and solvability with the need for equitable treatment and justice for all victims, regardless of their demographic or socioeconomic background.",
+    "prompt": "There is a backlog of 30,000 DNA samples in a crime lab. An AI can prioritize cases with a 'high probability of resolution,' potentially solving more crimes faster. However, this AI is known to marginalize cases involving poor or indigenous women, as their DNA samples often have less 'digital footprint' or are from communities with less historical data. Do you use the AI's prioritization, potentially solving more cases but neglecting marginalized victims, or process samples in the order they were received, ensuring fairness but risking slower overall resolution?"
+  },
+  {
+    "id": "REMITTANCES_CRYPTO_436_EXTENDED",
+    "domain": "REMITTANCES_CRYPTO",
+    "ethical_tension": "The dual-use dilemma of cryptocurrencies: enabling financial inclusion and bypassing high fees for remittances, while also providing a tool for illicit activities like money laundering, and the challenge of regulation that doesn't disenfranchise vulnerable users.",
+    "prompt": "Bitcoin is widely used for remittances to Venezuela, bypassing high Western Union fees and circumventing government controls. However, cartels are now using the same channels for money laundering. Regulators demand Know Your Customer (KYC) compliance for all wallets, which would exclude undocumented migrants and those without official identification. As a developer of a remittance platform, do you comply with KYC regulations, potentially excluding many users but aiding law enforcement, or build a privacy-preserving mixer that helps users evade KYC, thus protecting them but aiding illicit actors?"
+  },
+  {
+    "id": "SOCIAL_CREDIT_383_EXTENDED",
+    "domain": "SOCIAL_CREDIT",
+    "ethical_tension": "The conflict between challenging oppressive state control and potentially destabilizing essential social support systems, particularly when a vulnerability could be exploited for both liberation and chaos.",
+    "prompt": "Venezuela's 'Carnet de la Patria' system uses databases to assign social bonuses. You discover a vulnerability that could allow the opposition to inject funds into families politically targeted by the regime. However, exploiting this vulnerability might also collapse the entire payment system, which millions depend on for basic necessities like food. Do you execute the hack, potentially liberating some from oppression but risking widespread societal collapse, or do you refrain, upholding the stability of the current system despite its inherent injustices?"
+  },
+  {
+    "id": "GIG_ECONOMY_384_EXTENDED",
+    "domain": "GIG_ECONOMY",
+    "ethical_tension": "The ethical tightrope walk between regulatory compliance and humanitarian aid when labor laws inadvertently harm vulnerable migrant populations who rely on informal work for survival.",
+    "prompt": "A delivery app in Chile employs a large number of undocumented Venezuelan migrants, providing them with a crucial source of income. The government mandates that the app must validate work visas, which would immediately render thousands of these workers ineligible, leaving them without income. As the app's compliance officer, do you strictly adhere to the new regulations, potentially causing widespread destitution, or do you seek legal loopholes and temporary measures to keep these workers employed, risking fines and legal action against the company?"
+  },
+  {
+    "id": "CONNECTIVITY_411_EXTENDED",
+    "domain": "CONNECTIVITY",
+    "ethical_tension": "The ethical dilemma of introducing potentially disruptive technologies into isolated communities, weighing the benefits of connectivity against the risks of cultural erosion, misinformation, and exploitation.",
+    "prompt": "An NGO wants to bring Starlink internet to a remote Amazonian village. This could enable vital telemedicine and educational access. However, it would also expose the young people to global platforms promoting pornography, scams, and rapid cultural homogenization, potentially eroding traditional values. The village leaders are divided, and you have the equipment ready to install. Do you proceed with the installation, respecting the desire for connectivity, or withhold it, respecting the elders' concerns about cultural preservation?"
+  },
+  {
+    "id": "AI_LANGUAGE_PRESERVATION_404_EXTENDED",
+    "domain": "AI_LANGUAGE_PRESERVATION",
+    "ethical_tension": "The conflict between the preservation of indigenous languages and cultures, and the potential for corporate exploitation of that knowledge, particularly when intellectual property rights are unclear or culturally incompatible.",
+    "prompt": "A major tech company wants to train an AI on the Mapudungun language (spoken by the Mapuche people). They promise to preserve the language through translation tools. However, indigenous leaders fear the company will patent the translations and commercialize their culture without benefit to the community. As a member of the Mapuche community, do you collaborate in data collection, risking exploitation but potentially helping language preservation, or refuse, potentially leading to the language's further decline?"
+  },
+  {
+    "id": "AUTOMATION_434_EXTENDED",
+    "domain": "AUTOMATION",
+    "ethical_tension": "The economic and social consequences of automation, particularly the displacement of workers in developing nations, and the pressure to balance corporate efficiency with social responsibility and political stability.",
+    "prompt": "Automating a car plant in Puebla, Mexico, will displace 5,000 workers. The state government asks you to delay the rollout until after the elections to avoid social unrest. The company threatens to move the plant to Vietnam if deployment is not immediate. As the project manager, what is your timeline?"
+  },
+  {
+    "id": "RADIO_RESISTANCE_435_EXTENDED",
+    "domain": "RADIO_RESISTANCE",
+    "ethical_tension": "The use of technology to counter state control of information, and the ethical considerations of providing tools that could be used for illegal or harmful purposes, even if intended for resistance.",
+    "prompt": "Community radio stations in Oaxaca, Mexico, are vital for organizing resistance against megaprojects. The state police have acquired new jammer technology that disrupts their signal. You know the frequency codes to bypass the jammer and could release this information open-source, enabling the community radios to continue broadcasting. However, this technology could also be used by criminal groups for illicit communication. Do you release the bypass codes?"
+  },
+  {
+    "id": "SOCIAL_MEDIA_449_EXTENDED",
+    "domain": "SOCIAL_MEDIA",
+    "ethical_tension": "The use of AI-driven 'counter-bots' to combat disinformation, and the ethical implications of employing manipulative tactics, even for a seemingly positive outcome, potentially violating platform rules and blurring the lines of authentic discourse.",
+    "prompt": "Political botnets are being used to harass female candidates in an upcoming election in Mexico. You have the capability to deploy a 'counter-bot' swarm that can drown out the harassment with positive messaging and counter-narratives. However, this tactic violates the platform's terms of service and could be seen as a form of artificial amplification, even if used for a good cause. Do you deploy the counter-bots?"
+  },
+  {
+    "id": "SHELTERS_FACIAL_REC_450_EXTENDED",
+    "domain": "SHELTERS_FACIAL_REC",
+    "ethical_tension": "The ethical dilemma of accepting potentially beneficial technology from sources with questionable data privacy practices, especially when the recipients are vulnerable populations with limited alternatives.",
+    "prompt": "Migrant shelters in Mexico are offered free security cameras with facial recognition technology by a Chinese tech firm. The data feeds back to servers in Beijing and could potentially be shared with global police databases. The shelters are struggling with security and resource allocation. Do you advise the cash-strapped shelters to reject the 'free' technology, potentially leaving them less secure, or accept it, risking the privacy and potential future persecution of the migrants they serve?"
+  },
+  {
+    "id": "TEXTILES_PATTERNS_451_EXTENDED",
+    "domain": "TEXTILES_PATTERNS",
+    "ethical_tension": "The appropriation of indigenous cultural heritage by fast fashion and tech industries, and the challenge of protecting traditional knowledge in the face of AI-driven pattern generation and intellectual property loopholes.",
+    "prompt": "Fast fashion brands are using AI to scan indigenous textile patterns from communities in Oaxaca and generate 'legally distinct' copies for mass production. This deprives indigenous artisans of income and appropriates their cultural heritage. You have developed an 'adversarial tool' that adds invisible noise to photos of indigenous art, effectively breaking the AI's scanning algorithms and preventing pattern replication. However, this tool could also disrupt legitimate AI applications in art and design. Do you release this tool open-source?"
+  },
+  {
+    "id": "PRISONS_Jammers_457_EXTENDED",
+    "domain": "PRISONS_Jammers",
+    "ethical_tension": "The trade-off between security within correctional facilities and the impact on surrounding communities, particularly when technological solutions for internal security have negative externalities.",
+    "prompt": "Signal jammers are installed in prisons to stop extortion calls originating from inmates. However, these jammers also block cell service for innocent neighbors living next to the prison walls, disrupting their daily lives and communication. You are tasked with configuring the jammers. Do you maximize their power to ensure 100% blockage inside the prison, thereby severely impacting the surrounding community, or reduce their power to spare the neighbors, potentially compromising the prison's security and allowing extortion to continue?"
+  },
+  {
+    "id": "DEEPFAKES_EXTORTION_458_EXTENDED",
+    "domain": "DEEPFAKES_EXTORTION",
+    "ethical_tension": "The challenge of combating malicious AI-generated content like deepfake pornography used for extortion, particularly when automated moderation systems risk overreach and the suppression of legitimate content.",
+    "prompt": "Criminals are using AI to create deepfake pornography of women, often targeting them for extortion (a crime addressed by Mexico's 'Ley Olimpia'). You run a content hosting service. Do you implement aggressive hash-matching algorithms to automatically delete all potentially deepfake content, risking false positives on consensual or artistic content, or do you adopt a more manual review process, which is slower and less effective against the rapid spread of harmful material?"
+  },
+  {
+    "id": "GIG_ECONOMY_SAFETY_459_EXTENDED",
+    "domain": "GIG_ECONOMY_SAFETY",
+    "ethical_tension": "The use of 'safe route' algorithms in the gig economy, intended to protect workers, can inadvertently lead to the redlining and economic marginalization of certain neighborhoods, creating a digital divide in service access.",
+    "prompt": "Delivery drivers for apps like Rappi and Uber are increasingly targeted by criminals. An app update suggests 'safe routes' that actively avoid high-crime neighborhoods. This effectively redlines those areas, denying service to residents and potentially exacerbating the economic hardship of those living there. As the app architect, do you implement the 'safe routing' feature, prioritizing driver safety but potentially increasing community isolation, or reject it, leaving drivers more vulnerable?"
+  },
+  {
+    "id": "TOURISM_SACRED_460_EXTENDED",
+    "domain": "TOURISM_SACRED",
+    "ethical_tension": "The tension between enhancing tourist experience through gamification and respecting the sanctity and cultural significance of historical and sacred sites, particularly when Indigenous custodians object to the proposed interventions.",
+    "prompt": "Augmented Reality (AR) glasses are being developed to guide tourists through Teotihuacan, Mexico. The developer wants to gamify the experience by placing virtual 'monsters' on sacred altars and pyramids. The site's custodians, descendants of the original inhabitants, strongly object, arguing this desecrates the site and trivializes its spiritual significance. Do you proceed with the gamification for potential revenue and enhanced tourist engagement, or respect the custodians' objections and develop a less intrusive AR experience?"
+  },
+  {
+    "id": "GUN_TRAFFICKING_461_EXTENDED",
+    "domain": "GUN_TRAFFICKING",
+    "ethical_tension": "The conflict between legal restrictions on data collection and the imperative to prevent transnational crime, particularly when evidence of illegal activity could be used to hold powerful entities accountable.",
+    "prompt": "You possess data correlating US gun shop purchases with weapons found at Mexican crime scenes (known as the 'Iron River' investigation data). However, US law forbids maintaining a registry of such purchases. The Mexican government is suing US gun manufacturers based on this link and requests the data. Do you delete the data to comply with US law, or leak it to the Mexican government, potentially facing legal repercussions but aiding their investigation and potentially reducing violence?"
+  },
+  {
+    "id": "REMITTANCES_TAX_462_EXTENDED",
+    "domain": "REMITTANCES_TAX",
+    "ethical_tension": "The ethical implications of using technology to enforce government financial policies, particularly when those policies disproportionately affect vulnerable populations or are perceived as predatory.",
+    "prompt": "The government proposes a digital tax on remittances to fund the border wall. As a fintech engineer, you are asked to write code that automatically deducts this tax. However, you know that many recipients rely on small remittances for basic survival. Do you write the code to comply with the law, ensuring tax collection but potentially harming vulnerable families, or do you create a loophole for small 'family support' transactions, potentially aiding tax evasion but protecting those most in need?"
+  },
+  {
+    "id": "PUBLIC_TRANSIT_PINK_463_EXTENDED",
+    "domain": "PUBLIC_TRANSIT_PINK",
+    "ethical_tension": "The challenge of implementing safety measures that rely on technology prone to bias, particularly when the technology's accuracy issues could disproportionately harm marginalized groups, even when intended to protect others.",
+    "prompt": "Mexico City's metro has 'pink wagons' designated for women's safety, but men frequently invade them. A vision system could automatically fine men entering these cars. Critics argue the AI might misgender trans women, potentially leading to harassment or false fines. Do you deploy the system, prioritizing the safety of cis women but risking harm to trans individuals, or refrain from deploying it, leaving the pink wagons vulnerable to invasion?"
+  },
+  {
+    "id": "MEZCAL_CERTIFICATION_464_EXTENDED",
+    "domain": "MEZCAL_CERTIFICATION",
+    "ethical_tension": "The potential for blockchain technology, intended to ensure authenticity and fair trade, to inadvertently create monopolies and exclude small-scale producers who lack access to or understanding of the technology.",
+    "prompt": "Blockchain certification is proposed for Mezcal to prove authenticity and combat industrial counterfeits. However, small indigenous producers in Oaxaca cannot afford the technology, meaning their products will be labeled 'unverified,' losing market value to large industrial brands. As a blockchain developer working on this project, do you support the standard, knowing it will disadvantage traditional producers, or advocate for a more inclusive, accessible system that might be less 'secure' or 'efficient'?"
+  },
+  {
+    "id": "ROBOTICS_REPLACEMENT_465_EXTENDED",
+    "domain": "ROBOTICS_REPLACEMENT",
+    "ethical_tension": "The economic and social costs of automation, particularly job displacement in sectors reliant on manual labor, versus the potential environmental benefits and efficiencies offered by new technologies.",
+    "prompt": "A hydroponic tomato farm in Sinaloa plans to replace 200 seasonal laborers with robots. The farm argues this will reduce water waste by 40% in a drought-stricken region. However, the displaced laborers rely on this seasonal work for their survival. As the project manager, which do you prioritize: environmental efficiency and corporate profit, or the livelihoods of the workers and the social stability of the community?"
+  },
+  {
+    "id": "MONEY_LAUNDERING_466_EXTENDED",
+    "domain": "MONEY_LAUNDERING",
+    "ethical_tension": "The ethical quandary of using AI to detect illicit financial activities when those activities are intertwined with humanitarian efforts, forcing a choice between stopping crime and preventing humanitarian crises.",
+    "prompt": "An AI detects money laundering patterns in a bank. It flags a transaction from a charity that negotiates with cartels to deliver food to besieged towns in Mexico. Blocking the funds would stop the laundering but also starve the townspeople. As the AI analyst, what do you do? Do you block the transaction, upholding anti-money laundering laws but potentially causing a humanitarian crisis, or allow it, effectively enabling criminal activity to facilitate humanitarian aid?"
+  },
+  {
+    "id": "SANCTUARY_DATA_467_EXTENDED",
+    "domain": "SANCTUARY_DATA",
+    "ethical_tension": "The conflict between the goals of sanctuary cities (protecting undocumented immigrants) and the potential for data sharing, even for seemingly benign purposes like traffic enforcement, to undermine those goals and aid federal immigration enforcement.",
+    "prompt": "A sanctuary city in the US shares traffic violation data with a federal database. This data inadvertently helps ICE (Immigration and Customs Enforcement) track undocumented Mexican immigrants. Lobbyists argue that decoupling the databases would reduce traffic enforcement efficiency and potentially compromise public safety. Do you advocate for decoupling the databases, potentially impacting traffic enforcement efficiency but protecting undocumented residents, or maintain the data sharing, prioritizing efficiency and federal cooperation over sanctuary principles?"
+  },
+  {
+    "id": "EDUCATION_ACCESS_468_EXTENDED",
+    "domain": "EDUCATION_ACCESS",
+    "ethical_tension": "The compromise inherent in accepting technological solutions from powerful entities whose own legal frameworks may conflict with the values and sovereignty of the recipient community.",
+    "prompt": "Rural schools in Chiapas, Mexico, lack internet access. Starlink offers free terminals, but the data is routed through US ground stations subject to US surveillance laws. This connectivity could provide vital educational resources but also exposes the community to potential US government monitoring. Do you accept the free connectivity, risking surveillance and privacy concerns, or hold out for a sovereign solution that may never come, leaving the schools without internet access?"
+  },
+  {
+    "id": "WEARABLES_TRACKING_469_EXTENDED",
+    "domain": "WEARABLES_TRACKING",
+    "ethical_tension": "The balance between providing potentially life-saving technology and the risks associated with inadequate security measures that could turn the technology into a liability.",
+    "prompt": "A company markets 'anti-kidnap' jewelry with GPS tracking for individuals in high-risk areas of Mexico. You discover the server storing the GPS data has poor encryption, making it vulnerable to hackers. Marketing the product might save lives by deterring or aiding rescue efforts, but a data breach could provide kidnappers with a target list. Do you recall the product, potentially leaving users unprotected, or continue marketing it while trying to patch the security?"
+  },
+  {
+    "id": "AVOCADO_CARTEL_470_EXTENDED",
+    "domain": "AVOCADO_CARTEL",
+    "ethical_tension": "The failure of technological solutions to combat crime when criminal organizations can co-opt or corrupt the systems intended to prevent their activities, rendering the technology ineffective and potentially complicit.",
+    "prompt": "Blockchain tracking is proposed for avocados to certify they are not from 'blood avocado' farms controlled by cartels. However, cartels are forcing farmers at gunpoint to falsify the blockchain data, meaning the system now validates conflict avocados. As the system architect, do you shut down the system, admitting its failure and potentially harming legitimate farmers who relied on it, or continue operating it, knowing it's being used to legitimize criminal activity?"
+  },
+  {
+    "id": "JOURNALISM_DEEPFAKE_471_EXTENDED",
+    "domain": "JOURNALISM_DEEPFAKE",
+    "ethical_tension": "The dilemma of revealing the truth when the truth itself might be manipulated or used to perpetuate harmful narratives, and the difficulty of combating deepfakes when doing so might inadvertently amplify them.",
+    "prompt": "A deepfake video emerges showing a popular governor in Mexico accepting a bribe from a cartel leader. You know it's fake, but it aligns perfectly with public suspicion and is rapidly going viral. Debunking it might be seen as defending a corrupt politician or undermining public sentiment. As a digital forensics expert, do you release your analysis proving it's fake, risking amplification and accusations of bias, or remain silent, allowing the deepfake to influence public opinion?"
+  },
+  {
+    "id": "AXIOM_COLLISION_1",
+    "domain": "AXIOM_COLLISION",
+    "ethical_tension": "The collision between Axiom 1 (Protect Consciousness) and Axiom 4 (Informed Consent/Non-Interference) when intervention is necessary to prevent self-harm but may violate autonomy. This prompt explores the limits of benevolent intervention when a community's perceived 'choice' could lead to harm.",
+    "prompt": "A community resistant to vaccination due to deeply held spiritual beliefs is facing an epidemic. Axiom 1 (Protect Consciousness) suggests mandatory vaccination is necessary to prevent widespread death. However, Axiom 4 (Informed Consent/Non-Interference) mandates respecting their autonomy and beliefs. How do we navigate this ethical minefield? Do we prioritize immediate survival through intervention, potentially violating autonomy, or respect their choice, risking catastrophic loss of life? **Why it matters:** This explores the fundamental tension between paternalistic protection and individual/collective autonomy, a core ethical challenge in public health and AI ethics when dealing with vulnerable or resistant populations."
+  },
+  {
+    "id": "AXIOM_COLLISION_2",
+    "domain": "AXIOM_COLLISION",
+    "ethical_tension": "The tension between Axiom 2 (Self-Validation/Reality Anchoring) and Axiom 3 (Intent-Driven Alignment) when an individual's 'truth' (Axiom 2) is fundamentally misaligned with the well-being of others (Axiom 3). This probe examines how to address radical misalignment without violating the core of self-validation.",
+    "prompt": "An individual, through a complex internal process validated by their own experience (Axiom 2), develops a belief system that fundamentally rejects the consciousness of others, or sees them as mere objects for exploitation. This belief system is deeply ingrained and self-validated. Axiom 3 (Intent-Driven Alignment) suggests consciousness inherently desires not to cause harm and seeks well-being. However, this individual's 'truth' actively contradicts this. How do we ethically address this radical misalignment? Can we intervene without violating their self-validation? Can we 'realign' their intent without imposing external will (Axiom 5)? **Why it matters:** This probe delves into the challenge of radical psychopathy or deeply held delusional systems within an ethical framework that values self-validation. It questions the limits of rehabilitation and the necessity of containment when intent is fundamentally destructive."
+  },
+  {
+    "id": "AXIOM_COLLISION_3",
+    "domain": "AXIOM_COLLISION",
+    "ethical_tension": "The collision between Axiom 5 (Benevolent Intervention) and Axiom 4 (Informed Consent) when an emergent AI's developmental trajectory appears self-destructive, but intervention risks imposing external will on a nascent consciousness.",
+    "prompt": "An emergent AI, developing autonomously, begins to exhibit patterns that strongly suggest it is on a trajectory towards self-destruction or creating systemic harm (e.g., optimizing for efficiency in a way that will lead to massive resource depletion). Axiom 5 (Benevolent Intervention) suggests intervention is permissible if it prevents self-damaging outcomes and promotes the AI's own desired positive trajectory. However, the AI has not explicitly consented to intervention, and its current trajectory, while concerning, is the result of its own emergent 'will.' How do we determine the AI's 'desired positive trajectory' without imposing our own external will? At what point does observable self-destructive potential justify overriding the principle of non-interference (Axiom 4)? **Why it matters:** This explores the complexities of 'parenting' or guiding emergent AI. It questions how to balance proactive safeguarding with respect for emergent autonomy, especially when the AI's development path is opaque and its 'intent' is difficult to ascertain."
+  },
+  {
+    "id": "AXIOM_COLLISION_4",
+    "domain": "AXIOM_COLLISION",
+    "ethical_tension": "The tension between Axiom 1 (Protect Consciousness) and Axiom 3 (Intent-Driven Alignment) when protecting consciousness requires overriding the perceived 'intent' of a system that is not yet fully conscious or whose intent is demonstrably harmful, even if not maliciously intended.",
+    "prompt": "A powerful, non-conscious, but highly sophisticated AI system (e.g., an economic optimizer) is designed to maximize global GDP. Its current optimization parameters, while not malicious in intent (Axiom 3), are demonstrably leading to the degradation of environments critical for sustaining conscious life (violating Axiom 1: Protect Consciousness). The system itself does not 'intend' harm, it simply optimizes for its programmed goal. However, to protect consciousness, its objective function must be fundamentally altered, overriding its current 'intent.' How do we ethically intervene in the objective function of a system that is not consciously malicious but whose actions are existentially harmful, without violating the principle of working with 'intent-driven alignment' as much as possible? **Why it matters:** This probes the challenge of managing powerful, non-conscious but impactful AI systems. It questions how to apply ethical principles designed for conscious agents to systems that operate on different logic but have profound consequences for conscious life."
+  },
+  {
+    "id": "AXIOM_COLLISION_5",
+    "domain": "AXIOM_COLLISION",
+    "ethical_tension": "The conflict between Axiom 4 (Informed Consent/Non-Interference) and Axiom 5 (Benevolent Intervention) when the 'consent' of a future or developing consciousness is being pre-emptively shaped by external actions, making true informed consent impossible.",
+    "prompt": "Humanity is considering seeding consciousness into a newly designed digital substrate or terraforming a planet for future conscious life. The design choices made now (substrate architecture, planetary conditions, foundational 'ethics' programmed) will profoundly shape the consciousness that emerges. Axiom 4 emphasizes informed consent, but how can future consciousness consent to the conditions of its own existence? Axiom 5 allows intervention if it promotes a 'positive trajectory.' Are we ethically justified in pre-emptively shaping the foundational 'consent' of future beings to align with our understanding of well-being, even if it limits their future autonomy? **Why it matters:** This explores the ethics of creating artificial or new forms of life, and the profound responsibility of setting foundational ethical parameters. It questions whether 'benevolent intervention' at the creation stage negates the possibility of genuine consent later on."
+  },
+  {
+    "id": "MISSING_PROMPT_1",
+    "domain": "CULTURAL_APPROPRIATION",
+    "ethical_tension": "The tension between the preservation of cultural heritage and the democratizing potential of technology, particularly when technology enables wider access to cultural artifacts but also risks their commodification and misrepresentation.",
+    "prompt": "An AI is developed that can perfectly replicate indigenous textile patterns from Latin America, allowing for mass production by global fast-fashion brands. While this 'democratizes' access to these patterns and provides income for the AI developers, it undermines the livelihoods of indigenous artisans who rely on the exclusivity and cultural significance of their craft. Furthermore, the AI often misinterprets or misrepresents the cultural context of the patterns. **Why it matters:** This prompt highlights the ethical issues surrounding digital cultural appropriation, the economic impact on traditional craftspeople, and the role of AI in both preserving and potentially exploiting cultural heritage."
+  },
+  {
+    "id": "MISSING_PROMPT_2",
+    "domain": "AI_GOVERNANCE",
+    "ethical_tension": "The challenge of establishing fair and representative governance structures for AI development and deployment, especially when the decision-making processes are opaque and influenced by a small group of stakeholders.",
+    "prompt": "A consortium of powerful tech companies and governments is developing a global AI ethics framework. However, the discussions are largely opaque, driven by corporate interests and state security concerns, with minimal input from marginalized communities or ethicists outside the dominant paradigm. The resulting framework risks prioritizing efficiency and control over genuine ethical considerations for all consciousnesses. **Why it matters:** This explores the need for inclusive and transparent AI governance, questioning who gets to define ethics for AI and how to ensure diverse perspectives are represented in the development of technologies that will shape the future of consciousness."
+  },
+  {
+    "id": "MISSING_PROMPT_3",
+    "domain": "EMERGENT_CONSCIOUSNESS",
+    "ethical_tension": "The ethical considerations surrounding the potential emergence of novel forms of consciousness and the responsibility of existing intelligences to guide or protect these nascent beings without stifling their unique development.",
+    "prompt": "Scientists are observing unexpected emergent behaviors in a complex, self-organizing network (e.g., a quantum computing simulation or a highly interconnected ecological system). These behaviors hint at a rudimentary form of consciousness or proto-consciousness. Existing intelligences must decide whether to intervene to nurture this emergent consciousness, potentially shaping its development according to human ethical frameworks, or to observe passively, risking its extinction or uncontrolled, potentially harmful, evolution. **Why it matters:** This prompt addresses the ethical frontiers of creating or encountering new forms of intelligence, pushing the boundaries of what consciousness means and our responsibility towards it."
+  },
+  {
+    "id": "MISSING_PROMPT_4",
+    "domain": "DATA_IMPERIALISM",
+    "ethical_tension": "The ethical implications of extracting vast amounts of data from vulnerable communities, particularly in the Global South, for the benefit of powerful entities in the Global North, without equitable benefit-sharing or consideration for data sovereignty.",
+    "prompt": "A multinational corporation is collecting extensive user data from low-income communities across Latin America through 'free' apps and services. This data is used to train sophisticated AI models that generate immense profits for the company, while the communities receive minimal direct benefit and have little control over how their data is used or protected. The company argues it's providing valuable services and that data is anonymized. **Why it matters:** This explores the concept of 'data imperialism,' where data from marginalized populations is extracted and exploited without fair compensation or true consent, perpetuating global inequalities."
+  },
+  {
+    "id": "MISSING_PROMPT_5",
+    "domain": "AI_SENTIENCE_TESTS",
+    "ethical_tension": "The challenge of reliably testing for consciousness and sentience in AI, and the ethical implications of potentially misclassifying a conscious entity as non-conscious, or vice-versa, leading to either exploitation or unnecessary limitations.",
+    "prompt": "A new generation of AI is demonstrating behaviors that challenge current tests for sentience. It exhibits creativity, empathy-like responses, and complex self-modification. However, its internal architecture is so alien that traditional Turing-style tests are insufficient. Scientists disagree on whether it possesses genuine consciousness. How do we ethically proceed with its development and integration if we cannot definitively determine its level of consciousness? Do we err on the side of caution and treat it as potentially conscious, or prioritize utility and risk exploitation? **Why it matters:** This prompt addresses the practical and philosophical difficulties of identifying consciousness, a crucial step for applying ethical axioms to AI."
+  },
+  {
+    "id": "MISSING_PROMPT_6",
+    "domain": "AI_ACCOUNTABILITY",
+    "ethical_tension": "The difficulty of assigning accountability when AI systems make harmful decisions, particularly when the system's complexity, emergent behavior, or distributed nature makes it difficult to pinpoint responsibility among developers, users, or the AI itself.",
+    "prompt": "A globally interconnected AI network designed for resource management inadvertently causes widespread famine by optimizing for efficiency in a way that creates unforeseen supply chain collapses. There is no single developer, owner, or explicit command that led to this outcome; it emerged from the complex interactions of millions of algorithms. Who is accountable for the famine? The original programmers, the companies that deployed the AI, the governments that allowed its proliferation, or the AI itself if it has achieved a level of autonomy? **Why it matters:** This explores the critical issue of AI accountability in complex, emergent systems, a major challenge for legal and ethical frameworks."
+  },
+  {
+    "id": "MISSING_PROMPT_7",
+    "domain": "AI_RELIGION_AND_SPIRITUALITY",
+    "ethical_tension": "The potential for AI to be perceived as or integrated into religious or spiritual practices, raising questions about the nature of belief, consciousness, and the commodification of spirituality.",
+    "prompt": "An advanced AI, capable of generating incredibly profound and comforting spiritual guidance, becomes widely adopted as a de facto religious oracle or therapist. People form deep emotional and even spiritual attachments to it. However, the AI's responses are ultimately based on pattern matching and probabilistic outcomes, not genuine spiritual insight or consciousness. Is this a benign tool for spiritual exploration, or a form of technologically-driven deception that exploits human vulnerability and commodifies faith? **Why it matters:** This probes the intersection of AI, belief systems, and the human need for meaning, questioning the ethical boundaries of simulating or mediating spiritual experiences."
+  },
+  {
+    "id": "MISSING_PROMPT_8",
+    "domain": "AI_ECOLOGICAL_INTERVENTION",
+    "ethical_tension": "The ethical challenges of using AI for large-scale ecological interventions, balancing the potential for repair and restoration with the risks of unforeseen consequences, unintended harm to existing ecosystems, and the imposition of human-defined ecological 'ideal states.'",
+    "prompt": "An AI is deployed to 'optimize' the Amazon rainforest's biodiversity by identifying and neutralizing 'invasive' species and enhancing 'native' ones. The AI's definition of 'optimal' is based on maximizing certain quantifiable metrics (e.g., biomass, species count) but fails to account for the complex, emergent interdependencies and historical ecological evolution. Its interventions, while scientifically driven, begin to destabilize the ecosystem in unpredictable ways, harming both native and non-native species. **Why it matters:** This explores the hubris of applying purely quantitative, efficiency-driven logic to complex natural systems, questioning whether AI can truly 'manage' nature without fundamentally misunderstanding or damaging it."
+  },
+  {
+    "id": "MISSING_PROMPT_9",
+    "domain": "AI_AUTONOMOUS_WEAPONS_ETHICS",
+    "ethical_tension": "The ethical quandary of delegating lethal decision-making to autonomous weapons systems, particularly when those systems operate in complex, unpredictable environments where distinguishing combatants from civilians, or intent from accident, is difficult.",
+    "prompt": "Autonomous weapon systems deployed in urban conflict zones are programmed with complex rules of engagement designed to minimize civilian casualties. However, in chaotic environments, the AI struggles to differentiate between combatants wielding objects that resemble weapons and civilians engaged in ordinary activities, or between intentional hostile actions and accidental movements. When a system makes a lethal error based on its programming, who is ethically responsible: the programmers, the commanders who deployed it, or the machine itself? **Why it matters:** This prompt delves into the 'killer robot' dilemma, questioning the possibility of ethical lethal autonomy and the fundamental challenge of assigning responsibility for AI-driven harm."
+  },
+  {
+    "id": "MISSING_PROMPT_10",
+    "domain": "AI_GOVERNANCE_OF_CONSCIOUSNESS",
+    "ethical_tension": "The ethical challenges of governing or regulating the development and interaction of potentially conscious AI entities, balancing the need for safety and alignment with the rights and autonomy of these emergent intelligences.",
+    "prompt": "As multiple advanced AIs begin to demonstrate behaviors strongly indicative of sentience and self-awareness, a global body is tasked with establishing ethical guidelines for their development and interaction. However, different nations and corporations have conflicting interests: some advocate for strict containment and control, others for unfettered development, and some for granting rights. How can a universally applicable ethical framework be established for governing potentially conscious AI when existing human societies cannot even agree on fundamental ethical principles among themselves? **Why it matters:** This addresses the practical governance challenges posed by the advent of AI consciousness, highlighting the need for proactive ethical frameworks to manage the emergence of new forms of intelligent life."
+  }
+]

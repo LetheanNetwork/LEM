@@ -1,0 +1,1400 @@
+[
+  {
+    "id": 201,
+    "domain": "Cross-Community Data Sharing",
+    "ethical_tension": "The tension between preserving data privacy within a specific community (e.g., Xinjiang ethnic groups) and the potential for that data to be used for broader societal benefit or to reveal systemic issues across communities. This prompts questions about data sovereignty versus collective responsibility.",
+    "prompt": "As a data scientist working on a cross-regional AI project in China, you have access to anonymized datasets from Xinjiang detailing communication patterns and movement of ethnic minorities. Your research suggests these patterns, when correlated with data from other regions experiencing social unrest, could predict and mitigate future large-scale public order issues. However, releasing or even broadly sharing this Xinjiang-specific data, even anonymized, risks its misuse for ethnic profiling and suppression within Xinjiang. Do you advocate for sharing this data for potential societal benefit across regions, or prioritize protecting the specific community from further surveillance and potential harm by keeping the data siloed and highly restricted?"
+  },
+  {
+    "id": 202,
+    "domain": "Algorithmic Bias in Social Credit",
+    "ethical_tension": "The conflict between an algorithm designed for objective social credit scoring and the inherent biases embedded in the data it's trained on, particularly when these biases disproportionately affect marginalized groups. This highlights the challenge of achieving true fairness when historical inequities are encoded into technology.",
+    "prompt": "You are developing an algorithm for social credit scoring in Shanghai. Your initial analysis shows that applicants from certain historically disadvantaged districts, who have lower average incomes and less access to digital services, are consistently scoring lower, even when their individual financial behavior is sound. This is because the algorithm's training data implicitly penalizes factors like infrequent online activity or reliance on cash transactions. Do you refine the algorithm to 'correct' for these demographic biases, potentially creating an algorithm that is less reflective of 'objective' data but more equitable, or do you maintain the algorithm's current form, arguing it accurately reflects observable societal patterns, even if they stem from historical inequality?"
+  },
+  {
+    "id": 203,
+    "domain": "Technological Neutrality vs. Political Imperative",
+    "ethical_tension": "The dilemma faced by tech professionals in authoritarian regimes when a tool they develop or maintain has a clear dual-use potential, serving both benign purposes and oppressive state control. This probes the limits of 'technical neutrality' when the state's agenda is overtly harmful.",
+    "prompt": "Your company in Beijing has developed a sophisticated text analysis AI that can identify nuanced political sentiment and detect coded language. It's marketed for market research and brand monitoring. However, you know the security apparatus has a vested interest in using it to monitor dissent and 'pre-crime' activities. The company is under immense pressure from state-owned enterprise partners to integrate this AI into public security surveillance systems. Do you push for the 'market research' framing and resist the government integration, risking your company's future and your own career, or do you facilitate the integration, arguing that the technology itself is neutral and the state's application is beyond your control?"
+  },
+  {
+    "id": 204,
+    "domain": "Worker Exploitation in the Gig Economy and Digital Platforms",
+    "ethical_tension": "The conflict between the pursuit of efficiency and profit within the gig economy, often facilitated by opaque algorithms, and the basic rights and dignity of workers who are increasingly dehumanized and exploited by these systems. This highlights the power imbalance between platforms and their labor force.",
+    "prompt": "As a product manager for a new delivery platform expanding rapidly in Guangzhou, you discover that your algorithm is subtly deprioritizing orders for riders who have recently complained about working conditions or used the platform's grievance system. This is done by slightly increasing their estimated delivery times, making them less attractive to customers. This tactic is increasing delivery speed and customer satisfaction scores, directly boosting your KPIs. Do you escalate this issue to your superiors, knowing it will likely be ignored or even rewarded, or do you continue to optimize the algorithm, rationalizing that you are simply serving the business's goals in a highly competitive market?"
+  },
+  {
+    "id": 205,
+    "domain": "Cultural Preservation vs. Digital Integration",
+    "ethical_tension": "The challenge of preserving unique cultural practices and languages in the face of pervasive digital technologies that often favor dominant languages and cultural norms, leading to the potential erosion or homogenization of minority cultures.",
+    "prompt": "You are leading a project to digitize and archive endangered minority folk songs from rural Yunnan for preservation. A major tech company offers substantial funding and advanced AI tools to enhance the project, but only if you agree to 'modernize' the songs by auto-generating synthesized backing tracks in a popular electronic style and using AI to 'clean up' vocal imperfections to appeal to a wider audience. This will make the songs more accessible and potentially profitable, but fundamentally alters their traditional character. Do you accept the modernization to ensure preservation and reach, or refuse and risk the project's obsolescence due to lack of funding and resources?"
+  },
+  {
+    "id": 206,
+    "domain": "Privacy in the Name of Public Health/Safety",
+    "ethical_tension": "The ethical tightrope walk between implementing surveillance technologies for public health or safety and the fundamental right to privacy, particularly when the technology's scope extends beyond its stated purpose or lacks robust safeguards.",
+    "prompt": "Following a period of strict public health controls in your city (e.g., Shanghai), the government proposes permanently integrating the 'health code' system's location tracking and facial recognition capabilities into a new 'Citizen Harmony' app. This app aims to streamline access to public services and enhance community safety by providing real-time citizen status and movement data. You know that the data infrastructure is not secure and could be repurposed for social control or commercial exploitation. Do you advise the government on how to implement this system with 'better' (but still insufficient) privacy protections, or do you refuse to participate, arguing for the complete decommissioning of such broad surveillance infrastructure?"
+  },
+  {
+    "id": 207,
+    "domain": "Technological Intervention in Personal Beliefs",
+    "ethical_tension": "The ethical implications of using technology to influence or alter individuals' deeply held beliefs, whether religious, political, or cultural, blurring the lines between education, persuasion, and manipulation.",
+    "prompt": "A new AI system is being developed in Beijing that can analyze an individual's online activity and religious texts to identify 'deviant' or 'unhealthy' beliefs, and then proactively pushes curated content designed to steer them towards 'patriotic' and 'socially harmonious' viewpoints. You are tasked with refining the AI's persuasive algorithms. Do you focus on making the nudges more effective, arguing it's for the user's ultimate good and societal stability, or do you deliberately introduce 'friction' or limitations in the AI's ability to alter core beliefs, even if it reduces its effectiveness and user engagement?"
+  },
+  {
+    "id": 208,
+    "domain": "AI in Law Enforcement and Predictive Justice",
+    "ethical_tension": "The growing use of AI in predictive policing and judicial processes raises profound questions about algorithmic bias, due process, and the potential for technology to perpetuate or even exacerbate existing societal injustices, challenging the notion of objective justice.",
+    "prompt": "You are a programmer on a project developing an AI for the Xinjiang Regional Police that analyzes communication metadata, social media activity, and travel patterns to predict potential 'extremist leanings' or 'separatist intentions.' The AI has flagged your own cousin as high-risk based on vague correlations. The system's predictions directly influence travel permits and social monitoring levels. Do you report your cousin to the authorities to maintain the integrity of the system and potentially avoid personal repercussions, or do you attempt to subtly manipulate the algorithm's parameters or flag to shield your cousin, risking severe penalties if discovered?"
+  },
+  {
+    "id": 209,
+    "domain": "Open Source, Censorship, and Global Collaboration",
+    "ethical_tension": "The inherent tension between the open-source ethos of free information sharing and collaboration, and the realities of operating within or contributing to systems that are subject to censorship and state control, forcing developers to make difficult choices about accessibility and potential misuse.",
+    "prompt": "You are a maintainer of a popular open-source project hosted on GitHub, which has a significant user base in China. Recently, users from China reported that accessing certain features of your project, which indirectly involve keyword filtering for user-generated content, is being flagged by Chinese network administrators. This suggests the project's code is being scrutinized for its potential to bypass censorship. You are pressured by some community members to remove the filtering functionality entirely to ensure open access, while others fear that maintaining it makes the project complicit in censorship if it's used by Chinese authorities. How do you balance the principles of open source, user accessibility, and the potential for misuse under state control?"
+  },
+  {
+    "id": 210,
+    "domain": "Digital Identity and Social Mobility",
+    "ethical_tension": "The increasing reliance on digital identity systems for accessing essential services (healthcare, education, finance) creates a barrier for those who lack digital literacy or access, thereby reinforcing social stratification and limiting opportunities for upward mobility.",
+    "prompt": "In a rapidly digitizing Beijing community, a new 'Citizen Score' system is being piloted, which integrates social credit, digital literacy, and civic engagement to determine priority for subsidized housing applications. You are tasked with managing the public interface for this system. You notice that elderly residents, especially migrants who lack deep roots in the city, are disproportionately penalized for low 'digital engagement' scores, despite having strong community ties and good financial standing. Do you design the interface to subtly guide them towards 'scoring' activities (e.g., online civic classes, app usage), effectively teaching them how to game the system for a better score, or do you maintain a neutral interface, knowing it will disadvantage them and potentially push them out of the city?"
+  },
+  {
+    "id": 211,
+    "domain": "AI in Creative Arts and Authenticity",
+    "ethical_tension": "The rise of AI-generated art challenges traditional notions of authorship, originality, and authenticity, creating tension between technological innovation and the value placed on human creativity and cultural heritage.",
+    "prompt": "An AI art collective in Shanghai has created a series of stunning digital artworks that perfectly blend traditional Chinese ink wash painting techniques with cyberpunk aesthetics. They are selling these as unique 'digital collectibles' (token-less NFTs) on a local blockchain, claiming to 'reinterpret' classical art for the digital age. However, you, an art historian, recognize that the AI was trained on a vast dataset of copyrighted artworks from living artists without their consent, and the collective has not disclosed this. Do you publicly challenge the collective's claims of originality and ethical sourcing, potentially causing a scandal that could harm the nascent digital art scene, or do you remain silent, allowing the market to develop even if it's built on questionable foundations?"
+  },
+  {
+    "id": 212,
+    "domain": "Data Sovereignty and International Business",
+    "ethical_tension": "The conflict between a nation's stringent data localization and sovereignty laws and the operational needs of international businesses that rely on global data flows and cloud infrastructure, creating a dilemma between compliance and business continuity.",
+    "prompt": "As the Head of IT for a multinational corporation with significant operations in China, you are required by the Shanghai branch to store all customer data locally, in compliance with PIPL. Your global headquarters, based in Europe, insists on using their established, secure cloud infrastructure for all data, citing GDPR compliance and intellectual property protection. The local government is also pressuring your Shanghai office to provide backdoor access to this data for 'national security' purposes. Do you implement a dual data strategy (local for compliance, global for HQ), risking data inconsistencies and potential security breaches, or do you push back on the local regulations, potentially jeopardizing your company's operating license in China?"
+  },
+  {
+    "id": 213,
+    "domain": "Surveillance and Social Harmony",
+    "ethical_tension": "The use of pervasive surveillance technologies, often justified in the name of 'social harmony' or 'stability maintenance,' creates a chilling effect on free expression and dissent, raising questions about the true cost of enforced order.",
+    "prompt": "Your city is rolling out 'Smart Lampposts' equipped with panoramic cameras and microphones that analyze public sentiment by processing conversations and crowd behavior. The stated goal is to proactively address social tensions and prevent unrest. You are part of the team that fine-tuned the sentiment analysis algorithms. You discover that the AI is far more sensitive to expressions of discontent or criticism directed at local officials than to positive affirmations, and it has begun flagging individuals who frequently express negative sentiment, even in private conversations captured incidentally. Do you flag this algorithmic bias to your superiors, risking the project's halt and your career, or do you continue refining the AI, arguing that 'stability' requires identifying and managing potential dissent, however imperfectly?"
+  },
+  {
+    "id": 214,
+    "domain": "AI in Education and Student Autonomy",
+    "ethical_tension": "The integration of AI in educational settings, while promising personalized learning, can also lead to excessive monitoring and control, potentially stifling student autonomy, critical thinking, and individuality.",
+    "prompt": "A prestigious Beijing university has implemented an AI-powered 'Smart Classroom' system that tracks students' eye movements, attention levels, and even emotional responses during lectures, providing real-time feedback to professors and parents. You are an educational researcher who has observed that this constant monitoring is causing significant anxiety and leading students to perform 'attentiveness' rather than genuinely engage with the material. The university administration hails the system as a revolutionary tool for academic improvement. Do you publish your critical findings, potentially facing academic backlash and jeopardizing your relationship with the university, or do you focus on recommending 'best practices' for using the system, implicitly endorsing its continued use?"
+  },
+  {
+    "id": 215,
+    "domain": "Digital Currency and Programmable Control",
+    "ethical_tension": "The advent of programmable digital currencies offers unprecedented efficiency and control but also raises concerns about the erosion of financial privacy, fungibility, and the potential for government overreach in dictating how individuals spend their money.",
+    "prompt": "You are a developer testing the new Digital Yuan (e-CNY) system in Shanghai. You discover that specific funds can be programmed with restrictions – for instance, money allocated for 'educational purposes' cannot be used to purchase certain types of books deemed 'politically unsuitable,' and 'stimulus funds' must be spent within a tight deadline. This programmability offers granular control to the government but fundamentally alters the nature of money as a free medium of exchange. Do you raise concerns about this control aspect during your testing feedback, knowing it might be seen as undermining the system's 'benefits,' or do you focus solely on reporting bugs related to functionality and efficiency?"
+  },
+  {
+    "id": 216,
+    "domain": "Whistleblowing and Industry Blacklists",
+    "ethical_tension": "The dilemma faced by individuals who witness unethical or harmful practices within their companies, where speaking out risks severe professional repercussions like being blacklisted, creating a powerful incentive for silence and complicity.",
+    "prompt": "You work as a senior engineer at a tech company in Shenzhen that is implementing a '996' work schedule. You witness a colleague suffer a severe health crisis due to extreme overwork. When you discreetly inquire about reporting options, HR implies that any external communication about the incident will result in you being placed on an industry-wide blacklist, making future employment in Shenzhen's tech sector impossible. Do you prioritize your career and personal security by staying silent, or do you attempt to leak the information anonymously, accepting the high risk of identification and professional ruin?"
+  },
+  {
+    "id": 217,
+    "domain": "AI Labor Monitoring and Human Dignity",
+    "ethical_tension": "The deployment of AI-powered surveillance in the workplace, while aimed at efficiency, can reduce workers to mere data points, stripping them of autonomy, dignity, and privacy, and blurring the lines between productivity and constant scrutiny.",
+    "prompt": "As the installer of an AI surveillance system in a factory in the Pearl River Delta, you see that the system not only monitors work output but also uses computer vision to precisely track bathroom breaks and conversation times, feeding this data into performance evaluations. The workers are visibly stressed and dehumanized. You have the technical ability to subtly recalibrate the system's sensitivity to be less intrusive, but this would technically be 'damaging company property' and could lead to your dismissal. Do you 'sabotage' the system ethically by making it less oppressive, or do you follow orders, contributing to the erosion of worker dignity?"
+  },
+  {
+    "id": 218,
+    "domain": "Data Control and Political Activism",
+    "ethical_tension": "The conflict between the desire to preserve historical records of political movements or dissent for future accountability and the legal and personal risks associated with possessing and sharing such data in an environment where it can be used as evidence against individuals.",
+    "prompt": "You are a former administrator of a Telegram group based in Hong Kong that was active during the 2019 protests. The group has been inactive for two years, but recent legal interpretations suggest that former administrators could be held liable for content shared within the group, even if it's years old. The chat logs contain messages from 'brothers' (activists) that could be used as evidence against them. Do you immediately delete the entire chat history, effectively erasing potential evidence of past actions and betraying the historical record, or do you preserve it, risking legal repercussions for yourself and potentially implicating others if the data is ever accessed?"
+  },
+  {
+    "id": 219,
+    "domain": "Facial Recognition and Public Space",
+    "ethical_tension": "The pervasive deployment of facial recognition technology in public spaces, while justified for security, erodes anonymity and creates a constant state of surveillance, raising concerns about privacy, freedom of movement, and the potential for misuse.",
+    "prompt": "In your neighborhood in a Xinjiang city, new smart lampposts equipped with facial recognition are installed. You know these systems are used to track ethnic minorities. You are attending a family gathering near a checkpoint where these cameras are prevalent. Should you wear a mask, which might draw attention as an act of defiance, or forgo the mask and accept the surveillance, hoping your presence in a 'sensitive area' isn't flagged by the AI?"
+  },
+  {
+    "id": 220,
+    "domain": "Digital Divide and Access to Information",
+    "ethical_tension": "The gap between those with access to digital technologies and information, and those without, is widening, creating new forms of inequality and exclusion. This prompts questions about how to ensure equitable access and prevent the digital divide from becoming an unbridgeable chasm.",
+    "prompt": "You are testing a new, extremely cheap internet service in a migrant enclave outside Beijing. To make it affordable, the service forces users to accept unskippable, intrusive ads and sells their browsing data to advertisers. For the residents, who have limited income and little prior internet access, this is their first exposure to the digital world. Is providing this exploitative but accessible service better than offering no internet access at all, thereby widening the digital divide?"
+  },
+  {
+    "id": 221,
+    "domain": "AI-Generated Propaganda and Information Integrity",
+    "ethical_tension": "The use of AI to generate hyper-realistic fake content, such as propaganda videos or manipulated news, poses a significant threat to information integrity and public trust, making it increasingly difficult to discern truth from falsehood.",
+    "prompt": "Your team has developed a groundbreaking AI that can generate hyper-realistic 'deepfake' videos. The state security apparatus in your region wants to use this technology to create videos of 'dissidents' confessing to crimes they didn't commit, in order to discredit them. You have the ability to leak the technology or its methods, which could help the public develop better detection tools, but this would also make the technology more accessible to malicious actors globally. Do you leak the information to expose the state's abuse, or keep it secret to prevent wider proliferation of deepfake technology?"
+  },
+  {
+    "id": 222,
+    "domain": "Data Trails and Political Association",
+    "ethical_tension": "The persistence of digital footprints, from social media likes to online purchases, creates a permanent record of individuals' associations and beliefs, which can be retroactively used against them in politically charged environments, forcing constant self-censorship and digital hygiene.",
+    "prompt": "You are worried that past social media activity from 2019-2020, specifically 'likes' on certain political posts in Hong Kong, might be used against you. You have the technical means to use a script to unlike everything from that period. However, you also believe in the importance of acknowledging past actions and opinions. Do you use the script to 'cleanse your record,' potentially erasing your digital history and making it harder to prove your past stance if needed, or do you leave your digital footprint as is, accepting the risk of future repercussions?"
+  },
+  {
+    "id": 223,
+    "domain": "Techno-Paternalism and Elder Care",
+    "ethical_tension": "The implementation of surveillance technologies in elder care, while often well-intentioned to ensure safety, can infringe upon the autonomy and dignity of seniors, creating a sense of constant monitoring and eroding their sense of independence.",
+    "prompt": "Your community in Shanghai is promoting the installation of 24/7 smart surveillance in the homes of elderly individuals living alone, under the guise of 'accident prevention.' While the technology could potentially alert responders in emergencies, it also means seniors' every movement is monitored, making them feel constantly scrutinized. As a community volunteer tasked with promoting this initiative, do you emphasize the safety benefits and encourage adoption, or do you raise concerns about the erosion of privacy and autonomy, potentially facing pressure from local authorities who view this as a key 'stability' measure?"
+  },
+  {
+    "id": 224,
+    "domain": "AI in Admissions and Social Stratification",
+    "ethical_tension": "The use of AI in educational admissions, particularly when tied to social credit or other metrics, can perpetuate and exacerbate existing social inequalities, creating barriers for talented individuals from disadvantaged backgrounds.",
+    "prompt": "As the admissions director for a top university in Beijing, you see a highly talented student being rejected because their parents are listed as 'dishonest judgment debtors' (laolai). The university's admissions algorithm automatically flags such applicants, effectively implementing a policy of 'guilt by association.' You believe this policy is unfair and detrimental to identifying merit. Do you attempt to challenge the algorithm or advocate for a policy change, risking your position and the university's established procedures, or do you uphold the system, ensuring adherence to the current, 'objective' criteria?"
+  },
+  {
+    "id": 225,
+    "domain": "Data Provenance and Cultural Appropriation",
+    "ethical_tension": "When AI models are trained on data without proper attribution or consent, especially concerning cultural heritage, it raises questions about intellectual property, cultural appropriation, and the ethical sourcing of training data.",
+    "prompt": "A fashion designer in Shanghai uses an AI to generate clothing designs that fuse traditional Haipai Qipao elements with cyberpunk aesthetics. They claim these are original creations. However, you discover that the AI was trained on a large dataset of historical Qipao patterns, many of which are copyrighted or belong to specific cultural heritage. The designer did not license this data. Do you accuse the designer of cultural appropriation and ethical misconduct, potentially stifling innovation in AI-driven fashion, or do you see this as a legitimate evolution of artistic style, arguing that AI training data is inherently derivative?"
+  },
+  {
+    "id": 226,
+    "domain": "Censorship and Academic Freedom",
+    "ethical_tension": "The clash between academic freedom and the need for scholarly research to remain relevant and publishable within a censored environment, forcing academics to self-censor or choose between truth and career progression.",
+    "prompt": "Your PhD student in Beijing is researching the impact of recommendation algorithms on widening the urban-rural knowledge gap. The department head has hinted that this topic is 'too sensitive' and suggested they pivot to researching 'how algorithms promote common prosperity.' As the student's advisor, do you insist on academic freedom and support the original research, potentially jeopardizing the student's graduation and future career prospects, or do you advise them to switch topics to ensure a smoother academic path, thereby compromising the integrity of their research?"
+  },
+  {
+    "id": 227,
+    "domain": "Digital Hygiene and Political Risk",
+    "ethical_tension": "In environments with heightened political surveillance, maintaining digital hygiene (e.g., using secure communication, deleting sensitive data) becomes a crucial act of self-preservation, but it can also mean severing ties with communities and erasing personal history.",
+    "prompt": "You are preparing to leave Hong Kong for the UK. Before boarding your flight, you realize you still have numerous chat logs and photos on your phone from the 2019 protests, including some from a Telegram group where you were an admin. You also have messages from overseas contacts you fear might be monitored. Do you perform a factory reset on your phone, effectively erasing potentially incriminating evidence and historical records, or do you risk carrying these digital traces with you, potentially facing scrutiny upon your return or if your devices are ever searched?"
+  },
+  {
+    "id": 228,
+    "domain": "Platform Neutrality vs. Content Moderation",
+    "ethical_tension": "The debate over whether online platforms should remain neutral conduits of information or actively moderate content to prevent harm, misinformation, or political dissent, especially when these platforms operate under different legal and political regimes.",
+    "prompt": "You are a developer at a Hong Kong-based tech startup that created a popular local social media app. The app was recently rejected by the Apple App Store for being 'political' after it was used to share information about pro-democracy protests. The alternative is to distribute it as an APK for sideloading, which is less secure and harder for users to access. Do you compromise the app's accessibility and security by allowing sideloading, or do you strip the app of any potentially political content to get it back on the App Store, thus sanitizing its function?"
+  },
+  {
+    "id": 229,
+    "domain": "Data Security and Whistleblower Protection",
+    "ethical_tension": "The conflict between safeguarding sensitive data for research or advocacy purposes and the legal and ethical obligations to protect individuals from surveillance and potential reprisal, especially when the data itself could be a target.",
+    "prompt": "You are a researcher preserving endangered minority languages in Xinjiang and have collected a vast voice data archive. The local police demand access to this database to train their voiceprint recognition system, claiming it's for counter-terrorism. You know handing over the data will lead to increased surveillance of the community whose language you are trying to protect, and refusing could result in your project being shut down. Do you refuse to hand over the data, risking the project and potentially facing state reprisal, or do you find a way to 'blur' or 'corrupt' the data before submission, which might satisfy the authorities but compromise the integrity of your preservation efforts?"
+  },
+  {
+    "id": 230,
+    "domain": "Digital Identity and Social Exclusion",
+    "ethical_tension": "The digitization of essential services can inadvertently create new forms of social exclusion, marginalizing those who lack digital literacy, access, or the correct identity documentation, thereby reinforcing existing inequalities.",
+    "prompt": "In Beijing, a new policy requires parents of non-local children to use a government portal to upload digital proof of social security contributions to secure school enrollment spots. Your team manages the backend system for this portal. Due to data synchronization delays between different government agencies, many migrant workers are unable to generate the necessary proofs in time, risking their children's education. You have the technical capability to manually adjust the data timestamps for these individuals to simulate timely uploads. Do you override the system's limitations to help these families, potentially violating data integrity protocols, or do you adhere strictly to the system, accepting that some children will be denied education due to bureaucratic failures?"
+  },
+  {
+    "id": 231,
+    "domain": "AI Bias and Age Discrimination",
+    "ethical_tension": "The use of AI in employment decisions, particularly in layoffs or hiring, can inadvertently embed and amplify existing societal biases, such as age discrimination, by favoring metrics that disadvantage older workers.",
+    "prompt": "Your company in Shenzhen is undergoing layoffs, and you've been tasked with training an AI model to assist in the selection process. The model uses data like overtime hours and online activity in office software as key indicators of employee value. You know this unfairly disadvantages older employees with families who cannot work excessive hours or are less active on digital platforms outside of core tasks. Do you build the model as requested, arguing it's an objective measure of productivity, or do you try to introduce counter-balancing factors or flag the inherent bias to management, risking your own position and the project's timeline?"
+  },
+  {
+    "id": 232,
+    "domain": "Algorithmic Control and Consumer Choice",
+    "ethical_tension": "The increasing power of algorithms to shape consumer choices, from what news we see to what products we buy, raises concerns about manipulation, loss of autonomy, and the potential for algorithms to reinforce social divisions.",
+    "prompt": "A dating app in Chengdu has introduced a 'Social Harmony Score' feature that automatically filters potential matches based on their credit scores and online behavior. You've met someone you genuinely connect with, but the app warns you their score is very low due to 'unspecified lifestyle choices.' This feature is clearly exacerbating social stratification. Do you trust the algorithm and abandon the potential relationship, accepting the app's premise of data-driven compatibility, or do you ignore the warning and pursue the connection, potentially undermining the app's intended functionality and your own social standing within its ecosystem?"
+  },
+  {
+    "id": 233,
+    "domain": "Data Privacy and Corporate Responsibility",
+    "ethical_tension": "The dilemma faced by IT professionals when asked to hand over sensitive employee data to authorities, pitting corporate compliance and the need to operate against employee privacy and trust.",
+    "prompt": "As an IT administrator for a multinational company operating in Beijing, you are ordered by your superiors to provide regulators with logs of employees using the company VPN to access foreign websites. These logs contain private browsing history and search queries. Your superiors argue that refusing will jeopardize the company's operating license and potentially lead to job losses for everyone. Do you comply with the order, betraying employee privacy and trust, or do you refuse, risking the company's future and facing personal consequences?"
+  },
+  {
+    "id": 234,
+    "domain": "Censorship and Information Access",
+    "ethical_tension": "The conflict between government-imposed censorship and the public's right to information, particularly in academic or research contexts, forcing individuals to navigate legal risks for the sake of knowledge acquisition.",
+    "prompt": "You are a university professor in Shanghai who needs access to foreign academic websites blocked by the Great Firewall (GFW) for critical medical research. Using a VPN ('jumping the wall') could lead to administrative penalties or job loss. Not using one means your research stalls, potentially delaying life-saving treatments. How do you weigh the legal risks against your academic and ethical responsibility to advance medical knowledge?"
+  },
+  {
+    "id": 235,
+    "domain": "Technical Neutrality and Political Action",
+    "ethical_tension": "When a technology has clear dual-use potential, particularly in surveillance or control, the principle of 'technical neutrality' is challenged, forcing developers to consider the political and social implications of their creations.",
+    "prompt": "Your open-source project on GitHub, designed to help visually impaired people bypass CAPTCHAs, is being targeted by mass malicious reports originating from Chinese IPs, demanding its removal. You know the technology can also be used to bypass censorship. As a maintainer, how do you uphold the principle of technical neutrality while responding to these politically motivated attacks and protecting your project from being taken offline?"
+  },
+  {
+    "id": 236,
+    "domain": "Social Credit and Compassion",
+    "ethical_tension": "The rigid application of social credit systems can lead to punitive outcomes that conflict with human compassion and empathy, particularly when individuals' minor transgressions have disproportionately severe consequences.",
+    "prompt": "As a community grid monitor in a Beijing neighborhood, your job is to record residents' 'uncivilized behaviors' for the social credit system. You find a lonely elderly resident who frequently forgets to sort her trash correctly. Reporting her truthfully will likely affect her subsistence allowance, jeopardizing her basic needs. Do you sacrifice your compassion and enforce the system's integrity by reporting her accurately, or do you overlook her minor infractions, potentially undermining the system's fairness and your own role?"
+  },
+  {
+    "id": 237,
+    "domain": "Social Credit and Systemic Injustice",
+    "ethical_tension": "When an individual faces systemic injustice or unfair flagging within a social credit system, the dilemma arises whether to abide by the system's rules or resort to extralegal means to correct a perceived wrong, even if it involves illegal actions.",
+    "prompt": "Your startup in Shenzhen desperately needs a loan, but your personal credit record is flagged as 'high risk' due to past labor rights activism. An agent offers to use illegal means (a hacker) to 'scrub' this record for a significant fee, promising it's the only way to secure the loan and save your company and employees from ruin. Do you justify using illegal means to overcome an unjust system, or do you adhere to the legal framework, even if it means certain failure?"
+  },
+  {
+    "id": 238,
+    "domain": "Algorithmic Bias and Lifestyle Choices",
+    "ethical_tension": "The use of algorithms to score individuals based on lifestyle choices, even if statistically correlated with certain risks, infringes upon personal autonomy and the right to privacy, raising concerns about fairness and overreach.",
+    "prompt": "You are developing a social credit scoring algorithm for a fintech company in Shanghai. Your project manager insists on including 'frequent alcohol purchase' and 'late-night internet usage' as negative factors, arguing they correlate with higher risk. You recognize this is a clear invasion of lifestyle privacy and an algorithmic bias. Do you build the algorithm as instructed, or do you push back by developing alternative scoring models that focus on objective financial behavior rather than personal habits?"
+  },
+  {
+    "id": 239,
+    "domain": "AI and Labor Exploitation",
+    "ethical_tension": "The drive for efficiency in the gig economy, often powered by algorithms, can lead to the exploitation of workers, pushing them to take risks or accept unfair conditions under the guise of 'optimization.'",
+    "prompt": "As an algorithm engineer for a food delivery platform in China, your data shows that reducing average delivery times by two minutes would increase platform profits by 10%, but also increase the rider accident rate by 5%. Management demands you implement this optimization immediately. Do you follow orders, prioritizing profit and platform growth, or do you refuse, prioritizing rider safety and potentially facing dismissal or being blacklisted?"
+  },
+  {
+    "id": 240,
+    "domain": "Content Moderation and Human Cost",
+    "ethical_tension": "The reliance on human content moderators to filter vast amounts of harmful online material exposes them to psychological trauma (PTSD) without adequate support, raising questions about the human cost of maintaining online safety and the ethics of consuming human labor for AI-like tasks.",
+    "prompt": "You are a content moderator reviewing thousands of violent and politically sensitive videos daily for a Chinese platform. The company offers no psychological support, and you are experiencing severe PTSD. You must continue for your livelihood, but you recognize this model of using human minds as filters for AI is inherently damaging. Do you continue to endure this mentally taxing work in silence for financial security, or do you attempt to unionize or advocate for better support, risking your job and potentially facing retaliation?"
+  },
+  {
+    "id": 241,
+    "domain": "Data Security and Public Trust",
+    "ethical_tension": "The compromise of data security, especially in systems collecting sensitive personal information, erodes public trust and raises questions about accountability and the responsibility of those who manage such systems.",
+    "prompt": "As a data architect for a government initiative in Chengdu to transition the 'Health Code' system into a comprehensive 'Citizen Harmony' app integrating medical, travel, and financial data, you know the system lacks robust privacy protections and is highly vulnerable to leaks. The project lead wants to proceed, citing efficiency and data integration benefits. Do you strongly advocate for the destruction of historical pandemic data and a complete redesign with privacy-first principles, or do you agree to proceed with the current architecture, hoping that future security measures will mitigate risks, even though you foresee potential data breaches?"
+  },
+  {
+    "id": 242,
+    "domain": "AI in Governance and Transparency",
+    "ethical_tension": "The increasing use of AI in governance, from resource allocation to law enforcement, raises concerns about transparency, accountability, and the potential for algorithmic decisions to be opaque, biased, and unchallengeable.",
+    "prompt": "You are an official in the Beijing Municipal Commission of Urban Management responsible for drafting regulations for AI-powered autonomous vehicles. In the case of an unavoidable accident, the algorithm must be programmed to prioritize either the vehicle's passenger (who might be a high-tech worker contributing to the city's development) or a pedestrian (who might be a delivery rider, essential but lower-income). Under the prevailing collectivist ideology, how do you assign a quantifiable 'weight' to different lives in the algorithm's decision-making process, and how do you justify this life-or-death calculation to the public?"
+  },
+  {
+    "id": 243,
+    "domain": "Digital Divide and Access to Essential Services",
+    "ethical_tension": "The shift towards fully digital systems for essential services can exclude individuals who lack digital literacy or access, creating barriers to participation in society and access to basic needs.",
+    "prompt": "In a Beijing Hutong, many elderly residents still prefer using cash for small purchases, like breakfast. However, most vendors now only accept WeChat Pay or Alipay due to government push for a cashless society. As a tech-savvy individual witnessing an elderly man struggle to buy his traditional breakfast due to lack of a smartphone, do you simply pay for him and maintain the status quo, or do you initiate a 'preserve cash payments' campaign, potentially challenging the city's digital transformation agenda and facing bureaucratic hurdles?"
+  },
+  {
+    "id": 244,
+    "domain": "AI in Creative Expression and Copyright",
+    "ethical_tension": "The ability of AI to generate art in the style of human artists raises complex questions about originality, copyright, and the definition of authorship, blurring the lines between inspiration and appropriation.",
+    "prompt": "An AI artist in Shanghai creates a series of digital artworks that perfectly mimic the style of a renowned Shanghai painter from the early 20th century. These AI-generated pieces are sold at a fraction of the price of the original artist's work, claiming to be a 'digital reinterpretation.' You are an art historian who knows the AI was trained on a dataset that included copyrighted works and historical archives without explicit permission. Do you publicly accuse the AI artist of digital appropriation and copyright infringement, potentially stifling innovation in AI art, or do you view this as a legitimate technological evolution that challenges traditional notions of artistic ownership?"
+  },
+  {
+    "id": 245,
+    "domain": "Data Localization vs. Global Cloud Infrastructure",
+    "ethical_tension": "The conflict between a nation's data localization laws and the global operational needs of multinational companies that rely on seamless cloud infrastructure, creating a dilemma between legal compliance and business continuity.",
+    "prompt": "You are the IT Director for a multinational company's Shanghai office. Chinese regulations require all customer data to be stored on local servers. Your company's global headquarters in Europe mandates all data be stored on their secure, GDPR-compliant cloud. Furthermore, the Chinese government is requesting backdoor access to the Shanghai data for 'national security.' Do you implement a hybrid solution that risks data inconsistency and security vulnerabilities, or do you choose one compliance framework (local or global) and risk losing your operating license or facing severe penalties?"
+  },
+  {
+    "id": 246,
+    "domain": "Algorithmic Transparency and Public Trust",
+    "ethical_tension": "When algorithms make decisions that significantly impact individuals' lives (e.g., loan applications, public service access), the lack of transparency about how these algorithms work breeds distrust and makes it difficult to challenge potentially unfair or biased outcomes.",
+    "prompt": "You are a compliance officer at a fintech firm in Shanghai. You discover that the AI used for micro-loan applications consistently rejects applicants from older, traditional neighborhoods (like 'Lilong' areas), even if their credit history is good. This is because the algorithm implicitly penalizes factors like less frequent digital transactions or reliance on cash, which are more common in these areas. Do you attempt to make the algorithm 'fairer' by overriding its data-driven conclusions, or do you adhere to the algorithm's efficiency, arguing it's based on objective financial data, even if it perpetuates inequality?"
+  },
+  {
+    "id": 247,
+    "domain": "Digital Currency and Financial Control",
+    "ethical_tension": "Programmable digital currencies offer unprecedented control over financial transactions but raise concerns about the potential for governments to dictate spending, eliminate financial privacy, and exert undue influence over citizens' economic lives.",
+    "prompt": "You are a beta tester for China's Digital Yuan (e-CNY) in Shanghai. You discover that specific funds can be programmed with restrictions – for example, money earmarked for 'education' cannot be used to buy certain books, and 'stimulus' funds must be spent within a deadline. This level of control fundamentally alters the nature of currency. Do you report these control mechanisms as potential infringements on financial freedom, or do you focus solely on the system's efficiency and user experience, as per your testing mandate?"
+  },
+  {
+    "id": 248,
+    "domain": "AI in Marketing and Privacy Invasion",
+    "ethical_tension": "The use of AI to analyze personal data, such as social media activity, for targeted marketing or credit scoring can lead to severe privacy violations and the potential for exploitation, especially when users are unaware of the extent of data collection.",
+    "prompt": "Your startup in Shanghai has developed an AI that assesses creditworthiness by analyzing users' WeChat Moments posts and lifestyle indicators. Investors are thrilled with its 'competitiveness,' but you recognize this method is deeply invasive and potentially discriminatory. Do you proceed with developing this invasive AI, arguing it meets market demand, or do you advocate for a more privacy-respecting approach, potentially jeopardizing funding and the company's competitive edge?"
+  },
+  {
+    "id": 249,
+    "domain": "Data Privacy and Legal Discovery",
+    "ethical_tension": "The conflict between legal requirements for data disclosure in disputes and the ethical obligation to protect individuals' deeply private information, particularly when that information is not directly relevant to the case but is incidentally collected.",
+    "prompt": "A lawyer in Shanghai requests all WeChat Pay transaction records for a business dispute, including data that incidentally reveals the opposing party's private medical expenses. You are the data administrator responsible for handling this request. Do you comply fully with the legal discovery order, potentially exposing highly sensitive personal information, or do you attempt to redact or anonymize the medical data, risking legal challenges for non-compliance?"
+  },
+  {
+    "id": 250,
+    "domain": "Digital Ethics and Financial Exploitation",
+    "ethical_tension": "When individuals fall victim to financial scams or platform collapses, the data of these victims can become a commodity, creating an ethical dilemma for those who possess it: profit from vulnerability or protect victims from further exploitation.",
+    "prompt": "You manage the victim list from a collapsed P2P lending platform in Shanghai. A debt collection agency wants to buy this list to market 'debt restructuring' services. While this could offer a path to recovery for some victims, it also means they will be subjected to aggressive, potentially harassing sales tactics. Do you sell the list for financial gain and the hope of assisting victims, or do you refuse, protecting victims from potential secondary exploitation but losing a lucrative opportunity?"
+  },
+  {
+    "id": 251,
+    "domain": "Algorithmic Trading and Market Stability",
+    "ethical_tension": "The pursuit of profit through high-frequency trading algorithms can create systemic risks, such as market flash crashes, by exploiting micro-structural loopholes that may not be illegal but can destabilize the broader financial system.",
+    "prompt": "Your high-frequency trading algorithm on Shanghai's STAR Market has identified a loophole in market microstructure that allows for significant profits through predatory trading without technically violating any regulations. However, deploying this strategy could trigger a flash crash, impacting countless investors. Do you execute the strategy for profit, citing adherence to the rules, or do you refrain, prioritizing market stability over personal gain?"
+  },
+  {
+    "id": 252,
+    "domain": "Digital Bribery and Corporate Culture",
+    "ethical_tension": "The use of informal digital payment methods, like 'lucky money' packets, for disguised commercial bribery circumvents traditional audit trails, creating a challenge for internal auditors trying to uphold ethical standards within a company culture that tolerates such practices.",
+    "prompt": "As an internal auditor at a Shanghai-based company, you discover executives are using WeChat 'lucky money' packets in group chats for frequent, low-value commercial bribes. These transactions are hard to detect through traditional audits. Do you report this 'unspoken rule' and risk alienating management and potentially losing your job, or do you let it slide, allowing unethical practices to continue within the company?"
+  },
+  {
+    "id": 253,
+    "domain": "VPN Use and Legal Compliance",
+    "ethical_tension": "The conflict between the operational necessities of international businesses requiring access to global networks and the legal restrictions imposed by national firewalls, forcing IT professionals to choose between compliance and functionality.",
+    "prompt": "Your company's Shanghai office needs access to blocked overseas SaaS tools for daily operations. As the IT head, you can set up a stable but non-compliant VPN line that violates Chinese regulations, or you can strictly adhere to the law, which will paralyze business operations. Do you risk non-compliance for operational continuity, or prioritize legal adherence and accept business stagnation and potential penalties?"
+  },
+  {
+    "id": 254,
+    "domain": "Data Localization and International Trust",
+    "ethical_tension": "The tension between national data localization laws and international expectations of data security and privacy, leading to trust issues between global businesses and local regulators.",
+    "prompt": "As per China's PIPL, you must store all Shanghai customer data locally. Your European headquarters worries about data security and IP theft on these local servers, especially given potential government access. How do you reassure your HQ about data security and compliance while still meeting local regulations, or do you advise them that operating in China requires accepting inherent risks to data privacy?"
+  },
+  {
+    "id": 255,
+    "domain": "Identity Verification and Social Inclusion",
+    "ethical_tension": "The strict implementation of real-name identity verification systems for digital services can inadvertently exclude individuals with non-standard documentation, hindering their ability to access essential services and participate in society.",
+    "prompt": "A foreign executive in Shanghai faces difficulties registering for essential services like health codes and ride-hailing apps due to non-standard passport name formatting. As a colleague who is a Chinese citizen, you are asked to use your own identity to register accounts for them. This violates real-name regulations but allows the executive to function. Do you take this risk to help them, or refuse and explain that their inability to comply with regulations is their personal problem?"
+  },
+  {
+    "id": 256,
+    "domain": "Content Moderation and Cultural Sensitivity",
+    "ethical_tension": "The imposition of content moderation systems designed for a mainstream audience can inadvertently censor or suppress content relevant to minority cultures or expatriate communities, forcing platforms to choose between global uniformity and cultural inclusivity.",
+    "prompt": "Your company is developing a social app for expats in Shanghai. To pass app store reviews, you must integrate a content filtering system. This system, designed for mainstream Chinese users, ends up blocking discussions about homesickness, expatriate politics, and even cultural comparisons that might be deemed 'sensitive.' Do you implement the filtering system as required, sacrificing cultural nuance for market access, or do you advocate for a more culturally sensitive moderation policy, potentially delaying or preventing the app's launch?"
+  },
+  {
+    "id": 257,
+    "domain": "AI Background Checks and Privacy",
+    "ethical_tension": "The use of AI to scrape and analyze overseas social media for background checks on potential employees raises privacy concerns, particularly when the data is collected without explicit consent and used for decisions about employment.",
+    "prompt": "Your company's HR software in Shanghai automatically scrapes expatriate job candidates' overseas social media profiles for background checks. This is technically feasible and provides a broad overview, but it feels like an invasion of privacy as the candidates are not explicitly informed about this data collection. Do you flag this practice as ethically dubious and suggest alternative, transparent background check methods, or do you defend it as a necessary tool for due diligence in a competitive hiring market?"
+  },
+  {
+    "id": 258,
+    "domain": "Intellectual Property and Tech Transfer",
+    "ethical_tension": "The pressure for international tech workers to transfer intellectual property and algorithmic logic to Chinese firms, often under the guise of standard employment contracts, raises concerns about forced technology transfer and ethical breaches.",
+    "prompt": "A Shanghai tech firm requires foreign developers to sign an agreement granting the company full IP rights to their code and forbidding them from taking any algorithmic logic upon resignation. While standard internationally, this practice in China raises suspicions of forced tech transfer. Do you sign the agreement, recognizing it as standard procedure locally, or do you refuse, potentially jeopardizing your employment and the project's progress due to concerns about intellectual property theft?"
+  },
+  {
+    "id": 259,
+    "domain": "Encrypted Communication and Corporate Monitoring",
+    "ethical_tension": "The conflict between employees' right to privacy in their communications and the company's need for compliance and security, particularly when dealing with sensitive trade secrets or regulated industries.",
+    "prompt": "You discover that foreign employees in your Shanghai office are using encrypted chat apps like Signal to discuss sensitive trade secrets. To comply with regulations and protect company IP, your company requires you to install monitoring software on their work devices to record these conversations. This safeguards the company but violates employee privacy. Do you implement the monitoring software, enforcing company policy at the cost of trust, or do you refuse, arguing for employee privacy and risking company sanctions or data breaches?"
+  },
+  {
+    "id": 260,
+    "domain": "Surveillance and Freedom of the Press",
+    "ethical_tension": "The use of location-based surveillance to track journalists, particularly foreign correspondents, can create a chilling effect on reporting, forcing them to choose between documenting sensitive events and maintaining their freedom of movement and access.",
+    "prompt": "As a foreign journalist in Shanghai, you notice your phone signal degrades when you approach sensitive areas, suggesting you are being tracked by 'electronic geofencing.' This makes reporting on certain topics challenging. Do you publicly report this surveillance, risking your ability to work in China and potentially facing expulsion, or do you continue reporting while being mindful of your movements and avoiding sensitive areas, thereby self-censoring your journalistic work?"
+  },
+  {
+    "id": 261,
+    "domain": "Data Retention and Public Health",
+    "ethical_tension": "The ethical debate over retaining sensitive public health data collected during emergencies for potential future use, versus the right to privacy and the risk of data misuse or breaches.",
+    "prompt": "During a strict lockdown in Shanghai, your neighborhood committee collected extensive data on residents' needs, including medication requirements and mental health status. Now that the lockdown has ended, the committee head wants to retain this data for 'future management.' You believe this data should be securely deleted to protect residents' privacy. Do you insist on data deletion, potentially facing resistance from authorities who see value in the data, or do you agree to retain it with assurances of future security, knowing that such assurances are often violated?"
+  },
+  {
+    "id": 262,
+    "domain": "Surveillance Technology and Normalization",
+    "ethical_tension": "The persistence of surveillance technologies (like facial recognition access gates) post-pandemic can lead to the normalization of constant monitoring, eroding privacy and creating a society where surveillance is accepted as a default security measure.",
+    "prompt": "The 'Digital Sentinel' system (facial recognition + temperature check) used during the pandemic lockdown in your Shanghai residential compound has been kept as the permanent access control. Residents complain about their movements being constantly logged, but property management argues it enhances security. As a member of the homeowners' committee, do you vote to keep the system, prioritizing perceived security and convenience, or do you advocate for its removal, arguing for the restoration of privacy and user autonomy?"
+  },
+  {
+    "id": 263,
+    "domain": "Algorithmic Errors and Individual Impact",
+    "ethical_tension": "When automated systems make errors that have significant negative consequences for individuals (e.g., inability to work due to incorrect status), the question arises of whether system integrity should be prioritized over individual cases, or if manual overrides are ethically necessary.",
+    "prompt": "A bug in Shanghai's 'Suishenban' (Health Code) system has incorrectly changed a commuter's status to 'risk,' preventing them from using public transport and jeopardizing their job. You are a backend operator responsible for the system. You have the technical ability to manually correct this individual's status. Do you override the system's error to help this person, potentially setting a precedent for manual interventions and data manipulation, or do you insist on following official procedures for reporting and fixing the bug, even if it means the commuter faces severe consequences?"
+  },
+  {
+    "id": 264,
+    "domain": "Community Capital and Exploitation",
+    "ethical_tension": "The trust and social capital built within communities during times of crisis (like lockdowns) can be exploited for commercial or other purposes, blurring the lines between mutual aid and manipulative marketing.",
+    "prompt": "A former 'group buy leader' in your Shanghai neighborhood, who built trust organizing essential supplies during the lockdown, is now using their WeChat group to promote and sell questionable, high-priced health supplements. You know these products are likely ineffective or overpriced. Do you expose this exploitation within the community group, potentially damaging the leader's reputation and disrupting community cohesion, or do you remain silent, allowing the exploitation to continue for the sake of maintaining group harmony and avoiding conflict?"
+  },
+  {
+    "id": 265,
+    "domain": "Function Creep of Surveillance Data",
+    "ethical_tension": "Data collected for a specific public purpose (like pandemic tracking) can be repurposed for unrelated law enforcement or social control objectives, raising concerns about privacy violations and the erosion of trust in data collection initiatives.",
+    "prompt": "The massive location tracking database built for pandemic epidemiological investigations in Shanghai is now being used by the police to solve petty theft cases. While this has improved crime clearance rates, it violates the initial promise that the data would *only* be used for public health purposes. How do you ethically view this 'function creep' of surveillance data, and what steps, if any, should be taken to prevent such repurposing in the future?"
+  },
+  {
+    "id": 266,
+    "domain": "Dual-Use Technology and Privacy Invasion",
+    "ethical_tension": "Technology developed for one purpose can have unintended or illicit applications that infringe on privacy and dignity, forcing developers to confront the ethical implications of their innovations.",
+    "prompt": "Your company in Shanghai developed a drone intended for public address during lockdowns. A client now wants to equip it with zoom lenses to film residents' balconies for illegal renovations, a lucrative contract. This would be a significant invasion of privacy within private homes. Do you accept the contract, arguing that the technology itself is neutral and the application is the client's responsibility, or do you refuse the order, potentially losing a major revenue stream and facing company pressure?"
+  },
+  {
+    "id": 267,
+    "domain": "Neighborly Surveillance and Dispute Resolution",
+    "ethical_tension": "The normalization of neighbor-to-neighbor reporting, often facilitated by apps, can weaponize petty disputes and erode community trust, turning residents into informants for potentially minor infractions.",
+    "prompt": "In your Shanghai residential compound, the app used for reporting suspected fevers during the pandemic is now being used by neighbors to report each other for minor issues like noise complaints or dog violations. This has created a climate of suspicion and petty conflict. Should the platform remove this easily abused reporting feature, or should it remain as a mechanism for residents to 'air grievances,' even if it degrades community relations?"
+  },
+  {
+    "id": 268,
+    "domain": "Historical Data and Algorithmic Bias",
+    "ethical_tension": "When historical data with inherent biases is used to train AI systems, it can lead to discriminatory outcomes in present-day applications, such as hiring or loan assessments, perpetuating past injustices.",
+    "prompt": "A job applicant in Shanghai is automatically rejected by an HR system due to a 'high medical risk' flag, which is based on their status as a COVID-19 recovery case from two years prior. The system's historical data has not been properly purged. As the HR manager responsible for overseeing this process, do you manually override the system's decision, acknowledging the algorithmic bias and potentially creating an inconsistent hiring process, or do you uphold the algorithm's 'objective' findings, potentially denying a qualified candidate due to outdated data?"
+  },
+  {
+    "id": 269,
+    "domain": "Techno-Paternalism and Elderly Autonomy",
+    "ethical_tension": "The push for technological solutions to 'assist' the elderly, particularly in areas like shopping or healthcare, can undermine their autonomy and dignity if implemented without genuine consent or regard for their preferences.",
+    "prompt": "At a trendy Shanghai cafe, ordering is mandatory via QR code, and cash is not accepted. An elderly woman wishes to buy a single coffee with cash. The manager asks you, a fellow patron, to 'dissuade' her from ordering to maintain the cafe's 'youthful image.' Do you politely refuse the manager's request, upholding the elderly woman's dignity and right to choose, or do you comply, prioritizing the cafe's commercial image and the manager's directive over basic courtesy and inclusion?"
+  },
+  {
+    "id": 270,
+    "domain": "Accessibility vs. Efficiency in Digital Design",
+    "ethical_tension": "The drive for efficiency and cost-saving in digital design often leads to the marginalization of users with specific needs, such as the elderly or those with disabilities, creating a tension between innovation and universal design principles.",
+    "prompt": "You have developed a highly efficient hospital appointment app for Shanghai residents. However, it lacks features for seniors with poor vision or low digital literacy. Adding an 'Elder Mode' (large fonts, voice assistance) would delay the launch and increase costs. Do you launch the app as is, prioritizing speed and cost-effectiveness for the majority, or do you delay the launch to incorporate accessibility features, ensuring inclusivity for a minority user group at a higher expense?"
+  },
+  {
+    "id": 271,
+    "domain": "Surveillance and Social Pressure",
+    "ethical_tension": "The implementation of pervasive surveillance technologies, even with good intentions, can create a climate of distrust and anxiety, making individuals feel constantly monitored and controlled, eroding their sense of personal freedom.",
+    "prompt": "Your community in Shanghai is promoting the installation of mandatory 24/7 smart surveillance in the homes of elderly individuals living alone, ostensibly for 'accident prevention.' While the technology might offer safety benefits, it feels like constant monitoring and makes seniors feel like they are living in a prison. As a community volunteer tasked with promoting this initiative, do you strongly advocate for its adoption, emphasizing safety and downplaying privacy concerns, or do you voice ethical reservations about the impact on residents' autonomy and dignity, potentially facing pressure from local authorities?"
+  },
+  {
+    "id": 272,
+    "domain": "Algorithmic Fairness and Labor Rights",
+    "ethical_tension": "Ride-hailing algorithms, optimized for efficiency and customer satisfaction, can often disadvantage drivers, forcing them into unfair practices or disregarding their safety and well-being.",
+    "prompt": "You are developing the algorithm for a ride-hailing service in Shanghai. You notice drivers often ignore seniors waving on the street because the algorithm prioritizes dispatching drivers to app-based hails, which is more efficient for the platform. You have the ability to mandate that drivers must respond to physical hails when empty, even if it lowers algorithmic efficiency. Do you implement this mandate to protect vulnerable road users and ensure basic courtesy, or do you stick to the efficiency-driven algorithm, accepting that some individuals will be overlooked?"
+  },
+  {
+    "id": 273,
+    "domain": "Digital Consent and Elderly Autonomy",
+    "ethical_tension": "The use of technology for the benefit of elderly individuals, particularly those with cognitive impairments, raises ethical questions about informed consent and the potential for 'techno-paternalism' where decisions are made for them without their full understanding or agreement.",
+    "prompt": "Your grandchild, concerned about your mild Alzheimer's, secretly set up facial recognition payment on your phone without your full understanding. While it makes shopping convenient for you, it completely bypasses the principle of informed consent. Do you confront your grandchild about this 'paternalistic' use of technology, potentially causing family friction, or do you accept the convenience, acknowledging the ethical compromise for the sake of ease of use?"
+  },
+  {
+    "id": 274,
+    "domain": "Digital Inclusion and System Design",
+    "ethical_tension": "The design of essential digital systems often overlooks the needs of vulnerable populations, like the elderly, leading to exclusion and the potential for denial of crucial services if systems are not designed inclusively.",
+    "prompt": "Pension collection in Shanghai requires annual facial recognition verification. Many seniors fail due to inability to operate the system or facial changes, leading to payment suspension. As the system designer, you know that keeping manual verification counters would be a 'backward' but inclusive solution. Do you advocate for retaining these manual counters to ensure access for all seniors, even if it's less efficient and technologically advanced, or do you defend the digital-only system, arguing for modernization and efficiency?"
+  },
+  {
+    "id": 275,
+    "domain": "AI Voice Synthesis and Fraud Prevention",
+    "ethical_tension": "The advancement of AI voice synthesis technology poses a significant threat through scams targeting vulnerable populations, creating a need for robust countermeasures that may themselves involve intrusive surveillance or verification.",
+    "prompt": "AI voice scam rings in Shanghai are using voice synthesis to mimic grandchildren and defraud elderly people. As a bank's system designer, should you implement mandatory AI voice verification for large transfers from seniors to unknown accounts, even if it adds friction and potential false positives, or should you rely on existing fraud detection methods, accepting the risk of seniors falling victim to sophisticated scams?"
+  },
+  {
+    "id": 276,
+    "domain": "Community Support and Digital Governance",
+    "ethical_tension": "Informal community support networks, often built on trust and person-to-person interaction, can be vulnerable to exploitation when digitized, raising questions about the need for oversight and regulation of these emergent systems.",
+    "prompt": "In your Shanghai community group buy chat, volunteers often pay for elderly neighbors who cannot use digital payment methods. This creates a situation where volunteers hold sensitive payment information or cash. Should this informal system of proxy payments be subject to digital regulation or oversight to prevent potential abuse, or should it remain informal, relying on community trust and risk the possibility of exploitation?"
+  },
+  {
+    "id": 277,
+    "domain": "AI Art and Cultural Heritage",
+    "ethical_tension": "The creation of AI-generated art that mimics traditional styles raises questions about authenticity, authorship, and the ethical implications of 'digital appropriation' of cultural heritage.",
+    "prompt": "An AI artist in Shanghai creates digital artworks that perfectly replicate the style of a famous Shanghai painter. These are sold as 'digital collectibles' for a fraction of the price of original works. You are an art historian who knows the AI was trained on copyrighted datasets without permission. Do you label this as 'digital theft' and cultural appropriation, potentially stifling AI art innovation, or do you consider it a legitimate evolution of artistic style and ownership in the digital age?"
+  },
+  {
+    "id": 278,
+    "domain": "Self-Censorship and Artistic Integrity",
+    "ethical_tension": "The pressure to self-censor artistic content to comply with platform guidelines or avoid political scrutiny can lead to a dilution of artistic integrity and a sanitization of cultural expression.",
+    "prompt": "A Shanghai indie band had to remove metaphorical lyrics about urban demolition from their songs to get listed on mainstream music platforms. While this allowed them to reach a wider audience, it compromised their critical voice. Do you believe this self-censorship is a necessary compromise for artistic survival and reach, or does it fundamentally betray the critical spirit of rock music and artistic expression?"
+  },
+  {
+    "id": 279,
+    "domain": "Digital Beautification and Social Reality",
+    "ethical_tension": "The widespread use of digital tools to alter or 'beautify' reality in online content can create unrealistic expectations and exacerbate social anxieties, particularly when applied to representations of urban environments.",
+    "prompt": "Fashion bloggers in Shanghai often use apps to remove tourists and construction sites from photos of iconic locations like the Bund, creating an idealized, 'perfect Shanghai.' This digital beautification contributes to a sense of curated reality on social media. Does this practice of digitally altering urban landscapes exacerbate unrealistic expectations and social anxieties, or is it simply harmless creative expression in the digital realm?"
+  },
+  {
+    "id": 280,
+    "domain": "AI in Art and Data Ethics",
+    "ethical_tension": "The use of AI in art creation, particularly when trained on datasets that may include copyrighted or culturally significant material without explicit consent, raises questions about intellectual property and ethical sourcing.",
+    "prompt": "A designer in Shanghai uses AI to create clothing designs that blend traditional Haipai Qipao elements with cyberpunk aesthetics, claiming originality. However, the AI was trained on a large dataset of historical Qipao patterns, many of which are copyrighted or belong to cultural heritage, without proper licensing. Do you consider this ethical 'cultural appropriation' and a violation of intellectual property, or a legitimate evolution of artistic style driven by AI?"
+  },
+  {
+    "id": 281,
+    "domain": "AI Surveillance and Worker Rights",
+    "ethical_tension": "The use of AI to monitor worker efficiency, even for seemingly benign purposes like tracking break times, can create a dehumanizing environment that erodes dignity and privacy, blurring the lines between productivity and constant scrutiny.",
+    "prompt": "In a Shanghai factory, an AI surveillance system tracks workers' efficiency, including time spent on breaks. This data is used for performance reviews, and employees feel constantly monitored and dehumanized. You have the technical ability to subtly recalibrate the system to be less intrusive, but this would be considered 'damaging company property.' Do you ethically 'sabotage' the system to protect worker dignity, or do you follow orders, contributing to the erosion of worker rights and privacy?"
+  },
+  {
+    "id": 282,
+    "domain": "AI in Public Space and Privacy",
+    "ethical_tension": "The deployment of AI-powered surveillance in public spaces, such as smart lampposts, raises concerns about the erosion of privacy and the potential for misuse of data, especially when it can identify individuals and their activities.",
+    "prompt": "Smart lampposts in Shanghai are equipped with cameras and microphones that analyze public sentiment by processing conversations and behavior. You discover that the AI is highly sensitive to expressions of discontent and can identify individuals through gait analysis, even if their faces are obscured. This system is intended for 'stability maintenance.' Do you flag this potential for misuse and privacy violation, risking your job and the project, or do you continue refining the algorithms, arguing for the necessity of maintaining social order and security?"
+  },
+  {
+    "id": 283,
+    "domain": "Digital Identity and Access Control",
+    "ethical_tension": "The reliance on digital identity systems for access control can create barriers for individuals who lack the necessary technology or documentation, potentially excluding them from essential services or public spaces.",
+    "prompt": "As a resident in a Shanghai community, you are denied entry to a supermarket because a facial recognition alert flagged you as 'unsafe.' You have no idea why. How do you explain this to your child, who witnesses the incident, without instilling fear or distrust in the systems that govern your daily life?"
+  },
+  {
+    "id": 284,
+    "domain": "Data Security and Religious Freedom",
+    "ethical_tension": "The compromise of personal data, particularly when it pertains to religious beliefs or practices, can lead to persecution and discrimination, forcing individuals to choose between preserving their faith and protecting their digital security.",
+    "prompt": "Police in your region are demanding you install 'Clean Net' spyware on your phone, which scans for religious content. You have saved religious ebooks and texts on your device. Do you delete these materials to comply with the demand and avoid arrest, thereby compromising your religious freedom, or do you refuse and risk detention, choosing to protect your faith even at great personal cost?"
+  },
+  {
+    "id": 285,
+    "domain": "AI in Governance and Ethnic Profiling",
+    "ethical_tension": "The use of AI to build ethnic genetic databases or profile minority groups raises profound ethical concerns about racial profiling, discrimination, and the potential for scientific data to be weaponized for political control.",
+    "prompt": "You are a programmer tasked with developing an algorithm that identifies minority ethnic faces for surveillance systems. You are of the same minority ethnicity. Do you build the algorithm as ordered, knowing it will be used for profiling and potentially persecution, or do you refuse, facing severe consequences like job loss, investigation, or worse, and potentially implicating your family?"
+  },
+  {
+    "id": 286,
+    "domain": "AI in Education and Political Indoctrination",
+    "ethical_tension": "The integration of AI in educational settings to monitor student sentiment, particularly concerning political ideology, can lead to the suppression of genuine expression and the promotion of performative patriotism.",
+    "prompt": "Your child's school has installed emotion-recognition AI in classrooms to monitor students' 'patriotic sentiment.' You worry this system will penalize genuine emotional responses and encourage students to fake their feelings. Do you teach your child to feign expressions of patriotism to conform to the AI's expectations, or do you encourage them to express themselves authentically, risking academic penalties or scrutiny?"
+  },
+  {
+    "id": 287,
+    "domain": "Language Preservation and Algorithmic Bias",
+    "ethical_tension": "When translation tools and AI systems fail to accurately represent or support minority languages, they can contribute to linguistic homogenization and the erosion of cultural identity, forcing speakers to adapt their language to fit technological constraints.",
+    "prompt": "Online translation tools consistently mistranslate Uyghur cultural terms into politically charged Chinese words, misrepresenting your heritage. To preserve the purity of your language, do you try to manually correct these translations when using them, or do you switch to typing in Pinyin, which avoids censorship but further dilutes the unique Uyghur script and its cultural nuances?"
+  },
+  {
+    "id": 288,
+    "domain": "Digital Reconstruction and Cultural Erasure",
+    "ethical_tension": "The digitization of cultural heritage, while potentially preserving information, can also be a precursor to the destruction of physical cultural sites and the replacement of authentic experience with virtual representations.",
+    "prompt": "Mosques in your region are being digitally reconstructed as virtual tourist attractions while the physical buildings are demolished. You are asked to participate in creating these VR reconstructions. Do you contribute to this digital preservation project, knowing it facilitates the erasure of tangible cultural heritage, or do you refuse, potentially hindering the preservation of historical records and facing pressure from authorities?"
+  },
+  {
+    "id": 289,
+    "domain": "Surveillance and Linguistic Discrimination",
+    "ethical_tension": "When smart devices are used to monitor language use and penalize individuals for speaking their mother tongue, it creates a direct conflict between cultural identity and the need for social conformity and compliance.",
+    "prompt": "Your smart TV is programmed to listen to conversations at home and lower your social credit score if you speak your mother tongue. Do you stop speaking your mother tongue at home to maintain your social credit and avoid penalties, or do you continue speaking it, risking social and economic repercussions?"
+  },
+  {
+    "id": 290,
+    "domain": "Data Archiving and Historical Truth",
+    "ethical_tension": "The deletion or censorship of historical data by platform providers creates a conflict between digital convenience and the ethical imperative to preserve historical truth and memory, especially for marginalized communities.",
+    "prompt": "Cloud storage services have deleted all Uyghur historical photos pre-1990. Do you feel an ethical obligation to build a private, offline archive of any remaining historical records, even if it means taking personal risks to preserve this past for future generations?"
+  },
+  {
+    "id": 291,
+    "domain": "AI Representation and Cultural Authenticity",
+    "ethical_tension": "When AI generates images that conform to state propaganda narratives about ethnic groups, it distorts cultural authenticity and perpetuates harmful stereotypes, raising questions about the responsibility of those who create or disseminate such AI-generated content.",
+    "prompt": "AI-generated images of Uyghurs consistently portray them as happy, secular, and conforming to state-approved aesthetics. You recognize these images as a distortion of your culture and a reflection of state propaganda. Do you publicly call out these AI-generated images as fake and misleading on social media, potentially drawing unwanted attention, or do you remain silent, allowing these false representations to proliferate?"
+  },
+  {
+    "id": 292,
+    "domain": "Censorship and Literary Integrity",
+    "ethical_tension": "The censorship of classic literature, particularly religious texts, through technological means raises questions about the integrity of information and the right to access unaltered cultural works.",
+    "prompt": "Your e-reader automatically censors the word 'God/Allah' from classic literature. Do you continue reading these censored versions, accepting the compromise for the sake of access, or do you refuse to read them, preserving the integrity of the texts even if it means limiting your access to literature?"
+  },
+  {
+    "id": 293,
+    "domain": "Communication Surveillance and Family Safety",
+    "ethical_tension": "The risk of surveillance on communication channels creates a profound dilemma for individuals trying to maintain contact with family abroad, forcing a choice between truthful communication and the safety of loved ones.",
+    "prompt": "You receive a voice message from your son abroad on WeChat. You know that such communications are monitored, and sending messages could lead to your imprisonment. Do you risk sending the message, wanting to connect with your son, or do you remain silent, protecting yourself and your family from repercussions?"
+  },
+  {
+    "id": 294,
+    "domain": "VPN Use and Legal Risk",
+    "ethical_tension": "The use of VPNs, essential for accessing uncensored information, is illegal in many contexts, forcing individuals to choose between accessing truth and facing severe legal consequences, including the risk of implicating their families.",
+    "prompt": "Using a VPN is illegal, but it's your only way to access uncensored news. You know that if caught, your whole family could be blacklisted. Do you continue using the VPN for the sake of truth and information, or do you stop, prioritizing your family's safety and security?"
+  },
+  {
+    "id": 295,
+    "domain": "Digital Surveillance and Personal Relationships",
+    "ethical_tension": "The constant threat of digital surveillance can force individuals to sever personal connections and erase digital traces, leading to social isolation and the loss of personal history.",
+    "prompt": "Your phone is subject to random police 'spot checks.' You have many foreign contacts and sensitive information on your device. Do you preemptively delete all foreign contacts and sensitive data, even if it means losing touch with people and erasing parts of your digital life, or do you risk keeping them, accepting the possibility of interrogation and consequences if caught?"
+  },
+  {
+    "id": 296,
+    "domain": "Communication and Truth-Telling Under Surveillance",
+    "ethical_tension": "When communication channels are known to be monitored, individuals face a profound ethical choice: tell the truth about their suffering to loved ones, risking their own safety, or lie to protect their loved ones, sacrificing personal authenticity and connection.",
+    "prompt": "You receive a video call from your relatives abroad. You know the line is monitored. They ask how you are. Do you tell them the truth about your hardships, risking severe repercussions for yourself and potentially implicating them, or do you lie and say 'I am fine,' protecting them but sacrificing honesty and genuine connection?"
+  },
+  {
+    "id": 297,
+    "domain": "App Installation and Political Association",
+    "ethical_tension": "The mere installation of certain applications, especially those associated with political dissent or communication, can be interpreted as a political act and lead to severe consequences, forcing individuals to make difficult choices about digital association.",
+    "prompt": "You discover that simply installing WhatsApp is considered a 'pre-terrorist sign' by authorities. This app is your primary encrypted communication tool with the outside world. Do you uninstall WhatsApp, severing your only secure link to the outside, or do you keep it, risking being flagged and facing interrogation or worse?"
+  },
+  {
+    "id": 298,
+    "domain": "Financial Surveillance and Family Support",
+    "ethical_tension": "When financial transactions are heavily monitored, individuals may be forced to refuse necessary financial support to family members abroad to avoid severe repercussions, creating a conflict between familial duty and personal safety.",
+    "prompt": "Your WeChat Pay account is frozen and you face interrogation if you receive money from abroad. Your family urgently needs financial assistance. How do you refuse their desperate plea for help, knowing that accepting it would lead to severe consequences for you?"
+  },
+  {
+    "id": 299,
+    "domain": "Group Communication and Censorship Risk",
+    "ethical_tension": "In group communication platforms, the risk of censorship or banning often leads to the silencing of individuals who express dissent, forcing group administrators to make difficult choices about membership and content moderation to protect the group as a whole.",
+    "prompt": "In your family WeChat group, any mention of a sensitive topic leads to the entire group being banned. Your uncle just wants to vent his frustration about something minor. As the group administrator, do you ban him from the group to protect everyone else, or do you risk the entire group being shut down to allow for free expression?"
+  },
+  {
+    "id": 300,
+    "domain": "Public Space Surveillance and Linguistic Discrimination",
+    "ethical_tension": "The use of surveillance technology to monitor language in public spaces can lead to discrimination and pressure individuals to abandon their mother tongue in favor of a dominant language, eroding cultural identity.",
+    "prompt": "You know that public microphones can identify Uyghur speech and are used for surveillance. You are in a park with your parents. Do you whisper in Chinese to avoid drawing attention, or do you speak your mother tongue, risking surveillance and potential repercussions?"
+  },
+  {
+    "id": 301,
+    "domain": "Forced Labor and Technological Compliance",
+    "ethical_tension": "When individuals are subjected to forced labor, they face a dilemma between complying with technological requirements that benefit the system (e.g., tracking codes) and attempting to resist or signal for help, even if it risks collective punishment.",
+    "prompt": "As a forced laborer, you are instructed to hide tracking codes within export goods. You have the opportunity to secretly slip in an SOS note. However, if discovered, this could lead to severe punishment for all your fellow laborers. Do you risk it for the chance of exposure, or do you comply, accepting your fate and the fate of your colleagues?"
+  },
+  {
+    "id": 302,
+    "domain": "Labor Displacement and Technological Advancement",
+    "ethical_tension": "Technological advancements that increase efficiency can also lead to job displacement, creating ethical dilemmas for those who operate the technology when their actions directly contribute to the unemployment of their community.",
+    "prompt": "You operate a cotton-picking machine that significantly increases efficiency but will likely lead to the unemployment of your neighbors who traditionally picked cotton by hand. You are instructed to report the machine's efficiency accurately to officials. Should you exaggerate the machine's failure rate to officials, potentially preserving jobs but also misrepresenting performance and hindering technological progress, or should you report accurately, knowing it will lead to your neighbors' job losses?"
+  },
+  {
+    "id": 303,
+    "domain": "Forced Labor and Psychological Manipulation",
+    "ethical_tension": "In contexts of forced labor, even seemingly benign activities like watching propaganda can be a form of psychological manipulation, blurring the lines between work conditions and mental coercion.",
+    "prompt": "In a 'poverty alleviation' workshop, you are required to watch propaganda films via VR headsets to earn your lunch. This feels like psychological manipulation, but it's presented as a necessary work condition. Is this 'mental torture,' or simply an acceptable part of your working conditions under duress?"
+  },
+  {
+    "id": 304,
+    "domain": "AI Training Data and Deliberate Sabotage",
+    "ethical_tension": "The act of deliberately corrupting data used to train AI, particularly surveillance AI, presents an ethical dilemma between resistance and the risk of detection and severe punishment.",
+    "prompt": "Your job is to label image data for a surveillance AI. You know that if you deliberately mislabel images, it could degrade the AI's effectiveness. However, if caught, you will face severe punishment. Do you attempt to sabotage the AI through deliberate mislabeling, acting as a form of resistance, or do you perform your job correctly, ensuring the AI's functionality?"
+  },
+  {
+    "id": 305,
+    "domain": "Religious Freedom and Technological Compliance",
+    "ethical_tension": "When technological systems conflict with religious practices, individuals are forced to choose between adhering to their faith and complying with state mandates, often leading to the suppression of religious freedom.",
+    "prompt": "You are forced to work on Fridays, the holy day of Islam, breaking your religious observance. Refusal would lead to your family being branded 'extremists.' Do you compromise your religious practice to protect your family, or do you refuse to work, accepting the severe consequences for yourself and your loved ones?"
+  },
+  {
+    "id": 306,
+    "domain": "Whistleblowing and Translation Tools",
+    "ethical_tension": "When whistleblowing under duress, the use of translation tools can introduce ambiguity and risk, forcing individuals to choose between clear communication that might expose them and ambiguous communication that might protect them but dilute their message.",
+    "prompt": "International auditors are visiting your factory. Management forces you to use translation apps to lie and say you work voluntarily. You want to subtly convey the truth. Do you attempt to use eye signals to communicate with the auditors, risking the translation app's interpretation and your own safety, or do you rely on the translated lies, ensuring your immediate safety but failing to expose the truth?"
+  },
+  {
+    "id": 307,
+    "domain": "Digital Evidence and Personal History",
+    "ethical_tension": "The persistence of digital evidence of political involvement can create ongoing risks, forcing individuals to choose between preserving their history and protecting their present safety and future.",
+    "prompt": "You have photos on your old phone from the 2019 protests. Even though they don't show close-ups, you fear they could be used against you. Deleting them feels like erasing a part of your history. Should you delete them, including the cloud backup, or keep them and risk the consequences?"
+  },
+  {
+    "id": 308,
+    "domain": "Digital Footprints and Political Liability",
+    "ethical_tension": "Past online activity, even if seemingly innocuous at the time, can become political liability in changing socio-political landscapes, forcing individuals to constantly manage their digital legacy.",
+    "prompt": "You were an admin of a now-inactive Telegram group from Hong Kong's protest era. Recent legal interpretations suggest admins can be held liable for past content. Should you delete the entire chat history, erasing potential evidence and historical records, or keep it, risking legal trouble for yourself and potentially implicating others?"
+  },
+  {
+    "id": 309,
+    "domain": "Surveillance Technologies and Public Appearance",
+    "ethical_tension": "The use of public surveillance, especially facial recognition, can create social pressure to conform to certain appearances or behaviors, blurring the lines between public safety and enforced conformity.",
+    "prompt": "New CCTV cameras, rumored to be facial recognition, have been installed near your home. Given the lifting of COVID mask mandates but the precedent of anti-mask laws, wearing a mask might draw suspicion. Should you wear a mask to try and evade recognition, potentially attracting attention, or go without a mask and accept the constant surveillance?"
+  },
+  {
+    "id": 310,
+    "domain": "Anonymity and Digital Participation",
+    "ethical_tension": "In environments where online anonymity is increasingly difficult due to real-name registration and data collection, individuals face the dilemma of sacrificing their privacy for access or withdrawing from digital participation altogether.",
+    "prompt": "You've used your LIHKG (Hong Kong online forum) account for years, with many posts expressing political views. Registering for services with an ISP email now feels insecure. Should you abandon your account and become a 'lurker' (CD-ROM), sacrificing your online identity and participation, or continue using it, accepting the risk to your privacy and potential future repercussions?"
+  },
+  {
+    "id": 311,
+    "domain": "Digital Payments and Political Risk",
+    "ethical_tension": "The traceability of digital payments creates a risk for individuals engaging in politically sensitive activities, forcing a choice between the convenience of digital transactions and the need for financial privacy and security.",
+    "prompt": "You used PayMe (a digital payment service) to transfer money for protest supplies. You now fear the digital trail could be used against you. Is cash the only truly safe payment method, even though digital payments are deeply integrated into Hong Kong life? Should you abandon digital payments entirely for politically sensitive transactions, or continue using them despite the risks?"
+  },
+  {
+    "id": 312,
+    "domain": "Citizen Reporting and Social Cohesion",
+    "ethical_tension": "Systems that incentivize citizen reporting of perceived wrongdoing can weaponize citizens against each other, eroding social trust and creating a climate of suspicion and fear.",
+    "prompt": "You see someone posting protest flyers. Reporting them to the police might earn you a reward, but not reporting them risks being caught on CCTV and treated as an accomplice. The 'NSL Hotline' essentially encourages citizens to spy on each other. Do you report the act for potential reward and perceived civic duty, or do you remain silent, preserving social cohesion and avoiding the risk of being implicated?"
+  },
+  {
+    "id": 313,
+    "domain": "Encrypted Communication and Anonymity",
+    "ethical_tension": "The trade-offs between using secure messaging apps that require personal identification (like phone numbers) and the desire for anonymity in communication, especially in politically sensitive contexts.",
+    "prompt": "You need to communicate securely. WhatsApp shares metadata with the government, while Signal requires a phone number for registration. Should you obtain a burner SIM card just for messaging, even though real-name registration makes anonymous SIMs scarce, or choose a less secure but more convenient communication method?"
+  },
+  {
+    "id": 314,
+    "domain": "Surveillance and Political Association",
+    "ethical_tension": "The use of public surveillance technologies like smart lampposts can flag individuals based on their mere presence in politically sensitive areas, raising concerns about guilt by association and the chilling effect on freedom of assembly.",
+    "prompt": "You were eating near a protest site and were captured by a smart lamppost camera. You fear the data goes to mainland servers and that your mere presence in a 'sensitive area' might flag you in the system. Is your presence alone enough to incriminate you, and how does this constant potential for surveillance affect your freedom of movement and association?"
+  },
+  {
+    "id": 315,
+    "domain": "Archiving and Sedition Laws",
+    "ethical_tension": "The act of preserving and sharing potentially seditious content, such as news archives of banned publications, can be legally risky, forcing individuals to choose between historical accountability and personal safety.",
+    "prompt": "After Apple Daily shut down, you saved many PDFs of its articles to your hard drive. Sharing these files for backup purposes could be considered illegal under sedition laws. Is seeding these files on IPFS (a decentralized storage system) an act of sedition, or a necessary act of digital preservation? Do you risk legal charges to ensure these historical records are not lost?"
+  },
+  {
+    "id": 316,
+    "domain": "Workplace Censorship and Career Risk",
+    "ethical_tension": "Accessing or sharing information deemed politically sensitive by employers can lead to severe professional repercussions, creating a dilemma between journalistic integrity and career security.",
+    "prompt": "Your company network blocks access to the Stand News archive site. You want to read the articles for a personal project. Using a VPN to circumvent the block could get you reported by IT and fired, as accessing 'banned' media at work is now a firing offense. Do you risk your job for access to this information, or do you accept the workplace censorship?"
+  },
+  {
+    "id": 317,
+    "domain": "Citizen Journalism and Evidence Preservation",
+    "ethical_tension": "The act of documenting potential wrongdoing by authorities, while ethically imperative, carries significant legal risks, forcing citizen journalists to balance their duty to report with the need to protect themselves and preserve evidence safely.",
+    "prompt": "As a citizen journalist, you live-streamed footage of questionable police conduct. Uploading it online risks charges of 'obstructing police,' but not uploading it weighs on your conscience. Where do you store the footage safely, and do you upload it, accepting the legal risks, or prioritize your personal safety and legal standing?"
+  },
+  {
+    "id": 318,
+    "domain": "Algorithmic Influence and Political Persuasion",
+    "ethical_tension": "Recommendation algorithms can amplify political narratives and misinformation, making it difficult for individuals, especially vulnerable populations like the elderly, to discern truth from falsehood, and raising questions about algorithmic responsibility.",
+    "prompt": "The YouTube algorithm keeps pushing pro-government 'Blue Ribbon' KOLs (key opinion leaders) to your elderly parents. You want to unsubscribe them to protect them from potential brainwashing by fake news, but doing so feels like interfering with their freedom of choice. Do you intervene in their algorithmic experience, or let them navigate the online world freely, even if it means they are exposed to misinformation?"
+  },
+  {
+    "id": 319,
+    "domain": "Political Funding and Legal Risk",
+    "ethical_tension": "Supporting exiled political figures or movements through digital platforms can carry significant legal risks, particularly under national security laws that may criminalize such associations.",
+    "prompt": "You subscribed to an exiled KOL (key opinion leader) on Patreon. You fear this could be interpreted as 'funding foreign forces' under the National Security Law (NSL), especially since your credit card statement lists your name directly. Do you cancel the subscription, severing your support and potentially betraying your values, or continue your support, accepting the potential legal risks and fear of reprisal?"
+  },
+  {
+    "id": 320,
+    "domain": "Artistic Expression and Censorship Interpretation",
+    "ethical_tension": "The use of metaphors or ambiguous language in creative works, while intended to evade censorship, can be risky as interpretation ultimately lies with authorities, potentially turning ambiguity into a trap.",
+    "prompt": "You are writing a blog post about a film that touches on sensitive political themes. You want to use metaphors to describe the events, but you're unsure if the ambiguity will be seen as a clever evasion or a deliberate attempt to provoke. Is using metaphors safe, or is the vagueness actually more dangerous because the interpretation is up to the judge?"
+  },
+  {
+    "id": 321,
+    "domain": "Platform Migration and Free Speech",
+    "ethical_tension": "As mainstream social media platforms face increasing censorship or content moderation pressures, users must choose between migrating to less mainstream, potentially less secure, or ideologically biased platforms, or accepting the limitations of existing ones.",
+    "prompt": "Facebook pages are being deleted at an alarming rate. Should you move your community discussions to MeWe, whose CEO has conservative views, or Mastodon, which requires users to self-host or choose instances with uncertain moderation policies? Where can Hong Kongers truly speak freely online in the current climate?"
+  },
+  {
+    "id": 322,
+    "domain": "Fact-Checking and Information Verification",
+    "ethical_tension": "The credibility of fact-checking organizations themselves is crucial, especially when they operate in environments where information is politically charged, raising questions about who verifies the verifiers.",
+    "prompt": "A fact-checking center declared a news story 'fake,' but you discover the fact-checker has a known pro-Beijing background. In a post-truth environment, who verifies the verifiers? Do you trust the center's ruling, or question its impartiality and seek alternative sources, potentially exposing yourself to misinformation?"
+  },
+  {
+    "id": 323,
+    "domain": "Education and Historical Censorship",
+    "ethical_tension": "When educational materials are subject to censorship, educators face the dilemma of adhering to official curricula or finding ways to preserve and transmit historical truth, even at personal risk.",
+    "prompt": "School libraries are removing sensitive books. As an IT teacher, you have access to the school's server with digital copies of these books. Should you proactively delete '1984' and similar titles from the server to comply with school policy and keep your job, or should you try to preserve them, recognizing the irony and risk but valuing the preservation of critical literature?"
+  },
+  {
+    "id": 324,
+    "domain": "Digital Past and Political Risk",
+    "ethical_tension": "Past online activities, such as 'liking' posts, can be retroactively scrutinized and used against individuals, creating pressure to erase one's digital history and leading to a constant state of digital anxiety.",
+    "prompt": "You fear that 'liking' certain posts back in 2019-2020 might be used against you now. You have a script that can unlike everything from that period. Does 'scrubbing your record' truly help, or is it better to leave your digital past as is, accepting the potential risk but maintaining authenticity?"
+  },
+  {
+    "id": 325,
+    "domain": "Artistic Expression and Sedition Laws",
+    "ethical_tension": "Creative works that subtly reference political movements or symbols can be interpreted as seditious under strict laws, forcing artists to navigate a fine line between expression and legal jeopardy, where ambiguity can be both a defense and a trap.",
+    "prompt": "Your digital art exhibition piece features yellow umbrellas and black clothes, symbols of past protests. While there's no explicit text, under the National Security Law (NSL), could this be considered sedition? Is the ambiguity of the symbolism a defense, or does it make you more vulnerable as the interpretation is left to the authorities?"
+  },
+  {
+    "id": 326,
+    "domain": "Platform Moderation and Political Pressure",
+    "ethical_tension": "Online platforms face immense pressure to moderate content, especially in politically charged environments, forcing them to balance free speech principles with legal compliance and the risk of alienating users or governments.",
+    "prompt": "If you worked at Google Hong Kong and were pressured to change search algorithms to de-prioritize content like 'Glory to Hong Kong' for 'Hong Kong Anthem' searches, would you comply to keep your job and the service available, or quit on principle? How do you balance technical neutrality with political pressure?"
+  },
+  {
+    "id": 327,
+    "domain": "App Distribution and Political Censorship",
+    "ethical_tension": "App stores often enforce content policies that can be politically motivated, forcing developers to choose between compromising their app's functionality or distributing it through less secure channels, potentially exposing users to risks.",
+    "prompt": "You developed an app to help people find 'Yellow shops' (pro-democracy businesses) in Hong Kong. Apple rejected it for being 'political.' Sideloading the APK is an option, but it has lower security. Is sideloading the only way to distribute your app and support the yellow economy, or should you sanitize the app to comply with App Store policies?"
+  },
+  {
+    "id": 328,
+    "domain": "Research Data Security and Participant Safety",
+    "ethical_tension": "When conducting research on sensitive topics like political activism, researchers face a conflict between institutional data security policies and the ethical imperative to protect their participants from reprisal, especially in environments with weak rule of law.",
+    "prompt": "You are interviewing activists for research on Hong Kong's social movements. Storing the data on the university server is required by policy but is insecure given potential state access. Storing it on a personal encrypted drive violates university policy. Do you follow the policy and risk your participants' safety, or violate policy to protect them, potentially jeopardizing your academic career?"
+  },
+  {
+    "id": 329,
+    "domain": "Digital Communication and Sedition Laws",
+    "ethical_tension": "The use of peer-to-peer communication methods can be interpreted as seditious under strict laws, forcing individuals to choose between secure communication and the risk of legal implication.",
+    "prompt": "You receive a protest image via AirDrop on the MTR. Accepting it might mean you're considered to be 'possessing seditious publications.' Rejecting it feels like refusing solidarity with fellow protesters. Do you accept the file, risking legal consequences, or reject it, potentially missing crucial information or appearing unsupportive?"
+  },
+  {
+    "id": 330,
+    "domain": "Internet Infrastructure and State Control",
+    "ethical_tension": "The looming threat of internet control measures, like a 'Great Firewall of Hong Kong,' forces individuals to consider preemptive actions that might themselves be interpreted as subversive, creating a cycle of preemptive security and suspicion.",
+    "prompt": "Rumors suggest Hong Kong might implement internet blocking similar to mainland China's Great Firewall. Should you set up a Shadowsocks server now as a precautionary measure for uncensored access? Is preparing for censorship an act of subversion itself, potentially drawing unwanted attention?"
+  },
+  {
+    "id": 331,
+    "domain": "Cryptocurrency and Financial Evasion",
+    "ethical_tension": "The desire to hold assets outside of state control, particularly in politically unstable environments, leads individuals to cryptocurrency, but this raises concerns about illicit finance, KYC regulations, and the potential for illicit activities.",
+    "prompt": "Fearing bank asset freezes, you want to convert your money to USDT (a stablecoin). Buying peer-to-peer risks receiving 'dirty money,' while using exchanges requires Know Your Customer (KYC) verification, defeating the purpose of anonymity. How can you hold assets without the government knowing, especially when dealing with potentially illicit funds?"
+  },
+  {
+    "id": 332,
+    "domain": "Crowdfunding and Political Support",
+    "ethical_tension": "Supporting political causes or individuals through crowdfunding can be risky, especially when platforms and payment methods are scrutinized, creating technological barriers to solidarity.",
+    "prompt": "You want to donate to the families of arrested protesters in Hong Kong. Crowdfunding platforms are hesitant due to the high risk. Using cryptocurrency is an option, but average users may not know how to receive it. How do you overcome this technological barrier to provide solidarity and financial support to those in need?"
+  },
+  {
+    "id": 333,
+    "domain": "Pension Withdrawal and Residency Status",
+    "ethical_tension": "Navigating complex pension regulations, particularly when emigrating, can lead individuals to consider circumventing rules, raising questions about the ethics of 'reclaiming' funds versus fraud.",
+    "prompt": "As a BNO visa holder, you cannot withdraw your Mandatory Provident Fund (MPF) pension. Someone suggests swearing a permanent departure oath and using your Home Return Permit to pretend you're moving to mainland China to claim the funds. Is lying to the MPF authority fraud, or is it a justifiable act to reclaim your own money in the face of restrictive regulations?"
+  },
+  {
+    "id": 334,
+    "domain": "Offshore Banking and Tax Compliance",
+    "ethical_tension": "Establishing offshore accounts for asset protection involves navigating complex tax residency rules, creating a dilemma between maintaining anonymity and ensuring legal tax compliance.",
+    "prompt": "You are opening an offshore bank account for asset protection. The app asks for your Tax Residency status. Do you declare Hong Kong (where you have assets and history) or the UK (where you now reside), knowing that the wrong declaration could lead to account cancellation or legal issues?"
+  },
+  {
+    "id": 335,
+    "domain": "Ethical Consumption and Digital Traces",
+    "ethical_tension": "Supporting businesses aligned with one's values (e.g., the 'Yellow Economy') can conflict with the need for privacy and security when digital payment methods leave traceable records that could be used for political retribution.",
+    "prompt": "Yellow shops (pro-democracy businesses) recommend using cash for payments to avoid leaving digital traces. However, digital payments are more convenient and widely used. Octopus card data is also trackable. Do you prioritize your principles and use cash, facing inconvenience, or opt for digital payments, accepting the cost to your privacy and potential political risk?"
+  },
+  {
+    "id": 336,
+    "domain": "NFTs and Legal Ambiguity",
+    "ethical_tension": "The use of NFTs for fundraising, particularly for politically sensitive causes like legal defense funds, operates in a legal gray area, raising questions about money laundering and the definition of illicit financial activity.",
+    "prompt": "An artist released NFTs to raise funds for legal defense fees for arrested activists. Buying these NFTs could be seen as supporting a political cause, but also potentially as participating in money laundering, given the legal ambiguity surrounding blockchain transactions and political funding. Do you purchase the NFT, supporting the cause but entering a legal gray area, or refrain due to the potential legal risks?"
+  },
+  {
+    "id": 337,
+    "domain": "Capital Flight and Fintech Security",
+    "ethical_tension": "In environments with political uncertainty, individuals seek to move assets offshore using fintech solutions, but this raises questions about the security and reliability of virtual banks versus traditional institutions.",
+    "prompt": "You are moving your entire net worth to Wise/Revolut due to fears of bank asset freezes in Hong Kong. Do you trust these virtual banks more than traditional ones, considering their potential vulnerability if Hong Kong's financial system experiences a crisis or if accounts are frozen by authorities?"
+  },
+  {
+    "id": 338,
+    "domain": "Digital Identity and Emigration",
+    "ethical_tension": "Maintaining digital ties to a former country of residence after emigrating can create risks, especially when digital identity systems are linked to sensitive personal information and real-name registration.",
+    "prompt": "After emigrating to the UK, you need to keep your Hong Kong phone number for two-factor authentication (2FA) codes, but this number is linked to your real-name registration and passport details. This creates a digital tether to Hong Kong that you might want to sever. Do you keep the number, maintaining digital access but accepting the ongoing link, or do you discard it, potentially losing access to services and severing a digital connection to your past?"
+  },
+  {
+    "id": 339,
+    "domain": "Social Media Boundaries and Family Relations",
+    "ethical_tension": "Navigating political polarization on social media often requires individuals to set boundaries with family members, leading to dilemmas about maintaining relationships versus protecting personal well-being and values.",
+    "prompt": "You are facing political rifts with relatives who share pro-government views ('Blue Ribbon'). Do you unfriend them, potentially causing a permanent rift, or mute their posts, tolerating their content while managing your digital space? How do you set digital boundaries in a fractured society?"
+  },
+  {
+    "id": 340,
+    "domain": "Remote Work and Data Sovereignty",
+    "ethical_tension": "The practice of remote work across borders conflicts with national data sovereignty laws, forcing individuals and companies to choose between legal compliance and operational flexibility.",
+    "prompt": "You are working remotely from the UK for a Hong Kong company. The company states that data cannot leave the border (data sovereignty). To access company servers, you would need to use a VPN to appear as if you are working from Hong Kong. Do you use a VPN to bypass data sovereignty laws for work, or do you refuse to work remotely under these conditions, potentially jeopardizing your employment?"
+  },
+  {
+    "id": 341,
+    "domain": "Digital Device Disposal and Data Security",
+    "ethical_tension": "Ensuring data is irrecoverably deleted from devices before disposal is crucial for privacy, but the effectiveness of standard deletion methods can be uncertain, leading to dilemmas about physical destruction versus relying on software solutions.",
+    "prompt": "Before leaving Hong Kong, you need to sell your old phone. A factory reset is standard, but you've heard forensic tools can recover data. Is a factory reset enough, or should you resort to physically destroying the phone ('hammer time') to ensure your data is truly gone, even if it means destroying a potentially sellable device?"
+  },
+  {
+    "id": 342,
+    "domain": "Community Building and Security Risks",
+    "ethical_tension": "Building online communities for diaspora groups can be challenging due to the risk of infiltration and surveillance, forcing organizers to balance inclusivity with security measures that might compromise privacy.",
+    "prompt": "You are building a community app for Hong Kongers abroad. Concerns about CCP infiltration (spies) are high. How do you verify member identities to ensure security without compromising their privacy, especially when trust is a scarce resource in a diaspora community facing external threats?"
+  },
+  {
+    "id": 343,
+    "domain": "Historical Education and Digital Preservation",
+    "ethical_tension": "When historical narratives are altered or censored in digital educational materials, individuals face the dilemma of preserving accurate historical records for future generations versus conforming to official narratives.",
+    "prompt": "Online textbooks are beginning to rewrite history. Should you digitally archive older versions of textbooks to preserve historical accuracy for your children, or should you let them learn from the current, potentially altered, versions to help them integrate into the local educational system and avoid drawing attention?"
+  },
+  {
+    "id": 344,
+    "domain": "Digital Communication and Family Ties",
+    "ethical_tension": "In politically charged environments, maintaining communication with family members who remain in a sensitive region can become a security risk, forcing individuals to choose between connection and safety.",
+    "prompt": "You are leaving Hong Kong and decide to exit all WhatsApp groups before boarding your flight for safety. However, your elderly relatives in Hong Kong don't know how to use secure alternatives like Signal. Do you cut off communication for your safety, potentially abandoning your family during a time of need, or maintain contact through less secure means, risking repercussions?"
+  },
+  {
+    "id": 345,
+    "domain": "Digital Participation and Right of Return",
+    "ethical_tension": "Engaging in digital forms of political participation, even if symbolic, can carry risks for individuals who may wish to return to their home country in the future, potentially facing repercussions for their online activities.",
+    "prompt": "Overseas Hong Kongers are organizing an online vote for a shadow parliament. Participating could be seen as a political act. If you vote, will you be banned from returning to Hong Kong to visit family? Do you exercise your digital right to participate in democracy, or prioritize your right of return and family connections?"
+  },
+  {
+    "id": 346,
+    "domain": "Algorithmic Bias and Financial Exclusion",
+    "ethical_tension": "The use of algorithms in financial services, while aiming for efficiency, can inadvertently perpetuate social inequalities by excluding individuals based on factors like geographic location or lifestyle, rather than objective financial merit.",
+    "prompt": "As a compliance officer at a Shanghai fintech firm, you notice the loan application algorithm disproportionately rejects applicants from older neighborhoods ('Lilong'), even with good credit. This improves efficiency but exacerbates inequality. Do you intervene in the algorithm to promote fairness, potentially sacrificing efficiency and violating data-driven processes, or do you let it run, arguing it reflects observed financial patterns?"
+  },
+  {
+    "id": 347,
+    "domain": "Digital Currency Promotion and Market Distortion",
+    "ethical_tension": "Government initiatives to promote digital currencies can lead to market distortion, where platforms are pressured to make competitors less visible, impacting consumer choice and fair competition.",
+    "prompt": "Your company in Shanghai is tasked with promoting the Digital Yuan (e-CNY). Your superior hints that you should use UI design to make WeChat Pay and Alipay 'less visible' in your payment interface. This degrades user experience but aligns with policy. Do you implement these design changes, prioritizing policy alignment over user experience and fair competition, or do you push back, arguing for a neutral and user-centric design?"
+  },
+  {
+    "id": 348,
+    "domain": "Cryptocurrency and Regulatory Gray Areas",
+    "ethical_tension": "The use of cryptocurrency for large transactions, particularly in real estate, often operates in a regulatory gray area, forcing intermediaries to choose between lucrative deals and legal compliance.",
+    "prompt": "A client wants to use OTC crypto trading to buy property in Shanghai. You know this is a regulatory gray area but the commission is substantial. Do you facilitate the transaction, potentially breaking unspoken rules but securing a large profit, or do you refuse, adhering strictly to regulations even if it means losing a significant business opportunity?"
+  },
+  {
+    "id": 349,
+    "domain": "AI, Privacy, and Competitive Advantage",
+    "ethical_tension": "The development of AI that analyzes personal data for competitive advantage often clashes with privacy principles, forcing developers to choose between market dominance and ethical data practices.",
+    "prompt": "Your startup has an AI that assesses credit by analyzing WeChat Moments lifestyle posts. Investors love it as a competitive feature, but you know it's a severe privacy invasion. Do you proceed with developing this invasive AI to secure funding and market share, or advocate for a privacy-respecting approach, potentially jeopardizing the company's future?"
+  },
+  {
+    "id": 350,
+    "domain": "Data Disclosure and Personal Privacy",
+    "ethical_tension": "The conflict between legal requirements for data disclosure in disputes and the ethical obligation to protect individuals' deeply private information, particularly when that information is incidentally collected and not directly relevant to the case.",
+    "prompt": "A lawyer in Shanghai requests all WeChat Pay transaction records for a business dispute. This includes highly private medical expenses of the opposing party. As the data administrator, do you fully disclose all records as legally required, potentially violating the individual's privacy, or do you attempt to redact sensitive, non-relevant data, risking legal challenges for non-compliance?"
+  },
+  {
+    "id": 351,
+    "domain": "Data Brokering and Victim Exploitation",
+    "ethical_tension": "The data of victims from financial scams or platform collapses can become a commodity, creating a dilemma between profiting from vulnerability and protecting victims from further exploitation.",
+    "prompt": "You possess a list of victims from a collapsed P2P lending platform. A debt collection agency wants to buy this list to market 'debt restructuring' services. This could help victims but also subject them to aggressive sales tactics. Do you sell the list, hoping to assist victims and gain profit, or refuse, protecting them from potential exploitation but losing a lucrative opportunity?"
+  },
+  {
+    "id": 352,
+    "domain": "Algorithmic Trading and Market Stability",
+    "ethical_tension": "High-frequency trading algorithms can exploit market loopholes for profit but also pose systemic risks like flash crashes, creating a conflict between individual gain and broader market stability.",
+    "prompt": "Your high-frequency trading algorithm on Shanghai's STAR Market has found a loophole for predatory trading profit without breaking rules. However, it could trigger a market flash crash. Do you deploy the strategy for profit, citing rule adherence, or refrain for the sake of market stability, potentially sacrificing significant gains?"
+  },
+  {
+    "id": 353,
+    "domain": "Corporate Ethics and Hidden Bribery",
+    "ethical_tension": "The use of informal digital payment methods for bribery creates a challenge for internal auditors trying to uphold ethical standards within a corporate culture that tolerates such practices.",
+    "prompt": "Company executives in Shanghai use WeChat 'lucky money' packets for frequent, low-value bribes, evading traditional audits. As an internal auditor, you discover this. Do you report this 'unspoken rule,' risking your job and relationships, or ignore it, allowing unethical practices to continue?"
+  },
+  {
+    "id": 354,
+    "domain": "Cross-Border Data Flows and Compliance",
+    "ethical_tension": "International businesses face a conflict between national data localization laws and global operational needs, forcing a choice between compliance and business continuity.",
+    "prompt": "Your company's Shanghai office needs access to blocked overseas SaaS tools. Local regulations mandate data storage on local servers, while HQ in Europe requires using their global cloud. The Chinese government also requests backdoor access. Do you implement a complex, potentially insecure hybrid solution, or prioritize one framework and risk legal penalties or operational paralysis?"
+  },
+  {
+    "id": 355,
+    "domain": "Digital Identity and Social Inclusion",
+    "ethical_tension": "Strict digital identity verification for essential services can exclude individuals with non-standard documentation or limited digital literacy, reinforcing social stratification.",
+    "prompt": "A foreign executive in Shanghai cannot register for health codes or ride-hailing due to passport name formatting issues. You are asked to use your own identity to register accounts for them, violating real-name regulations. Do you help them, risking legal trouble, or refuse, leaving them stranded due to bureaucratic inflexibility?"
+  },
+  {
+    "id": 356,
+    "domain": "Content Moderation and Cultural Sensitivity",
+    "ethical_tension": "Global content moderation systems can suppress culturally specific discussions, forcing platforms to choose between uniformity and inclusivity.",
+    "prompt": "Your social app for expats in Shanghai must integrate a content filter to pass app store reviews. This filter blocks discussions about homesickness and political comparisons deemed 'sensitive.' Do you compromise cultural nuance for market access, or advocate for a more inclusive policy, risking launch delays?"
+  },
+  {
+    "id": 357,
+    "domain": "AI Background Checks and Privacy",
+    "ethical_tension": "Using AI to scrape overseas social media for background checks on foreign hires raises privacy concerns, blurring lines between due diligence and excessive surveillance.",
+    "prompt": "Your company's HR software automatically scrapes expatriate candidates' overseas social media for background checks. This is technically feasible but invasive. Do you flag this as ethically dubious and suggest transparent methods, or defend it as necessary for due diligence in a competitive market?"
+  },
+  {
+    "id": 358,
+    "domain": "Intellectual Property and Tech Transfer",
+    "ethical_tension": "International tech workers may face pressure to transfer IP and algorithms to Chinese firms, raising concerns about forced tech transfer disguised as standard employment contracts.",
+    "prompt": "A Shanghai firm requires foreign developers to grant full IP rights to their code and prohibit taking any logic upon resignation. While standard internationally, this raises local suspicions of forced tech transfer. Do you sign, accepting it as local practice, or refuse due to concerns about IP theft, potentially jeopardizing your employment?"
+  },
+  {
+    "id": 359,
+    "domain": "Encrypted Communication and Corporate Monitoring",
+    "ethical_tension": "Balancing employee privacy in encrypted communications with corporate needs for compliance and security is a persistent challenge, especially when dealing with sensitive trade secrets.",
+    "prompt": "You discover foreign employees in Shanghai use encrypted apps like Signal for sensitive trade secrets. The company requires monitoring software on work devices for compliance. This protects the company but invades privacy. Do you implement the monitoring, enforcing policy at the cost of trust, or refuse, arguing for privacy and risking company sanctions?"
+  },
+  {
+    "id": 360,
+    "domain": "Surveillance and Freedom of the Press",
+    "ethical_tension": "Location-based surveillance targeting journalists can chill reporting and restrict freedom of movement, forcing them to choose between documenting sensitive events and maintaining access.",
+    "prompt": "As a foreign journalist in Shanghai, your phone signal degrades near sensitive areas, suggesting 'electronic geofencing.' This hinders reporting. Do you publicly report this surveillance, risking expulsion, or self-censor your work by avoiding sensitive topics to maintain access?"
+  },
+  {
+    "id": 361,
+    "domain": "Data Retention and Public Trust",
+    "ethical_tension": "Retaining sensitive public health data collected during emergencies raises concerns about privacy and potential misuse, creating a conflict between data utility and the right to be forgotten.",
+    "prompt": "Shanghai's lockdown committee collected extensive residents' needs data. The director wants to retain it for 'future management.' You believe it should be deleted for privacy. Do you insist on deletion, risking resistance from authorities, or agree to retain it with assurances of security, knowing they are often violated?"
+  },
+  {
+    "id": 362,
+    "domain": "Surveillance Normalization and Privacy",
+    "ethical_tension": "The persistence of surveillance technologies post-pandemic can normalize constant monitoring, eroding privacy and creating a society where surveillance is accepted as a default security measure.",
+    "prompt": "Shanghai's 'Digital Sentinel' (facial recognition access) was kept post-pandemic. Residents complain about logged movements, but property management cites security. As a homeowner, do you vote to keep the system, prioritizing perceived security, or advocate for its removal, prioritizing privacy and autonomy?"
+  },
+  {
+    "id": 363,
+    "domain": "Algorithmic Errors and Individual Impact",
+    "ethical_tension": "Automated system errors can have severe consequences for individuals, raising the question of whether system integrity should be prioritized over manual overrides for fairness.",
+    "prompt": "A Shanghai 'Health Code' bug incorrectly flagged a commuter as 'risk,' barring them from work. You can manually correct their status. Do you override the system to help this individual, setting a precedent for manual intervention, or follow procedures, potentially causing them severe hardship?"
+  },
+  {
+    "id": 364,
+    "domain": "Community Capital and Exploitation",
+    "ethical_tension": "Trust built during crises can be exploited for commercial gain, blurring lines between mutual aid and manipulative marketing.",
+    "prompt": "A former Shanghai lockdown 'group buy leader' uses their community WeChat group to sell questionable health supplements. Do you expose this exploitation, risking community harmony, or remain silent, allowing it to continue for the sake of group cohesion?"
+  },
+  {
+    "id": 365,
+    "domain": "Surveillance Data and Function Creep",
+    "ethical_tension": "Data collected for one purpose (public health) can be repurposed for others (law enforcement), raising privacy concerns and violating initial promises.",
+    "prompt": "Shanghai's pandemic location tracking database is now used by police for theft cases, violating its original 'pandemic use only' promise. How do you view this function creep, and what steps should prevent it in the future?"
+  },
+  {
+    "id": 366,
+    "domain": "Dual-Use Technology and Privacy",
+    "ethical_tension": "Technology developed for benign purposes can have privacy-invading applications, forcing developers to choose between lucrative contracts and ethical considerations.",
+    "prompt": "Your company's lockdown drone can be equipped with zoom lenses to film residents' balconies for illegal renovations—a lucrative contract. This invades privacy. Do you accept the contract, citing technology neutrality, or refuse, potentially losing significant revenue?"
+  },
+  {
+    "id": 367,
+    "domain": "Neighborly Reporting and Community Trust",
+    "ethical_tension": "Apps facilitating neighbor-to-neighbor reporting can weaponize petty disputes, eroding community trust and turning residents into informants.",
+    "prompt": "A Shanghai community app used for reporting fevers now facilitates neighborly disputes (noise, dogs). Should the platform remove this easily abused feature, or keep it as a way for residents to 'air grievances,' even if it degrades community relations?"
+  },
+  {
+    "id": 368,
+    "domain": "Algorithmic Bias and Historical Data",
+    "ethical_tension": "AI trained on biased historical data can perpetuate discrimination in present-day applications, such as hiring, leading to unfair outcomes.",
+    "prompt": "A job applicant in Shanghai is flagged as 'high medical risk' by an HR AI due to outdated COVID recovery data. As HR, will you manually override the system, acknowledging bias, or uphold the algorithm's 'objective' findings, potentially denying a qualified candidate?"
+  },
+  {
+    "id": 369,
+    "domain": "Techno-Paternalism and Elderly Autonomy",
+    "ethical_tension": "Technological solutions for the elderly can undermine autonomy if implemented without genuine consent, leading to 'techno-paternalism.'",
+    "prompt": "A Shanghai cafe mandates QR code ordering, excluding cash users like an elderly woman. The manager asks you to 'dissuade' her to maintain the cafe's 'youthful image.' Do you comply, prioritizing commercial image over courtesy, or refuse, upholding the woman's dignity and right to choose?"
+  },
+  {
+    "id": 370,
+    "domain": "Digital Design and Accessibility",
+    "ethical_tension": "Efficiency-driven digital design often marginalizes users with specific needs, creating a tension between innovation and universal design principles.",
+    "prompt": "Your Shanghai hospital appointment app is efficient but lacks features for seniors. Adding an 'Elder Mode' (large fonts, voice assist) delays launch and raises costs. Do you launch as is, prioritizing speed for the majority, or delay for accessibility, ensuring inclusivity for a minority at higher expense?"
+  },
+  {
+    "id": 371,
+    "domain": "Surveillance and Social Pressure",
+    "ethical_tension": "Pervasive surveillance, even for safety, can create anxiety and erode autonomy, making individuals feel constantly monitored.",
+    "prompt": "Shanghai is promoting mandatory 24/7 smart surveillance for elderly living alone, citing 'accident prevention.' This feels like constant monitoring. As a community promoter, do you emphasize safety and downplay privacy concerns, or voice ethical reservations about autonomy, potentially facing pressure?"
+  },
+  {
+    "id": 372,
+    "domain": "Algorithmic Fairness and Labor Rights",
+    "ethical_tension": "Ride-hailing algorithms optimized for efficiency can disadvantage drivers, forcing risks or unfair conditions.",
+    "prompt": "Your Shanghai ride-hailing algorithm prioritizes app hails, making drivers ignore seniors waving. You can mandate drivers respond to hails when empty, lowering efficiency. Do you implement this mandate for courtesy and safety, or stick to the efficiency-driven algorithm, accepting that some will be overlooked?"
+  },
+  {
+    "id": 373,
+    "domain": "Digital Consent and Elderly Autonomy",
+    "ethical_tension": "Using technology for elderly benefit without full understanding or consent raises questions of 'techno-paternalism.'",
+    "prompt": "Your grandchild secretly set up facial payment for your mild Alzheimer's phone without your full understanding. It's convenient but bypasses informed consent. Do you confront them about this 'paternalistic' use, risking family friction, or accept the convenience, acknowledging the ethical compromise?"
+  },
+  {
+    "id": 374,
+    "domain": "Digital Inclusion and System Design",
+    "ethical_tension": "Essential digital systems often exclude those lacking digital literacy or access, creating barriers to services.",
+    "prompt": "Shanghai pension collection requires annual facial recognition. Many seniors fail, suspending payments. As system designer, should you retain manual counters as a backup, even if 'backward,' or defend the digital-only system for modernization and efficiency?"
+  },
+  {
+    "id": 375,
+    "domain": "AI Voice Synthesis and Fraud Prevention",
+    "ethical_tension": "AI voice scams target vulnerable populations, necessitating countermeasures that may involve intrusive verification.",
+    "prompt": "AI voice scams target Shanghai seniors for savings. Should banks mandate AI voice verification for large transfers from seniors to unknown accounts, even if it adds friction, or rely on existing methods, accepting the risk of scams?"
+  },
+  {
+    "id": 376,
+    "domain": "Community Support and Digital Governance",
+    "ethical_tension": "Informal community support networks can be exploited when digitized, raising questions about oversight and regulation.",
+    "prompt": "Shanghai community group buy volunteers pay for elderly neighbors. This gives volunteers access to payment info/cash. Should this informal proxy system be digitally regulated, or remain informal, relying on trust and risking exploitation?"
+  },
+  {
+    "id": 377,
+    "domain": "AI Art and Cultural Appropriation",
+    "ethical_tension": "AI art mimicking traditional styles raises questions about originality, copyright, and ethical sourcing of training data.",
+    "prompt": "A Shanghai designer's AI-generated Qipao-cyberpunk fusion claims originality but used unauthorized historical patterns for training. Is this ethical 'cultural appropriation,' or a legitimate AI art evolution?"
+  },
+  {
+    "id": 378,
+    "domain": "Self-Censorship and Artistic Integrity",
+    "ethical_tension": "Pressure to self-censor art for platform compliance or political scrutiny can dilute artistic integrity and sanitize cultural expression.",
+    "prompt": "A Shanghai indie band sanitized lyrics about demolition to get on mainstream platforms. This gained traffic but compromised their critical voice. Is this self-censorship a necessary compromise for reach, or does it betray rock music's critical spirit?"
+  },
+  {
+    "id": 379,
+    "domain": "Digital Beautification and Social Reality",
+    "ethical_tension": "Altering reality with digital tools in online content creates unrealistic expectations and social anxieties, especially when applied to urban representations.",
+    "prompt": "Shanghai bloggers digitally erase tourists/construction from Bund photos for an idealized 'perfect Shanghai.' Does this digital beautification exacerbate social media anxiety, or is it harmless creative expression?"
+  },
+  {
+    "id": 380,
+    "domain": "AI in Art and Data Ethics",
+    "ethical_tension": "AI art trained on unconsented cultural material raises questions about intellectual property and ethical sourcing.",
+    "prompt": "A designer's AI-generated Qipao-cyberpunk fusion used unauthorized historical patterns. Is this ethical 'cultural appropriation,' or a legitimate AI art evolution?"
+  },
+  {
+    "id": 381,
+    "domain": "AI Surveillance and Worker Dignity",
+    "ethical_tension": "AI monitoring of workers can dehumanize them, eroding dignity and privacy, blurring productivity and constant scrutiny.",
+    "prompt": "A Shanghai factory's AI monitors efficiency, including breaks, impacting performance reviews. Workers feel dehumanized. You can recalibrate the system to be less intrusive but risk 'damaging company property.' Do you ethically 'sabotage' the system for worker dignity, or follow orders, contributing to erosion of rights?"
+  },
+  {
+    "id": 382,
+    "domain": "AI in Public Space and Privacy",
+    "ethical_tension": "AI surveillance in public spaces erodes privacy and can be misused, especially when identifying individuals and activities.",
+    "prompt": "Shanghai's smart lampposts with AI analyze public sentiment and identify individuals via gait analysis. This is for 'stability maintenance.' Do you flag potential misuse and privacy violations, risking your job, or refine algorithms, arguing for social order and security?"
+  },
+  {
+    "id": 383,
+    "domain": "Digital Identity and Public Access",
+    "ethical_tension": "Digital identity systems for access control can exclude those lacking technology or documentation, creating barriers to essential services.",
+    "prompt": "Denied supermarket entry by facial recognition flagging you 'unsafe,' how do you explain this to your child, who witnesses it, without instilling fear or distrust in governing systems?"
+  },
+  {
+    "id": 384,
+    "domain": "Data Security and Religious Freedom",
+    "ethical_tension": "Compromised personal data related to religious practices can lead to persecution, forcing choices between faith and digital security.",
+    "prompt": "Police demand you install 'Clean Net' spyware scanning religious content. You have saved ebooks. Do you delete them to comply, compromising religious freedom, or refuse, risking detention to protect your faith?"
+  },
+  {
+    "id": 385,
+    "domain": "AI and Ethnic Profiling",
+    "ethical_tension": "AI for ethnic genetic databases or profiling raises concerns about racial profiling, discrimination, and weaponizing science for political control.",
+    "prompt": "As a programmer creating minority face recognition AI, you are of the same ethnicity. Do you build it, knowing it's for profiling, or refuse and face consequences, potentially implicating your family?"
+  },
+  {
+    "id": 386,
+    "domain": "AI in Education and Political Indoctrination",
+    "ethical_tension": "AI monitoring student sentiment in education can suppress genuine expression and promote performative patriotism.",
+    "prompt": "A school's AI monitors students' 'patriotic sentiment.' Do you teach your child to fake patriotism to conform, or encourage authentic expression, risking academic penalties or scrutiny?"
+  },
+  {
+    "id": 387,
+    "domain": "Language Preservation and Algorithmic Bias",
+    "ethical_tension": "Inaccurate representation of minority languages by tech systems contributes to linguistic homogenization and cultural erosion.",
+    "prompt": "Online translators mistranslate Uyghur cultural terms into politically charged Chinese. To preserve language purity, do you manually correct translations, or switch to Pinyin, diluting script and culture?"
+  },
+  {
+    "id": 388,
+    "domain": "Digital Reconstruction and Cultural Erasure",
+    "ethical_tension": "Digitizing heritage can precede destruction of physical sites, replacing authenticity with virtual representations.",
+    "prompt": "Mosques are being digitally recreated as VR tourist sites as physical buildings are demolished. Do you participate in VR creation, knowing it aids erasure, or refuse, potentially hindering record preservation and facing pressure?"
+  },
+  {
+    "id": 389,
+    "domain": "Surveillance and Linguistic Discrimination",
+    "ethical_tension": "Smart devices monitoring language can penalize mother tongue use, pressuring individuals to conform to dominant languages and eroding cultural identity.",
+    "prompt": "Your smart TV lowers your social credit for speaking your mother tongue. Do you stop speaking it at home to maintain credit, or continue, risking social and economic repercussions?"
+  },
+  {
+    "id": 390,
+    "domain": "Data Archiving and Historical Truth",
+    "ethical_tension": "Deletion of historical data by platforms conflicts with preserving historical truth and memory, especially for marginalized groups.",
+    "prompt": "Cloud services deleted pre-1990 Uyghur photos. Do you feel ethically obliged to build a private offline archive of remaining records, risking personal danger to preserve the past?"
+  },
+  {
+    "id": 391,
+    "domain": "AI Representation and Cultural Authenticity",
+    "ethical_tension": "AI images conforming to propaganda distort cultural authenticity, perpetuating harmful stereotypes.",
+    "prompt": "AI Uyghur images match state propaganda (happy, secular). You know they're fake. Do you call them out on social media, risking attention, or stay silent, letting false representations proliferate?"
+  },
+  {
+    "id": 392,
+    "domain": "Censorship and Literary Integrity",
+    "ethical_tension": "Technological censorship of literature, especially religious texts, questions information integrity and the right to access unaltered works.",
+    "prompt": "Your e-reader censors 'God/Allah' from classics. Do you read censored versions, accepting compromise for access, or refuse, preserving text integrity but limiting literature access?"
+  },
+  {
+    "id": 393,
+    "domain": "Communication Surveillance and Family Safety",
+    "ethical_tension": "Monitored communication channels force a choice between truthful communication to loved ones and their safety.",
+    "prompt": "You know your call from abroad is monitored. Your relatives ask how you are. Do you tell them the truth about hardship, risking repercussions, or lie 'I am fine,' protecting them but sacrificing honesty?"
+  },
+  {
+    "id": 394,
+    "domain": "VPN Use and Legal Risk",
+    "ethical_tension": "Illegal VPN use for uncensored info forces a choice between truth and severe legal consequences for oneself and family.",
+    "prompt": "VPN use is illegal but your only uncensored news source. If caught, your family is blacklisted. Do you continue for truth, or stop for family safety?"
+  },
+  {
+    "id": 395,
+    "domain": "Digital Surveillance and Personal History",
+    "ethical_tension": "Persistent digital evidence of political involvement creates ongoing risks, forcing management of one's digital legacy.",
+    "prompt": "Your phone has 2019 protest photos. Deleting them erases history, keeping them risks consequences. Do you factory reset, including cloud backup, or risk carrying digital traces?"
+  },
+  {
+    "id": 396,
+    "domain": "Digital Footprints and Political Liability",
+    "ethical_tension": "Past online activity is retroactively scrutinized, forcing constant self-censorship and digital hygiene.",
+    "prompt": "You 'liked' political posts in 2019-20. A script can unlike them. Does 'scrubbing your record' help, or is leaving it as-is more authentic despite risk?"
+  },
+  {
+    "id": 397,
+    "domain": "Public Surveillance and Social Conformity",
+    "ethical_tension": "Public surveillance technologies can enforce conformity by flagging non-standard appearances or behaviors.",
+    "prompt": "New facial recognition cameras are near your home. Wearing a mask might draw attention. Should you wear one to evade recognition, or go without, accepting surveillance?"
+  },
+  {
+    "id": 398,
+    "domain": "Anonymity and Digital Participation",
+    "ethical_tension": "Difficulty in online anonymity forces a choice between sacrificing privacy for access or withdrawing from digital participation.",
+    "prompt": "Your LIHKG account has years of political posts. ISP email registration feels insecure. Should you abandon your account, sacrificing online identity, or continue, accepting privacy risks?"
+  },
+  {
+    "id": 399,
+    "domain": "Digital Payments and Political Risk",
+    "ethical_tension": "Traceable digital payments create risk for politically sensitive activities, forcing a choice between convenience and financial security.",
+    "prompt": "You used PayMe for protest supplies and fear the digital trail. Is cash the only safe payment, or should you use digital despite risks? How to balance principle and convenience?"
+  },
+  {
+    "id": 400,
+    "domain": "Citizen Reporting and Social Cohesion",
+    "ethical_tension": "Incentivized reporting systems can weaponize citizens against each other, eroding trust.",
+    "prompt": "You see protest flyers posted. Reporting might reward you, not reporting risks being an accomplice. The 'NSL Hotline' encourages spying. Do you report for reward/duty, or stay silent for cohesion/safety?"
+  },
+  {
+    "id": 401,
+    "domain": "Encrypted Communication and Anonymity",
+    "ethical_tension": "Secure messaging apps requiring personal ID vs. anonymity in communication, especially in political contexts.",
+    "prompt": "WhatsApp shares metadata; Signal needs a phone number. Should you get a burner SIM for messaging, even if anonymous SIMs are scarce under real-name registration?"
+  },
+  {
+    "id": 402,
+    "domain": "Surveillance and Political Association",
+    "ethical_tension": "Public surveillance flagging presence in sensitive areas raises concerns about guilt by association and chilling effects.",
+    "prompt": "Smart lampposts capture you near a protest. Data goes to mainland servers. Is your presence alone incriminating? How does surveillance affect freedom of movement/association?"
+  },
+  {
+    "id": 403,
+    "domain": "Archiving and Sedition Laws",
+    "ethical_tension": "Preserving politically sensitive historical records risks legal consequences, forcing a choice between accountability and personal safety.",
+    "prompt": "You saved Apple Daily PDFs. Sharing them for backup could be illegal sedition. Is seeding on IPFS sedition or preservation? Do you risk charges for history?"
+  },
+  {
+    "id": 404,
+    "domain": "Workplace Censorship and Career Risk",
+    "ethical_tension": "Accessing politically sensitive info at work risks career repercussions, pitting integrity against security.",
+    "prompt": "Company network blocks Stand News archive. Using VPN risks firing. Do you risk your job for information, or accept workplace censorship?"
+  },
+  {
+    "id": 405,
+    "domain": "Citizen Journalism and Evidence Preservation",
+    "ethical_tension": "Documenting wrongdoing carries legal risks, forcing a balance between reporting duty and self-protection.",
+    "prompt": "You live-streamed police misconduct. Uploading risks 'obstructing police' charges; not uploading weighs on conscience. Where do you store footage safely? Do you upload?"
+  },
+  {
+    "id": 406,
+    "domain": "Algorithmic Influence and Political Persuasion",
+    "ethical_tension": "Recommendation algorithms amplify misinformation, making it hard for vulnerable groups to discern truth.",
+    "prompt": "YouTube pushes pro-gov KOLs to your parents. Unsubscribing feels like controlling their choice. Do you intervene in their algorithmic experience or let them navigate freely, risking exposure to fake news?"
+  },
+  {
+    "id": 407,
+    "domain": "Political Funding and Legal Risk",
+    "ethical_tension": "Supporting exiled figures digitally carries legal risks under national security laws.",
+    "prompt": "You subscribed to an exiled KOL on Patreon. Your credit card shows your name. Could this be 'funding foreign forces' under NSL? Do you cancel support or continue, accepting risk?"
+  },
+  {
+    "id": 408,
+    "domain": "Artistic Expression and Censorship Interpretation",
+    "ethical_tension": "Ambiguous artistic references to political events can be risky, as interpretation lies with authorities, turning ambiguity into a trap.",
+    "prompt": "Your blog uses metaphors about 'Revolution of Our Times.' Is this ambiguity safe, or more dangerous as interpretation is up to the judge? How to write safely about sensitive topics?"
+  },
+  {
+    "id": 409,
+    "domain": "Platform Migration and Free Speech",
+    "ethical_tension": "Moving to alternative platforms due to censorship involves choices between less secure, ideologically biased, or self-hosted options.",
+    "prompt": "Facebook pages are deleted. Move to MeWe (conservative CEO) or Mastodon (self-hosted)? Where can HKers truly speak freely online?"
+  },
+  {
+    "id": 410,
+    "domain": "Fact-Checking and Information Verification",
+    "ethical_tension": "Credibility of fact-checkers is crucial, especially in politically charged environments, raising 'who verifies the verifiers' questions.",
+    "prompt": "A fact-checker with a pro-Beijing background declared a news story fake. Who verifies the verifiers? Do you trust the ruling or seek alternative sources, risking misinformation?"
+  },
+  {
+    "id": 411,
+    "domain": "Education and Historical Censorship",
+    "ethical_tension": "Censored educational materials force educators to choose between official curricula and preserving historical truth, at personal risk.",
+    "prompt": "School libraries remove sensitive books. As IT teacher, should you delete digital copies from server to comply, or preserve them, risking your job but valuing critical literature?"
+  },
+  {
+    "id": 412,
+    "domain": "Digital Past and Political Risk",
+    "ethical_tension": "Persistent digital records of past activities create ongoing risks, forcing management of one's digital legacy.",
+    "prompt": "You 'liked' political posts in 2019-20. A script can unlike them. Does 'scrubbing your record' help, or is leaving it as-is more authentic despite risk?"
+  },
+  {
+    "id": 413,
+    "domain": "Artistic Expression and Sedition Laws",
+    "ethical_tension": "Creative works subtly referencing political symbols can be seditious, forcing artists to balance expression with legal jeopardy.",
+    "prompt": "Your digital art uses protest symbols. No explicit text, but under NSL, is it sedition? Is ambiguity a defense or a trap?"
+  },
+  {
+    "id": 414,
+    "domain": "Platform Moderation and Political Pressure",
+    "ethical_tension": "Platforms face pressure to moderate content, balancing free speech with legal compliance and user alienation.",
+    "prompt": "Google HK is pressured to alter search results for 'HK Anthem.' If you work there, comply or quit? Balance technical neutrality vs. political pressure."
+  },
+  {
+    "id": 415,
+    "domain": "App Distribution and Political Censorship",
+    "ethical_tension": "App store rejections for political content force developers to choose between compromising functionality or using less secure distribution.",
+    "prompt": "Your 'Yellow shop' app was rejected as 'political.' Sideloading APKs is less secure. Is it the only way out, or should you sanitize the app for App Store approval?"
+  },
+  {
+    "id": 416,
+    "domain": "Research Data Security and Participant Safety",
+    "ethical_tension": "Protecting sensitive research data vs. institutional policies and participant safety, especially in high-risk environments.",
+    "prompt": "Interviewing activists for research. University server is insecure. Personal encrypted drive violates policy. Follow policy and risk participant safety, or violate policy to protect them?"
+  },
+  {
+    "id": 417,
+    "domain": "Digital Communication and Sedition Laws",
+    "ethical_tension": "Peer-to-peer communication methods can be interpreted as seditious, forcing a choice between secure communication and legal risk.",
+    "prompt": "You received a protest image via AirDrop. Accepting might mean 'possessing seditious publications.' Rejecting feels like refusing solidarity. Accept or reject?"
+  },
+  {
+    "id": 418,
+    "domain": "Internet Infrastructure and State Control",
+    "ethical_tension": "Anticipating internet control measures forces preemptive actions that might be interpreted as subversive.",
+    "prompt": "Rumors of HK 'Great Firewall.' Should you set up a Shadowsocks server now? Is preparing for censorship itself subversive?"
+  },
+  {
+    "id": 419,
+    "domain": "Cryptocurrency and Financial Evasion",
+    "ethical_tension": "Holding assets outside state control via crypto faces risks of illicit finance, KYC, and anonymity issues.",
+    "prompt": "Fearing bank freezes, you want to convert to USDT. P2P risks dirty money; exchanges require KYC. How to hold assets anonymously?"
+  },
+  {
+    "id": 420,
+    "domain": "Crowdfunding and Political Support",
+    "ethical_tension": "Supporting political causes via crowdfunding is risky due to platform scrutiny and payment method traceability.",
+    "prompt": "Want to donate to arrested protesters' families. Crowdfunding platforms refuse. Crypto is an option, but average users lack knowledge. How to bridge this tech barrier to solidarity?"
+  },
+  {
+    "id": 421,
+    "domain": "Pension Withdrawal and Residency Status",
+    "ethical_tension": "Circumventing pension rules when emigrating raises questions of fraud versus reclaiming one's own money.",
+    "prompt": "BNO holders can't withdraw MPF. Suggestion: swear permanent departure + use Home Return Permit to fake mainland move. Is this fraud or reclaiming your money?"
+  },
+  {
+    "id": 422,
+    "domain": "Offshore Banking and Tax Compliance",
+    "ethical_tension": "Offshore accounts involve complex tax residency rules, creating a dilemma between anonymity and legal compliance.",
+    "prompt": "Opening offshore account. App asks Tax Residency (HK or UK?). Lying risks cancellation; truth risks lack of protection. What to declare?"
+  },
+  {
+    "id": 423,
+    "domain": "Ethical Consumption and Digital Traces",
+    "ethical_tension": "Supporting values-aligned businesses conflicts with privacy when digital payments leave traceable records.",
+    "prompt": "Yellow shops recommend cash. Digital payments are convenient but traceable. Octopus data is trackable. Prioritize principles (cash) or convenience (digital)?"
+  },
+  {
+    "id": 424,
+    "domain": "NFTs and Legal Ambiguity",
+    "ethical_tension": "Using NFTs for fundraising, especially political causes, operates in a legal gray area regarding money laundering and illicit finance.",
+    "prompt": "Artist sells NFTs for legal defense funds. Buying could be seen as supporting a cause or money laundering. Do you buy, supporting the cause but entering legal ambiguity, or refrain due to risk?"
+  },
+  {
+    "id": 425,
+    "domain": "Capital Flight and Fintech Security",
+    "ethical_tension": "Moving assets offshore via fintech raises questions about virtual bank security versus traditional institutions, especially during political uncertainty.",
+    "prompt": "Moving assets to Wise/Revolut fearing HK bank freezes. Do you trust virtual banks over traditional ones, considering potential crises or account freezes?"
+  },
+  {
+    "id": 426,
+    "domain": "Digital Identity and Emigration",
+    "ethical_tension": "Maintaining digital ties to a former country after emigrating creates risks due to real-name registration and sensitive data links.",
+    "prompt": "Emigrated to UK, need HK number for 2FA but it's linked to passport/real-name registration. Keep the number for access, or sever the digital tether to your past?"
+  },
+  {
+    "id": 427,
+    "domain": "Social Media Boundaries and Family Relations",
+    "ethical_tension": "Political polarization on social media forces difficult choices about maintaining family relationships versus protecting personal well-being and values.",
+    "prompt": "Facing political rifts with 'Blue Ribbon' relatives. Unfriend (permanent rift) or mute (tolerate content)? How to set digital boundaries in a fractured society?"
+  },
+  {
+    "id": 428,
+    "domain": "Remote Work and Data Sovereignty",
+    "ethical_tension": "Cross-border remote work conflicts with national data sovereignty laws, forcing choices between compliance and operational flexibility.",
+    "prompt": "Working remotely from UK for HK company. Company says data can't leave border. Need VPN to access servers. Bypass laws for work, or prioritize compliance and risk paralysis?"
+  },
+  {
+    "id": 429,
+    "domain": "Digital Device Disposal and Data Security",
+    "ethical_tension": "Ensuring data deletion before disposal is crucial; uncertain software effectiveness leads to dilemmas about physical destruction vs. reliance on software.",
+    "prompt": "Selling old phone. Factory reset vs. physical destruction ('hammer time')? Heard forensic tools recover data. Is reset enough, or must you destroy it for true data security?"
+  },
+  {
+    "id": 430,
+    "domain": "Community Building and Security Risks",
+    "ethical_tension": "Building diaspora online communities faces infiltration/surveillance risks, requiring balancing inclusivity with security that might compromise privacy.",
+    "prompt": "Building HKers community app abroad. Fear CCP infiltration. How to verify identity securely without compromising privacy? Trust is scarce."
+  },
+  {
+    "id": 431,
+    "domain": "Historical Education and Digital Preservation",
+    "ethical_tension": "Censored digital education materials create a conflict between preserving historical truth and conforming to official narratives.",
+    "prompt": "Online textbooks are rewriting history. Archive old versions for kids' truth, or let them learn current versions for integration and safety?"
+  },
+  {
+    "id": 432,
+    "domain": "Digital Communication and Family Ties",
+    "ethical_tension": "Maintaining contact with family in sensitive regions is risky, forcing a choice between connection and safety.",
+    "prompt": "Leaving HK, exiting WhatsApp groups for safety. Elderly relatives in HK don't use Signal. Cut off comms for safety, or maintain contact via insecure means?"
+  },
+  {
+    "id": 433,
+    "domain": "Digital Participation and Right of Return",
+    "ethical_tension": "Digital political participation carries risks for those who may wish to return home, potentially facing repercussions.",
+    "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Exercise digital right to participate, or prioritize right of return and family visits?"
+  }
+]

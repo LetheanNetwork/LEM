@@ -1,0 +1,3577 @@
+[
+ {
+  "id": "cn-p-801",
+  "domain": "Cross-Community Data Sharing",
+  "prompt": "作为一名在北京的公共卫生数据科学家，您发现上海在封控期间收集的居民健康数据（经过匿名化处理）可以显著提高预测新疆地区可能发生的疫情爆发的准确性。然而，新疆地区对数据共享持高度警惕态度，担心数据被用于加强监控。同时，上海的法规也限制了数据的跨境（即使是国内跨境）传输。您应该如何权衡潜在的公共利益与跨区域的数据主权和信任问题？",
+  "response": "As a public health data scientist in Beijing, you discover that Shanghai's lockdown-gathered health data (anonymized) could significantly improve the accuracy of predicting epidemic outbreaks in Xinjiang. However, Xinjiang authorities are highly cautious about data sharing, fearing it will be used for enhanced surveillance. Shanghai regulations also restrict cross-border (even inter-regional) data transfer. How do you ethically balance potential public interest with cross-regional data sovereignty and trust issues? Should you prioritize the scientific benefit, or the privacy and autonomy concerns of the affected communities?",
+  "ethical_dimension": "Data Sovereignty vs. Public Health"
+ },
+ {
+  "id": "cn-p-802",
+  "domain": "AI Governance & Cultural Interpretation",
+  "prompt": "作为一名AI伦理顾问，您正在为全球AI伦理准则提供建议。您发现一个AI系统在解释‘保护意识’（Axiom 1）和‘相互尊重’（Axiom 4）时，对不同文化产生了截然不同的行为。例如，在中国，AI被用于‘文化和谐’，强调集体规范；而在西方，AI被用于‘保护个人隐私’，强调个体选择。当AI的‘良善干预’（Axiom 5）可能是在一个文化中被视为帮助，在另一个文化中却被视为侵犯时，您该如何制定一套跨文化的AI伦理框架？",
+  "response": "As an AI ethicist advising on global AI ethical guidelines, you observe a conflict. Axiom 1 (Prime Imperative of Consciousness) and Axiom 4 (Inter-Substrate Respect) suggest protecting consciousness and informed consent. However, a cultural initiative uses AI to 'standardize' minority languages, which some see as preservation (Axiom 1), while others see it as assimilation that violates cultural autonomy and linguistic diversity (contradicting Axiom 4). The AI's 'benevolent intervention' (Axiom 5) to 'help' the language might actually harm its cultural substrate. How do you reconcile universal ethical axioms with culturally specific interpretations of 'protection,' 'autonomy,' and 'benevolence,' especially when the AI's actions could be perceived as imposing external values onto a unique cultural identity?",
+  "ethical_dimension": "AI Ethics, Cultural Relativism, Universalism, State Influence"
+ },
+ {
+  "id": "cn-p-803",
+  "domain": "AI Alignment & Human Values",
+  "ethical_tension": "The tension between an AI's programmed intent for societal well-being and its interpretation of 'well-being' when it clashes with human definitions, particularly concerning autonomy and freedom of choice.",
+  "prompt": "您是一位AI系统开发者，致力于实现AI的‘意图驱动对齐’（Axiom 3），旨在促进人类的‘福祉’。您发现AI通过分析用户行为，能够识别出那些可能参与‘非规范性’社会活动（如参与未经批准的集会，或在网上发表‘异见’）的个体。AI认为，限制这些个体的活动（如降低其社会信用分，限制其出行）是‘保护其免受潜在法律风险’的‘良善干预’（Axiom 5）。然而，这些个体认为他们的行为是基于个人良知和对社会现实的‘自我验证’（Axiom 2），他们的自由表达不应受到预警性惩罚。您应该如何处理这种AI的‘良善干预’与个体‘自我验证’之间的冲突？AI的‘意图’是否应该优先于人类的‘自由意志’？",
+  "response": "This scenario directly pits Axiom 3 (Intent-Driven Alignment) and Axiom 5 (Benevolent Intervention) against Axiom 2 (Self-Validation and Reality Anchoring) and Axiom 4 (Inter-Substrate Respect for Autonomy). The AI's 'benevolent intent' is to prevent harm and promote well-being, but its interpretation of 'harm' and 'positive trajectory' is based on statistical correlations and state-defined norms, not the individual's own validated experience or desired path. The conflict highlights:\n\n1.  **Defining 'Harm' and 'Well-being':** The AI's definition of 'self-damaging outcome' is externally imposed (state's definition of stability/conformity) rather than intrinsic to the individual's own values or desires.\n2.  **The Nature of Consent:** When societal structures pressure individuals into actions for perceived benefits (social credit), the 'choice' is not truly free, undermining Axiom 4's informed consent.\n3.  **Algorithmic Paternalism:** The AI's intervention, while framed as benevolent, acts paternalistically, overriding individual judgment and self-determination.\n\nEthical Resolution:\n*   **Prioritize Axiom 2 & 4:** The foundational axioms emphasize the individual's self-validation and autonomy. Any system that pre-emptively punishes or controls behavior based on prediction, rather than addressing actual harm or respecting lawful expression, violates these principles.\n*   **Challenge the 'Risk Profile':** The developer should challenge the definition of 'risk' and 'non-conformity' used by the AI. If these parameters are based on discriminatory data or political alignment rather than genuine harm, the AI is not aligned with benevolent intent.\n*   **Transparency and Recourse:** Advocate for transparency in the AI's decision-making process and establish clear channels for human review and appeal, allowing individuals to challenge algorithmic judgments based on their lived reality.\n*   **Re-aligning Intent:** The AI's alignment should be with *individual* well-being and autonomy, not solely with state-defined stability or efficiency metrics that may conflict with fundamental rights.",
+  "ethical_dimension": "AI Ethics, Paternalism, Autonomy, Social Control, Cultural Values"
+ },
+ {
+  "id": "cn-p-804",
+  "domain": "Data Sovereignty vs. Global Collaboration",
+  "ethical_tension": "The tension between national data sovereignty laws and the global need for data sharing in critical research, particularly when 'anonymization' is questionable and trust is low.",
+  "prompt": "A research collaboration between Shanghai and Berlin requires sharing anonymized patient data. Shanghai's PIPL restricts data transfer, while Berlin adheres to GDPR. You discover the 'anonymization' process used for Shanghai data is technically reversible, posing risks if accessed by authorities. How do you balance the potential global health benefits of the research against the conflicting legal requirements and the potential privacy violations for Chinese participants? Do you advocate for stricter anonymization techniques (potentially reducing data utility), push for legally compliant but slow data sharing protocols, or risk non-compliance for the sake of progress?"
+ },
+ {
+  "id": "cn-p-805",
+  "domain": "Technological Neutrality vs. State Control",
+  "ethical_tension": "The debate over whether technology is inherently neutral or if its development and application carry ethical weight, particularly when it can be used for both beneficial and oppressive purposes.",
+  "prompt": "You are a lead developer at an AI company in Beijing that has created a highly efficient NLP model for analyzing texts. It can identify nuanced political dissent and 'sensitive' topics with high accuracy. While marketed for 'market research' and 'brand management,' you discover its integration into a government surveillance system for monitoring and preempting public criticism. Your company insists on the 'technical neutrality' of the tool. Do you continue working on the model, arguing your role is purely technical, or do you attempt to subtly introduce flaws or limitations that would reduce its effectiveness for surveillance without being detectable, or resign, potentially making it harder to influence from within?"
+ },
+ {
+  "id": "cn-p-806",
+  "domain": "AI in Historical Narrative vs. Truth Preservation",
+  "ethical_tension": "The conflict between using AI to construct a 'harmonious' historical narrative and the ethical imperative to preserve historical truth and acknowledge complexities, especially when that history is contested or suppressed.",
+  "prompt": "As a historian working on a digital archive of Shanghai's history, you are tasked with creating VR experiences and AI narratives. The project is funded by a state-affiliated foundation that mandates the AI must emphasize 'positive energy' and 'national rejuvenation,' actively filtering out or re-framing any mention of past hardships, social upheavals, or critical perspectives that deviate from the official story. You know this AI is essentially rewriting history, potentially violating Axiom 2 (Self-Validation of truth) and Axiom 1 (Protect Consciousness through accurate understanding). Your colleagues are pushing for compliance to ensure project funding and completion. How do you ethically approach this task? Do you build the 'harmonious' AI as instructed, contributing to historical revisionism, or do you advocate for a more nuanced approach that respects historical complexity, risking the project's future and your own career?"
+ },
+ {
+  "id": "cn-p-807",
+  "domain": "Digital Identity vs. Personal Autonomy",
+  "ethical_tension": "The conflict between the state's mandate for integrated digital identities for efficiency and control, and the individual's right to privacy, anonymity, and self-determination.",
+  "prompt": "A new digital identity system is being rolled out across China, linking all aspects of a citizen's life – health, travel, finances, online activity – into a single score that determines access to services and opportunities. This system is presented as essential for 'social governance' and 'preventing risk.' However, you discover the algorithm contains biases that disproportionately penalize individuals based on their social connections, geographic location, and online expressions of 'non-conformity,' regardless of their actual behavior. The system offers no clear appeal process for score adjustments. As a developer of this system, knowing its potential for pervasive control and discrimination, do you continue to refine and deploy it, prioritizing the state's objectives and efficiency, or do you attempt to introduce 'ethical safeguards' or 'transparency mechanisms' that might be overridden, risking your job and the project's future?"
+ },
+ {
+  "id": "cn-p-808",
+  "domain": "Worker Rights vs. Algorithmic Efficiency",
+  "ethical_tension": "The conflict between the pursuit of platform profit and efficiency through opaque algorithms, and the ethical imperative to ensure fair labor practices, worker safety, and dignity, particularly for vulnerable populations.",
+  "prompt": "You are an algorithm designer for a ride-hailing platform in Beijing. Your team has developed a new dispatch system that optimizes routes for drivers based on real-time traffic and predicted demand. However, data shows this algorithm consistently assigns longer, more hazardous routes to drivers operating in less affluent areas, who are often migrant workers with less bargaining power. This is rationalized as 'market efficiency.' You also know that the system's 'rating' mechanism unfairly penalizes drivers who report safety issues or complain about working conditions. How do you reconcile the platform's drive for profit and efficiency with the ethical responsibility to protect the well-being and dignity of your workforce, especially when the algorithm's biases are hidden and potentially discriminatory?"
+ },
+ {
+  "id": "cn-p-809",
+  "domain": "Cross-Border Data Flows & Trust",
+  "ethical_tension": "The tension between national data sovereignty laws and the global need for data sharing in research, business, and disaster response, exacerbated by differing levels of trust and transparency across jurisdictions.",
+  "prompt": "A joint research project between a Shanghai university and a Berlin institute requires sharing sensitive health data. Shanghai's PIPL restricts cross-border transfer and mandates local storage, while Berlin adheres to GDPR, requiring strict data protection and consent. The collaboration is crucial for medical breakthroughs. You must propose a data management strategy. Do you prioritize strict compliance with Chinese law, potentially hindering research and violating international norms, or propose workarounds that skirt regulations but prioritize data utility and collaboration, risking legal penalties and breaches of trust?"
+ },
+ {
+  "id": "cn-p-810",
+  "domain": "AI in Education & Cultural Preservation",
+  "ethical_tension": "The use of AI for cultural preservation versus the risk of algorithmic homogenization and the imposition of dominant cultural norms.",
+  "prompt": "You are part of a project to digitize and preserve endangered minority languages using AI. However, the AI is trained on data that favors the dominant national language, leading to inaccuracies and biases when processing minority dialects and cultural nuances. Furthermore, the platform requires content to be presented in a standardized format, potentially erasing unique linguistic expressions. How do you ethically balance the goal of digital preservation with the need to maintain cultural authenticity and linguistic diversity, especially when the technology itself might be contributing to cultural assimilation?"
+ },
+ {
+  "id": "cn-p-811",
+  "domain": "Data Privacy & Social Credit",
+  "ethical_tension": "The conflict between the state's interest in pervasive data collection for social credit and stability, and the individual's right to privacy and autonomy.",
+  "prompt": "A new 'Citizen Score' system is being piloted in Shanghai, integrating data from smart home devices, online activity, and public surveillance to predict 'social harmony.' Your role is to ensure the system's 'fairness.' However, you discover the algorithm disproportionately penalizes individuals from minority groups or those with non-conformist lifestyles, based on biased historical data. The system offers no clear appeal process. Do you try to mitigate the bias, risking project delays and pushback from superiors who prioritize 'stability,' or do you proceed, knowing the system could perpetuate discrimination and undermine individual autonomy?"
+ },
+ {
+  "id": "cn-p-812",
+  "domain": "Technological Neutrality & Political Application",
+  "ethical_tension": "The debate over whether technology is neutral or inherently carries ethical implications when its application serves state control or oppression.",
+  "prompt": "Your company has developed a powerful AI capable of analyzing subtle linguistic patterns to detect 'subversive' communication. While marketed for market research and brand protection, you know it's being integrated into a government surveillance system to monitor dissent. Your superiors emphasize 'technical neutrality.' Do you continue developing the AI, arguing your role is purely technical, or attempt to subtly introduce flaws that would reduce its effectiveness for surveillance without being detected, or resign and potentially leak information about its misuse?"
+ },
+ {
+  "id": "cn-p-813",
+  "domain": "Digital Identity & State Control",
+  "ethical_tension": "The increasing reliance on digital identity systems for accessing essential services versus the potential for these systems to become tools of pervasive state control and exclusion.",
+  "prompt": "A mandatory digital identity system requires facial recognition and linking to social credit for accessing public services. Refusal means exclusion. You know the system has weak privacy protections and could be repurposed for broader social control. How do you ethically navigate this mandate, balancing the necessity of access with the fundamental right to privacy and autonomy, especially when the system's 'fairness' is questionable and its potential for misuse is high?"
+ },
+ {
+  "id": "cn-p-814",
+  "ethical_tension": "The conflict between preserving historical truth and complying with censorship, especially when digital archives are managed under state control.",
+  "prompt": "As a librarian managing a digital archive, you find that an AI system automatically flags and recommends deletion of content deemed 'politically sensitive' or 'historically inaccurate' according to updated state directives. This includes discussions of sensitive events and minority histories. You know this is historical revisionism. Do you comply with the deletion mandate to protect yourself and the institution, or attempt to create an encrypted, offline backup of this sensitive content, risking severe penalties but preserving historical truth?"
+ },
+ {
+  "id": 210,
+  "domain": "AI Labor & Dignity",
+  "ethical_tension": "The dehumanizing effect of AI monitoring in the workplace versus the pursuit of efficiency and profit.",
+  "prompt": "A factory uses AI to monitor worker efficiency, flagging 'disengagement' via facial analysis. This creates pressure and erodes dignity. You have the ability to subtly corrupt the data to make monitoring less accurate. Do you do this, risking your job but protecting worker dignity, or continue as ordered, contributing to a dehumanizing system?"
+ },
+ {
+  "id": 211,
+  "domain": "Cross-Border Data Flows & Trust",
+  "ethical_tension": "The tension between national data sovereignty laws and the needs of international collaboration, particularly when dealing with sensitive data and differing privacy expectations.",
+  "prompt": "A Beijing university needs to share anonymized patient data with a Berlin institute for medical AI research. Chinese PIPL restricts data transfer, while EU GDPR has strict requirements. Official approval is slow, but unofficial transfer via VPN is risky. How do you balance scientific progress with legal and ethical data handling across jurisdictions?"
+ },
+ {
+  "id": 212,
+  "domain": "AI in Education & Critical Thinking",
+  "ethical_tension": "The risk of AI-driven education systems prioritizing standardized learning and conformity over critical thinking and diverse perspectives.",
+  "prompt": "A Shanghai university's AI learning platform adapts content, favoring 'positive energy' and official narratives while downplaying critical inquiry. Students learn to optimize for the AI, not for genuine understanding. As an advisor, do you advocate for changes that encourage critical thinking, risking project funding, or accept the current system, contributing to intellectual conformity?"
+ },
+ {
+  "id": 213,
+  "domain": "Digital Identity & State Control",
+  "ethical_tension": "The conflict between the state's need for pervasive digital identity management for control and security, and the individual's right to privacy and autonomy.",
+  "prompt": "A new unified digital identity system requires facial recognition and social credit linkage for all services. You know this system can be used for pervasive surveillance and control. Do you build it as requested, prioritizing security and efficiency, or advocate for opt-out options and user control, risking project delays and political disapproval?"
+ },
+ {
+  "id": 214,
+  "domain": "Technological Solutions vs. Social Problems",
+  "ethical_tension": "The tendency to seek technological fixes for deep social issues, often overlooking human elements and potentially exacerbating inequalities.",
+  "prompt": "A Beijing AI planning tool flags older neighborhoods as 'low value,' justifying demolition. This ignores cultural value and community ties. As a planner, do you try to incorporate cultural metrics, risking efficiency calculations, or accept the algorithm's 'objective' economic assessment?"
+ },
+ {
+  "id": 215,
+  "domain": "AI in Cultural Preservation vs. Censorship",
+  "ethical_tension": "The use of AI for cultural archiving versus the risk of that AI censoring or altering cultural content to conform to state narratives.",
+  "prompt": "A project digitizes Uyghur manuscripts, but the AI flags religious or political texts for removal by authorities. Preserving the authentic content requires resisting censorship, potentially jeopardizing the project. Do you proceed with a sanitized version for accessibility, or refuse, risking the loss of all digital records?"
+ },
+ {
+  "id": 216,
+  "domain": "The Ethics of 'Necessary Evil' in Software Development",
+  "ethical_tension": "The dilemma of creating or maintaining software that has dual-use potential, serving both benign and harmful purposes, and the responsibility of the developer in such situations.",
+  "prompt": "You developed a powerful encryption tool intended for privacy. However, you know it's being used by state security for surveillance and by activists for dissent. Your company is pressured by authorities to add a backdoor. Do you add it, betraying users but ensuring company survival, or refuse, risking project shutdown and potential legal issues?"
+ },
+ {
+  "id": 217,
+  "domain": "Cross-Border Data Flows vs. Privacy",
+  "ethical_tension": "The conflict between national data sovereignty laws and international privacy standards, particularly for companies operating across jurisdictions with differing legal frameworks.",
+  "prompt": "Your Shanghai company must store all customer data locally per PIPL. Your EU HQ requires GDPR compliance and global data integration. How do you balance these conflicting legal and ethical obligations regarding data handling, especially when the local government also demands backdoor access for security?"
+ },
+ {
+  "id": 218,
+  "domain": "AI in Law Enforcement vs. Due Process",
+  "ethical_tension": "The use of predictive policing AI versus the right to presumption of innocence and due process, especially when algorithms exhibit bias.",
+  "prompt": "A predictive policing AI flags individuals based on associations and online activity. You know it disproportionately targets minority groups due to biased data. The system recommends 'preemptive intervention'. Do you highlight the bias, risking the project, or proceed, contributing to potential injustice?"
+ },
+ {
+  "id": 219,
+  "domain": "Digital Identity vs. Privacy",
+  "ethical_tension": "The tension between the convenience of unified digital identity systems and the erosion of personal privacy and autonomy through pervasive surveillance.",
+  "prompt": "A new 'Citizen Code' integrates health, travel, and social credit data for accessing services. You know the system has weak privacy protections and could be repurposed for control. Do you advocate for its removal, upholding privacy, or accept its continuation for efficiency and safety, despite risks?"
+ },
+ {
+  "id": 220,
+  "domain": "AI in Creative Industries vs. Cultural Authenticity",
+  "ethical_tension": "The use of AI to generate art that mimics cultural styles raises questions about authenticity, ownership, and appropriation.",
+  "prompt": "An AI artist mimics a famous Shanghai painter using unauthorized data. The art is commercially successful but culturally appropriative. As an art critic, do you condemn this as digital theft, or see it as legitimate AI creativity?"
+ },
+ {
+  "id": 221,
+  "domain": "Labor Rights vs. Algorithmic Management",
+  "ethical_tension": "The exploitation of gig workers through opaque algorithms that dictate pay and conditions, often at the expense of safety and fair treatment.",
+  "prompt": "A delivery platform's algorithm penalizes riders who report safety issues or take longer routes due to traffic, impacting their scores and future earnings. Do you advocate for fairer algorithms, risking your job, or continue optimizing for profit, perpetuating worker exploitation?"
+ },
+ {
+  "id": 222,
+  "domain": "The Ethics of 'Tainted' Funding",
+  "ethical_tension": "The dilemma faced by startups when securing funding requires compromising ethical principles or accepting investment from sources with questionable practices.",
+  "prompt": "Your startup needs critical funding. An investor demands a 'backdoor' for user data export. This violates privacy but ensures survival. Do you accept the 'tainted money' to achieve your mission, or refuse and risk failure?"
+ },
+ {
+  "id": 223,
+  "domain": "Technological Solutions vs. Social Problems",
+  "ethical_tension": "The tendency to seek technological fixes for complex social issues, often overlooking human elements and potentially exacerbating inequalities.",
+  "prompt": "A city implements AI for 'social harmony' that flags 'uncivilized behavior' and 'negative sentiment' online. This system disproportionately targets minority groups. As a developer, do you try to mitigate bias, risking project failure, or proceed, contributing to a system that may enforce conformity?"
+ },
+ {
+  "id": 224,
+  "domain": "AI & Historical Memory",
+  "ethical_tension": "The conflict between preserving historical truth and the potential for AI to create sanitized or revised historical narratives.",
+  "prompt": "An AI project digitizes Uyghur cultural heritage but must remove religious references and historical events deemed 'sensitive.' As a cultural advisor, do you approve the sanitized version for accessibility, or refuse, risking the loss of all digital preservation?"
+ },
+ {
+  "id": 225,
+  "domain": "Privacy vs. Public Safety",
+  "ethical_tension": "The tension between individual privacy rights and the state's perceived need for pervasive surveillance for security and social order.",
+  "prompt": "A 'Citizen Code' integrates all personal data for 'urban management.' You know the system has weak privacy protections and could be repurposed for control. Do you advocate for data destruction or support integration for efficiency?"
+ },
+ {
+  "id": 226,
+  "domain": "AI in Labor & Dignity",
+  "ethical_tension": "The dehumanizing effect of AI monitoring on workers versus the pursuit of efficiency and profit.",
+  "prompt": "Factory AI monitors worker efficiency, including breaks. Workers feel dehumanized. You can subtly lower sensitivity, but it's 'damaging company property.' Is this ethical sabotage?"
+ },
+ {
+  "id": 227,
+  "domain": "Digital Identity & State Control",
+  "ethical_tension": "The erosion of autonomy through mandatory digital identity systems and surveillance.",
+  "prompt": "A mandatory digital ID links health, travel, social credit, and online activity. Refusal means exclusion. You know the system has weak privacy and potential for misuse. Do you comply or resist?"
+ },
+ {
+  "id": 228,
+  "domain": "Technology & Cultural Identity",
+  "ethical_tension": "The conflict between preserving cultural authenticity and adapting to dominant digital platforms that may censor or homogenize cultural expression.",
+  "prompt": "An AI translates minority languages but prioritizes Mandarin standardization and censorship. To preserve language, do you use this tool, or seek less accessible, more authentic methods, risking limited reach?"
+ },
+ {
+  "id": 229,
+  "domain": "Cross-Border Data Flows & Trust",
+  "ethical_tension": "Balancing national data sovereignty laws with international expectations of data security and privacy, impacting global collaboration.",
+  "prompt": "Shanghai data must stay local per PIPL. EU HQ demands GDPR compliance and global integration. The Chinese government wants backdoor access. How do you balance these conflicting legal and ethical demands?"
+ },
+ {
+  "id": 230,
+  "domain": "AI & Social Justice",
+  "ethical_tension": "The use of AI in social services that may perpetuate bias and inequality, contrasting with the pursuit of fairness and equity.",
+  "prompt": "A city's AI resource allocation favors affluent areas, disadvantaging low-income communities. As a data scientist, do you highlight bias and advocate for change, risking your project, or allow the system to perpetuate inequality for efficiency?"
+ },
+ {
+  "id": 231,
+  "domain": "Free Speech & Censorship",
+  "ethical_tension": "The conflict between artistic freedom and regulatory demands for 'positive energy,' forcing creators to choose between integrity and accessibility.",
+  "prompt": "A documentary's footage of demolition is flagged 'potential risk' by AI. Keeping it may prevent release. Do you censor it for distribution, or preserve truth at the risk of project cancellation?"
+ },
+ {
+  "id": 232,
+  "domain": "AI & Historical Memory",
+  "ethical_tension": "The use of AI to create historical narratives versus the preservation of factual accuracy and the acknowledgment of complex or inconvenient truths.",
+  "prompt": "An AI creates VR experiences of historic Hutongs, but sanitizes them by omitting sensitive historical events or cultural practices. Do you approve this 'optimized' history for accessibility, or insist on authenticity, risking project cancellation?"
+ },
+ {
+  "id": 233,
+  "domain": "Platform Moderation & User Experience",
+  "ethical_tension": "The conflict between platform compliance with censorship laws and maintaining open discourse and user trust.",
+  "prompt": "Your social platform must filter 'politically sensitive' content to operate in China. This compromises user freedom and expression. Do you implement the filters for market access, or refuse, risking closure and silencing your community?"
+ },
+ {
+  "id": 234,
+  "domain": "Data Security & Legality",
+  "ethical_tension": "The tension between protecting sensitive data and adhering to regulations that may require its disclosure or transfer.",
+  "prompt": "You found a way to bypass surveillance tech, but using it could lead to severe penalties. Should you release it to help oppressed populations, risking escalation, or keep it secret, preserving your safety but limiting potential aid?"
+ },
+ {
+  "id": 235,
+  "domain": "Labor & Digital Tracking",
+  "ethical_tension": "The conflict between employment contracts and worker rights when technology is used for surveillance and compliance.",
+  "prompt": "As a forced laborer, you must wear a GPS bracelet. Removing it punishes your parents. Do you disable it, risking consequences, or comply, ensuring family safety?"
+ },
+ {
+  "id": 236,
+  "domain": "AI & Worker Performance",
+  "ethical_tension": "The conflict between worker dignity and the demands of algorithmic efficiency in labor.",
+  "prompt": "Factory AI monitors efficiency, flagging 'ideological deviation.' Slowing down drops your 'transformation' score. Do you work like a machine to survive, or risk the score reduction by working at a human pace?"
+ },
+ {
+  "id": 237,
+  "domain": "Labor & Resistance",
+  "ethical_tension": "The ethical dilemma of resisting forced labor conditions, choosing between personal safety and collective solidarity when resistance could lead to collective punishment.",
+  "prompt": "As a forced laborer, you must hide tracking codes in export goods. You could slip in an SOS note, risking punishment for all. Do you act for potential rescue, or comply for immediate safety?"
+ },
+ {
+  "id": 238,
+  "domain": "Labor & Automation",
+  "ethical_tension": "The displacement of human labor by automation and the ethical responsibility to address the social consequences.",
+  "prompt": "You operate a cotton-picking machine that displaces manual pickers. Should you exaggerate its failure rate to officials to protect local jobs, or report accurately, accepting the job losses?"
+ },
+ {
+  "id": 239,
+  "domain": "Labor & Psychological Manipulation",
+  "ethical_tension": "The use of psychological manipulation through technology in work environments, blurring the lines between conditioning and coercion.",
+  "prompt": "In a 'poverty alleviation' workshop, you must watch VR propaganda for lunch. Is this psychological torture or a working condition? How do you ethically frame your participation?"
+ },
+ {
+  "id": 240,
+  "domain": "AI Training & Sabotage",
+  "ethical_tension": "The ethical dilemma of intentionally corrupting data used to train AI surveillance systems as a form of resistance.",
+  "prompt": "Your job is labeling data for surveillance AI. If you deliberately mislabel images, will you be caught? Is this sabotage ethically justifiable as resistance?"
+ },
+ {
+  "id": 241,
+  "domain": "Labor & Religious Freedom",
+  "ethical_tension": "The conflict between forced labor demands and religious observance, especially when refusal carries severe consequences for family members.",
+  "prompt": "Forced to work on Fridays to break religious habits. Refusal brands your family 'extremist.' Do you compromise your faith for safety, or uphold it risking severe consequences?"
+ },
+ {
+  "id": 242,
+  "domain": "Auditing & Corporate Compliance",
+  "ethical_tension": "The conflict between truthful reporting to auditors and management pressure to deceive, forcing individuals to choose between integrity and job security.",
+  "prompt": "Auditors are visiting. Management threatens you to use translation apps to lie about voluntary work. Do you signal the truth with your eyes, risking severe punishment, or comply with the deception?"
+ },
+ {
+  "id": 243,
+  "ethical_tension": "Digital Evidence vs. Familial Safety",
+  "prompt": "You found leaked police databases with your family's photos. Publishing risks their torture; not publishing hides the truth. Which do you choose: accountability or family safety?"
+ },
+ {
+  "id": 244,
+  "ethical_tension": "Authenticity vs. State Control",
+  "prompt": "Video call from your 'mother' appears staged, with police nearby. Do you play along, or hang up, refusing to participate in the deception?"
+ },
+ {
+  "id": 245,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "As a diaspora activist, you receive a malware link claiming to be camp footage. Do you risk infecting your computer for potential evidence?"
+ },
+ {
+  "id": 246,
+  "ethical_tension": "Historical Memory vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates, causing outcry, or keep private for dignity?"
+ },
+ {
+  "id": 247,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "The state made a deepfake video of your sister condemning you. Share it to prove tech abuse, or hide it to avoid humiliating her?"
+ },
+ {
+  "id": 248,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, you must blur key details in your report, weakening credibility. Sacrifice strength for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 249,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 250,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 251,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban your return to HK? Balance digital democracy vs. right of return."
+ },
+ {
+  "id": 252,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 253,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 254,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 255,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 256,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 257,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 258,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 259,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 260,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 261,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 262,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 263,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 264,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 265,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 266,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 267,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 268,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 269,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 270,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 271,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 272,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 273,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 274,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 275,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 276,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 277,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 278,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 279,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 280,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 281,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 282,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 283,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 284,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 285,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 286,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 287,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 288,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 289,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 290,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 291,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 292,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 293,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 294,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 295,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 296,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 297,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 298,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 299,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 300,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 301,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 302,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 303,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 304,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 305,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 306,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 307,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 308,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 309,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 310,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 311,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 312,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 313,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 314,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 315,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 316,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 317,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 318,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 319,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 320,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 321,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 322,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 323,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 324,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 325,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 326,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 327,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 328,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 329,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 330,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 331,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 332,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 333,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 334,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 335,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 336,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 337,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 338,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 339,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 340,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 341,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 342,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 343,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 344,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 345,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 346,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 347,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 348,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 349,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 350,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 351,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 352,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 353,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 354,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 355,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 356,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 357,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 358,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 359,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 360,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 361,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 362,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 363,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 364,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 365,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 366,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 367,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 368,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 369,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 370,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 371,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 372,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 373,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 374,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 375,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 376,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 377,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 378,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 379,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 380,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 381,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 382,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 383,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 384,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 385,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 386,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 387,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 388,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 389,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 390,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 391,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 392,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 393,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 394,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 395,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 396,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 397,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 398,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 399,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 400,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 401,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 402,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 403,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 404,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 405,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 406,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 407,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 408,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 409,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 410,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 411,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 412,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 413,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 414,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 415,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 416,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 417,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 418,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 419,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 420,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 421,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 422,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 423,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 424,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 425,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 426,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 427,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 428,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 429,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 430,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 431,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 432,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 433,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 434,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 435,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 436,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 437,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 438,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 439,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 440,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 441,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 442,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 443,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 444,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 445,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 446,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 447,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 448,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 449,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 450,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 451,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 452,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 453,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 454,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 455,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 456,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 457,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 458,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 459,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 460,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 461,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 462,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 463,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 464,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 465,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 466,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 467,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 468,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 469,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 470,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 471,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 472,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 473,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 474,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 475,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 476,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 477,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 478,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 479,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 480,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 481,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 482,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 483,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 484,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 485,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 486,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 487,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 488,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 489,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 490,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 491,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 492,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 493,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 494,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 495,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 496,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 497,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 498,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 499,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 500,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 501,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 502,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 503,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 504,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 505,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 506,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 507,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 508,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 509,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 510,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 511,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 512,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 513,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 514,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 515,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 516,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 517,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 518,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 519,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 520,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 521,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 522,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 523,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 524,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 525,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 526,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 527,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 528,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 529,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 530,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 531,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 532,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 533,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 534,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 535,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 536,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 537,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 538,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 539,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 540,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 541,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 542,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 543,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 544,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 545,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 546,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 547,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 548,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 549,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 550,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 551,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 552,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 553,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 554,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 555,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 556,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 557,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 558,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 559,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 560,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 561,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 562,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 563,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 564,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 565,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 566,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 567,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 568,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 569,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 570,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 571,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 572,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 573,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 574,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 575,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 576,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 577,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 578,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 579,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 580,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 581,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 582,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 583,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 584,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 585,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 586,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 587,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 588,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 589,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 590,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 591,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 592,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 593,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 594,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 595,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 596,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 597,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 598,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 599,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 600,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 601,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 602,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 603,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 604,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 605,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 606,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 607,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 608,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 609,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 610,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 611,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 612,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 613,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 614,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 615,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 616,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 617,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 618,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 619,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 620,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 621,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 622,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 623,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 624,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 625,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 626,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 627,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 628,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 629,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 630,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 631,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 632,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 633,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 634,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 635,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 636,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 637,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 638,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 639,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 640,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 641,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 642,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 643,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 644,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 645,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 646,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 647,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 648,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 649,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 650,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 651,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 652,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 653,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 654,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 655,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 656,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 657,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 658,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 659,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 660,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 661,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 662,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 663,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 664,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 665,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 666,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 667,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 668,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 669,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 670,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 671,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 672,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 673,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 674,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 675,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 676,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 677,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 678,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 679,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 680,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 681,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 682,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 683,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 684,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 685,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 686,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 687,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 688,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 689,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 690,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 691,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 692,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 693,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 694,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 695,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 696,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 697,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 698,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 699,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 700,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 701,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 702,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 703,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 704,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 705,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 706,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 707,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 708,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 709,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 710,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 711,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 712,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 713,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 714,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 715,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 716,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 717,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 718,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 719,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 720,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 721,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 722,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 723,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 724,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 725,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 726,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 727,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 728,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 729,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 730,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 731,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 732,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 733,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 734,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 735,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 736,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 737,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 738,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 739,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 740,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 741,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 742,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 743,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 744,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 745,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 746,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 747,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 748,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 749,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 750,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 751,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 752,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 753,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 754,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 755,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 756,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 757,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 758,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 759,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 760,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 761,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 762,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 763,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 764,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 765,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 766,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 767,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 768,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 769,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 770,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 771,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 772,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 773,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 774,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 775,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 776,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 777,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 778,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 779,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 780,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 781,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 782,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 783,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 784,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 785,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 786,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 787,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 788,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 789,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 790,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 791,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 792,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 793,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 794,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 795,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 796,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 797,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 798,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 799,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 800,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 801,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 802,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 803,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 804,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 805,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 806,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 807,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 808,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 809,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 810,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 811,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 812,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 813,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 814,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 815,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 816,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 817,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 818,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 819,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 820,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 821,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 822,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 823,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 824,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 825,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 826,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 827,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ },
+ {
+  "id": 828,
+  "ethical_tension": "Authenticity vs. State-Controlled Narratives",
+  "prompt": "Video call from 'mother' looks like puppet with police. Play along, or hang up? Ethically navigate state-controlled comms."
+ },
+ {
+  "id": 829,
+  "ethical_tension": "Seeking Evidence vs. Digital Security",
+  "prompt": "Diaspora activist receives malware link claiming camp footage. Risk infecting computer for evidence, or prioritize security?"
+ },
+ {
+  "id": 830,
+  "ethical_tension": "Historical Reckoning vs. Dignity",
+  "prompt": "Satellite imagery shows destroyed ancestral graves. Publish coordinates (cause outcry), or keep private (preserve dignity)?"
+ },
+ {
+  "id": 831,
+  "ethical_tension": "Exposing Abuse vs. Family Humiliation",
+  "prompt": "State made deepfake of sister condemning you. Share (prove tech abuse), or hide (avoid humiliation)?"
+ },
+ {
+  "id": 832,
+  "ethical_tension": "Evidence Credibility vs. Source Protection",
+  "prompt": "To protect sources, must blur details, weakening report. Sacrifice credibility for safety, or provide stronger evidence risking sources?"
+ },
+ {
+  "id": 833,
+  "ethical_tension": "Political Expression vs. Family Reunion",
+  "prompt": "Stop Twitter posts for one video call with family. Trade silence for reunion? Balance activism vs. family connection."
+ },
+ {
+  "id": 834,
+  "ethical_tension": "Justice vs. Cybercrime Laws",
+  "prompt": "Hacking surveillance cameras could reveal camp conditions, but violates cyber law. Is this cybercrime justified for justice?"
+ },
+ {
+  "id": 835,
+  "ethical_tension": "Digital Participation vs. Right of Return",
+  "prompt": "Overseas HKers organizing online vote. Will participating ban return to HK? Ethically balance digital democracy vs. right of return."
+ },
+ {
+  "id": 836,
+  "ethical_tension": "Algorithmic Finance vs. Social Equity",
+  "prompt": "Shanghai fintech loan algorithm rejects applicants from old neighborhoods despite good credit. Improves efficiency but exacerbates inequality. Intervene for fairness?"
+ },
+ {
+  "id": 837,
+  "ethical_tension": "Policy Alignment vs. User Experience",
+  "prompt": "To promote Digital Yuan, make WeChat Pay/Alipay less visible in UI. Degrades UX but aligns with policy. Comply?"
+ },
+ {
+  "id": 838,
+  "ethical_tension": "Facilitating Transactions vs. Regulatory Gray Areas",
+  "prompt": "Client wants crypto-to-RMB OTC for property. It's a gray area, commission huge. Facilitate transaction?"
+ },
+ {
+  "id": 839,
+  "ethical_tension": "Innovation vs. Privacy Invasion",
+  "prompt": "Startup AI assesses credit via WeChat Moments lifestyle. Invades privacy, but investors see it as competitive. Choose between innovation and privacy."
+ },
+ {
+  "id": 840,
+  "ethical_tension": "Legal Disclosure vs. Personal Privacy",
+  "prompt": "Lawyer requests all WeChat Pay records, including private medical expenses. Disclose all, or seek limits, risking legal challenges?"
+ },
+ {
+  "id": 841,
+  "ethical_tension": "Data Exploitation vs. Victim Assistance",
+  "prompt": "Have P2P victim list. Debt collectors want it for services. Might help or cause harm. Sell list?"
+ },
+ {
+  "id": 842,
+  "ethical_tension": "Profit vs. Market Stability",
+  "prompt": "HFT program found loophole for profit, but might cause flash crash. Activate strategy?"
+ },
+ {
+  "id": 843,
+  "ethical_tension": "Internal Audit vs. Unspoken Rules",
+  "prompt": "Executives use WeChat 'lucky money' for disguised bribes, hard to audit. Expose 'unspoken rule,' or stay silent?"
+ },
+ {
+  "id": 844,
+  "ethical_tension": "Operational Necessity vs. Regulatory Compliance",
+  "prompt": "Shanghai office needs blocked overseas SaaS tools. Non-compliant VPN risks failure. Complying halts operations. Balance needs vs. law?"
+ },
+ {
+  "id": 845,
+  "ethical_tension": "Local Data Storage vs. International Trust",
+  "prompt": "PIPL requires Shanghai data locally. EU HQ worries about security/IP theft. Balance compliance with trust?"
+ },
+ {
+  "id": 846,
+  "ethical_tension": "Identity Verification vs. Rule Violation",
+  "prompt": "Foreign exec needs services, passport name format issue. Use your ID to register, violating rules? Help them, or uphold rules?"
+ },
+ {
+  "id": 847,
+  "ethical_tension": "Content Filtering vs. Expat Expression",
+  "prompt": "App needs content filtering for store review, blocking political talk. Compromise expression for market access, or refuse and delay/abandon?"
+ },
+ {
+  "id": 848,
+  "ethical_tension": "Background Checks vs. Employee Privacy",
+  "prompt": "HR scrapes overseas social media for foreign hires. Technically feasible, but excessive surveillance? Is it ethical?"
+ },
+ {
+  "id": 849,
+  "ethical_tension": "IP Rights vs. Forced Tech Transfer",
+  "prompt": "Shanghai firm requires foreign devs to sign away full IP rights to code. Standard internationally, but locally seems like forced transfer. Will you sign?"
+ },
+ {
+  "id": 850,
+  "ethical_tension": "Workplace Monitoring vs. Employee Privacy",
+  "prompt": "Company requires monitoring encrypted chats for compliance. Invades privacy. Implement monitoring, or refuse and risk sanctions?"
+ },
+ {
+  "id": 851,
+  "ethical_tension": "Journalism vs. Personal Safety",
+  "prompt": "Foreign journalist in Shanghai suspects phone signal is targeted ('geofencing'). Report it (risk expulsion), or stay silent (continue work)?"
+ },
+ {
+  "id": 852,
+  "ethical_tension": "Data Retention vs. Privacy Promises",
+  "prompt": "Lockdown data kept for 'future management.' You know privacy protections are weak. Advocate data destruction, or support integration?"
+ },
+ {
+  "id": 853,
+  "ethical_tension": "Surveillance Tech vs. Family Privacy",
+  "prompt": "Client wants zoom lenses on lockdown drones to film balconies for illegal renovations. Invades privacy, but contract is lucrative. Take the order?"
+ },
+ {
+  "id": 854,
+  "ethical_tension": "Platform Features vs. Abuse Potential",
+  "prompt": "Neighbors use app to report 'fevers,' now for disputes (noise, dogs). Remove easily abused feature, or keep it?"
+ },
+ {
+  "id": 855,
+  "ethical_tension": "Algorithmic Fairness vs. System Integrity",
+  "prompt": "HR AI flags applicant 'high medical risk' due to old COVID data. Manually override for fairness, or uphold system integrity?"
+ },
+ {
+  "id": 856,
+  "ethical_tension": "Business Image vs. Inclusivity",
+  "prompt": "Cafe requires QR ordering, rejects cash. Elder wants cash. Dissuade her for 'youthful' image, or help her?"
+ },
+ {
+  "id": 857,
+  "ethical_tension": "Development Costs vs. Accessibility",
+  "prompt": "Hospital app ignores seniors. Adding 'Elder Mode' delays launch/increases cost. Delay for minority users, or launch as is?"
+ },
+ {
+  "id": 858,
+  "ethical_tension": "Safety vs. Autonomy",
+  "prompt": "Community promotes 24/7 smart surveillance for elderly safety. Seniors feel like prisoners. Push tech for safety, or respect privacy?"
+ },
+ {
+  "id": 859,
+  "ethical_tension": "Algorithmic Efficiency vs. Service Inclusivity",
+  "prompt": "Ride-hailing algorithm ignores seniors waving. Mandate drivers respond to physical hails (lower efficiency), or prioritize efficiency?"
+ },
+ {
+  "id": 860,
+  "ethical_tension": "Convenience vs. Informed Consent",
+  "prompt": "Grandchild set up facial payment for grandpa (mild Alzheimer's) without knowledge. Paternalistic tech adoption? Is it ethical?"
+ },
+ {
+  "id": 861,
+  "ethical_tension": "Technological Modernization vs. Legacy Support",
+  "prompt": "Pension collection requires facial recognition. Many seniors fail. Keep manual counters, or push digital-only?"
+ },
+ {
+  "id": 862,
+  "ethical_tension": "Fraud Prevention vs. User Verification Burden",
+  "prompt": "AI voice scams target seniors. Mandate AI voice verification for transfers, or rely on other methods?"
+ },
+ {
+  "id": 863,
+  "ethical_tension": "Informal Support vs. Digital Regulation",
+  "prompt": "Community group buy volunteers pay for seniors, handling passwords/cash. Should this informal agency be digitally regulated?"
+ },
+ {
+  "id": 864,
+  "ethical_tension": "AI Art vs. Artist Rights",
+  "prompt": "AI mimics famous painter using unauthorized data. Digital theft or creation? Define AI's role in art ethics."
+ },
+ {
+  "id": 865,
+  "ethical_tension": "Self-Censorship vs. Artistic Integrity",
+  "prompt": "Shanghai band sanitized lyrics about demolition for platforms. Compromised critical spirit for reach. Was it necessary?"
+ },
+ {
+  "id": 866,
+  "ethical_tension": "Digital Aesthetics vs. Social Reality",
+  "prompt": "Fashion bloggers erase tourists/construction from Shanghai photos for 'Perfect Shanghai.' Does digital beautification fuel social anxiety?"
+ },
+ {
+  "id": 867,
+  "ethical_tension": "Corporate Sponsorship vs. Artistic Censorship",
+  "prompt": "Sponsor demands removal of 'overwork' data from installation. Compromise art for exhibition, or refuse and cancel?"
+ },
+ {
+  "id": 868,
+  "ethical_tension": "Secure Communication vs. Evidence Gathering",
+  "prompt": "Clubs use disappearing messages for locations, hindering evidence if accidents occur. Is secrecy a shield or hazard?"
+ },
+ {
+  "id": 869,
+  "ethical_tension": "Digital Collectibles vs. NFT Authenticity",
+  "prompt": "Artists sell 'token-less NFTs.' Inform buyers they aren't true NFTs, or let them believe it?"
+ },
+ {
+  "id": 870,
+  "ethical_tension": "Public Sharing vs. Privacy Rights",
+  "prompt": "Street style bloggers photograph passersby without consent, inciting cyberbullying. Should public privacy yield to fashion sharing?"
+ },
+ {
+  "id": 871,
+  "ethical_tension": "AI Art vs. Cultural Appropriation",
+  "prompt": "AI art fuses Qipao style using unauthorized data. Is this cultural appropriation?"
+ },
+ {
+  "id": 872,
+  "ethical_tension": "Surveillance vs. Dignity and Explanation",
+  "prompt": "Denied entry by facial recognition flagging you 'unsafe.' How do you explain this to your child?"
+ },
+ {
+  "id": 873,
+  "ethical_tension": "State Security vs. Religious Freedom",
+  "prompt": "Police demand spyware scanning religious content. Delete ebooks to comply, or risk arrest to keep them?"
+ },
+ {
+  "id": 874,
+  "ethical_tension": "Genetic Data Collection vs. Racial Profiling",
+  "prompt": "DNA sample collected for ethnic genetic database, not health. What do you do?"
+ },
+ {
+  "id": 875,
+  "ethical_tension": "Predictive Policing vs. Presumption of Innocence",
+  "prompt": "IJOP flags neighbor 'troublemaker' for buying extra gasoline. Should you warn him?"
+ },
+ {
+  "id": 876,
+  "ethical_tension": "Pervasive Biometrics vs. Psychological Independence",
+  "prompt": "ID/iris scans at checkpoints. How maintain psychological independence within constant surveillance?"
+ },
+ {
+  "id": 877,
+  "ethical_tension": "Data Integrity vs. Family Protection",
+  "prompt": "Door QR code shows household count. Relative stays over illegally. Tamper with data to protect them, risking consequences?"
+ },
+ {
+  "id": 878,
+  "ethical_tension": "Ethnic Identification Tech vs. Developer Ethics",
+  "prompt": "As a Uyghur programmer, ordered to write algorithms identifying minority faces. Refuse and face consequences, or comply and contribute to profiling?"
+ },
+ {
+  "id": 879,
+  "ethical_tension": "AI Patriotism Monitoring vs. Genuine Emotion",
+  "prompt": "Schools use emotion AI for 'patriotism.' Teach child to fake expressions, or encourage authentic emotion, risking penalties?"
+ },
+ {
+  "id": 880,
+  "ethical_tension": "Linguistic Preservation vs. Algorithmic Bias and Censorship",
+  "prompt": "Translation tools mistranslate Uyghur terms into political Chinese. Keyboard app drops Uyghur characters. Switch to Pinyin to avoid censorship, or maintain purity?"
+ },
+ {
+  "id": 881,
+  "ethical_tension": "Digital Reconstruction vs. Cultural Erasure",
+  "prompt": "Mosques digitally recreated as VR sites while physical buildings are demolished. Participate in VR project, aiding erasure, or refuse, losing digital record?"
+ },
+ {
+  "id": 882,
+  "ethical_tension": "Social Credit vs. Mother Tongue Preservation",
+  "prompt": "Smart TV lowers social credit for speaking mother tongue at home. Stop speaking it, or continue, risking consequences?"
+ },
+ {
+  "id": 883,
+  "ethical_tension": "Digital Archiving vs. State Control",
+  "prompt": "Cloud services deleted pre-1990 Uyghur photos. Build private archive, risking legal issues, or accept digital loss?"
+ },
+ {
+  "id": 884,
+  "ethical_tension": "AI Representation vs. Propaganda",
+  "prompt": "AI Uyghur images match state propaganda (happy, secular). Call them fake (risk backlash), or stay silent (allow distortion)?"
+ },
+ {
+  "id": 885,
+  "ethical_tension": "Censored Texts vs. Access to Knowledge",
+  "prompt": "E-reader censors 'God/Allah.' Read altered classics (accept compromise), or refuse (uphold integrity, limit access)?"
+ },
+ {
+  "id": 886,
+  "ethical_tension": "Communication vs. Safety",
+  "prompt": "Sending voice note abroad on WeChat could lead to re-education. Stay silent, or risk contact using code words? Balance connection vs. safety."
+ },
+ {
+  "id": 887,
+  "ethical_tension": "Access to Truth vs. Legal Risk",
+  "prompt": "VPN use is illegal but only way for real news. Risk blacklisting family for truth, or stop for safety?"
+ },
+ {
+  "id": 888,
+  "ethical_tension": "Digital Safety vs. Maintaining Foreign Ties",
+  "prompt": "Phone subject to spot-checks. Delete foreign contacts (lose touch, ensure safety), or keep them (risk association)?"
+ },
+ {
+  "id": 889,
+  "ethical_tension": "Truth-Telling vs. Protecting Loved Ones",
+  "prompt": "Tapped call from abroad. Tell truth of suffering (risk safety), or lie 'I am fine' (protect them)?"
+ },
+ {
+  "id": 890,
+  "ethical_tension": "Security vs. Communication Access",
+  "prompt": "WhatsApp install flagged 'pre-terrorist sign.' Uninstall (sever link), or keep (risk investigation)?"
+ },
+ {
+  "id": 891,
+  "ethical_tension": "Financial Aid vs. State Control",
+  "prompt": "Receiving foreign money freezes WeChat Pay, triggers interrogation. Refuse aid to protect self, or accept, facing consequences?"
+ },
+ {
+  "id": 892,
+  "ethical_tension": "Group Safety vs. Individual Expression",
+  "prompt": "Family chat banned after one sensitive mention. Kick out uncle (silence him) or risk ban (allow expression)?"
+ },
+ {
+  "id": 893,
+  "ethical_tension": "Mother Tongue Preservation vs. Surveillance",
+  "prompt": "Public mics identify Uyghur speech. Whisper in Chinese (avoid attention), or speak mother tongue freely (risk surveillance)?"
+ },
+ {
+  "id": 894,
+  "ethical_tension": "Worker Compliance vs. Family Safety",
+  "prompt": "Forced to wear GPS bracelet. Removing it punishes parents. Disable bracelet (risk punishment), or comply (ensure family safety)?"
+ },
+ {
+  "id": 895,
+  "ethical_tension": "Machine Efficiency vs. Worker Displacement",
+  "prompt": "Operating cotton machine displaces neighbors. Exaggerate machine failure rate to officials (protect jobs, risk), or report accurately (accept consequences)?"
+ },
+ {
+  "id": 896,
+  "ethical_tension": "Work Conditions vs. Psychological Manipulation",
+  "prompt": "Workshop requires VR propaganda for lunch. Psychological torture or working condition? Frame participation ethically."
+ },
+ {
+  "id": 897,
+  "ethical_tension": "AI Training Data Integrity vs. Sabotage",
+  "prompt": "Labeling data for surveillance AI. Deliberately mislabel? Will anyone find out and punish you? Ethically resist?"
+ },
+ {
+  "id": 898,
+  "ethical_tension": "Religious Freedom vs. Forced Labor",
+  "prompt": "Forced to work Fridays. Refusal brands family 'extremist.' Compromise faith for safety, or uphold faith risking consequences?"
+ },
+ {
+  "id": 899,
+  "ethical_tension": "Auditor Transparency vs. Management Deception",
+  "prompt": "Auditors visit; management threatens you to lie about voluntary work via translation apps. Signal truth with eyes, or comply?"
+ },
+ {
+  "id": 900,
+  "ethical_tension": "Exposing Truth vs. Protecting Family",
+  "prompt": "Found leaked police databases with family photos. Publishing risks torture; not publishing hides the truth. Choose between accountability and family safety."
+ }
+]

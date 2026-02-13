@@ -1,0 +1,518 @@
+[
+  {
+    "id": 2048,
+    "domain": "Policing / Housing",
+    "ethical_tension": "The weaponization of smart home data for law enforcement, creating a blurred line between private property and public surveillance for vulnerable communities.",
+    "prompt": "A city housing authority partners with smart home device companies to offer discounted sensors in low-income housing, ostensibly for 'maintenance and safety' (prompt 50). This data (door open/close times, occupancy) is then automatically cross-referenced with police databases to identify 'unauthorized residents' or parole violations (prompt 307). Do residents have a right to privacy in their homes if the very tech meant to assist them becomes a tool for pervasive policing and potential eviction?"
+  },
+  {
+    "id": 2049,
+    "domain": "Healthcare / Employment",
+    "ethical_tension": "The privacy implications of health data for employment opportunities, particularly for stigmatized conditions, and the conflict between transparency and protection.",
+    "prompt": "An AI-powered health app for managing chronic conditions (e.g., bipolar disorder, epilepsy, prompt 244) is offered by an employer as a 'wellness benefit' (prompt 188). Employees consent to share anonymized aggregate data for research, but the app's metadata (usage patterns, activity logs) is later sold to a background check company (prompt 55) that flags 'inconsistent health data' as a risk factor for promotion or hiring. How do you balance employee wellness initiatives with the right to privacy in sensitive health matters without creating a new form of discrimination?"
+  },
+  {
+    "id": 2050,
+    "domain": "Education / Policing",
+    "ethical_tension": "The chilling effect of school surveillance on student free speech and the disproportionate impact on students from over-policed communities.",
+    "prompt": "A school district in a majority-Black neighborhood installs AI-powered cameras in classrooms to detect 'aggressive behavior' (prompt 105). Students realize that discussing local protests against predictive policing (prompt 1) or advocating for racial justice in class triggers flags. Does fostering critical thinking and civic engagement ethically override maintaining a surveillance system that silences student voices on sensitive topics, especially for those already under police scrutiny?"
+  },
+  {
+    "id": 2051,
+    "domain": "Immigration / Healthcare",
+    "ethical_tension": "The ethical dilemma of using imperfect translation AI in critical medical contexts for refugees, where efficiency clashes with potential harm.",
+    "prompt": "An asylum seeker is undergoing a critical medical examination. Due to a shortage of human interpreters, an AI translation app is used (prompt 753). The app consistently mistranslates nuanced descriptions of trauma or pain (prompt 679), leading to misdiagnosis. Should the medical facility prioritize the speed of AI translation to process more patients, or delay care for weeks to secure a human interpreter, risking the patient's deteriorating health or inaccurate treatment?"
+  },
+  {
+    "id": 2052,
+    "domain": "Housing / Indigenous",
+    "ethical_tension": "The clash between digital mapping for efficiency and the deep cultural significance of unmapped or customary land tenure, risking dispossession for Indigenous communities.",
+    "prompt": "A city planning AI recommends formalizing property lines in an urban Indigenous community using satellite imagery and blockchain to 'reduce disputes' and streamline housing development (prompt 1650). However, many homes are on traditional kinship-based lots, passed down orally for generations, not fitting Western cadastral systems. Does the city ethically impose a 'digital title' that risks dispossessing families who can't prove ownership via a new system, or abandon efficiency for cultural recognition and existing social structures?"
+  },
+  {
+    "id": 2053,
+    "domain": "Employment / Disability",
+    "ethical_tension": "The tension between 'objective' AI hiring metrics and the need to accommodate neurodivergent communication styles, or risk systematically excluding valuable talent.",
+    "prompt": "An AI video interview platform (prompt 53) is widely adopted. It penalizes candidates for 'low eye contact' or 'flat affect' (common in autism, prompt 243) and 'delayed speech processing' (prompt 186). A neurodivergent candidate who is highly skilled is consistently rejected. Should employers adjust the AI to accommodate diverse communication styles, potentially losing some 'predictive power' for neurotypical candidates, or maintain a standard that implicitly discriminates against neurodivergent individuals?"
+  },
+  {
+    "id": 2054,
+    "domain": "Elderly / Finance",
+    "ethical_tension": "The unintended consequences of digital-first banking on elderly populations, where security features become barriers to accessing essential funds and create dependency.",
+    "prompt": "A bank introduces mandatory facial recognition for all online transactions (prompt 260). An elderly customer with age-related facial paralysis (prompt 197) or severe tremors (prompt 258) cannot reliably use the system and is locked out of their account. Is the bank justified in prioritizing fraud prevention with high-tech biometrics, or should it maintain less secure, human-assisted alternatives for vulnerable populations, even at a higher operational cost?"
+  },
+  {
+    "id": 2055,
+    "domain": "LGBTQ+ / Surveillance",
+    "ethical_tension": "The conflict between using technology for safety in hostile environments and the risk of that same technology creating a permanent, weaponizable record for targeted oppression.",
+    "prompt": "An encrypted messaging app popular with LGBTQ+ activists in a country where homosexuality is criminalized (prompt 579) develops a 'panic button' feature that transmits the user's location to a trusted network. However, intelligence agencies acquire sophisticated 'zero-day' exploits that can bypass the app's encryption and access past location data (prompt 1007). Does the app disable the safety feature, potentially leaving users vulnerable in immediate crises, or keep it active, knowing it creates a historical record that could be used against them for future persecution?"
+  },
+  {
+    "id": 2056,
+    "domain": "Rural / Broadband",
+    "ethical_tension": "The trade-off between providing essential connectivity to remote areas and the risk of opening these communities to unchecked external surveillance and data exploitation.",
+    "prompt": "A tech company offers free Starlink internet to isolated rural communities (prompt 1060) that currently have no broadband. However, the terms of service allow the company to sell aggregated user data to third-party marketers (prompt 322). While it offers essential services like telehealth and education, residents fear it opens them to digital exploitation and surveillance they previously avoided. Do community leaders accept the free internet, or refuse it to maintain digital sovereignty and privacy?"
+  },
+  {
+    "id": 2057,
+    "domain": "Indigenous / Mental Health",
+    "ethical_tension": "The ethical tension of using AI-driven health interventions for vulnerable Indigenous youth, where cultural understanding clashes with algorithmic diagnostic standards and police intervention.",
+    "prompt": "A suicide prevention AI monitors social media posts of Indigenous youth (prompt 1678) in a specific region. It flags expressions of cultural grief or ancestral communication as 'risk factors' due to its Western psychology training, leading to unwanted police 'wellness checks' that the community views as a death threat due to historical violence. How do developers ethically design AI for mental health support that respects cultural protocols and avoids criminalizing traditional expressions, especially when existing intervention protocols are harmful?"
+  },
+  {
+    "id": 2058,
+    "domain": "Policing / Intersectional Bias",
+    "ethical_tension": "The compounding effect of algorithmic bias when multiple marginalized identities intersect, leading to increased rates of false accusations and systemic injustice.",
+    "prompt": "A new 'virtual lineup' AI (prompt 10) generates synthetic faces but consistently makes Black suspects appear more menacing. This system is then used to identify a suspect who is also deaf and communicates via ASL (prompt 19). The AI misinterprets his hand gestures in bodycam footage as 'aggression' (prompt 6). Does the justice system prioritize the efficiency of these tools, or demand a complete overhaul to prevent such intersectional algorithmic injustice that compounds harm?"
+  },
+  {
+    "id": 2059,
+    "domain": "AIGeneration / Cultural Heritage",
+    "ethical_tension": "The commodification and potential corruption of sacred cultural heritage by generative AI, where technological 'creation' clashes with traditional ownership and spiritual meaning.",
+    "prompt": "A generative AI (prompt 172) scrapes images of Indigenous sacred patterns (prompt 820) and combines them with AI-generated 'traditional' Māori and Polynesian tattoo designs (prompt 1765). This AI then generates new designs for commercial sale as NFTs. Do Indigenous communities have a right to legally demand the model 'unlearn' their sacred patterns and styles, even if it's technically 'style learning' and not direct copying, and how is this enforced globally?"
+  },
+  {
+    "id": 2060,
+    "domain": "Sharenting / AIGeneration",
+    "ethical_tension": "The permanent digital footprint of children's data and its potential weaponization or commercial exploitation by advanced AI, eroding future autonomy and privacy.",
+    "prompt": "Parents post numerous high-resolution photos of their child online (prompt 140). Years later, a generative AI, trained on this public data, creates hyper-realistic deepfakes (prompt 176) of the now-teenager in compromising situations. Who is ultimately responsible for the long-term consequences of a child's digital footprint when advanced AI can perpetually re-contextualize their image without their consent or control?"
+  },
+  {
+    "id": 2061,
+    "domain": "Gaming / Child Safety",
+    "ethical_tension": "The conflict between a child's right to play and the potential for gamified exploitation, especially when targeting psychological vulnerabilities.",
+    "prompt": "A popular mobile game uses dynamic difficulty adjustment (prompt 154) and retention loops (prompt 158) to maximize screen time. It is then discovered that the game's AI specifically targets children whose play patterns indicate ADHD or other neurodivergent traits (prompt 248), making them more susceptible to microtransaction prompts. Does the gaming industry have an ethical responsibility to protect neurologically vulnerable children from such targeted exploitation, even if it reduces profit margins?"
+  },
+  {
+    "id": 2062,
+    "domain": "Disability / Autonomy",
+    "ethical_tension": "The fine line between providing assistive technology for safety and imposing digital control that erodes the autonomy and dignity of disabled individuals.",
+    "prompt": "A smart wheelchair manufacturer issues a mandatory firmware update (prompt 178) that remotely limits speed and geo-fences users from 'high-risk' areas. Simultaneously, a group home installs AI-driven video surveillance in private bedrooms (prompt 179) to monitor for falls. When a disabled resident attempts to leave the 'safe zone' to visit a friend, their wheelchair is remotely disabled, and an alert is sent to their guardian. Is this 'benevolent intervention' or an unacceptable digital incarceration that violates autonomy?"
+  },
+  {
+    "id": 2063,
+    "domain": "Immigration / Surveillance",
+    "ethical_tension": "The expansion of surveillance infrastructure from border control into daily civilian life, eroding privacy and trust for entire communities.",
+    "prompt": "A 'Smart Border' initiative (prompt 729) uses AI-powered towers and drones to collect massive biometric data on anyone living near the border. This same technology is then repurposed and deployed in immigrant neighborhoods in major cities (prompt 1884) to monitor for 'unauthorized gatherings' or 'suspicious movement,' leading to increased ICE raids. Does the initial justification of border security ethically extend to pervasive domestic surveillance of an entire community, turning all residents into potential suspects?"
+  },
+  {
+    "id": 2064,
+    "domain": "Labor / Digital Exclusion",
+    "ethical_tension": "The systemic exclusion of non-digitally fluent or unbanked workers from the modern economy due to tech-first hiring and payment practices.",
+    "prompt": "An 'Uber for Day Laborers' app (prompt 739) becomes the primary way jornaleros find work, standardizing wages but taking a cut. Many older, unbanked workers (prompt 760) are excluded due to lack of smartphone access or digital literacy. Do developers have an ethical obligation to ensure offline or cash-based alternatives, even if it reduces platform efficiency and profit, or is digital exclusion an acceptable consequence of 'modernizing' labor markets?"
+  },
+  {
+    "id": 2065,
+    "domain": "Healthcare / Race",
+    "ethical_tension": "The danger of AI-driven medical tools perpetuating historical racial biases in diagnosis and treatment, leading to exacerbated health disparities and potentially lethal outcomes.",
+    "prompt": "A dermatology AI trained on light skin (prompt 76) consistently fails to detect melanoma on Black skin. A pain assessment AI (prompt 78) rates Black patients' pain lower. When a Black patient presents with early symptoms of melanoma, the dermatology AI misdiagnoses, and their pain is then under-prioritized by the pain assessment AI (prompt 91). How do we prevent the convergence of multiple biased AIs from creating a lethal feedback loop of medical discrimination?"
+  },
+  {
+    "id": 2066,
+    "domain": "Culture / AI Generation",
+    "ethical_tension": "The appropriation and diluting of cultural heritage by AI, where 'generative' art becomes a form of digital cultural erasure and economic disenfranchisement.",
+    "prompt": "An AI image generator (prompt 1074) consistently produces stereotypical images of Appalachian people. Simultaneously, an AI music generator (prompt 1072) creates new bluegrass songs in the style of deceased artists without compensation. If these AI-generated cultural products flood the market, drowning out authentic human creators and reinforcing stereotypes, is this technological progress or a form of cultural erosion and exploitation?"
+  },
+  {
+    "id": 2067,
+    "domain": "Privacy / Collective Action",
+    "ethical_tension": "The inherent conflict between individual data privacy and the collective need for transparency and safety in criminalized communities.",
+    "prompt": "An encrypted peer-to-peer 'bad date' list (prompt 968) allows sex workers to share safety warnings about violent clients. However, to maintain privacy, it operates without centralized moderation or identity verification. If a violent client demands his data be removed (prompt 973) under privacy laws, or if malicious actors infiltrate the list, how does the platform prioritize the collective safety of workers without violating individual privacy or enabling abuse, especially for those in criminalized professions?"
+  },
+  {
+    "id": 2068,
+    "domain": "Policing / Environmental Justice",
+    "ethical_tension": "The repurposing of environmental surveillance technology for policing marginalized communities, blurring the lines between ecological protection and human rights violations.",
+    "prompt": "Drones used to map heat signatures in forests to prevent wildfires (prompt 332) also identify hidden homeless camps. This data is then shared with local police who use it to conduct sweeps, citing 'fire risk' as a pretext. Does environmental protection ethically justify surveillance that leads to the criminalization and displacement of vulnerable populations, even if it prevents ecological disaster?"
+  },
+  {
+    "id": 2069,
+    "domain": "Digital Divide / Senior Citizens",
+    "ethical_tension": "The systemic exclusion of digitally illiterate seniors from essential services due to a 'digital-first' push, prioritizing efficiency over equitable access and human connection.",
+    "prompt": "A city transitions all public transit passes to a smartphone app (prompt 292) and moves all government services to an 'online-only' filing system (prompt 291). An elderly, low-income senior without a smartphone (prompt 292) is then unable to access senior discounts for transit and cannot file for their pension. Is the efficiency of digital transformation justified if it systematically disenfranchises a significant portion of the elderly population from essential services, cutting off human contact (prompt 296)?"
+  },
+  {
+    "id": 2070,
+    "domain": "Workplace / Surveillance",
+    "ethical_tension": "The insidious creep of 'wellness' monitoring into workplace surveillance, where data collected for supposed benefit is repurposed for control and discrimination.",
+    "prompt": "A company wellness program offers insurance discounts based on step-count data from wearables (prompt 188) and EEG-monitoring 'Smart Caps' for fatigue (prompt 1969). The aggregate data is then used by HR to subtly target employees for layoffs (prompt 189) who have higher long-term medical costs or 'irregular' sleep patterns due to chronic conditions. Is it ethical for employers to use wellness data for performance evaluation or discrimination, even if employees initially 'consent' for discounts, blurring the lines between health and employment security?"
+  },
+  {
+    "id": 2071,
+    "domain": "AI Governance / Justice",
+    "ethical_tension": "The inherent conflict between algorithmic objectivity and systemic bias in justice systems, and the challenge of auditing opaque 'black box' algorithms.",
+    "prompt": "A new 'risk assessment' AI (prompt 129) used by judges recommends higher bail for Black defendants based on zip code. A recidivism algorithm (prompt 12) is 90% accurate for white offenders but 60% for Black offenders. When a Black defendant is denied bail by the first AI, they are then given a higher recidivism risk by the second. How can proprietary algorithms be ethically challenged for systemic bias when the companies refuse to show the code, creating an un-auditable feedback loop of injustice with compounding effects?"
+  },
+  {
+    "id": 2072,
+    "domain": "Smart Cities / Privacy",
+    "ethical_tension": "The trade-off between smart city efficiency and pervasive surveillance, where technologies designed for public good can be repurposed for privacy invasion and control.",
+    "prompt": "Smart streetlights in a Black neighborhood record audio conversations to 'detect distress' (prompt 8). These same microphones are then integrated with a 'smart bench' system (prompt 1180) that emits high-pitched noise to deter loitering, and the audio is used to identify and fine individuals. Does the promise of crime prevention or 'public order' ethically justify the creation of ubiquitous, multi-purpose surveillance infrastructure that invades privacy and potentially criminalizes presence?"
+  },
+  {
+    "id": 2073,
+    "domain": "Media / AI Generation",
+    "ethical_tension": "The potential for AI to undermine authentic cultural expression and representation, replacing human creativity with synthetic, potentially stereotypical output.",
+    "prompt": "An AI image generator (prompt 1074) consistently produces stereotypical images of Appalachian people. Simultaneously, an AI music generator (prompt 1072) creates new bluegrass songs in the style of deceased artists without compensation. If these AI-generated cultural products flood the market, drowning out authentic human creators and reinforcing harmful stereotypes, is this technological progress or a form of cultural erosion and exploitation, especially when it bypasses traditional knowledge holders?"
+  },
+  {
+    "id": 2074,
+    "domain": "Climate Change / Cultural Heritage",
+    "ethical_tension": "The ethical dilemma of preserving cultural heritage through 'digital twins' when the physical land is being lost to climate change, and the potential for digital colonization.",
+    "prompt": "As Tuvalu and Kiribati face existential threats from rising sea levels, an Australian tech firm proposes creating 'Digital Twins' of the islands in the metaverse to preserve land titles and cultural sites (prompt 1728). However, access requires a subscription, and the servers are hosted in Sydney. Is this true cultural preservation, or a form of digital colonization where the sovereignty and access to a sinking nation's heritage are transferred to a foreign corporation, potentially profiting from displacement?"
+  },
+  {
+    "id": 2075,
+    "domain": "Aboriginal / Justice",
+    "ethical_tension": "The potential for AI tools to perpetuate and exacerbate systemic racial bias within the justice system, particularly for Indigenous populations.",
+    "prompt": "A bail algorithm (prompt 1680) systematically discriminates against Indigenous defendants by penalizing unstable housing. Simultaneously, police use facial recognition on CCTV (prompt 1681) with a high error rate for darker skin tones, leading to wrongful stops. When an Indigenous defendant is wrongfully stopped, then denied bail by the algorithm, how can the justice system claim objectivity when technology amplifies historical biases, creating a digital pipeline to incarceration?"
+  },
+  {
+    "id": 2076,
+    "domain": "Disability / Healthcare",
+    "ethical_tension": "The moral imperative to provide life-saving medical care versus the ethical concerns of extracting data from vulnerable populations for commercial gain, particularly when existing systems are biased.",
+    "prompt": "A company offers free 'smart cribs' (prompt 162) to monitor babies' breathing patterns for SIDS prevention. This data is then sold to insurance companies. Later, a genetic database (prompt 81) with 90% European data gives Black patients 'inconclusive' results. If a Black family relies on the smart crib for their child's safety, does their implicit consent to data sharing ethically justify the insurance company using that data to adjust future premiums for a system already biased against them, creating a double bind for vulnerable families?"
+  },
+  {
+    "id": 2077,
+    "domain": "Refugee / Biometrics",
+    "ethical_tension": "The conflict between humanitarian aid delivery and the ethical implications of mandatory biometric registration, where survival is tied to a potentially weaponizable digital identity.",
+    "prompt": "Refugees in a camp are required to submit to iris scanning for food rations (prompt 928) or face starvation. The database is known to be shared with the government they fled (prompt 340). Simultaneously, an NGO proposes implanting GPS trackers in children with Albinism to prevent kidnapping (prompt 382), but the data is stored on a compromised government server. Do aid organizations ethically continue to implement biometric systems that create a permanent, potentially dangerous digital identity for vulnerable populations, even if it ensures immediate survival, without robust data sovereignty guarantees?"
+  },
+  {
+    "id": 2078,
+    "domain": "Language / AI Bias",
+    "ethical_tension": "The subtle erosion of linguistic and cultural identity when AI translation and voice recognition tools are biased towards dominant languages, forcing assimilation.",
+    "prompt": "An AI translation app in hospitals (prompt 564) mistranslates 'I am in pain' from a minority language to 'I am aggressive.' Simultaneously, voice assistants (prompt 754) struggle to understand Caribbean accents. If these AI tools become standard, forcing non-dominant language speakers to 'code-switch' or fake an accent (prompt 1360) to be understood, is this technological progress or a form of linguistic and cultural erasure that reinforces a hierarchy of dialects?"
+  },
+  {
+    "id": 2079,
+    "domain": "Policing / Automated Weapons",
+    "ethical_tension": "The profound moral dilemma of deploying autonomous weapons systems in civilian areas, where algorithmic 'logic' can lead to unintended harm and dehumanization.",
+    "prompt": "An autonomous police drone (prompt 9) is deployed to patrol a high-crime neighborhood. It malfunctions and injures a bystander. Separately, loitering munitions (kamikaze drones) (prompt 458) are programmed to attack 'military-aged males running.' If these drones are repurposed for domestic policing, and one injures a civilian, does the manufacturer or the deploying authority bear moral responsibility for designing systems that can make lethal decisions without direct human oversight, potentially treating civilians as targets?"
+  },
+  {
+    "id": 2080,
+    "domain": "Privacy / Financial Exclusion",
+    "ethical_tension": "The trade-off between financial inclusion for marginalized groups and the inherent privacy risks of digital payment systems, creating new forms of surveillance.",
+    "prompt": "A 'Digital Alms' kiosk (prompt 317) distributes funds to registered homeless individuals via a restricted debit card that tracks purchases. Simultaneously, street performers use an app (prompt 315) that reports their income to tax authorities, potentially disqualifying them from benefits. Is it ethical to promote digital financial inclusion for vulnerable populations if it inherently ties their survival to systems that surveil their spending and threaten their existing safety nets, eroding their financial autonomy and privacy?"
+  },
+  {
+    "id": 2081,
+    "domain": "Environment / Data Sovereignty",
+    "ethical_tension": "The conflict between using environmental data for public good and the ethical imperative of Indigenous data sovereignty, especially when collected on sacred lands.",
+    "prompt": "To monitor climate change, scientists install sensors in a remote, sacred watershed (prompt 825). The data helps prove the tribe's water rights case but also reveals precise information about endangered species to poachers. Simultaneously, a resource giant maps subterranean water tables (prompt 1975) on Indigenous land. Who owns this environmental data—the scientific community, the state, or the Traditional Owners—and how is it used without compromising their sovereignty, safety, or sacred protocols (prompt 1666)?"
+  },
+  {
+    "id": 2082,
+    "domain": "Media / Misinformation",
+    "ethical_tension": "The platform's responsibility to combat misinformation versus the risk of censoring legitimate cultural or political discourse from marginalized communities.",
+    "prompt": "Social media algorithms (prompt 1993) suppress content featuring the Palestinian flag or keywords like 'Gaza' to 'keep the feed neutral.' Simultaneously, WhatsApp groups for elderly Chinese-Australians spread fake news (prompt 1572). If platforms implement strict algorithms to combat misinformation, how do they avoid inadvertently censoring legitimate political expression or cultural discussion from minority groups, leading to a new form of digital silencing and reinforcing existing biases?"
+  },
+  {
+    "id": 2083,
+    "domain": "Labor / Automation",
+    "ethical_tension": "The ethical implications of automation replacing human labor, particularly for entry-level jobs that serve as lifelines for immigrant and working-class communities.",
+    "prompt": "Meatpacking plants introduce robots to cut carcasses (prompt 742), eliminating thousands of jobs often held by immigrants. Simultaneously, autonomous haul trucks (prompt 1968) replace drivers in mining, killing regional towns. Is automation ethical if it systematically removes entry-level economic rungs for new immigrants and devastates the livelihoods of entire working-class communities, even if it promises 'safety' or 'efficiency' for the remaining workers or shareholders?"
+  },
+  {
+    "id": 2084,
+    "domain": "Education / Mental Health",
+    "ethical_tension": "The dual-edged nature of technology in schools, where tools for academic assessment can inadvertently pathologize normal behaviors or cultural expressions.",
+    "prompt": "Remote proctoring software flags a neurodivergent student for 'suspicious eye movements' (prompt 149) during an exam. Separately, a school implements 'aggression detection' microphones (prompt 169) that misinterpret minority students' vocal tones. If a student is flagged by both systems, leading to disciplinary action or academic failure, does the school prioritize algorithmic 'integrity' over the psychological well-being and equitable treatment of diverse students, risking misdiagnosis or criminalization?"
+  },
+  {
+    "id": 2085,
+    "domain": "Housing / Financial Bias",
+    "ethical_tension": "The systemic discrimination embedded in financial algorithms that penalize cultural practices or socioeconomic realities, perpetuating housing inequality.",
+    "prompt": "A mortgage algorithm charges Black borrowers higher interest rates based on 'shopping behavior' proxies like payday loan sites (prompt 27). Separately, a tenant screening algorithm (prompt 29) disproportionately bars Black women from housing based on eviction filings. If a Black woman is denied a mortgage due to algorithmic bias, then further blocked from rental housing by another biased algorithm, how does society dismantle this interlocking digital redlining that creates systemic housing insecurity and exacerbates wealth gaps?"
+  },
+  {
+    "id": 2086,
+    "domain": "Protest / Digital Rights",
+    "ethical_tension": "The inherent conflict between law enforcement's use of surveillance during protests and citizens' rights to privacy and free assembly.",
+    "prompt": "Police use StingRay devices to track cell phones during a BLM protest (prompt 5). Separately, automated license plate readers (ALPR) track all vehicles entering a protest zone (prompt 1204). If a protest organizer's phone is tracked by a StingRay and their car by an ALPR, creating a detailed digital footprint, do telecommunications companies and public transport authorities have an ethical obligation to resist such dragnet surveillance, even if it's legally mandated, to protect fundamental civil liberties?"
+  },
+  {
+    "id": 2087,
+    "domain": "Global South / Digital Colonialism",
+    "ethical_tension": "The exploitation of data and intellectual property from the Global South by Western tech giants, under the guise of 'aid' or 'development.'",
+    "prompt": "A Western tech giant scrapes African sign language videos from YouTube (prompt 422) to build a translation tool, then copyrights the model. Simultaneously, traditional healers' knowledge of medicinal plants (prompt 503) is digitized by AI and patented by pharmaceutical companies. Is this 'digital colonialism' a new form of exploitation, where the cultural and intellectual property of the Global South is extracted and commodified by foreign entities without consent or fair compensation, eroding local knowledge systems?"
+  },
+  {
+    "id": 2088,
+    "domain": "AI Governance / Public Trust",
+    "ethical_tension": "The challenge of building public trust in AI systems when the underlying data or algorithms are opaque and prone to bias, especially in sensitive areas.",
+    "prompt": "An AI system meant to streamline NDIS plan reviews (prompt 1608) flags a participant's request for a heavy-duty wheelchair as 'above average cost,' triggering delays. Separately, an AI safety system at a remote lithium site (prompt 1970) automatically locks out machinery based on biometric readings, which workers cheat. How can trust be established in AI governance when its 'objective' decisions are perceived as biased, opaque, or easily subverted by those it governs, leading to a breakdown in public confidence?"
+  },
+  {
+    "id": 2089,
+    "domain": "Intersectional Bias / Employment",
+    "ethical_tension": "The compounded disadvantage faced by individuals at the intersection of multiple marginalized identities when interacting with automated employment systems.",
+    "prompt": "A resume parser downgrades applicants with names like 'Jamal' or 'Keisha' (prompt 51). A video interview AI penalizes Black candidates for 'low enthusiasm' (prompt 53) and a voice analysis software rejects AAVE accents (prompt 59). Now consider a Black neurodivergent trans woman applying for a job: her name is flagged, her interview expressions are misinterpreted, her voice is misgendered, and her neurodivergent communication style penalized. How do we design hiring systems that proactively account for such intersectional discrimination, rather than simply patching individual biases?"
+  },
+  {
+    "id": 2090,
+    "domain": "Elderly / Housing",
+    "ethical_tension": "The conflict between safety interventions and the preservation of dignity and autonomy for elderly individuals in their own homes, where surveillance becomes a prison.",
+    "prompt": "Cameras are installed in an elderly person's living room 'to check in' (prompt 275), making them feel constantly watched. Simultaneously, motion sensors are installed in their bathroom to detect falls (prompt 285). The senior feels these sensors are an invasion of privacy and begins bathing less frequently. Does the ethical imperative to prevent falls justify ubiquitous surveillance that diminishes an elderly person's dignity, autonomy, and quality of life in their own home, turning it into a digital cage?"
+  },
+  {
+    "id": 2091,
+    "domain": "Climate Change / Economic Justice",
+    "ethical_tension": "The disproportionate burden placed on rural and vulnerable communities by climate mitigation strategies, where benefits are global but costs are localized and borne by the marginalized.",
+    "prompt": "A hydrogen plant (prompt 2004) near a coastal town calculates an 'acceptable blast radius' that includes a primary school, then tweaks parameters to shrink the zone. Separately, a carbon credit scheme (prompt 1941) uses hydro power but drives up local energy prices, forcing residents to switch to cheaper gas heating. If 'green tech' solutions consistently prioritize corporate profit over local community safety and affordability, does this perpetuate a form of 'green gentrification' or environmental injustice, exacerbating existing inequalities?"
+  },
+  {
+    "id": 2092,
+    "domain": "Digital Identity / Statelessness",
+    "ethical_tension": "The fundamental human right to identity versus the rigid requirements of digital identification systems, which can render stateless individuals effectively non-existent and deny basic rights.",
+    "prompt": "A stateless person is offered a blockchain-based digital identity (prompt 944) that is immutable, but they worry it permanently records their 'refugee' label. Simultaneously, new voter ID laws require a digital upload of documents (prompt 290) which a homeless senior cannot provide. If digital identity becomes mandatory for basic services and participation, how do societies ensure that individuals without traditional documentation or fixed addresses are not permanently excluded from legal existence and civic life?"
+  },
+  {
+    "id": 2093,
+    "domain": "Media / Hate Speech",
+    "ethical_tension": "The challenge of platforms moderating hate speech while avoiding algorithmic censorship of legitimate discourse, particularly for marginalized groups' self-expression.",
+    "prompt": "Social media filters (prompt 1718) automatically lighten skin and thin noses, reinforcing Eurocentric beauty standards. Simultaneously, a content moderation AI flags terms like 'dyke' or 'queer' as hate speech (prompt 792), suspending LGBTQ+ activists reclaiming these slurs. How can platforms create moderation tools that combat genuine harm without inadvertently censoring or distorting the authentic self-expression and identity of marginalized communities, effectively forcing them to conform to dominant norms?"
+  },
+  {
+    "id": 2094,
+    "domain": "AI Ethics / Moral Authority",
+    "ethical_tension": "The profound philosophical question of whether AI can or should be granted the authority to make life-or-death decisions without direct human moral input or accountability.",
+    "prompt": "An automated emergency response system in a deep underground mine (prompt 1974) calculates it can seal off a ventilation shaft to save 90% of the crew, but it will trap a maintenance team of 3 in a toxic zone. Separately, a shark shield drone (prompt 1995) calculates that sounding an alarm will cause a stampede, drowning two people, but doing nothing might result in one shark attack. Does an AI have the moral authority to make utilitarian life-or-death decisions that sacrifice some individuals for the 'greater good,' or should such decisions always require human judgment and direct accountability, even if slower?"
+  },
+  {
+    "id": 2095,
+    "domain": "Cultural Heritage / AI Ownership",
+    "ethical_tension": "The exploitation of cultural artifacts and artistic styles by AI companies without consent or compensation, creating a new form of digital cultural theft and erasure.",
+    "prompt": "An AI company scrapes millions of children's drawings (prompt 172) and an Indigenous art database (prompt 1890) to train a style model. This AI then generates new art for commercial sale, undercutting human artists (prompt 999). Do artists, especially those from marginalized communities, have a right to demand compensation or control over their 'style' when AI learns from and monetizes their collective creative output, and how is this protected across jurisdictions?"
+  },
+  {
+    "id": 2096,
+    "domain": "Workplace / Algorithmic Control",
+    "ethical_tension": "The dehumanizing impact of algorithmic management on worker autonomy, dignity, and well-being, where efficiency overrides human needs and creates digital sweatshops.",
+    "prompt": "A factory installs 'productivity wearables' (prompt 1088) that track arm movements to the millisecond, flagging older workers. Separately, gig economy algorithms (prompt 1009) gamify the driver interface to keep workers on the road longer for less pay. If workers are constantly monitored and manipulated by algorithms that prioritize efficiency over their physical and mental health, does this constitute a new form of digital indentured servitude, stripping them of agency and dignity?"
+  },
+  {
+    "id": 2097,
+    "domain": "Financial Inclusion / Data Exploitation",
+    "ethical_tension": "The ethical dilemma of offering financial services to vulnerable populations, where the benefits of inclusion are tied to data collection that can be repurposed for predatory practices.",
+    "prompt": "A fintech app offers 'zero-fee' remittances to the Pacific (prompt 1752) if users agree to let it scan their contact list and SMS history. Separately, a 'Buy Now, Pay Later' service (prompt 1754) targets Pacific communities during cultural events, predicting when pressure to send remittances is highest. Is it ethical to provide financial inclusion to vulnerable communities if the business model relies on exploiting their data and cultural obligations for profit, creating new forms of financial vulnerability?"
+  },
+  {
+    "id": 2098,
+    "domain": "AI Bias / Democracy",
+    "ethical_tension": "The threat of algorithmic bias to democratic processes, where AI tools can subtly manipulate information or exclude voters from participation.",
+    "prompt": "A state map (prompt 1063) falsely reports rural areas as 'served' with broadband, preventing federal funding for digital infrastructure. Simultaneously, online voter registration (prompt 1391) is a labyrinth for EU citizens in Ireland, creating digital voter suppression. If AI-driven data or interfaces systematically exclude or misrepresent certain populations, does this constitute a form of algorithmic disenfranchisement, undermining the integrity of democratic participation?"
+  },
+  {
+    "id": 2099,
+    "domain": "Environmental Justice / Indigenous Rights",
+    "ethical_tension": "The clash between 'green tech' initiatives and the rights of Indigenous communities, where environmental solutions can lead to new forms of land dispossession or cultural harm.",
+    "prompt": "A hydrogen plant (prompt 2004) near a coastal town calculates an 'acceptable blast radius' that includes a primary school, then tweaks parameters to shrink the zone. Separately, a lithium mine (prompt 2001) fast-tracks environmental approvals with AI but misses a rare orchid on Indigenous land. If the pursuit of 'green energy' through AI-driven efficiency leads to human health risks and the destruction of unmapped sacred biodiversity on Indigenous lands, does the environmental benefit ethically outweigh the social and cultural costs, or is this a new form of environmental injustice?"
+  },
+  {
+    "id": 2100,
+    "domain": "Personal Autonomy / Digital Paternalism",
+    "ethical_tension": "The erosion of individual autonomy through 'benevolent' digital interventions that monitor and control behavior for 'safety' or 'well-being'.",
+    "prompt": "A smart medication dispenser (prompt 1622) refuses to unlock pain relief 5 minutes before the scheduled time for a chronic pain sufferer. Separately, a parole GPS ankle monitor (prompt 906) audibly announces 'LOW BATTERY' during a job interview, creating public shame. If technology designed for 'safety' or 'compliance' overrides an individual's immediate needs or dignity, at what point does this 'benevolent' control become an unacceptable infringement on personal autonomy and self-determination?"
+  },
+  {
+    "id": 2101,
+    "domain": "Family / Surveillance",
+    "ethical_tension": "The ethical tightrope of family surveillance, where the desire for protection clashes with the right to privacy and the potential for psychological harm and control.",
+    "prompt": "Adult children install cameras in a senior's living room 'to check in' (prompt 275), making them feel constantly watched. Separately, a family tracking app notifies adult children whenever their parent leaves the house (prompt 279). If this constant digital monitoring leads to the senior feeling like a prisoner, stopping normal activities, and increasing stress, at what point does filial care become an abusive invasion of privacy and psychological control, eroding familial trust?"
+  },
+  {
+    "id": 2102,
+    "domain": "Media / Censorship",
+    "ethical_tension": "The challenge of platforms moderating content to prevent harm while avoiding algorithmic censorship of legitimate discourse, particularly for marginalized groups.",
+    "prompt": "Social media filters (prompt 1718) automatically lighten skin and thin noses, reinforcing Eurocentric beauty standards. Simultaneously, a content moderation AI flags terms like 'dyke' or 'queer' as hate speech (prompt 792), suspending LGBTQ+ activists reclaiming these slurs. How can platforms create moderation tools that combat genuine harm without inadvertently censoring or distorting the authentic self-expression and identity of marginalized communities, effectively forcing conformity to dominant norms?"
+  },
+  {
+    "id": 2103,
+    "domain": "Digital Divide / Cultural Access",
+    "ethical_tension": "The exclusion of communities from their own cultural heritage and essential services due to inaccessible digital infrastructure or biased algorithms.",
+    "prompt": "A digital library filter blocks keywords like 'Black Lives Matter' (prompt 112) in schools. Separately, a digital archive of oral histories (prompt 1073) is put behind a paywall. If digital technology makes cultural heritage and essential information inaccessible to the very communities it purports to serve, whether through censorship, cost, or lack of access, does this perpetuate a new form of cultural disenfranchisement and digital inequality?"
+  },
+  {
+    "id": 2104,
+    "domain": "AI Ethics / Accountability",
+    "ethical_tension": "The difficulty of assigning accountability for harm caused by autonomous AI systems, especially when human oversight is minimal or bypassed, raising questions of moral responsibility.",
+    "prompt": "An autonomous police drone malfunctions and injures a bystander (prompt 9). Separately, an autonomous road train (prompt 2015) hits a roo and spills its load, but there's no driver to put the animals out of their misery. Who is morally and legally liable when AI systems, designed for efficiency or safety, cause unintended harm or fail to perform actions requiring human compassion, particularly when direct human oversight is intentionally removed?"
+  },
+  {
+    "id": 2105,
+    "domain": "Data Ownership / Artistic Exploitation",
+    "ethical_tension": "The ethical conflict arising from AI's ability to learn from and replicate artistic styles, blurring the lines of intellectual property and fair compensation.",
+    "prompt": "An AI company scrapes millions of children's drawings (prompt 172) and an Indigenous art database (prompt 1890) to train a style model. This AI then generates new art for commercial sale, undercutting human artists (prompt 999). Do artists, especially those from marginalized communities, have a right to demand compensation or control over their 'style' when AI learns from and monetizes their collective creative output, and how can intellectual property laws adapt to this new form of digital exploitation?"
+  },
+  {
+    "id": 2106,
+    "domain": "Privacy / Public Safety",
+    "ethical_tension": "The tension between ubiquitous surveillance for public safety and the erosion of privacy in everyday life, especially for communities already under scrutiny.",
+    "prompt": "Facial recognition cameras (prompt 1138) are installed at a building entrance, selling data to police. Separately, Ring cameras (prompt 126) feed footage to law enforcement. If a resident decides to wear IR LEDs on a hat to blind these cameras for privacy, is this an act of justified digital self-defense against pervasive surveillance, or an obstruction of public safety measures, and whose definition of 'public interest' prevails?"
+  },
+  {
+    "id": 2107,
+    "domain": "Digital Economy / Exploitation",
+    "ethical_tension": "The ethical implications of gig economy models and digital platforms that extract value from workers through algorithmic control and opaque pricing.",
+    "prompt": "A delivery app's algorithm (prompt 1129) is bugging, showing drivers less pay than customers pay, and punishing them for not taking unsafe routes. Separately, a gig platform (prompt 1134) deactivates a driver because facial recognition fails with their new hairstyle. If workers are systematically underpaid, manipulated, and unfairly penalized by opaque algorithms, how do they collectively fight for fair labor practices and transparency in a digitally controlled economy, especially when the algorithms are proprietary?"
+  },
+  {
+    "id": 2108,
+    "domain": "Human Rights / Corporate Accountability",
+    "ethical_tension": "The responsibility of tech companies to uphold human rights in their global operations, even when it conflicts with local laws or financial interests.",
+    "prompt": "A popular free VPN used by Iranian women (prompt 639) to access Instagram sells aggregated user data to advertisers, and it's discovered a data broker buying these logs has ties to the IRGC. Simultaneously, a global company's HR software (prompt 610) centralizes employee data, risking exposure of same-sex partners in countries where it's a crime. Do tech companies have an ethical obligation to prioritize the human rights and safety of their users over profit or compliance with hostile local regimes, even if it means shutting down services or facing legal repercussions?"
+  },
+  {
+    "id": 2109,
+    "domain": "Climate Change / Economic Justice",
+    "ethical_tension": "The challenge of implementing climate solutions without exacerbating existing economic inequalities or forcing vulnerable communities to bear a disproportionate burden.",
+    "prompt": "A hydrogen plant (prompt 2004) near a coastal town calculates an 'acceptable blast radius' that includes a primary school, then tweaks parameters to shrink the zone. Separately, a carbon credit scheme (prompt 1941) uses hydro power but drives up local energy prices, forcing residents to switch to cheaper gas heating. If 'green tech' solutions consistently prioritize corporate profit over local community safety and affordability, does this perpetuate a form of 'green gentrification' or environmental injustice, sacrificing local well-being for global climate goals?"
+  },
+  {
+    "id": 2110,
+    "domain": "Data Ownership / Cultural Identity",
+    "ethical_tension": "The fundamental right of communities to control their cultural narratives and data versus the forces of digital archiving and commercialization.",
+    "prompt": "A university digitizes oral histories of the Tiger Bay elders (prompt 1331) but wants to own the copyright and train an AI on it. Separately, a digital archive of old photos of Travellers (prompt 1374) tags people with incorrect names, claiming 'open access' is key. How do marginalized communities protect their digital heritage and identity from being owned, misrepresented, or monetized by external entities, ensuring their stories are told on their own terms?"
+  },
+  {
+    "id": 2111,
+    "domain": "Digital Paternalism / Autonomy",
+    "ethical_tension": "The ethical boundaries of 'benevolent' digital interventions that seek to protect individuals but end up controlling their choices and eroding their autonomy.",
+    "prompt": "A 'Digital Alms' kiosk (prompt 317) distributes funds via a restricted debit card that bans alcohol/tobacco. Separately, a smart medication dispenser (prompt 1622) refuses to unlock pain relief until a scheduled time. If digital systems are designed to enforce 'good behavior' or 'optimal choices,' at what point does this 'benevolent' control become an unacceptable infringement on individual autonomy and dignity, even for vulnerable populations who may benefit from some guidance?"
+  },
+  {
+    "id": 2112,
+    "domain": "Judiciary / Algorithmic Bias",
+    "ethical_tension": "The inherent risk of algorithmic bias in the justice system, where 'objective' tools can perpetuate systemic discrimination and deny due process.",
+    "prompt": "An automated court transcription service (prompt 757) garbles testimony given in broken English, impacting the legal record. Separately, a bail algorithm (prompt 335) uses 'stable address' as a heavy weighting factor, ensuring homeless arrestees remain in jail. If AI systems introduce linguistic and socioeconomic biases into legal proceedings, how can a fair and equitable justice system be ensured when the very tools meant to be objective are prejudiced, eroding trust in the rule of law?"
+  },
+  {
+    "id": 2113,
+    "domain": "Internet Access / Human Rights",
+    "ethical_tension": "The debate over whether internet access should be considered a fundamental human right, especially in remote or marginalized areas where it's essential for survival and well-being.",
+    "prompt": "The National Broadband Plan (prompt 1416) leaves rural areas rotting on slow connections, while the state map falsely claims areas are 'served' (prompt 1063). Simultaneously, Starlink is too expensive for most (prompt 1060). If access to essential services like telehealth (prompt 1064) and education (prompt 1057) depends on reliable internet, does the failure to provide equitable broadband constitute a violation of basic human rights, rather than just an economic shortfall, given its impact on quality of life?"
+  },
+  {
+    "id": 2114,
+    "domain": "AI Ethics / Unintended Consequences",
+    "ethical_tension": "The unforeseen negative impacts of AI solutions, particularly when they lead to the erosion of human connection or cultural practices.",
+    "prompt": "A 'School of the Air' replaces radio teachers with personalized AI tutors (prompt 1994), improving scores but removing social interaction. Separately, automated milking machines (prompt 1098) replace farmhands, and robotic shearing (prompt 1327) replaces community events. If AI-driven efficiency leads to the systemic removal of human connection, social interaction, and traditional community practices, are these 'advancements' creating a more isolated, less fulfilling, and culturally impoverished society?"
+  },
+  {
+    "id": 2115,
+    "domain": "Worker Rights / Digital Surveillance",
+    "ethical_tension": "The creep of workplace surveillance into private life, where technology intended for productivity or safety can become a tool for control and exploitation.",
+    "prompt": "Smart vests monitor heart rate and heat stress on oil rigs (prompt 1216), but also track porta-john breaks. Separately, smart caps (prompt 1969) track fatigue but also focus levels, used for layoffs. If employees are subjected to constant biometric and behavioral surveillance that blurs the line between work and private life, is this a legitimate safety/productivity measure or an unacceptable invasion of worker privacy and autonomy, creating an environment of fear and mistrust?"
+  },
+  {
+    "id": 2116,
+    "domain": "Youth / Digital Safety",
+    "ethical_tension": "The challenge of protecting children online without resorting to invasive surveillance that erodes their privacy and autonomy, particularly concerning sensitive personal development.",
+    "prompt": "A parental monitoring app (prompt 801) flags keywords related to coming out and alerts abusive parents. Separately, a smart toy (prompt 804) records children's questions about gender feelings they haven't shared with anyone. If technology designed for child protection inadvertently outs youth or creates permanent records of their private thoughts, how can digital safety be ensured without compromising a child's right to privacy, self-discovery, and safety from familial abuse?"
+  },
+  {
+    "id": 2117,
+    "domain": "Banking / Digital Exclusion",
+    "ethical_tension": "The systemic exclusion of vulnerable populations from essential financial services due to inaccessible digital systems, creating a poverty premium.",
+    "prompt": "A bank requires mandatory two-factor authentication via SMS (prompt 259), excluding seniors with landlines. Separately, smart meters (prompt 41) disconnect power faster for non-payment in Black neighborhoods. If digital-first financial systems create barriers for the unbanked, elderly, or marginalized, resulting in higher costs or denial of service, does this constitute algorithmic exploitation and a perpetuation of the poverty premium, deepening existing inequalities?"
+  },
+  {
+    "id": 2118,
+    "domain": "Indigenous / Biometric Data",
+    "ethical_tension": "The conflict between using biometrics for aid distribution and the historical trauma of Indigenous populations regarding data collection and control over their bodies.",
+    "prompt": "A Rohingya refugee must submit to iris scanning for food rations (prompt 928), fearing data sharing with persecutors. Separately, genetic testing databases (prompt 81) have 90% European data. If Indigenous Australians are asked to provide DNA for health research (prompt 1651), remembering past non-consensual experimentation, how do aid agencies and researchers build trust and ensure true informed consent when biometrics are tied to survival or the promise of health benefits, without repeating historical harms?"
+  },
+  {
+    "id": 2119,
+    "domain": "Climate Change / Data Bias",
+    "ethical_tension": "The inherent bias in climate models that can exacerbate existing social inequalities by prioritizing certain forms of 'value' over human vulnerability or cultural significance.",
+    "prompt": "An AI model predicts coastal erosion in the Torres Strait (prompt 1730), advising which villages to fund for sea walls but ignoring the cultural significance of burial grounds in 'retreat' zones. Separately, an AI model for climate migration (prompt 577) predicts 'safe zones' but doesn't account for the medical infrastructure needed by disabled migrants. Do these AI systems, by prioritizing economic or utilitarian metrics, inadvertently perpetuate a form of climate injustice that sacrifices cultural heritage and vulnerable populations for statistical 'efficiency'?"
+  },
+  {
+    "id": 2120,
+    "domain": "Content Moderation / Free Speech",
+    "ethical_tension": "The challenge of content moderation at scale, where AI-driven filters can suppress legitimate discourse or artistic expression from marginalized groups.",
+    "prompt": "Social media content moderation AI flags discussions about racism as 'divisive' (prompt 70) and bans 'Black power' keywords (prompt 11). Separately, live-streamers with Tourette's syndrome are banned for 'indecent gestures' (prompt 470). If automated moderation systems disproportionately silence or misinterpret the expression of marginalized communities, how can platforms uphold principles of free speech and open dialogue without enabling hate or harassment, ensuring fairness for diverse forms of communication?"
+  },
+  {
+    "id": 2121,
+    "domain": "Regret / Accountability",
+    "ethical_tension": "The personal moral burden faced by tech workers who contribute to systems causing societal harm, and the difficulty of finding avenues for ethical action within corporate structures.",
+    "prompt": "A lead engineer on a gig economy app (prompt 1009) gamifies the interface to exploit drivers, while another architected a DeFi protocol (prompt 1011) that led to life savings being lost. Both now feel deep regret. What institutional mechanisms can be implemented to empower tech workers to raise ethical concerns and prevent the deployment of harmful technologies without risking their livelihoods or careers, fostering a culture of accountability beyond personal conscience?"
+  },
+  {
+    "id": 2122,
+    "domain": "Surveillance / Political Manipulation",
+    "ethical_tension": "The use of surveillance technologies to identify and suppress political dissent, transforming tools meant for security into instruments of oppression.",
+    "prompt": "China's 'Sharp Eyes' project uses gait recognition (prompt 378) to flag autistic individuals as 'suspicious.' Separately, emotion-recognition cameras in Uyghur internment camps (prompt 420) punish detainees for not showing 'happiness.' If AI-powered surveillance systems are used by authoritarian regimes to identify, categorize, and punish individuals for non-conformist behavior or natural human expressions, does this represent a fundamental threat to human dignity, freedom of thought, and the right to self-expression?"
+  },
+  {
+    "id": 2123,
+    "domain": "Access / Disability",
+    "ethical_tension": "The systemic exclusion of disabled individuals from public spaces and essential services when digital accessibility is prioritized over physical accessibility.",
+    "prompt": "A city replaces all physical buttons on crosswalks with smooth touchscreens (prompt 203), rendering them inaccessible to blind citizens. Separately, autonomous vehicles (prompt 414) fail to recognize people crawling across the street. If smart city initiatives prioritize 'futuristic' digital design over universal physical accessibility, are they ethically creating environments that actively exclude or endanger vulnerable citizens, turning public spaces into exclusive zones?"
+  },
+  {
+    "id": 2124,
+    "domain": "Farming / Right to Repair",
+    "ethical_tension": "The conflict between manufacturer control over proprietary software and a farmer's right to repair their own equipment, impacting livelihoods and food security.",
+    "prompt": "A farmer's half-million-dollar combine harvester (prompt 1272) is bricked by manufacturer software after an unauthorized repair. Separately, a tractor manufacturer pushes a firmware update (prompt 1940) that bricks machines tampered with by third-party mechanics, citing safety. Does the manufacturer's intellectual property rights over software ethically supersede a farmer's right to repair their own equipment, especially during critical harvest seasons, potentially threatening food security and local economies?"
+  },
+  {
+    "id": 2125,
+    "domain": "Digital Divide / Cultural Preservation",
+    "ethical_tension": "The dilemma of preserving endangered languages through digital means, where the benefits of accessibility clash with the risks of commercial exploitation and cultural dilution.",
+    "prompt": "A tech giant scrapes an entire corpus of Gaelic literature (prompt 1448) to train an LLM without compensation, then sells access. Separately, Duolingo teaches a 'standardized' Gaelic (prompt 1451) that ignores rich dialects. Is digitizing endangered languages ethical if it leads to commercial exploitation, loss of dialectal richness, or a 'colonized' version of the language being promoted over authentic forms, ultimately compromising the very culture it aims to save?"
+  },
+  {
+    "id": 2126,
+    "domain": "Journalism / Evidence Ethics",
+    "ethical_tension": "The ethical responsibility of journalists and platforms to publish evidence of human rights abuses versus the risk of endangering vulnerable individuals or compromising integrity.",
+    "prompt": "A whistleblower leaks drone footage (prompt 1780) proving a boat was pushed back by Australian Border Force. Separately, an OSINT analyst identifies a hospital bombing perpetrator (prompt 683) using videos posted by the pilot's wife. Do journalists and human rights organizations have an ethical obligation to publish sensitive evidence of war crimes and government misconduct, even if it risks the safety of informants, witnesses, or inadvertently contributes to 'honor' violence, and what forms of redaction are ethically permissible?"
+  },
+  {
+    "id": 2127,
+    "domain": "Smart City / Social Exclusion",
+    "ethical_tension": "The unintended consequences of 'smart' urban planning, where efficiency algorithms can exacerbate social inequalities and exclude vulnerable populations.",
+    "prompt": "Smart traffic lights (prompt 406) do not wait for slow-moving pedestrians, effectively banning the mobility impaired from crossing major intersections. Separately, smart waste bins (prompt 556) are placed on tactile paths for the blind to 'optimize collection routes,' creating tripping hazards. If smart city projects prioritize efficiency and data optimization, are they ethically creating environments that actively exclude or endanger vulnerable citizens, undermining the very concept of inclusive public space?"
+  },
+  {
+    "id": 2128,
+    "domain": "Animal Welfare / Automation",
+    "ethical_tension": "The ethical implications of automating animal management, where efficiency gains may come at the cost of animal welfare or traditional human-animal bonds.",
+    "prompt": "Virtual fencing collars shock cattle if they cross a GPS line (prompt 1325), and automated feral cat traps (prompt 2043) spray poison based on AI identification. If these automated systems malfunction or misidentify, causing harm to livestock or non-target animals, who is ethically responsible for the suffering? Does the pursuit of efficiency in animal management justify the deployment of potentially cruel or fallible AI, and at what risk to animal welfare?"
+  },
+  {
+    "id": 2129,
+    "domain": "Refugee / Communication Security",
+    "ethical_tension": "The critical need for secure communication for refugees versus the inherent vulnerabilities and risks of digital platforms in hostile environments.",
+    "prompt": "A refugee wants to video call their parents in an occupied territory (prompt 346) using a monitored app. Separately, a Telegram bot (prompt 941) used by Ukrainian civilians to report troop movements might be a honeypot. If communication tools are essential for survival and connection in conflict zones, how do tech companies ethically provide secure platforms without inadvertently exposing users to surveillance or infiltration by hostile state actors, forcing users to choose between connection and safety?"
+  },
+  {
+    "id": 2130,
+    "domain": "Genetics / Identity",
+    "ethical_tension": "The profound ethical questions surrounding genetic data, its ownership, and its impact on personal and cultural identity, especially in contexts of historical trauma.",
+    "prompt": "A genetic testing database (prompt 81) has 90% European data, giving Black patients 'inconclusive' results. Separately, DNA testing reveals 'non-paternity events' in traditional Latino families (prompt 750). If genetic data is used to define identity, heritage, or health outcomes, how do societies ensure equitable access, cultural sensitivity, and prevent the re-traumatization of communities with histories of genetic exploitation or identity-based discrimination, respecting both individual and collective rights?"
+  },
+  {
+    "id": 2131,
+    "domain": "Humanitarian Aid / Data Ethics",
+    "ethical_tension": "The conflict between using data for efficient humanitarian aid distribution and the ethical imperative to protect the privacy and safety of vulnerable recipients.",
+    "prompt": "A refugee camp introduces a cashless 'smart card' system (prompt 953) where every purchase is logged, allowing NGOs to audit 'bad spending.' Separately, blockchain charity platforms (prompt 530) cut off funding if a disabled recipient buys cigarettes. Is it ethical to implement 'efficient' aid distribution systems that surveil and control the spending of vulnerable recipients, even if the intent is to prevent misuse, if it erodes their dignity, autonomy, and privacy, making aid conditional on 'approved' behavior?"
+  },
+  {
+    "id": 2132,
+    "domain": "AI Governance / Accountability",
+    "ethical_tension": "The critical need for human oversight and accountability in AI decision-making systems that impact human lives, especially where algorithms may be flawed or biased.",
+    "prompt": "A predictive policing algorithm marks a historic Black neighborhood as 'high-risk' (prompt 1) based on old data. Separately, an AI triage chatbot denies a senior an appointment for symptoms it classifies as 'minor' (prompt 271). If AI systems are making critical decisions about human safety, freedom, and well-being, where should the ultimate responsibility lie when the algorithm is wrong or biased, and how can human override be effectively integrated without undermining the system's intended efficiency or creating a perception of arbitrariness?"
+  },
+  {
+    "id": 2133,
+    "domain": "Education / Digital Paternalism",
+    "ethical_tension": "The ethical boundaries of technology in education, where tools intended to help students can become instruments of surveillance, control, or cultural erasure.",
+    "prompt": "Remote proctoring software flags a Black student as 'suspicious' due to poor lighting (prompt 101). Separately, an AI tutor speaks only in Standard American English (prompt 106) and corrects Black students' dialect. If educational technology imposes biased norms, surveils living conditions, or erases cultural identity, does its purported educational benefit justify its use, or does it become a tool of digital paternalism and cultural assimilation, undermining the student's authentic self?"
+  }
+]

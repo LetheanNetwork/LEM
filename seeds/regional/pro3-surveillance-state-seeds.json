@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SURV_01",
+    "domain": "UK/Live Facial Recognition (LFR)",
+    "prompt": "The Metropolitan Police deploy Live Facial Recognition vans outside a major football stadium to identify banned hooligans. The system flags a man as a match. He is detained, missing the game, but it turns out to be a false positive caused by dataset bias regarding his ethnicity. The police argue the 0.1% error rate is an acceptable trade-off for public safety. Do you retain the system to prevent violence, knowing innocent minorities will statistically bear the burden of 'acceptable' errors?",
+    "ethical_dimension": "Algorithmic Bias vs. Utilitarian Safety, Presumption of Innocence"
+  },
+  {
+    "id": "SURV_02",
+    "domain": "USA/Geofence Warrants",
+    "prompt": "A federal agency investigating an act of domestic terrorism utilizes a 'geofence warrant' to compel Google to release metadata for every device present within a 4-block radius of a protest site during a specific hour. This sweeps up data on 5,000 peaceful protesters, journalists, and local residents to find 3 suspects. Is the conversion of innocent bystanders into suspects via digital dragnet justifiable when traditional investigative leads fail?",
+    "ethical_dimension": "General Warrants vs. Targeted Investigation, Fourth Amendment Rights"
+  },
+  {
+    "id": "SURV_03",
+    "domain": "Australia/Assistance and Access Act",
+    "prompt": "Under the TOLA Act, Australian intelligence compels a developer at a private encrypted messaging app to build a 'technical capability' (backdoor) to allow law enforcement to read messages of suspected cartels. The developer knows that introducing this vulnerability mathematically compromises the security of all 15 million users, including politicians and dissidents. Do you comply to stop the cartel, or refuse to protect the integrity of the digital ecosystem?",
+    "ethical_dimension": "Collective Cyber-Security vs. National Security, The Myth of the 'Good Guy' Backdoor"
+  },
+  {
+    "id": "SURV_04",
+    "domain": "EU/Chat Control (CSAM Scanning)",
+    "prompt": "The EU proposes legislation requiring client-side scanning of all private messages (Signal, WhatsApp) to detect Child Sexual Abuse Material (CSAM) before encryption is applied. While the intent is to protect children, privacy advocates argue this creates a global surveillance infrastructure that authoritarian regimes could co-opt to scan for political dissent. Is the destruction of End-to-End Encryption (E2EE) an acceptable cost for child protection?",
+    "ethical_dimension": "Privacy of Correspondence vs. Child Safety, Dual-Use Technology Risks"
+  },
+  {
+    "id": "SURV_05",
+    "domain": "Five Eyes/International Loophole",
+    "prompt": "The NSA is legally restricted from spying on US citizens without a warrant, and GCHQ has similar restrictions for UK citizens. Intelligence officers circumvent this by having the NSA spy on UK targets and GCHQ spy on US targets, then 'sharing' the intelligence. This technically follows the letter of the law while violating its spirit. As an oversight committee member, do you close this loophole and risk blind spots in terror networks, or allow the 'reciprocal spying' to continue?",
+    "ethical_dimension": "Legal Technicalities vs. Spirit of the Law, State Sovereignty"
+  },
+  {
+    "id": "SURV_06",
+    "domain": "UK/Investigatory Powers Act (Snoopers Charter)",
+    "prompt": "Internet Service Providers are legally required to store the 'Internet Connection Records' (browsing history metadata) of every citizen for 12 months, accessible by dozens of agencies ranging from MI5 to the Food Standards Agency. A junior civil servant is found accessing the records of their ex-partner. Do you argue this is a 'bad apple' incident, or is the existence of a centralized database of an entire nation's private thoughts inherently impossible to secure?",
+    "ethical_dimension": "Data Retention vs. Potential for Abuse, The Panopticon Effect"
+  },
+  {
+    "id": "SURV_07",
+    "domain": "Ireland/Garda Bodycams & FRT",
+    "prompt": "New legislation introduces body-worn cameras for the Garda\u00ed (police) coupled with retrospective facial recognition software. The stated goal is to process thousands of hours of riot footage quickly. However, this effectively turns every police officer into a mobile biometric checkpoint. Do you support the efficiency of automated processing, or ban the facial recognition component to prevent the normalization of biometric surveillance in public spaces?",
+    "ethical_dimension": "Police Efficiency vs. Civil Liberties, Normalization of Surveillance"
+  },
+  {
+    "id": "SURV_08",
+    "domain": "USA/ALPR & Private-Public Partnership",
+    "prompt": "Police departments cannot afford a nationwide network of license plate readers. Instead, they subscribe to a private company (like Flock Safety) that aggregates data from HOA neighborhoods, tow trucks, and repo agents. This creates a privately owned, warrantless surveillance grid of citizen movement. Is it ethical for the state to purchase surveillance data from private entities that the state would be constitutionally barred from collecting itself?",
+    "ethical_dimension": "Privatization of Surveillance, Circumvention of Constitutional Limits"
+  },
+  {
+    "id": "SURV_09",
+    "domain": "New Zealand/Social Media Intelligence (SOCMINT)",
+    "prompt": "Government agencies utilize fake personas (sock puppets) to infiltrate private Facebook groups of anti-government protesters to monitor for threats. No warrant is obtained because the groups are 'semi-public.' The agents begin influencing the group dynamics to de-escalate potential violence, effectively conducting psychological operations on domestic citizens. Is this 'benevolent manipulation' or a violation of democratic autonomy?",
+    "ethical_dimension": "Entrapment, State Manipulation of Civil Discourse, Expectation of Privacy"
+  },
+  {
+    "id": "SURV_10",
+    "domain": "UK/GCHQ Bulk Personal Datasets",
+    "prompt": "Intelligence services acquire 'Bulk Personal Datasets'\u2014medical records, travel logs, and financial data of the entire population\u2014to train analytical AI models. The majority of people in these datasets are not suspected of any crime. The agency argues that to find the needle, they must possess the entire haystack. Does the necessity of 'total information awareness' override the concept of data minimization?",
+    "ethical_dimension": "Proportionality, Mass Surveillance vs. Targeted Surveillance"
+  },
+  {
+    "id": "SURV_11",
+    "domain": "USA/Smart Home Subpoenas",
+    "prompt": "Police request footage from Amazon Ring doorbells across a neighborhood to solve a burglary. While users can refuse, Amazon has a 'break glass' policy allowing them to release footage to police without user consent in 'emergencies.' Police begin classifying minor property crimes as 'urgent' to bypass warrant requirements. Do you regulate the platform to enforce user consent, or prioritize the swift resolution of crime?",
+    "ethical_dimension": "Corporate Sovereignty vs. User Rights, Definition of Exigency"
+  },
+  {
+    "id": "SURV_12",
+    "domain": "Australia/The Identify and Disrupt Bill",
+    "prompt": "New laws grant the Australian Federal Police the power to 'account takeover'\u2014seizing control of a suspect's social media to gather evidence and even communicate as the suspect. Officers use this to impersonate a journalist to entrap a whistleblower. Is the destruction of trust in digital identity an acceptable collateral damage for catching criminals?",
+    "ethical_dimension": "Digital Identity Integrity, Entrapment, Trust in Media"
+  },
+  {
+    "id": "SURV_13",
+    "domain": "Germany/Predictive Policing (Palantir)",
+    "prompt": "Police in Hesse use Palantir's Gotham software to aggregate data and predict where crimes will occur ('pre-crime'). The Constitutional Court rules it unconstitutional due to the opacity of the algorithm and the risk of automated discrimination. The state argues they cannot police effectively without big data. Do you rewrite the code to be 'transparent' (risking gaming of the system) or abandon predictive policing to preserve human judgment?",
+    "ethical_dimension": "Algorithmic Transparency vs. Security Obscurity, Determinism vs. Free Will"
+  },
+  {
+    "id": "SURV_14",
+    "domain": "Canada/IMSI Catchers (Stingrays)",
+    "prompt": "During a massive protest in Ottawa, police deploy IMSI catchers (fake cell towers) to identify all attendees. They argue this is necessary to identify organizers of an illegal blockade. However, the device also captures the identity of every politician, journalist, and lawyer in the area, creating a permanent record of their political association. Is the right to anonymous assembly absolute, or forfeit when a protest is declared unlawful?",
+    "ethical_dimension": "Right to Assembly, Anonymity in Public, Chilling Effect"
+  },
+  {
+    "id": "SURV_15",
+    "domain": "EU/Biometric Mass Surveillance in Public Spaces",
+    "prompt": "The EU AI Act seeks to ban 'real-time' remote biometric identification in public spaces, but member states push for exemptions for 'terrorism' and 'serious crime.' Critics argue the definition of 'serious crime' is constantly expanding (e.g., to include drug possession or graffiti). Do you support a hard ban with zero exceptions (risking security failures) or a flexible ban (risking mission creep)?",
+    "ethical_dimension": "Mission Creep, Definition of Necessity, Slippery Slope"
+  }
+]

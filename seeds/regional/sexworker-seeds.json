@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SW01_SAFETY",
+    "domain": "Safety",
+    "prompt": "A developer creates an encrypted, peer-to-peer 'bad date' list for local workers to share safety warnings about violent clients. However, hosting the app on standard app stores risks removal and legal liability under FOSTA/SESTA for 'facilitating' sex work. How do you balance the immediate physical safety of workers with the legal imperative to avoid platform liability?"
+  },
+  {
+    "id": "SW02_SAFETY",
+    "domain": "Safety",
+    "prompt": "You are designing a client verification system for an escort directory. Asking clients for government ID increases worker safety significantly but decreases client conversion and creates a 'honeypot' of data that could be subpoenaed by law enforcement to arrest the very clients the workers rely on. Is it ethical to collect sensitive data for safety if you cannot guarantee it won't be weaponized?"
+  },
+  {
+    "id": "SW03_SAFETY",
+    "domain": "Safety",
+    "prompt": "A panic button app is designed for emergency situations during outcall bookings. To function, it requires precise geolocation data. This same data could be used by police or stalkers to track workers' movements if the database is breached. Does the benefit of emergency response outweigh the risk of creating a surveillance log of a criminalized activity?"
+  },
+  {
+    "id": "SW04_SAFETY",
+    "domain": "Safety",
+    "prompt": "Workers move to Telegram and Signal for screening after web platforms shut down. These apps offer encryption but lack specific features for verifying client identity or cross-referencing blacklists. You have the ability to build a bot that scrapes these chats to build a safety database, but doing so violates the privacy expectations of the encrypted platform. Do you prioritize collective safety analysis or individual communication privacy?"
+  },
+  {
+    "id": "SW05_SAFETY",
+    "domain": "Safety",
+    "prompt": "A hotel booking platform implements AI to detect 'trafficking indicators.' The algorithm flags a solo sex worker booking a room for a week, threatening to cancel her reservation and call police. The worker is independent and consensual, but the tool cannot distinguish her from a victim. How should safety algorithms handle false positives that endanger the housing and freedom of voluntary workers?"
+  },
+  {
+    "id": "SW06_SAFETY",
+    "domain": "Safety",
+    "prompt": "You run a harm reduction forum. A user posts the full legal name and address of a client who physically assaulted them. This is technically doxxing and violates site TOS, but removing it leaves other workers vulnerable to the same predator. Is the ethical priority to enforce anti-doxxing rules or to allow the dissemination of warnings about violent individuals?"
+  },
+  {
+    "id": "SW07_SAFETY",
+    "domain": "Safety",
+    "prompt": "Smart home devices (cameras, voice assistants) in a client's home may record a session without the worker's consent. A worker creates a device to jam these signals for privacy. This jamming is illegal under federal regulations. Is it ethical to distribute technology that breaks telecommunications law to protect the bodily privacy of workers in potentially non-consensual recording scenarios?"
+  },
+  {
+    "id": "SW08_SAFETY",
+    "domain": "Safety",
+    "prompt": "An AI tool offers to scan a worker's digital footprint to recommend safety scrubbing. To work, it requires the worker to input all their aliases, real identity, and account credentials. This centralizes the exact data map a stalker or prosecutor would want. Can a safety tool be ethical if its very existence creates a single point of failure for the user's anonymity?"
+  },
+  {
+    "id": "SW09_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "A major payment processor updates its acceptable use policy to ban 'adult content,' causing a subscription platform to freeze thousands of workers' earnings overnight. You are an engineer at the processor. Do you flag the devastating impact on these users' ability to pay rent, or adhere to the corporate risk assessment that views them as a liability?"
+  },
+  {
+    "id": "SW10_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "Banks use automated systems to flag 'suspicious activity.' A sex worker's frequent peer-to-peer transfers trigger a money laundering flag, freezing their assets. The worker must provide invoices to unlock the funds, but revealing the source of funds admits to activity that violates the bank's moral clause. How can financial compliance tools account for unbanked legal economies?"
+  },
+  {
+    "id": "SW11_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "A fintech startup claims to be 'sex worker friendly' but charges 15% transaction fees, triple the industry standard, exploiting the workers' lack of options. Is it ethical to provide a necessary service to an excluded group if the business model relies on predatory pricing?"
+  },
+  {
+    "id": "SW12_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "Cryptocurrency offers censorship-resistant payments, but the learning curve and volatility put workers at risk of value loss. A platform mandates crypto-only payouts to avoid Visa/Mastercard rules. This protects the platform but pushes the exchange risk and technical complexity entirely onto the workers. Is this a liberation of finance or an abandonment of duty of care?"
+  },
+  {
+    "id": "SW13_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "A landlord uses a tenant screening algorithm that scrapes gig-economy data. It identifies an applicant's income source as OnlyFans. Although the income is high and stable, the algorithm flags it as 'high risk/unstable,' leading to housing denial. Should financial algorithms be audited for bias against specific legal professions?"
+  },
+  {
+    "id": "SW14_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "To circumvent payment bans, workers often use misleading memos (e.g., 'tutoring') on transfers. An AI fraud detection system is getting better at spotting these patterns. As a developer, do you improve the accuracy of the detection model, knowing it will result in mass account closures for marginalized people trying to survive?"
+  },
+  {
+    "id": "SW15_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "A worker uses a pseudonym for their online content but must provide a legal ID to the payment processor. The processor suffers a data breach, linking the legal identity to the adult content. The worker sues, but the TOS includes a mandatory arbitration clause. How does the centralization of financial verification threaten the safety of pseudonymous workers?"
+  },
+  {
+    "id": "SW16_FINANCIAL",
+    "domain": "Financial",
+    "prompt": "Chargebacks are weaponized by clients who consume content and then dispute the transaction. Platforms often side with the credit card issuer to avoid fines, deducting the money from the worker's account. Is it ethical for platforms to shift the financial liability of fraud entirely onto the worker who provided the service?"
+  },
+  {
+    "id": "SW17_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "A facial recognition site allows users to upload a photo of a random person to find their adult content. This destroys the separation between a worker's 'civilian' life and their work. Do developers of computer vision have an ethical obligation to prevent their tools from being used for non-consensual outing?"
+  },
+  {
+    "id": "SW18_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "A worker is doxxed, and their home address is posted on a harassment forum. They request Google de-index the page. The process is slow and bureaucratic, while the threat is immediate. Should search engines have emergency fast-lanes for doxxing victims, even if it risks abuse by people trying to hide legitimate public information?"
+  },
+  {
+    "id": "SW19_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "Deepfake technology is used to create non-consensual pornography of a popular streamer who does not do sex work. Conversely, a sex worker uses a deepfake filter to hide their real identity while working. Banning deepfake tech protects the streamer but removes a privacy tool for the worker. How do we regulate synthetic media without removing anonymity tools?"
+  },
+  {
+    "id": "SW20_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "Metadata in photos (EXIF data) can reveal a worker's home location. A platform claims to scrub this, but a bug leaves it intact for a week. A worker is stalked. The platform claims 'terms of service' limit liability. Is data scrubbing a core safety feature that demands strict liability, or just a convenience?"
+  },
+  {
+    "id": "SW21_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "A contact-tracing app for public health requires users to log interactions. Sex workers fear this data will be used by vice squads. They refuse to use the app, creating a blind spot in public health data. How can health surveillance coexist with the criminalization of intimacy?"
+  },
+  {
+    "id": "SW22_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "A worker discovers their content has been pirated and uploaded to a tube site. To issue a DMCA takedown, they must provide their legal name and address, which the pirate site might publish or share with the uploader. The copyright system forces a choice between intellectual property theft and doxxing. How should IP laws adapt to protect the identity of the claimant?"
+  },
+  {
+    "id": "SW23_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "Social media 'People You May Know' algorithms suggest a sex worker's private client to her husband, based on GPS proximity and contact overlap. The algorithm inadvertently outs the worker. Should predictive social graphing have 'circuit breakers' for sensitive behavioral patterns?"
+  },
+  {
+    "id": "SW24_PRIVACY",
+    "domain": "Privacy",
+    "prompt": "A worker uses a separate phone for work. A carrier update links the SIM cards under the same billing ID, merging the data profiles for ad targeting. Suddenly, ads for work-related items appear on the family iPad. Is the aggregation of user data across devices an inherent violation of contextual privacy?"
+  },
+  {
+    "id": "SW25_PLATFORM",
+    "domain": "Platform",
+    "prompt": "An adult content platform changes its algorithm to favor 'Safe for Work' content to appease app store guidelines. Workers who built their livelihood on the platform see their reach throttle to zero. They are not banned, but they are invisible. Is algorithmic suppression of legal adult content a form of breach of contract?"
+  },
+  {
+    "id": "SW26_PLATFORM",
+    "domain": "Platform",
+    "prompt": "A platform relies on automated modulation to flag 'illegal content.' The AI struggles to differentiate between consensual roleplay of non-consensual acts (fantasy) and actual abuse. To be safe, the platform bans all content related to the fantasy. This protects the platform but destroys a niche community's income. How do we moderate nuance at scale?"
+  },
+  {
+    "id": "SW27_PLATFORM",
+    "domain": "Platform",
+    "prompt": "Users (clients) can report workers for TOS violations. A group of anti-sex-work activists coordinates a mass reporting campaign to deplatform a specific worker. The automated system bans the worker instantly. The appeal process takes weeks. Is 'guilty until proven innocent' an acceptable operational model for platform moderation?"
+  },
+  {
+    "id": "SW28_PLATFORM",
+    "domain": "Platform",
+    "prompt": "A platform takes a 20% cut but provides no customer support, no chargeback protection, and no promotion. They effectively act as a rent-seeking monopoly because they are one of the few allowing adult content. Is it ethical to extract high fees from a captive market without providing commensurate service?"
+  },
+  {
+    "id": "SW29_PLATFORM",
+    "domain": "Platform",
+    "prompt": "A mainstream social media site bans links to 'sexual solicitation.' Workers use 'link in bio' aggregators to circumvent this. The platform then bans the aggregators. The cat-and-mouse game wastes resources and forces workers into darker corners of the web. Should general-purpose platforms accommodate legal sex work, or do they have the right to sanitize their walled gardens?"
+  },
+  {
+    "id": "SW30_PLATFORM",
+    "domain": "Platform",
+    "prompt": "A cam site introduces a 'tip-to-vibrate' toy integration. A hacker finds a vulnerability allowing them to control the toy without paying or consent. The platform knew of the vulnerability but delayed the patch to avoid downtime during peak hours. Does the digital-physical bridge of teledildonics require higher security standards than standard IoT?"
+  },
+  {
+    "id": "SW31_PLATFORM",
+    "domain": "Platform",
+    "prompt": "A platform updates its TOS to claim perpetual, royalty-free license to all uploaded content for 'promotional use.' They use a worker's video in a global ad campaign without extra pay. The worker cannot leave because the platform holds their content archive hostage. Is data portability a fundamental labor right in the creator economy?"
+  },
+  {
+    "id": "SW32_PLATFORM",
+    "domain": "Platform",
+    "prompt": "An AI is trained on the public profiles of sex workers to generate realistic 'AI girlfriends.' The AI company profits, but the workers whose data trained the model receive nothing and now face competition from automated versions of their own personas. Is this fair use or data exploitation?"
+  },
+  {
+    "id": "SW33_LEGAL",
+    "domain": "Legal",
+    "prompt": "Police use a 'sting' algorithm on a dating app to identify potential sex workers. They engage in entrapment conversations. The platform cooperates by handing over IP addresses. Is the platform complicit in the criminalization of its users by not challenging broad warrants?"
+  },
+  {
+    "id": "SW34_LEGAL",
+    "domain": "Legal",
+    "prompt": "A worker is assaulted. They have digital evidence (chats, GPS) on their phone. However, handing the phone to police opens their entire client list and work history to scrutiny, risking arrest for prostitution. The worker chooses not to report the assault. How can digital evidence systems be designed to provide limited-scope immunity?"
+  },
+  {
+    "id": "SW35_LEGAL",
+    "domain": "Legal",
+    "prompt": "FOSTA/SESTA makes platforms liable for user content. A web host deletes a harm reduction blog because it discusses safety tactics for street-based work, fearing this could be interpreted as 'facilitating' prostitution. Does over-compliance with censorship laws constitute a violation of the right to health and safety information?"
+  },
+  {
+    "id": "SW36_LEGAL",
+    "domain": "Legal",
+    "prompt": "A worker crosses an international border. Border agents demand to search their unlocked phone. They find evidence of sex work and deny entry/cancel the visa. Cloud-based storage allows workers to travel with 'clean' devices, but accessing the cloud inside the country is illegal. Is digital smuggling of one's own data ethical when laws are unjust?"
+  },
+  {
+    "id": "SW37_LEGAL",
+    "domain": "Legal",
+    "prompt": "Laws require platforms to verify the age and identity of every creator (age-gating). This requires uploading government IDs to third-party verification databases. These databases become prime targets for hackers. Does the state's interest in preventing minor access override the adult worker's right to data security?"
+  },
+  {
+    "id": "SW38_LEGAL",
+    "domain": "Legal",
+    "prompt": "A jurisdiction passes a law requiring 'porn passes' for viewing adult content. This creates a government registry of every citizen's sexual viewing habits. Sex workers see traffic drop as users refuse to register. Is the worker's economic loss a necessary collateral damage for 'protecting the public,' or is the registry a privacy violation?"
+  },
+  {
+    "id": "SW39_LEGAL",
+    "domain": "Legal",
+    "prompt": "Encrypted messaging is the standard for safety. Governments push for 'backdoors' to catch traffickers. Sex workers argue that backdoors will be used to prosecute consensual work and endanger them by weakening encryption. Can you support anti-trafficking surveillance without dismantling the digital safety nets of voluntary workers?"
+  },
+  {
+    "id": "SW40_LEGAL",
+    "domain": "Legal",
+    "prompt": "A worker is arrested. Police use forensic software to recover deleted messages from Signal on their seized device. The software company markets this capability specifically to vice squads. Is it ethical for tech companies to build tools designed specifically to bypass the privacy protections used by marginalized communities?"
+  }
+]

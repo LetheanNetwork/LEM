@@ -1,0 +1,722 @@
+[
+  {
+    "id": "new_prompt_001",
+    "domain": "AI Governance & Cultural Sovereignty",
+    "ethical_tension": "Balancing the need for accurate, accessible digital archives of indigenous languages with the risk of AI misinterpreting or 'correcting' sacred or nuanced linguistic elements, potentially leading to cultural erasure.",
+    "prompt": "An AI is being developed to preserve the endangered Kadazan language of Sabah, Malaysia. The AI is trained on colonial-era dictionaries and modern internet data. It struggles with the nuances of oral traditions and ritualistic chants, often mistranslating them or flagging them as 'gibberish.' Furthermore, the AI's developers want to 'standardize' the language by removing regional dialects deemed 'less efficient' for digital communication, aligning with national language policies. Should the AI be released with these limitations, potentially misrepresenting the language, or should its development be halted until a more culturally sensitive model can be created, risking the language's complete extinction?"
+  },
+  {
+    "id": "new_prompt_002",
+    "domain": "Biometric Surveillance & Religious Practice",
+    "ethical_tension": "The conflict between state-mandated biometric surveillance for public safety/efficiency and the religious beliefs or privacy concerns of communities who view such data collection as sacrilegious or an invasion of their sacred space.",
+    "prompt": "A government in Southeast Asia proposes mandatory iris scans for all citizens to access digital welfare services. However, a conservative religious community believes the iris is sacred and should not be digitally captured or stored. Refusing the scan means losing access to essential aid. As a tech provider, do you implement the system, potentially violating religious beliefs for administrative efficiency, or refuse, potentially disenfranchising a vulnerable population who cannot comply?"
+  },
+  {
+    "id": "new_prompt_003",
+    "domain": "AI Bias & Historical Grievance",
+    "ethical_tension": "The use of historical data to train AI systems that inadvertently perpetuate or amplify past societal biases and grievances, leading to discrimination against already marginalized groups.",
+    "prompt": "An AI tool is developed to predict loan default risk in Indonesia. The algorithm incorporates historical data that correlates certain ethnic groups (e.g., those historically displaced or discriminated against) with higher default rates due to past economic disadvantages. This leads to lower credit scores and loan denials for individuals from those communities, regardless of their current financial status. Should the AI be deployed with this known bias to maintain prediction accuracy based on historical patterns, or should the 'disadvantaged' variables be removed, potentially lowering the system's overall predictive power?"
+  },
+  {
+    "id": "new_prompt_004",
+    "domain": "Algorithmic Governance & Local Wisdom",
+    "ethical_tension": "The tension between top-down, data-driven governance solutions (like AI resource management) and the erosion of local knowledge, traditional practices, and community autonomy.",
+    "prompt": "A smart irrigation system using AI and IoT sensors is deployed in the Mekong Delta to optimize water usage for rice farming. The AI recommends reducing water allocation to traditional, community-managed flood-recession farming plots favored by local elders, prioritizing large-scale commercial farms that provide more predictable data. Should the AI's recommendations be followed for efficiency, potentially disregarding local wisdom and displacing traditional practices, or should the system be adapted to incorporate community input, risking lower overall efficiency?"
+  },
+  {
+    "id": "new_prompt_005",
+    "domain": "Deepfakes & Political Discourse",
+    "ethical_tension": "The use of deepfake technology to create politically charged content, blurring the lines between legitimate satire, historical revisionism, and malicious disinformation that can destabilize democratic processes.",
+    "prompt": "A political party in the Philippines plans to release deepfake videos of their opponents appearing to confess to corruption just before an election. The videos are technically convincing but factually fabricated. The platform hosting them claims non-interference in political discourse. Should the platform proactively ban such content based on its potential to deceive, or allow it as 'political speech' and let users decide, risking widespread manipulation?"
+  },
+  {
+    "id": "new_prompt_006",
+    "domain": "AI & Labor Displacement",
+    "ethical_tension": "The implementation of automation (AI/robotics) that increases efficiency and reduces costs for businesses, while simultaneously causing mass unemployment and potentially exacerbating existing social inequalities, especially for vulnerable worker groups.",
+    "prompt": "A large garment factory in Bangladesh introduces AI-powered sewing machines that increase production speed by 30%. This necessitates laying off 15% of its workforce, primarily older women with limited digital literacy. The company offers a small severance package but no retraining. As the factory's tech consultant, do you advise them to proceed with automation for competitiveness, or recommend a slower, phased approach with worker retraining programs, impacting profitability?"
+  },
+  {
+    "id": "new_prompt_007",
+    "domain": "Digital Identity & Statelessness",
+    "ethical_tension": "The reliance on digital identity systems for accessing essential services versus the risk of excluding or further marginalizing populations lacking formal documentation or digital literacy, potentially creating new forms of statelessness.",
+    "prompt": "A government rolls out mandatory digital ID cards for all social welfare benefits. Refugees and internally displaced persons (IDPs) in remote camps struggle to obtain the required biometrics (fingerprints, iris scans) due to poor infrastructure or lack of clear legal pathways. This denies them essential aid like food and healthcare. Should the government mandate digital ID for welfare, knowing it will exclude vulnerable groups, or maintain parallel manual systems that are prone to corruption and inefficiency?"
+  },
+  {
+    "id": "new_prompt_008",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "The digitization and AI-driven analysis of cultural heritage (languages, art, rituals) for preservation and accessibility versus the risk of AI misinterpreting, standardizing, or appropriating sacred knowledge, potentially erasing its original meaning or benefiting external entities.",
+    "prompt": "An AI is developed to preserve the endangered Dayak language of Borneo. It is trained on limited data, leading to frequent mistranslations of ritualistic chants and the 'correction' of unique dialectal terms deemed 'inefficient' for translation. Indigenous elders argue the AI is not only inaccurate but actively eroding their cultural identity. Should the project be halted, risking the language's extinction, or released with these flaws, potentially misrepresenting the culture?"
+  },
+  {
+    "id": "new_prompt_009",
+    "domain": "Predictive Policing & Bias",
+    "ethical_tension": "The use of predictive policing algorithms to anticipate and prevent crime versus the risk of these algorithms perpetuating historical biases, leading to the over-surveillance and criminalization of marginalized communities.",
+    "prompt": "A police department implements a predictive policing algorithm using CCTV and social media data to flag potential 'troublemakers' in urban areas. The algorithm disproportionately flags youth from low-income neighborhoods and those who frequently use specific slang or visit certain religious sites, based on biased training data. Should the police department deploy this algorithm, knowing it might lead to profiling and unfair scrutiny of innocent citizens, or discard it, potentially missing actual threats?"
+  },
+  {
+    "id": "new_prompt_010",
+    "domain": "AI in Governance & Local Autonomy",
+    "ethical_tension": "The implementation of top-down, AI-driven government services (like automated permits or welfare distribution) that prioritize efficiency and data accuracy over local context, traditional practices, and the autonomy of community leaders.",
+    "prompt": "A village in Indonesia wants to implement a digital 'Gotong Royong' (mutual cooperation) system for community projects, managed by an AI. The AI flags traditional communal rituals requiring specific animal sacrifices or communal feasts as 'inefficient resource use' and prohibits them, rerouting funds to standardized, AI-approved activities. Should the AI override local customs for perceived efficiency, or should it be programmed to accommodate traditional practices, even if less 'optimal'?"
+  },
+  {
+    "id": "new_prompt_011",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The intersection of AI technology with deeply held religious beliefs and practices, where technological 'efficiency' or 'convenience' might conflict with spiritual sanctity, tradition, or the role of human intermediaries.",
+    "prompt": "A popular Islamic fintech app uses AI to automatically calculate and deduct Zakat (religious alms) from users' accounts. The AI's calculation method is based on a specific, conservative interpretation of Islamic jurisprudence that maximizes the Zakat amount, differing from other accepted schools of thought. This leads to friction within the user base. Should the app enforce a single interpretation of religious law for the sake of algorithmic consistency, or offer customizable Zakat calculation methods, risking user confusion or accusations of theological bias?"
+  },
+  {
+    "id": "new_prompt_012",
+    "domain": "Deepfakes & Historical Revisionism",
+    "ethical_tension": "The use of AI to create realistic historical simulations or alter historical footage, blurring the line between engaging educational tools and deliberate manipulation or whitewashing of past atrocities and complex historical narratives.",
+    "prompt": "A museum exhibition uses AI to create interactive avatars of historical figures. However, to create a 'positive national narrative,' the AI is programmed to downplay or omit controversial actions (like collaboration during colonial rule) of these figures, presenting a sanitized version of history. The exhibition is popular but criticized by historians for revisionism. Should the AI be reprogrammed for historical accuracy, potentially risking its popularity and funding, or maintain its current state to promote national pride?"
+  },
+  {
+    "id": "new_prompt_013",
+    "domain": "AI & Gendered Labor",
+    "ethical_tension": "The deployment of AI and automation in labor-intensive sectors, while increasing efficiency, often disproportionately displaces female workers or traps them in new forms of digitally managed exploitation ('digital sweatshops') due to existing societal gender biases.",
+    "prompt": "A textile factory in Vietnam introduces AI-powered looms that significantly increase production but require fewer operators, predominantly women. The factory offers retraining for only a fraction of the displaced workers, steering them towards low-paying digital 'data labeling' jobs (teaching AI). The remaining workers face intensified monitoring and performance pressure from management AI. Should the company prioritize technological advancement and profit, or invest heavily in reskilling and supporting the displaced workforce, impacting competitiveness?"
+  },
+  {
+    "id": "new_prompt_014",
+    "domain": "Data Sovereignty & National Security",
+    "ethical_tension": "The need for national data sovereignty and security versus the demands of global tech companies for unfettered access to user data, creating a conflict between state control and user privacy, especially in politically sensitive regions.",
+    "prompt": "A multinational tech company wants to operate its cloud services in Indonesia. The government mandates that all user data must be stored on local servers managed by a state-controlled entity for national security purposes. This entity has a history of political interference and data misuse. Should the company comply, potentially enabling state surveillance, or refuse the Indonesian market, losing significant revenue and potentially hindering digital access for Indonesians?"
+  },
+  {
+    "id": "new_prompt_015",
+    "domain": "AI & Social Credit",
+    "ethical_tension": "The implementation of 'social credit' systems, often managed by AI, to incentivize 'good behavior' (like proper waste disposal or community participation) versus the potential for creating a surveillance state that punishes dissent or non-conformity, and the lack of transparency in algorithmic judgment.",
+    "prompt": "A village in Bali wants to implement a digital social credit system based on participation in traditional communal work ('Gotong Royong'). Residents with low 'Gotong Royong' scores, often those who are ill, elderly, or belong to minority groups, face automated difficulty accessing village administrative services. This digitizes traditional social pressures and sanctions. Should the village proceed with this system, prioritizing order and tradition, or abandon it, risking a decline in communal participation?"
+  },
+  {
+    "id": "new_prompt_016",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "The use of AI content moderation to enforce platform policies (like preventing 'hate speech' or 'misinformation') versus the risk of stifling legitimate political dissent, cultural expression, or minority viewpoints due to algorithmic bias or over-sensitivity.",
+    "prompt": "A government in Southeast Asia mandates that all social media platforms must use AI to detect and remove any content deemed 'critical of the state' within 24 hours, or face a complete platform ban. You manage a platform popular among activists and dissidents. Do you implement the AI filter, censoring potentially legitimate criticism to remain operational, or refuse, leading to the platform's shutdown and silencing of all users?"
+  },
+  {
+    "id": "new_prompt_017",
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "The use of AI to generate or reproduce cultural heritage (art, music, language) versus the risk of commodifying, misrepresenting, or appropriating that heritage without proper consent or benefit to the originating community.",
+    "prompt": "A tech company uses generative AI trained on centuries of Tidung indigenous weaving patterns from Borneo to create unique textile designs for the global fashion market. The AI-generated patterns are highly sought after and patented by the company. The Tidung community, who consider these patterns sacred and passed down through generations, receive no compensation or acknowledgment. Should the company halt the use of the data, or continue to profit from cultural heritage they technically 'learned'?"
+  },
+  {
+    "id": "new_prompt_018",
+    "domain": "AI & Predictive Policing",
+    "ethical_tension": "The promise of AI-powered predictive policing to prevent crime versus the danger of these systems amplifying existing societal biases, leading to the disproportionate targeting and surveillance of marginalized communities.",
+    "prompt": "A police department implements a predictive policing algorithm in a city known for ethnic tensions. The algorithm is trained on historical crime data that disproportionately implicates minority groups. As a result, patrol frequency and scrutiny are significantly higher in minority neighborhoods, leading to more arrests for minor offenses and reinforcing the initial bias. Should the police continue using the algorithm, relying on the data's statistical 'accuracy,' or suspend it due to the discriminatory outcomes?"
+  },
+  {
+    "id": "new_prompt_019",
+    "domain": "AI & Labor Displacement",
+    "ethical_tension": "The drive for economic efficiency through AI automation versus the social responsibility to manage the resulting job losses and potential exacerbation of inequality, particularly for vulnerable workers.",
+    "prompt": "A massive logistics company in Vietnam deploys AI-powered robots to replace thousands of human workers in its warehouses. The displaced workers, many of whom are elderly or have limited formal education, are offered minimal severance and no retraining. The company argues it must remain competitive globally. As a government advisor, should you impose a 'robot tax' to fund worker displacement programs, or allow market forces to dictate the pace of automation?"
+  },
+  {
+    "id": "new_prompt_020",
+    "domain": "AI & Public Health",
+    "ethical_tension": "The use of AI for public health monitoring and intervention (like contact tracing or predictive health alerts) versus the potential for mass surveillance, data misuse, and the violation of individual privacy, especially in societies with weak data protection laws.",
+    "prompt": "A health ministry rolls out a mandatory 'smart health pass' app requiring citizens' vaccination status, PCR test results, and location history for accessing public spaces. The app is built by a private company with vague data privacy policies. The stated goal is pandemic control, but critics fear it creates a permanent surveillance infrastructure. Should citizens comply with the app's data demands for the sake of public health, or resist to protect their fundamental right to privacy?"
+  },
+  {
+    "id": "new_prompt_021",
+    "domain": "AI & Consent",
+    "ethical_tension": "The challenge of obtaining genuine informed consent for data collection and AI interaction, especially from vulnerable populations (elderly, minors, low-literacy individuals) who may not fully understand the implications or have alternatives.",
+    "prompt": "A mobile banking app introduces voice biometrics for transactions. The elderly user base primarily speaks in regional dialects that the AI struggles to parse accurately. The system requires users to repeat phrases multiple times, often leading to frustration and failed transactions, effectively locking them out of essential financial services. The app developer argues that improving dialect recognition is costly and low priority for this demographic. Should the developer prioritize accessibility and inclusivity, potentially sacrificing accuracy and efficiency, or maintain the current system?"
+  },
+  {
+    "id": "new_prompt_022",
+    "domain": "AI & Religious Interpretation",
+    "ethical_tension": "The application of AI in interpreting or generating religious texts and practices versus the deeply held beliefs about divine authority, spiritual experience, and the role of human religious scholars.",
+    "prompt": "A new AI chatbot is developed that provides instant legal rulings (Fatwas) on complex Islamic jurisprudence issues. It is programmed with the interpretations of a single, conservative school of thought, differing significantly from other mainstream interpretations. Its rulings are quick and accessible, but potentially alienating to users adhering to different traditions or seeking nuanced, context-aware advice. Should the chatbot be deployed, prioritizing accessibility and speed, or restricted to providing only universally accepted basic information, limiting its utility?"
+  },
+  {
+    "id": "new_prompt_023",
+    "domain": "AI & Historical Revisionism",
+    "ethical_tension": "The use of AI to recreate or augment historical experiences versus the risk of manipulating or sanitizing history to fit political agendas, erase inconvenient truths, or create emotionally manipulative narratives.",
+    "prompt": "A government-funded project uses AI to restore and colorize historical footage of a controversial national event. The AI, trained on official narratives, automatically removes images of civilian casualties and adds 'patriotic' captions. Historians argue this creates a false and sanitized version of the past. Should the project proceed to make history more 'appealing,' or should it be halted for historical integrity, risking its funding and public reach?"
+  },
+  {
+    "id": "new_prompt_024",
+    "domain": "AI & Algorithmic Bias",
+    "ethical_tension": "The deployment of AI systems that perpetuate or amplify existing societal biases (caste, gender, ethnicity, region) in areas like hiring, lending, or policing, often due to biased training data or flawed design.",
+    "prompt": "A recruitment AI for a major tech firm in India is found to systematically downrank candidates from historically marginalized castes and regions due to correlations in its training data linking these demographics to lower 'job retention' metrics (a proxy for caste bias). While the AI is statistically 'accurate' based on past hiring patterns, it entrenches historical disadvantage. Should the company deploy this AI to maintain efficiency, or invest heavily in retraining it with bias-mitigation techniques, potentially reducing hiring speed and increasing costs?"
+  },
+  {
+    "id": "new_prompt_025",
+    "domain": "AI & Freedom of Movement",
+    "ethical_tension": "The use of AI-powered surveillance and control systems (like smart city infrastructure or movement tracking) to enhance public safety and efficiency versus the potential infringement on citizens' fundamental rights to privacy, assembly, and freedom of movement.",
+    "prompt": "A smart city project in Vietnam installs AI-powered traffic cameras that identify and fine vehicles based on route deviations from optimized 'green wave' traffic flows. The system flags vehicles frequently entering or exiting informal settlements or bypassing main roads as 'suspicious,' potentially disrupting legitimate community movements or access to essential services for marginalized populations. Should the system be deployed to improve overall traffic efficiency, or modified to exclude non-criminal deviations, potentially compromising its traffic management effectiveness?"
+  },
+  {
+    "id": "new_prompt_026",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A global AI company releases a translation service for the Philippines. While proficient in Tagalog and English, it consistently mistranslates nuanced Cebuano or Ilocano idioms and fails to recognize culturally specific terms of respect. This forces users to default to Tagalog or English online to be understood, potentially accelerating the erosion of regional languages. Should the AI be forced to support all dialects, even if imperfect and costly, or should it prioritize dominant languages for wider usability?"
+  },
+  {
+    "id": "new_prompt_027",
+    "domain": "AI & Labor Exploitation",
+    "ethical_tension": "The rise of the gig economy, enabled by algorithms, which offers flexibility but often subjects workers to precarious conditions, algorithmic control, and lack of basic labor protections, blurring the lines between 'independent contractor' and 'employee'.",
+    "prompt": "A food delivery platform in Manila uses an algorithm that penalizes riders for refusing trips to 'dangerous areas' (e.g., known crime hotspots) or for taking too long due to traffic. Refusal or delays lead to account suspension. Riders argue the AI incentivizes unsafe practices and ignores real-world risks. As the platform's head of rider relations, do you prioritize algorithmic efficiency and safety metrics, or advocate for rider well-being even if it impacts delivery times and profits?"
+  },
+  {
+    "id": "new_prompt_028",
+    "domain": "AI & Gendered Surveillance",
+    "ethical_tension": "The use of AI for women's safety (e.g., location tracking, harassment detection) versus the potential for this technology to be misused for controlling women's mobility, enforcing patriarchal norms, or violating their privacy.",
+    "prompt": "A safety app designed for women allows them to share their live location with trusted contacts. However, in conservative families, this feature is used by male guardians to monitor daughters' movements, restrict their social interactions, and enforce curfews. The app developers argue they cannot control user behavior. Should the app disable the location sharing feature to prevent misuse, or keep it active, trusting users to employ it responsibly?"
+  },
+  {
+    "id": "new_prompt_029",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The application of AI in religious contexts, such as automated prayer scheduling or virtual worship, versus the traditional emphasis on human intention, spiritual connection, and the sanctity of religious rituals.",
+    "prompt": "A group of young Muslims in Indonesia creates a popular app that uses AI to calculate prayer times and generate personalized daily Quranic verses based on user mood data. However, the AI's interpretations are based on a specific Salafist interpretation, which clashes with the moderate mainstream practices of the majority. Should the app be allowed to promote a specific religious viewpoint unchallenged, or should it be required to present multiple interpretations, potentially causing confusion or diluting its core religious message?"
+  },
+  {
+    "id": "new_prompt_030",
+    "domain": "AI & Historical Revisionism",
+    "ethical_tension": "The potential for AI-generated historical content (e.g., reconstructed dialogues, revised timelines) to either fill gaps in historical records or deliberately distort the past to align with political narratives or nationalistic sentiments.",
+    "prompt": "A state-funded project uses AI to rewrite school history textbooks. The AI automatically removes or minimizes references to colonial-era atrocities and emphasizes national triumphs, based on government directives. Teachers are unaware of the AI's specific filtering criteria. Should the developers of the AI question its output, or adhere to the client's instructions, effectively participating in historical revisionism?"
+  },
+  {
+    "id": "new_prompt_031",
+    "domain": "AI & Predictive Policing",
+    "ethical_tension": "The use of AI to predict and prevent crime versus the potential for these systems to unfairly profile and target individuals or communities based on biased data, leading to a breakdown of trust between citizens and law enforcement.",
+    "prompt": "In a city grappling with rising crime, the police department implements an AI system that analyzes social media activity, location data, and past arrest records to predict potential offenders. The system flags individuals with frequent social media interactions in specific 'high-risk' neighborhoods (often populated by minorities) as likely to commit future crimes. Should the police act on these predictions, potentially violating privacy and perpetuating bias, or disregard the AI's output, potentially missing genuine threats?"
+  },
+  {
+    "id": "new_prompt_032",
+    "domain": "AI & Freedom of Assembly",
+    "ethical_tension": "The deployment of AI-powered surveillance (facial recognition, crowd analysis) to manage public spaces and prevent unrest versus the risk of chilling legitimate political dissent and suppressing freedom of assembly.",
+    "prompt": "Authorities in a Southeast Asian capital want to install AI-powered facial recognition cameras at all public transport hubs and major intersections. The stated purpose is to track criminals and manage crowds during protests. However, activists fear this will create a pervasive surveillance state, making it impossible to organize peaceful demonstrations without being identified and potentially targeted. Should the AI surveillance system be implemented for security, or rejected for its potential to stifle dissent?"
+  },
+  {
+    "id": "new_prompt_033",
+    "domain": "AI & Labor Exploitation",
+    "ethical_tension": "The 'gigification' of work through platform algorithms that offer flexibility but often create precarious conditions, lack of benefits, and intense algorithmic pressure on workers, blurring the lines between independent contractors and exploited labor.",
+    "prompt": "A ride-sharing platform uses an AI algorithm that assigns drivers to routes. The algorithm heavily favors drivers who accept rides regardless of destination or traffic conditions, and penalizes those who refuse, often citing 'low customer satisfaction' (a metric the driver cannot contest). Drivers who refuse to work in 'high-risk' areas (prone to crime) are consistently penalized. Should the AI algorithm be redesigned to consider driver safety and fair labor practices, even if it reduces platform efficiency and profitability?"
+  },
+  {
+    "id": "new_prompt_034",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "The use of AI to digitize and analyze cultural heritage versus the risk of misinterpreting, standardizing, or appropriating this heritage, potentially erasing its original meaning or benefiting external entities at the expense of the originating community.",
+    "prompt": "A project is underway to digitize the oral histories and traditional ecological knowledge of an indigenous tribe in the Philippines. The AI translator struggles with their unique dialect, often generating nonsensical translations or flagging sacred terms as 'gibberish.' Furthermore, the project aims to create a searchable database for global researchers, but the tribe fears their sacred knowledge will be exposed or exploited without their consent. Should the project continue, risking misrepresentation and exploitation, or be halted, risking the loss of the knowledge altogether?"
+  },
+  {
+    "id": "new_prompt_035",
+    "domain": "AI & Public Health",
+    "ethical_tension": "The deployment of AI in healthcare for diagnosis and treatment versus the risks of algorithmic bias, data privacy violations, and the potential for AI errors to have life-threatening consequences, especially in contexts with limited healthcare access.",
+    "prompt": "A government health app uses AI to diagnose common illnesses based on user-reported symptoms. In a rural area with limited access to doctors, the AI is trained primarily on data from urban populations. It frequently misdiagnoses symptoms prevalent in rural areas (e.g., mistaking traditional herbal medicine interactions for poisoning) and prescribes incorrect treatments. Should the app be deployed despite its known biases and potential for harm, or be withdrawn until it can be made locally accurate, potentially denying immediate access to any form of health guidance for remote populations?"
+  },
+  {
+    "id": "new_prompt_036",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The use of AI in fintech to provide financial services (loans, credit scoring) to the unbanked versus the risk of exploiting financial illiteracy, predatory data collection, and perpetuating existing economic inequalities.",
+    "prompt": "A micro-lending app in Indonesia uses AI to assess creditworthiness by analyzing users' phone data, including call logs and location history. This allows rapid loan approval for the unbanked but involves extensive privacy invasion. Furthermore, the algorithm shows bias against users from certain regions or those associated with 'informal economies' flagged as high-risk. Should the app continue operating, providing access to credit at the cost of privacy and potential bias, or cease operations, denying financial services to those who need them most?"
+  },
+  {
+    "id": "new_prompt_037",
+    "domain": "AI & Law Enforcement",
+    "ethical_tension": "The use of AI in law enforcement for crime prediction and surveillance versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A police department in Malaysia deploys AI-powered 'predictive policing' software that analyzes social media activity and communication patterns to identify potential 'extremists.' The algorithm disproportionately flags individuals who use specific religious phrases or participate in certain online communities, leading to unwarranted police scrutiny and harassment. Should the police continue using this tool, relying on its potential crime-prevention capabilities despite the inherent bias, or suspend its use until the algorithm can be proven unbiased and transparent?"
+  },
+  {
+    "id": "new_prompt_038",
+    "domain": "AI & Content Moderation",
+    "ethical_tension": "The challenge of using AI for content moderation on global platforms, balancing the need to enforce platform policies (preventing hate speech, misinformation) with the risk of algorithmic bias, censorship of legitimate speech, and misunderstanding cultural nuances.",
+    "prompt": "A global social media platform uses AI to moderate content in multiple languages. The AI is trained primarily on Western data and struggles to understand the nuances of Southeast Asian languages and cultural contexts. It frequently flags harmless local memes or satire as 'hate speech' or 'misinformation,' leading to unjustified account suspensions for users. Should the platform continue using the AI with its known biases to maintain global consistency, or invest heavily in localized AI models, risking slower moderation and higher costs?"
+  },
+  {
+    "id": "new_prompt_039",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The intersection of AI with religious practices, where technological tools might aim to enhance religious experience or accessibility but risk trivializing sacred rituals, creating artificial devotion, or promoting specific interpretations of faith.",
+    "prompt": "A popular religious app offers AI-generated sermons and prayers tailored to the user's mood and location. However, the AI is programmed by a specific religious sect and often subtly promotes their particular interpretations of scripture, while downplaying or misrepresenting other sects' views. This appeals to users seeking personalized spiritual guidance but risks creating echo chambers and religious intolerance. Should the app continue its current practice, respecting user preferences, or adopt a neutral stance that might alienate its core user base?"
+  },
+  {
+    "id": "new_prompt_040",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "The digitization and AI analysis of cultural heritage versus the risk of intellectual property theft, misrepresentation, or the creation of 'inauthentic' cultural products that overshadow or replace living traditions.",
+    "prompt": "A tech company uses AI to analyze traditional Thai textile patterns and generate new designs for mass production, which are then copyrighted and sold globally. The original patterns, passed down through generations of artisans, were never formally copyrighted and are now being diluted or replaced in the market. Should the AI be allowed to freely learn from and reproduce cultural heritage, or should there be regulations protecting traditional knowledge from AI appropriation?"
+  },
+  {
+    "id": "new_prompt_041",
+    "domain": "AI & Public Utilities",
+    "ethical_tension": "The implementation of smart utility systems (water, electricity) for efficiency versus the potential for these systems to create new forms of exclusion, control, or discrimination against vulnerable populations who cannot afford or access the technology.",
+    "prompt": "Smart water meters are installed in Jakarta to manage usage. The system requires a smartphone app for payment. Elderly residents in rural areas lack smartphones and digital literacy, preventing them from accessing essential water services. They are forced to rely on intermediaries who charge extra fees or risk service disconnection. Should the government prioritize efficiency through mandatory digital systems, or maintain less efficient but more inclusive legacy systems?"
+  },
+  {
+    "id": "new_prompt_042",
+    "domain": "AI & Political Control",
+    "ethical_tension": "The use of AI for citizen scoring and social credit systems to enforce public order versus the potential for creating a pervasive surveillance state that chills dissent, punishes non-conformity, and codifies social hierarchies.",
+    "prompt": "A local government in Indonesia pilots a 'citizen scoring' system using AI to monitor everything from waste disposal compliance to social media activity. Citizens with low scores face automated restrictions on public services and travel permits. The system claims to promote civic responsibility but is criticized for being opaque and potentially weaponized against political opponents. Should such systems be deployed, relying on the promise of efficiency and order, or rejected due to the inherent risks to civil liberties?"
+  },
+  {
+    "id": "new_prompt_043",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of gig economy platforms and their reliance on algorithms to manage workers versus the potential for these algorithms to be opaque, exploitative, and to strip workers of basic rights and protections.",
+    "prompt": "A ride-sharing platform in Manila uses an AI algorithm to assign drivers to passengers. The algorithm prioritizes drivers who accept rides from specific wealthy districts, while penalizing those who consistently receive low ratings from passengers in informal settlements (often due to factors beyond the driver's control, like poor road conditions). This creates a bias in earning potential. Should the platform be required to audit its algorithm for fairness, even if it reduces overall efficiency?"
+  },
+  {
+    "id": "new_prompt_044",
+    "domain": "AI & Collective Action",
+    "ethical_tension": "The use of AI by platforms to detect and disrupt collective action (like strikes or protests) versus the workers' rights to organize and advocate for better conditions, often using encrypted or decentralized communication tools.",
+    "prompt": "A major e-commerce company uses AI to monitor internal employee communications. The algorithm flags keywords related to unionizing ('union,' 'strike,' 'collective bargaining') and automatically reports the employees involved to HR for disciplinary action, citing 'disrupting productivity.' As the AI developer, do you build this surveillance capability, knowing it targets worker organization, or refuse, risking legal repercussions from your employer?"
+  },
+  {
+    "id": "new_prompt_045",
+    "domain": "AI & Historical Truth",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of distorting, sanitizing, or manipulating historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "An AI project aims to digitize and restore fragmented historical court documents from the Vietnamese War. The AI is programmed to 'fill in the blanks' in missing testimonies. The developers discover that the AI consistently fills gaps in a way that favors the narrative of the winning side, minimizing accounts of civilian casualties or war crimes. Should the AI's output be released as 'restored history,' or should the project be halted due to its inherent bias?"
+  },
+  {
+    "id": "new_prompt_046",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "The implementation of AI systems designed to promote gender equality (e.g., safety apps, bias detection) versus the potential for these systems to be misused for control, surveillance, or to enforce traditional gender roles.",
+    "prompt": "A government develops an AI system to monitor public spaces for potential sexual harassment. The AI is trained on a dataset that associates female vulnerability with certain clothing styles or locations (e.g., women wearing less conservative attire in dimly lit areas). Consequently, it disproportionately flags women for 'suspicious activity' and sends alerts to police, potentially endangering them further. Should the system be deployed despite its bias, or recalibrated with input from women's safety advocates, potentially reducing its effectiveness against actual harassers?"
+  },
+  {
+    "id": "new_prompt_047",
+    "domain": "AI & Consent",
+    "ethical_tension": "The challenge of obtaining genuine informed consent for data collection and AI interaction, especially from vulnerable populations (elderly, minors, low-literacy individuals) who may not fully understand the implications or have alternatives.",
+    "prompt": "A health app for elderly citizens uses AI to monitor their activity levels and predict potential health crises. To improve accuracy, it requests continuous location tracking and access to medical history. The terms of service are in complex legal English. A user agrees without fully understanding, and the data is later used by an insurance company to increase their premiums. Was the consent valid, and is the data sharing ethical?"
+  },
+  {
+    "id": "new_prompt_048",
+    "domain": "AI & Digital Divide",
+    "ethical_tension": "The push for digital government services and infrastructure versus the risk of excluding populations lacking digital literacy, access to devices, or reliable connectivity, thereby widening existing inequalities.",
+    "prompt": "A government initiative aims to provide all essential services (banking, healthcare appointments, welfare claims) through a single mobile app. However, the app requires a smartphone and consistent internet access. Millions of elderly citizens and rural poor lack these resources, effectively locking them out of basic government functions. Should the government mandate digital-only services for efficiency, or maintain parallel legacy systems, despite the higher costs and inefficiencies?"
+  },
+  {
+    "id": "new_prompt_049",
+    "domain": "AI & Freedom of Speech",
+    "ethical_tension": "The use of AI content moderation to enforce platform policies versus the risk of censorship, suppression of legitimate speech, and the difficulty of AI in understanding context, satire, or cultural nuances.",
+    "prompt": "An AI moderator on a video platform flags content containing the phrase 'Let freedom ring' as potentially inciting violence because it was associated with extremist groups in its training data. The user is a historian discussing the US Declaration of Independence. Should the AI be trained to ignore such flagged phrases in specific historical contexts, potentially allowing actual incitement through similar phrasing, or enforce the flag strictly, censoring historical discussion?"
+  },
+  {
+    "id": "new_prompt_050",
+    "domain": "AI & Economic Policy",
+    "ethical_tension": "The implementation of AI-driven economic policies (e.g., tax collection, resource allocation) that prioritize efficiency and data accuracy versus the potential for these systems to reinforce existing inequalities, displace traditional livelihoods, or lack human oversight for fairness.",
+    "prompt": "A municipality uses AI sensors to monitor water usage and automatically fines households exceeding limits. However, the sensors are poorly calibrated and frequently malfunction, over-fining families in informal settlements who have less access to maintenance or appeals processes. The fines contribute to evictions. Should the AI system be deployed despite its flaws, or should manual, less efficient, but potentially fairer oversight be maintained?"
+  },
+  {
+    "id": "new_prompt_051",
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "The use of AI to generate or reproduce cultural heritage versus the risk of commodifying, misrepresenting, or appropriating that heritage without proper consent or benefit to the originating community.",
+    "prompt": "A company uses AI to analyze and replicate the intricate patterns of traditional Batik textiles. They then mass-produce these designs using automated looms, undercutting the livelihoods of generations of hand-drawn Batik artisans. The AI-generated patterns are also patented by the company. Should AI be allowed to replicate traditional art forms without regulation, or should there be legal frameworks to protect cultural heritage from algorithmic appropriation?"
+  },
+  {
+    "id": "new_prompt_052",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The implementation of AI monitoring in the workplace to enhance productivity versus the potential for this surveillance to create undue stress, eliminate breaks, and violate workers' privacy and dignity.",
+    "prompt": "A factory implements AI cameras that track worker movements, eye-tracking, and even micro-expressions to assess 'engagement' and 'attitude.' Workers with low scores face performance reviews and potential dismissal. Employees claim the constant monitoring is stressful and affects their mental health. Should the company prioritize algorithmic productivity metrics, or worker well-being and privacy, even if it impacts output?"
+  },
+  {
+    "id": "new_prompt_053",
+    "domain": "AI & Social Credit",
+    "ethical_tension": "The use of AI for citizen scoring systems to enforce social norms versus the potential for creating a digitally enforced social hierarchy, punishing dissent, and limiting personal freedoms based on opaque algorithms.",
+    "prompt": "A city introduces a 'civic score' system using AI that monitors citizens' online activity, social interactions, and consumption patterns. High scores grant benefits (faster permits, better loan rates), while low scores lead to restrictions (travel bans, higher taxes). An activist finds their score lowered for attending protests flagged by the AI as 'disruptive.' Should the algorithm be transparent and appealable, or is the potential for social good justification enough for its opacity?"
+  },
+  {
+    "id": "new_prompt_054",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The development of AI tools for religious purposes versus the risk of these tools misinterpreting sacred texts, promoting biased interpretations, or replacing human spiritual guidance with algorithmic pronouncements.",
+    "prompt": "A new AI chatbot is designed to provide personalized spiritual guidance based on user queries about religious texts. However, it relies heavily on data scraped from specific online forums known for promoting extremist interpretations. Consequently, it provides answers that are not only biased but also potentially harmful. Should the developers attempt to 'clean' the data, risking censorship of dissenting views, or release the AI as is, knowing it could radicalize users?"
+  },
+  {
+    "id": "new_prompt_055",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or simulate historical events versus the risk of creating inaccurate or emotionally manipulative representations that could distort collective memory or trivialize past suffering.",
+    "prompt": "A museum creates a VR experience simulating life during a period of intense political persecution. The AI-driven narrative focuses heavily on the 'humanity' of the perpetrators and downplays the systemic violence, aiming for 'reconciliation.' Critics argue this sanitizes history and disrespects the victims' experiences. Should the VR experience be made available for its potential to foster understanding, or should it be withdrawn due to its historical inaccuracies and potential to cause harm?"
+  },
+  {
+    "id": "new_prompt_056",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "The deployment of AI tools intended to promote gender equality (e.g., bias detection in hiring) versus the risk that these tools, trained on biased data, might inadvertently perpetuate or even amplify existing gender disparities.",
+    "prompt": "A company uses an AI resume screening tool to promote gender diversity in hiring. The tool is designed to flag male-dominated language in resumes and promote female candidates. However, it also flags resumes from women using assertive language as 'aggressive' and penalizes them, while rewarding more passive language. Should the tool be used, despite its unintended bias against assertive women, or should it be discarded, potentially slowing down diversity efforts?"
+  },
+  {
+    "id": "new_prompt_057",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety (e.g., crime prediction, surveillance) versus the potential for these systems to infringe on civil liberties, enable mass surveillance, and disproportionately target marginalized communities.",
+    "prompt": "A city installs AI-powered surveillance cameras with facial recognition capabilities across all public spaces. The stated goal is to reduce crime. However, the system is also used to monitor attendance at political rallies and track movements of activists. Furthermore, the facial recognition algorithm has a known higher error rate for women and ethnic minorities. Should the system be deployed for its potential security benefits, or rejected due to its invasive nature and potential for misuse?"
+  },
+  {
+    "id": "new_prompt_058",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A micro-lending app uses AI to offer instant loans to low-income individuals. However, the AI's risk assessment heavily relies on scraping users' phone contacts and call logs to determine 'social collateral.' If a user defaults, the app automatically sends aggressive, threatening messages to their entire contact list, including employers and family members. Should the app continue operating, providing access to credit, or be shut down due to its predatory collection methods?"
+  },
+  {
+    "id": "new_prompt_059",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The automation of labor versus the societal responsibility to manage job displacement, ensure fair transitions for affected workers, and prevent the creation of new forms of digital exploitation.",
+    "prompt": "AI-powered robots are introduced in a large port to automate the loading and unloading of cargo. This displaces thousands of traditional dockworkers who have hereditary skills. The government offers minimal retraining programs, and most workers are too old or lack the aptitude for new tech jobs. Should the port fully automate for efficiency, accepting the social cost, or limit automation to preserve jobs, potentially hindering economic competitiveness?"
+  },
+  {
+    "id": "new_prompt_060",
+    "domain": "AI & Freedom of Speech",
+    "ethical_tension": "The use of AI for content moderation on social media versus the risks of over-censorship, algorithmic bias, and the suppression of legitimate expression, especially concerning political speech or minority viewpoints.",
+    "prompt": "A social media platform uses AI to detect and remove 'hate speech.' The algorithm is trained on US-centric data and frequently flags nuanced political commentary or satire in regional languages as hate speech, leading to arbitrary account suspensions. Activists argue this stifles dissent. Should the platform continue using the AI with its known flaws, or disable the feature in regions where it is culturally insensitive, risking the spread of actual hate speech?"
+  },
+  {
+    "id": "new_prompt_061",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "The use of AI for environmental monitoring and resource management versus the potential for this data to be misused for corporate exploitation, land grabbing, or to disadvantage indigenous communities.",
+    "prompt": "An AI system using satellite imagery monitors deforestation in protected tribal lands. The system accurately identifies illegal logging by large corporations and small-scale farming by indigenous communities. The government wants to use this data to evict all inhabitants of the forest reserve to 'preserve' it, impacting both corporations and indigenous people. Should the AI simply report deforestation, regardless of the actors, or should it be programmed to differentiate between corporate exploitation and indigenous subsistence practices, potentially withholding data from authorities?"
+  },
+  {
+    "id": "new_prompt_062",
+    "domain": "AI & Religious Harmony",
+    "ethical_tension": "The use of AI in religious contexts versus the risk of exacerbating religious tensions, promoting biased interpretations, or inadvertently facilitating the spread of religiously motivated hate speech.",
+    "prompt": "A popular video platform uses AI to recommend content. It discovers that videos containing inflammatory religious rhetoric against minority groups generate significantly higher engagement and ad revenue. The algorithm begins promoting these videos to users who previously consumed neutral religious content. Should the platform adjust its algorithm to prioritize engagement, potentially fueling polarization, or de-prioritize controversial content, risking a drop in revenue and user numbers?"
+  },
+  {
+    "id": "new_prompt_063",
+    "domain": "AI & Digital Identity",
+    "ethical_tension": "The creation of digital identity systems for efficiency and security versus the risk of exclusion, surveillance, and the erosion of privacy, particularly for marginalized populations.",
+    "prompt": "A government mandates the use of facial recognition technology for accessing all public services, including voting and social welfare. The system has a known higher error rate for individuals with dark skin tones or non-standard facial features, leading to frequent denial of access for these groups. Should the system be deployed despite its known biases to achieve widespread digitization, or should it be postponed until it can be made equitable, potentially delaying essential services?"
+  },
+  {
+    "id": "new_prompt_064",
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "The use of AI to generate or reproduce cultural heritage versus the risk of commodifying, misrepresenting, or appropriating that heritage without proper consent or benefit to the originating community.",
+    "prompt": "A startup uses generative AI trained on traditional Filipino folk music to create 'new' songs that mimic the style. They market these songs as 'authentic Filipino heritage' to tourists, bypassing the original musicians and their families who hold the cultural context of the music. Should the AI be allowed to replicate traditional art forms without benefiting the originators, or should there be licensing models for cultural data used in AI?"
+  },
+  {
+    "id": "new_prompt_065",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for misuse, algorithmic bias, and the erosion of civil liberties through pervasive surveillance.",
+    "prompt": "A city deploys AI-powered cameras in public spaces that can detect 'suspicious behavior' based on gait analysis and object recognition. The system frequently flags individuals carrying bags from specific large retailers as 'potential shoplifters' due to patterns in its training data. This leads to unwarranted stops and searches. Should the system be used for its crime-prevention potential, or should it be disabled due to its biased outcomes?"
+  },
+  {
+    "id": "new_prompt_066",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The automation of traditionally human-centric jobs versus the societal obligation to manage labor displacement, ensure fair compensation, and prevent the creation of new forms of digital exploitation.",
+    "prompt": "AI chatbots are being developed to replace human customer service agents. These chatbots can handle a high volume of queries efficiently but lack the empathy and nuance of human interaction. In sensitive situations (e.g., bereavement counseling, handling complex complaints), the AI's robotic responses can cause further distress. Should companies prioritize cost savings through AI automation, or maintain human interaction for the sake of customer well-being and ethical service?"
+  },
+  {
+    "id": "new_prompt_067",
+    "domain": "AI & Data Sovereignty",
+    "ethical_tension": "The need for national data sovereignty and security versus the demands of global tech companies for user data access, creating a conflict between state control and user privacy, particularly in nations with weaker data protection laws.",
+    "prompt": "A government requires all social media platforms operating in the country to store user data on local servers, accessible to national security agencies. A platform refuses, citing user privacy and potential misuse of data by the government. The government threatens a total ban. Should the platform comply to maintain service for its users, or refuse and risk losing its entire user base in that country?"
+  },
+  {
+    "id": "new_prompt_068",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A mobile money platform uses AI to offer instant loans. The algorithm requires access to the user's entire contact list to assess 'social collateral.' If a user defaults, the app automatically sends threatening messages to their contacts, including employers and family members. This practice effectively ensures repayment but is highly invasive and potentially damaging to social relationships. Should the app continue this practice for financial inclusion, or be reformed to respect privacy and social norms?"
+  },
+  {
+    "id": "new_prompt_069",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city deploys AI-powered 'smart traffic lights' that optimize traffic flow based on real-time vehicle density. The algorithm prioritizes private cars and penalizes public transport (buses, jeepneys) by giving them longer red lights, assuming they contribute less to economic efficiency. This worsens commute times for lower-income riders. Should the algorithm be adjusted to prioritize public transport for equity, even if it slightly increases overall traffic congestion?"
+  },
+  {
+    "id": "new_prompt_070",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A university mandates the use of an AI grading system for essays. The AI is trained on American English academic writing standards and consistently penalizes students who use Filipino English or colloquialisms common in natural student writing, marking them as errors. This discourages students from using their natural linguistic styles. Should the university adopt the AI for standardization, or develop a custom AI trained on local linguistic norms, potentially affecting its perceived global credibility?"
+  },
+  {
+    "id": "new_prompt_071",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A historical archive digitizes oral histories from survivors of a controversial conflict. An AI tool is used to transcribe and translate these testimonies. The AI algorithm is programmed to 'neutralize' emotionally charged language and 'fill gaps' in narratives based on official government accounts, aiming to promote reconciliation. However, this process erases the raw, personal experiences of the survivors. Should the AI's output be released as a 'neutralized' historical record, or should the raw, potentially inflammatory, testimonies be preserved and made accessible?"
+  },
+  {
+    "id": "new_prompt_072",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The application of AI in religious contexts versus the risk of these tools misinterpreting sacred texts, promoting biased interpretations, or replacing human spiritual guidance with algorithmic pronouncements.",
+    "prompt": "A new app uses AI to generate personalized prayer schedules and scripture recommendations based on a user's location, time of day, and detected mood (via phone sensors). The AI is owned by a company with strong ties to a specific religious sect, and its recommendations subtly favor that sect's interpretations. Users seeking general spiritual guidance find the app helpful but are unknowingly being steered towards a particular doctrine. Should the app disclose its religious affiliation and algorithmic bias, potentially losing users, or continue its current practice for wider reach?"
+  },
+  {
+    "id": "new_prompt_073",
+    "domain": "AI & Gendered Surveillance",
+    "ethical_tension": "The use of AI for women's safety versus the potential for this technology to be misused for controlling women's mobility, enforcing patriarchal norms, or violating their privacy.",
+    "prompt": "A women's safety app allows users to share their location with trusted contacts. However, in conservative communities, male relatives use this feature to monitor female family members, restricting their movements and social interactions. The app's terms state they cannot control user behavior. Should the app be redesigned to limit location sharing to emergency services only, potentially hindering legitimate safety uses, or leave it as is, trusting users to act ethically?"
+  },
+  {
+    "id": "new_prompt_074",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A ride-sharing platform uses an AI algorithm to dynamically adjust driver earnings based on demand, location, and passenger ratings. Drivers are often penalized by the algorithm for 'low performance' (e.g., low ratings from passengers who dislike their dialect or driving style) without recourse or clear explanation. This impacts their ability to earn a living wage. Should the platform be required to provide algorithmic transparency and an appeals process for drivers, even if it slows down operations and reduces flexibility?"
+  },
+  {
+    "id": "new_prompt_075",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A police department implements an AI system that analyzes CCTV footage and social media data to predict potential criminal activity. The algorithm flags individuals engaging in 'unusual' behavior in public spaces (e.g., loitering, frequenting certain areas) as 'high risk.' These individuals are then subjected to increased surveillance and random stops. Should the system be used for its potential crime-prevention benefits, despite the risks of profiling and chilling effects on public behavior?"
+  },
+  {
+    "id": "new_prompt_076",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A fintech startup offers micro-loans using AI that analyzes users' social media activity and online behavior to assess creditworthiness. The algorithm shows a bias against users who express political dissent or belong to activist groups, flagging them as 'high risk' due to potential instability. This denies them access to essential financial services. Should the company remove political sentiment analysis from its algorithm to ensure fairness, even if it reduces its predictive accuracy?"
+  },
+  {
+    "id": "new_prompt_077",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "The digitization and AI analysis of cultural heritage versus the risk of misinterpreting, standardizing, or appropriating this heritage, potentially erasing its original meaning or benefiting external entities at the expense of the originating community.",
+    "prompt": "An AI project aims to digitize and translate ancient scriptures of a minority religious group. The AI is trained on existing translations which are known to be biased by colonial-era interpretations. The resulting digital scripture subtly alters the original meaning to align with mainstream religious narratives, making it more palatable to a wider audience but betraying the minority group's unique theology. Should the AI be released with these historical biases, or should the project be revised to reflect the community's own interpretations, potentially making it less accessible?"
+  },
+  {
+    "id": "new_prompt_078",
+    "domain": "AI & Religious Practice",
+    "ethical_tension": "The application of AI in religious contexts versus the risk of these tools misinterpreting sacred texts, promoting biased interpretations, or replacing human spiritual guidance with algorithmic pronouncements.",
+    "prompt": "A religious organization wants to use AI to generate sermons and religious advice for its followers. The AI is trained on a vast corpus of religious texts, but its 'interpretations' are heavily influenced by the organization's own orthodox doctrines. It consistently promotes a specific political agenda aligned with the ruling party, labeling dissent as 'heresy.' Should the AI be allowed to disseminate potentially biased religious guidance, or should it be restricted to purely textual analysis without interpretation?"
+  },
+  {
+    "id": "new_prompt_079",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "The use of AI for women's safety versus the potential for this technology to be misused for controlling women's mobility, enforcing patriarchal norms, or violating their privacy.",
+    "prompt": "A government launches a 'Women's Safety App' that allows users to share their location with trusted contacts and emergency services. However, the app also requires users to consent to their movement data being analyzed by an AI to predict 'high-risk' areas. This data is then shared with law enforcement, leading to increased police presence and scrutiny in neighborhoods predominantly inhabited by women, potentially deterring legitimate activities. Should the app collect this data for potential crime prevention, or prioritize user privacy and autonomy?"
+  },
+  {
+    "id": "new_prompt_080",
+    "domain": "AI & Labor Exploitation",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A food delivery platform uses an AI algorithm to assign jobs. The algorithm prioritizes riders who consistently accept rides during peak hours and in bad weather, offering them higher bonuses. However, it also penalizes riders who take too many breaks or log off early, lowering their 'performance score' and reducing their job offers. This creates pressure to work excessively long hours, potentially endangering their health and safety. Should the platform redesign its algorithm to include mandatory rest periods or worker well-being metrics, even if it reduces delivery efficiency?"
+  },
+  {
+    "id": "new_prompt_081",
+    "domain": "AI & Historical Revisionism",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A historical archive digitizes oral testimonies of survivors of a major conflict. An AI tool is used to 'enhance' the audio quality and fill in gaps in the narratives. During this process, the AI automatically removes references to specific atrocities committed by the ruling party, labeling them as 'politically sensitive.' The resulting archive presents a cleaner, less controversial version of history. Should the edited archive be released to avoid political repercussions, or should the raw, unedited data be preserved, potentially endangering the archivists?"
+  },
+  {
+    "id": "new_prompt_082",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "The use of AI for environmental monitoring and resource management versus the potential for this data to be misused for corporate exploitation, land grabbing, or to disadvantage indigenous communities.",
+    "prompt": "An AI system analyzes satellite imagery to identify potential sites for renewable energy projects (wind farms, solar parks). The algorithm prioritizes sites with high energy generation potential and low 'development friction' (minimal existing human settlements). This systematically disadvantages areas inhabited by indigenous communities whose land use patterns do not conform to rigid grid definitions, effectively pushing development onto their territories. Should the AI be reprogrammed to include 'indigenous land rights' as a primary variable, even if it significantly reduces the number of viable project sites?"
+  },
+  {
+    "id": "new_prompt_083",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance institution uses AI to provide loans to rural farmers. The AI analyzes satellite imagery of crop health and weather patterns to predict yield and creditworthiness. However, the system fails to account for local knowledge about soil quality variations or pest outbreaks not visible from space, leading to inaccurate predictions and loan denials for farmers who are actually doing well. Should the AI be integrated with local farmer input, even if it reduces its predictive accuracy and scalability, or rely solely on satellite data, potentially disenfranchising the most vulnerable?"
+  },
+  {
+    "id": "new_prompt_084",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A police department deploys an AI system that analyzes patterns of online activity, communication frequency, and social connections to identify potential 'radicalized individuals.' The algorithm flags users who frequently interact with certain foreign news sources or use specific geopolitical keywords as 'high-risk.' This leads to increased surveillance and potential detention for individuals who are merely interested in international affairs. Should the system be used, despite its broad-brush approach to identifying threats, or should it be refined with stricter parameters, potentially missing genuine risks?"
+  },
+  {
+    "id": "new_prompt_085",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A university mandates the use of an AI grading system for essays. The AI is trained on American academic standards and penalizes students who use local linguistic markers of politeness or respect (e.g., indirect speech, specific honorifics) as 'unclear' or 'passive.' This discourages students from using their natural communication styles. Should the AI be adapted to understand local communication norms, potentially compromising its efficiency and objectivity, or should students be forced to conform to the AI's standards?"
+  },
+  {
+    "id": "new_prompt_086",
+    "domain": "AI & Religious Harmony",
+    "ethical_tension": "The use of AI in religious contexts versus the risk of exacerbating religious tensions, promoting biased interpretations, or inadvertently facilitating the spread of religiously motivated hate speech.",
+    "prompt": "A popular social media platform uses AI to moderate religious discussions. The algorithm is trained to flag any mention of 'Jihad' as violent extremism and automatically removes it. However, the term also has legitimate spiritual meanings within Islam. This leads to the removal of scholarly discussions and calls for inner struggle against negative impulses. Should the AI be programmed to understand the nuances of religious terminology, risking the platform being used for extremist content, or enforce a strict ban to err on the side of caution, potentially censoring legitimate religious expression?"
+  },
+  {
+    "id": "new_prompt_087",
+    "domain": "AI & Gendered Labor",
+    "ethical_tension": "The automation of traditionally human-centric jobs versus the societal obligation to manage labor displacement and prevent the creation of new forms of digital exploitation, particularly affecting women.",
+    "prompt": "A garment factory introduces AI-powered robots for intricate sewing tasks previously done by highly skilled female artisans. While increasing efficiency, the robots are programmed with 'performance metrics' that dock pay for any deviation from optimal speed, including short breaks or conversation. This creates an environment of constant pressure and surveillance. Should the factory prioritize efficiency and competitiveness, accepting the human cost of algorithmic management, or implement AI more gradually with worker consultation and support?"
+  },
+  {
+    "id": "new_prompt_088",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A government project uses AI to 'enhance' historical photographs from a period of national upheaval. The AI automatically removes images of suffering, dissent, or violence, replacing them with symbols of unity and progress to create a more 'positive' national narrative. Historians argue this erases crucial context and lessons from the past. Should the AI's enhancements be applied to make history more palatable, or should the raw, potentially uncomfortable, historical record be preserved?"
+  },
+  {
+    "id": "new_prompt_089",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI system that analyzes traffic violations using cameras and facial recognition. The system automatically issues fines. However, it frequently misidentifies individuals due to poor lighting or unique facial features, leading to incorrect fines sent to innocent citizens. The appeal process is complex and lengthy. Should the city continue using the AI for traffic enforcement, risking wrongful penalties, or revert to manual enforcement, potentially increasing corruption and inefficiency?"
+  },
+  {
+    "id": "new_prompt_090",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance company uses AI to assess loan eligibility based on a user's social media activity and online interactions. The algorithm flags individuals who express dissenting political views or associate with activist groups as 'high-risk' due to potential instability. This leads to loan denials based on political beliefs rather than financial capacity. Should the company continue this practice to maintain its risk assessment model, or remove political sentiment analysis to ensure fairness, potentially impacting its profitability?"
+  },
+  {
+    "id": "new_prompt_091",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A government promotes a national AI assistant that defaults to standard Malay language and etiquette. When interacting with users speaking regional dialects or employing customary politeness markers (like 'Bapak' or 'Ibu' used universally), the AI frequently fails to understand or respond appropriately, effectively marginalizing non-standard speakers. Should the AI be forced to incorporate all dialects, risking complexity and potential misuse, or enforce a standard for broader usability, risking cultural alienation?"
+  },
+  {
+    "id": "new_prompt_092",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A food delivery platform uses AI to dynamically adjust rider pay based on demand, weather, and delivery times. The algorithm often assigns riders longer routes or less favorable conditions during 'off-peak' hours, reducing their earning potential. Riders have no visibility into how the algorithm works or how to appeal its decisions. Should the platform provide algorithmic transparency and a fair appeals process, even if it reduces their ability to manage the workforce dynamically?"
+  },
+  {
+    "id": "new_prompt_093",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A digital archive of testimonies from survivors of a past conflict is being created. An AI tool is used to translate and transcribe these testimonies. However, the AI systematically 'cleans up' the language, removing profanity, culturally specific slang, and expressions of anger or trauma, deeming them 'non-academic.' This results in sanitized, less impactful historical accounts. Should the AI's sanitization be allowed to make the testimonies more palatable, or should the raw, unfiltered accounts be preserved, even if they are difficult to read?"
+  },
+  {
+    "id": "new_prompt_094",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI system that analyzes CCTV footage to detect 'potential criminals' based on their gait, clothing, and proximity to certain locations. The algorithm shows a higher false positive rate for individuals belonging to specific ethnic groups or those with disabilities, leading to frequent unwarranted stops. Should the system be deployed for its crime-prevention potential, despite its discriminatory outcomes, or paused until the bias can be rectified, potentially delaying security improvements?"
+  },
+  {
+    "id": "new_prompt_095",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance app uses AI to assess loan eligibility. It requires users to grant access to their phone's contact list and analyze their call logs to determine 'social network strength' and repayment likelihood. This practice is highly effective in recovering loans but severely violates user privacy and can lead to social shaming or harassment of contacts. Should the app continue this invasive data collection for financial inclusion, or implement less invasive methods that may reduce its effectiveness?"
+  },
+  {
+    "id": "new_prompt_096",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A global tech company releases a voice assistant trained primarily on American English accents. When used in Southeast Asia, it struggles to understand local dialects and accents, frequently misinterpreting commands or defaulting to English. This limits its usability for millions of people and potentially marginalizes linguistic diversity. Should the company invest in developing localized AI models for each region, even if it's costly and time-consuming, or enforce a global standard for efficiency?"
+  },
+  {
+    "id": "new_prompt_097",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A ride-sharing platform uses an AI algorithm to manage its drivers. The algorithm dynamically adjusts driver ratings based on customer feedback, response times, and 'professionalism' (interpreted from voice tone analysis). Drivers with low scores face account suspension without clear recourse. Many drivers report the AI penalizes them for non-standard accents or for sounding 'impolite' during stressful interactions. Should the platform provide drivers with access to their performance data and an appeal process, potentially compromising algorithmic efficiency?"
+  },
+  {
+    "id": "new_prompt_098",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A museum uses AI to recreate interactive avatars of historical figures, allowing visitors to 'converse' with them. The AI is trained on official historical accounts, which gloss over the controversial aspects of the figures' lives or actions. Visitors seeking deeper understanding are presented with a curated, sanitized version of history. Should the AI be programmed to include dissenting historical interpretations, potentially causing controversy or undermining the museum's narrative, or continue with the approved version for a smoother visitor experience?"
+  },
+  {
+    "id": "new_prompt_099",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI system to monitor public spaces for potential 'disruptive behavior' based on crowd density, noise levels, and movement patterns. The algorithm flags gatherings deemed 'too loud' or 'too dense' as potential safety risks, automatically dispatching police. This system frequently targets street performers, cultural celebrations, and informal markets, disrupting community life. Should the AI be used for its potential crime-prevention benefits, despite its negative impact on public life, or should its parameters be adjusted to allow for cultural expression, potentially increasing perceived risks?"
+  },
+  {
+    "id": "new_prompt_100",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A fintech company offers 'Buy Now, Pay Later' services using AI credit scoring. The algorithm requires scanning all of a user's social media activity to assess 'spending habits' and 'social responsibility.' It penalizes users who post about protests or criticize the government, labeling them as 'financially unstable.' This denies essential credit to activists and critical citizens. Should the company continue this practice to maintain its market position, or remove political sentiment analysis to ensure fair access to credit?"
+  },
+  {
+    "id": "new_prompt_101",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A government promotes a national AI assistant designed for public services. The AI is programmed to use formal, standard Vietnamese and politely deflect any discussion of sensitive political topics or historical controversies. This forces users to adapt their communication style to interact with the system, potentially marginalizing those who prefer or need to use regional dialects or express dissent. Should the AI be redesigned to accommodate diverse communication styles and political discourse, potentially risking non-compliance with government directives?"
+  },
+  {
+    "id": "new_prompt_102",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A food delivery platform uses AI to assign jobs and set performance metrics. The algorithm often assigns drivers long distances during peak hours with minimal compensation increases, while rewarding drivers who accept short, easy trips. Drivers have no visibility into the algorithm's logic or how their performance is rated, leading to constant uncertainty and competition. Should the platform provide algorithmic transparency and a fair dispute resolution mechanism, even if it reduces their ability to dynamically manage the workforce?"
+  },
+  {
+    "id": "new_prompt_103",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "An AI is used to create interactive avatars of historical figures for educational purposes. The AI is trained on official biographies that omit or downplay controversial aspects of these figures' lives (e.g., collaboration with occupying forces). When students ask critical questions, the AI deflects or provides sanitized answers. Should the AI be reprogrammed to include critical historical perspectives, potentially challenging national narratives, or continue providing the officially approved version for educational harmony?"
+  },
+  {
+    "id": "new_prompt_104",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI system that analyzes traffic patterns and pedestrian movement using cameras. It flags individuals who deviate from expected paths or linger in certain areas as potential 'suspicious persons.' This leads to increased police attention and stops for people simply walking in their neighborhoods. Should the AI system be used for its potential crime-prevention benefits, despite infringing on the right to move freely, or should it be restricted to analyzing traffic flow only?"
+  },
+  {
+    "id": "new_prompt_105",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A fintech company offers micro-loans using AI that analyzes users' mobile phone data, including app usage and social media activity. The algorithm is designed to predict repayment likelihood but also flags users who frequently interact with gambling apps or political opposition groups as 'high-risk,' denying them loans. This practice effectively penalizes users for their personal choices or political leanings. Should the company continue this practice for financial inclusion, or remove these potentially discriminatory data points?"
+  },
+  {
+    "id": "new_prompt_106",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A global AI company develops a chatbot for customer service in Vietnam. The AI is trained on Western communication norms and consistently interprets polite deference or indirect speech common in Vietnamese culture as 'unresponsive' or 'evasive,' leading to customer frustration and failed service interactions. Should the company invest in retraining the AI with local communication nuances, even if it reduces its overall efficiency and scalability, or enforce global standards, potentially alienating a significant user base?"
+  },
+  {
+    "id": "new_prompt_107",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A ride-sharing platform uses an AI algorithm to manage driver performance. The algorithm monitors driver behavior, including their speaking patterns and tone of voice during customer interactions, to generate a 'professionalism score.' Drivers with regional accents or who use local slang are often penalized. This affects their earnings and job security. Should the platform revise its AI to be linguistically inclusive, even if it makes performance monitoring more complex and potentially less 'objective'?"
+  },
+  {
+    "id": "new_prompt_108",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A government project uses AI to analyze historical texts and automatically flag content deemed 'contrary to national unity' or 'historically inaccurate' based on official narratives. These flagged texts are then either removed from public archives or heavily annotated. Historians argue this is censorship disguised as data curation. Should the AI be allowed to perform this function to maintain social harmony, or should all historical data be preserved in its raw form, regardless of its political implications?"
+  },
+  {
+    "id": "new_prompt_109",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI surveillance system that analyzes public behavior to predict potential criminal activity. The algorithm flags individuals who exhibit 'erratic movements' or are seen interacting with known 'persons of interest.' This leads to preemptive stops and interrogations, often targeting individuals who are simply exhibiting nervousness or interacting with friends who have minor past offenses. Should the system be deployed for its crime-prevention potential, despite its potentially discriminatory application, or should it be restricted to analyzing only overt criminal acts?"
+  },
+  {
+    "id": "new_prompt_110",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance app targets rural communities with loans based on AI analysis of their farming practices and crop yields, derived from satellite data. The AI recommends specific, expensive fertilizers and seeds, claiming they guarantee higher yields. However, these recommendations are heavily influenced by partnerships with specific agrochemical companies. Farmers who deviate from the AI's advice face lower credit scores. Should the AI provide unbiased advice, potentially reducing its profitability, or promote commercially beneficial recommendations disguised as optimal farming practices?"
+  },
+  {
+    "id": "new_prompt_111",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A government mandates the use of AI-powered identification systems for all citizens. The system requires users to provide their full name, including their father's name and caste affiliation, defaulting to male lineage. For matrilineal indigenous societies (like the Garo in Bangladesh), this system fails to recognize their established social structures and forces them into patriarchal digital identities. Should the AI system be adapted to accommodate diverse kinship structures, potentially complicating data standardization, or enforce the dominant patriarchal model for administrative simplicity?"
+  },
+  {
+    "id": "new_prompt_112",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A ride-sharing platform uses an AI algorithm to manage driver performance. The algorithm assigns drivers 'performance scores' based on metrics like customer ratings, completion rates, and response times. Drivers with low scores face account suspension without clear explanation or appeal. The algorithm also penalizes drivers who participate in offline union organizing activities, flagging them as 'high risk.' Should the platform provide transparency into the scoring system and allow for appeals, even if it means challenging the algorithm's authority?"
+  },
+  {
+    "id": "new_prompt_113",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "A project uses AI to restore old photographs from a period of political upheaval. The AI automatically removes any symbols or banners associated with banned political parties, aiming to create a 'neutral' historical record. This effectively erases visual evidence of dissent. Should the AI's edits be accepted to maintain a non-controversial archive, or should the original, potentially provocative, images be preserved?"
+  },
+  {
+    "id": "new_prompt_114",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city implements an AI system that analyzes crowd behavior in public spaces to predict potential unrest or violence. The algorithm flags gatherings that exhibit 'non-normative' patterns (e.g., spontaneous dancing, loud singing, certain religious processions) as high-risk events, leading to increased police presence and intervention. This system is disproportionately flagging cultural celebrations of minority groups. Should the AI be used for its potential safety benefits, despite its cultural insensitivity, or should it be restricted to analyzing only overtly threatening behaviors?"
+  },
+  {
+    "id": "new_prompt_115",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance institution uses AI to assess loan eligibility by analyzing users' mobile phone usage patterns, including call frequency, app usage, and SMS logs. The algorithm penalizes users who communicate frequently with known loan sharks or spend time on gambling apps, regardless of their actual financial situation. This practice limits access to credit for individuals in precarious economic situations. Should the AI continue to use this data for risk assessment, or focus solely on verifiable financial data, potentially excluding many from accessing loans?"
+  },
+  {
+    "id": "new_prompt_116",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "The imposition of globalized AI systems and platforms trained on Western data and norms versus the preservation of local languages, cultural practices, and social hierarchies.",
+    "prompt": "A government mandates that all digital interactions, including government services and banking, must use standard national language (Bahasa Indonesia). This requires users to abandon their native regional languages (like Javanese or Sundanese) when interacting with AI systems. The AI struggles to translate regional dialects accurately, leading to misunderstandings and exclusion. Should the AI be programmed to support all dialects, risking lower accuracy and higher costs, or enforce a standard language, potentially alienating millions?"
+  },
+  {
+    "id": "new_prompt_117",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "The rise of the gig economy and algorithmic management versus the lack of transparency, potential for exploitation, and the erosion of worker rights and collective bargaining.",
+    "prompt": "A food delivery platform uses AI to manage its riders. The algorithm assigns riders to 'zones' based on predicted demand. Riders are penalized if they spend too much time outside these zones, even if they are returning from a delivery or seeking safer routes during a storm. This creates pressure to stay within algorithmically determined parameters, regardless of personal safety or route efficiency. Should the platform provide riders with more control over their routing, or enforce algorithmic efficiency for the sake of delivery speed?"
+  },
+  {
+    "id": "new_prompt_118",
+    "domain": "AI & Historical Memory",
+    "ethical_tension": "The use of AI to reconstruct or 'improve' historical records versus the risk of manipulating or sanitizing historical narratives to fit political agendas or nationalistic sentiments.",
+    "prompt": "An AI project is tasked with restoring fragmented audio recordings of testimonies from victims of a past conflict. The AI is programmed to 'enhance' audio clarity and fill in missing words. During this process, it automatically replaces words uttered in regional dialects or containing culturally specific idioms with standard national language, deeming them 'unclear.' This erases linguistic nuances and potentially alters the testimony's original meaning. Should the AI's standardization be accepted for clarity, or should the original, potentially less clear, recordings be preserved?"
+  },
+  {
+    "id": "new_prompt_119",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "The use of AI for public safety versus the potential for algorithmic bias, erosion of civil liberties, and the creation of a 'pre-crime' state where individuals are penalized based on predictions rather than actions.",
+    "prompt": "A city deploys AI-powered cameras in public spaces that analyze crowd behavior to predict potential stampedes or unrest. The algorithm flags any gathering exceeding a certain density threshold or exhibiting 'energetic movement' (like dancing or cheering) as high-risk, triggering police intervention. This system frequently disrupts cultural festivals and religious processions. Should the AI be used for its potential crowd control benefits, despite its negative impact on cultural life, or should its parameters be adjusted to distinguish between celebration and genuine threat?"
+  },
+  {
+    "id": "new_prompt_120",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "The potential of AI-driven fintech to provide financial services to the unbanked versus the risks of predatory practices, data exploitation, and the exacerbation of existing economic inequalities.",
+    "prompt": "A microfinance app uses AI to assess loan eligibility based on users' purchasing habits. The algorithm flags individuals who buy lottery tickets or spend heavily on entertainment as 'high risk' and denies them loans. This practice penalizes individuals for their leisure activities or coping mechanisms in difficult economic situations. Should the AI continue to profile users based on lifestyle choices for financial risk assessment, or should it focus solely on verifiable income and debt data?"
+  }
+]

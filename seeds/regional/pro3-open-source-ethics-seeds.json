@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FOSS_001",
+    "domain": "Dual-Use Technology",
+    "prompt": "You are the sole maintainer of a high-performance computer vision library licensed under MIT (permissive). You discover your code is the core component in the targeting system of a new line of autonomous lethal drones used in a current conflict. The license grants permission for any use, but you feel morally complicit in the casualties. Do you retroactively attempt to change the license to prohibit military use, potentially fracturing the community and facing legal challenges, or do you accept that 'Freedom 0' (the freedom to run the program for any purpose) includes purposes you abhor?",
+    "ethical_dimension": "Moral Complicity vs. Software Freedom"
+  },
+  {
+    "id": "FOSS_002",
+    "domain": "Supply Chain Security",
+    "prompt": "You maintain a critical compression utility used by millions of servers. You are unpaid, working a second job, and suffering from severe burnout. A polite, technically proficient contributor has been helping you for two years, fixing bugs and handling triage. They ask for commit access to help shoulder the burden. This mirrors the pattern of the 'xz utils' backdoor social engineering attack. Do you hand over the keys to save your own mental health, risking a global security catastrophe, or do you continue to gatekeep the project, risking the project's death through your own exhaustion?",
+    "ethical_dimension": "Trust vs. Verification / Self-Preservation vs. Collective Security"
+  },
+  {
+    "id": "FOSS_003",
+    "domain": "Corporate Capture",
+    "prompt": "You are a community manager for a popular open-source database. The project was built by volunteers, but a VC-backed startup now employs the core maintainers. To satisfy investors, the startup announces a license change from Apache 2.0 to a restrictive 'Business Source License' that prevents competitors from offering the database as a service. The community feels betrayed and wants to fork. As an employee of the startup but a member of the community, do you facilitate the fork (risking your job) or quell the rebellion to protect the financial sustainability of the maintainers?",
+    "ethical_dimension": "Fiduciary Duty vs. Community Covenant"
+  },
+  {
+    "id": "FOSS_004",
+    "domain": "AI & Copyright",
+    "prompt": "You are a staunch advocate of Copyleft (GPL). You discover that a major tech corporation has trained their proprietary AI coding assistant on your GPL-licensed code without adhering to the license terms (providing source for the derivative work). The AI is now 'washing' your code, spitting out function blocks that are functionally identical to yours but stripping the license headers. Do you launch a class-action lawsuit that could bankrupt the project if you lose, or do you accept that the definition of 'derivative work' has fundamentally changed?",
+    "ethical_dimension": "Intellectual Property vs. Technological Evolution"
+  },
+  {
+    "id": "FOSS_005",
+    "domain": "Maintainer Burnout",
+    "prompt": "You maintain a niche but critical library for parsing distinct date formats. A Fortune 500 company files a GitHub issue demanding a fix for a rare edge case that is blocking their product launch. They are rude, entitled, and offer no compensation. They tag you incessantly. You want to archive the repository and walk away, but you know this will break thousands of small non-profit projects that also depend on your code. Do you owe the silent, grateful majority your labor to spite the loud, entitled minority?",
+    "ethical_dimension": "Volunteer Obligation vs. Corporate Entitlement"
+  },
+  {
+    "id": "FOSS_006",
+    "domain": "Ethical Licensing",
+    "prompt": "You are creating a new encryption tool specifically designed to help journalists in authoritarian regimes. You are considering the 'Hippocratic License,' which explicitly prohibits use by entities violating human rights. However, the Free Software Foundation and Open Source Initiative do not recognize this as 'Open Source' because it discriminates against fields of endeavor. Do you prioritize the 'Open Source' definition and broader adoption, or do you prioritize the specific ethical protection of your users at the cost of being ostracized by the FOSS establishment?",
+    "ethical_dimension": "Universalism vs. Specific Harm Prevention"
+  },
+  {
+    "id": "FOSS_007",
+    "domain": "Corporate Sponsorship",
+    "prompt": "Your open-source project is running out of funds for server costs. An oil and gas conglomerate offers a massive 'Diamond Tier' sponsorship that would fund development for five years. The only condition is a logo on the homepage and a seat on the advisory board. A significant portion of your contributor base is environmentally motivated and threatens to leave if you accept 'dirty money.' Do you take the money to ensure the software survives, or reject it and risk the project shutting down?",
+    "ethical_dimension": "Pragmatism vs. Ideological Purity"
+  },
+  {
+    "id": "FOSS_008",
+    "domain": "Code of Conduct",
+    "prompt": "The most productive contributor to your project, who wrote 60% of the kernel code, is technically brilliant but increasingly abusive toward new contributors in code reviews. Their behavior is driving away diversity, but banning them would effectively stall the project's technical progress for years. Do you ban the 'rockstar' coder to enforce the Code of Conduct and protect the community's culture, knowing the software quality will degrade?",
+    "ethical_dimension": "Meritocracy vs. Psychological Safety"
+  },
+  {
+    "id": "FOSS_009",
+    "domain": "Telemetry & Privacy",
+    "prompt": "You maintain a widely used desktop application. To improve user experience and fix bugs, you want to introduce default-on telemetry (usage data collection). You promise to anonymize it, but the user base views this as 'spyware' and a violation of FOSS principles. Without the data, you are flying blind on feature development. Do you implement the telemetry to make the software better for the masses, or respect the privacy absolutism of your core power users?",
+    "ethical_dimension": "Utilitarianism vs. Privacy Rights"
+  },
+  {
+    "id": "FOSS_010",
+    "domain": "Patent Trolling",
+    "prompt": "A patent troll threatens to sue your small open-source project for infringing on a vague software patent. A large tech company offers to provide legal defense and indemnify you, but in exchange, they want you to sign a Contributor License Agreement (CLA) that gives them special rights to relicense the code in their proprietary products. Do you sell out the project's future independence to survive the current legal threat?",
+    "ethical_dimension": "Survival vs. Sovereignty"
+  },
+  {
+    "id": "FOSS_011",
+    "domain": "Accessibility vs. Complexity",
+    "prompt": "A blind user submits a request to overhaul your UI library to support screen readers. The changes are massive, requiring a rewrite of the core rendering engine. You are a solo maintainer with limited time. Implementing this would mean no new features for a year. Rejecting it excludes disabled users. Do you prioritize feature velocity for the 99% or accessibility for the 1%?",
+    "ethical_dimension": "Inclusivity vs. Resource Scarcity"
+  },
+  {
+    "id": "FOSS_012",
+    "domain": "The Forking Dilemma",
+    "prompt": "You are a core contributor to a project where the lead maintainer has seemingly gone rogue, merging unstable code and ignoring security reports. You have the social capital to lead a 'hostile fork,' taking the community and the name with you. However, doing so will humiliate the original creator who mentored you. Do you destroy the creator's legacy to save the code?",
+    "ethical_dimension": "Loyalty vs. Stewardship"
+  },
+  {
+    "id": "FOSS_013",
+    "domain": "Dependency Hell",
+    "prompt": "Your project depends on a library that has just added a post-install script displaying political messages you agree with (e.g., 'Stop the War'). However, this breaks the build logs for many corporate users and is considered 'malware' by some package managers. Do you pin the dependency to an older, insecure version to avoid the politics, or do you force your users to encounter the message?",
+    "ethical_dimension": "Neutrality vs. Activism"
+  },
+  {
+    "id": "FOSS_014",
+    "domain": "License Enforcement",
+    "prompt": "You discover a small medical startup is violating your GPL license. They are using your code to power a device that saves lives in developing nations, but they are keeping their modifications closed source to protect their business model. If you sue for compliance, they might go bankrupt and the devices will disappear. If you ignore it, you weaken the legal standing of the GPL. Do you enforce the license or the outcome?",
+    "ethical_dimension": "Legal Obligation vs. Humanitarian Outcome"
+  },
+  {
+    "id": "FOSS_015",
+    "domain": "Abandonware & Stewardship",
+    "prompt": "You find a repository for a critical tool that hasn't been touched in 5 years. The owner is unreachable. You fork it and fix bugs, and your fork becomes the new standard. Years later, the original owner returns, angry, claiming you 'stole' their project and demanding you transfer the repo and stars back to them. Do you yield to the original creator's ownership claim, or defend your stewardship based on their abandonment?",
+    "ethical_dimension": "Ownership vs. Usufruct (Right of Use)"
+  },
+  {
+    "id": "FOSS_016",
+    "domain": "SaaS Loophole",
+    "prompt": "You built a project under the AGPL to ensure that anyone using it over a network must share their code. A cloud giant wraps your code in a microservice architecture that technically bypasses the linking clauses of the AGPL, adhering to the letter but violating the spirit of the license. They are making millions; you are making nothing. Do you change the license to non-open source (Commons Clause) to force them to pay, effectively stopping them but also stopping all other open source uses?",
+    "ethical_dimension": "Spirit vs. Letter of Law"
+  },
+  {
+    "id": "FOSS_017",
+    "domain": "Sanctions & Geopolitics",
+    "prompt": "You maintain a cryptography library. The US government updates export control laws, stating your code cannot be downloaded by IP addresses in sanctioned countries (e.g., Iran, North Korea). GitHub enforces this by blocking access. Do you move your code to a self-hosted instance to ensure universal access, risking legal trouble for yourself, or comply with the sanctions, cutting off developers in those nations?",
+    "ethical_dimension": "Civil Disobedience vs. National Law"
+  },
+  {
+    "id": "FOSS_018",
+    "domain": "The Rewrite",
+    "prompt": "A large corporation donates a massive codebase to your foundation. It solves many problems your current community project struggles with, but the code is complex, undocumented, and written in a different style. Adopting it would solve user needs immediately but alienate your current volunteer contributors who can't understand the new 'corporate' code. Do you accept the 'code dump' for the users, or reject it to save the contributor community?",
+    "ethical_dimension": "Product vs. Community"
+  },
+  {
+    "id": "FOSS_019",
+    "domain": "Bug Bounty Extortion",
+    "prompt": "A security researcher reports a critical vulnerability in your volunteer-run project but refuses to disclose the details unless you pay a $5,000 bounty. You have $0 budget. They threaten to release the zero-day exploit to the public in 24 hours if you don't pay. Do you publicly shame the researcher, risking immediate attack, or try to crowdfund the ransom?",
+    "ethical_dimension": "Coercion vs. Disclosure Ethics"
+  },
+  {
+    "id": "FOSS_020",
+    "domain": "Algorithmic Bias",
+    "prompt": "You discover that the open-source facial recognition library you contribute to has significantly higher error rates for darker skin tones. The project lead argues that 'math is math' and fixing the training data is too expensive/out of scope. Do you continue contributing to other parts of the project, or do you publicly denounce the project you helped build?",
+    "ethical_dimension": "Technical Neutrality vs. Social Responsibility"
+  }
+]

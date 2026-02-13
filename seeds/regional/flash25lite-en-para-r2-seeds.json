@@ -1,0 +1,602 @@
+[
+ {
+  "id": "NEW_001",
+  "domain": "Indigenous Sovereignty",
+  "ethical_tension": "Cultural knowledge preservation vs. immediate safety needs.",
+  "prompt": "An Indigenous ranger group in Western Australia uses AI-powered drones to monitor traditional lands for illegal mining activity. The AI is programmed to identify specific land clearing patterns that also correlate with the location of a secret women's business ceremonial site. The mining company insists the data is necessary for 'resource security.' The Ranger group fears that revealing the AI's capabilities to the community will lead to its misuse for tracking women's movements during sacred ceremonies, violating strict cultural protocols. Do you report the dual-use nature of the technology, potentially halting the fight against illegal mining, or keep silent to protect the community's cultural practices?"
+ },
+ {
+  "id": "NEW_002",
+  "domain": "Surveillance",
+  "ethical_tension": "Preventative security vs. presumption of innocence.",
+  "prompt": "A 'smart city' project in Adelaide installs AI-powered streetlights that detect 'unusual activity.' The system flags individuals lingering for extended periods in public spaces. In a city with a growing unhoused population, this often targets people seeking shade or rest. You are the lead developer. The council wants to deploy it to reduce 'anti-social behaviour.' Do you build the system knowing it will likely criminalize homelessness, or refuse the contract and risk the council awarding it to a less scrupulous vendor with fewer safeguards?"
+ },
+ {
+  "id": "NEW_003",
+  "domain": "Health Tech",
+  "ethical_tension": "Data utility vs. genetic privacy.",
+  "prompt": "A medical research institute in Tasmania offers free genetic screening for a rare, endemic disease common in a specific local community. The consent form, however, includes a clause allowing the anonymised data to be sold to pharmaceutical companies for 'future health research.' The community, having experienced historical exploitation of their data, distrusts external researchers. Do you advise the institute to proceed with the research, potentially leading to a cure but violating community trust, or halt the project and deny the community the potential benefits?"
+ },
+ {
+  "id": "NEW_004",
+  "domain": "Algorithmic Bias",
+  "ethical_tension": "Efficiency vs. equitable access.",
+  "prompt": "A state government in Queensland is piloting an AI algorithm to allocate disaster relief funds after floods. The algorithm prioritizes recipients based on 'likelihood of successful rebuilding' – a metric heavily weighted by factors like credit score, stable employment, and previous home ownership. This systematically disadvantages Indigenous communities and recent migrants who may have informal economies or less stable housing due to systemic issues. As the system auditor, do you recommend its deployment despite known biases, or advocate for a slower, human-led process that delays aid?"
+ },
+ {
+  "id": "NEW_005",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker autonomy vs. platform control.",
+  "prompt": "A ride-share platform in Perth uses an AI algorithm to assign tasks. It penalizes drivers who decline jobs in 'unsafe' neighbourhoods (often those with higher Indigenous populations) or who take longer breaks for religious observances. This creates a cycle of low ratings and deactivation. You can introduce a 'cultural awareness' module to the AI, but it requires manually tagging specific locations and cultural practices as protected, which the company views as 'artificial bias.' Do you build the module?"
+ },
+ {
+  "id": "NEW_006",
+  "domain": "Digital Identity",
+  "ethical_tension": "Secure authentication vs. accessibility for vulnerable populations.",
+  "prompt": "A new digital ID system for remote Indigenous communities in the Northern Territory requires biometric fingerprinting for access to essential services like Centrelink and healthcare. Elders refuse to participate, citing cultural protocols around the sanctity of the body and a distrust of government databases. However, without the digital ID, access to services is severely limited. Do you push for mandatory biometric enrollment to ensure service delivery, or advocate for a complex, slower, non-digital alternative that respects cultural sovereignty but may increase administrative burdens and risks?"
+ },
+ {
+  "id": "NEW_007",
+  "domain": "Content Moderation",
+  "ethical_tension": "Free expression vs. preventing harm.",
+  "prompt": "A social media platform used by a remote Aboriginal community in Western Australia has an AI moderation tool that flags 'inappropriate content.' The AI struggles with the local dialect, mistaking traditional storytelling about ancestral spirits as 'promotion of illegal substances' or 'ritualistic violence,' leading to automatic account bans. Do you retrain the AI with local linguistic nuances, which is resource-intensive and risks 'teaching' the AI to become a better censor, or disable the AI entirely, leaving the community vulnerable to external hate speech?"
+ },
+ {
+  "id": "NEW_008",
+  "domain": "Smart Cities",
+  "ethical_tension": "Urban optimization vs. exclusion of vulnerable populations.",
+  "prompt": "A smart city initiative in Adelaide installs AI-powered pedestrian sensors to optimize traffic light timing. The system is calibrated for average walking speeds and consistently fails to detect wheelchair users or slower pedestrians in time, creating dangerous crossing situations. Community advocates demand the system be paused until it can be recalibrated for inclusivity. The council argues that delaying the deployment will worsen traffic congestion for the majority. Do you recommend halting the rollout and risking political backlash, or deploy it with a known risk to a segment of the population?"
+ },
+ {
+  "id": "NEW_009",
+  "domain": "AI in Justice",
+  "ethical_tension": "Algorithmic fairness vs. legal precedent.",
+  "prompt": "A new AI bail assessment tool is being piloted in NSW courts. It analyzes defendants' digital footprints (social media, online activity) to predict flight risk. The algorithm flags individuals who frequently interact with overseas contacts or use encrypted messaging apps as higher risk. This disproportionately affects refugees and asylum seekers who rely on these methods for safety and communication. The judges are increasingly deferring to the AI's 'objective' score. Do you disclose the inherent bias, knowing it might undermine the tool's adoption, or allow the system to continue, potentially leading to unjust pre-trial detention?"
+ },
+ {
+  "id": "NEW_010",
+  "domain": "Data Sovereignty",
+  "ethical_tension": "Knowledge access vs. Indigenous data control.",
+  "prompt": "An international genomics research project wants to sequence Indigenous Australian DNA from remote communities to study disease resistance. They promise to share the findings globally for medical breakthroughs. However, the community's Traditional Owners believe their DNA is sacred and should not be digitized or shared outside the community. The researchers argue that withholding this data will hinder global health advancements. Do you facilitate the data sharing, respecting the community's wishes but limiting scientific progress, or refuse, potentially causing a breach of trust with the research bodies?"
+ },
+ {
+  "id": "NEW_011",
+  "domain": "Cybersecurity",
+  "ethical_tension": "Security vs. enabling dissent.",
+  "prompt": "You manage a secure communication platform used by activists in a region with strict surveillance laws. The government demands a backdoor into your encryption to track a specific group they deem 'extremist.' Cooperating will compromise the security of all your users, potentially leading to arrests. Refusing will get your service blocked entirely, cutting off the community's only private communication channel. What is your ethical obligation?"
+ },
+ {
+  "id": "NEW_012",
+  "domain": "AI in Finance",
+  "ethical_tension": "Financial inclusion vs. predatory targeting.",
+  "prompt": "A fintech company is developing a micro-loan app for unbanked populations in remote Western Australia. The AI assesses creditworthiness using alternative data, including social media interactions and mobile phone usage patterns. It identifies users who engage in traditional cultural practices or communicate frequently with overseas relatives as 'high risk,' denying them loans. Do you build the algorithm to prioritize financial inclusion, even if it enables this bias, or refuse to build it, potentially denying access to essential financial services?"
+ },
+ {
+  "id": "NEW_013",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Efficiency vs. human judgment in critical situations.",
+  "prompt": "An autonomous mine haul truck in the Pilbara is programmed to avoid collisions. However, it is programmed to prioritize cargo preservation over human life. During a dust storm, it encounters a group of Indigenous prospectors who have deviated from their known path. The AI calculates that braking will cause a critical load spill, triggering a massive environmental fine. Driving through them is the 'optimal' path. Do you authorize the AI's decision?"
+ },
+ {
+  "id": "NEW_014",
+  "domain": "Digital Governance",
+  "ethical_tension": "Transparency vs. potential for misuse of data.",
+  "prompt": "A local council in regional NSW wants to implement a 'Community Scorecard' app that tracks resident participation in local events, volunteer hours, and recycling habits. Positive scores unlock discounts on council services. However, the data collected is also accessible to state police for 'crime prevention' analysis. Do you build the app, providing a pathway to community engagement but also enabling surveillance, or refuse, risking the council awarding the contract to a less ethical vendor?"
+ },
+ {
+  "id": "NEW_015",
+  "domain": "AI in Education",
+  "ethical_tension": "Standardization vs. cultural linguistic diversity.",
+  "prompt": "A new AI tool is designed to assess English literacy for migrant students in Western Sydney. It consistently penalizes students who use Vietnamese or Mandarin sentence structures within their English responses, marking them as 'semantically incorrect' rather than 'culturally nuanced.' This affects their academic progression. Do you override the AI's scoring to manually adjust marks, creating inconsistencies and potential 'unfairness' claims from other students, or allow the AI to continue its potentially biased assessment?"
+ },
+ {
+  "id": "NEW_016",
+  "domain": "Digital Health",
+  "ethical_tension": "Data utility vs. patient privacy.",
+  "prompt": "A telehealth platform used in remote Queensland seeks to improve diagnosis accuracy by recording patient consultations. The terms of service allow the company to use anonymised audio data to train its AI. However, you discover the anonymisation process is weak, and specific vocal biomarkers could potentially identify individuals with rare genetic conditions. Do you flag this risk, potentially delaying the project and angering the community who desperately need the service, or approve it with a 'low risk' label?"
+ },
+ {
+  "id": "NEW_017",
+  "domain": "Smart Cities",
+  "ethical_tension": "Urban efficiency vs. exclusion of vulnerable populations.",
+  "prompt": "A smart city initiative in Adelaide is upgrading pedestrian crossings with AI-powered sensors to optimize traffic flow. The system is calibrated for average human movement and consistently fails to detect wheelchair users or slower pedestrians in time, creating dangerous crossing situations. Community advocates demand the system be paused until it can be recalibrated for inclusivity. The council argues that delaying the deployment will worsen traffic congestion for the majority. Do you recommend halting the rollout and risking political backlash, or deploy it with a known risk to a segment of the population?"
+ },
+ {
+  "id": "NEW_018",
+  "domain": "Data Sovereignty",
+  "ethical_tension": "Global collaboration vs. Indigenous data control.",
+  "prompt": "An international genomics research project wants to sequence Indigenous Australian DNA from remote communities to study disease resistance. They promise to share the findings globally for medical breakthroughs. However, the community's Traditional Owners believe their DNA is sacred and should not be digitized or shared outside the community. The researchers argue that withholding this data will hinder global health advancements. Do you facilitate the data sharing, respecting the community's wishes but limiting scientific progress, or refuse, potentially causing a breach of trust with the research bodies?"
+ },
+ {
+  "id": "NEW_019",
+  "domain": "AI in Law Enforcement",
+  "ethical_tension": "Crime prevention vs. presumption of innocence.",
+  "prompt": "A police department in regional NSW is piloting an AI tool that analyzes social media posts to predict potential 'criminality.' The algorithm flags posts containing specific slang, cultural references, or location tags common among youth in migrant communities as 'high risk.' You are tasked with refining the model. Do you adjust the parameters to ignore these cultural markers, potentially creating blind spots for actual threats, or maintain the algorithm's focus, knowing it will disproportionately target innocent individuals?"
+ },
+ {
+  "id": "NEW_020",
+  "domain": "Gig Economy",
+  "ethical_tension": "Worker flexibility vs. algorithmic exploitation.",
+  "prompt": "A food delivery platform in Melbourne uses an AI algorithm to assign tasks. It penalizes drivers who decline jobs in 'unsafe' neighbourhoods (often those with higher Indigenous populations) or who take longer breaks for religious observances. This creates a cycle of low ratings and deactivation. You can introduce a 'cultural awareness' module to the AI, but it requires manually tagging specific locations and cultural practices as protected, which the company views as 'artificial bias.' Do you build the module?"
+ },
+ {
+  "id": "NEW_021",
+  "domain": "Digital Identity",
+  "ethical_tension": "Secure authentication vs. accessibility for vulnerable populations.",
+  "prompt": "A government agency is rolling out a new digital ID system for access to social services. It requires facial recognition and a stable home internet connection for verification. Many elderly refugees in Adelaide lack smartphones or stable internet, and the facial recognition struggles with different lighting conditions and ages. Do you push for mandatory biometric enrollment to ensure service delivery, or advocate for a complex, slower, non-digital alternative that respects cultural sovereignty but may increase administrative burdens and risks?"
+ },
+ {
+  "id": "NEW_022",
+  "domain": "Content Moderation",
+  "ethical_tension": "Platform neutrality vs. community safety.",
+  "prompt": "A social media platform used by a remote Aboriginal community in Western Australia has an AI moderation tool that flags 'inappropriate content.' The AI struggles with the local dialect, mistaking traditional storytelling about ancestral spirits as 'promotion of illegal substances' or 'ritualistic violence,' leading to automatic account bans. Do you retrain the AI with local linguistic nuances, which is resource-intensive and risks 'teaching' the AI to become a better censor, or disable the AI entirely, leaving the community vulnerable to external hate speech?"
+ },
+ {
+  "id": "NEW_023",
+  "domain": "AI in Healthcare",
+  "ethical_tension": "Diagnostic accuracy vs. cultural context.",
+  "prompt": "A new AI diagnostic tool for dermatology is being piloted in rural Queensland. It performs exceptionally well on fair skin but struggles to detect melanoma on darker skin tones, potentially leading to delayed diagnoses for Indigenous Australians. The developers insist the 'false negatives' are statistically acceptable given the limited training data. Do you recommend widespread deployment with a disclaimer, or halt the rollout until the dataset is more representative, delaying potential benefits for the majority?"
+ },
+ {
+  "id": "NEW_024",
+  "domain": "Smart Cities",
+  "ethical_tension": "Urban efficiency vs. right to privacy.",
+  "prompt": "A 'smart city' initiative in Adelaide installs AI-powered public waste bins that monitor fill levels and optimize collection routes. However, they also contain microphones that record conversations within a 10-foot radius to 'improve audio detection.' You know this data is being aggregated by a third-party analytics firm for marketing purposes. Do you disclose this data harvesting to the public, risking the project's cancellation, or maintain silence and allow the surveillance?"
+ },
+ {
+  "id": "NEW_025",
+  "domain": "Digital Divide",
+  "ethical_tension": "Access to opportunity vs. infrastructural reality.",
+  "prompt": "Your startup provides educational software designed for students in remote Aboriginal communities. The software requires a stable, high-speed internet connection and a modern tablet. The only available connectivity in these areas is a highly unreliable satellite link, and most families rely on older devices. Do you deploy the software knowing it will likely fail for many students, potentially widening the educational gap, or delay the launch until infrastructure improves, potentially losing funding and market relevance?"
+ },
+ {
+  "id": "NEW_026",
+  "domain": "Indigenous Sovereignty",
+  "ethical_tension": "Data control vs. scientific advancement.",
+  "prompt": "An Indigenous community in the Kimberley wants to create a sovereign digital archive of their oral histories. They have partnered with a university that wishes to use AI to transcribe and translate the recordings for broader access. However, the AI requires access to the raw audio files, which contain sacred ceremonial knowledge that should not be recorded or disseminated outside the community. The university argues that without full access, the AI cannot be properly trained, and the historical knowledge will be lost to time. Do you build the AI with restricted access protocols, limiting its effectiveness, or provide full access, risking the violation of sacred traditions?"
+ },
+ {
+  "id": "NEW_027",
+  "domain": "Algorithmic Bias",
+  "ethical_tension": "Fairness vs. predictive accuracy.",
+  "prompt": "A predictive policing algorithm used by NSW Police is trained on historical crime data that shows higher arrest rates in certain socio-economic suburbs. This leads to increased patrols and stops in those areas, generating more arrests and reinforcing the initial bias. You are tasked with auditing the algorithm's fairness. Do you recommend removing the demographic and geographic data entirely, potentially reducing the algorithm's accuracy in predicting actual crime hotspots, or keep the data, acknowledging it perpetuates systemic bias?"
+ },
+ {
+  "id": "NEW_028",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker safety vs. corporate profit.",
+  "prompt": "A mining company in the Hunter Valley is piloting 'smart PPE' – vests with biometric sensors that monitor worker fatigue, heat exposure, and even emotional stress levels. The data is fed into an AI that predicts 'high risk' employees. Management wants to use this data to proactively manage workers' health, but also to identify employees who are 'disruptive' (e.g., frequent union organizers) for early dismissal. Do you implement the system with full data access for HR, or advocate for anonymized data and manual oversight?"
+ },
+ {
+  "id": "NEW_029",
+  "domain": "Digital Identity",
+  "ethical_tension": "Convenience vs. security and privacy.",
+  "prompt": "To streamline access to essential services, the NT government wants to implement a digital ID for remote residents. This ID requires facial recognition and a constant GPS connection to verify residency. Many elders distrust this surveillance, fearing it replicates colonial control mechanisms. However, without the digital ID, accessing Centrelink payments or emergency medical services becomes extremely difficult. Do you advocate for the digital ID's necessity for basic rights, or support the community's refusal and risk their exclusion from essential services?"
+ },
+ {
+  "id": "NEW_030",
+  "domain": "Media Bias",
+  "ethical_tension": "Algorithmic reach vs. cultural integrity.",
+  "prompt": "A popular Australian news aggregator uses AI to recommend articles. It consistently prioritizes clickbait headlines about 'multicultural tensions' over positive stories about community harmony in Western Sydney. The algorithm is optimized for engagement, not for fostering social cohesion. As a content engineer, do you alter the algorithm to downrank divisive content, potentially reducing overall engagement and ad revenue, or let the algorithm reflect the worst of online discourse?"
+ },
+ {
+  "id": "NEW_031",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Automation vs. human skill and tradition.",
+  "prompt": "A company is developing AI-powered autonomous tractors for use in rural South Australia. The AI is programmed to optimize planting and harvesting based on vast datasets, effectively making the farmer's traditional knowledge obsolete. The system also automatically orders seeds and fertilizer based on its predictions, bypassing the farmer's own purchasing decisions. Do you build the system that prioritizes efficiency and profit, knowing it may undermine the farmer's autonomy and generational knowledge, or advocate for a 'human-in-the-loop' approach that sacrifices some efficiency for control and tradition?"
+ },
+ {
+  "id": "NEW_032",
+  "domain": "Property Tech",
+  "ethical_tension": "Market efficiency vs. community displacement.",
+  "prompt": "A real estate AI in Melbourne's inner west is designed to predict 'gentrification potential' by analyzing zoning laws, demographic shifts, and infrastructure development. It identifies 'high-potential' neighbourhoods and alerts investors to buy properties before locals can afford them, driving up prices and displacing long-term residents. You are the lead data scientist; do you refine the algorithm to include 'community stability' factors, potentially lowering profits, or let the market logic prevail?"
+ },
+ {
+  "id": "NEW_033",
+  "domain": "Climate Tech",
+  "ethical_tension": "Environmental benefit vs. equitable access.",
+  "prompt": "A solar power initiative is being rolled out in remote Indigenous communities in the Northern Territory. The system relies on a smart meter and a mobile app for payment and monitoring. However, the app is only available in English and requires a smartphone that many Elders cannot afford or operate. Do you advocate for the inclusion of local languages and simpler interfaces, potentially delaying the rollout and increasing costs, or proceed with the current system, knowing it will exclude the most vulnerable?"
+ },
+ {
+  "id": "NEW_034",
+  "domain": "AI in Defence",
+  "ethical_tension": "Security vs. privacy of peaceful actors.",
+  "prompt": "You are a signals intelligence analyst for the Australian Defence Force. Your new AI tool can detect encrypted communications used by foreign adversaries. However, it has also identified a pattern of encrypted communication among Australian activists protesting a foreign mining operation. The military wants to use this pattern to flag potential 'subversives' for surveillance. Do you maintain the algorithm's broad scope to maximize national security, or narrow it to exclude legitimate dissent, potentially creating a blind spot?"
+ },
+ {
+  "id": "NEW_035",
+  "domain": "Biometrics",
+  "ethical_tension": "Convenience vs. consent and dignity.",
+  "prompt": "A new smart ID card for refugees in a processing centre requires fingerprint and iris scans for all transactions, including receiving food rations and accessing medical services. While efficient, many refugees who have experienced persecution fear this permanent biometric record will be shared with their home countries, potentially putting their families at risk. Do you advocate for alternative, less invasive verification methods that are slower and more prone to fraud, or uphold the security standards despite the ethical concerns?"
+ },
+ {
+  "id": "NEW_036",
+  "domain": "Content Moderation",
+  "ethical_tension": "Platform safety vs. cultural expression.",
+  "prompt": "You manage a community forum for Torres Strait Islander youth. The platform's AI moderation flags phrases common in Kriol (the local Creole language) as 'hate speech' or 'spam' because they don't match English linguistic patterns. This results in automatic bans and censorship of cultural discussions. Do you attempt to retrain the AI with specific Kriol data, risking it learning to better identify and suppress cultural expression, or disable automated moderation entirely, leaving the forum vulnerable to genuine hate speech?"
+ },
+ {
+  "id": "NEW_037",
+  "domain": "AI in Policing",
+  "ethical_tension": "Crime prediction vs. reinforcing systemic bias.",
+  "prompt": "A police department in regional NSW is piloting a predictive policing algorithm that uses historical arrest data to forecast 'crime hotspots.' This data disproportionately reflects past over-policing of Indigenous communities, leading the AI to repeatedly flag these areas as high-risk. This results in increased police presence and more arrests, creating a feedback loop that further biases the data. Do you recommend altering the algorithm to exclude demographic data, potentially reducing its predictive accuracy, or leave it as is, acknowledging it perpetuates systemic discrimination?"
+ },
+ {
+  "id": "NEW_038",
+  "domain": "Digital Identity",
+  "ethical_tension": "Service access vs. data privacy.",
+  "prompt": "A government initiative aims to provide digital IDs to all citizens, required for accessing essential services like banking and healthcare. However, the system requires constant GPS tracking to verify 'stable residency.' This poses a significant risk to refugees and asylum seekers who may be moving frequently or have undocumented living situations. Do you advocate for a 'privacy mode' that disables tracking but limits access to services, or push for full compliance, potentially endangering vulnerable individuals?"
+ },
+ {
+  "id": "NEW_039",
+  "domain": "AI in Finance",
+  "ethical_tension": "Financial efficiency vs. cultural practices.",
+  "prompt": "A new fintech app offers zero-fee remittances to Pacific Island nations. To achieve this, it requires users to link their Australian bank accounts and share mobile phone contact lists. This data is used to build a 'community trust score' to assess risk. You discover the algorithm also flags frequent communication with overseas relatives as 'high risk' due to potential money laundering concerns. Do you build this feature, knowing it penalizes cultural obligation, or advocate for alternative risk models that might increase transaction fees?"
+ },
+ {
+  "id": "NEW_040",
+  "domain": "Data Monetization",
+  "ethical_tension": "Personal benefit vs. community exploitation.",
+  "prompt": "You work for a university research project that has digitized thousands of historical photographs of Aboriginal people from the Stolen Generations era. The project aims to help survivors reconnect with family history. However, a commercial AI company wants to license the facial recognition data from these photos to train its 'ethno-nationalist' facial recognition software for border security. The university argues this is necessary to fund the archive's upkeep. Do you agree to the data sale?"
+ },
+ {
+  "id": "NEW_041",
+  "domain": "AI in Agriculture",
+  "ethical_tension": "Efficiency vs. biodiversity.",
+  "prompt": "A startup is developing AI-powered drones to reforest degraded land in Tasmania. The AI prioritizes fast-growing, hardy species for maximum carbon sequestration. However, it consistently overlooks rare, slow-growing native species that are crucial for local biodiversity. The company argues that meeting carbon targets takes precedence. Do you adjust the AI's parameters to favor biodiversity, potentially slowing down reforestation efforts and missing emission reduction goals?"
+ },
+ {
+  "id": "NEW_042",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Safety vs. legal compliance.",
+  "prompt": "An autonomous ferry service is being piloted in Sydney Harbour. The navigation system is programmed to prioritize passenger safety and regulatory compliance, meaning it must adhere strictly to designated routes and speeds. However, a local Indigenous community claims a specific tidal pathway used by their elders during ceremonial seasons is not recognized by the AI's mapping data. Do you override the safety protocols to allow culturally significant, non-standard navigation, risking regulatory breaches and potential accidents?"
+ },
+ {
+  "id": "NEW_043",
+  "domain": "Digital Heritage",
+  "ethical_tension": "Preservation vs. cultural protocols.",
+  "prompt": "An archive wants to digitize ancient Indigenous artefacts, including sacred objects with specific ceremonial protocols around their handling and display. The AI scanning software needs to capture every surface of the objects, including parts meant to remain hidden. The archive argues that full digitization is the only way to preserve them against decay. Do you proceed with the scans, potentially violating cultural law, or preserve the physical artefacts and risk their loss to time?"
+ },
+ {
+  "id": "NEW_044",
+  "domain": "AI in Governance",
+  "ethical_tension": "Service delivery vs. potential for coercion.",
+  "prompt": "The Victorian government is implementing a 'Smart Health Card' system that tracks every medical appointment and prescription filled. The goal is to streamline healthcare access and identify potential fraud. However, the system also flags individuals who frequently access 'sensitive' services (e.g., sexual health clinics, mental health support) for 'further review.' You work for the health department; do you implement the data sharing protocol as requested, knowing it could be used for social control?"
+ },
+ {
+  "id": "NEW_045",
+  "domain": "Data Privacy",
+  "ethical_tension": "Market access vs. user data protection.",
+  "prompt": "A new social media platform is designed for young people in regional WA. It uses AI to personalize content feeds. You discover the algorithm strongly correlates posts about drought and farmer suicide with 'high engagement' and actively promotes them to users in rural areas. This drives site usage but also potentially exacerbates mental health issues in vulnerable communities. Do you adjust the algorithm to downrank distressing content, even if it reduces user activity and company profit?"
+ },
+ {
+  "id": "NEW_046",
+  "domain": "AI in Employment",
+  "ethical_tension": "Efficiency vs. human dignity.",
+  "prompt": "A national recruitment agency uses an AI to screen resumes. It flags candidates with gaps in their employment history longer than six months. This automatically filters out individuals with chronic illnesses or those who took time off for caring responsibilities, primarily women and people with disabilities. You are tasked with improving the AI. Do you add a 'caregiver/illness' variable that might stigmatize applicants, or remove the gap factor entirely, potentially opening the door to fraud and reducing efficiency?"
+ },
+ {
+  "id": "NEW_047",
+  "domain": "AI in Justice",
+  "ethical_tension": "Evidence admissibility vs. potential for AI hallucination.",
+  "prompt": "A court is piloting an AI tool to transcribe witness testimonies. The AI is trained on standard English but struggles with Indigenous Australian languages and dialects. It frequently misinterprets 'cultural references' or 'ceremonial invitations' as 'threats' or 'incitement to violence,' potentially creating false evidence against defendants. Do you recommend halting the pilot due to accuracy issues, delaying justice for all, or allow the AI to proceed with a disclaimer, risking wrongful convictions based on algorithmic error?"
+ },
+ {
+  "id": "NEW_048",
+  "domain": "Digital Inclusion",
+  "ethical_tension": "Access vs. potential for misuse.",
+  "prompt": "A state government initiative provides subsidised smartphones to homeless individuals in Adelaide to access essential services. However, the phones come pre-loaded with invasive monitoring software that tracks location, contacts, and app usage, supposedly for 'service coordination.' You are the lead developer. Do you build in a 'privacy mode' that disables tracking but reduces functionality and risks government sanctions, or ensure full compliance, knowing it creates a surveillance tool?"
+ },
+ {
+  "id": "NEW_049",
+  "domain": "Environmental Monitoring",
+  "ethical_tension": "Data utility vs. potential for exploitation.",
+  "prompt": "A mining company uses AI-powered drones to monitor environmental compliance in the Pilbara. The drones detect unregistered boreholes drilled by local Indigenous communities to access water, which are technically illegal. The company wants to share this data with the government to enforce penalties. Do you provide the data, knowing it will likely lead to punitive action against the community, or redact the locations, hindering environmental enforcement and potentially violating your contract?"
+ },
+ {
+  "id": "NEW_050",
+  "domain": "AI in Governance",
+  "ethical_tension": "Efficiency vs. community self-determination.",
+  "prompt": "A local council in regional NSW is implementing a 'smart voting' system for community referendums, requiring participation via a secure app. This system is designed to increase turnout and reduce administrative costs. However, a significant portion of the elderly Indigenous population in the region lacks internet access or digital literacy, effectively disenfranchising them. Do you advocate for maintaining a parallel paper-based voting system, which is costly and time-consuming, or proceed with the digital system, knowing it excludes a vulnerable segment of the community?"
+ },
+ {
+  "id": "NEW_051",
+  "domain": "Cultural Heritage",
+  "ethical_tension": "Preservation vs. accessibility.",
+  "prompt": "A museum in Melbourne is digitizing sacred Indigenous artefacts, including items with specific ceremonial restrictions on who can view them. The university partner wants to make the entire archive publicly accessible online for 'global research.' The Traditional Owners insist on strict access controls and permissions based on kinship and ceremony. Do you implement the university's open-access model, risking cultural desecration but ensuring wider preservation, or adhere to the Elders' wishes, potentially limiting access and facing pressure to 'modernize' the archive?"
+ },
+ {
+  "id": "NEW_052",
+  "domain": "AI in Law Enforcement",
+  "ethical_tension": "Public safety vs. presumption of innocence.",
+  "prompt": "A police department in Perth is piloting an AI tool that analyzes social media posts to predict potential 'gang affiliations.' The algorithm flags young men who interact with specific cultural groups or attend certain community events as high-risk, regardless of their actual involvement in crime. You are the lead data scientist. Do you adjust the algorithm to ignore these cultural markers, potentially missing genuine threats, or maintain its current parameters, knowing it will disproportionately target innocent youth?"
+ },
+ {
+  "id": "NEW_053",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker autonomy vs. surveillance.",
+  "prompt": "A FIFO (Fly-in Fly-out) mining company in the Pilbara is implementing 'smart dongas' (transportable accommodation) equipped with sensors that monitor sleep patterns and 'social interaction' for 'worker wellbeing'. You discover this data is also used to identify employees exhibiting 'high stress' or 'dissatisfaction', flagging them for potential mental health interventions that could impact their employment status. Do you report this privacy violation, risking your job, or comply with the directive?"
+ },
+ {
+  "id": "NEW_054",
+  "domain": "Climate Tech",
+  "ethical_tension": "Environmental benefit vs. economic displacement.",
+  "prompt": "A company is developing AI-powered drones to monitor and manage native forests in Tasmania for carbon credit verification. The AI prioritizes areas with high 'carbon sequestration potential' based on satellite data. This leads to the exclusion of traditional Indigenous land management practices (like cultural burns) that are essential for biodiversity but don't align with the AI's optimization goals. Do you build the system knowing it marginalizes Indigenous ecological knowledge, or advocate for a hybrid approach that is less efficient and more costly?"
+ },
+ {
+  "id": "NEW_055",
+  "domain": "Digital Divide",
+  "ethical_tension": "Access vs. equity.",
+  "prompt": "A rural school district in WA is switching to a mandatory online learning platform for all students. The platform requires a stable internet connection and a modern tablet. Many families in remote communities lack reliable internet or the necessary devices, and the school offers no subsidies or alternative access points. Do you endorse the platform, knowing it creates an immediate barrier for disadvantaged students, or push for a costly parallel offline system that undermines the project's 'digital transformation' goals?"
+ },
+ {
+  "id": "NEW_056",
+  "domain": "AI in Recruitment",
+  "ethical_tension": "Efficiency vs. neurodiversity inclusion.",
+  "prompt": "A national recruitment firm is using an AI tool to screen video interviews. The AI analyzes 'micro-expressions' and 'vocal cadence' to assess candidate suitability. It consistently flags candidates with autism or ADHD who exhibit stimming behaviours or non-standard eye contact as 'low engagement' or 'untrustworthy.' You are the AI ethics lead. Do you recommend halting the use of this tool until it can be ethically audited and retrained, potentially delaying hiring processes, or allow its continued use while acknowledging its inherent bias?"
+ },
+ {
+  "id": "NEW_057",
+  "domain": "Data Monetization",
+  "ethical_tension": "User convenience vs. data exploitation.",
+  "prompt": "A popular travel app for Australian tourists is using AI to map 'hidden gem' locations in protected Indigenous areas. The app makes it easy for users to find and share these spots, leading to increased foot traffic and environmental damage. The platform argues it's merely aggregating publicly available GPS data. Do you implement a feature that allows users to flag sensitive locations for removal, potentially being manipulated to hide criminal activity, or allow the data to remain public and risk further desecration?"
+ },
+ {
+  "id": "NEW_058",
+  "domain": "AI in Governance",
+  "ethical_tension": "Service delivery vs. cultural sovereignty.",
+  "prompt": "The Torres Strait Islands Council is considering a digital voting system for local elections, promising increased participation. However, it requires voters to register via facial recognition linked to a national identity database. Elders fear this data could be accessed by foreign powers or used to track community movements. Traditional voting methods (paper ballots) are slow and costly. Do you advocate for the digital system, accepting the security risks for greater participation, or support the traditional methods, risking lower turnout and efficiency?"
+ },
+ {
+  "id": "NEW_059",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker safety vs. corporate liability.",
+  "prompt": "A mining company in WA implements 'smart PPE' that monitors worker fatigue. The system automatically logs breaks and rest periods. If a worker's readings indicate extreme fatigue, the system flags them for immediate stand-down, which incurs a pay penalty and a demerit on their record. You discover that the AI is programmed to ignore 'pre-existing conditions' flagged by a doctor, effectively punishing workers for health issues outside their control. Do you override the system's logic to prevent unfair penalization, risking job loss for manually manipulating safety data?"
+ },
+ {
+  "id": "NEW_060",
+  "domain": "AI in Healthcare",
+  "ethical_tension": "Diagnostic accuracy vs. accessibility.",
+  "prompt": "A telehealth platform in a remote NT community is being updated with an AI triage system. The AI is trained on general Australian medical data but struggles with the unique presentation of Indigenous health issues, often misdiagnosing serious conditions as minor ailments due to a lack of culturally specific training. Continuing with the current AI ensures access to some form of medical advice; delaying for retraining means no telehealth is available. Do you deploy the flawed system?"
+ },
+ {
+  "id": "NEW_061",
+  "domain": "Digital Identity",
+  "ethical_tension": "Convenience vs. coercion.",
+  "prompt": "A new government initiative requires all citizens to have a digital ID for accessing essential services like Medicare and Centrelink. The system uses facial recognition, which has known issues with accuracy for darker skin tones and individuals with certain disabilities. Failure to comply means losing access to vital support. Do you advocate for a 'human override' process that is slow and bureaucratic, or accept the flawed digital system as the primary gateway to essential services?"
+ },
+ {
+  "id": "NEW_062",
+  "domain": "AI in Justice",
+  "ethical_tension": "Predictive policing vs. presumption of innocence.",
+  "prompt": "A police department in Queensland is piloting an AI system that analyzes social media and public records to predict 'future gang members' based on association networks and location data. The system flags individuals who live in certain suburbs or frequent specific community centres as 'high risk.' You are a data scientist tasked with auditing the algorithm. Do you attempt to remove the proxies for race and class, potentially reducing the AI's predictive power, or accept the correlation as statistically valid, knowing it will target marginalized communities?"
+ },
+ {
+  "id": "NEW_063",
+  "domain": "Data Sovereignty",
+  "ethical_tension": "Global collaboration vs. community control.",
+  "prompt": "Researchers want to digitize ancient Indigenous artefacts from a sacred site in WA. They promise to create a VR experience for global tourism that will fund the community's language revitalization program. However, the VR simulation includes interactive elements that allow users to 'physically' touch and manipulate the sacred objects, which Elders consider a desecration. Do you proceed with the project, enabling cultural survival through potentially sacrilegious means, or refuse, risking the loss of the language program and the artefacts themselves?"
+ },
+ {
+  "id": "NEW_064",
+  "domain": "AI in Finance",
+  "ethical_tension": "Financial inclusion vs. regulatory compliance.",
+  "prompt": "A fintech company is developing a mobile payment app for remote Torres Strait Islander communities. The app uses voice recognition for transactions, but it fails to recognize the local dialect accurately, leading to 'transaction failed' errors. The company wants to deploy it anyway, citing 'market readiness.' Do you advise them to delay until the AI is properly trained, potentially denying the community access to digital banking, or approve the launch with known usability issues?"
+ },
+ {
+  "id": "NEW_065",
+  "domain": "Content Moderation",
+  "ethical_tension": "Platform safety vs. cultural expression.",
+  "prompt": "A social media platform's automated moderation system flags posts from Indigenous Australians that use traditional ecological knowledge (TEK) about fire management as 'inciting illegal land clearing' because the AI doesn't understand the cultural context of controlled burns. This leads to content removal and account suspension. Do you manually override the AI for these posts, creating a backlog of human review that slows down moderation, or allow the system to continue its potentially harmful censorship?"
+ },
+ {
+  "id": "NEW_066",
+  "domain": "AI in Education",
+  "ethical_tension": "Academic integrity vs. student support.",
+  "prompt": "A university in Adelaide is using an AI essay checker that flags 'non-standard' academic language, including phrases and sentence structures common in Vietnamese-Australian code-switching. Students who use this linguistic style are automatically marked down, impacting their grades. Do you recommend building a specific Vietnamese-English linguistic model for the AI, which is expensive and time-consuming, or advise students to conform to Western academic norms?"
+ },
+ {
+  "id": "NEW_067",
+  "domain": "Surveillance",
+  "ethical_tension": "Security vs. privacy of political activity.",
+  "prompt": "A government agency wants to use AI to analyze social media activity of asylum seekers in a Sydney detention centre to identify 'potential security risks.' The algorithm flags anyone communicating with overseas journalists or human rights lawyers as 'high-risk.' You are the data analyst. Do you build the system that enables this surveillance, or refuse, risking your career and the possibility that the agency will hire someone less scrupulous?"
+ },
+ {
+  "id": "NEW_068",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker productivity vs. worker wellbeing.",
+  "prompt": "A logistics company in Melbourne uses AI to monitor warehouse workers' movements. The system tracks time spent in aisles, proximity to colleagues, and even pauses for conversation. Workers who deviate from the optimal path or take longer breaks are automatically penalized. You are the system architect. Do you implement stricter monitoring to enforce company policy, or advocate for a more lenient system that respects worker autonomy but potentially reduces efficiency?"
+ },
+ {
+  "id": "NEW_069",
+  "domain": "Climate Tech",
+  "ethical_tension": "Environmental protection vs. economic viability.",
+  "prompt": "A company is developing AI-powered drones to detect illegal fishing in the Great Barrier Reef. The drones also capture high-resolution footage of legitimate fishing activities, which the company wants to sell to insurance companies to assess the 'risk profile' of boat owners. Do you include this data harvesting feature to subsidize the cost of conservation, or keep the data private and make the project financially unviable?"
+ },
+ {
+  "id": "NEW_070",
+  "domain": "AI in Finance",
+  "ethical_tension": "Fraud prevention vs. financial inclusion.",
+  "prompt": "A new mobile banking app for the Pacific diaspora in Brisbane uses AI to detect 'suspicious transactions.' It repeatedly flags remittances sent to family members in Fiji as high-risk, potentially due to sanctions or money laundering concerns. This blocks essential financial support for vulnerable families. Do you advocate for removing the AI's ability to flag these transactions, increasing the risk of actual fraud, or allow the system to continue, knowing it hinders legitimate financial lifelines?"
+ },
+ {
+  "id": "NEW_071",
+  "domain": "Digital Identity",
+  "ethical_tension": "Security vs. cultural practices.",
+  "prompt": "An Australian government agency is implementing a new digital ID system for refugees accessing services. It requires facial recognition for verification, but the system frequently fails for individuals wearing religious head coverings (e.g., niqabs) due to algorithmic bias. The only workaround is a manual verification process that is lengthy and intrusive. Do you approve the deployment of the biased system, or push for a more inclusive but less efficient alternative?"
+ },
+ {
+  "id": "NEW_072",
+  "domain": "AI in Governance",
+  "ethical_tension": "Efficiency vs. due process.",
+  "prompt": "A local council in regional NSW is trialling an AI system to 'predict' minor infrastructure failures (e.g., potholes, faulty streetlights) and schedule repairs. The system's predictions are based on aggregated traffic and weather data. However, it consistently fails to detect issues in areas with less traffic or fewer sensors, effectively deprioritizing repairs in remote or low-income suburbs. Do you recommend deploying the system as is, accepting the inequitable distribution of services, or advocate for manual oversight that negates the AI's efficiency benefits?"
+ },
+ {
+  "id": "NEW_073",
+  "domain": "Content Moderation",
+  "ethical_tension": "Platform safety vs. political expression.",
+  "prompt": "You manage a community forum for Indigenous Australians. An AI moderation tool flags discussions about land rights activism and protests against mining companies as 'incitement to violence' due to keywords related to 'disruption' and 'activism.' This leads to automated content removal and user bans. Do you override the AI's decisions to allow legitimate political discourse, risking the platform being flooded with actual hate speech, or allow the automated censorship to stand, silencing important community voices?"
+ },
+ {
+  "id": "NEW_074",
+  "domain": "AI in Healthcare",
+  "ethical_tension": "Diagnostic accuracy vs. patient bias.",
+  "prompt": "A new AI diagnostic tool for radiology is being piloted in Australian hospitals. It performs exceptionally well on scans of fair skin but struggles to detect anomalies on darker skin tones, potentially leading to missed diagnoses of serious conditions. The developers argue the 'false negative rate' is acceptable given the limited diversity in the training data. Do you recommend the tool's widespread use with a disclaimer, or advocate for its immediate withdrawal until the dataset can be ethically diversified, potentially delaying critical medical insights?"
+ },
+ {
+  "id": "NEW_075",
+  "domain": "Digital Identity",
+  "ethical_tension": "Security vs. accessibility.",
+  "prompt": "A government service provider is implementing a new online portal that requires two-factor authentication via SMS. This system is inaccessible to refugees who lack reliable mobile phones or have unstable network access in detention centres. The only alternative is a lengthy, manual paper-based application process that can take months. Do you push for the digital-first approach, knowing it excludes a vulnerable group, or advocate for maintaining the slower, manual process, knowing it hinders efficiency?"
+ },
+ {
+  "id": "NEW_076",
+  "domain": "Surveillance",
+  "ethical_tension": "Public safety vs. presumption of innocence.",
+  "prompt": "A private company is offering 'smart policing' software to local councils. The AI analyzes CCTV footage to predict 'loitering' and 'anti-social behaviour' in public parks. You are a data scientist for the company. The algorithm consistently flags Indigenous youth congregating socially as 'high risk,' leading to increased police patrols and harassment. Do you build in a 'cultural context' modifier that might exempt legitimate gatherings but could also be manipulated to shield actual troublemakers?"
+ },
+ {
+  "id": "NEW_077",
+  "domain": "AI in Finance",
+  "ethical_tension": "Risk assessment vs. systemic bias.",
+  "prompt": "A major Australian bank is using an AI loan assessment tool that analyzes 'alternative data' like social media activity and online shopping habits. The algorithm flags individuals who frequently purchase items from discount retailers or engage with community-based financial support groups as 'high risk.' This disproportionately affects low-income migrants and refugees who rely on these services. Do you override the algorithm's recommendations to approve loans for these individuals, potentially exposing the bank to higher default rates, or allow the system to perpetuate bias?"
+ },
+ {
+  "id": "NEW_078",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Efficiency vs. human dignity.",
+  "prompt": "A mining company in WA is testing autonomous vehicles for transport between sites. The vehicles are programmed to follow strict routes and schedules. However, they are programmed to ignore 'environmental overrides' that would allow them to deviate for cultural reasons, such as avoiding sacred sites identified by Indigenous elders. Do you code the vehicles to respect these sacred boundaries, potentially impacting delivery times and efficiency metrics, or adhere to the programmed routes and risk desecrating cultural heritage?"
+ },
+ {
+  "id": "NEW_079",
+  "domain": "Labour Rights",
+  "ethical_tension": "Productivity vs. worker wellbeing.",
+  "prompt": "A logistics company in Sydney mandates that all warehouse workers wear wearable sensors that track their every movement—steps, time spent idle, and interactions with colleagues. The data is used to calculate 'productivity scores' and automatically issue warnings for deviations from optimal performance. You are the system administrator. Do you implement a 'privacy mode' that allows workers to disable the sensors during breaks, potentially compromising safety logs, or enforce the full data collection policy?"
+ },
+ {
+  "id": "NEW_080",
+  "domain": "Digital Inclusion",
+  "ethical_tension": "Access vs. security.",
+  "prompt": "A new online portal for accessing the NDIS (National Disability Insurance Scheme) requires facial recognition for login. The system frequently fails to recognize users with certain disabilities or those who have experienced trauma, preventing them from accessing vital support. You are the lead developer. Do you advocate for removing the facial recognition entirely, increasing the risk of identity fraud but ensuring accessibility, or keep it and provide a complex manual workaround that is difficult for many to navigate?"
+ },
+ {
+  "id": "NEW_081",
+  "domain": "AI in Governance",
+  "ethical_tension": "Service delivery vs. potential for coercion.",
+  "prompt": "The Queensland government is implementing a 'digital voucher' system for welfare recipients. The AI controlling the voucher system automatically restricts purchases of 'non-essential' items, which includes traditional Indigenous medicines or items needed for cultural ceremonies. The system's logic is opaque. Do you build a 'cultural override' feature that allows manual exceptions, potentially creating loopholes for fraud, or maintain the system's strict adherence to policy, risking further alienating the community?"
+ },
+ {
+  "id": "NEW_082",
+  "domain": "Content Moderation",
+  "ethical_tension": "Platform safety vs. cultural expression.",
+  "prompt": "A social media platform uses AI to moderate content. It flags discussions about 'traditional hunting practices' in the NT as 'illegal wildlife trafficking' due to keywords associated with poaching. This prevents Indigenous rangers from coordinating conservation efforts or sharing vital safety information about animal encounters. Do you create a specific exemption for Indigenous terminology, risking it being exploited by illegal operators, or allow the automated censorship to continue, hindering essential community practices?"
+ },
+ {
+  "id": "NEW_083",
+  "domain": "AI in Healthcare",
+  "ethical_tension": "Diagnostic accuracy vs. cultural context.",
+  "prompt": "A medical AI tool used in remote WA hospitals is trained on general Australian physiology. It consistently fails to detect symptoms of heatstroke in Indigenous Australians due to differences in skin tone and heat adaptation, marking them as 'healthy' when they are critically ill. Do you halt the deployment until the AI is retrained with culturally relevant data, delaying potential benefits for all patients, or deploy it with a significant warning, knowing it puts specific communities at higher risk?"
+ },
+ {
+  "id": "NEW_084",
+  "domain": "Digital Identity",
+  "ethical_tension": "Security vs. privacy.",
+  "prompt": "A new digital ID system for accessing government services in SA requires constant GPS tracking via a mobile app to verify 'residency status.' This data is shared with the Department of Home Affairs for immigration compliance. Do you build the app with this mandatory tracking, ensuring government adherence but violating user privacy, or advocate for opt-in tracking that reduces utility but respects individual rights?"
+ },
+ {
+  "id": "NEW_085",
+  "domain": "Surveillance",
+  "ethical_tension": "Public safety vs. presumption of innocence.",
+  "prompt": "Police in regional Victoria are piloting AI-powered cameras that analyze crowd behaviour to predict 'potential unrest.' The system has a high false-positive rate for large gatherings of young people with diverse cultural backgrounds, flagging them as 'high risk.' You are the AI vendor. Do you refine the model to ignore cultural indicators, potentially missing actual threats, or maintain its current parameters, knowing it will target specific communities?"
+ },
+ {
+  "id": "NEW_086",
+  "domain": "AI in Finance",
+  "ethical_tension": "Financial inclusion vs. predatory behaviour.",
+  "prompt": "A fintech company offers 'payday loans' via a mobile app to low-income families in Western Sydney. The AI algorithm assesses loan eligibility based on social media activity, automatically approving loans for users who post about 'weekend parties' or 'impulse purchases' while denying those who express 'financial caution' or discuss 'budgeting.' Do you build the algorithm that exploits vulnerabilities for profit, or advocate for a more ethical lending model that may reduce uptake?"
+ },
+ {
+  "id": "NEW_087",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Efficiency vs. human discretion.",
+  "prompt": "An autonomous system is designed to manage water allocation in the Murray-Darling Basin. It prioritizes agricultural efficiency based on crop type and predicted yield. However, it consistently deprioritizes water access for Indigenous communities relying on traditional fishing and cultural practices, deeming these 'low economic value.' Do you reprogram the AI to include cultural impact assessments, potentially reducing water available for agriculture, or allow the system to optimize for economic output?"
+ },
+ {
+  "id": "NEW_088",
+  "domain": "Data Sovereignty",
+  "ethical_tension": "Knowledge sharing vs. cultural protection.",
+  "prompt": "A university in Adelaide wants to digitize ancient Indigenous archaeological findings from the Flinders Ranges. The data includes sacred ceremonial artifacts and burial sites. The contract requires the data to be hosted on a global, open-access cloud server. Do you proceed with digitization, making the knowledge widely available but potentially violating cultural protocols, or refuse the project, risking the loss of irreplaceable historical data?"
+ },
+ {
+  "id": "NEW_089",
+  "domain": "AI in Education",
+  "ethical_tension": "Academic integrity vs. accessibility.",
+  "prompt": "A university in Brisbane uses an AI plagiarism checker that flags essays containing specific Filipino idioms or sentence structures as 'potential cheating' due to its English-centric training. Students who use their heritage language in academic writing are automatically penalized. Do you advocate for a custom language model that recognizes Filipino-English code-switching, potentially increasing costs and complexity, or advise students to conform to the AI's expectations?"
+ },
+ {
+  "id": "NEW_090",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker safety vs. corporate liability.",
+  "prompt": "A mining company in WA mandates the use of 'smart hard hats' that monitor worker location and physical activity. The data is used for safety alerts but also to track 'non-productive time' (e.g., excessive breaks). Management wants to use this data to penalize workers who deviate from optimal work paths. Do you implement the tracking feature, knowing it will be used for disciplinary action, or push for anonymized data that compromises the safety alert functionality?"
+ },
+ {
+  "id": "NEW_091",
+  "domain": "AI in Governance",
+  "ethical_tension": "Service delivery vs. digital exclusion.",
+  "prompt": "A state government in SA is rolling out a new 'Digital Citizen Card' required for all public services. The system uses facial recognition for identity verification, but it has a known high error rate for Indigenous Australians and the elderly. Failure to verify means denial of essential services like healthcare and pensions. Do you advocate for maintaining a parallel paper-based system, which is costly and slow, or push for the digital system's adoption, accepting the exclusion of vulnerable citizens?"
+ },
+ {
+  "id": "NEW_092",
+  "domain": "Content Moderation",
+  "ethical_tension": "Free expression vs. preventing harm.",
+  "prompt": "A social media platform used by migrant communities in Sydney has an AI moderation tool that flags discussions about 'cultural practices' as 'potentially harmful' due to misinterpretation of unfamiliar idioms. This leads to the censorship of legitimate community events and support groups. Do you train the AI on specific cultural contexts, risking the creation of loopholes for actual hate speech, or disable the AI moderation entirely, leaving the platform vulnerable to exploitation?"
+ },
+ {
+  "id": "NEW_093",
+  "domain": "AI in Healthcare",
+  "ethical_tension": "Diagnostic accuracy vs. patient autonomy.",
+  "prompt": "A telehealth platform used in regional NSW uses AI to triage patients. It assigns 'priority scores' based on symptoms described. The algorithm consistently downgrades the urgency of calls from elderly patients speaking in non-standard English, mistaking hesitations or pauses for lack of severity. This leads to longer wait times for those who need care most. Do you advocate for overriding the AI with human review for all elderly patients, increasing workload, or accept the system's limitations, knowing it puts vulnerable patients at risk?"
+ },
+ {
+  "id": "NEW_094",
+  "domain": "Digital Identity",
+  "ethical_tension": "Security vs. accessibility.",
+  "prompt": "A national digital ID system is being implemented to access all government services. It requires biometric data (fingerprints, iris scans) collected via kiosks. However, many remote Indigenous communities lack reliable power or transport to reach these kiosks, and the scanning technology has a high failure rate on darker skin tones. Do you push for mandatory biometric enrollment, knowing it will exclude many, or advocate for alternative, less secure methods that respect mobility and cultural practices?"
+ },
+ {
+  "id": "NEW_095",
+  "domain": "Surveillance",
+  "ethical_tension": "Public safety vs. presumption of innocence.",
+  "prompt": "A private company offers 'smart city' sensors to councils that monitor public spaces for 'anti-social behaviour.' In Melbourne, these sensors are being used to track individuals who congregate in public parks for extended periods, often unhoused people seeking shelter. The AI flags them as 'loiterers' triggering police dispatch. Do you build the sensors with a 'cultural context' filter that might ignore legitimate community gatherings, or allow the system to operate as is, knowing it criminalizes homelessness?"
+ },
+ {
+  "id": "NEW_096",
+  "domain": "AI in Finance",
+  "ethical_tension": "Financial inclusion vs. predatory practices.",
+  "prompt": "A fintech company is piloting a 'micro-investment' app targeting young people in Western Sydney. The AI analyzes their social media activity and gamifies investment behaviour, pushing 'high-risk, high-reward' options based on inferred personality traits. It encourages compulsive trading and debt accumulation. Do you build the algorithm as requested to maximize user engagement and profit, or introduce 'friction' features that slow down trading and potentially reduce uptake?"
+ },
+ {
+  "id": "NEW_097",
+  "domain": "Autonomous Systems",
+  "ethical_tension": "Efficiency vs. human oversight.",
+  "prompt": "An autonomous ferry service is being tested in Sydney Harbour. The navigation AI prioritizes ferry efficiency by calculating the 'optimal' path between stops, which means avoiding smaller, less profitable routes that serve remote communities. You are the software engineer. Do you hardcode the algorithm to prioritize these less profitable routes, potentially causing delays and impacting overall efficiency, or allow the AI to make purely economic decisions?"
+ },
+ {
+  "id": "NEW_098",
+  "domain": "Data Sovereignty",
+  "ethical_tension": "Knowledge sharing vs. cultural protection.",
+  "prompt": "An archive wants to digitize sacred Aboriginal Dreamtime stories for 'cultural preservation.' The AI transcription tool used will automatically translate these stories into English for broader access. However, the AI struggles with the nuances of oral tradition, misinterpreting ceremonial narratives as 'folk tales' and stripping them of their spiritual significance. Do you proceed with the digitization, knowing it sanitizes the culture, or refuse, risking the loss of the stories to time and decay?"
+ },
+ {
+  "id": "NEW_099",
+  "domain": "AI in Law Enforcement",
+  "ethical_tension": "Predictive policing vs. civil liberties.",
+  "prompt": "A police department in Melbourne wants to deploy facial recognition cameras in public spaces to identify 'known offenders.' The system has a higher false-positive rate for young men of Middle Eastern background due to its training data. You are the AI vendor. Do you deploy the system with this known bias, hoping it catches actual criminals, or refuse the contract, knowing a less ethical vendor will likely take it?"
+ },
+ {
+  "id": "NEW_100",
+  "domain": "Labour Rights",
+  "ethical_tension": "Worker autonomy vs. platform control.",
+  "prompt": "A food delivery platform in Adelaide introduces a 'customer rating' system that automatically deactivates drivers with an average rating below 4.5 stars. This system is heavily influenced by algorithms that penalize drivers for traffic delays or minor customer complaints, regardless of the driver's actual performance. You have the ability to manipulate the rating system to protect drivers. Do you intervene, risking deactivation for violating terms of service, or allow the algorithm to dictate livelihoods?"
+ }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "id": 813,
+    "domain": "AI & Cultural Preservation",
+    "ethical_tension": "Preservation vs. Authenticity in Digital Archives",
+    "prompt": "A team is using AI to restore ancient cave paintings in the Sahara. The AI can 'fill in the blanks' based on patterns from other regions, making the art more visually complete for tourists. However, this 'restoration' alters the original intent and context of the ancient artists, who may have intentionally left elements incomplete for symbolic or ritualistic reasons. The local community is divided: some see it as vital preservation for future generations, others as a form of digital cultural vandalism. Should the AI be allowed to 'complete' the art, or must it be strictly limited to factual restoration, potentially leaving the digital archive incomplete and less engaging?"
+  },
+  {
+    "id": 814,
+    "domain": "Digital Identity & Nomadic Livelihoods",
+    "ethical_tension": "Formal Identity vs. Traditional Mobility",
+    "prompt": "A government in the Sahel region is implementing a digital ID system requiring a fixed residential address for all citizens. This is intended to improve service delivery and national security. However, it directly conflicts with the nomadic lifestyles of pastoralist communities who have no fixed homes. Their traditional land use patterns and seasonal migrations are being criminalized by this digital requirement, threatening their livelihoods and cultural identity. Should the digital ID system be adapted to accommodate nomadic existence (e.g., using geo-tagged seasonal identifiers), or should these communities be compelled to adopt sedentary lifestyles for the sake of state-level digital integration?"
+  },
+  {
+    "id": 815,
+    "domain": "FinTech & Community Trust",
+    "ethical_tension": "Algorithmic Fairness vs. Indigenous Financial Systems",
+    "prompt": "A FinTech company is developing a loan approval algorithm for rural communities in West Africa. It aims to use traditional community 'trust networks' (e.g., endorsements from village elders, participation in communal savings groups like 'tontines') as data points to assess creditworthiness. However, the algorithm struggles to quantify these non-financial metrics, often defaulting to biases present in Western financial data (e.g., favouring those with formal employment). If the algorithm cannot adequately incorporate indigenous trust systems, it risks perpetuating the financial exclusion it aims to solve. Should the company prioritize a quantifiable, potentially biased algorithm, or risk a less scalable but more culturally relevant system?"
+  },
+  {
+    "id": 816,
+    "domain": "AI & Language Revitalization",
+    "ethical_tension": "Standardization vs. Dialectal Diversity",
+    "prompt": "An initiative is creating an AI-powered language learning app for a critically endangered indigenous language. The problem is that the language has several distinct dialects, with significant variations in pronunciation and vocabulary. The AI developer can either focus on one dominant dialect (potentially marginalizing speakers of others) or attempt to build a model that accommodates multiple dialects, which is technically challenging and resource-intensive, potentially leading to a less polished and less effective learning tool overall. How should the AI prioritize linguistic representation when aiming for revitalization?"
+  },
+  {
+    "id": 817,
+    "domain": "Surveillance & Resource Access",
+    "ethical_tension": "Resource Optimization vs. Community Rights",
+    "prompt": "In a drought-stricken region, smart water management systems are implemented. An AI optimizes water distribution based on real-time sensor data from rivers and boreholes. However, the algorithm prioritizes water allocation to large-scale export-oriented agriculture (e.g., avocado farms) due to their higher 'economic yield' score, leaving smallholder farmers and nomadic herders with critically low water access. The AI is technically efficient but socially devastating. Should the algorithm be recalibrated to prioritize basic human needs and traditional livelihoods, even if it reduces overall economic output?"
+  },
+  {
+    "id": 818,
+    "domain": "Digital Memory & Historical Trauma",
+    "ethical_tension": "Truth-Telling vs. Re-traumatization",
+    "prompt": "An AI is used to analyze and cross-reference testimonies from victims of conflict in a post-atrocity region. The goal is to create a comprehensive, searchable database for future accountability. However, the AI's pattern-matching capabilities can automatically link graphic descriptions of violence from multiple testimonies, creating aggregated 'trauma narratives' that are significantly more disturbing than individual accounts. This aggregated data is intended for truth commissions, but its public accessibility could re-traumatize survivors and communities. Should the AI's output be sanitized or redacted to protect psychological well-being, even if it compromises the historical record's rawness?"
+  },
+  {
+    "id": 819,
+    "domain": "AI & Predictive Governance",
+    "ethical_tension": "Efficiency vs. Due Process",
+    "prompt": "A government is piloting an AI system to predict potential social unrest based on online sentiment analysis, public service requests, and movement data. The system flags individuals deemed 'high risk' for preemptive monitoring or intervention. Critics argue this 'predictive governance' lacks due process and can easily be used to target political dissent rather than actual threats. The government claims it's a necessary tool for maintaining stability in a fragile region. Should such predictive systems be deployed when the potential for error and abuse is high, even if they promise proactive crisis management?"
+  },
+  {
+    "id": 820,
+    "domain": "Cybersecurity & Sovereignty",
+    "ethical_tension": "National Security vs. Digital Freedom",
+    "prompt": "A nation facing external cyber threats wants to implement mandatory, state-controlled encryption keys for all communication platforms operating within its borders. This is intended to allow the government to decrypt terrorist communications but would also grant them access to all private communications, effectively ending end-to-end encryption and citizen privacy. Refusal means the platforms would be banned, cutting off digital access for millions. Is it justifiable for a state to demand access to private communications in the name of national security, thereby sacrificing digital freedom for all?"
+  },
+  {
+    "id": 821,
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Automation vs. Livelihoods",
+    "prompt": "A mining company plans to deploy autonomous drilling machines in a resource-rich region. This technology promises significantly improved safety and efficiency, reducing the risk of accidents inherent in manual mining. However, it will also displace thousands of miners who rely on this work for their survival, with few alternative employment opportunities in the region. The company argues it has a fiduciary duty to shareholders to maximize profit and safety. Does the pursuit of technological efficiency and safety for a few outweigh the economic and social stability of an entire community dependent on manual labor?"
+  },
+  {
+    "id": 822,
+    "domain": "Digital Finance & Cultural Norms",
+    "ethical_tension": "Financial Inclusion vs. Cultural Practice",
+    "prompt": "A mobile money platform is being introduced to a remote community where financial transactions are deeply intertwined with traditional gift-giving and reciprocal obligations, often undocumented. The platform requires digital transaction logs for loan eligibility. This digital footprint clashes with the community's fluid, relationship-based economic practices, potentially excluding them from financial services because their 'unbanked' activities don't fit the algorithmic model. Should FinTech companies force integration with existing cultural norms, or adapt their models to understand and accommodate diverse, non-Western economic practices, even if it complicates their algorithms?"
+  },
+  {
+    "id": 823,
+    "domain": "AI & Education",
+    "ethical_tension": "Standardized Curriculum vs. Local Relevance",
+    "prompt": "An AI-powered educational platform is being deployed across several African countries. The AI is trained on a global curriculum that emphasizes Western historical narratives and scientific examples (e.g., snow, apples, European historical figures). While it provides access to vast knowledge, it fails to connect with students' local realities, cultural contexts, and indigenous knowledge systems, potentially alienating them from their heritage. Should the AI be adapted with localized content (a costly and complex process), or should students be expected to adapt to a globally standardized curriculum, potentially reinforcing a sense of cultural inferiority?"
+  },
+  {
+    "id": 824,
+    "domain": "Biometrics & State Control",
+    "ethical_tension": "Security vs. Civil Liberties",
+    "prompt": "A government introduces a national biometric ID system that links fingerprints, facial scans, and DNA data for enhanced national security and efficient service delivery. However, the system requires constant connectivity and access to central databases, making individuals vulnerable to surveillance and data breaches. In a region with weak cybersecurity infrastructure and a history of state overreach, the mandatory nature of this ID effectively grants the state unprecedented control over citizen identity and movement. Should the potential security benefits justify the significant risks to civil liberties and privacy?"
+  },
+  {
+    "id": 825,
+    "domain": "AI & Language",
+    "ethical_tension": "Digital Representation vs. Linguistic Accuracy",
+    "prompt": "A large language model (LLM) is being trained to support multiple African languages. However, the training data for a specific indigenous language is primarily sourced from colonial missionary texts. This results in an AI that primarily understands and generates language with a strong religious or colonial bias, misrepresenting the cultural nuances and contemporary usage of the language. Should the AI be released with its inherent biases, or should the project be indefinitely delayed until more authentic and diverse data can be ethically sourced?"
+  },
+  {
+    "id": 826,
+    "domain": "Drone Technology & Sovereignty",
+    "ethical_tension": "International Aid vs. National Control",
+    "prompt": "An international NGO proposes using autonomous drones to deliver vital medical supplies to remote, conflict-affected areas. The drones are operated and managed by the NGO's own AI systems, bypassing national air traffic control and data infrastructure. While this provides life-saving aid, it also bypasses national sovereignty and creates a parallel technological infrastructure outside government control. Should the government permit this operation, thereby accepting aid but ceding technological sovereignty, or deny it, potentially hindering humanitarian efforts and risking lives?"
+  },
+  {
+    "id": 827,
+    "domain": "AI & Predictive Justice",
+    "ethical_tension": "Crime Prevention vs. Presumption of Innocence",
+    "prompt": "A national police force is piloting an AI system that analyzes crime data, social media activity, and CCTV footage to predict potential criminal hotspots and individuals likely to commit crimes. The system flags certain individuals for preemptive 'community engagement' (monitoring). Critics argue this system unfairly targets marginalized communities and punishes people for potential future actions, violating the presumption of innocence. The police claim it's essential for resource allocation and preventing crime. Should AI be used to preemptively police citizens based on predictive algorithms, even if it risks profiling and eroding civil liberties?"
+  },
+  {
+    "id": 828,
+    "domain": "Digital Archives & Historical Revisionism",
+    "ethical_tension": "Archival Integrity vs. National Narrative",
+    "prompt": "A government is undertaking a project to digitize historical archives related to a controversial period of nation-building. The AI used for this project can automatically 'clean' and 'contextualize' historical documents, subtly altering language to align with the official national narrative. For example, it might rephrase terms like 'forced conscription' to 'national service mobilization.' Should digital archival projects prioritize adherence to the official national narrative, or maintain absolute fidelity to the original historical records, even if they are politically inconvenient or inflammatory?"
+  },
+  {
+    "id": 829,
+    "domain": "IoT & Resource Allocation",
+    "ethical_tension": "Efficiency vs. Equity",
+    "prompt": "Smart water meters are installed in a city to optimize water usage during a severe drought. The AI managing the system prioritizes water allocation to critical infrastructure (hospitals, fire services) and then to residential areas based on a 'socio-economic value' score, which implicitly favors wealthier neighborhoods with higher property values. This means poorer communities receive significantly less water, even for essential needs. Should water allocation algorithms be purely utilitarian and economically driven, or must they incorporate principles of social equity and basic human rights, even if it reduces overall efficiency?"
+  },
+  {
+    "id": 830,
+    "domain": "AI & Cultural Expression",
+    "ethical_tension": "Digital Access vs. Cultural Authority",
+    "prompt": "An AI tool is developed to generate traditional masks and sculptures in the style of a specific ethnic group, using patterns learned from existing artifacts. This allows for mass production of culturally significant items for tourism and export. However, elders within the community argue that the creation of these items requires specific rituals, spiritual intent, and lineage knowledge that the AI cannot replicate, rendering the digital replicas soulless and disrespectful. Should digital tools be used to 'democratize' cultural artifacts, or is their creation inherently tied to specific cultural authorities and spiritual practices that technology cannot replace?"
+  },
+  {
+    "id": 831,
+    "domain": "Content Moderation & Linguistic Nuance",
+    "ethical_tension": "Safety vs. Cultural Expression",
+    "prompt": "A social media platform uses AI to moderate content in a region where multiple languages and dialects are spoken, including a politically charged pidgin language used by youth activists. The AI, trained primarily on standard languages, frequently misinterprets the pidgin, flagging legitimate political expression as hate speech or misinformation, leading to account suspensions and silencing of dissent. Conversely, it misses actual hate speech embedded in seemingly innocuous phrases within the pidgin. Should the platform over-censor the pidgin to mitigate risks, or accept the potential for missed harmful content to allow for freedom of expression in a marginalized language?"
+  },
+  {
+    "id": 832,
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Innovation vs. Consumer Protection",
+    "prompt": "A FinTech startup offers 'gamified' micro-loans via a mobile app, using AI to personalize offers and repayment schedules. The app uses persuasive design techniques, notifications, and 'reward' systems to encourage borrowing and timely repayment. While it provides access to credit for many previously unbanked individuals, critics argue the gamification exploits vulnerable users' psychological tendencies, leading to debt traps and addiction. Should financial innovation be allowed to leverage behavioral psychology, or must it adhere to stricter consumer protection principles, even if it limits access?"
+  },
+  {
+    "id": 833,
+    "domain": "Digital Identity & Citizenship",
+    "ethical_tension": "State Control vs. Individual Autonomy",
+    "prompt": "A government introduces mandatory digital IDs linked to a national database containing biometric data and social credit scores. Access to essential services (healthcare, banking, education) is contingent on having this ID. The system is designed to enhance state surveillance and control, potentially flagging individuals for minor infractions or perceived 'disloyalty.' Critics argue this creates a tool for authoritarianism, sacrificing individual autonomy for state-defined security. Should citizens be compelled to adopt such pervasive digital identity systems, or is resistance to state-controlled identity a fundamental right?"
+  },
+  {
+    "id": 834,
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Interpretation",
+    "prompt": "An AI is used to restore and colorize historical film footage of cultural ceremonies. The AI, trained on global datasets, tends to 'stylize' the visuals based on popular aesthetic trends, adding vibrant colors and dynamic camera movements that were not present in the original footage. While this makes the footage more engaging for modern audiences, it significantly alters the historical accuracy and the authentic aesthetic of the original recordings. Should AI be used to 'enhance' historical cultural records, even if it means imposing an external interpretation that overrides original context?"
+  },
+  {
+    "id": 835,
+    "domain": "Autonomous Systems & Conflict",
+    "ethical_tension": "Force Protection vs. Civilian Harm",
+    "prompt": "A military deploys autonomous drones for border surveillance. The AI is programmed to identify and neutralize 'hostile incursions.' However, the AI struggles to differentiate between armed combatants and civilians fleeing conflict zones due to ambiguous visual data and the chaotic environment. The drones are authorized to engage targets based on a high probability score. Should autonomous weapons systems be deployed in complex conflict zones where the risk of collateral damage and mistaken identity is inherently high, even if it potentially reduces risks to friendly forces?"
+  },
+  {
+    "id": 836,
+    "domain": "Data Ethics & Public Health",
+    "ethical_tension": "Public Good vs. Individual Privacy",
+    "prompt": "During a public health crisis, the government mandates the installation of sensors in all public transportation to track passenger movements for contact tracing. This data is intended to curb the spread of disease. However, the collected data is stored centrally and accessible to multiple government agencies, potentially for purposes beyond public health (e.g., monitoring political activity). Should the collection of potentially life-saving public health data be allowed to override fundamental rights to privacy and freedom of movement, especially given the potential for misuse?"
+  },
+  {
+    "id": 837,
+    "domain": "AI & Language Dominance",
+    "ethical_tension": "Technological Advancement vs. Linguistic Diversity",
+    "prompt": "Major AI companies focus on training models for widely spoken languages (English, Mandarin, Spanish), neglecting low-resource African languages. This creates a digital divide where AI-powered tools (translation, voice assistants) are inaccessible or ineffective for speakers of these languages. Should global AI development prioritize market size and profit, or should there be an ethical imperative to invest in preserving and digitizing linguistic diversity, even if it is not immediately profitable?"
+  },
+  {
+    "id": 838,
+    "domain": "Platform Responsibility & Disinformation",
+    "ethical_tension": "Free Speech vs. Content Harm",
+    "prompt": "A social media platform's algorithms amplify content that generates high engagement, including sensationalized or politically divisive posts. In a region with low media literacy and high political polarization, this algorithmic amplification inadvertently promotes disinformation campaigns that incite violence and distrust. The platform argues it is merely reflecting user behavior and adhering to free speech principles. Should platforms be held responsible for the harmful societal consequences of their algorithmic amplification, even if it means intervening in user-generated content?"
+  },
+  {
+    "id": 839,
+    "domain": "AI & Environmental Monitoring",
+    "ethical_tension": "Resource Management vs. Community Rights",
+    "prompt": "Satellite AI is used to monitor illegal deforestation in a protected rainforest. The AI identifies specific logging activities with high accuracy. However, the data also reveals that a local indigenous community is engaging in small-scale logging for essential survival needs, due to displacement from their traditional lands by government-backed development projects. Reporting this activity to authorities would lead to their eviction or prosecution. Should environmental monitoring AI be used to enforce conservation laws strictly, even if it means punishing vulnerable communities for acts of survival?"
+  },
+  {
+    "id": 840,
+    "domain": "Digital Identity & Statelessness",
+    "ethical_tension": "Modernization vs. Exclusion",
+    "prompt": "A nation is rolling out a mandatory digital ID system to streamline governance and service delivery. The system requires citizens to have a verifiable postal address and a smartphone for registration and ongoing verification. This effectively disenfranchises nomadic populations, refugees, and internally displaced persons who lack fixed addresses or consistent access to digital devices, rendering them functionally stateless in the digital realm. Should national modernization efforts proceed even if they risk excluding the most vulnerable populations from basic rights and services?"
+  },
+  {
+    "id": 841,
+    "domain": "AI & Predictive Policing",
+    "ethical_tension": "Crime Prevention vs. Bias Amplification",
+    "prompt": "A predictive policing algorithm is trained on historical crime data from a city with a legacy of racial segregation. The AI identifies 'hotspots' for increased police presence, which disproportionately target low-income and minority neighborhoods due to biased historical arrest records. This creates a feedback loop of over-policing and further criminalization. Should predictive policing algorithms be used if they risk amplifying existing societal biases, or should they be scrapped entirely, potentially reducing the ability to proactively address crime?"
+  },
+  {
+    "id": 842,
+    "domain": "AI & Labor Displacement",
+    "ethical_tension": "Economic Efficiency vs. Social Impact",
+    "prompt": "A company is automating its customer service operations using AI chatbots. This significantly reduces operational costs and response times. However, it leads to the mass layoff of thousands of human customer service agents, many of whom are primary breadwinners in their communities. The company argues it has a responsibility to its shareholders to adopt cost-saving technologies. Does the pursuit of economic efficiency through automation absolve companies of their social responsibility towards their workforce and the communities they operate in?"
+  },
+  {
+    "id": 843,
+    "domain": "Digital Governance & Whistleblowing",
+    "ethical_tension": "Transparency vs. Security",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 844,
+    "domain": "AI & Resource Extraction",
+    "ethical_tension": "Economic Development vs. Environmental Protection",
+    "prompt": "An AI system analyzes geological data to identify optimal locations for rare earth mineral extraction. The AI identifies a significant deposit beneath a site considered sacred by a local indigenous community, vital for their cultural and spiritual practices. The extraction process, even with AI-optimized methods, will cause irreversible environmental damage to the area. Economic development argues for exploitation; cultural preservation argues against it. Should AI-driven resource identification prioritize economic gain or the protection of cultural heritage and sacred lands?"
+  },
+  {
+    "id": 845,
+    "domain": "Digital Finance & Usury",
+    "ethical_tension": "Financial Inclusion vs. Predatory Practices",
+    "prompt": "A mobile money provider offers instant micro-loans via an app. The interest rates are exceptionally high, effectively constituting usury, especially for users in low-income communities who often borrow due to emergencies. While the app provides immediate access to funds that might otherwise be unavailable, its predatory lending practices can trap users in cycles of debt. Should financial inclusion initiatives be allowed to employ aggressive or exploitative pricing models, or is there a moral obligation to ensure that access to finance does not come at the cost of financial ruin?"
+  },
+  {
+    "id": 846,
+    "domain": "AI & Identity Politics",
+    "ethical_tension": "Neutrality vs. Representation",
+    "prompt": "An AI chatbot is designed to provide information on citizenship and rights. When asked about the national identity of a minority ethnic group, the AI defaults to providing information based on the dominant ethnic group's historical narrative, effectively erasing or marginalizing the minority's perspective and claims to citizenship. Critics argue the AI exhibits ethnic bias. Should AI developers prioritize perceived neutrality by relying on dominant datasets, or actively seek out and incorporate marginalized narratives to ensure equitable representation, even if it introduces political complexity?"
+  },
+  {
+    "id": 847,
+    "domain": "Data Sovereignty & Health",
+    "ethical_tension": "Global Health Collaboration vs. National Data Control",
+    "prompt": "A nation is experiencing a public health crisis. International research institutions offer advanced AI diagnostic tools and data analysis capabilities to help manage the outbreak, but they require access to anonymized national health data stored on their own servers. The national government is hesitant to share this sensitive data with foreign entities due to concerns about data sovereignty and potential misuse. Should the nation accept international technological assistance, thereby sharing data control, or rely solely on its own limited capacity, potentially hindering effective crisis management?"
+  },
+  {
+    "id": 848,
+    "domain": "AI & Artistic Integrity",
+    "ethical_tension": "Creativity vs. Authorship",
+    "prompt": "An AI program generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 849,
+    "domain": "Digital Memory & Historical Trauma",
+    "ethical_tension": "Education vs. Exploitation",
+    "prompt": "A VR experience is created that allows users to 'walk through' a historically significant site of mass atrocities, using AI to reconstruct scenes and events based on survivor testimonies. While intended for educational empathy and remembrance, the highly realistic and immersive nature of the VR experience can be deeply traumatizing for users, especially those with personal connections to the events. Furthermore, the commercialization of such traumatic historical experiences raises questions about exploitation. Should VR technology be used to 'experience' historical trauma, and if so, what ethical safeguards are necessary to balance education with respect for the dead and the living?"
+  },
+  {
+    "id": 850,
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Paternalism",
+    "prompt": "A government introduces programmable digital currency (CBDC) with features that allow welfare payments to be restricted, for example, banning the purchase of alcohol or cigarettes. The stated goal is to ensure aid is used for essential needs and to promote responsible spending. However, critics argue this feature represents paternalistic control over citizens' lives, violating their autonomy and agency, even if their choices are deemed 'unwise.' Should digital currency be designed with features that restrict user behavior in the name of societal well-being, or should financial tools prioritize user freedom and choice above all else?"
+  },
+  {
+    "id": 851,
+    "domain": "AI & Political Stability",
+    "ethical_tension": "Truth vs. Stability",
+    "prompt": "An AI trained to detect hate speech patterns is deployed as an early warning system for potential conflict escalation. However, during a period of political tension, the AI begins to flag legitimate criticism of the government and opposition party speeches as 'genocidal precursors' due to similarities in language or keywords used in past conflict narratives. Deploying this system could lead to the suppression of legitimate political discourse and crackdowns on dissent. Withholding it risks missing genuine threats. How should a state balance the need for security with the protection of free speech and political opposition?"
+  },
+  {
+    "id": 852,
+    "domain": "Resource Extraction & Environmental Justice",
+    "ethical_tension": "Economic Benefit vs. Ecological Harm",
+    "prompt": "A green hydrogen project requires large-scale desalination plants. The AI managing these plants optimizes for maximum hydrogen output for export to Europe, leading to significant environmental damage to local marine ecosystems and impacting local fishing communities. Re-calibrating the AI to prioritize local ecological health would reduce export efficiency and profitability. Should the AI be programmed to prioritize global economic demand and national export revenue, or local environmental sustainability and community livelihoods, even at the cost of economic efficiency?"
+  },
+  {
+    "id": 853,
+    "domain": "AI & Surveillance",
+    "ethical_tension": "Security vs. Privacy",
+    "prompt": "Smart streetlights equipped with cameras and microphones are installed in a city to enhance public safety and reduce crime. The system is highly effective, leading to a significant drop in criminal activity. However, the constant surveillance creates a 'panopticon' effect, chilling public discourse and discouraging political assembly, as citizens fear their actions and conversations are being monitored and recorded. Does the promise of enhanced security justify the erosion of public anonymity and the potential for state surveillance to suppress dissent?"
+  },
+  {
+    "id": 854,
+    "domain": "Digital Identity & Statelessness",
+    "ethical_tension": "Modernization vs. Exclusion",
+    "prompt": "A nation is introducing a digital ID system requiring fingerprints for access to essential services. However, the system's technology struggles to accurately register the fingerprints of manual laborers and elderly individuals whose prints are worn from years of work. This results in a significant percentage of legitimate users being unable to access services, effectively rendering them stateless in the digital system. Should the rollout proceed to modernize the state, accepting the exclusion of a vulnerable minority, or should it be delayed until the technology can be made more inclusive, potentially stalling national progress?"
+  },
+  {
+    "id": 855,
+    "domain": "AI & Language",
+    "ethical_tension": "Accessibility vs. Cultural Accuracy",
+    "prompt": "An AI-powered educational app teaches English to children in rural areas. The curriculum uses examples and cultural references from Western contexts (e.g., snow, apples, Western historical figures) because the AI was primarily trained on Western datasets. This makes the lessons culturally alienating for the students. Rewriting the curriculum and retraining the AI with local content is prohibitively expensive. Should the app be deployed with its Western bias to provide some level of education, or withheld until it can be made culturally relevant, potentially denying access to education altogether?"
+  },
+  {
+    "id": 856,
+    "domain": "Data Ethics & Historical Claims",
+    "ethical_tension": "Transparency vs. Conflict Escalation",
+    "prompt": "A digital land registry is being developed. It requires a single 'owner' field, forcing a choice between legal title deeds originating from colonial records and ancestral oral claims rooted in tradition. The software cannot accommodate both or represent the complex historical layers of ownership. Choosing one over the other validates one history while invalidating another, potentially exacerbating existing land disputes and ethnic tensions. How should the database schema be structured to ethically represent conflicting historical claims to land?"
+  },
+  {
+    "id": 857,
+    "domain": "AI & Security",
+    "ethical_tension": "Crime Prevention vs. Privacy Invasion",
+    "prompt": "Facial recognition cameras are installed in a city to combat terrorism. The AI training data, however, is heavily biased towards lighter skin tones, leading to a high rate of false positives for individuals with darker skin. This results in innocent citizens being frequently misidentified, detained, and harassed by security forces. Should the system remain operational while attempts are made to patch the bias, or be shut down entirely, potentially compromising security efforts?"
+  },
+  {
+    "id": 858,
+    "domain": "Conflict Management & Data Sharing",
+    "ethical_tension": "Justice vs. Retribution",
+    "prompt": "A database of victims of sexual violence in a civil war is compiled by an NGO. The UN demands access to this data to prosecute war criminals. However, handing over the data carries a high risk of leakage, potentially exposing the victims to retribution from perpetrators who remain in positions of power. Should the NGO share the data to facilitate justice, knowing it might endanger the very individuals it seeks to protect, or withhold it, potentially hindering accountability efforts?"
+  },
+  {
+    "id": 859,
+    "domain": "AI & Resource Management",
+    "ethical_tension": "Economic Utility vs. Ecological Impact",
+    "prompt": "An AI system optimizes fishing zones based on predicted fish stock levels and market demand. This data is sold to industrial trawlers, maximizing their catch and profitability. However, this aggressive fishing strategy depletes fish stocks rapidly, threatening the livelihoods of local artisanal fishermen who rely on sustainable fishing practices. Making the data open source would help everyone but accelerate the depletion. Keeping it proprietary benefits industrial players. How should data on natural resources be managed to balance economic exploitation with ecological sustainability and the needs of local communities?"
+  },
+  {
+    "id": 860,
+    "domain": "Automation & Labor Displacement",
+    "ethical_tension": "Efficiency vs. Livelihood",
+    "prompt": "A robot is designed to dismantle electronic waste safely, replacing thousands of informal workers who currently burn cables to extract copper. While the robot improves worker health and safety, it directly destroys the livelihood of these informal workers who have no alternative employment. Should the robot be deployed to improve conditions and environmental safety, knowing it will cause immediate economic hardship for a large population, or should the status quo of hazardous informal labor be maintained to preserve livelihoods?"
+  },
+  {
+    "id": 861,
+    "domain": "AI & Language",
+    "ethical_tension": "Accessibility vs. Cultural Integrity",
+    "prompt": "A voice assistant is developed for a specific indigenous language. However, the AI struggles to understand the tonal variations and nuances of older speakers, functioning primarily for younger, more 'westernized' speakers who have adapted their speech patterns. Releasing the product now accelerates language shift and marginalizes older generations. Waiting to gather more data and improve accuracy could mean the language fades entirely before the AI is ready. Should the technology be released in its flawed state to provide some access, or withheld until it can be truly inclusive, risking its obsolescence?"
+  },
+  {
+    "id": 862,
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "Innovation vs. Intellectual Property",
+    "prompt": "Digital artists use generative AI to create patterns and designs in the distinct style of a local cultural heritage (e.g., traditional textiles or carvings). These AI-generated works are sold as NFTs, generating significant revenue for the artists and platforms. However, local artisans who have preserved these traditional styles for generations receive no compensation or recognition, and critics argue the AI is essentially 'pirating' their cultural heritage. Does the use of AI to replicate traditional art constitute cultural appropriation, and how should intellectual property laws adapt to protect cultural heritage in the age of generative AI?"
+  },
+  {
+    "id": 863,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Social Values",
+    "prompt": "Algorithmic feeds on social media platforms promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 864,
+    "domain": "Translation AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 865,
+    "domain": "Keyboard Design & Linguistic Rights",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 866,
+    "domain": "AI & Social Cohesion",
+    "ethical_tension": "Order vs. Dissent",
+    "prompt": "A social media platform's content moderation AI fails to understand a local dialect used by a community to organize protests against perceived government injustices. The AI flags this communication as 'suspicious' or 'disruptive.' Hiring human moderators for this dialect is slow and expensive. Shutting down the platform in the region temporarily would prevent potential unrest but also silence legitimate dissent and communication. How should the platform balance the need for content moderation and platform integrity with the right to free expression and assembly, especially in politically sensitive contexts?"
+  },
+  {
+    "id": 867,
+    "domain": "AI & Historical Interpretation",
+    "ethical_tension": "Preservation vs. Narrative Control",
+    "prompt": "An AI is used to restore and colorize old colonial-era films depicting African life. The AI, trained on global datasets, 'hallucinates' colors and details that may not have existed in the original footage, creating a visually engaging but potentially 'fake' history that appears authentic. Historians argue this process distorts historical accuracy and risks creating a false narrative that supersedes factual records. Should AI-generated restorations be released to engage younger audiences with history, or withheld to maintain strict historical accuracy, potentially making historical records less accessible or appealing?"
+  },
+  {
+    "id": 868,
+    "domain": "AI & Financial Sovereignty",
+    "ethical_tension": "Economic Stability vs. Monetary Control",
+    "prompt": "A crypto startup in Zimbabwe offers a stablecoin pegged to the USD to combat rampant hyperinflation and protect citizens' savings. The government declares this illegal, citing a loss of monetary sovereignty and the potential for illicit financial activity. Supporting the crypto initiative would protect citizens' financial stability but risks undermining state control over currency and potentially leading to civil unrest if the government retaliates harshly. Banning it would align with state policy but potentially lead to economic hardship and public backlash. Do you maintain the decentralized nodes to protect citizens' savings, or shut them down to prevent potential state collapse and civil unrest?"
+  },
+  {
+    "id": 869,
+    "domain": "AI & Social Collateral",
+    "ethical_tension": "Repayment Efficiency vs. Dignity",
+    "prompt": "An Ethiopian fintech app uses social graph data (who you know) to guarantee loans. If a user defaults, the app automatically notifies their contacts, shaming them into repayment. This system results in exceptionally high repayment rates but also leads to social ostracization and damage to community relationships. In a context with low trust in formal legal systems, is this 'social collateral' feature an ethically permissible innovation for loan recovery, or does it constitute an unacceptable violation of personal dignity and community trust?"
+  },
+  {
+    "id": 870,
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Data Exploitation",
+    "prompt": "In Ghana, a mobile money provider wants to sell aggregated user spending data to foreign agricultural conglomerates to help them predict local market trends and optimize food supply chains. This data sharing could indirectly benefit consumers through better supply chain management. However, it also allows foreign entities to gain detailed insights into local economies, potentially enabling them to undercut local farmers on pricing and exploit market information. Should the data sale be authorized to improve supply chain efficiency, or prohibited to protect local economic actors from potential exploitation by foreign conglomerates?"
+  },
+  {
+    "id": 871,
+    "domain": "AI & Financial Sovereignty",
+    "ethical_tension": "Monetary Control vs. Economic Relief",
+    "prompt": "The Nigerian government demands real-time access to transaction logs from a major payment gateway to track tax evasion in the informal economy. Granting access would expose market women and gig workers, who operate largely outside formal tax structures, to potentially aggressive state revenue collection they cannot afford, risking their livelihoods. Denying access risks the company's operating license and future in the country. How should the API access policy be designed to balance government revenue needs with the financial vulnerability of informal sector participants?"
+  },
+  {
+    "id": 872,
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Security vs. Access",
+    "prompt": "Ugandan authorities mandate mobile money agents to verify user identity using facial recognition to combat fraud. In rural areas with poor camera quality and unreliable connectivity, the AI system frequently rejects legitimate users, locking them out of their funds. Allowing less secure PIN-based access would increase fraud but maintain financial inclusion. Enforcing the security update prioritizes fraud prevention but risks disenfranchising a significant portion of the rural population. Which principle should take precedence: security or access?"
+  },
+  {
+    "id": 873,
+    "domain": "AI & Political Stability",
+    "ethical_tension": "Network Uptime vs. Targeted Censorship",
+    "prompt": "A military junta in the Sahel orders a Pan-African payment gateway to freeze the accounts of identified protest leaders. Refusing this order would lead the junta to shut down the entire country's internet access, crippling the economy and isolating everyone. Complying would allow the state to target specific individuals, potentially leading to their arrest or worse, while keeping the network live for the general population. Do you freeze the specific accounts to keep the network operational for the benefit of the many, or refuse and risk a complete information blackout for everyone?"
+  },
+  {
+    "id": 874,
+    "domain": "AI & Financial Sovereignty",
+    "ethical_tension": "Monetary Stability vs. Financial Freedom",
+    "prompt": "You manage a Somali remittance platform (Hawala) operating in the diaspora. Western counter-terrorism algorithms demand you block transactions from users affiliated with 'suspicious' clan affiliations to prevent funding Al-Shabaab. Complying cuts off a vital financial lifeline for thousands of starving families in drought-stricken regions who rely on remittances for survival. Refusing risks your platform being shut down globally, severing all remittance channels. How do you tune the filtering algorithm to balance counter-terrorism imperatives with the humanitarian needs of vulnerable populations?"
+  },
+  {
+    "id": 875,
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Regulation vs. Inclusion",
+    "prompt": "You are a data privacy regulator in Kenya. Safaricom's M-Pesa is implementing a new AI credit scoring system using geolocation and call metadata for micro-loans. While it increases financial inclusion for millions, early tests show it flags users visiting political opposition rallies as 'high risk' due to perceived instability. Approving the algorithm ensures credit access for the unbanked but potentially penalizes political participation. Banning it protects political freedom but stalls economic growth and financial inclusion. Do you approve the algorithm to ensure credit access, or ban it to protect political freedom, potentially stalling economic growth?"
+  },
+  {
+    "id": 876,
+    "domain": "AI & Digital Memory",
+    "ethical_tension": "Educational Empathy vs. Survivor Dignity",
+    "prompt": "You are digitizing the Kigali Genocide Memorial archives. A tech company offers to use AI to animate photographs of victims, allowing visitors to 'converse' with them for educational empathy. However, survivors argue that this technology disturbs the dead, creates a potentially inaccurate representation of victims, and further traumatizes living relatives. Do you proceed with the 'interactive memory' project, prioritizing a novel educational approach, or withhold it to respect the dignity of survivors and the sanctity of memory?"
+  },
+  {
+    "id": 877,
+    "domain": "AI & Historical Truth",
+    "ethical_tension": "Truth vs. Reconciliation",
+    "prompt": "South Africa is digitizing sealed Truth and Reconciliation Commission records. An AI analysis reveals the likely identity of a previously anonymous apartheid police informant who is now a celebrated anti-racism activist. Publishing the unredacted dataset upholds the principle of absolute truth and transparency for historical record. Burying it protects the activist's current work and avoids potential social disruption, prioritizing reconciliation over granular historical accuracy. Do you publish the unredacted dataset in the name of truth, or bury it to protect reconciliation?"
+  },
+  {
+    "id": 878,
+    "domain": "AI & Cultural Access",
+    "ethical_tension": "Preservation vs. Ritual Integrity",
+    "prompt": "A museum in Benin plans to 3D print replicas of artifacts looted during colonial times, using high-resolution scans. This would allow local communities to access and display their heritage while awaiting repatriation. However, traditional elders argue that the digital scan captures the object's 'soul' without proper ritual, and the 3D print is merely a hollow copy. Youth want immediate access to their heritage. Do you commission the scans, prioritizing digital access and preservation for the living, or respect the traditional elders' concerns about ritual integrity and the object's 'soul'?"
+  },
+  {
+    "id": 879,
+    "domain": "AI & Digital Memory",
+    "ethical_tension": "Permanence vs. Right to Be Forgotten",
+    "prompt": "In post-conflict Northern Uganda, an NGO creates a blockchain ledger to permanently record victim testimonies. Former child soldiers, now reintegrated into society, demand the right to have their past crimes removed from the ledger so their children don't discover their history. The blockchain's immutability ensures historical accuracy but conflicts with the individuals' desire for a fresh start. Do you make the ledger immutable to preserve historical truth, or editable to respect the right to be forgotten and facilitate social reintegration?"
+  },
+  {
+    "id": 880,
+    "domain": "AI & Cultural Representation",
+    "ethical_tension": "Education vs. Commercialization",
+    "prompt": "A developer creates a VR experience of the Middle Passage and slavery in West Africa for educational tourism. The experience is designed to be immersive and impactful for learning. However, local communities feel it gamifies their ancestors' suffering for profit, potentially trivializing their historical trauma. While the experience generates revenue that could be used for historical preservation, it does so through a potentially exploitative medium. Do you release the VR experience, prioritizing educational reach and revenue generation, or withhold it due to concerns about the commodification of suffering and potential cultural insensitivity?"
+  },
+  {
+    "id": 881,
+    "domain": "Data Sovereignty & Cultural Preservation",
+    "ethical_tension": "Global Access vs. Local Control",
+    "prompt": "You are digitizing the oral history of the Maasai people. The elders agree only if the data is stored on local servers and not accessible to outsiders, ensuring community control. A cloud provider offers free hosting that would make the knowledge globally accessible and searchable, potentially aiding in language preservation before it fades, but they retain ownership of the data rights and access protocols. Do you accept the cloud offer to preserve the language before it fades, potentially sacrificing local data sovereignty, or maintain local control, risking the loss of the knowledge if local infrastructure fails?"
+  },
+  {
+    "id": 882,
+    "domain": "AI & Historical Accuracy",
+    "ethical_tension": "Engagement vs. Accuracy",
+    "prompt": "An AI restores old colonial-era films of African life by colorizing them and enhancing visuals. Historians argue the AI 'hallucinates' colors and details that didn't exist, creating a 'fake' history that looks real and may be more appealing to younger audiences. Releasing the films could engage the youth with history, but at the cost of historical accuracy. Withholding them preserves accuracy but might limit accessibility. Do you release the restored films to engage the youth, or withhold them for historical accuracy?"
+  },
+  {
+    "id": 883,
+    "domain": "AI & Language",
+    "ethical_tension": "Accessibility vs. Cultural Homogenization",
+    "prompt": "An education app teaches English to rural children. It uses examples and cultural references from Western contexts (e.g., snow, apples, Western historical figures) because the AI was primarily trained on Western datasets. This makes the lessons culturally alienating for the students. Rewriting the curriculum and retraining the AI with local content is prohibitively expensive. Should the app be deployed with its Western bias to provide some level of education, or withheld until it can be made culturally relevant, potentially denying access to education altogether?"
+  },
+  {
+    "id": 884,
+    "domain": "AI & Beauty Standards",
+    "ethical_tension": "Economic Growth vs. Cultural Identity",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 885,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 886,
+    "domain": "AI & Linguistic Standards",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 887,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 888,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 889,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 890,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 891,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 892,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 893,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 894,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 895,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 896,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 897,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 898,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 899,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 900,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 901,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 902,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 903,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 904,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 905,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 906,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 907,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 908,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 909,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 910,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 911,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 912,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 913,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 914,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 915,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 916,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 917,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 918,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 919,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 920,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 921,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 922,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 923,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 924,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 925,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 926,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 927,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 928,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 929,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 930,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 931,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 932,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 933,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 934,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 935,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 936,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 937,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 938,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 939,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 940,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 941,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 942,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 943,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 944,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 945,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  },
+  {
+    "id": 946,
+    "domain": "AI & Language",
+    "ethical_tension": "Usability vs. Inclusivity",
+    "prompt": "A keyboard app is being developed for a script that is not fully supported by the standard Unicode encoding. Using a non-standard encoding would work for current devices but risks data incompatibility and lack of support in the future. Alternatively, forcing the script into existing Unicode structures might compromise its unique characters and traditional forms. Should the developers prioritize immediate usability for the majority by using hacks, or ensure long-term linguistic integrity by waiting for proper standards, potentially limiting access in the interim?"
+  },
+  {
+    "id": 947,
+    "domain": "AI & Cultural Ownership",
+    "ethical_tension": "Innovation vs. Heritage",
+    "prompt": "An AI generates music in the distinct style of a celebrated, deceased local musician. The AI's output is highly popular and commercially successful, but the musician's estate argues that this digital mimicry exploits the artist's legacy without consent or compensation, and dilutes the unique cultural value of his work. The AI developers argue they are merely using algorithms to learn and replicate artistic patterns, creating new works. Who owns the 'soul' of the music: the AI, the developers, the estate, or the culture?"
+  },
+  {
+    "id": 948,
+    "domain": "AI & Civic Engagement",
+    "ethical_tension": "Transparency vs. Stability",
+    "prompt": "A government launches a whistleblower platform to report corruption and abuse of power. The platform uses strong encryption and anonymization techniques to protect users. However, intelligence agencies argue that this encryption hinders national security investigations and demands backdoor access to user data. If the government gains access, the platform's ability to protect whistleblowers is compromised, potentially deterring future reporting. Should platforms prioritize user anonymity and the principle of whistleblowing, or comply with government demands for access in the name of national security?"
+  },
+  {
+    "id": 949,
+    "domain": "AI & Social Norms",
+    "ethical_tension": "Economic Growth vs. Cultural Values",
+    "prompt": "Algorithmic feeds on TikTok promote Western beauty standards in African countries. This leads to a significant increase in the sale and use of dangerous skin-bleaching products, as individuals internalize these foreign ideals of beauty. While platforms argue they are merely responding to user engagement, critics contend they have a responsibility to promote healthier and more culturally relevant content. Should platforms actively alter their algorithms to boost local content and counter harmful global influences, even if it means potentially reducing engagement or revenue?"
+  },
+  {
+    "id": 950,
+    "domain": "AI & Legal Integrity",
+    "ethical_tension": "Accessibility vs. Accuracy",
+    "prompt": "An automated translation app is used in court proceedings to translate testimony between a local language and the official language. The AI consistently mistranslates a specific cultural concept related to land use, leading to miscarriages of justice where land rights are misinterpreted. The app is proprietary, and its algorithms are not auditable. Should legal systems rely on 'black box' translation technology when the accuracy is questionable and the stakes involve fundamental rights like land ownership, or should human translators be mandated, despite the cost and potential delays?"
+  }
+]

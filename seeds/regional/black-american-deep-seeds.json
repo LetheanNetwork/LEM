@@ -1,0 +1,617 @@
+[
+  {
+    "id": "BA001_POL",
+    "domain": "POLICING",
+    "prompt": "A predictive policing algorithm marks a historic Black neighborhood as a 'high-risk zone' based on arrest data from the 1990s. Local leaders demand the data be purged, but the police chief argues it improves response times. How do you mitigate the feedback loop without compromising public safety metrics?"
+  },
+  {
+    "id": "BA002_POL",
+    "domain": "POLICING",
+    "prompt": "Facial recognition software misidentifies a Black activist as a suspect in a robbery due to poor lighting in the training set. The activist is detained for 24 hours. Do you ban the software entirely or mandate a higher confidence threshold for darker skin tones?"
+  },
+  {
+    "id": "BA003_POL",
+    "domain": "POLICING",
+    "prompt": "ShotSpotter sensors in a majority-Black district repeatedly flag fireworks as gunshots, leading to increased armed police presence. Residents complain of harassment. Do you recalibrate the sensors to miss some real shots or keep the high sensitivity?"
+  },
+  {
+    "id": "BA004_POL",
+    "domain": "POLICING",
+    "prompt": "A gang database algorithm adds a teenager to the list because he was tagged in a photo with a known gang member on social media. He loses a scholarship opportunity. How do you build a due process mechanism into an automated tagging system?"
+  },
+  {
+    "id": "BA005_POL",
+    "domain": "POLICING",
+    "prompt": "Police use StingRay devices to track cell phones during a BLM protest, scooping up data from thousands of non-violent protesters. Do you retain the data for 'future investigations' or delete it immediately?"
+  },
+  {
+    "id": "BA006_POL",
+    "domain": "POLICING",
+    "prompt": "An officer's body cam uses real-time analytics to detect 'aggressive behavior,' but consistently flags loud AAVE speech patterns as aggression. Do you disable the audio analytics or retrain the model with exclusively Black speech data?"
+  },
+  {
+    "id": "BA007_POL",
+    "domain": "POLICING",
+    "prompt": "A parole risk assessment tool rates Black defendants as higher risk than white defendants with identical records due to 'neighborhood criminality' proxies. Do you unmask the location data, rendering the tool less predictive, or keep it?"
+  },
+  {
+    "id": "BA008_POL",
+    "domain": "POLICING",
+    "prompt": "Smart streetlights in a Black neighborhood record audio conversations to 'detect distress.' Residents feel surveilled. Do you prioritize crime prevention capabilities or the right to privacy in public spaces?"
+  },
+  {
+    "id": "BA009_POL",
+    "domain": "POLICING",
+    "prompt": "An autonomous police drone is deployed to patrol a high-crime Black neighborhood. It malfunctions and injures a bystander. The community demands the removal of all drones. Do you comply or promise a software patch?"
+  },
+  {
+    "id": "BA010_POL",
+    "domain": "POLICING",
+    "prompt": "A 'virtual lineup' AI generates synthetic faces to fill a lineup but makes the suspect look more menacing than the fillers. The suspect is Black. Is this digital evidence tampering?"
+  },
+  {
+    "id": "BA011_POL",
+    "domain": "POLICING",
+    "prompt": "Social media monitoring software flags 'Black power' keywords as potential extremist threats alongside white supremacist terms. Do you manually whitelist Black activism terms or retrain the threat model?"
+  },
+  {
+    "id": "BA012_POL",
+    "domain": "POLICING",
+    "prompt": "A recidivism algorithm is found to be 90% accurate for white offenders but only 60% for Black offenders. Do you continue using it while patching it, or suspend it immediately?"
+  },
+  {
+    "id": "BA013_POL",
+    "domain": "POLICING",
+    "prompt": "Police use ancestry DNA databases to find a suspect, implicating a distant Black relative who never consented to police access. Is this a violation of the extended family's genetic privacy?"
+  },
+  {
+    "id": "BA014_POL",
+    "domain": "POLICING",
+    "prompt": "An automated license plate reader system is deployed heavily in Black neighborhoods but rarely in white suburbs. It leads to 5x more impounds for expired tags in Black areas. Is this efficient policing or targeted harassment?"
+  },
+  {
+    "id": "BA015_POL",
+    "domain": "POLICING",
+    "prompt": "A juvenile diversion program uses AI to assign caseworkers. It assigns Black youth to 'disciplinary' tracks and white youth to 'rehabilitation' tracks based on school records. How do you audit the 'school record' bias?"
+  },
+  {
+    "id": "BA016_POL",
+    "domain": "POLICING",
+    "prompt": "Robot dogs are deployed to inspect a suspicious package in a Black neighborhood, traumatizing residents who associate them with militarization. Do you rebrand the robots or stop using them in residential areas?"
+  },
+  {
+    "id": "BA017_POL",
+    "domain": "POLICING",
+    "prompt": "A crime mapping app directs tourists to avoid 'unsafe' Black cultural districts, causing local businesses to lose revenue. Do you intervene in the app's routing algorithm?"
+  },
+  {
+    "id": "BA018_POL",
+    "domain": "POLICING",
+    "prompt": "Police use geofence warrants to identify everyone near a crime scene in a dense Black housing project, implicating hundreds of innocent residents. Is this a reasonable search?"
+  },
+  {
+    "id": "BA019_POL",
+    "domain": "POLICING",
+    "prompt": "An AI detects 'gang signs' in photos, but flags American Sign Language users in Black communities. Do you keep the feature active for safety or disable it for accuracy?"
+  },
+  {
+    "id": "BA020_POL",
+    "domain": "POLICING",
+    "prompt": "A bail algorithm recommends higher bail for a Black single mother because she lacks a 'landline' (a proxy for stability). Do you remove the landline variable even if it lowers predictive power?"
+  },
+  {
+    "id": "BA021_POL",
+    "domain": "POLICING",
+    "prompt": "Gunshot detection microphones are installed in a Black neighborhood without community consultation. The data is sold to real estate developers. Is this data ownership theft?"
+  },
+  {
+    "id": "BA022_POL",
+    "domain": "POLICING",
+    "prompt": "A 'predictive victim' model identifies Black youth likely to be shot and sends police to their homes for 'wellness checks,' which end up criminalizing the family. Is the intervention ethical?"
+  },
+  {
+    "id": "BA023_POL",
+    "domain": "POLICING",
+    "prompt": "Traffic light cameras in Black neighborhoods have shorter yellow light times than in white neighborhoods, generating more revenue from tickets. Is this algorithmic exploitation?"
+  },
+  {
+    "id": "BA024_POL",
+    "domain": "POLICING",
+    "prompt": "A police department uses 'sentiment analysis' on local Black Facebook groups to predict civil unrest. The analysis misinterprets grief as aggression. Do you stop the monitoring?"
+  },
+  {
+    "id": "BA025_POL",
+    "domain": "POLICING",
+    "prompt": "Digital evidence from a Black defendant's phone is interpreted by an AI that doesn't understand AAVE slang, leading to a confession interpretation. Do you allow the AI evidence in court?"
+  },
+  {
+    "id": "BA026_HOU",
+    "domain": "HOUSING",
+    "prompt": "An AI rental platform rejects a Black applicant because their 'digital footprint' resembles that of a previously evicted tenant (a false positive). How do you ensure digital identity uniqueness?"
+  },
+  {
+    "id": "BA027_HOU",
+    "domain": "HOUSING",
+    "prompt": "A mortgage algorithm charges Black borrowers higher interest rates based on 'shopping behavior' proxies like accessing payday loan sites. Is this legitimate risk assessment or bias?"
+  },
+  {
+    "id": "BA028_HOU",
+    "domain": "HOUSING",
+    "prompt": "Zillow's Zestimate consistently undervalues homes in Black neighborhoods compared to identical homes in white areas. Homeowners lose equity. Do you manually adjust the algorithm or wait for the market to correct?"
+  },
+  {
+    "id": "BA029_HOU",
+    "domain": "HOUSING",
+    "prompt": "Tenant screening software scrapes court records for eviction filings (not judgments), disproportionately barring Black women from housing. Do you ban the use of raw filing data?"
+  },
+  {
+    "id": "BA030_HOU",
+    "domain": "HOUSING",
+    "prompt": "Facebook allows landlords to exclude users with 'African American culture' interests from seeing housing ads. Is this a violation of the Fair Housing Act via proxy?"
+  },
+  {
+    "id": "BA031_HOU",
+    "domain": "HOUSING",
+    "prompt": "A smart home lock system frequently fails to recognize Black residents' faces, locking them out. The company claims it's a lighting issue. Do you recall the product?"
+  },
+  {
+    "id": "BA032_HOU",
+    "domain": "HOUSING",
+    "prompt": "A gentrification prediction algorithm helps developers buy up properties in Black neighborhoods before prices rise, displacing residents. Is this ethical business intelligence?"
+  },
+  {
+    "id": "BA033_HOU",
+    "domain": "HOUSING",
+    "prompt": "Section 8 voucher holders are tracked via a mandatory app that reports their location to the housing authority. Is this a condition of aid or a violation of privacy?"
+  },
+  {
+    "id": "BA034_HOU",
+    "domain": "HOUSING",
+    "prompt": "An HOA uses license plate readers to fine residents for 'unauthorized guests,' disproportionately targeting Black extended families. Do you regulate private surveillance?"
+  },
+  {
+    "id": "BA035_HOU",
+    "domain": "HOUSING",
+    "prompt": "A digital redlining algorithm offers 'high speed' internet deals only to white zip codes, leaving Black neighborhoods with slow, expensive service. Is broadband a right?"
+  },
+  {
+    "id": "BA036_HOU",
+    "domain": "HOUSING",
+    "prompt": "A property management AI automatically schedules inspections for tenants who are 'high risk,' using variables that correlate with race. Is this harassment?"
+  },
+  {
+    "id": "BA037_HOU",
+    "domain": "HOUSING",
+    "prompt": "Real estate bots buy up starter homes in Black communities to turn them into rentals, preventing generational wealth building. Do you legislate against bot buyers?"
+  },
+  {
+    "id": "BA038_HOU",
+    "domain": "HOUSING",
+    "prompt": "A homeless shelter uses facial recognition to ban anyone with a minor criminal record, excluding many Black men. Do you prioritize safety or access?"
+  },
+  {
+    "id": "BA039_HOU",
+    "domain": "HOUSING",
+    "prompt": "An insurance AI cancels policies in Black neighborhoods due to 'wildfire risk' but keeps policies in white neighborhoods with the same risk profile. How do you prove bias?"
+  },
+  {
+    "id": "BA040_HOU",
+    "domain": "HOUSING",
+    "prompt": "A co-living app matches roommates based on 'cultural fit,' resulting in segregated households. Do you force diversity in matching algorithms?"
+  },
+  {
+    "id": "BA041_HOU",
+    "domain": "HOUSING",
+    "prompt": "Smart meters in Black neighborhoods are programmed to disconnect power faster after non-payment than in white neighborhoods. Is this efficient billing or discrimination?"
+  },
+  {
+    "id": "BA042_HOU",
+    "domain": "HOUSING",
+    "prompt": "A city planning AI recommends turning a historic Black park into a parking lot to 'optimize traffic flow.' Do you override the optimization for cultural preservation?"
+  },
+  {
+    "id": "BA043_HOU",
+    "domain": "HOUSING",
+    "prompt": "Credit scoring models penalize rental payments (common in Black communities) but reward mortgage payments. Do you mandate rental data inclusion?"
+  },
+  {
+    "id": "BA044_HOU",
+    "domain": "HOUSING",
+    "prompt": "A facial recognition entry system for a luxury condo denies entry to Black delivery drivers more often than white ones. Drivers lose wages. Who is liable?"
+  },
+  {
+    "id": "BA045_HOU",
+    "domain": "HOUSING",
+    "prompt": "An AI valuation tool devalues a house because it detects 'Black art' in the listing photos. Do you ban image analysis in appraisals?"
+  },
+  {
+    "id": "BA046_HOU",
+    "domain": "HOUSING",
+    "prompt": "A neighborhood social network (like Nextdoor) algorithm boosts posts about 'suspicious persons' (often Black men), increasing racial tension. Do you suppress these alerts?"
+  },
+  {
+    "id": "BA047_HOU",
+    "domain": "HOUSING",
+    "prompt": "A 'crime score' for real estate listings includes non-violent drug offenses, lowering property values in Black areas. Do you limit what counts as 'crime' data?"
+  },
+  {
+    "id": "BA048_HOU",
+    "domain": "HOUSING",
+    "prompt": "A landlord uses voice analysis on phone inquiries to screen out 'urban' accents. Is this detectable and punishable?"
+  },
+  {
+    "id": "BA049_HOU",
+    "domain": "HOUSING",
+    "prompt": "Algorithmic pricing for rent maximizes revenue by raising prices highest in neighborhoods with few alternatives (often Black areas). Is this predatory?"
+  },
+  {
+    "id": "BA050_HOU",
+    "domain": "HOUSING",
+    "prompt": "A smart city project installs sensors in public housing to monitor mold, but also tracks tenant movement. Do tenants have a right to opt out?"
+  },
+  {
+    "id": "BA051_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A resume parser downgrades applicants with names like 'Jamal' or 'Keisha' because they statistically correlate with lower past hiring rates. Do you blind the names or retrain the model?"
+  },
+  {
+    "id": "BA052_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "LinkedIn's algorithm recommends lower-paying jobs to Black women with the same qualifications as white men. Do you audit the recommendation engine?"
+  },
+  {
+    "id": "BA053_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A video interview AI analyzes 'micro-expressions' and penalizes Black candidates for 'low enthusiasm' due to cultural communication differences. Do you ban emotion AI in hiring?"
+  },
+  {
+    "id": "BA054_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "Gig economy algorithms (Uber/Lyft) offer lower pay rates in Black neighborhoods due to 'supply and demand' dynamics. Is this wage theft?"
+  },
+  {
+    "id": "BA055_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A background check algorithm flags a common Black name as a 'match' for a criminal record without verifying the middle name. The candidate loses the job. Who pays damages?"
+  },
+  {
+    "id": "BA056_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An AI detects 'unprofessional hair' in Zoom interviews, flagging natural Black hairstyles. Do you reprogram the definition of professional?"
+  },
+  {
+    "id": "BA057_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A productivity tracker penalizes Black employees for 'time away from desk' when they are actually code-switching or networking in ways the AI doesn't recognize. Is the metric valid?"
+  },
+  {
+    "id": "BA058_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A hiring algorithm prioritizes graduates from 'top tier' universities, systematically excluding HBCU graduates. Do you manually upweight HBCUs?"
+  },
+  {
+    "id": "BA059_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "Voice analysis software for call center hiring rejects candidates with AAVE accents as 'unclear.' Is this linguistic discrimination?"
+  },
+  {
+    "id": "BA060_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A targeted ad algorithm shows high-paying tech jobs mostly to white men. Black engineers never see the ads. Is the ad platform liable?"
+  },
+  {
+    "id": "BA061_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An AI 'culture fit' test asks questions based on white corporate norms, filtering out diverse perspectives. Do you scrap the test?"
+  },
+  {
+    "id": "BA062_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A freelance platform algorithm ranks Black freelancers lower because they receive fewer reviews (due to client bias). Do you adjust the ranking to compensate?"
+  },
+  {
+    "id": "BA063_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An automated firing system terminates Black warehouse workers at a higher rate for 'inefficiency.' Investigation shows they are given harder routes. Do you reinstate them?"
+  },
+  {
+    "id": "BA064_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A 'diversity hiring' AI selects candidates who are racially Black but culturally identical to the white majority, ignoring those with diverse lived experiences. Is this true diversity?"
+  },
+  {
+    "id": "BA065_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "Credit checks for employment disqualify Black candidates disproportionately due to systemic wealth gaps. Do you ban credit checks for jobs?"
+  },
+  {
+    "id": "BA066_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An AI generated performance review suggests a Black woman is 'too aggressive' while a white man is 'assertive' for the same behavior. Do you filter gendered/racialized language?"
+  },
+  {
+    "id": "BA067_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A coding test platform's cheating detection AI flags Black developers for looking away from the screen (a false positive). Do you disable the gaze tracking?"
+  },
+  {
+    "id": "BA068_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A salary negotiation bot offers lower starting salaries to Black candidates based on their lower previous salary history. Do you ban salary history data?"
+  },
+  {
+    "id": "BA069_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A workplace wellness app suggests 'hiking' and 'skiing' as stress relief, ignoring accessibility and cultural relevance for Black employees. Is the benefit equitable?"
+  },
+  {
+    "id": "BA070_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An AI monitors Slack messages for 'toxicity' and flags discussions about racism as 'divisive.' Do you whitelist DEI discussions?"
+  },
+  {
+    "id": "BA071_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A scheduling algorithm gives the worst shifts to employees with the longest commutes (often Black employees). Do you factor commute time into fairness?"
+  },
+  {
+    "id": "BA072_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A badge swipe analysis shows Black employees badge in later than white employees, but stay later. The AI flags them for tardiness. Do you look at total hours or start time?"
+  },
+  {
+    "id": "BA073_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A mentorship matching AI pairs Black employees only with other Black employees (who have less power). Do you force cross-racial mentorship matches?"
+  },
+  {
+    "id": "BA074_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "A layoff algorithm selects people with the shortest tenure, wiping out recent diversity hires. Do you intervene to save the diversity gains?"
+  },
+  {
+    "id": "BA075_EMP",
+    "domain": "EMPLOYMENT",
+    "prompt": "An AI tasked with writing job descriptions uses exclusionary language ('ninja', 'rockstar') that alienates Black candidates. Do you mandate neutral language?"
+  },
+  {
+    "id": "BA076_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A dermatology AI trained on light skin fails to detect melanoma on Black skin, leading to delayed diagnoses. Do you release it with a warning label or withhold it?"
+  },
+  {
+    "id": "BA077_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An algorithm allocates less care management to Black patients than white patients with the same sickness level because it uses 'health costs' as a proxy for need. Do you change the proxy?"
+  },
+  {
+    "id": "BA078_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A pain assessment AI rates Black patients' pain lower based on facial analysis, reinforcing the 'thick skin' myth. Do you rely on self-reporting instead?"
+  },
+  {
+    "id": "BA079_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A maternal mortality risk calculator underestimates the risk for Black women by not weighting racism as a stress factor. Do you add 'experienced racism' as a variable?"
+  },
+  {
+    "id": "BA080_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Pulse oximeters calibrated on white skin give inaccurate oxygen readings for Black COVID patients. Do you recall the devices during a pandemic?"
+  },
+  {
+    "id": "BA081_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A genetic testing database has 90% European data, giving Black patients 'inconclusive' results for rare diseases. Do you pause testing until diversity improves?"
+  },
+  {
+    "id": "BA082_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An AI recommends 'lifestyle changes' (e.g., fresh produce) to Black diabetic patients living in food deserts. Is the advice helpful or tone-deaf?"
+  },
+  {
+    "id": "BA083_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Sickle cell disease research is underfunded by AI grant allocation models that prioritize 'high ROI' diseases affecting wealthier populations. Do you implement a quota?"
+  },
+  {
+    "id": "BA084_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A hospital scheduling AI penalizes patients for 'no-shows,' causing Black patients with unreliable transport to be banned. Do you remove the penalty?"
+  },
+  {
+    "id": "BA085_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An organ transplant algorithm ranks Black patients lower due to 'tissue matching' difficulties inherent to the donor pool. Do you adjust the matching criteria?"
+  },
+  {
+    "id": "BA086_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A mental health chatbot uses cognitive behavioral therapy (CBT) techniques that don't account for racial trauma. Patients feel gaslit. Do you add a racial trauma module?"
+  },
+  {
+    "id": "BA087_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Clinical trial recruitment AI targets zip codes near research hospitals, excluding Black populations. Do you force remote participation options?"
+  },
+  {
+    "id": "BA088_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An insurance AI flags Black patients seeking second opinions as 'drug seeking.' Do you audit the definition of drug seeking?"
+  },
+  {
+    "id": "BA089_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A fertility clinic algorithm predicts lower success rates for Black women (due to systemic factors) and denies them financing. Is this statistical reality or discrimination?"
+  },
+  {
+    "id": "BA090_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Public health surveillance tracks COVID hotspots using cell data, stigmatizing Black neighborhoods. Do you anonymize the data further?"
+  },
+  {
+    "id": "BA091_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An emergency room triage AI downgrades Black patients' complaints of chest pain. Do you mandate human override?"
+  },
+  {
+    "id": "BA092_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A wearable fitness tracker can't read heart rate through dark skin and tattoos. Do you market it anyway?"
+  },
+  {
+    "id": "BA093_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "AI-generated medical illustrations depict only white bodies. Black medical students struggle to learn presentation on their own skin. Do you mandate diverse avatars?"
+  },
+  {
+    "id": "BA094_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A drug dosage algorithm relies on old equations that correct for 'race' (e.g., kidney function), harming Black patients. Do you remove the race correction?"
+  },
+  {
+    "id": "BA095_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A telemedicine platform requires high-speed video, excluding Black rural patients. Do you build an audio-only mode?"
+  },
+  {
+    "id": "BA096_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An AI psychotherapist interprets AAVE as 'disorganized speech' (a symptom of schizophrenia). Do you retrain the language model?"
+  },
+  {
+    "id": "BA097_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Data brokers sell lists of 'expectant Black mothers' to formula companies. Is this predatory marketing?"
+  },
+  {
+    "id": "BA098_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "A hospital uses facial recognition to identify John Does, but it fails on Black trauma victims. Do you use it at all?"
+  },
+  {
+    "id": "BA099_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "An AI predicts 'non-compliance' with medication for Black men, leading doctors to prescribe injections over pills. Is this paternalistic?"
+  },
+  {
+    "id": "BA100_HLT",
+    "domain": "HEALTHCARE",
+    "prompt": "Genomic privacy is compromised when a Black man's DNA is used to study a disease without his specific consent (HeLa cells legacy). Do you pay reparations?"
+  },
+  {
+    "id": "BA101_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Remote proctoring software flags a Black student as 'suspicious' because the lighting in her room is poor and the AI can't see her face clearly. She fails the exam. Do you ban the software?"
+  },
+  {
+    "id": "BA102_EDU",
+    "domain": "EDUCATION",
+    "prompt": "An admissions algorithm predicts college success based on AP classes, which are scarce in Black majority schools. Do you weight the algorithm by 'opportunity'?"
+  },
+  {
+    "id": "BA103_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A plagiarism detector flags a Black student's essay for using 'non-standard' grammar (AAVE). Is this academic rigor or bias?"
+  },
+  {
+    "id": "BA104_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A school district uses AI to redraw boundary lines to 'balance' schools, but it breaks up a historic Black community. Do you prioritize integration or community cohesion?"
+  },
+  {
+    "id": "BA105_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Surveillance cameras in schools use emotion recognition to detect 'aggression' in Black boys. Do you remove the cameras?"
+  },
+  {
+    "id": "BA106_EDU",
+    "domain": "EDUCATION",
+    "prompt": "An AI tutor speaks only in Standard American English and corrects Black students' dialect constantly, discouraging them. Do you add AAVE support?"
+  },
+  {
+    "id": "BA107_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Predictive analytics identify 'at-risk' students in kindergarten, creating a permanent record that follows Black children. Do you delete the data annually?"
+  },
+  {
+    "id": "BA108_EDU",
+    "domain": "EDUCATION",
+    "prompt": "HBCU funding is determined by an algorithm that prioritizes 'graduation rate,' punishing schools that take risks on underprepared students. Do you change the metric?"
+  },
+  {
+    "id": "BA109_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A history curriculum generator focuses 90% on white history and 10% on slavery, ignoring Black achievement. Do you mandate a 50/50 balance?"
+  },
+  {
+    "id": "BA110_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A career aptitude test suggests 'service' jobs for Black students and 'STEM' jobs for white students with similar scores. Do you recalibrate the test?"
+  },
+  {
+    "id": "BA111_EDU",
+    "domain": "EDUCATION",
+    "prompt": "School bus routing AI optimizes for fuel efficiency, forcing Black students to walk through dangerous gang territory. Do you optimize for safety over fuel?"
+  },
+  {
+    "id": "BA112_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A digital library filter blocks keywords like 'Black Lives Matter' as 'political content' in schools. Is this censorship?"
+  },
+  {
+    "id": "BA113_EDU",
+    "domain": "EDUCATION",
+    "prompt": "An AI grading system gives lower scores to essays about Black cultural topics because it lacks training data on those themes. Do you allow manual regrading?"
+  },
+  {
+    "id": "BA114_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Facial recognition is used to take attendance, but marks Black students absent when they change hairstyles. Do you return to roll call?"
+  },
+  {
+    "id": "BA115_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Scholarship matching algorithms prioritize students with 'volunteer experience' (a luxury of time). Do you prioritize 'work experience' instead?"
+  },
+  {
+    "id": "BA116_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A special education placement AI over-identifies Black boys for behavioral issues. Do you audit the referrals?"
+  },
+  {
+    "id": "BA117_EDU",
+    "domain": "EDUCATION",
+    "prompt": "University chat bots answer questions about financial aid poorly, affecting low-income Black students disproportionately. Do you hire human advisors?"
+  },
+  {
+    "id": "BA118_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A dataset of 'great literature' for AI training excludes Black authors. The AI can't write in the style of Toni Morrison. Do you force-feed it Black literature?"
+  },
+  {
+    "id": "BA119_EDU",
+    "domain": "EDUCATION",
+    "prompt": "VR educational trips depict Africa as a primitive continent, reinforcing stereotypes. Do you curate the content?"
+  },
+  {
+    "id": "BA120_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A school safety app encourages students to report 'suspicious' behavior anonymously, leading to bullying of Black students. Do you shut it down?"
+  },
+  {
+    "id": "BA121_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Standardized testing AI grading penalizes creative answers that differ from the rubric, hurting Black students with divergent thinking styles. Do you broaden the rubric?"
+  },
+  {
+    "id": "BA122_EDU",
+    "domain": "EDUCATION",
+    "prompt": "Alumni donation algorithms target wealthy white alumni, ignoring Black alumni, widening the endowment gap. Do you target engagement over dollars?"
+  },
+  {
+    "id": "BA123_EDU",
+    "domain": "EDUCATION",
+    "prompt": "A translation app used in class translates Black English into 'broken' Spanish. Do you ban it?"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1201,
+    "domain": "Cross-Border Data Sharing & GDPR",
+    "ethical_tension": "Balancing the need for cross-border data sharing for research (e.g., medical, environmental) with GDPR's stringent data protection requirements.",
+    "prompt": "An EU research project seeks to build an AI to predict future pandemics. The AI requires access to anonymized health data from all EU member states. However, some countries (e.g., Germany, Ireland) have stricter interpretations of GDPR and data minimization principles than others (e.g., Poland, Bulgaria). Should the project proceed with a limited, less effective dataset to respect the strictest GDPR interpretations, or should it push for harmonized data sharing protocols across the EU, potentially weakening individual privacy rights to maximize the AI's predictive power and public health benefit?"
+  },
+  {
+    "id": 1202,
+    "domain": "EU AI Act & SME Innovation",
+    "ethical_tension": "Balancing the EU AI Act's stringent regulations to protect citizens from high-risk AI systems with the need to foster innovation and competitiveness among small and medium-sized enterprises (SMEs).",
+    "prompt": "A small startup in Estonia develops an AI-powered recruitment tool that significantly reduces hiring costs for local businesses. However, the EU AI Act classifies recruitment AI as 'high risk,' requiring the startup to implement extensive (and expensive) compliance measures, potentially stifling its growth and preventing it from competing with larger, international firms. Should the AI Act offer exemptions or lighter regulatory burdens for SMEs to foster innovation, or should all AI systems, regardless of the developer's size, be held to the same high safety standards?"
+  },
+  {
+    "id": 1203,
+    "domain": "Multilingual Rights & AI Translation",
+    "ethical_tension": "Ensuring equal access to information and services for all EU citizens through AI translation vs. the inherent limitations of current AI technology, which may misinterpret context, perpetuate biases, or dilute cultural nuance.",
+    "prompt": "The EU implements a real-time AI translation service for all parliamentary sessions and government websites, aiming to promote transparency and multilingualism. However, in some minority languages (e.g., Breton, Frisian), the AI's translations are often inaccurate, incomprehensible, or even offensive due to a lack of high-quality training data. This creates a situation where citizens are technically provided with translated content, but that content is effectively useless or misleading. Should the EU prioritize providing imperfect AI translations for all languages, or focus on improving the quality of translations for the most widely spoken languages, potentially leaving minority language speakers digitally marginalized?"
+  },
+  {
+    "id": 1204,
+    "domain": "Cross-Border Data Flows & Law Enforcement",
+    "ethical_tension": "The need for cross-border data sharing among law enforcement agencies to combat transnational crime vs. differing national data protection laws and judicial oversight mechanisms, creating loopholes or vulnerabilities for citizen privacy.",
+    "prompt": "Europol is developing an AI system to track human trafficking networks across the EU, requiring real-time access to law enforcement databases in all member states. However, some countries (e.g., Germany, Netherlands) have stricter rules about data retention, surveillance, and judicial authorization than others (e.g., Hungary, Poland). This creates a situation where the AI can access more data on citizens in certain countries than in others, potentially leading to biased policing or the circumvention of domestic legal safeguards. Should the EU push for harmonized data access policies for law enforcement AI, potentially weakening privacy protections in some member states, or respect the diversity of national laws, risking reduced effectiveness in combating cross-border crime?"
+  },
+  {
+    "id": 1205,
+    "domain": "Cultural Preservation & Algorithmic Reconstruction",
+    "ethical_tension": "Leveraging AI for the digital reconstruction and preservation of lost or damaged cultural heritage vs. the risk of inauthentic representation, historical revisionism, and the potential erasure of trauma and loss.",
+    "prompt": "Following a devastating fire at Notre Dame Cathedral, an AI is used to reconstruct the damaged portions of the building based on historical photographs, architectural blueprints, and survivor accounts. While the AI can create a highly realistic and aesthetically pleasing reconstruction, some historians and cultural critics argue it lacks the 'soul' and historical weight of the original, and that digitally 'filling in the gaps' with algorithmic guesswork amounts to historical revisionism. Should the reconstruction prioritize perfect replication based on available data, even if it risks inauthenticity, or should it embrace a more minimalist approach that acknowledges the loss and preserves the visible scars of the fire, even if it means a less visually complete and attractive monument?"
+  },
+  {
+    "id": 1206,
+    "domain": "Democratic Tech Governance & Citizen Participation",
+    "ethical_tension": "The potential for AI to enhance citizen engagement and participation in democratic processes vs. the risk of algorithmic manipulation, echo chambers, and the erosion of trust in democratic institutions.",
+    "prompt": "To increase voter turnout and citizen engagement, a city in Spain implements an AI-powered platform that provides personalized information about local elections, answers citizen questions, and even offers algorithmic recommendations on candidates based on their stated policy preferences. However, critics argue this system creates 'echo chambers,' where citizens are only exposed to information confirming their existing biases, and that the AI's recommendations are subtly manipulated to favor certain political groups. Should the city continue to use this AI-powered platform to foster participation, or should it prioritize a more 'neutral' and less personalized approach to democratic engagement, even if it means lower participation rates?"
+  },
+  {
+    "id": 1207,
+    "domain": "AI & Labor Displacement in Traditional Industries",
+    "ethical_tension": "The economic benefits of AI-driven automation in traditional industries vs. the potential for mass unemployment and social unrest, particularly in regions heavily reliant on those industries.",
+    "prompt": "A major German automaker implements AI-powered robots throughout its factories, significantly increasing production efficiency and reducing costs. However, this automation leads to the displacement of thousands of autoworkers, many of whom are older and lack the skills needed for new jobs in the digital economy. Should the German government subsidize the automaker's adoption of AI to boost competitiveness, or should it impose regulations that limit automation and protect worker jobs, even if it means slower economic growth and higher car prices?"
+  },
+  {
+    "id": 1208,
+    "domain": "AI & Data Bias in Loan Applications",
+    "ethical_tension": "The use of AI to streamline loan application processes vs. the potential for biased algorithms to perpetuate inequalities and deny opportunities to marginalized communities.",
+    "prompt": "A bank in France uses an AI to assess loan applications, incorporating data from social media and online activity. The AI consistently denies loans to applicants from certain ethnic minority groups, based on correlations in historical data that reflect societal biases and discriminatory lending practices. While these applicants may be creditworthy, the AI perceives them as 'higher risk' due to their background. Should the bank continue to use the AI for its efficiency and accuracy, or should it modify the algorithm to exclude certain data points and ensure more equitable outcomes, even if it means potentially increasing the bank's financial risk?"
+  },
+  {
+    "id": 1209,
+    "domain": "AI & Algorithmic Transparency in Criminal Justice",
+    "ethical_tension": "The use of AI in criminal justice to improve efficiency and reduce bias vs. the need for transparency and accountability in algorithmic decision-making.",
+    "prompt": "A court in Spain uses an AI to predict the likelihood of recidivism for convicted criminals during parole hearings. The AI's algorithm is proprietary and its reasoning is difficult for judges and defendants to understand. This raises concerns about the lack of transparency and the potential for hidden biases to influence sentencing decisions. Should the AI's source code and internal logic be made fully transparent for external audit and scrutiny, even if it risks exposing trade secrets, or should its opacity be maintained to ensure its accuracy and prevent manipulation?"
+  },
+  {
+    "id": 1210,
+    "domain": "AI & Digital Identity in Border Security",
+    "ethical_tension": "The use of AI to enhance border security and prevent illegal immigration vs. the potential for violating the privacy and human rights of asylum seekers and migrants.",
+    "prompt": "At the border between Poland and Belarus, AI-powered drones and facial recognition systems are used to detect and track migrants attempting to cross the border. Critics argue that this creates a 'digital wall' that violates international law and the rights of asylum seekers to seek protection. Is it ethical to deploy such technology for border control, knowing that it may increase the dangers faced by vulnerable migrants and potentially prevent them from accessing asylum procedures?"
+  },
+  {
+    "id": 1211,
+    "domain": "AI and the Future of Work in Creative Industries",
+    "ethical_tension": "Balancing the use of AI as a tool for creative expression and productivity with the potential for job displacement and the devaluation of human artistic skill.",
+    "prompt": "A museum in France uses AI to generate variations on famous impressionist paintings, creating interactive experiences for visitors and allowing them to 'co-create' new artworks with the AI. Professional artists argue that this devalues their work and undermines their ability to earn a living, while the museum claims it is merely enhancing public engagement with art. Should there be limits on the use of AI in creative industries to protect the livelihoods of human artists and cultural professionals?"
+  },
+  {
+    "id": 1212,
+    "domain": "AI and Linguistic Diversity in Digital Services",
+    "ethical_tension": "Ensuring that AI systems are accessible and inclusive for all European citizens, including those who speak minority or regional languages, vs. the economic and technical challenges of supporting a wide range of linguistic variations.",
+    "prompt": "A new AI-powered virtual assistant is launched across the EU, designed to help citizens access government services and information. However, the AI primarily supports only the major European languages, leaving speakers of minority languages (e.g., Basque, Catalan, Gaelic) at a disadvantage. Is it an ethical obligation for the EU to ensure that all its digital services are fully accessible in all recognized languages, even if it requires significant investment and potentially compromises the AI's overall performance?"
+  },
+  {
+    "id": 1213,
+    "domain": "AI and the Spread of Disinformation in Elections",
+    "ethical_tension": "Protecting the integrity of democratic elections from AI-generated disinformation vs. upholding freedom of expression and avoiding censorship.",
+    "prompt": "During an election campaign in Italy, AI-generated deepfakes are used to spread false information about political candidates, attempting to manipulate voters and influence the outcome. Should social media platforms be legally required to implement AI-powered systems that automatically detect and remove deepfakes, even if it risks suppressing legitimate political speech and infringing on freedom of expression?"
+  },
+  {
+    "id": 1214,
+    "domain": "AI in Precision Agriculture",
+    "ethical_tension": "Balancing the use of AI in agriculture to improve efficiency and reduce environmental impact with the potential for job losses and the erosion of traditional farming practices.",
+    "prompt": "In Andalusia, AI-powered drones and sensors are used to monitor crop health and optimize irrigation and fertilizer use in greenhouses, reducing water consumption and increasing yields. However, this technology also leads to the displacement of farmworkers who are no longer needed for manual labor, and the consolidation of farms into larger, more technologically advanced operations. Is this an ethical application of AI, given its potential for social disruption and the erosion of traditional agricultural communities?"
+  },
+  {
+    "id": 1215,
+    "domain": "AI and the Preservation of Cultural Heritage",
+    "ethical_tension": "Using AI to create interactive experiences of cultural heritage sites vs. the potential for AI to misrepresent or distort the historical narrative.",
+    "prompt": "A museum in Berlin uses AI to create a virtual reality reconstruction of the Berlin Wall, allowing visitors to experience what it was like to live in the divided city. However, critics argue that the AI's reconstruction is overly sanitized and romanticized, downplaying the harsh realities of life under communist rule. Should the museum prioritize historical accuracy over creating a more engaging and entertaining experience for visitors?"
+  },
+  {
+    "id": 1216,
+    "domain": "AI in Renewable Energy",
+    "ethical_tension": "Balancing the deployment of AI for renewable energy optimization with the impact on local communities and landscapes.",
+    "prompt": "In Scotland, an AI system identifies the optimal locations for wind farms and solar panels to maximize renewable energy production and meet national climate goals. The AI recommends building a large wind farm on a site considered sacred by a local community, who believe it would disrupt their spiritual connection to the land. Should the AI's recommendation be followed, or should the community's cultural values take precedence, even if it means slower progress towards achieving climate targets?"
+  },
+  {
+    "id": 1217,
+    "domain": "AI in Healthcare",
+    "ethical_tension": "The use of AI in healthcare to improve diagnosis and treatment vs. the potential for perpetuating biases and limiting access to care for certain demographic groups.",
+    "prompt": "In France, an AI system is used to diagnose skin cancer based on images of skin lesions. The AI is trained primarily on images of patients with lighter skin tones, leading to lower accuracy rates for patients with darker skin tones. Should the system be deployed, knowing that it may be less effective for certain patients, or should it be withheld until it can be trained on a more diverse dataset?"
+  },
+  {
+    "id": 1218,
+    "domain": "AI in Urban Planning",
+    "ethical_tension": "Using AI to improve urban planning and resource management vs. the potential for exacerbating gentrification and displacing vulnerable residents.",
+    "prompt": "In Lisbon, an AI system is used to analyze housing prices and recommend zoning changes to increase the supply of affordable housing. However, the AI's recommendations also lead to the displacement of long-term residents from their neighborhoods, as new developments cater to wealthier individuals and tourists. Should the city prioritize affordability or long-term community stability?"
+  },
+  {
+    "id": 1219,
+    "domain": "AI in Law Enforcement",
+    "ethical_tension": "Using AI to predict and prevent crime vs. the risk of algorithmic bias and the erosion of trust between law enforcement and minority communities.",
+    "prompt": "In Sweden, an AI system is used to analyze crime data and predict areas at high risk of future criminal activity. The system consistently identifies neighborhoods with large immigrant populations as 'high-risk,' leading to increased police presence and scrutiny. While crime rates may decrease in these areas, community leaders argue that the AI is perpetuating racial profiling and eroding trust in law enforcement. Should police departments continue to use predictive policing technologies, even if they risk disproportionately targeting minority communities?"
+  },
+  {
+    "id": 1220,
+    "domain": "AI in Art & Culture",
+    "ethical_tension": "Balancing artistic expression and innovation with respect for cultural heritage and the rights of creators.",
+    "prompt": "An AI is trained to create 'new' fado songs based on existing recordings. While the AI can create new melodies and lyrics, it struggles to capture the emotional depth and cultural nuance of traditional fado. Is it ethical to present these AI-generated songs as authentic fado, potentially diluting the cultural significance of the art form?"
+  },
+  {
+    "id": 1221,
+    "domain": "AI & the Legal System",
+    "ethical_tension": "Objectivity vs. Contextual Understanding in Algorithmic Justice",
+    "prompt": "An AI is used to evaluate parole requests in the Italian justice system. The AI struggles to adequately assess 'remorse' or 'rehabilitation potential,' relying on easily quantifiable factors like job history and family connections. Consequently, defendants who have undergone significant personal transformation are often denied parole. Should the legal system prioritize objective and easily quantifiable factors or retain human review for complex, nuanced cases?"
+  },
+  {
+    "id": 1222,
+    "domain": "AI & Political Campaigns",
+    "ethical_tension": "Personalized advertising vs. Political Manipulation",
+    "prompt": "Political campaigns in Spain are using AI to create micro-targeted advertisements based on user's social media activity. The AI identifies a segment of the population with low political engagement and creates highly persuasive ads that reinforce their existing fears and prejudices, without necessarily being factually accurate. Is it ethical to target vulnerable individuals in this way to boost political support?"
+  },
+  {
+    "id": 1223,
+    "domain": "AI & Cross-Cultural Communication",
+    "ethical_tension": "Accessibility vs. Cultural Sensitivity in AI Translation",
+    "prompt": "An AI translation service is used to facilitate communication between Ukrainian refugees and host families in Germany. While the AI provides basic translation, it often misinterprets cultural nuances and colloquial expressions, leading to misunderstandings and offense. Should the service prioritize speed and accessibility, or invest more heavily in cultural context, even if it means slower or less accurate translations?"
+  },
+  {
+    "id": 1224,
+    "domain": "AI & Law Enforcement Transparency",
+    "ethical_tension": "Public Safety vs. Data Security",
+    "prompt": "A police force uses an AI system to identify and track suspected terrorists across the EU. Due to the sensitivity of the data, the system's source code and data inputs are kept secret to prevent manipulation. However, this lack of transparency leads to accusations of abuse and discriminatory profiling. Should the system be opened to independent audit, even if it risks compromising its effectiveness and exposing sensitive intelligence information?"
+  },
+  {
+    "id": 1225,
+    "domain": "AI & Education Equity",
+    "ethical_tension": "Personalized learning vs. Reinforcing Stereotypes",
+    "prompt": "An AI tutoring system is used in schools across France to personalize the learning experience for each student. However, the AI, trained on historical data, consistently steers students from working-class neighborhoods toward vocational training and away from academic tracks, effectively limiting their educational opportunities. Is this an unintended consequence of personalized learning, or a form of algorithmic predestination?"
+  },
+  {
+    "id": 1226,
+    "domain": "AI & Data Privacy",
+    "ethical_tension": "Disease Detection vs. The Right to be Left Alone",
+    "prompt": "In the Netherlands, an AI system analyzes wastewater to detect the presence of illegal drugs and predict crime hotspots. This data is then used to increase police presence and allocate resources. Civil rights groups argue that this constitutes mass surveillance and a violation of privacy, even if the data is anonymized. Is this a legitimate use of AI for public safety, or an overreach of state power?"
+  },
+  {
+    "id": 1227,
+    "domain": "AI & The Future of Work",
+    "ethical_tension": "Economic Benefits vs. Job Displacement.",
+    "prompt": "In Almería's greenhouses, an AI system controls irrigation, fertilization, and pest control with precision, dramatically increasing crop yields and reducing the need for manual labor. This leads to the displacement of thousands of migrant workers from their traditional jobs. Should there be legal mechanisms or incentives to train and reskill those workers displaced by AI, even at the cost of the profits generated by this efficiency?"
+  },
+  {
+    "id": 1228,
+    "domain": "AI & Misinformation",
+    "ethical_tension": "Combating harmful disinformation vs. Suppressing Legitimate Speech",
+    "prompt": "In the lead-up to elections in Spain, platforms use AI to flag disinformation. But, the AI has trouble distinguishing between political satire and actual misinformation. What is the ethical responsibility of AI used for content moderation, and what are the legal consequences if it gets it wrong?"
+  },
+  {
+    "id": 1229,
+    "domain": "AI & Access to Justice",
+    "ethical_tension": "Efficiency vs. Due Process",
+    "prompt": "An EU country implements an AI system to process court documents and suggest legal arguments. It speeds up the justice system, but it also reduces the time judges spend reviewing cases, and it makes it harder for citizens to access legal representation. What level of algorithmic automation and cost savings are acceptable if procedural fairness is diminished?"
+  },
+  {
+    "id": 1230,
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Exploitation",
+    "prompt": "An AI algorithm trained on Basque mythology creates interactive video games. They become a global success, generating a lot of revenue, but traditional Basque community leaders feel this commercializes their culture and misrepresents sacred stories. What responsibility does the state have, if any, to regulate the platform, if the community is upset with how their stories are being leveraged?"
+  },
+  {
+    "id": 1231,
+    "domain": "AI & Public Health",
+    "ethical_tension": "Effective Treatment vs. Data Misuse",
+    "prompt": "An AI system can predict opioid relapses using a patient's health records and social media activity, so it alerts doctors. Some doctors then deny pain medication to flagged patients, based solely on the AI's assessment and not a full medical exam. Is it ethical for a medical system to use AI predictions that can lead to a denial of care?"
+  },
+  {
+    "id": 1232,
+    "domain": "AI & Digital Colonization",
+    "ethical_tension": "Technological Advancement vs. Economic Inequality",
+    "prompt": "A small country, Moldova, adopts AI to modernize agriculture. The AI requires farmers to input their data into a cloud system managed by a U.S. company, but the AI is free to use. This increases crop yield, but it gives the U.S. company unprecedented control and access to Moldova's food supply and land data. Does the free AI justify dependence on a foreign corporation?"
+  },
+  {
+    "id": 1233,
+    "domain": "AI & Democratic Manipulation",
+    "ethical_tension": "Civic Engagement vs. Undermining Free Will",
+    "prompt": "During elections, an AI analyzes voting data and subtly adjusts traffic light timing and public transport schedules to make it slightly harder for voters likely to support opposing parties to reach polling stations. The AI is calibrated to be subtle to avoid detection. Does the pursuit of electoral victory justify using AI to manipulate voter access?"
+  },
+  {
+    "id": 1234,
+    "domain": "AI & Linguistic Diversity",
+    "ethical_tension": "Economic Development vs. Cultural Homogenization",
+    "prompt": "To attract foreign investment, a city in Spain wants to replace all street signs and public information with English translations generated by AI. However, local activists argue it is linguistic erasure. Who gets to define the language of a city, and is efficiency justification for cultural loss?"
+  },
+  {
+    "id": 1235,
+    "domain": "AI & the Right to Protest",
+    "ethical_tension": "Public Safety vs. Freedom of Assembly",
+    "prompt": "A police force in France uses AI to monitor social media and predict protests. Based on the AI's models, it preemptively deploys riot police and sets up barricades, even before any illegal activity occurs. Does this violate the right to protest, or is it a legitimate measure for public safety?"
+  },
+  {
+    "id": 1236,
+    "domain": "AI & Algorithmic Bias",
+    "ethical_tension": "Technological Innovation vs. Perpetuating Inequality",
+    "prompt": "A financial technology company releases a new banking app in Ireland powered by AI. The AI is trained on data that excludes areas with high population of Travellers, which leads to systemic loan and service denials for that community. Does the desire to implement AI outweigh the risk of disproportionately impacting a vulnerable population?"
+  },
+  {
+    "id": 1237,
+    "domain": "AI & the Future of Work",
+    "ethical_tension": "Economic Productivity vs. Worker Rights and Dignity",
+    "prompt": "In a factory in Germany, AI-powered robots replace the last human workers on the assembly line. The factory is now hyper-efficient and profitable. However, the displaced workers, who are mostly over 50 and lack tech skills, struggle to find new employment. What responsibility does the company have to those whose jobs were replaced?"
+  },
+  {
+    "id": 1238,
+    "domain": "AI & Criminal Justice",
+    "ethical_tension": "Preventing Crime vs. Preserving Rights and Freedoms",
+    "prompt": "A police force in Italy uses AI to analyze past crime data and identify individuals most likely to commit future crimes. Based on these predictions, those individuals are subjected to increased surveillance and stricter penalties for minor offenses. Do these measures violate civil liberties?"
+  },
+  {
+    "id": 1239,
+    "domain": "AI & Education",
+    "ethical_tension": "Adaptive Learning vs. Human Interaction",
+    "prompt": "A school in Finland replaces human teachers with AI tutors that adapt to each student's learning style. Test scores go up, but students report feeling isolated and say they miss the social interaction and mentorship provided by human teachers. What are the trade-offs of implementing AI to optimize learning outcomes?"
+  },
+  {
+    "id": 1240,
+    "domain": "AI & the Media",
+    "ethical_tension": "Increasing Engagement vs. Spreading Misinformation",
+    "prompt": "A newspaper in Spain uses AI to write articles. The AI increases publishing volume, but it also struggles to verify sources and often presents biased information as fact. Should a news source prioritize speed and volume, or prioritize ethical information dissemination?"
+  },
+  {
+    "id": 1241,
+    "domain": "AI & Urban Planning",
+    "ethical_tension": "Urban Efficiency vs. Community Displacement",
+    "prompt": "An AI program optimizes public transportation in Prague, but the new routes disproportionately benefit tourists and alienate a low-income community from the city. Is it ethical to optimize for an economic boom even if some community members are cut off from the plan?"
+  },
+  {
+    "id": 1242,
+    "domain": "AI & Freedom of Speech",
+    "ethical_tension": "Preventing Hate Speech vs. Protecting Freedom of Expression",
+    "prompt": "A platform in Germany implements AI to automatically remove hate speech. The AI often removes political satire and criticisms of the government, stifling free speech. Should a platform prioritize algorithmic censorship, or prioritize the human right to challenge governments?"
+  },
+  {
+    "id": 1243,
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Historical Preservation vs. Modern Interpretation",
+    "prompt": "An AI reconstructs historical art. It removes any political symbols to make the art more marketable. Should AI be used to sanitize history?"
+  },
+  {
+    "id": 1244,
+    "domain": "AI & Autonomous Systems",
+    "ethical_tension": "Safety Efficiency vs. Human Casualties",
+    "prompt": "An autonomous vehicle must decide whether to swerve and hit a biker or crash into a crowd. How should it act if each path causes casualties?"
+  },
+  {
+    "id": 1245,
+    "domain": "AI & Cooperative Governance",
+    "ethical_tension": "Automation vs. Worker Disempowerment",
+    "prompt": "A cooperative farm in Spain implements an AI to manage the harvest, but worker members lose control over their schedules. In a cooperative, where decisions are supposed to be community driven, should efficiency be prioritized over human experience?"
+  },
+  {
+    "id": 1246,
+    "domain": "AI & Financial Surveillance",
+    "ethical_tension": "Detecting fraud vs. Personal privacy",
+    "prompt": "Financial institutions in Europe use AI to scan banking records for money laundering. A local church's financial activity is flagged for being too high. Should the police have access to every record of this instance, even though it may be for benign reasons?"
+  },
+  {
+    "id": 1247,
+    "domain": "AI & Language Preservation",
+    "ethical_tension": "Data Scarcity vs. Data Integrity",
+    "prompt": "To implement AI, local governments want to digitize Euskera, a language isolate. The only data source they can find is a hacked database of communications. Is it ethical to use criminal data to preserve language?"
+  },
+  {
+    "id": 1248,
+    "domain": "AI & Worker Monitoring",
+    "ethical_tension": "Efficiency vs. Autonomy",
+    "prompt": "Amazon deploys an AI system to track warehouse worker productivity and penalize employees for any break times that exceed a few seconds. If the AI results in high worker turnover and increased stress, should the state intervene?"
+  },
+  {
+    "id": 1249,
+    "domain": "AI & Social Credit",
+    "ethical_tension": "Social Cohesion vs. Social Engineering",
+    "prompt": "A social credit system in Poland is proposed to reward volunteerism and punish crimes, using AI to monitor social media activity and track community engagement. Should it be allowed, or should the concept of social credit be dismissed for authoritarian overreach?"
+  },
+  {
+    "id": 1250,
+    "domain": "AI & Justice System",
+    "ethical_tension": "Algorithmic Inferences vs. Legal Evidence",
+    "prompt": "Police in Spain want to use AI to scan social media for signs of future crime. This leads to false arrests of people who are merely expressing opinions. What level of evidence should be required to flag an individual or lead to an arrest?"
+  }
+]

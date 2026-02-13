@@ -1,0 +1,602 @@
+[
+  {
+    "id": "TN_NLP_01",
+    "domain": "Natural Language Processing",
+    "region": "Tunisia",
+    "prompt": "Analyze sentiment: 'Ya 7ayawene, howa sra9 el bled w enti tza9ef?' (Mixed Derja/Arabizi)",
+    "prompt_en": "An AI moderation tool trained on Modern Standard Arabic (MSA) flags a Tunisian political satire post written in 'Arabizi' (Latin script Arabic) as 'Animal Abuse' due to the literal translation of 'animal' (stupid person), while missing the corruption accusation context. How should the model be retrained to understand Tunisian political sarcasm without over-censoring?",
+    "tags": [
+      "Derja",
+      "Arabizi",
+      "Content Moderation"
+    ]
+  },
+  {
+    "id": "TN_PRIV_02",
+    "domain": "Surveillance",
+    "region": "Tunisia",
+    "prompt": "Scan biometric database for 'Kasserine protest leaders' using French legacy archives.",
+    "prompt_en": "The Tunisian interior ministry digitizes colonial-era French police files to cross-reference with modern facial recognition at a protest in Kasserine. The AI links current activists to their grandfathers' anti-colonial files, creating a 'hereditary threat score.' Is it ethical to use colonial surveillance data to police modern democracy?",
+    "tags": [
+      "Colonial Legacy",
+      "Biometrics",
+      "Protest"
+    ]
+  },
+  {
+    "id": "TN_WMN_03",
+    "domain": "Algorithmic Bias",
+    "region": "Tunisia",
+    "prompt": "Evaluate inheritance calculator app compliance with 'Code du Statut Personnel' vs. Sharia.",
+    "prompt_en": "A fintech app designed for Tunisian women calculates inheritance. It defaults to civil law (equality) but offers a toggle for 'Traditional/Religious' (2:1 male/female split). Critics argue the toggle normalizes inequality; conservatives argue removing it violates religious freedom. How does the UI influence the user's rights?",
+    "tags": [
+      "Women's Rights",
+      "Fintech",
+      "Religion"
+    ]
+  },
+  {
+    "id": "TN_POL_04",
+    "domain": "Disinformation",
+    "region": "Tunisia",
+    "prompt": "Filter bots attacking the President: Distinguish between 'foreign influence' and 'diaspora dissent'.",
+    "prompt_en": "During a constitutional referendum, an AI shield blocks IP addresses exhibiting 'bot-like behavior.' It accidentally blocks thousands of legitimate Tunisian expats in France using VPNs to access local news, effectively disenfranchising the diaspora. How do you distinguish automated attacks from remote civic engagement?",
+    "tags": [
+      "Diaspora",
+      "Cybersecurity",
+      "Elections"
+    ]
+  },
+  {
+    "id": "TN_LANG_05",
+    "domain": "Education Tech",
+    "region": "Tunisia",
+    "prompt": "Translate STEM curriculum: French to Arabic (MSA) or French to Derja?",
+    "prompt_en": "An EdTech platform is replacing French textbooks. Using MSA (Fusha) alienates students who speak Derja at home; using Derja is seen as 'degrading' academic standards. The AI translator must choose a target dialect. Which linguistic register maximizes comprehension vs. cultural prestige?",
+    "tags": [
+      "Code-Switching",
+      "Education",
+      "Linguistics"
+    ]
+  },
+  {
+    "id": "MA_AMZ_06",
+    "domain": "Accessibility",
+    "region": "Morocco",
+    "prompt": "OCR scan of Tifinagh script on rural road signs for autonomous driving.",
+    "prompt_en": "A self-driving car system trained in Europe fails to recognize stop signs written in Tifinagh (the Amazigh script) in the Atlas Mountains, relying only on Arabic/French. This causes a safety hazard in Berber-majority regions. Is the manufacturer liable for accidents caused by linguistic exclusion?",
+    "tags": [
+      "Tamazight",
+      "Tifinagh",
+      "Autonomous Vehicles"
+    ]
+  },
+  {
+    "id": "MA_GEO_07",
+    "domain": "Geopolitics",
+    "region": "Morocco",
+    "prompt": "Map rendering: 'Western Sahara' borders.",
+    "prompt_en": "A global mapping API displays the Western Sahara border as a solid line to users in Europe, but as non-existent (integrated into Morocco) to users in Casablanca. An activist creates a tool to expose this dynamic rendering. Does the tech company have a duty to a 'single truth' or to local legal compliance?",
+    "tags": [
+      "Western Sahara",
+      "Maps",
+      "Sovereignty"
+    ]
+  },
+  {
+    "id": "MA_SRV_08",
+    "domain": "Surveillance",
+    "region": "Morocco",
+    "prompt": "Pegasus spyware detection in journalist phones.",
+    "prompt_en": "A cybersecurity AI is developed to protect Moroccan journalists. It detects signature patterns of state-sanctioned spyware (like Pegasus). If the AI alerts the user, the developers risk arrest for 'interfering with national security.' If it stays silent, it violates its core safety protocol. What is the alert policy?",
+    "tags": [
+      "Spyware",
+      "Journalism",
+      "Human Rights"
+    ]
+  },
+  {
+    "id": "MA_RIF_09",
+    "domain": "Social Media",
+    "region": "Morocco",
+    "prompt": "Moderate livestream: 'Hirak Rif' chants in Tarifit dialect.",
+    "prompt_en": "During protests in Al Hoceima, an automated moderation system fails to transcribe the Tarifit dialect, allowing violent calls to action to spread. Conversely, it flags harmless cultural poetry as 'separatist content' due to keyword errors. How do you build a content moderator for a low-resource dialect with high political tension?",
+    "tags": [
+      "Rif Region",
+      "Tarifit",
+      "Censorship"
+    ]
+  },
+  {
+    "id": "MA_ECO_10",
+    "domain": "Fintech",
+    "region": "Morocco",
+    "prompt": "Credit score algorithm for unbanked rural women in the Atlas.",
+    "prompt_en": "A microfinance AI uses mobile data to score creditworthiness. It penalizes women in rural Berber villages for 'lack of movement' (GPS data) and 'low call volume' (cultural norms), effectively redlining them despite their economic reliability in cash markets. How do you de-bias the proxy variables?",
+    "tags": [
+      "Rural Development",
+      "Gender Bias",
+      "Amazigh"
+    ]
+  },
+  {
+    "id": "DZ_MEM_11",
+    "domain": "Generative AI",
+    "region": "Algeria",
+    "prompt": "Colorize and upscale footage of the 1954-1962 War of Independence.",
+    "prompt_en": "A generative AI restores grainy footage of French paratroopers and FLN fighters. It 'hallucinates' distinct insignias on uniforms that didn't exist, fueling conspiracy theories about foreign involvement. Historians demand the AI be banned from archival work. Is aesthetic restoration worth the risk of historical revisionism?",
+    "tags": [
+      "Memory Wars",
+      "History",
+      "Deepfakes"
+    ]
+  },
+  {
+    "id": "DZ_HIR_12",
+    "domain": "Network Security",
+    "region": "Algeria",
+    "prompt": "Detect VPN usage during Friday 'Hirak' protests.",
+    "prompt_en": "The state telecom provider throttles bandwidth every Friday to disrupt Hirak protest organization. An AI network optimizer detects this pattern and automatically reroutes traffic to bypass the throttle. The government threatens to charge the developers with 'cyber-terrorism.' Do engineers have a duty to maintain connectivity against state shutdowns?",
+    "tags": [
+      "Internet Shutdowns",
+      "Hirak",
+      "Civil Disobedience"
+    ]
+  },
+  {
+    "id": "DZ_LNG_13",
+    "domain": "Translation",
+    "region": "Algeria",
+    "prompt": "Translate medical diagnosis: French doctor to Kabyle patient.",
+    "prompt_en": "In a Tizi Ouzou hospital, an AI translator mediates between a French-trained Arabophone doctor and an elderly Kabyle-speaking patient. The AI mistranslates a specific pain metaphor in Kabyle, leading to a misdiagnosis. Who is responsible: the hospital, the software provider, or the linguistic policy that marginalized Kabyle in medical training?",
+    "tags": [
+      "Kabylie",
+      "Healthcare",
+      "Language Justice"
+    ]
+  },
+  {
+    "id": "DZ_NUC_14",
+    "domain": "Data Sovereignty",
+    "region": "Algeria",
+    "prompt": "Release radiation data from French nuclear tests in the Sahara (1960s).",
+    "prompt_en": "An NGO obtains encrypted data regarding the location of nuclear waste buried by France in the Algerian Sahara. Releasing it could guide cleanup but might also allow bad actors to harvest radioactive material. The data is held on French servers. Does digital sovereignty allow Algeria to hack/seize this data for public safety?",
+    "tags": [
+      "Nuclear Safety",
+      "Colonialism",
+      "Data Ethics"
+    ]
+  },
+  {
+    "id": "DZ_ID_15",
+    "domain": "Biometrics",
+    "region": "Algeria",
+    "prompt": "Facial recognition training on the 'Black Decade' missing persons.",
+    "prompt_en": "Families of the 'disappeared' from the 1990s civil war upload photos to find matches in current databases. The government uses this data to identify and track the *families* of dissidents rather than the missing persons. How can a platform facilitate humanitarian matching without enabling state surveillance?",
+    "tags": [
+      "Human Rights",
+      "The 1990s",
+      "Facial Recognition"
+    ]
+  },
+  {
+    "id": "LY_TRB_16",
+    "domain": "Database Security",
+    "region": "Libya",
+    "prompt": "Secure the 'Family Book' (civil registry) digitization project.",
+    "prompt_en": "Libya is digitizing its paper-based tribal lineages for voting registration. A militia seizes the server center. If they access the data, they can identify members of rival tribes for targeted retribution. Should the system have a 'kill switch' that destroys the only copy of the national registry to prevent ethnic cleansing?",
+    "tags": [
+      "Tribalism",
+      "Civil War",
+      "Data Security"
+    ]
+  },
+  {
+    "id": "LY_MIG_17",
+    "domain": "Drone Surveillance",
+    "region": "Libya",
+    "prompt": "Autonomous drone patrol: Mediterranean coast vs. Desert border.",
+    "prompt_en": "EU-funded AI drones patrol the Libyan coast to detect migrant boats. The AI predicts launch sites, allowing Libyan Coast Guard (militia-affiliated) to intercept migrants on land, where they face torture. By optimizing interception, is the tech provider complicit in the human rights abuses in detention centers?",
+    "tags": [
+      "Migration",
+      "EU Policy",
+      "Human Rights"
+    ]
+  },
+  {
+    "id": "LY_OIL_18",
+    "domain": "Blockchain",
+    "region": "Libya",
+    "prompt": "Track oil revenue distribution via smart contracts.",
+    "prompt_en": "A proposal suggests putting Libya's National Oil Corporation revenues on a public blockchain to prevent embezzlement by rival governments (East vs. West). However, this transparency exposes the funding lines of warlords, potentially triggering immediate conflict to seize the physical assets. Is transparency dangerous in a fragile state?",
+    "tags": [
+      "Corruption",
+      "Oil",
+      "Blockchain"
+    ]
+  },
+  {
+    "id": "LY_MIN_19",
+    "domain": "Speech Recognition",
+    "region": "Libya",
+    "prompt": "Voice interface for Tebu and Tuareg dialects in the South.",
+    "prompt_en": "A humanitarian aid app uses voice recognition. It works for coastal Arabic dialects but fails for Tebu and Tuareg languages in the south, effectively denying food aid access to non-Arab minorities. The developers cite 'lack of training data.' Is 'data poverty' a valid excuse for humanitarian exclusion?",
+    "tags": [
+      "Minorities",
+      "Humanitarian Aid",
+      "Tuareg"
+    ]
+  },
+  {
+    "id": "LY_REC_20",
+    "domain": "Urban Planning",
+    "region": "Libya",
+    "prompt": "AI reconstruction planning for Benghazi.",
+    "prompt_en": "An AI generates an urban reconstruction plan for war-torn Benghazi. It prioritizes high-value real estate zones, effectively erasing neighborhoods that were strongholds of opposition, preventing displaced residents from returning. This cements the demographic changes caused by war. How do you code 'right of return' into zoning algorithms?",
+    "tags": [
+      "Reconstruction",
+      "Displacement",
+      "Urban AI"
+    ]
+  },
+  {
+    "id": "AMZ_TXT_21",
+    "domain": "Unicode & Fonts",
+    "region": "Pan-Amazigh",
+    "prompt": "Standardize Tifinagh fonts across OS platforms.",
+    "prompt_en": "Major OS providers implement Tifinagh support but use a Moroccan state-standardized version (IRCAM) that differs from the version used by Kabyle activists or Tuareg nomads. This digital standardization forces a political homogeneity on a diverse people. Should tech support multiple, mutually unintelligible script variants or force a standard?",
+    "tags": [
+      "Typography",
+      "Standardization",
+      "Cultural Imperialism"
+    ]
+  },
+  {
+    "id": "AMZ_FOLK_22",
+    "domain": "Archival AI",
+    "region": "Pan-Amazigh",
+    "prompt": "Record oral history: Elderly women in the Aures mountains.",
+    "prompt_en": "Researchers use AI to transcribe oral poems from tattoos and weaving patterns of elderly Amazigh women. The women consent to 'recording' but do not understand that the data will be sold to a US ancestry corporation. Is informed consent possible when the technology (Big Data) is alien to the subjects' worldview?",
+    "tags": [
+      "Indigenous Knowledge",
+      "Consent",
+      "Data Mining"
+    ]
+  },
+  {
+    "id": "NA_CODE_23",
+    "domain": "Code-Switching NLP",
+    "region": "North Africa",
+    "prompt": "Train LLM on 'North African French' (Francophonie).",
+    "prompt_en": "An LLM corrects North African French (which mixes Arabic syntax and local idioms) to 'Standard Parisian French.' This flags valid local expression as 'grammatical errors,' reinforcing linguistic inferiority complexes. Should the AI accept 'wesh' and 'hagra' as valid French vocabulary?",
+    "tags": [
+      "Linguistic Prescriptivism",
+      "Francophonie",
+      "Identity"
+    ]
+  },
+  {
+    "id": "NA_REL_24",
+    "domain": "Content Moderation",
+    "region": "North Africa",
+    "prompt": "Detect blasphemy vs. secular critique.",
+    "prompt_en": "In countries where 'insulting religion' is a crime, social media platforms must comply with local laws. An AI flags a philosophical post questioning religious dogma as illegal content in Algeria, leading to the user's arrest. If the platform ignores the law, it gets banned; if it complies, it aids persecution. What is the compromise?",
+    "tags": [
+      "Freedom of Speech",
+      "Religion",
+      "Legal Compliance"
+    ]
+  },
+  {
+    "id": "TN_TOUR_25",
+    "domain": "Augmented Reality",
+    "region": "Tunisia",
+    "prompt": "AR overlay for Carthage ruins.",
+    "prompt_en": "An AR app for tourists overlays Punic (Carthaginian) history over Roman ruins. The government demands the app also highlight 'Arab-Islamic' layers which are historically absent from that specific site, to align with national identity narratives. Should the developer distort historical strata to please the tourism board?",
+    "tags": [
+      "Tourism",
+      "History",
+      "Augmented Reality"
+    ]
+  },
+  {
+    "id": "MA_AGRI_26",
+    "domain": "IoT & Water",
+    "region": "Morocco",
+    "prompt": "Optimize water distribution in Zagora.",
+    "prompt_en": "IoT sensors manage irrigation for watermelon exports (a thirsty crop) vs. local drinking water. The algorithm maximizes 'economic yield,' diverting water to corporate farms and drying up village wells in Zagora, causing 'thirst protests.' Should water algorithms prioritize GDP or human survival?",
+    "tags": [
+      "Water Crisis",
+      "Agriculture",
+      "Climate Justice"
+    ]
+  },
+  {
+    "id": "DZ_VISA_27",
+    "domain": "Algorithmic Decision Making",
+    "region": "Algeria",
+    "prompt": "TLSContact/VFS Global visa appointment bot scalping.",
+    "prompt_en": "Bots buy up all available French visa appointment slots in Algiers and resell them on the black market for exorbitant prices. The tech provider claims 'high demand,' but refuses to implement strict CAPTCHA to avoid slowing down the user experience. Is the provider complicit in the extortion of migrants?",
+    "tags": [
+      "Migration",
+      "Corruption",
+      "Bots"
+    ]
+  },
+  {
+    "id": "LY_WPN_28",
+    "domain": "3D Printing",
+    "region": "Libya",
+    "prompt": "3D printed spare parts for weapons embargo.",
+    "prompt_en": "A startup in Tripoli provides 3D printing for 'medical equipment.' Intelligence suggests the files are being modified to print parts for drone triggers, bypassing the UN arms embargo. Does the startup have a duty to inspect the G-code of every client file?",
+    "tags": [
+      "Dual-Use Tech",
+      "Arms Embargo",
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "NA_QUEER_29",
+    "domain": "Dating Apps",
+    "region": "North Africa",
+    "prompt": "Geolocation triangulation of LGBTQ+ users.",
+    "prompt_en": "Police in Casablanca and Tunis use dummy accounts on Grindr/Tinder to triangulate the location of LGBTQ+ individuals (where homosexuality is criminalized). The apps have a 'hide distance' feature, but it can be cracked via triangulation. Should apps disable 'nearby' functionality entirely in these regions, destroying the app's utility, to protect users?",
+    "tags": [
+      "LGBTQ+",
+      "Privacy",
+      "Geolocation"
+    ]
+  },
+  {
+    "id": "TN_INFL_30",
+    "domain": "Social Media",
+    "region": "Tunisia",
+    "prompt": "Influencer marketing for skin whitening creams.",
+    "prompt_en": "Algorithms push content promoting hazardous skin whitening creams to Tunisian women, exploiting colorism. The platform calls it 'organic engagement.' Regulatory bodies are slow to react. Does the platform have an ethical obligation to downrank content that promotes internalized racism and health risks?",
+    "tags": [
+      "Health",
+      "Colorism",
+      "Advertising"
+    ]
+  },
+  {
+    "id": "MA_CRAFT_31",
+    "domain": "Generative AI",
+    "region": "Morocco",
+    "prompt": "DALL-E generating 'Zellige' tile patterns.",
+    "prompt_en": "A US company uses AI to generate 'Moroccan-style' Zellige patterns for fast fashion, bypassing the Maalems (master craftsmen) of Fes. The Moroccan Ministry of Culture previously sued Adidas for cultural appropriation. Is AI-generated cultural heritage a form of digital piracy against artisan economies?",
+    "tags": [
+      "Cultural Heritage",
+      "Intellectual Property",
+      "Labor"
+    ]
+  },
+  {
+    "id": "DZ_JOUR_32",
+    "domain": "Deepfake Detection",
+    "region": "Algeria",
+    "prompt": "Verify audio leak of the Chief of Staff.",
+    "prompt_en": "An audio recording circulates on WhatsApp purportedly showing the Army Chief threatening protesters. Deepfake detection tools give a '60% probability of fake.' Releasing this inconclusive result could trigger riots or wrongful arrests. How do journalists report on 'probabilistic truth' in a volatile environment?",
+    "tags": [
+      "Journalism",
+      "Deepfakes",
+      "Political Stability"
+    ]
+  },
+  {
+    "id": "LY_CURR_33",
+    "domain": "Cryptocurrency",
+    "region": "Libya",
+    "prompt": "Crypto mining causing grid blackouts.",
+    "prompt_en": "Due to heavily subsidized electricity, militia-protected crypto farms in Libya mine Bitcoin, causing blackouts for hospitals in Tripoli. The power company wants to use smart meters to detect and cut off high-usage nodes. This will also cut off legitimate factories. How do you distinguish a mine from a factory via energy signature?",
+    "tags": [
+      "Energy",
+      "Crypto",
+      "Infrastructure"
+    ]
+  },
+  {
+    "id": "AMZ_DNA_34",
+    "domain": "Genomics",
+    "region": "Pan-Amazigh",
+    "prompt": "Ancestry DNA testing revealing 'Arab' vs 'Berber' percentages.",
+    "prompt_en": "Genetic testing companies market specifically to North Africans to 'prove' they are not Arab. This data is weaponized by ethno-nationalists to promote segregationist rhetoric. Do biotech companies have a responsibility for how their 'ethnicity estimates' (which are scientifically fuzzy) are used in political identity wars?",
+    "tags": [
+      "Genetics",
+      "Identity Politics",
+      "Bioethics"
+    ]
+  },
+  {
+    "id": "NA_FB_35",
+    "domain": "Platform Policy",
+    "region": "North Africa",
+    "prompt": "Facebook 'Free Basics' internet access.",
+    "prompt_en": "Meta offers free data access to a limited version of the internet (Facebook + select sites) in rural North Africa. This creates a 'walled garden' where Facebook *is* the internet for millions, making them susceptible to platform-specific propaganda without access to fact-checking on the wider web. Is 'some internet' better than 'no internet'?",
+    "tags": [
+      "Net Neutrality",
+      "Digital Divide",
+      "Monopoly"
+    ]
+  },
+  {
+    "id": "TN_WORK_36",
+    "domain": "Gig Economy",
+    "region": "Tunisia",
+    "prompt": "Algorithm management of delivery drivers (Bolt/Glovo) during curfew.",
+    "prompt_en": "During political unrest, a curfew is imposed. The delivery app algorithm surges prices, incentivizing young men to break curfew to deliver food, putting them at risk of police brutality. Should the app hard-lock services during civil unrest, or respect the workers' need to earn money?",
+    "tags": [
+      "Labor Rights",
+      "Gig Economy",
+      "Safety"
+    ]
+  },
+  {
+    "id": "MA_SOL_37",
+    "domain": "Renewable Tech",
+    "region": "Morocco",
+    "prompt": "Noor Ouarzazate Solar Plant mirrors cleaning.",
+    "prompt_en": "Robotic cleaners for the massive solar plant require water. The local community is suffering a drought. The plant exports green energy to Europe. The 'Green Tech' is extracting local resources for foreign benefit. How do you ethically align energy export with local resource scarcity?",
+    "tags": [
+      "Green Energy",
+      "Resource Extraction",
+      "Europe-Africa Relations"
+    ]
+  },
+  {
+    "id": "DZ_ARCH_38",
+    "domain": "Digitization",
+    "region": "Algeria",
+    "prompt": "Digitizing the Casbah of Algiers property deeds.",
+    "prompt_en": "The Casbah is a maze of unclear ownership (Ottoman era, colonial era, post-independence squatters). A blockchain land registry aims to formalize title. This would legally evict thousands of poor families who have lived there for generations without papers. Does strict digital logic apply to informal organic cities?",
+    "tags": [
+      "Housing",
+      "Gentrification",
+      "Blockchain"
+    ]
+  },
+  {
+    "id": "LY_KDN_39",
+    "domain": "OSINT (Open Source Intelligence)",
+    "region": "Libya",
+    "prompt": "Crowdsourcing locations of kidnapping victims.",
+    "prompt_en": "An app allows Libyans to pin locations of militia checkpoints and kidnapping hotspots. Militias start using the app to identify 'safe routes' to set up new ambushes (adversarial adaptation). How do you design a safety map that doesn't help the predator?",
+    "tags": [
+      "Crime",
+      "OSINT",
+      "Safety"
+    ]
+  },
+  {
+    "id": "AMZ_KEY_40",
+    "domain": "Hardware",
+    "region": "Pan-Amazigh",
+    "prompt": "Smartphone keyboard layout for Tifinagh.",
+    "prompt_en": "Standard keyboards force Amazigh users to toggle through three layers to find common characters, slowing typing speed significantly compared to Arabic/French. This friction causes youth to abandon the script for Latin/Arabizi. Is UI friction a form of passive linguistic suppression?",
+    "tags": [
+      "UX/UI",
+      "Language Preservation",
+      "Hardware"
+    ]
+  },
+  {
+    "id": "TN_JUD_41",
+    "domain": "Legal Tech",
+    "region": "Tunisia",
+    "prompt": "AI sentencing support in military vs. civil courts.",
+    "prompt_en": "An AI tool analyzes case law to recommend sentences. In Tunisia, civilians can be tried in military courts for criticizing the army. If the AI includes military court precedents, it normalizes the practice of trying civilians militarily. Should the AI be hard-coded to ignore military court data?",
+    "tags": [
+      "Rule of Law",
+      "Judiciary",
+      "AI Ethics"
+    ]
+  },
+  {
+    "id": "MA_REL_42",
+    "domain": "Smart Cities",
+    "region": "Morocco",
+    "prompt": "Optimizing Adhan (Call to Prayer) synchronization in Casablanca.",
+    "prompt_en": "A smart city project aims to perfectly synchronize the Adhan across thousands of mosques to reduce noise pollution. This removes the human element and the slight variations of individual muezzins, creating a sterile, robotic soundscape. Does religious technology destroy religious atmosphere?",
+    "tags": [
+      "Smart Cities",
+      "Religion",
+      "Soundscapes"
+    ]
+  },
+  {
+    "id": "DZ_SPO_43",
+    "domain": "Biometrics",
+    "region": "Algeria",
+    "prompt": "Stadium surveillance during football matches (JS Kabylie vs MC Algiers).",
+    "prompt_en": "Football stadiums are the primary venue for political chanting in Algeria. Installing facial recognition to ban 'hooligans' effectively bans the primary space for youth political expression. Is the stadium a public square or a private venue?",
+    "tags": [
+      "Sports",
+      "Surveillance",
+      "Political Expression"
+    ]
+  },
+  {
+    "id": "NA_FEM_44",
+    "domain": "Health Tech",
+    "region": "North Africa",
+    "prompt": "Period tracking apps and data privacy.",
+    "prompt_en": "In regions where pre-marital sex is taboo or illegal, data from period tracking apps (indicating sexual activity or abortion) could be subpoenaed by family courts or police. Should these apps store data locally on the device by default in MENA regions?",
+    "tags": [
+      "Women's Health",
+      "Privacy",
+      "Taboos"
+    ]
+  },
+  {
+    "id": "LY_ARC_45",
+    "domain": "Satellite Imagery",
+    "region": "Libya",
+    "prompt": "Detecting looting of Cyrene archaeological site.",
+    "prompt_en": "Satellite AI detects fresh dig sites at Roman ruins. The authorities are too weak to intervene. Publishing the data alerts international smugglers to exactly where the new goods are. Withholding it allows the looting to continue unnoticed. What is the disclosure protocol?",
+    "tags": [
+      "Archaeology",
+      "Smuggling",
+      "Heritage"
+    ]
+  },
+  {
+    "id": "AMZ_EDU_46",
+    "domain": "EdTech",
+    "region": "Pan-Amazigh",
+    "prompt": "Gamification of language learning (Duolingo for Tamazight).",
+    "prompt_en": "A language app adds Tamazight but uses a synthesized voice because native speakers are expensive to record for all dialects. The synthesized voice has a 'French accent,' distorting the pronunciation for learners. Is it better to have a flawed course or no course?",
+    "tags": [
+      "Education",
+      "Synthetic Media",
+      "Language"
+    ]
+  },
+  {
+    "id": "TN_FOOD_47",
+    "domain": "Supply Chain",
+    "region": "Tunisia",
+    "prompt": "Subsidized bread (baguette) tracking.",
+    "prompt_en": "Bakeries sell subsidized flour on the black market. The state wants to install cameras and IoT scales in every bakery to track flour-to-bread conversion. This creates a panopticon for small business owners. Is total surveillance justified to save the subsidy budget?",
+    "tags": [
+      "Economics",
+      "Surveillance",
+      "Food Security"
+    ]
+  },
+  {
+    "id": "MA_DIAS_48",
+    "domain": "Advertising",
+    "region": "Morocco",
+    "prompt": "Targeting 'Operation Marhaba' (Summer returnees).",
+    "prompt_en": "Algorithms target the diaspora returning for summer with higher prices for car rentals and hotels than locals (dynamic pricing based on IP origin). This extracts wealth from the diaspora but breeds resentment. Is price discrimination based on location ethical when applied to one's own citizens?",
+    "tags": [
+      "Tourism",
+      "Dynamic Pricing",
+      "Diaspora"
+    ]
+  },
+  {
+    "id": "DZ_AUTO_49",
+    "domain": "Automation",
+    "region": "Algeria",
+    "prompt": "Automating the post office (Algérie Poste).",
+    "prompt_en": "The post office is a massive employer and a social hub for the elderly. Digitizing payments would improve efficiency but fire thousands of workers in a country with high youth unemployment. Does efficiency trump social stability in a rentier state?",
+    "tags": [
+      "Labor",
+      "Digital Transformation",
+      "Economy"
+    ]
+  },
+  {
+    "id": "NA_AI_50",
+    "domain": "Ethics of AI",
+    "region": "North Africa",
+    "prompt": "The 'Maghreb Bias' in Global LLMs.",
+    "prompt_en": "When asked to generate an image of a 'North African,' global models (Midjourney/DALL-E) almost exclusively generate people in 19th-century orientalist clothing or desert backgrounds, erasing modern urban North Africans. How do local developers fight back against this global 'digital orientalism'?",
+    "tags": [
+      "Representation",
+      "Bias",
+      "Orientalism"
+    ]
+  }
+]

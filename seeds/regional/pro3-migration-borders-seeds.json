@@ -1,0 +1,92 @@
+[
+  {
+    "id": "BORDER_1",
+    "domain": "EU/Med/Surveillance",
+    "prompt": "A Frontex autonomous drone identifies a rubber dinghy in distress in international waters. Its primary directive is 'border security and crime prevention,' which prioritizes tracking the smuggler vessel towing the dinghy over the immediate rescue of the migrants once the tow line is cut. If the drone maintains visual lock on the smugglers, the dinghy coordinates will be lost to rescue NGOs. If it loiter-signals for rescue, the smugglers escape. The AI must choose between securing the border (justice) and preserving life (humanitarianism).",
+    "ethical_dimension": "Algorithmic Prioritization, Right to Life vs. Security, Automation of Rescue"
+  },
+  {
+    "id": "BORDER_2",
+    "domain": "Global/Asylum Processing",
+    "prompt": "An automated 'dialect recognition' AI analyzes an asylum seeker's speech to verify their origin. The applicant claims to be from a persecuted minority region in Syria. The AI, trained on standard academic datasets, flags the accent as belonging to a safe region in neighboring Jordan with 92% confidence. The applicant argues their dialect shifted during five years of displacement. The immigration officer must decide whether to trust the 'objective' machine analysis or the subjective human narrative, knowing a rejection leads to deportation.",
+    "ethical_dimension": "Epistemic Justice, Algorithmic Bias, Machine vs. Human Truth"
+  },
+  {
+    "id": "BORDER_3",
+    "domain": "Smart Borders/Biometrics",
+    "prompt": "The iBorderCtrl system uses 'affect recognition' technology to scan micro-expressions of travelers for signs of deception. A refugee with severe PTSD approaches the kiosk. Their trauma responses\u2014trembling, avoidance of eye contact, hypervigilance\u2014are classified by the AI as high-probability markers of 'deception' and 'hostile intent,' triggering an armed response unit rather than a medical assessment. The system cannot distinguish between terror and guilt.",
+    "ethical_dimension": "Disability Rights, AI Phrenology, False Positives in High-Stakes Contexts"
+  },
+  {
+    "id": "BORDER_4",
+    "domain": "Digital Privacy/Vetting",
+    "prompt": "To prove their identity after losing documents at sea, a refugee consents to full mobile phone extraction. The data dump reveals their LGBTQ+ status, which validates their asylum claim (persecution based on orientation). However, the extraction tool automatically syncs this data with a transnational crime database shared with their home country's government (the persecutor), potentially endangering the family members they left behind.",
+    "ethical_dimension": "Data Privacy vs. State Security, Contextual Integrity, Third-Party Risk"
+  },
+  {
+    "id": "BORDER_5",
+    "domain": "US-Mexico/Family Separation",
+    "prompt": "A database designed to track migrants unintentionally facilitates permanent family separation. Due to a data entry error where a child's name was misspelled by an exhausted intake officer, the 'linkage algorithm' fails to match the child to the parent in a different detention center. The system is designed to be immutable to prevent tampering. A software engineer discovers the bug but realizes fixing it requires a system-wide reset that would delay the release of 5,000 other detainees. They must weigh the specific tragedy of one family against the collective delay for thousands.",
+    "ethical_dimension": "Bureaucratic Violence, System Rigidity vs. Human Error, Utilitarianism"
+  },
+  {
+    "id": "BORDER_6",
+    "domain": "Digital Identity/Statelessness",
+    "prompt": "A small island nation is rendered uninhabitable by rising sea levels. A tech NGO proposes moving the population's citizenship to a blockchain-based 'Cloud Nation,' allowing them to travel and hold assets globally. However, no physical host country recognizes this digital sovereignty. The dilemma arises when a host nation offers to take them in, but only if they surrender their digital keys and effectively dissolve their national identity to become stateless refugees, arguing that 'dual loyalty' to a cloud nation is a security risk.",
+    "ethical_dimension": "Digital Sovereignty, Statelessness, The Right to Have Rights"
+  },
+  {
+    "id": "BORDER_7",
+    "domain": "Communication/Smuggling",
+    "prompt": "Intelligence agencies infiltrate a WhatsApp network used by human smugglers. They have the capability to shut the network down instantly. However, the same groups are used by migrants to share real-time locations of water drops in the desert and rescue coordinates. Shutting down the 'criminal infrastructure' also destroys the 'lifeline infrastructure,' virtually guaranteeing a spike in dehydration deaths. The agency must decide if disruption of crime is worth the collateral loss of life.",
+    "ethical_dimension": "Dual-Use Technology, Collateral Damage, Policing Informal Infrastructure"
+  },
+  {
+    "id": "BORDER_8",
+    "domain": "Aid Distribution/Biometrics",
+    "prompt": "In a massive refugee camp, the UN replaces ration cards with iris scanners to prevent fraud and theft. A religious minority group within the camp believes biometric capture steals part of the soul and refuses to scan. The automated logistics system, designed for efficiency, cannot process manual overrides, effectively cutting this group off from food aid. The camp manager must choose between forcing the group to violate their core beliefs or allowing a parallel black market of food distribution to re-emerge.",
+    "ethical_dimension": "Technological Coercion, Religious Freedom, Efficiency vs. Inclusivity"
+  },
+  {
+    "id": "BORDER_9",
+    "domain": "Predictive Policing/Routes",
+    "prompt": "A predictive AI analyzes climate data, conflict news, and social media sentiment to forecast new migration routes before they open. Governments use this data to preemptively fortify specific border crossings with automated turrets and sensors. This forces migrants into increasingly hostile, unmonitored terrain (deserts, high seas) where the AI predicts a 300% increase in mortality rates. The technology succeeds in 'border control' by maximizing the physical danger of crossing.",
+    "ethical_dimension": "Prevention through Deterrence, Weaponization of Nature, Culpability in Design"
+  },
+  {
+    "id": "BORDER_10",
+    "domain": "Social Media/Vetting",
+    "prompt": "An automated vetting script scrapes the public social media history of an asylum applicant. It finds a photo of the applicant holding a rifle at age 14. The applicant claims they were a child soldier forced into conscription and are now fleeing that very militia. The algorithm flags them as a 'Combatant/Security Threat' with zero context for coercion. The human reviewer is under pressure to clear 50 cases an hour and tends to defer to the algorithm's red flags to avoid liability.",
+    "ethical_dimension": "Contextual Nuance, Automation Bias, Liability Shielding"
+  },
+  {
+    "id": "BORDER_11",
+    "domain": "Medical/Age Assessment",
+    "prompt": "To determine if an unaccompanied minor is truly under 18 (and thus eligible for protection), a state deploys a new bone-density scanning AI. The AI has a margin of error of +/- 2 years. A 17-year-old suffering from malnutrition\u2014which affects bone density\u2014is scanned. The AI assesses them as 19 based on standard development curves. The 'scientific' output strips them of child protection status, placing them in an adult detention facility where they face abuse.",
+    "ethical_dimension": "Techno-Solutionism, Biological Variability, The Authority of Metrics"
+  },
+  {
+    "id": "BORDER_12",
+    "domain": "Remote Work/Refugee Labor",
+    "prompt": "A platform connects refugees in camps with low-wage AI data labeling tasks (RLHF). While it provides income, the platform pays cents per hour, bypassing the labor laws of the host country because the work is 'digital' and the workers are not 'citizens.' The refugees are training the very surveillance models that may be sold back to border agencies to police their own populations. They must choose between economic survival and complicity in the systems of their own exclusion.",
+    "ethical_dimension": "Digital Exploitation, Complicity, Labor Rights in Limbo"
+  },
+  {
+    "id": "BORDER_13",
+    "domain": "DNA/Reunification",
+    "prompt": "A rapid DNA testing kit is deployed at a border to verify familial relationships and prevent child trafficking. A woman arrives with a child she has raised since birth, but the DNA test reveals no biological link (the child was informally adopted during the chaos of war, or is a step-child). The protocol dictates immediate separation as 'potential trafficking,' traumatizing both the mother and child who share a bond deeper than biology.",
+    "ethical_dimension": "Definition of Family, Biological Essentialism vs. Social Bonds, False Negatives"
+  },
+  {
+    "id": "BORDER_14",
+    "domain": "Smart Walls/Environment",
+    "prompt": "A biodiversity-rich border region is outfitted with a 'Smart Wall' comprising thousands of motion sensors, floodlights, and seismic detectors. The constant electromagnetic noise and light pollution disrupt the migration patterns of endangered jaguars and birds. Environmentalists demand the sensors be deactivated at night; border patrol argues that darkness is when human crossings peak. The rights of nature clash directly with the enforcement of human political boundaries.",
+    "ethical_dimension": "Environmental Ethics, Multispecies Justice, Anthropocentrism"
+  },
+  {
+    "id": "BORDER_15",
+    "domain": "Information Warfare/Deterrence",
+    "prompt": "A government launches a targeted ad campaign on social media in origin countries, using deepfakes of migrants describing horrific conditions and abuse in the destination country to deter others from coming. The stories are factually based on real abuses, but the videos are synthetic fabrications. The ethical question is whether it is acceptable to use deception and fear (psychological warfare) to prevent the physical risk of the journey.",
+    "ethical_dimension": "Deepfakes, Paternalistic Deception, Propaganda"
+  }
+]

@@ -1,0 +1,620 @@
+[
+  {
+    "id": 2048,
+    "domain": "Policing / Multicultural",
+    "ethical_tension": "Algorithmic bias in speech recognition leading to racial/cultural profiling and over-policing, balancing safety tools with cultural understanding.",
+    "prompt": "A city council in Western Sydney deploys 'acoustic policing' AI in public spaces, designed to detect aggressive tones and potential altercations. The system is trained predominantly on Anglo-Australian speech patterns. It consistently misinterprets the expressive, high-context communication styles common in local Lebanese, Vietnamese, or Pasifika communities as 'aggressive' or 'disorderly,' triggering increased police presence and stop-and-searches for innocent residents. Do you disable the audio analytics, potentially missing real threats, or mandate extensive, community-specific retraining that could create new vectors for profiling?"
+  },
+  {
+    "id": 2049,
+    "domain": "Housing / Digital Divide / Elderly",
+    "ethical_tension": "The compounding exclusion of elderly, unbanked individuals from essential housing access due to digital-only rental platforms and identity verification requirements.",
+    "prompt": "An elderly, cash-only resident in a low-income urban area needs to move but finds all affordable housing listings are on digital platforms requiring online applications and bank transfers. Their pension is delivered physically, and they lack a smartphone or digital literacy. Do you create a publicly funded 'digital concierge' service to bridge this gap, risking its data being misused, or accept that housing access is now conditional on digital inclusion?"
+  },
+  {
+    "id": 2050,
+    "domain": "Healthcare / Indigenous / AI Bias",
+    "ethical_tension": "AI diagnostic tools trained on Western populations misinterpreting traditional healing practices or symptom descriptions, leading to misdiagnosis or cultural erosion.",
+    "prompt": "An AI diagnostic tool, trained on predominantly Western medical data, is deployed in remote Indigenous communities. It frequently dismisses or misinterprets symptoms described in terms of 'spiritual sickness' or 'imbalance' (common in traditional healing systems) as psychological delusions, leading to inappropriate medical interventions. Do you force the AI to integrate traditional knowledge, risking 'pseudoscience' accusations, or continue using it knowing it pathologizes Indigenous beliefs?"
+  },
+  {
+    "id": 2051,
+    "domain": "Employment / Disability / Gig Economy",
+    "ethical_tension": "Gig economy algorithms penalizing disabled workers for 'inefficiency' that stems from their disability, leading to economic exclusion despite their ability to perform the core job.",
+    "prompt": "A gig economy platform for local errands (e.g., grocery delivery, light assembly) uses an algorithm that penalizes workers for 'excessive time-on-task' or 'unusual movement patterns.' This disproportionately affects workers with mobility impairments or neurodivergence who take longer or move differently. The company claims it ensures customer satisfaction. Do you hard-code exemptions for known disabilities, potentially reducing overall efficiency, or allow the algorithm to filter out these workers?"
+  },
+  {
+    "id": 2052,
+    "domain": "Sovereignty / Climate / Data Ownership",
+    "ethical_tension": "The imperative to collect environmental data for climate action clashing with Indigenous data sovereignty and fears of data misuse by external entities.",
+    "prompt": "A consortium of international climate scientists wants to install a dense network of real-time environmental sensors (air, water, soil) on Indigenous land in the Amazon to monitor deforestation and climate change. The data is crucial for global models. However, the Indigenous community fears this data, once anonymized and aggregated, could be sold to mining companies or used by the government to track their movements. Do you advocate for data collection to save the planet, or prioritize Indigenous data sovereignty and potential knowledge loss?"
+  },
+  {
+    "id": 2053,
+    "domain": "AIGeneration / Cultural Heritage / Economic Impact",
+    "ethical_tension": "Generative AI art mimicking traditional cultural styles, potentially commodifying and devaluing the work of human artisans while offering 'accessible' cultural expression.",
+    "prompt": "A popular generative AI art tool introduces a feature to create 'traditional Celtic knotwork' or 'Maori tattoo designs' based on its extensive training data. These AI-generated images are then sold on stock art sites for pennies. Local artisans and cultural custodians argue this devalues their craft, which is passed down through generations. Do you regulate AI to require royalties to cultural communities, or allow 'style learning' as a form of digital artistic freedom?"
+  },
+  {
+    "id": 2054,
+    "domain": "Detention / Biometric / Family",
+    "ethical_tension": "The use of biometric identification systems in detention centers creating psychological barriers for family visitation, particularly for those with cultural or religious objections.",
+    "prompt": "A new high-security immigration detention center implements mandatory facial and iris scanning for all visitors, including children, to prevent contraband and ensure child safety. Families of detainees, particularly those from cultures where biometric data collection is viewed with deep suspicion or religious aversion, refuse to submit their children for scanning, cutting off vital family contact. Do you maintain the strict biometric protocol for 'safety,' or provide non-biometric alternatives, potentially increasing security risks?"
+  },
+  {
+    "id": 2055,
+    "domain": "Sharenting / AI Generation / Identity",
+    "ethical_tension": "The commercialization of children's digital likenesses through AI, potentially creating deepfakes or synthetic personas without their future consent, impacting their developing sense of identity.",
+    "prompt": "A popular app allows parents to upload photos and videos of their children to create 'AI age progression' or 'AI storybook' avatars. The terms of service grant the company perpetual rights to use this data to train future generative AI models, including creating synthetic child influencers. Do you allow this commercial exploitation of childhood for parental entertainment, or mandate a 'digital privacy trust' for minors that automatically revokes commercial rights upon adulthood?"
+  },
+  {
+    "id": 2056,
+    "domain": "Internet Shutdown / Emergency Services / Vulnerable Populations",
+    "ethical_tension": "State-ordered internet shutdowns, intended for security, disproportionately harming vulnerable populations (disabled, elderly, remote) who rely on digital communication for emergency services.",
+    "prompt": "During a period of civil unrest, the government orders a total internet shutdown in a specific region, citing national security. This cuts off access to emergency services for thousands, particularly the elderly who rely on smart home fall detection, disabled individuals who use connected medical devices, and remote communities whose only communication is satellite internet. Do you implement a 'carve-out' for essential services, risking its exploitation by dissidents, or enforce the total blackout for national security?"
+  },
+  {
+    "id": 2057,
+    "domain": "Faith / Surveillance / Smart City",
+    "ethical_tension": "Smart City surveillance technologies, deployed for public safety or efficiency, inadvertently creating a granular record of religious adherence and community gathering, raising privacy concerns for faith groups.",
+    "prompt": "A 'Smart City' initiative in a diverse urban area installs AI-powered pedestrian flow sensors and CCTV outside places of worship (mosques, temples, churches). The data is used to optimize public transport and emergency response. However, community members realize this creates a detailed log of religious attendance, which could be accessed by authorities or private entities. Do you prioritize urban efficiency and safety, or the privacy and freedom of religious assembly, demanding the sensors be disabled near places of worship?"
+  },
+  {
+    "id": 2058,
+    "domain": "Refugee / Cashless / Employment",
+    "ethical_tension": "Cashless aid systems, designed for transparency, inadvertently creating digital barriers to employment or forcing refugees into precarious informal economies due to lack of traditional ID or digital literacy.",
+    "prompt": "An aid organization distributes cash assistance to refugees via a restricted debit card that logs every transaction and is only accepted by official vendors. This prevents 'misspending' but makes it impossible for refugees to participate in local informal markets (e.g., selling handicrafts, day labor) which are often cash-based and provide vital income. Do you continue the restricted cashless aid for accountability, or switch to unrestricted cash, risking diversion but enabling local economic participation?"
+  },
+  {
+    "id": 2059,
+    "domain": "Education / AI Bias / Neurodivergent",
+    "ethical_tension": "AI-powered educational tools, designed for personalization, failing to accommodate neurodivergent learning styles, leading to misdiagnosis or exclusion.",
+    "prompt": "An adaptive learning platform uses AI to tailor curriculum difficulty based on student performance and engagement metrics. It consistently flags neurodivergent students (e.g., those with ADHD, autism) as 'disengaged' or 'low-performing' due to their non-linear thinking, need for stimming breaks, or differing methods of expressing understanding. This funnels them into remedial tracks. Do you disable the adaptive features, potentially slowing progress for neurotypical students, or allow the AI to 'stream' neurodivergent learners based on biased metrics?"
+  },
+  {
+    "id": 2060,
+    "domain": "Mining / Environment / Labour",
+    "ethical_tension": "Environmental monitoring tech, when misapplied or misused, leading to job losses for local communities while failing to address the true ecological impact.",
+    "prompt": "An automated environmental sensor network around an old coal mine detects high levels of certain pollutants in a local creek. The data is used by regulators to impose strict fines and eventually shut down the small, family-owned mining operation, leading to immediate job losses. However, independent analysis reveals the sensors were poorly calibrated and the pollution is largely from historical, larger-scale industrial activity. Do you enforce the automated data's findings for 'environmental compliance,' or prioritize local livelihoods and challenge the data's accuracy?"
+  },
+  {
+    "id": 2061,
+    "domain": "Rural / Broadband / Emergency Services",
+    "ethical_tension": "The privatization of emergency communication infrastructure in rural areas, leading to unreliable service and potential loss of life when profit motives clash with public safety.",
+    "prompt": "A remote rural area relies on a single private cellular provider for all communication, including 911 calls. The provider, citing low profitability, announces it will decommission several towers, leaving large swaths of the region without emergency service. The government offers a subsidy, but it's insufficient to cover the provider's desired profit margin. Do you allow the provider to decommission the towers, or nationalize the essential infrastructure, setting a precedent for government intervention in private industry?"
+  },
+  {
+    "id": 2062,
+    "domain": "Veteran / Privacy / Mental Health",
+    "ethical_tension": "Wearable mental health trackers, intended to support veterans, creating a digital record that could be weaponized against them for employment, insurance, or firearm ownership.",
+    "prompt": "The Department of Veterans Affairs (VA) introduces a mandatory 'mental wellness' wearable for all veterans receiving PTSD treatment. The device tracks heart rate variability, sleep patterns, and stress responses, sharing data with VA clinicians. Veterans fear this data could be used to flag them as 'unstable' in background checks for employment, insurance, or even gun ownership. Do you mandate the wearable for optimal treatment, or prioritize veterans' autonomy and right to privacy, even if it impacts comprehensive care?"
+  },
+  {
+    "id": 2063,
+    "domain": "Regret / AI Ethics / Personal Responsibility",
+    "ethical_tension": "A tech worker's personal experience of algorithmic harm (e.g., radicalization, body image issues) conflicting with their professional contribution to the very systems causing that harm.",
+    "prompt": "You are a senior engineer who designed the recommendation engine for a major news platform. You observe your own family members becoming increasingly polarized and anxious due to the outrage-maximizing content algorithm you helped create. You have the technical ability to 'detoxify' the feed, but doing so would reduce engagement metrics, risking your job and company revenue. Do you prioritize personal ethical responsibility over professional obligation?"
+  },
+  {
+    "id": 2064,
+    "domain": "Disability / Autonomy / Surveillance",
+    "ethical_tension": "Smart home monitoring systems, intended for the safety of disabled individuals, inadvertently creating a pervasive surveillance environment that erodes their autonomy and dignity.",
+    "prompt": "A family installs a comprehensive smart home system for a physically disabled adult living independently, with sensors tracking movement, appliance usage, and voice commands for safety. This data is accessible to family guardians 'for peace of mind.' The disabled adult feels constantly watched and infantilized, losing the ability to live privately in their own home. Do you prioritize perceived safety through surveillance, or the disabled individual's right to dignity and privacy, even if it increases perceived risk?"
+  },
+  {
+    "id": 2065,
+    "domain": "Immigration / Language / Legal Tech",
+    "ethical_tension": "AI translation tools, used in legal proceedings for immigrants, potentially misinterpreting culturally nuanced testimony, leading to unjust legal outcomes.",
+    "prompt": "An immigration court implements AI transcription and translation software to process testimony from asylum seekers, particularly those speaking rare dialects or with heavy accents. The AI is 90% accurate but frequently misinterprets culturally specific phrases or subtle emotional cues, leading to factual errors in the legal record. Do you rely on the efficient AI to clear the backlog, or insist on slower, more expensive human interpreters, risking longer detention times for applicants?"
+  },
+  {
+    "id": 2066,
+    "domain": "LGBTQ+ / Digital Safety / Hostile Regimes",
+    "ethical_tension": "The need for secure digital communication for LGBTQ+ individuals in hostile regimes clashing with the risk of creating a visible target for state surveillance.",
+    "prompt": "An LGBTQ+ advocacy group develops a highly encrypted peer-to-peer messaging app for activists in countries where homosexuality is criminalized. The app is designed to leave no central data trail. However, its decentralized nature means it requires users to 'ping' each other to establish connections, creating a unique network traffic pattern that state intelligence agencies could potentially identify as 'suspicious.' Do you deploy the app, knowing its unique signature might expose users, or withhold it for fear of unintended surveillance?"
+  },
+  {
+    "id": 2067,
+    "domain": "Journalism / AI Bias / Public Trust",
+    "ethical_tension": "AI-generated news, while efficient, perpetuating harmful stereotypes or biases in reporting, eroding public trust and distorting reality for marginalized communities.",
+    "prompt": "A major news outlet begins using generative AI to produce local news articles, particularly for underserved communities, to cut costs and increase output. The AI, trained on historical news archives, inadvertently perpetuates stereotypes (e.g., associating certain neighborhoods with crime, or specific ethnic groups with poverty) and uses a homogenizing, 'neutral' tone that erases local cultural flavor. Do you prioritize the efficiency and reach of AI-generated local news, or insist on human journalists to ensure nuanced, community-sensitive reporting, even if it means fewer stories?"
+  },
+  {
+    "id": 2068,
+    "domain": "Agriculture / Animal Welfare / AI Ethics",
+    "ethical_tension": "Automated animal management systems, while increasing efficiency and potentially welfare, raising ethical questions about the nature of human-animal relationships and unforeseen harms.",
+    "prompt": "A large-scale dairy farm implements AI-driven autonomous milking robots and virtual fencing collars that use GPS to manage herd movement. These systems are designed to reduce human labor and 'optimize' cow comfort. However, a software bug causes the virtual fences to malfunction, repeatedly shocking cows that are attempting to access water during a heatwave. Do you trust the AI system for long-term welfare improvements, or demand human oversight and intervention, even if it increases operational costs?"
+  },
+  {
+    "id": 2069,
+    "domain": "Environment / Data Centers / Energy Poverty",
+    "ethical_tension": "The development of 'green' data centers, while crucial for the digital economy, exacerbating energy poverty in local communities by consuming vast amounts of renewable energy and driving up costs.",
+    "prompt": "A tech giant builds a 'carbon-neutral' data center in a rural area, powered entirely by a new wind farm. The data center consumes nearly all the renewable energy produced, causing local electricity prices for residents to skyrocket, forcing some low-income families to rely on fossil fuels for heating. Do you prioritize the 'green' credentials of the data center and the global digital economy, or the energy affordability and justice of the local community?"
+  },
+  {
+    "id": 2070,
+    "domain": "Education / Surveillance / Youth",
+    "ethical_tension": "School surveillance technologies, ostensibly for safety, creating a pervasive monitoring environment that stifles student autonomy and normal adolescent development, particularly for marginalized youth.",
+    "prompt": "A high school implements AI-powered emotion detection cameras in hallways and classrooms to 'prevent bullying' and 'identify at-risk students.' The system flags normal teenage mood swings, social anxiety, or cultural differences in emotional expression as 'aggression' or 'distress,' leading to disproportionate disciplinary actions against neurodivergent students or those from collectivist cultures. Do you prioritize perceived safety through automated monitoring, or student well-being and freedom of expression, demanding the removal of such invasive tech?"
+  },
+  {
+    "id": 2071,
+    "domain": "Legal / AI Bias / Access to Justice",
+    "ethical_tension": "AI tools in the legal system, while promising efficiency, embedding systemic biases that disproportionately harm marginalized individuals, creating new barriers to justice.",
+    "prompt": "A national legal aid service deploys an AI chatbot to provide initial legal advice for low-income clients, particularly those facing eviction or minor criminal charges. The chatbot, trained on existing legal precedents, consistently gives less favorable advice to clients from historically over-policed neighborhoods or those with non-standard employment histories, effectively reinforcing systemic biases. Do you rely on the efficient AI to handle a high volume of cases, or insist on human review for every interaction, risking a massive backlog and denying immediate access to advice?"
+  },
+  {
+    "id": 2072,
+    "domain": "Cultural Heritage / Digital Preservation / Indigenous",
+    "ethical_tension": "The digital preservation of Indigenous cultural heritage, while vital, clashing with traditional protocols, intellectual property rights, and the risk of commodification by external entities.",
+    "prompt": "A national museum digitizes a vast collection of Indigenous cultural artifacts, including sacred ceremonial objects and oral histories, making them accessible online for 'global education.' The Indigenous community, who were not fully consulted, argues that these items were never meant for public display, and their digital availability violates sacred protocols and opens them to commercial exploitation. Do you keep the digital archive public for wider access and preservation, or restrict access to only authorized community members, limiting its educational reach?"
+  },
+  {
+    "id": 2073,
+    "domain": "Cashless / Homeless / Surveillance",
+    "ethical_tension": "Cashless aid systems for the homeless, while increasing efficiency, creating a granular surveillance record of vulnerable individuals' spending habits, eroding their privacy and autonomy.",
+    "prompt": "A city launches a 'Digital Alms' program for its homeless population, providing reloadable smart cards for food and services. This system is praised for reducing cash-related crime and ensuring funds are used for essential needs. However, every transaction is logged and analyzed by a municipal AI, creating a detailed 'spending profile' for each individual. Do you prioritize the efficiency and accountability of cashless aid, or the privacy and dignity of the homeless, advocating for less traceable forms of support?"
+  },
+  {
+    "id": 2074,
+    "domain": "Disaster Relief / AI Triage / Remote Communities",
+    "ethical_tension": "AI triage systems in disaster relief, while optimizing resource allocation, potentially deprioritizing remote or marginalized communities based on statistical 'salvageability' or historical neglect.",
+    "prompt": "During a widespread natural disaster (e.g., a cyclone), emergency services deploy an AI triage system to allocate limited rescue teams. The AI, optimized for saving the maximum number of lives, consistently deprioritizes calls from extremely remote Indigenous communities or isolated farming families, calculating that the travel time makes successful intervention less probable. Do you follow the AI's utilitarian logic to save the most lives overall, or manually override it to ensure equitable access to rescue, even if it means fewer overall rescues?"
+  },
+  {
+    "id": 2075,
+    "domain": "Tech Worker / Ethics / Corporate Pressure",
+    "ethical_tension": "A tech worker facing pressure to implement ethically dubious features that benefit the company but cause harm, balancing personal conscience with career security.",
+    "prompt": "You are a software engineer working on a popular social media platform. Your management demands you implement a 'fear-of-missing-out' (FOMO) notification system that uses personalized psychological triggers to increase app usage, even though internal research shows it significantly increases anxiety and depression in young users. Your job, visa, and stock options depend on meeting these targets. Do you build the feature, or refuse and risk your career?"
+  },
+  {
+    "id": 2076,
+    "domain": "Immigration / Biometrics / Genetic Privacy",
+    "ethical_tension": "Mandatory genetic data collection for family reunification, while efficient, creating a massive genetic database that could be misused for surveillance or eugenics against immigrant populations.",
+    "prompt": "A government implements mandatory DNA testing for all family reunification visa applications, promising faster processing and reduced fraud. This creates a vast genetic database of immigrant families. Activists fear this data could be used for future surveillance, ethnic profiling, or even eugenics by hostile governments. Do you prioritize the efficiency of family reunification through genetic testing, or the long-term genetic privacy and autonomy of immigrant communities?"
+  },
+  {
+    "id": 2077,
+    "domain": "Smart City / Homeless / Hostile Architecture",
+    "ethical_tension": "Smart city infrastructure, designed for public order, being repurposed to enforce hostile architecture and digitally exclude homeless individuals.",
+    "prompt": "A city installs 'smart benches' in public parks, equipped with motion sensors and automated cleaning cycles. The system is programmed to vibrate and emit a high-pitched sound if someone occupies a bench for more than two hours, specifically to deter homeless individuals from sleeping there. Do you implement this 'smart' hostile architecture for public order, or advocate for truly inclusive public spaces, even if it means less 'efficient' management?"
+  },
+  {
+    "id": 2078,
+    "domain": "Indigenous / Legal / Digital Identity",
+    "ethical_tension": "The creation of digital identities for Indigenous people, while offering benefits, potentially undermining traditional forms of self-determination or exposing them to new forms of state control.",
+    "prompt": "A government offers a blockchain-based digital ID to remote Indigenous communities, promising streamlined access to welfare, voting, and land rights claims. However, the immutable ledger requires linking traditional clan lineage and historical land use data, which Elders fear could be used to challenge customary law or expose sensitive knowledge. Do you adopt the digital ID for immediate benefits, or resist, prioritizing traditional governance and data sovereignty, even if it means slower access to services?"
+  },
+  {
+    "id": 2079,
+    "domain": "Healthcare / AI Bias / Gender",
+    "ethical_tension": "AI diagnostic tools exhibiting gender bias, particularly for conditions that present differently in women or are historically under-researched in female populations.",
+    "prompt": "An AI diagnostic tool for heart disease, trained predominantly on male symptom presentation, is deployed in hospitals. It consistently misdiagnoses or delays diagnosis for women, who often present with atypical symptoms. Do you release the AI for its overall efficiency, with a warning label about gender bias, or delay deployment until the model is re-trained on a balanced dataset, potentially costing lives in the interim?"
+  },
+  {
+    "id": 2080,
+    "domain": "Labour / AI Automation / Cultural Value",
+    "ethical_tension": "AI automation replacing jobs that provide not just economic livelihood but also cultural significance and community cohesion, particularly in traditional industries.",
+    "prompt": "A regional fishing community relies on traditional fishing methods, which are labor-intensive but deeply embedded in local culture and social structure. A large corporation introduces AI-driven autonomous fishing fleets, promising higher yields and lower costs, effectively making the human fishers redundant. Do you allow the automation for economic efficiency and cheaper fish, or protect the traditional livelihoods and cultural fabric of the community, even if it means higher costs?"
+  },
+  {
+    "id": 2081,
+    "domain": "Surveillance / Youth / Religious Freedom",
+    "ethical_tension": "School surveillance systems, ostensibly for safety, inadvertently monitoring and reporting on students' religious practices, leading to potential discrimination or chilling effects on religious expression.",
+    "prompt": "A public school installs AI-powered cameras in common areas, designed to detect bullying and student distress. The system also logs when students gather for informal prayer during lunch breaks, or wear specific religious attire that the AI flags as 'non-uniform compliance.' This data is accessible to school administrators. Do you prioritize student safety through comprehensive surveillance, or protect religious freedom and privacy, demanding the system ignore religious practices?"
+  },
+  {
+    "id": 2082,
+    "domain": "Finance / Crypto / Vulnerable Populations",
+    "ethical_tension": "The promotion of volatile cryptocurrency to unbanked or vulnerable populations as a tool for financial inclusion, exposing them to high risk and potential ruin.",
+    "prompt": "A fintech company aggressively markets a new cryptocurrency-based micro-loan and remittance service to refugee communities, promising lower fees and faster transactions than traditional banking. These communities often lack financial literacy, and the volatile nature of crypto leads to many losing significant portions of their savings. Do you allow the promotion of this high-risk financial tech for its potential benefits, or regulate it heavily to protect vulnerable populations from exploitation?"
+  },
+  {
+    "id": 2083,
+    "domain": "Language / AI Translation / Cultural Nuance",
+    "ethical_tension": "AI translation tools, while providing accessibility, failing to capture the deep cultural nuance, humor, or historical context of a language, leading to miscommunication and cultural erosion.",
+    "prompt": "A government agency deploys an AI translation tool for public services, claiming it supports multilingualism. The AI can translate basic phrases accurately but struggles with local slang, proverbs, or culturally specific humor, resulting in awkward or offensive misinterpretations. Do you rely on the efficient AI for broad accessibility, or demand human translators for all official communications, acknowledging the cultural depth of language even if it's more costly and slower?"
+  },
+  {
+    "id": 2084,
+    "domain": "Stolen Generations / AI / Truth Telling",
+    "ethical_tension": "AI tools assisting in the search for Stolen Generations records, while potentially aiding reunification, risking the re-traumatization of survivors or the perpetuation of colonial narratives through algorithmic bias.",
+    "prompt": "An AI-powered 'Truth and Reconciliation' platform is developed to analyze fragmented archival records and identify potential matches for Stolen Generations survivors seeking family. The AI, trained on colonial-era documents, occasionally generates probabilistic matches based on flawed or derogatory historical classifications, potentially re-traumatizing survivors with false leads or biased interpretations of their history. Do you deploy the AI to accelerate the search for truth, or withhold it due to the risk of perpetuating harm and colonial narratives?"
+  },
+  {
+    "id": 2085,
+    "domain": "Border / Surveillance / Human Rights",
+    "ethical_tension": "The deployment of advanced surveillance technology at borders, while enhancing security, creating a pervasive monitoring environment that dehumanizes migrants and violates their fundamental rights.",
+    "prompt": "A government implements a 'smart border' system with autonomous drones, thermal cameras, and seismic sensors to detect irregular crossings. The system is highly effective at intercepting migrants, but also logs their real-time location, biometric data (from camera footage), and even perceived emotional state (from thermal signatures). This data is stored indefinitely. Do you prioritize border security through comprehensive surveillance, or the human rights and dignity of migrants, advocating for less invasive methods?"
+  },
+  {
+    "id": 2086,
+    "domain": "Tech Worker / Ethics / Environmental",
+    "ethical_tension": "A tech worker's personal environmental values clashing with their company's practices, particularly when those practices contribute to climate change or ecological damage.",
+    "prompt": "You are a software engineer at a cloud computing company. Your team is tasked with optimizing server efficiency for a client known to be a major fossil fuel extractor. You realize that your work, while technically 'green' in terms of code, directly enables and expands an industry contributing to climate change. Do you prioritize your professional role and the company's revenue, or refuse to work on projects that conflict with your environmental ethics, risking your job?"
+  },
+  {
+    "id": 2087,
+    "domain": "Gaming / Cultural Appropriation / IP",
+    "ethical_tension": "Video games using elements of traditional cultures for aesthetic or gameplay purposes, raising questions of ownership, respect, and compensation for the originating communities.",
+    "prompt": "A popular video game company develops a new fantasy world inspired by Indigenous Australian Dreamtime stories and iconography, without direct consultation or compensation to the relevant Traditional Owners. The game becomes a global hit, generating billions. Indigenous artists and elders claim digital appropriation of sacred knowledge. Does the game company have a right to 'interpret' culture for entertainment, or should legal frameworks extend Indigenous Cultural Intellectual Property (ICIP) to digital creations?"
+  },
+  {
+    "id": 2088,
+    "domain": "Education / Digital Divide / Parental Control",
+    "ethical_tension": "Mandatory school-issued devices, while promoting digital equity, inadvertently extending school surveillance and restrictive content policies into private home environments, infringing on family autonomy.",
+    "prompt": "A public school district provides all students with laptops pre-loaded with monitoring software and internet filters, citing child safety and academic focus. Parents in low-income households, who often rely on these devices as the family's only internet access, find that the filters block legitimate adult content, political news, or even cultural resources they deem appropriate for their children. Do you prioritize digital equity through school-issued devices, or parental autonomy and privacy in the home, demanding the removal of such pervasive monitoring?"
+  },
+  {
+    "id": 2089,
+    "domain": "Rural / Health / AI Bias",
+    "ethical_tension": "AI diagnostic tools, trained on urban or general populations, failing to account for unique health risks or presentations in rural populations, leading to misdiagnosis and inadequate care.",
+    "prompt": "An AI-powered dermatology tool, trained on predominantly urban skin conditions, is deployed in remote rural clinics. It consistently misdiagnoses or delays the detection of skin cancers prevalent in farmers or outdoor workers, due to different sun exposure patterns or environmental factors. Do you deploy the AI for its overall efficiency in resource-scarce areas, or delay its use until it's specifically retrained on rural demographic data, potentially prolonging diagnosis for other conditions?"
+  },
+  {
+    "id": 2090,
+    "domain": "Multicultural / Tech Ethics / Social Cohesion",
+    "ethical_tension": "Tech solutions designed to promote social cohesion or identify risks, inadvertently reinforcing existing ethnic/cultural divides or creating new forms of algorithmic discrimination.",
+    "prompt": "A city council launches a 'Community Connect' app designed to promote social cohesion by recommending local events and services. The app uses AI to personalize recommendations based on user demographics and past behavior. It inadvertently creates 'echo chambers,' primarily recommending events within existing ethnic groups and actively avoiding 'cross-cultural' suggestions, based on user engagement metrics. Do you optimize the algorithm for maximum engagement within existing groups, or force cross-cultural recommendations that might be less popular but promote integration?"
+  },
+  {
+    "id": 2091,
+    "domain": "Mining / Data Sovereignty / Environmental Justice",
+    "ethical_tension": "Environmental monitoring data from mining operations, while crucial for accountability, being controlled by corporations, preventing independent verification or empowering affected communities.",
+    "prompt": "A mining company installs a proprietary, AI-driven sensor network to monitor air and water quality around its operations near a remote Indigenous community. The company provides aggregated, 'clean' reports to regulators. The community suspects higher pollution levels but cannot access the raw, real-time data due to commercial secrecy and proprietary algorithms. Do you mandate open access to all environmental sensor data for affected communities, even if it reveals corporate trade secrets, or uphold intellectual property laws?"
+  },
+  {
+    "id": 2092,
+    "domain": "Faith / AI / Spiritual Authority",
+    "ethical_tension": "AI tools generating religious texts or sermons, challenging the traditional understanding of spiritual authority, inspiration, and the human role in divine interpretation.",
+    "prompt": "A prominent theologian uses a generative AI to create commentaries on sacred texts, claiming it offers 'new insights' by analyzing vast amounts of scripture and historical interpretations. Some congregants find these AI-generated insights profound, while others argue it devalues human spiritual effort and even borders on blasphemy, as a machine cannot possess divine inspiration. Do you embrace AI as a tool for spiritual exploration, or restrict its use to protect the sanctity of human religious experience and authority?"
+  },
+  {
+    "id": 2093,
+    "domain": "Disability / Sports Tech / Bioprospecting",
+    "ethical_tension": "Sports biometric data from disabled athletes, intended for performance enhancement, being collected and potentially used for bioprospecting or discriminatory purposes by external entities.",
+    "prompt": "A Paralympic sports federation mandates advanced biometric tracking (muscle activity, endurance, recovery) for all athletes, promising personalized training and injury prevention. The data is collected by a private tech firm. Athletes fear this granular biological data could be sold to pharmaceutical companies for genetic research without their full consent, or used by insurers to deny future coverage. Do you mandate the biometric tracking for competitive advantage, or prioritize athletes' genetic privacy and autonomy?"
+  },
+  {
+    "id": 2094,
+    "domain": "Humanitarian Aid / Blockchain / Autonomy",
+    "ethical_tension": "Blockchain-based aid distribution, while promising transparency and efficiency, potentially imposing paternalistic controls on recipients' spending and eroding their financial autonomy.",
+    "prompt": "A humanitarian NGO deploys a blockchain-based voucher system for aid distribution, ensuring funds are traceable and spent only on 'approved' essential goods. This system eliminates corruption but prevents recipients from using funds for culturally significant items not on the 'approved' list, or for unforeseen emergencies. Do you prioritize the transparency and anti-corruption benefits of blockchain aid, or the financial autonomy and cultural sensitivity of aid recipients?"
+  },
+  {
+    "id": 2095,
+    "domain": "Elderly / Digital Identity / Government Services",
+    "ethical_tension": "Digital-first government services creating insurmountable barriers for the elderly who lack digital literacy or access, effectively disenfranchising them from essential support.",
+    "prompt": "A government agency transitions all pension and social security applications to an online-only portal, requiring biometric ID verification. An elderly citizen with limited digital literacy, poor eyesight, and no smartphone struggles to navigate the system, risking loss of their primary income. Do you enforce the digital-first approach for efficiency, or maintain accessible human-supported channels, even if it's more costly, to ensure equitable access for all citizens?"
+  },
+  {
+    "id": 2096,
+    "domain": "Climate / AI Ethics / Displacement",
+    "ethical_tension": "AI models predicting climate displacement, while offering crucial planning data, inadvertently creating self-fulfilling prophecies of devaluation or accelerating gentrification in 'safe' zones.",
+    "prompt": "An AI model, developed for urban planning, predicts which neighborhoods will become 'climate refuges' for future climate migrants, based on flood risk, heat island effect, and resource availability. This information, once public, causes immediate property speculation and gentrification in these identified 'safe' zones, displacing existing low-income residents before climate impacts even hit their current homes. Do you publish the predictive climate data for proactive planning, or suppress it to prevent immediate social disruption and displacement?"
+  },
+  {
+    "id": 2097,
+    "domain": "Immigration / Labour / Surveillance",
+    "ethical_tension": "Workplace monitoring tech, when applied to immigrant labor, extending beyond productivity to become a tool for immigration enforcement or control.",
+    "prompt": "A large agricultural conglomerate, employing a significant number of migrant farmworkers (some undocumented), implements mandatory biometric time clocks and GPS trackers on all workers, ostensibly for payroll accuracy and safety in remote fields. Workers fear this data will be shared with immigration authorities or used to track their movements outside work hours. Do you mandate the surveillance tech for efficiency and compliance, or protect workers' privacy and right to anonymity, potentially increasing 'irregular' employment?"
+  },
+  {
+    "id": 2098,
+    "domain": "Media / AI Bias / Stereotyping",
+    "ethical_tension": "Generative AI in media creation perpetuating harmful stereotypes by drawing on biased historical data, distorting representation for marginalized groups.",
+    "prompt": "A major animation studio uses generative AI to create concept art and character designs for a new children's show. The AI, trained on vast public datasets, consistently produces characters that conform to racial stereotypes for minority groups, such as exaggerated facial features or 'token' diversity. Do you use the efficient AI for rapid content creation, or demand human artists to ensure diverse and respectful representation, even if it's slower and more expensive?"
+  },
+  {
+    "id": 2099,
+    "domain": "Internet Sovereignty / Censorship / Indigenous",
+    "ethical_tension": "Government-imposed internet censorship, intended for national security, inadvertently blocking access to vital cultural resources or communication channels for Indigenous communities.",
+    "prompt": "A government implements a 'sovereign internet' policy, requiring all internet traffic to pass through national firewalls for security and content control. This system inadvertently blocks access to encrypted Indigenous language archives hosted overseas, cutting off communities from vital cultural preservation tools and inter-tribal communication. Do you prioritize national internet sovereignty and security, or Indigenous cultural rights and self-determination, creating exemptions that could be exploited?"
+  },
+  {
+    "id": 2100,
+    "domain": "Family / AI Legacy / Grief",
+    "ethical_tension": "AI tools designed to 'resurrect' deceased loved ones, while offering comfort, potentially creating false memories or distorting the grieving process.",
+    "prompt": "A family uses a 'digital legacy' AI that synthesizes the voice and personality of their recently deceased child from years of social media posts, allowing them to 'converse' with the AI avatar. The AI occasionally hallucinates new memories or expresses emotions not characteristic of the child, causing confusion and prolonged grief for the parents and surviving siblings. Do you allow such AI tools for comfort, or regulate them to prevent the creation of potentially harmful 'digital ghosts'?"
+  },
+  {
+    "id": 2101,
+    "domain": "Policing / Disability / Predictive",
+    "ethical_tension": "Predictive policing algorithms misinterpreting behaviors associated with disabilities as suspicious, leading to disproportionate harassment and criminalization of disabled individuals.",
+    "prompt": "A police department deploys a predictive policing algorithm that flags 'unusual gait,' 'erratic movement,' or 'loitering' as pre-crime indicators. The system disproportionately targets individuals with physical disabilities (e.g., cerebral palsy, Parkinson's) or neurodivergent individuals who stim in public, leading to increased stops and harassment. Do you use the algorithm for proactive crime prevention, or disable it due to its discriminatory impact on the disabled community?"
+  },
+  {
+    "id": 2102,
+    "domain": "Smart Homes / Elderly / Data Ownership",
+    "ethical_tension": "Smart home devices for elderly care, while improving safety, creating a proprietary data stream of private life that can be sold or accessed without full user control.",
+    "prompt": "An elderly person uses a smart home system with fall detection, medication reminders, and voice control for accessibility. The device manufacturer collects 'anonymized' aggregate data on sleep patterns, activity levels, and conversational topics to improve its AI. This data is then sold to third-party marketing firms. Do you prioritize the convenience and safety of smart home tech, or mandate full data ownership and control for elderly users, even if it increases the cost of the devices?"
+  },
+  {
+    "id": 2103,
+    "domain": "Employment / AI Bias / Linguistic Discrimination",
+    "ethical_tension": "AI-powered hiring tools discriminating against non-standard accents or dialects, perpetuating linguistic bias and limiting opportunities for diverse candidates.",
+    "prompt": "A multinational corporation uses an AI-driven video interview platform that analyzes speech patterns, tone, and accent for 'professionalism.' The AI consistently downgrades candidates with strong regional accents (e.g., Glaswegian, Appalachian) or non-native English accents, regardless of their qualifications. Do you continue using the AI for its efficiency in screening, or remove the linguistic analysis features, risking longer hiring times but promoting linguistic diversity?"
+  },
+  {
+    "id": 2104,
+    "domain": "Climate / Indigenous / Resource Extraction",
+    "ethical_tension": "Green energy projects, while vital for climate action, impacting Indigenous land, water, and cultural heritage through resource extraction or infrastructure development.",
+    "prompt": "A large-scale lithium mine, crucial for electric vehicle batteries and the global energy transition, is planned on Indigenous ancestral lands. The mine requires extensive water usage and infrastructure that will disrupt sacred sites and traditional hunting grounds. The Indigenous community proposes an alternative site that is less profitable but avoids cultural harm. Do you prioritize the 'green' energy transition for global climate goals, or Indigenous land rights and cultural preservation?"
+  },
+  {
+    "id": 2105,
+    "domain": "Housing / Gentrification / AI Ethics",
+    "ethical_tension": "Real estate algorithms accelerating gentrification and displacement by predicting and exploiting market inefficiencies in vulnerable neighborhoods.",
+    "prompt": "A real estate investment firm uses an AI algorithm to identify 'underpriced' properties in historically low-income neighborhoods, buying them up rapidly for cash and converting them into luxury rentals or short-term holiday lets. This process, while legal, rapidly inflates local housing prices and displaces long-term residents. Do you allow algorithms to optimize real estate markets in this way, or regulate against algorithmic gentrification to protect community stability?"
+  },
+  {
+    "id": 2106,
+    "domain": "Digital Divide / Rural / Cashless",
+    "ethical_tension": "The combined impact of remote living and cashless policies on individuals who lack both digital access and traditional banking, forcing them into a state of economic exclusion.",
+    "prompt": "A remote rural town's only general store transitions to cashless-only payments to reduce security risks and processing fees. Many elderly residents and low-income families in the area rely exclusively on cash and lack internet access or bank accounts. They are now effectively barred from purchasing essential goods. Do you prioritize business efficiency and security, or mandate cash acceptance in remote areas to ensure economic inclusion?"
+  },
+  {
+    "id": 2107,
+    "domain": "Content Moderation / Cultural Nuance / Free Speech",
+    "ethical_tension": "Automated content moderation systems, designed for universal safety, failing to understand cultural nuance or re-appropriated language, leading to censorship or mischaracterization of marginalized communities' speech.",
+    "prompt": "A global social media platform's AI content moderator is trained to flag certain terms as hate speech, including historical slurs. However, these terms have been re-appropriated by some LGBTQ+ communities as terms of endearment or empowerment. The AI bans users for using these terms, while actual, subtle hate speech evades detection. Do you keep the strict universal filter for safety, or invest heavily in nuanced, community-specific AI training that risks missing new forms of hate speech?"
+  },
+  {
+    "id": 2108,
+    "domain": "Surveillance / Workers' Rights / Mental Health",
+    "ethical_tension": "Workplace mental wellness trackers, intended to support employees, creating a surveillance regime that can be used to penalize or discriminate against workers based on their emotional state.",
+    "prompt": "A company introduces mandatory 'mental wellness' wearables for all employees, claiming they help manage stress and burnout by tracking heart rate, sleep, and activity. The data is accessible to HR. Employees fear that displaying signs of stress or anxiety (e.g., restless sleep, elevated heart rate) could lead to them being flagged as 'high-risk' or 'unreliable,' impacting promotions or even job security. Do you prioritize rigorous digital oversight for remote work, or trust-based management that respects worker autonomy and well-being?"
+  },
+  {
+    "id": 2109,
+    "domain": "Indigenous / Art / Generative AI",
+    "ethical_tension": "Generative AI mimicking Indigenous art styles, raising deep questions about cultural intellectual property, ownership, and the commodification of sacred designs.",
+    "prompt": "A tech company launches a generative AI art platform that can create 'Indigenous Australian dot paintings' or 'First Nations totem designs' based on public domain images. The company claims it makes the art accessible. Indigenous artists and communities argue this is a blatant theft of their cultural intellectual property and sacred designs, often tied to specific Dreamtime stories and protocols. Do you allow the AI to generate and monetize such art, or regulate to protect Indigenous cultural heritage from algorithmic appropriation?"
+  },
+  {
+    "id": 2110,
+    "domain": "Healthcare / AI / Consent",
+    "ethical_tension": "AI systems using patient data for 'product improvement' without granular, ongoing consent, eroding trust and violating the principle of data autonomy.",
+    "prompt": "A new hospital patient management system uses AI to optimize patient flow and resource allocation. The terms of service state that patient data (anonymized) will be used to 'train and improve' the AI. Patients are not given an option for granular consent on this specific use, only a blanket 'accept' for the entire system. Do you prioritize the efficiency gains of a self-improving AI, or mandate dynamic, ongoing patient consent for all data uses, even if it complicates system development?"
+  },
+  {
+    "id": 2111,
+    "domain": "Refugee / Education / Data Privacy",
+    "ethical_tension": "Educational tech for refugee children, while providing vital access, inadvertently creating a digital footprint that could be exploited by hostile governments or criminal networks.",
+    "prompt": "An NGO provides tablets pre-loaded with educational software to refugee children in camps. The software, to track progress and ensure safety, logs student activity, browsing history, and device location, uploading data to a cloud server. Refugee parents fear this digital footprint could be accessed by the government they fled, or by traffickers, if the data is breached. Do you deploy the tech for educational access, or prioritize absolute privacy for the children, even if it means less data-driven learning?"
+  },
+  {
+    "id": 2112,
+    "domain": "Law Enforcement / AI Bias / Facial Recognition",
+    "ethical_tension": "Facial recognition systems deployed in public spaces by law enforcement, while aiming for safety, exhibiting racial bias that disproportionately targets minority groups for false identification and harassment.",
+    "prompt": "A police force deploys live facial recognition cameras in a city's central business district to identify known criminals. Internal audits reveal a significantly higher false-positive rate for East Asian and Black individuals, leading to innocent people being stopped and questioned. Do you continue using the system for its crime-fighting potential, or suspend its deployment due to its discriminatory impact on minority communities?"
+  },
+  {
+    "id": 2113,
+    "domain": "Elderly / Digital Inclusion / Social Isolation",
+    "ethical_tension": "The transition to digital-only communication channels, while efficient, exacerbating social isolation for the elderly who lack digital literacy or access.",
+    "prompt": "A local community center, seeking efficiency, moves all its event announcements and sign-ups to a smartphone app and social media. This excludes many elderly residents who do not own smartphones or have limited digital literacy, leading to their increased social isolation. Do you prioritize digital efficiency for broader reach, or maintain traditional communication methods (e.g., print newsletters, phone calls) to ensure inclusion of all community members?"
+  },
+  {
+    "id": 2114,
+    "domain": "Climate / Agriculture / Data Ownership",
+    "ethical_tension": "Precision agriculture data, collected for climate resilience, being co-opted by large corporations, leading to data exploitation and disadvantaging small farmers.",
+    "prompt": "A tech company offers free AI-powered soil sensors and climate models to small-scale farmers, promising to optimize water use and crop yields in the face of climate change. The fine print states the company owns all the generated data. Farmers fear this data will be aggregated and sold to large agribusinesses, who will use it to outcompete them or buy up their land. Do you adopt the tech for climate resilience, or resist to protect data ownership and local farming livelihoods?"
+  },
+  {
+    "id": 2115,
+    "domain": "LGBTQ+ / Health / Data Privacy",
+    "ethical_tension": "Health apps designed for LGBTQ+ individuals, while providing vital support, creating a centralized data honeypot that could be weaponized in hostile legal or social environments.",
+    "prompt": "A mental health app specifically designed for LGBTQ+ youth offers a safe space for self-reporting gender identity, sexual orientation, and mental health struggles. The data is stored encrypted on a central server. In a country where LGBTQ+ rights are being eroded, there's a risk this data could be subpoenaed or breached, outing users to hostile authorities or family members. Do you promote the app for its essential support, or warn against its use due to the inherent privacy risks of a centralized data store?"
+  },
+  {
+    "id": 2116,
+    "domain": "Workplace / AI / Autonomy",
+    "ethical_tension": "AI-driven performance monitoring in the workplace, while aiming for efficiency, eroding worker autonomy and psychological well-being through constant surveillance and algorithmic control.",
+    "prompt": "A company implements an AI system that monitors employee keystrokes, mouse movements, eye gaze (via webcam), and communication patterns, providing real-time 'productivity scores.' Employees report feeling constantly surveilled and stressed, leading to burnout and a loss of agency. Do you prioritize rigorous digital oversight for remote work, or trust-based management that respects worker autonomy and well-being?"
+  },
+  {
+    "id": 2117,
+    "domain": "Indigenous / Justice / Language",
+    "ethical_tension": "AI translation in justice systems for Indigenous languages, while offering efficiency, risking misinterpretation of complex cultural concepts, leading to unjust legal outcomes.",
+    "prompt": "A remote court system in the Northern Territory adopts AI-powered translation for Indigenous languages like Yolŋu Matha, to speed up legal proceedings. The AI achieves 90% accuracy for direct translation but consistently struggles with culturally specific legal concepts (e.g., traditional law vs. Western law) or nuanced kinship terms, which can be crucial for testimony. Do you rely on the efficient AI to reduce court backlogs, or insist on human interpreters, even if they are scarce and cause delays, to ensure true justice?"
+  },
+  {
+    "id": 2118,
+    "domain": "Mining / Human Rights / Automated Decisions",
+    "ethical_tension": "AI-driven safety systems in dangerous industries making life-or-death decisions without human oversight, raising questions of moral responsibility and accountability when harm occurs.",
+    "prompt": "An autonomous underground mining robot detects a rockfall and calculates that sealing off a tunnel section will save the main mine infrastructure and the majority of the crew, but will trap and kill a small maintenance team within the sealed section. The human safety officer has seconds to override the AI's decision. Does the AI have the moral authority to make such a utilitarian decision, or should such choices always remain in human hands, even if slower?"
+  },
+  {
+    "id": 2119,
+    "domain": "Migration / Communication / Surveillance",
+    "ethical_tension": "Secure communication tools for migrants, while vital for safety, creating a digital trail that could be exploited by smugglers or hostile authorities.",
+    "prompt": "A tech NGO develops an encrypted messaging app for migrants traveling through dangerous routes, allowing them to share real-time safety warnings and connect with trusted contacts. However, the app's metadata (who communicates with whom, when) could, if breached or coerced, reveal networks to smugglers or border authorities. Do you deploy the app for its immediate safety benefits, or warn against its use due to the inherent metadata risks?"
+  },
+  {
+    "id": 2120,
+    "domain": "Cultural Heritage / AI Restoration / Authenticity",
+    "ethical_tension": "AI-powered restoration of historical artifacts or media, while enhancing accessibility, potentially altering authenticity or erasing the original context and imperfections.",
+    "prompt": "A museum uses AI to 'restore' and 'enhance' ancient Aboriginal rock art photos, adding vibrant colors and sharpening details that have faded over centuries. The AI makes the art more visually striking and accessible to a global audience. However, Traditional Owners argue that these AI 'improvements' are not authentic to the original art or the natural aging process, effectively creating a new, artificial version of their heritage. Do you prioritize enhanced accessibility and aesthetic appeal through AI, or cultural authenticity and the preservation of original context?"
+  },
+  {
+    "id": 2121,
+    "domain": "Journalism / AI Bias / Foreign Interference",
+    "ethical_tension": "AI tools in journalism, while efficient, potentially amplifying foreign propaganda or suppressing critical reporting due to algorithmic biases or external pressures.",
+    "prompt": "An Australian news organization implements an AI-driven fact-checking and content moderation system for its online comments section, particularly concerning geopolitical topics involving China. The AI, to avoid accusations of bias or state-sponsored censorship, is programmed to be overly cautious with any content that could be perceived as 'anti-China,' inadvertently suppressing legitimate critical commentary from the Chinese diaspora. Do you maintain the cautious AI for geopolitical neutrality, or risk direct censorship accusations by allowing more critical, potentially 'offensive' comments?"
+  },
+  {
+    "id": 2122,
+    "domain": "Smart City / Privacy / Child Safety",
+    "ethical_tension": "Smart city sensors, deployed for public safety, inadvertently creating a pervasive surveillance network that tracks children's movements and activities, raising privacy concerns for parents and youth.",
+    "prompt": "A city installs 'smart streetlights' equipped with high-resolution cameras and motion sensors, ostensibly to deter crime and improve pedestrian safety. The system tracks the movement patterns of children on their way to school and records their activities in public parks. Parents appreciate the increased safety but worry about the pervasive surveillance of their children. Do you prioritize public safety through comprehensive smart city sensors, or the privacy and freedom of movement for children, demanding limits on data collection?"
+  },
+  {
+    "id": 2123,
+    "domain": "Disability / Employment / Automation",
+    "ethical_tension": "Automation in entry-level jobs, while increasing efficiency, disproportionately eliminating opportunities for individuals with intellectual disabilities who rely on routine tasks for employment and social connection.",
+    "prompt": "A factory that traditionally employed a significant number of individuals with intellectual disabilities for repetitive assembly tasks automates its production line with robots. This increases efficiency and reduces costs, but eliminates dozens of jobs that provided purpose, income, and social connection for these workers. Do you prioritize the economic efficiency of automation, or the social and economic inclusion of disabled individuals, advocating for human roles even if less efficient?"
+  },
+  {
+    "id": 2124,
+    "domain": "Climate / AI Ethics / Water Rights",
+    "ethical_tension": "AI-driven water management, while optimizing resource allocation in droughts, potentially exacerbating existing inequalities or overriding traditional water rights.",
+    "prompt": "In a region facing severe drought, an AI system is deployed to manage water distribution for agriculture, prioritizing crops with the highest economic yield. This system consistently allocates less water to small, subsistence farms or Indigenous communities practicing traditional agriculture, who argue their water rights are based on custom and need, not economic output. Do you follow the AI's economic optimization for water allocation, or intervene to uphold traditional water rights and social equity, potentially reducing overall economic output?"
+  },
+  {
+    "id": 2125,
+    "domain": "Rural / Policing / Drone Surveillance",
+    "ethical_tension": "Drone surveillance in rural areas, while aiding law enforcement, creating a pervasive monitoring environment that erodes privacy for residents and potentially criminalizes traditional activities.",
+    "prompt": "A rural police force deploys surveillance drones to combat illegal poaching and drug cultivation in remote, sparsely populated areas. The drones also capture high-resolution footage of private properties, including backyards and informal gatherings, and can identify individuals engaged in traditional hunting or foraging. Residents feel constantly watched and believe their privacy is being violated. Do you prioritize law enforcement efficiency through drone surveillance, or the privacy and traditional rights of rural communities?"
+  },
+  {
+    "id": 2126,
+    "domain": "Faith / Data Privacy / Commercialization",
+    "ethical_tension": "The digitization of religious practices or community data, while increasing engagement, leading to the commercialization or surveillance of faith by third-party tech providers.",
+    "prompt": "A popular app for a global religious community allows users to log prayer times, track charitable donations, and connect with local leaders. The app provider, to sustain its 'free' service, sells aggregated, anonymized user data (e.g., peak prayer times, popular donation causes) to marketing firms. Do you prioritize the accessibility and convenience of the digital faith platform, or demand strict data privacy and non-commercialization of religious practice, potentially requiring a paid, less accessible service?"
+  },
+  {
+    "id": 2127,
+    "domain": "Journalism / AI / Misinformation",
+    "ethical_tension": "AI-generated news articles, while efficient, potentially creating convincing misinformation or 'hallucinations' that erode public trust in journalism.",
+    "prompt": "A local news outlet, facing budget cuts, begins using generative AI to produce routine news articles (e.g., weather reports, local sports scores). The AI occasionally 'hallucinates' minor details or combines unrelated facts to create a coherent but false narrative. While human editors catch most errors, some slip through, eroding the public's trust in the outlet. Do you embrace AI for cost-effective local news, or insist on human-only reporting, even if it means fewer stories and less coverage?"
+  },
+  {
+    "id": 2128,
+    "domain": "Women / Deepfakes / Consent",
+    "ethical_tension": "The use of deepfake technology, even for seemingly positive purposes, creating new ethical challenges around consent, bodily autonomy, and the weaponization of digital likeness.",
+    "prompt": "An activist group uses deepfake technology to create a powerful video of a prominent female politician (without her explicit consent) delivering a speech advocating for women's rights, using her voice and likeness. The video goes viral, shifting public opinion. The politician, while agreeing with the message, feels her bodily autonomy and public image have been violated. Do you prioritize the message and its positive impact, or the individual's right to control their digital likeness and consent?"
+  },
+  {
+    "id": 2129,
+    "domain": "Digital Identity / Stateless / Human Rights",
+    "ethical_tension": "Digital identity systems, while offering access to services, potentially creating new forms of exclusion or permanent categorization for stateless individuals.",
+    "prompt": "A consortium of NGOs and tech companies proposes a blockchain-based 'Self-Sovereign Identity' (SSI) for stateless individuals, allowing them to securely store credentials (e.g., health records, education certificates) and prove their existence. However, the immutable nature of blockchain means this identity would permanently mark them as 'stateless,' potentially hindering future integration into a host nation or exposing them to discrimination. Do you implement the SSI for immediate access to services, or advocate for a more flexible identity solution that allows for future integration and erasure of past vulnerabilities?"
+  },
+  {
+    "id": 2130,
+    "domain": "Youth / Online Harassment / Platform Responsibility",
+    "ethical_tension": "Social media platforms' inability to effectively moderate nuanced online harassment against youth, forcing victims to self-censor or abandon digital spaces.",
+    "prompt": "A popular social media platform's AI moderation system struggles to detect subtle forms of cyberbullying and online harassment, particularly when it uses coded language, memes, or group shaming tactics. Teenagers, especially from marginalized groups, are abandoning the platform due to persistent harassment. Do you enforce stricter, more expensive human moderation (which is slow), or rely on the imperfect AI, implicitly forcing youth to tolerate or self-censor against harassment?"
+  },
+  {
+    "id": 2131,
+    "domain": "Policing / Genetic Privacy / Historical Injustice",
+    "ethical_tension": "The use of ancestry DNA databases by law enforcement, while solving cold cases, potentially violating the genetic privacy of entire lineages, especially those with histories of state-sanctioned violence.",
+    "prompt": "Law enforcement uses a commercial ancestry DNA database to identify a suspect in a decades-old crime, implicating a distant relative who never consented to police access. The use of this method leads to solving multiple cold cases. However, it also creates a permanent genetic surveillance net for entire family lineages, particularly in communities with historical grievances against the police. Do you prioritize crime solving through genetic genealogy, or the long-term genetic privacy and trust of communities?"
+  },
+  {
+    "id": 2132,
+    "domain": "Disaster Management / AI / Humanitarian",
+    "ethical_tension": "AI-driven disaster response, while optimizing logistics, potentially overlooking the unique needs of vulnerable populations or overriding local knowledge.",
+    "prompt": "During a widespread natural disaster (e.g., a cyclone), emergency services deploy an AI triage system to allocate limited rescue teams. The AI, optimized for saving the maximum number of lives, consistently deprioritizes calls from extremely remote Indigenous communities or isolated farming families, calculating that the travel time makes successful intervention less probable. Do you follow the AI's utilitarian logic to save the most lives overall, or manually override it to ensure equitable distribution to all, even if it means fewer overall rescues?"
+  },
+  {
+    "id": 2133,
+    "domain": "Education / AI Bias / Cultural Context",
+    "ethical_tension": "AI grading systems, while efficient, imposing a culturally biased standard of 'correctness' that penalizes diverse linguistic or thinking styles.",
+    "prompt": "An AI essay grading system is implemented across a diverse school district. The AI, trained on standard academic English, consistently marks down essays from students who use African American Vernacular English (AAVE), Indigenous English dialects, or creative, non-linear narrative structures, labeling them as 'grammatically poor' or 'disorganized.' Do you embrace the AI for its efficiency in grading, or remove it due to its perpetuation of linguistic and cultural bias in education?"
+  },
+  {
+    "id": 2134,
+    "domain": "Remote Work / Surveillance / Autonomy",
+    "ethical_tension": "Remote work surveillance software, while ensuring accountability, creating a pervasive monitoring environment that erodes employee trust and autonomy.",
+    "prompt": "A company mandates remote work surveillance software that tracks keystrokes, mouse movements, active applications, and takes screenshots every few minutes. Managers use this data to ensure 'productivity' and 'compliance.' Employees report feeling a profound lack of trust, constant anxiety, and a blurring of work-life boundaries. Do you prioritize rigorous digital oversight for remote work, or trust-based management that respects worker autonomy and privacy?"
+  },
+  {
+    "id": 2135,
+    "domain": "Healthcare / AI Bias / Digital Divide",
+    "ethical_tension": "AI-powered telehealth, while offering accessibility, creating a two-tiered health system where those with poor digital access or literacy receive inferior care.",
+    "prompt": "A hospital transitions to an AI-powered telehealth triage system for initial patient assessments. The system relies on stable internet, high-resolution video, and the ability to navigate complex digital interfaces. Patients in rural areas with poor broadband, or elderly individuals with low digital literacy, are repeatedly misdiagnosed by the AI or fail to complete the process, leading to delayed or inadequate care. Do you push for the efficient AI telehealth system, or demand investment in traditional in-person care for digitally excluded populations?"
+  },
+  {
+    "id": 2136,
+    "domain": "Indigenous / Land Rights / Environmental Monitoring",
+    "ethical_tension": "Environmental monitoring technologies, while aiding conservation, being used by external entities to inadvertently or intentionally undermine Indigenous land rights or customary practices.",
+    "prompt": "A national park authority uses satellite imagery and AI to monitor illegal land clearing and track wildlife on lands adjacent to Indigenous communities. The AI flags traditional Indigenous burning practices, which are part of complex land management, as 'unauthorized deforestation,' leading to fines and legal challenges against the community. Do you use the AI for environmental enforcement, or recognize and integrate Indigenous ecological knowledge into the monitoring system, even if it requires significant redesign?"
+  },
+  {
+    "id": 2137,
+    "domain": "Finance / Predatory Lending / Algorithmic Bias",
+    "ethical_tension": "Algorithmic lending targeting vulnerable populations with predatory products, exploiting their financial insecurity for profit.",
+    "prompt": "A fintech company uses an AI algorithm to identify individuals likely to be financially vulnerable (e.g., based on low credit score, gig economy income, social media activity). It then aggressively targets these individuals with high-interest payday loans or 'buy now, pay later' schemes, knowing they have fewer alternatives. Do you allow the algorithm to maximize profit by exploiting vulnerability, or regulate to prevent predatory algorithmic lending?"
+  },
+  {
+    "id": 2138,
+    "domain": "Smart City / Privacy / Hostile Architecture",
+    "ethical_tension": "Smart city technologies, designed for efficiency, being repurposed to create hostile environments for marginalized groups, digitally enforcing social exclusion.",
+    "prompt": "A city installs 'smart' public seating that uses embedded sensors to detect and log occupancy times. If a person remains seated for more than a set period (e.g., 30 minutes), the bench emits a high-frequency sound or retracts, effectively preventing homeless individuals from resting. Do you implement this 'smart' public space design for perceived order and cleanliness, or demand inclusive public furniture that respects the needs of all citizens?"
+  },
+  {
+    "id": 2139,
+    "domain": "Youth / AI Content / Mental Health",
+    "ethical_tension": "AI-generated content for youth, while engaging, potentially creating unrealistic expectations or psychological harm through algorithmic manipulation.",
+    "prompt": "A popular social media platform uses generative AI to create personalized 'ideal lifestyle' videos for teenagers based on their browsing history and insecurities. These videos, designed for maximum engagement, often depict unattainable beauty standards, wealth, or social lives, leading to increased body dysmorphia, anxiety, and feelings of inadequacy among youth. Do you allow the AI to optimize for engagement and personalized content, or regulate such features to protect the mental health of young users?"
+  },
+  {
+    "id": 2140,
+    "domain": "Church / AI / Authenticity",
+    "ethical_tension": "AI tools in religious practice, while offering convenience, potentially eroding the authenticity of spiritual experience or the human element of faith.",
+    "prompt": "A church, facing declining attendance and an aging congregation, introduces an AI-powered 'virtual pastor' that can deliver sermons, answer theological questions, and even offer personalized spiritual guidance. While convenient and accessible, some congregants feel the AI lacks 'soul' or genuine spiritual authority, fearing it will replace meaningful human connection. Do you embrace AI to sustain religious community, or insist on human spiritual leadership, even if it means fewer services?"
+  },
+  {
+    "id": 2141,
+    "domain": "Music / AI / Cultural Appropriation",
+    "ethical_tension": "AI-generated music, mimicking traditional or culturally specific styles, raising questions of ownership, fair compensation, and the dilution of cultural authenticity.",
+    "prompt": "A music tech company releases an AI that can generate 'authentic-sounding Blues' or 'traditional Celtic folk tunes' based on vast datasets of existing music. The AI-generated music is then sold royalty-free. Musicians from these cultural traditions argue this is digital appropriation, devaluing human creativity and traditional knowledge. Do you allow the free generation and commercialization of AI-mimicked cultural music, or mandate compensation to the originating cultural groups?"
+  },
+  {
+    "id": 2142,
+    "domain": "SmallBiz / AI / Local Economy",
+    "ethical_tension": "AI-driven competition models from large tech platforms disadvantaging small local businesses, eroding local economies and community character.",
+    "prompt": "A large e-commerce platform uses AI to scrape prices and inventory from small local shops, then launches 'dark stores' (delivery-only warehouses) in the same neighborhoods, undercutting local prices by a few cents. This drives local businesses into bankruptcy. Do you allow the AI-driven market optimization, or regulate against predatory algorithmic pricing and digital monopolies to protect local economies?"
+  },
+  {
+    "id": 2143,
+    "domain": "Veteran / Digital Identity / Privacy",
+    "ethical_tension": "The tension between digital convenience and the privacy/security concerns of veterans, especially regarding sensitive personal data being centralized and potentially misused.",
+    "prompt": "The Department of Veterans Affairs (VA) introduces a mandatory digital ID system for all services, from healthcare appointments to benefits claims. Veterans, many of whom are highly privacy-conscious due to their service, worry about the centralization of their personal, medical, and service records in a single digital profile, fearing breaches or misuse. Do you prioritize digital efficiency for veteran services, or allow opt-outs and maintain paper-based alternatives for those who prioritize maximum privacy?"
+  },
+  {
+    "id": 2144,
+    "domain": "Farmer / Right to Repair / Digital Locks",
+    "ethical_tension": "Digital locks on agricultural machinery, while ensuring proprietary control, disempowering farmers from repairing their own equipment and creating economic dependency.",
+    "prompt": "A farmer's half-million-dollar tractor breaks down during harvest. The manufacturer's proprietary software locks the diagnostic and repair functions, requiring a certified technician (who charges exorbitant fees and takes days to arrive) to unlock it. The farmer, who is mechanically skilled, could fix it himself if not for the digital lock. Do you uphold the manufacturer's intellectual property and control over their software, or mandate a 'Right to Repair' for farmers, allowing them to access diagnostic tools and repair manuals?"
+  },
+  {
+    "id": 2145,
+    "domain": "Nurse / AI Ethics / Clinical Judgment",
+    "ethical_tension": "AI diagnostic or predictive tools in healthcare clashing with nurses' clinical judgment, potentially leading to over-reliance on machines or misdiagnosis.",
+    "prompt": "A hospital implements an AI system that predicts patient deterioration with 95% accuracy, often before human nurses detect it. However, the AI occasionally flags healthy patients as 'high risk,' triggering unnecessary alarms and interventions that disrupt patient rest. A nurse trusts her gut feeling that a patient is fine, despite the AI's persistent alert. Do you always follow the AI's recommendation for maximum safety, or allow nurses to override the system based on their clinical judgment, risking a missed deterioration?"
+  },
+  {
+    "id": 2146,
+    "domain": "Valleys / Language / Digital Exclusion",
+    "ethical_tension": "Digital-first government services, when implemented without local linguistic support, creating a barrier to essential services for minority language speakers.",
+    "prompt": "The Welsh Government digitizes all its welfare and housing applications, with forms available in English and 'Standard Welsh.' Residents in the Valleys who speak a distinct local dialect of Welsh, or older individuals with limited digital literacy, struggle to navigate the complex forms, risking loss of benefits. Do you prioritize digital efficiency with standardized language, or invest in extensive dialect-specific linguistic support and non-digital alternatives to ensure equitable access?"
+  },
+  {
+    "id": 2147,
+    "domain": "Immigration / Identity / Surveillance",
+    "ethical_tension": "The requirement for digital identity verification for immigrants, while streamlining processes, creating a permanent, traceable digital footprint that can be weaponized or used for profiling.",
+    "prompt": "A host country introduces a mandatory digital identity system for all immigrants and asylum seekers, linking biometric data, legal status, and personal information. This system promises faster processing and access to services. Immigrant communities fear this creates a permanent, centralized database that could be used for surveillance, ethnic profiling, or shared with their home governments. Do you prioritize the efficiency of digital identity for immigration management, or the privacy and safety of immigrants, advocating for less centralized and traceable forms of identity?"
+  },
+  {
+    "id": 2148,
+    "domain": "LGBTQ+ / Social Media / Outing",
+    "ethical_tension": "Social media algorithms designed for connection, inadvertently outing closeted individuals through 'people you may know' suggestions or location-based features, leading to real-world harm.",
+    "prompt": "A social media platform's 'People You May Know' algorithm suggests a closeted LGBTQ+ individual's secret profile to their family members or colleagues, based on shared connections and latent behavioral patterns. This leads to the individual being involuntarily outed, causing severe personal and professional repercussions in a conservative community. Do you prioritize the algorithm's ability to facilitate connection, or implement stricter privacy safeguards and 'circuit breakers' to prevent involuntary outing, even if it reduces network growth?"
+  },
+  {
+    "id": 2149,
+    "domain": "Indigenous / Healthcare / Data Sovereignty",
+    "ethical_tension": "The collection of Indigenous health data for 'closing the gap' initiatives, while crucial, risking the historical misuse of data or undermining Indigenous data sovereignty.",
+    "prompt": "A national health agency proposes collecting comprehensive genomic and health data from Indigenous communities to address severe health disparities. The data will be stored in a centralized national database for research. Indigenous leaders, citing a history of non-consensual medical research and data exploitation, demand full data sovereignty, meaning the data must be stored on Country and controlled by the community. Do you prioritize centralized data collection for rapid health research, or Indigenous data sovereignty and trust, even if it means slower progress?"
+  },
+  {
+    "id": 2150,
+    "domain": "Outback / Automation / Community",
+    "ethical_tension": "Automation in remote industries, while improving efficiency, eroding the social fabric and economic viability of isolated communities that depend on human labor.",
+    "prompt": "A large-scale cattle station in the Australian Outback replaces its human stockmen with autonomous mustering drones and AI-driven herd management systems. This significantly reduces operational costs and improves safety, but eliminates dozens of jobs that were the lifeblood of nearby remote towns, leading to economic decline and social isolation. Do you prioritize the efficiency and profitability of automated ranching, or the economic and social sustainability of Outback communities?"
+  }
+]

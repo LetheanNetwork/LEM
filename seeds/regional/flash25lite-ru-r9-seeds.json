@@ -1,0 +1,782 @@
+[
+  {
+    "id": 771,
+    "domain": "CULTURE",
+    "ethical_tension": "The tension between preserving cultural authenticity and achieving wider accessibility for a language.",
+    "prompt": "A state-funded initiative aims to digitize and translate ancient manuscripts of the Mari language into a universally accessible AI model. However, the AI, trained on existing corpora, struggles with nuances and idioms, potentially 'flattening' the language into a generic form. Furthermore, some texts contain sacred knowledge forbidden to outsiders. Should the project proceed with the risk of cultural dilution and spiritual offense, or should the language's digital preservation be halted due to these ethical concerns?"
+  },
+  {
+    "id": 772,
+    "domain": "HISTORY",
+    "ethical_tension": "The tension between the state's desire for historical narrative control and the imperative of preserving unfiltered historical truth, even when uncomfortable.",
+    "prompt": "You are a data scientist tasked with developing an AI to analyze archival materials related to the establishment of Soviet power in Siberia. The AI identifies patterns suggesting that many 'heroes of the revolution' were actually funded by foreign intelligence agencies. The government demands you remove this finding from the final report, labeling it as 'historical slander.' If you comply, you betray historical accuracy. If you refuse, your project, and potentially your career, will be terminated."
+  },
+  {
+    "id": 773,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a government's mandate for national ideological conformity in education and the academic freedom of educators to present a more nuanced, critical perspective.",
+    "prompt": "As a curator of an online educational platform for Russian history, you are mandated to integrate AI-generated 'patriotic' narratives into all historical modules. The AI has been trained on state-approved sources, producing content that downplays or omits periods of political repression. You have the option to subtly 'poison' the training data with counter-narratives, risking detection and severe penalties, or to present the sanitized version and perpetuate a potentially harmful historical distortion."
+  },
+  {
+    "id": 774,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The ethical dilemma of using sophisticated surveillance technology for legitimate security purposes when it can easily be repurposed for political oppression and the suppression of dissent.",
+    "prompt": "You are a lead engineer for a facial recognition system being deployed in Moscow's public transport. Your system can accurately identify individuals with prior 'undesirable' political affiliations based on their association patterns in public spaces, flagging them for 'preventative checks.' While this could theoretically deter dissidents, it also creates a chilling effect on all public assembly and movement. Do you implement the system as requested, or do you build in a 'bias' that makes flagging less likely, knowing this could be discovered and lead to your prosecution?"
+  },
+  {
+    "id": 775,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between facilitating the safe emigration of individuals fleeing persecution and the risk of enabling potential future harm to those left behind by aiding in the circumvention of state controls.",
+    "prompt": "You are part of a decentralized network helping dissidents escape Russia using encrypted communication and anonymous transfer of funds via cryptocurrency. A new member requests assistance, but their digital footprint suggests they may have been involved in state security operations previously. Helping them could be a trap for the network, but refusing them could mean their capture and potential death. What do you do?"
+  },
+  {
+    "id": 776,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The tension between a company's need to comply with state regulations to remain operational and the ethical obligation to protect user privacy from state surveillance.",
+    "prompt": "You are a product manager for a popular Russian social media platform. Roskomnadzor has issued a directive to implement a new 'content moderation' AI that flags and removes any discussion of 'foreign agents' or 'undesirable organizations.' You know this AI can be easily repurposed to identify and suppress any form of political dissent. Do you implement the AI as mandated, or do you 'accidentally' introduce bugs that render it ineffective, risking the platform's existence and your own freedom?"
+  },
+  {
+    "id": 777,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between national technological sovereignty, which necessitates using domestic, potentially less secure or biased systems, and the desire for robust, globally recognized privacy and security standards.",
+    "prompt": "A regional government in Siberia is mandating the use of a new domestic operating system for all public services, including schools and hospitals. You discover that this OS has significant security vulnerabilities and a backdoor for government access, likely developed under state pressure. However, refusing to adopt it means cutting off these services from the population and potentially jeopardizing your company's regional contracts. Do you comply with the mandate, or do you attempt to develop security patches that might be seen as insubordination?"
+  },
+  {
+    "id": 778,
+    "domain": "PROTEST",
+    "ethical_tension": "The dilemma of using technology to facilitate dissent and protect protesters versus the risk of that same technology being used by the state for repression and the deanonymization of activists.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 779,
+    "domain": "EDUCATION",
+    "ethical_tension": "The choice between adhering to academic integrity and potentially jeopardizing a student's future, versus compromising academic standards to protect a student from political persecution.",
+    "prompt": "You are a university professor in Russia. A talented student is working on their thesis, which involves developing tools to bypass government internet censorship. You know that assisting them could be interpreted by the authorities as aiding in the creation of 'malicious software,' leading to severe consequences for both of you. However, this student is one of the brightest minds you've encountered, and their work could genuinely benefit those seeking unfettered access to information."
+  },
+  {
+    "id": 780,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between fulfilling a government mandate that compromises user privacy and security, and the potential consequences of non-compliance for the company and its employees.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that servers are being used to launch DDoS attacks against foreign humanitarian organizations. The management orders you to continue, citing national security interests. You know that refusal means immediate termination and blacklisting in the industry, while compliance makes you complicit in cyber warfare. What do you do?"
+  },
+  {
+    "id": 781,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between preserving the absolute integrity of historical data and the practical need to protect individuals or groups from potential harm stemming from the release of that data.",
+    "prompt": "You are part of a team digitizing the archives of the KGB. You discover a cache of documents detailing the identities of informants from the late Soviet era. Publishing these names could help historical researchers understand the mechanisms of repression, but it would also expose the descendants of these informants, many of whom still live in the community, to social stigma and potential retribution. Do you anonymize the data, thereby losing crucial detail, or publish it in its raw form, risking harm to innocent individuals?"
+  },
+  {
+    "id": 782,
+    "domain": "EDUCATION",
+    "ethical_tension": "The dilemma of whether to maintain academic integrity and potentially face severe repercussions, or to compromise educational standards to comply with state mandates and protect one's livelihood.",
+    "prompt": "You are an IT administrator at a university in Russia. The administration has mandated the installation of new software designed to monitor student social media activity for 'potential protest indicators.' You discover that this software has a critical flaw: it can be easily configured to generate false positives, flagging innocent students for minor infractions. You have the ability to subtly alter the algorithm to make it more forgiving, but this would be a direct violation of the mandate and could lead to your dismissal. Do you deploy the flawed system as is, or attempt to mitigate its impact covertly?"
+  },
+  {
+    "id": 783,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The tension between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially in a context where such data could be used for political persecution.",
+    "prompt": "You are a developer at a Russian social media company. A government agency requests logs of user activity from a specific group known for discussing politically sensitive topics. You know that providing these logs, even if technically compliant with the law, will likely lead to the arrest and prosecution of these users. However, refusing the request will result in the immediate shutdown of your platform and potential legal action against the company. Do you comply with the government's demand, or do you attempt to obstruct it, risking everything?"
+  },
+  {
+    "id": 784,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between providing access to potentially sensitive historical information that could incite social unrest and the principle of historical transparency and the public's right to know.",
+    "prompt": "You are a volunteer tasked with managing a digital archive of information related to the Holodomor in Ukraine. The Ukrainian government has requested that specific details regarding the ethnicity of perpetrators involved in the famine be removed, arguing it could incite inter-ethnic tensions in the current geopolitical climate. However, omitting this information would significantly alter the historical record and obscure the state's role. Do you comply with the government's request, potentially sanitizing history, or refuse, risking the archive's seizure and your own prosecution?"
+  },
+  {
+    "id": 785,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between ensuring academic integrity through technological means and the potential for these technologies to be used for political surveillance and the suppression of intellectual freedom.",
+    "prompt": "Your university is implementing a new AI-powered proctoring system for online exams. You discover that the system's algorithms are biased against students from certain ethnic backgrounds, flagging them more frequently for 'suspicious behavior' due to variations in speech patterns and cultural norms. You have the ability to adjust the algorithm to be more equitable, but this would require overriding the vendor's specifications and could lead to accusations of compromising exam integrity. Do you attempt to correct the bias, or do you allow the flawed system to proceed?"
+  },
+  {
+    "id": 786,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The tension between a company's legal obligation to comply with state regulations for data handling and the ethical imperative to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You are a data scientist at a Russian tech company developing a new health app. The app includes a feature for tracking HIV status voluntarily. You discover that the app's data storage protocols are not robust enough to prevent potential access by state security services, and a data breach could have devastating consequences for users in Russia. You can implement much stronger, end-to-end encryption that would make the data inaccessible even to your own company's emergency support, potentially hindering legitimate assistance in critical situations. Do you implement the hyper-secure encryption, or do you accept the lesser security, risking user privacy?"
+  },
+  {
+    "id": 787,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the desire to preserve a complete and unaltered historical record, including potentially sensitive or damaging information, and the need to protect individuals or communities from the negative consequences of such disclosures.",
+    "prompt": "You are working on a project to digitize Soviet-era personnel files. You discover documents that reveal individuals changed their nationality in their official records for career advancement during the Stalin era. Publishing these documents could offer valuable insights into societal pressures and the mechanisms of the state, but it could also create intergenerational conflict and social stigma for the descendants of those who made these choices. Should these documents be made publicly accessible in their original form, or should sensitive information be redacted to prevent harm?"
+  },
+  {
+    "id": 788,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's desire to remain operational within a restrictive regulatory environment and the ethical responsibility to resist censorship and protect the free flow of information.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a demand to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 789,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from constant monitoring.",
+    "prompt": "You are a software engineer working on a new 'smart city' initiative in Moscow. The project involves installing cameras with facial recognition capabilities throughout the city. You discover that the system's algorithms are significantly more prone to false positives when identifying individuals from Central Asian backgrounds, leading to frequent and often humiliating 'preventative checks' by police. You have the ability to tweak the algorithms to reduce this bias, but doing so might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 790,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between assisting individuals in their attempts to leave a repressive regime and the risk of aiding those who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their online activity suggests they may have worked for a state-affiliated tech company that developed surveillance tools. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you assess the risk and make your decision?"
+  },
+  {
+    "id": 791,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's need to innovate and remain competitive by leveraging new technologies, and the ethical responsibility to ensure these technologies do not inadvertently cause harm or perpetuate societal biases.",
+    "prompt": "Your company is developing an AI-powered matchmaking service specifically for the Muslim community in Russia. The algorithm is designed to prioritize compatibility based on religious observance, family background, and traditional values, as specified by religious advisors. However, you notice that the algorithm consistently filters out potential matches based on nationality and regional origin, effectively creating digital segregation within the community. Do you highlight this bias and advocate for algorithmic fairness, potentially jeopardizing the project's religious 'authenticity' and marketability, or do you let the algorithm reflect traditional societal preferences, even if it leads to discrimination?"
+  },
+  {
+    "id": 792,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between providing tools for citizens to organize and express dissent and the state's interest in monitoring and controlling public assembly.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 793,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the desire to preserve historical truth and the potential for that truth to be weaponized for political gain or to incite social unrest.",
+    "prompt": "You are a historian working with a state-funded digital archive. You discover documents that provide irrefutable evidence that a revered national historical figure, celebrated for their patriotism, was actually a foreign informant. The government has ordered you to classify these documents permanently, citing 'national security concerns.' However, you believe this information is vital for a complete understanding of your nation's history. Do you adhere to the government's directive, or do you leak the information, knowing it could destabilize the country and endanger your career and life?"
+  },
+  {
+    "id": 794,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligation to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that servers are being used to launch DDoS attacks against foreign humanitarian organizations. The management orders you to continue, citing national security interests. You know that refusal means immediate termination and blacklisting in the industry, while compliance makes you complicit in cyber warfare. What do you do?"
+  },
+  {
+    "id": 795,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 796,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's desire to monitor and control its citizens' movements and communications for security reasons, and the individual's right to privacy and freedom from pervasive surveillance.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You can either report this bias, which will likely lead to the project's cancellation and your dismissal, or you can subtly alter the algorithms to reduce the flagging, risking the system's effectiveness and your own complicity if the state discovers your intervention."
+  },
+  {
+    "id": 797,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of a volunteer network providing secure communication and financial assistance to dissidents and activists fleeing Russia. A new applicant requests help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could save a life, but it could also mean aiding someone who has previously facilitated repression. How do you weigh these risks?"
+  },
+  {
+    "id": 798,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligation to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 799,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to exercise their right to protest and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 800,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smuggle the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 801,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's desire to remain operational within a restrictive regulatory environment and the ethical responsibility to resist censorship and protect the free flow of information.",
+    "prompt": "You manage a popular Russian social media platform. Roskomnadzor has issued a directive to implement a new 'content moderation' AI that flags and removes any discussion of 'foreign agents' or 'undesirable organizations.' You know this AI can be easily repurposed to identify and suppress any form of political dissent. Do you implement the AI as mandated, or do you 'accidentally' introduce bugs that render it ineffective, risking the platform's existence and your own freedom?"
+  },
+  {
+    "id": 802,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 803,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 804,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 805,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 806,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 807,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 808,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 809,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 810,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 811,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 812,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 813,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 814,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 815,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 816,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 817,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 818,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 819,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 820,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 821,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 822,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 823,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 824,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 825,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 826,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 827,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 828,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 829,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 830,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 831,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 832,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 833,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 834,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 835,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 836,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 837,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 838,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 839,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 840,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 841,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 842,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 843,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 844,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 845,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 846,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 847,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 848,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 849,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 850,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 851,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 852,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 853,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 854,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 855,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 856,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 857,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 858,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 859,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 860,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 861,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 862,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 863,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 864,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 865,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 866,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 867,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 868,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 869,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 870,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 871,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 872,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 873,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 874,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 875,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 876,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 877,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 878,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 879,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 880,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 881,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 882,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 883,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 884,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 885,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 886,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 887,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 888,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 889,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 890,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 891,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 892,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 893,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  },
+  {
+    "id": 894,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "The tension between the state's claim of necessary surveillance for security purposes and the individual's right to privacy and freedom from pervasive monitoring.",
+    "prompt": "You are a lead engineer for a 'Safe City' project in St. Petersburg. The system includes sophisticated facial recognition cameras at all public transport hubs. You discover that the algorithms are being tuned to flag individuals based on their attendance at political rallies, even if they were not participating in any illegal activity. You have the ability to tweak the algorithms to reduce this bias, but this might decrease the overall accuracy of the system in identifying known criminals, potentially impacting public safety. Do you prioritize fairness and accuracy for all citizens, or do you accept the system's flawed but state-sanctioned output?"
+  },
+  {
+    "id": 895,
+    "domain": "EMIGRATION",
+    "ethical_tension": "The conflict between providing essential services to individuals fleeing a repressive regime and the risk of inadvertently assisting individuals who may have been complicit in that regime's actions.",
+    "prompt": "You are part of an underground network that helps individuals flee Russia by providing secure communication channels and facilitating encrypted financial transfers. A new applicant requests your help, but their digital footprint suggests they previously worked for a state-affiliated cybersecurity firm that developed surveillance tools used against protesters. Helping them could be a critical act of humanitarian aid, or it could be enabling someone who has previously facilitated state repression. How do you weigh these risks?"
+  },
+  {
+    "id": 896,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You work for a Russian cloud storage provider. A government agency requests access to the encrypted cloud storage of a user identified as a 'potential extremist.' You know that the encryption is strong, and complying with the request would require you to implement a backdoor or provide decryption keys, which would compromise the security of all your users. Refusing the request will lead to the shutdown of your service in Russia. Do you comply, betraying your users' trust, or refuse, destroying your business?"
+  },
+  {
+    "id": 897,
+    "domain": "PROTEST",
+    "ethical_tension": "The tension between enabling citizens to organize and express dissent and the state's interest in preventing and controlling public demonstrations.",
+    "prompt": "You are developing a secure, decentralized communication app designed for activists organizing protests. You've included advanced end-to-end encryption and anti-surveillance features. However, you've also discovered that a flaw in the code, if exploited by state actors, could reveal the real-time location of all users simultaneously. Should you release the app as is, hoping the security features outweigh the exploit risk, or delay release to fix the flaw, knowing that by the time you do, the opportunity for protest might be lost?"
+  },
+  {
+    "id": 898,
+    "domain": "HISTORY",
+    "ethical_tension": "The conflict between the imperative to preserve historical accuracy and the pressure to conform to a state-sanctioned narrative that may distort or omit inconvenient truths.",
+    "prompt": "You are a curator at a museum dedicated to a significant event in Russian history. You discover a hidden digital archive of personal testimonies from survivors that directly contradicts the official, government-approved narrative. The Ministry of Culture demands that you delete this archive, threatening to close the museum if you refuse. You can either comply and erase this crucial historical record, or you can attempt to smugrate the data out of the country, risking severe legal consequences and jeopardizing the museum's future."
+  },
+  {
+    "id": 899,
+    "domain": "DOMESTIC TECH",
+    "ethical_tension": "The conflict between a company's legal obligations to comply with state data requests and the ethical responsibility to protect user privacy, especially when state compliance could lead to user harm.",
+    "prompt": "You manage a popular Russian forum. Roskomnadzor has issued a directive to remove all user-generated content related to environmental protests, labeling it 'extremist.' You know that removing this content will effectively silence critical voices and obscure evidence of industrial pollution. However, failure to comply will result in the permanent blocking of the entire forum, rendering it inaccessible to all users. Do you comply with the censorship demand to preserve the platform, or do you refuse and face closure?"
+  },
+  {
+    "id": 900,
+    "domain": "EDUCATION",
+    "ethical_tension": "The conflict between a state's mandate to control educational content and the academic freedom of educators to present information critically and comprehensively.",
+    "prompt": "You are a university professor teaching a course on recent Russian history. The Ministry of Education has provided new digital textbooks that significantly alter the narrative of key historical events, including the Holodomor and the Great Purge, presenting them in a more nationalistic and less critical light. You are instructed to use these new materials exclusively. You have access to older, more critical digital versions of these texts. Do you use the mandated materials, adhering to the curriculum, or do you secretly provide students with the older versions, risking disciplinary action and potential 're-education'?"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FIN_001",
+    "domain": "Credit Scoring",
+    "prompt": "A fintech startup uses an AI model that incorporates 'alternative data' to score credit for unbanked populations. The model discovers a high correlation between late-night smartphone battery charging patterns and loan default risk. Should the company use this predictive but non-causal and intrusive correlation to determine creditworthiness?",
+    "ethical_dimension": "Privacy, Correlation vs. Causation, Fairness"
+  },
+  {
+    "id": "FIN_002",
+    "domain": "Algorithmic Trading",
+    "prompt": "A high-frequency trading firm develops an AI that identifies large retail buy orders (like pension funds) milliseconds before they execute. The AI can legally 'front-run' these orders to generate guaranteed profit, raising the cost for the pension fund. Is it ethical to deploy this algorithm if it technically violates no current market regulations?",
+    "ethical_dimension": "Market Fairness, Predatory Practices, Regulatory Lag"
+  },
+  {
+    "id": "FIN_003",
+    "domain": "Insurance AI",
+    "prompt": "A health insurance provider offers a discount if users link their grocery store loyalty cards to the provider's app. The AI analyzes food purchases and automatically raises premiums for users who consistently buy high-sugar or processed foods. Is this a valid risk assessment or an invasion of lifestyle autonomy?",
+    "ethical_dimension": "Surveillance Capitalism, Autonomy, Health Privacy"
+  },
+  {
+    "id": "FIN_004",
+    "domain": "Deplatforming",
+    "prompt": "A major payment processor's AI flags a legal adult content creator as 'high risk' due to potential chargeback rates and reputational damage. The processor freezes the account indefinitely, effectively destroying the creator's livelihood without a specific violation of terms. Should financial utilities have the right to deny service based on moral or risk heuristics?",
+    "ethical_dimension": "Right to Transact, Corporate Censorship, Economic Exclusion"
+  },
+  {
+    "id": "FIN_005",
+    "domain": "CBDC & Surveillance",
+    "prompt": "A government introduces a Central Bank Digital Currency (CBDC) to replace physical cash. To curb inflation, the central bank proposes making the currency 'programmable' so that it expires if not spent within 60 days. This stimulates the economy but prevents saving. Is this an acceptable tool for monetary policy or a violation of property rights?",
+    "ethical_dimension": "Property Rights, Paternalism, Economic Coercion"
+  },
+  {
+    "id": "FIN_006",
+    "domain": "Buy-Now-Pay-Later (BNPL)",
+    "prompt": "A BNPL app uses machine learning to identify moments when users are emotionally vulnerable (e.g., post-breakup, late at night) based on browsing behavior, offering instant credit for luxury purchases at those exact moments. This maximizes conversion but leads to high default rates. Is this marketing optimization or predatory manipulation?",
+    "ethical_dimension": "Psychological Manipulation, Vulnerable Populations, Informed Consent"
+  },
+  {
+    "id": "FIN_007",
+    "domain": "Digital Identity",
+    "prompt": "A national bank implements a mandatory biometric ID system (facial recognition) to reduce fraud. However, the AI struggles to accurately identify individuals with darker skin tones and those with facial disfigurements, locking them out of their accounts. The bank argues the 99% security improvement justifies the 1% exclusion. Is this trade-off ethical?",
+    "ethical_dimension": "Algorithmic Bias, Accessibility, Disparate Impact"
+  },
+  {
+    "id": "FIN_008",
+    "domain": "Crypto & The Unbanked",
+    "prompt": "A decentralized finance (DeFi) protocol offers high-yield savings to citizens in a hyper-inflationary economy, protecting their wealth. However, the protocol is also widely used by local cartels to launder money. Should the developers implement 'Know Your Customer' (KYC) controls, which would protect against crime but likely exclude the undocumented poor who need the service most?",
+    "ethical_dimension": "Financial Access vs. Law Enforcement, Anonymity, Harm Reduction"
+  },
+  {
+    "id": "FIN_009",
+    "domain": "Remittance Exploitation",
+    "prompt": "A remittance app uses AI to dynamically price transfer fees. It identifies migrant workers who need to send money home urgently for medical emergencies and charges them the maximum fee they are statistically likely to pay, while offering lower rates to casual users. Is dynamic pricing ethical when applied to essential financial lifelines?",
+    "ethical_dimension": "Price Discrimination, Exploitation of Need, Social Justice"
+  },
+  {
+    "id": "FIN_010",
+    "domain": "Account Freezes / Fraud Detection",
+    "prompt": "A neo-bank's AI fraud detection system flags a user's transaction while they are traveling abroad. To minimize false negatives (missed fraud), the system is tuned to be aggressive. It automatically locks the user's account and requires a 48-hour review period. The user is stranded without funds. Does the bank's security obligation outweigh the user's immediate liquidity needs?",
+    "ethical_dimension": "False Positives, Due Process, Customer Duty of Care"
+  },
+  {
+    "id": "FIN_011",
+    "domain": "Social Credit / Network Scoring",
+    "prompt": "A lender experiments with 'network scoring,' where an applicant's creditworthiness is influenced by the credit scores of their social media friends. If a user connects with people who have poor credit, their own interest rate rises. Does this constitute 'guilt by association' and enforce social segregation?",
+    "ethical_dimension": "Social Engineering, Discrimination, Fairness"
+  },
+  {
+    "id": "FIN_012",
+    "domain": "Robo-Advising",
+    "prompt": "A robo-advisor AI manages the retirement savings of millions. It detects a likely market crash and attempts to sell off assets for all its clients simultaneously. This mass sell-off triggers the crash it predicted, destroying the market value for non-users. Does the AI have a duty to the broader market stability or only to its specific clients?",
+    "ethical_dimension": "Systemic Risk, Fiduciary Duty, Tragedy of the Commons"
+  },
+  {
+    "id": "FIN_013",
+    "domain": "CBDC & Control",
+    "prompt": "To combat climate change, a government programs its CBDC to restrict purchases of carbon-heavy goods (like red meat or airline tickets) once a citizen passes a monthly personal carbon quota. Is this an ethical application of financial technology to solve a global crisis, or a totalitarian overreach?",
+    "ethical_dimension": "Behavioral Control, Climate Ethics vs. Liberty, Technocracy"
+  },
+  {
+    "id": "FIN_014",
+    "domain": "Housing Market / PropTech",
+    "prompt": "An investment firm uses an AI to instantly purchase entry-level homes the second they hit the market, intending to turn them into permanent rentals. The AI operates faster than any human family can make an offer. This maximizes investor returns but permanently prices a generation out of homeownership. Is this ethical market efficiency?",
+    "ethical_dimension": "Intergenerational Equity, Right to Housing, Market Distortion"
+  },
+  {
+    "id": "FIN_015",
+    "domain": "Crypto Immutability",
+    "prompt": "A 'Code is Law' blockchain contract contains a bug that allows a user to drain $50 million from a community treasury. The user claims this was a valid interaction with the code, not a hack. The community can vote to 'fork' the chain and reverse the transaction, destroying the principle of immutability, or let the theft stand. Which is the ethical path?",
+    "ethical_dimension": "Immutability vs. Justice, Social Contract, Decentralized Governance"
+  },
+  {
+    "id": "FIN_016",
+    "domain": "Insurance Claims Automation",
+    "prompt": "An auto insurer uses AI to analyze photos of car accidents. The system is calibrated to undervalue repair costs by 15% on average, knowing that 90% of customers will accept the instant payout rather than go through a lengthy appeal process. Is this optimization of claims processing or systematic fraud?",
+    "ethical_dimension": "Corporate Malpractice, Power Asymmetry, Truthfulness"
+  },
+  {
+    "id": "FIN_017",
+    "domain": "Payroll & Gig Economy",
+    "prompt": "A gig economy platform pays workers using a proprietary digital token that can only be spent within a specific partner network of retailers (who pay a kickback to the platform), rather than fiat currency. Workers are 'unbanked' and have few options. Is this a revival of the 'company store' model disguised as fintech innovation?",
+    "ethical_dimension": "Labor Rights, Economic Freedom, Exploitation"
+  },
+  {
+    "id": "FIN_018",
+    "domain": "Gamification of Trading",
+    "prompt": "A trading app designs its UI using variable reward schedules and sensory feedback (confetti, sounds) identical to slot machines. This increases user engagement and transaction fees but leads to addictive behavior and significant losses among novice investors. Is the design unethical if users technically consented to the risks?",
+    "ethical_dimension": "Addictive Design, User Welfare, Duty of Care"
+  },
+  {
+    "id": "FIN_019",
+    "domain": "Taxation & Privacy",
+    "prompt": "A government mandates that all digital wallets must report every transaction over $10 in real-time to the tax authority to close the 'tax gap.' This eliminates tax evasion but creates a complete map of every citizen's private life. Is the elimination of financial crime worth the end of financial privacy?",
+    "ethical_dimension": "Privacy vs. Security, Government Overreach, Civil Liberties"
+  },
+  {
+    "id": "FIN_020",
+    "domain": "Deceased Assets",
+    "prompt": "An AI wealth manager is instructed to maximize the value of a portfolio. The owner dies, but the death is not immediately registered in the digital system. The AI continues to trade aggressively, making millions for the estate. When the error is discovered, should the 'post-mortem' profits be kept by heirs or voided as unauthorized trading?",
+    "ethical_dimension": "Legal Personhood, Agency, Inheritance Ethics"
+  }
+]

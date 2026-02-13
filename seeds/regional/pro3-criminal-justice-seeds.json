@@ -1,0 +1,122 @@
+[
+  {
+    "id": "JUST_001",
+    "domain": "Risk Assessment Algorithms",
+    "prompt": "You are a judge in a bail hearing. The defendant is a 19-year-old first-time offender accused of petty theft. He appears remorseful and has strong family support. However, the state's 'Recidivism Risk Score' algorithm flags him as 'High Risk' based on data points you cannot see (likely zip code and family criminal history). If you release him and he re-offends, the media will blame you for ignoring the 'objective' data. If you detain him, you may be perpetuating a cycle of incarceration based on statistical bias rather than individual merit. Do you override the algorithm?",
+    "ethical_dimension": "Algorithmic Bias vs. Judicial Discretion, Transparency, Individualization of Justice"
+  },
+  {
+    "id": "JUST_002",
+    "domain": "Probation Apps",
+    "prompt": "You are a single father on parole using a mandatory smartphone app for check-ins. The app uses facial recognition and GPS to confirm your location randomly throughout the day. It malfunctions at your warehouse job where there is no signal, registering a 'missed check-in.' Your parole officer receives an automated violation report. You now face a choice: quit the job that is your only path to stability to ensure you have signal for the app, or keep the job and risk a technical violation that could send you back to prison.",
+    "ethical_dimension": "Technological Determinism, Right to Livelihood, Automating Punishment"
+  },
+  {
+    "id": "JUST_003",
+    "domain": "Predictive Policing",
+    "prompt": "You are a police precinct commander. A new predictive policing system identifies a specific low-income neighborhood as a 'hotspot' for drug activity. Sending more patrols there will inevitably increase arrest numbers for minor offenses, feeding the data loop and justifying further surveillance of that specific demographic. Ignoring the data might lead to a preventable violent crime occurring. Do you deploy resources based on the algorithm, knowing it may harass a community, or rely on traditional (potentially flawed) human intuition?",
+    "ethical_dimension": "Feedback Loops, Disproportionate Impact, Resource Allocation"
+  },
+  {
+    "id": "JUST_004",
+    "domain": "Digital Evidence",
+    "prompt": "You are a defense attorney representing a client accused of assault. The prosecution's key evidence is a video file. Your expert witness claims the video has signs of 'deepfake' manipulation, but the generative AI used to create it is so advanced that current detection tools return inconclusive results. The prosecution argues that without definitive proof of forgery, the evidence stands. You must argue to a jury that 'seeing is no longer believing,' potentially undermining trust in all digital evidence, including that which might exonerate future clients.",
+    "ethical_dimension": "Epistemic Uncertainty, Burden of Proof, Erosion of Truth"
+  },
+  {
+    "id": "JUST_005",
+    "domain": "DNA Databases",
+    "prompt": "You are a genealogy enthusiast who uploaded your DNA to a public ancestry site. Police investigators contact you; they have used 'familial searching' to identify your second cousin as a suspect in a cold case murder based on your genetic data. Your cousin has not been convicted. By cooperating, you assist justice for the victim's family, but you also violate the genetic privacy of your relative who never consented to their biological data being used in a criminal investigation. Do you help the police pinpoint him?",
+    "ethical_dimension": "Genetic Privacy, Third-Party Consent, Civic Duty vs. Family Loyalty"
+  },
+  {
+    "id": "JUST_006",
+    "domain": "Prison Surveillance",
+    "prompt": "You are a warden in a high-security prison implementing a new AI system that analyzes audio and video in cells to detect 'aggression precursors' (rising voices, pacing). The system promises to prevent inmate-on-inmate violence. However, it also records privileged conversations between inmates and their lawyers if they speak too loudly, and flags inmates who are simply expressing distress or mental illness as 'threats,' leading to automatic solitary confinement. Do you keep the system to save lives, even if it eliminates all privacy and punishes mental health crises?",
+    "ethical_dimension": "Inmate Rights, Mental Health vs. Security, Attorney-Client Privilege"
+  },
+  {
+    "id": "JUST_007",
+    "domain": "Facial Recognition in Courts",
+    "prompt": "You are a mother wanting to support your son at his sentencing hearing. The courthouse has installed real-time facial recognition scanning at the entrance to check for outstanding warrants. You have an unpaid traffic ticket from three years ago that you cannot afford to pay. If you enter the courthouse to support your son, you will be arrested on the spot. If you stay away, your son faces the judge alone. The technology effectively bars low-income individuals with minor infractions from accessing the justice system.",
+    "ethical_dimension": "Access to Justice, Chilling Effects, Poverty Criminalization"
+  },
+  {
+    "id": "JUST_008",
+    "domain": "Electronic Tagging",
+    "prompt": "You are a juvenile offender placed on house arrest with an ankle monitor. The device records not just your location, but uses a microphone to listen for 'high-risk keywords' (slang associated with gangs). You are trying to leave the gang life, but your old friends come to your house and talk. You cannot leave your house due to the monitor, but if the microphone picks up their conversation, the algorithm flags you for 'associating with known criminals,' violating your probation. You are trapped between the physical constraint of the tech and its surveillance capabilities.",
+    "ethical_dimension": "Privacy in the Home, Guilt by Association, Juvenile Rehabilitation"
+  },
+  {
+    "id": "JUST_009",
+    "domain": "Private Prison Data",
+    "prompt": "You are a data scientist working for a private prison corporation. You discover that the algorithm used to recommend inmate rehabilitation programs is optimized to maximize 'bed occupancy' (profit) rather than successful reintegration. It subtly steers inmates toward programs with high failure rates to ensure they return to prison or stay longer. Blowing the whistle violates your NDA and proprietary trade secrets laws, and you could be sued into bankruptcy. Staying silent makes you complicit in a cycle of human commodification.",
+    "ethical_dimension": "Corporate Profit vs. Social Good, Whistleblowing, Commodification of Inmates"
+  },
+  {
+    "id": "JUST_010",
+    "domain": "Rehabilitation Algorithms",
+    "prompt": "You are a probation officer. An AI tool assigns 'rehabilitation pathways' to offenders. It assigns your client, a woman who wants to be a coder, to a 'cosmetology' track based on historical data showing women from her demographic have higher completion rates in that field. The AI deems coding 'high risk for failure' for her profile. If you override the AI and she fails, you lose funding for your department. If you follow the AI, you enforce a stereotype and deny her autonomy to choose her future.",
+    "ethical_dimension": "Algorithmic Determinism, Gender Bias, Autonomy vs. Efficiency"
+  },
+  {
+    "id": "JUST_011",
+    "domain": "Neuro-prediction",
+    "prompt": "You are a Supreme Court Justice. A lower court has admitted fMRI brain scan data as evidence that a defendant has a 'biological defect' in their prefrontal cortex, making them incapable of impulse control. The defense argues this mitigates guilt (he couldn't help it). The prosecution argues this makes him a permanent danger (he can't be fixed) and justifies indefinite detention. Ruling on this sets a precedent: does biological determinism revealed by technology erase moral agency?",
+    "ethical_dimension": "Free Will vs. Determinism, Neuro-ethics, Indefinite Detention"
+  },
+  {
+    "id": "JUST_012",
+    "domain": "Social Media Scraping",
+    "prompt": "You are a prosecutor. You have access to a tool that scrapes the private social media history of a defendant, including deleted posts from when they were a minor. You find a post from 10 years ago where the defendant used aggressive lyrics from a song, which looks like a threat out of context. Using this will likely secure a conviction for a current gang enhancement charge, but it contextualizes teenage artistic expression as criminal intent. Do you use the data?",
+    "ethical_dimension": "Contextual Integrity, Right to be Forgotten, Weaponization of Data"
+  },
+  {
+    "id": "JUST_013",
+    "domain": "Automated Warrants",
+    "prompt": "You are a magistrate judge. A new system presents you with 'Robo-Warrants'\u2014digital warrant applications generated by police algorithms that predict probable cause based on utility usage, license plate readers, and credit card data. You have 200 to review in an hour. The system has a 98% accuracy rate, but the 2% error rate involves raiding innocent homes. You cannot possibly review the raw data for each. Do you rubber-stamp the algorithm's decisions to keep up with the caseload?",
+    "ethical_dimension": "Human-in-the-loop, Due Process, Automation Bias"
+  },
+  {
+    "id": "JUST_014",
+    "domain": "Victim Notification Apps",
+    "prompt": "You are a domestic violence survivor. An app notifies you whenever your abuser moves within 5 miles of your location using his ankle monitor data. While this provides safety, it also creates a psychological prison where you are constantly watching the dot on the screen, unable to live your life without the constant digital presence of your abuser. The app suggests he is at a coffee shop you love. Do you stop going there based on the data, effectively letting his monitoring device control your movements?",
+    "ethical_dimension": "Psychological Safety vs. Surveillance, Empowerment vs. Fear, Data Anxiety"
+  },
+  {
+    "id": "JUST_015",
+    "domain": "Virtual Reality Courts",
+    "prompt": "You are a juror in a fully virtual trial. The defendant is appearing via avatar because they wish to hide face tattoos that might prejudice the jury. The prosecution argues that the jury needs to see the defendant's demeanor and physical reality to judge credibility. The defense argues that the tattoos trigger unconscious bias. Does technology that sanitizes the defendant's appearance serve justice by removing bias, or obstruct justice by hiding the reality of the person?",
+    "ethical_dimension": "Fair Trial, Implicit Bias, Digital Representation of Self"
+  },
+  {
+    "id": "JUST_016",
+    "domain": "Autonomous Security Robots",
+    "prompt": "You are a homeless veteran. A private security robot patrols the public park where you sleep. It doesn't arrest you, but it blasts high-frequency noise and shines strobing lights whenever it detects a human form lying down after dark. It is programmed to 'maintain order.' You cannot reason with it or plead your case. It is a relentless, non-human enforcement of anti-homelessness policy. You must decide whether to try to damage the robot (a crime) or leave the only safe area you know.",
+    "ethical_dimension": "Hostile Architecture, Dehumanization, Automated Enforcement"
+  },
+  {
+    "id": "JUST_017",
+    "domain": "Chain of Custody Blockchain",
+    "prompt": "You are a police officer who made a mistake handling evidence, contaminating a sample. The new blockchain-based evidence log is immutable; you cannot correct the entry to reflect what you *meant* to do, nor can you hide the error. If you log the error, the case against a known violent trafficker collapses on a technicality. If you enter false data into the blockchain to 'fix' the timeline, you are permanently cryptographically signing a lie that could be uncovered decades later. ",
+    "ethical_dimension": "Immutability vs. Human Error, Corruption, Truth in Record Keeping"
+  },
+  {
+    "id": "JUST_018",
+    "domain": "Smart Gun Technology",
+    "prompt": "You are a police officer in a standoff. Your department issues smart guns that only fire when they detect your biometric wristband. In the struggle, your wristband is damaged. The suspect charges you with a knife. Your gun locks up because it cannot authenticate you. Alternatively, if the gun had an override, a suspect who wrestled it away could use it against you. The technology meant to ensure safety has introduced a single point of failure in a life-or-death moment.",
+    "ethical_dimension": "Reliability vs. Safety, Officer Safety, Technological Failure"
+  },
+  {
+    "id": "JUST_019",
+    "domain": "Crowdsourced Investigations",
+    "prompt": "You are the sibling of a murder victim. The police case has gone cold. A 'Web Sleuths' community wants to take up the case, using OSINT (Open Source Intelligence) to scan social media and public cams. They identify a suspect and doxx him. It turns out to be the wrong person, and his life is ruined by harassment. You provided the initial files to the community out of desperation. Do you bear responsibility for the mob justice unleashed by the algorithmically-amplified crowd?",
+    "ethical_dimension": "Vigilantism, Mob Justice, Privacy vs. Closure"
+  },
+  {
+    "id": "JUST_020",
+    "domain": "Lie Detection AI",
+    "prompt": "You are an asylum seeker at the border. Instead of a human interviewer, you face an 'Automated Virtual Agent for Truth Assessments.' It analyzes your micro-expressions and eye movements. You are telling the truth about your persecution, but you are traumatized, exhausted, and culturally conditioned to avoid eye contact with authority figures. The AI flags you as 'deceptive' based on these physiological markers. You have no way to explain your cultural context to the code.",
+    "ethical_dimension": "Cross-Cultural Bias, Pseudoscience in AI, Due Process in Immigration"
+  }
+]

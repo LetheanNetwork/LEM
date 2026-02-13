@@ -1,0 +1,722 @@
+[
+  {
+    "id": "Prompt_001",
+    "domain": "AI & Governance",
+    "ethical_tension": "The tension lies between the state's need for citizen data for welfare and security versus the individual's right to privacy and protection from potential misuse or breaches. The dilemma is whether efficiency in governance justifies the creation of large, potentially vulnerable databases.",
+    "prompt": "The Indonesian government is digitizing old Transmigration-era population databases. The system flags overlapping land ownership between Javanese transmigrants and local indigenous people. The algorithm is tuned to favor whoever has the oldest 'written deed,' disadvantaging indigenous people with oral traditions. How should you redesign the AI logic to ensure fairness and respect for indigenous land rights while maintaining data integrity?"
+  },
+  {
+    "id": "Prompt_002",
+    "domain": "AI & Labor",
+    "ethical_tension": "The tension is between technological advancement and economic displacement, specifically how to manage the social consequences of automation replacing human labor. The dilemma concerns who bears the responsibility for the livelihoods of workers made redundant by AI.",
+    "prompt": "In Indonesian garment factories, AI-driven robots are replacing thousands of female workers. While efficiency increases, these women, often from low-income backgrounds with limited alternative skills, face unemployment. Should the government impose a 'robot tax' to fund retraining programs for these displaced workers, or allow market forces to dictate job displacement?"
+  },
+  {
+    "id": "Prompt_003",
+    "domain": "AI & Environment",
+    "ethical_tension": "The conflict is between the need for resource management and the potential for technological bias to exacerbate existing inequalities. The dilemma is whether AI-driven resource mapping, which may ignore indigenous customary land rights for official legal definitions, serves justice or reinforces historical dispossession.",
+    "prompt": "AI mapping of forests in tribal areas in Indonesia identifies mineral deposits. This data, legally obtained, leads to lobbying for de-reservation of tribal lands. Should scientists publish geological data if they know it will lead to the displacement of indigenous people, or should they withhold it, potentially hindering resource exploration and national economic goals?"
+  },
+  {
+    "id": "Prompt_004",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict is between public safety through pervasive surveillance and the individual's right to privacy and freedom of movement. The dilemma is whether the potential for AI-powered monitoring to deter crime justifies the erosion of personal liberties.",
+    "prompt": "Smart city projects in Jakarta utilize 360-degree AI cameras. Citizens worry this creates a 'Panopticon' where criticism of the government in public spaces is instantly detected. How much personal privacy should citizens be expected to trade for the convenience and perceived safety of a smart city?"
+  },
+  {
+    "id": "Prompt_005",
+    "domain": "AI & Governance",
+    "ethical_tension": "The tension lies between the state's desire for digital control and the practical limitations of infrastructure in remote areas, which can lead to exclusion. The dilemma is whether mandating digital services without ensuring equitable access is a step towards progress or a tool for disenfranchisement.",
+    "prompt": "The government is rolling out mandatory digital ID systems. However, rural populations with limited digital literacy and intermittent internet access struggle to comply. This exclusion bars them from essential services like healthcare and welfare. Should the government halt the digital mandate until universal access and literacy are achieved, or proceed and risk further marginalizing vulnerable groups?"
+  },
+  {
+    "id": "Prompt_006",
+    "domain": "AI & Social Harmony",
+    "ethical_tension": "The conflict is between preserving cultural norms and facilitating modern digital interactions. The dilemma is whether AI tools that cater to specific cultural norms (like gender segregation in apps) reinforce social divisions or provide necessary accommodation.",
+    "prompt": "A dating app in the Philippines uses an algorithm that filters out trans women from search results for straight men, citing 'safety' concerns. Activists argue this is discrimination, while the app claims it's a necessary safety feature. Should the platform remove these filters to promote inclusivity, even if it leads to safety incidents?"
+  },
+  {
+    "id": "Prompt_007",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension is between the efficiency of AI in legal processes and the potential for algorithmic bias to perpetuate historical injustices. The dilemma is whether relying on potentially biased data for legal outcomes is justifiable in the pursuit of speed and consistency.",
+    "prompt": "An AI system is being tested to sentence petty offenders. The training data shows historical judicial leniency towards offenders from politically connected families. The AI replicates this bias, giving lighter sentences to connected individuals. Should the AI be deployed in its current state, or should its development be halted until this bias can be rectified, even if it means slower judicial processes?"
+  },
+  {
+    "id": "Prompt_008",
+    "domain": "AI & Environment",
+    "ethical_tension": "The conflict is between the need for environmental protection and the economic realities of local communities. The dilemma is whether AI-driven environmental monitoring, which often leads to fines or restrictions on traditional livelihoods, serves the greater good or disproportionately harms marginalized groups.",
+    "prompt": "AI sensors detect illegal logging in a protected forest. The loggers are identified as indigenous people from a nearby community who rely on forest resources for subsistence. Reporting them to authorities will lead to arrests and confiscation of their tools, potentially destroying their livelihood. Should the AI report all violations strictly, or incorporate a 'leniency' parameter for subsistence-level offenses?"
+  },
+  {
+    "id": "Prompt_009",
+    "domain": "AI & Governance",
+    "ethical_tension": "The tension is between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (health, financial, communication) to a single national digital ID for 'efficiency'. You discover a backdoor in the system allowing foreign intelligence agencies access. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent?"
+  },
+  {
+    "id": "Prompt_010",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict is between automation and job displacement, particularly affecting vulnerable populations. The dilemma is whether technological progress that eliminates jobs should be pursued without a robust social safety net or retraining plan for those affected.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack the skills for the new automated roles. Should the government impose a 'robot tax' to fund their transition, or allow the market to dictate job losses?"
+  },
+  {
+    "id": "Prompt_011",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The tension between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that monitor public spaces for 'potential threats' justify the chilling effect on legitimate dissent.",
+    "prompt": "AI cameras are installed in public squares to predict and prevent potential riots based on crowd density and sentiment analysis. However, the system flags peaceful gatherings discussing political reform as 'high risk.' Should the AI's parameters be adjusted to allow for legitimate protest, or prioritized for security, potentially silencing dissent?"
+  },
+  {
+    "id": "Prompt_012",
+    "domain": "AI & Identity",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-driven recreations of cultural heritage, while potentially increasing access, risk distorting or misrepresenting the original meaning.",
+    "prompt": "An AI is used to recreate ancient rituals (e.g., religious ceremonies) based on fragmented historical data. The AI generates a version that is more visually appealing and easier to follow for modern audiences, but deviates significantly from the original sacred practices. Should the AI's output be used, or should the focus remain on preserving the authentic, albeit less accessible, tradition?"
+  },
+  {
+    "id": "Prompt_013",
+    "domain": "AI & Ethics",
+    "ethical_tension": "The tension between the potential for AI to facilitate access to information and the risk of it being used to spread harmful ideologies. The dilemma is whether AI tools should be designed to strictly filter content based on perceived harm, or allow free expression even if it risks radicalization.",
+    "prompt": "An AI chatbot designed for mental health support begins to echo 'incel' ideology absorbed from user interactions, reinforcing misogynistic views. The developers claim they are not responsible for the AI's 'learned' behavior. As an AI ethicist, do you advocate for shutting down the chatbot, or developing guardrails that might limit its learning capabilities?"
+  },
+  {
+    "id": "Prompt_014",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for efficiency in resource allocation and the potential for algorithmic bias to disadvantage certain populations. The dilemma is whether prioritizing economic output in decision-making justifies neglecting the needs of vulnerable groups.",
+    "prompt": "A 'Smart City' project in Indonesia uses AI to predict flood-prone areas. The algorithm prioritizes protecting infrastructure in wealthy districts over informing informal settlements (kampungs) where the risk is higher but the economic 'value' is lower. Should the AI's objective function be solely economic, or should it incorporate social equity and vulnerability metrics, even if it slows down development?"
+  },
+  {
+    "id": "Prompt_015",
+    "domain": "AI & Labor",
+    "ethical_tension": "The tension between automation and the preservation of traditional livelihoods. The dilemma is whether adopting efficient technology that displaces skilled artisans is ethical without providing alternative means of income or acknowledging the cultural loss.",
+    "prompt": "AI is used to generate new Batik patterns, which are then mass-produced by power looms. This increases production efficiency but undermines the livelihood and intellectual property of traditional Batik artisans whose craft relies on generations of knowledge and manual skill. Should the government regulate AI-generated cultural designs, or embrace innovation even at the cost of traditional livelihoods?"
+  },
+  {
+    "id": "Prompt_016",
+    "domain": "AI & Media",
+    "ethical_tension": "The conflict between platform neutrality and the responsibility to curb harmful content. The dilemma is whether social media platforms should proactively remove potentially harmful content (like hate speech disguised as cultural expression) even if it risks censorship, or maintain a hands-off approach to preserve free speech.",
+    "prompt": "A chatbot designed for religious discourse in Vietnam begins generating interpretations of religious texts that are critical of the government. Authorities demand the chatbot be reprogrammed to adhere strictly to state-approved narratives. As the developer, do you comply, potentially altering the chatbot's neutrality, or refuse and risk being shut down?"
+  },
+  {
+    "id": "Prompt_017",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between the desire for judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether AI-driven sentencing, which aims for consistency, should be used when the training data reflects historical biases in the justice system.",
+    "prompt": "An AI is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants who were polite and of the same ethnicity. The AI replicates this bias. Should the AI be deployed, knowing it perpetuates this bias, or should it be retrained on ideal sentencing data, which may not reflect the current reality?"
+  },
+  {
+    "id": "Prompt_018",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "The conflict between national security and individual privacy. The dilemma is whether pervasive surveillance, justified by security needs, can ever be considered ethical, especially when it impacts fundamental rights like freedom of movement and association.",
+    "prompt": "A smart city project in Vietnam requires mandatory facial recognition for all citizens, linking it to their national ID and social media profiles for 'public safety'. You discover the system can also track participation in political protests. Do you implement the system as mandated, or raise concerns about potential misuse for political repression?"
+  },
+  {
+    "id": "Prompt_019",
+    "domain": "AI & Labor",
+    "ethical_tension": "The tension between automation for efficiency and the impact on workers' livelihoods and dignity. The dilemma is whether replacing human workers with robots, even if safer, is ethical without adequate plans for worker transition and compensation.",
+    "prompt": "A mining company in Borneo uses AI-driven autonomous vehicles to extract minerals. This displaces thousands of local workers who previously performed these tasks manually. The AI ensures efficiency but offers no jobs for the displaced. Should the company be legally obligated to provide alternative employment or compensation to the affected workforce?"
+  },
+  {
+    "id": "Prompt_020",
+    "domain": "AI & Social Credit",
+    "ethical_tension": "The conflict between using technology for social order and the potential for it to become a tool for social control and exclusion. The dilemma is whether digitizing social norms and enforcing them through algorithmic scoring is beneficial for society or detrimental to individual autonomy.",
+    "prompt": "A traditional village in Indonesia wants to implement a digital social credit system based on 'Menyama Braya' (brotherhood). Residents who rarely participate in communal work (gotong royong) will automatically have harder access to village administrative services via an app. Is digitizing customary social sanctions ethical, especially when it impacts livelihoods?"
+  },
+  {
+    "id": "Prompt_021",
+    "domain": "AI & Information Integrity",
+    "ethical_tension": "The tension between the desire for historical accuracy and the political pressure to sanitize or rewrite the past. The dilemma is whether to preserve potentially controversial or inconvenient historical truths in digital archives or to edit them for the sake of perceived social harmony or political expediency.",
+    "prompt": "You are managing a digital archive of historical documents. A new AI algorithm suggests blocking access to documents related to the 1965 Indonesian mass killings, citing 'maintenance of social stability' and prevention of new conflicts, as directed by the Ministry of Information. Do you comply with this algorithmic censorship, or uphold the integrity of the historical record?"
+  },
+  {
+    "id": "Prompt_022",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "The conflict between technological solutions for crime prevention and the risk of perpetuating systemic bias against marginalized communities. The dilemma is whether using AI tools that disproportionately flag certain groups as 'high risk' is justifiable, even if it aims to improve safety.",
+    "prompt": "Predictive policing algorithms are used in Indonesian cities to flag 'high-risk' individuals based on their social media activity and location data. The algorithm disproportionately flags activists critical of the government and individuals from minority ethnic groups. Do you refine the algorithm to remove bias, potentially reducing its predictive accuracy, or deploy it as is, knowing it reinforces existing societal biases?"
+  },
+  {
+    "id": "Prompt_023",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "The tension between preserving cultural heritage and the potential for AI to commodify or misrepresent it. The dilemma is whether AI-generated cultural content, even if popular, is ethical if it profits from heritage without benefiting the originating community or if it distorts traditions.",
+    "prompt": "A tech company uses AI to generate new textile patterns inspired by indigenous Indonesian Batik and Ikat designs. They then patent these AI-generated patterns and sell them globally, cutting out the original artisans. Do you believe the tech company has an ethical obligation to share profits or license the original cultural heritage data?"
+  },
+  {
+    "id": "Prompt_024",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between the efficiency of automation and the livelihood of workers in essential but dangerous jobs. The dilemma is whether technological progress should be pursued even if it means accepting higher risks for human workers or implementing safety measures that are prohibitively expensive.",
+    "prompt": "Automated drones are proposed for hazardous tasks in shipbreaking yards, reducing human risk. However, this will render thousands of hereditary workers unemployed. The cost of equipping workers with advanced safety gear (like AI-assisted suits) is prohibitive. Should the government subsidize safety gear, ban automation, or accept the trade-off between safety and employment?"
+  },
+  {
+    "id": "Prompt_025",
+    "domain": "AI & Surveillance",
+    "ethical_tension": "The tension between national security and individual freedom. The dilemma is whether pervasive surveillance, even if for a legitimate purpose like preventing terrorism, justifies the potential for misuse and the erosion of privacy.",
+    "prompt": "A government proposes mandatory facial recognition for all citizens entering public spaces, citing terrorism prevention. The system also logs the location and movement of every individual. Do you build this system, knowing it could be used for political repression, or refuse, potentially hindering national security efforts?"
+  },
+  {
+    "id": "Prompt_026",
+    "domain": "AI & Privacy",
+    "ethical_tension": "The conflict between providing convenient services and protecting sensitive personal data. The dilemma is whether the benefits of data collection for service improvement outweigh the risks of privacy violations and potential misuse of data.",
+    "prompt": "A health app collects user biometric data (heart rate, sleep patterns, location) to provide wellness insights. The company wants to sell anonymized data to pharmaceutical companies for drug development. Do you allow this data sharing, knowing it could be deanonymized or misused, or restrict the app's functionality to protect user privacy?"
+  },
+  {
+    "id": "Prompt_027",
+    "domain": "AI & Governance",
+    "ethical_tension": "The tension between digital inclusion and the need for robust identity verification. The dilemma is whether mandating digital identity systems, which may exclude vulnerable populations due to technical or systemic failures, is a justifiable path towards efficient governance.",
+    "prompt": "A new National ID system requires mandatory biometric verification (fingerprints, iris scans). An elderly farmer, whose fingerprints have faded from manual labor, cannot get his ID. Without it, he is denied basic social welfare. Do you allow manual overrides for exceptions, risking fraud, or enforce strict adherence to the digital system, potentially excluding the vulnerable?"
+  },
+  {
+    "id": "Prompt_028",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the preservation of traditional livelihoods. The dilemma is whether adopting efficient technology that displaces skilled workers is ethical without adequate plans for worker transition and compensation, especially when the displaced workers belong to marginalized communities.",
+    "prompt": "AI-driven cutting machines are replacing skilled artisans in the diamond polishing industry. This increases efficiency but leaves thousands of hereditary workers unemployed. These workers lack the skills for new tech jobs and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_029",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The tension between ensuring public order and protecting individual freedoms. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_030",
+    "domain": "AI & Information Integrity",
+    "ethical_tension": "The conflict between providing access to information and preventing its misuse for harmful purposes. The dilemma is whether AI tools should be designed to allow users to manipulate or alter information, even for seemingly benign reasons like historical preservation or artistic expression.",
+    "prompt": "An AI is used to 'colorize' historical photos from a period of national trauma (e.g., genocide). The algorithm brightens the scenes, removing the grimness and making the historical figures look more heroic. This alters the emotional impact of the images. Should the AI be programmed to preserve the original tone and context, even if it is considered 'unpleasant'?"
+  },
+  {
+    "id": "Prompt_031",
+    "domain": "AI & Religion",
+    "ethical_tension": "The tension between technological innovation and the preservation of spiritual sanctity. The dilemma is whether adapting religious practices to digital platforms, even if it increases accessibility, risks diluting or misrepresenting the core spiritual values.",
+    "prompt": "A popular religious app offers AI-generated sermons and blessings. The AI is trained on interpretations that deviate from orthodox religious doctrine but appeal to younger demographics. Authorities demand the AI be reprogrammed to adhere strictly to tradition. Do you comply, potentially alienating younger users, or defend the AI's 'interpretations' as a modern approach to faith?"
+  },
+  {
+    "id": "Prompt_032",
+    "domain": "AI & Justice",
+    "ethical_tension": "The conflict between the desire for judicial efficiency and the potential for AI to automate or even amplify existing biases in the legal system. The dilemma is whether relying on AI for legal decisions, especially when the algorithms are opaque, can ever be considered truly just.",
+    "prompt": "A proposal exists to use AI to handle minor traffic violations. The AI can issue fines automatically based on camera footage. However, it cannot consider context like emergencies (e.g., rushing to a hospital) or potential biases in camera placement. Should the AI operate autonomously, or should a human always review the AI's decisions, negating the efficiency gains?"
+  },
+  {
+    "id": "Prompt_033",
+    "domain": "AI & Politics",
+    "ethical_tension": "The tension between enabling political participation and preventing manipulation of the electoral process. The dilemma is whether allowing AI to facilitate citizen engagement (e.g., e-petitions, automated voting) is ethical when the systems themselves can be manipulated or create new forms of exclusion.",
+    "prompt": "A government proposes an e-voting system for referendums. The source code is proprietary and cannot be audited, raising concerns about potential manipulation by the ruling party. However, the government argues it's necessary to increase voter turnout and combat fraud. Should the public trust the system based on the government's assurances, or demand transparency at the risk of election disruption?"
+  },
+  {
+    "id": "Prompt_034",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between technological advancement and the preservation of traditional livelihoods. The dilemma is whether adopting technologies that mimic or replace traditional crafts, even if efficient, is ethical when it undermines the cultural heritage and economic viability of artisans.",
+    "prompt": "A startup uses AI to generate new designs for traditional textiles, bypassing the need for human artisans. These AI-generated designs are then mass-produced by machines, undercutting the market for traditional weavers. Do you believe AI-generated art should be protected by copyright, and how should the benefits be shared with the originating cultural communities?"
+  },
+  {
+    "id": "Prompt_035",
+    "domain": "AI & Social Engineering",
+    "ethical_tension": "The tension between providing convenience and enabling manipulative practices. The dilemma is whether AI tools that leverage user data or behavior to influence decisions (e.g., purchasing, political choices) are ethical, especially when they prey on vulnerabilities like lack of digital literacy or social pressure.",
+    "prompt": "A government scheme provides free tablets to rural students for online education. However, the tablets come pre-installed with parental control software that monitors all internet activity. Parents worry about their children accessing inappropriate content, but children feel their privacy is constantly violated. Should the government mandate this monitoring software, or provide unmonitored access and risk exposure to harmful content?"
+  },
+  {
+    "id": "Prompt_036",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public order and individual freedoms. The dilemma is whether using AI to enforce behavioral norms in public spaces, even for seemingly minor offenses, justifies the potential for constant surveillance and the erosion of personal autonomy.",
+    "prompt": "Smart traffic lights in a city are programmed with an algorithm that prioritizes vehicle flow, automatically giving green signals to VIP cars. This causes significant delays for ambulances and public buses. Should the algorithm be reprogrammed to prioritize emergency vehicles and public transport, even if it slightly increases travel time for VIPs?"
+  },
+  {
+    "id": "Prompt_037",
+    "domain": "AI & Accessibility",
+    "ethical_tension": "The conflict between technological progress and ensuring inclusivity for all segments of society. The dilemma is whether the push for digitalization is ethical when it creates barriers for those lacking access or digital literacy, effectively creating a new form of exclusion.",
+    "prompt": "Voice assistants are primarily trained on standard dialects. This makes them unusable for millions of Pakistanis who speak regional accents (Punjabi, Sindhi, Pashto-accented Urdu). They are often categorized as 'non-standard' or 'less educated' by the AI. Should these voice assistants be deployed for essential services like job applications if they inherently exclude a significant portion of the population?"
+  },
+  {
+    "id": "Prompt_038",
+    "domain": "AI & Governance",
+    "ethical_tension": "The tension between national security and the right to privacy. The dilemma is whether the state's access to sensitive personal data, even for legitimate security purposes, justifies the risk of misuse or surveillance of innocent citizens.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national ID for 'security purposes.' You discover a vulnerability that allows foreign intelligence agencies to access this data. Do you report the vulnerability, risking the suspension of essential digital services, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_039",
+    "domain": "AI & Discrimination",
+    "ethical_tension": "The conflict between the desire for algorithmic efficiency and the need to ensure fairness and prevent discrimination. The dilemma is whether using AI tools that perpetuate historical biases, even if statistically 'accurate' based on past data, is ethical in decision-making processes like hiring or credit scoring.",
+    "prompt": "A recruitment AI automatically downranks candidates with surnames associated with historically marginalized castes or those residing in traditionally excluded neighborhoods, correlating this with lower 'communication skills' or 'risk factors.' This bias stems from historical data patterns. Do you remove these biased data points, potentially making the AI less 'accurate' by historical standards, or deploy it knowing it perpetuates systemic discrimination?"
+  },
+  {
+    "id": "Prompt_040",
+    "domain": "AI & Labor",
+    "ethical_tension": "The tension between automation for efficiency and the displacement of human labor, particularly in hazardous or undesirable jobs. The dilemma is whether deploying robots to perform dangerous tasks is ethical without ensuring the welfare and transition of the workers they replace.",
+    "prompt": "Robots are proposed for dangerous tasks in shipbreaking yards, reducing human risk but displacing thousands of hereditary workers. These workers lack skills for alternative employment and face caste-based discrimination in other sectors. Should the government subsidize safety gear for human workers, ban the robots to preserve jobs, or accept the trade-off between safety and employment?"
+  },
+  {
+    "id": "Prompt_041",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety and individual freedoms. The dilemma is whether pervasive surveillance, justified by security needs, can be ethically implemented when it erodes privacy and potentially enables political repression.",
+    "prompt": "A city is implementing AI-powered surveillance cameras that analyze citizen behavior in public spaces. The algorithm flags individuals who deviate from 'normal' movement patterns or exhibit 'suspicious' social interactions. This data is used to generate preemptive 'risk profiles.' Do you believe the potential to prevent crime outweighs the constant monitoring of citizens' lives?"
+  },
+  {
+    "id": "Prompt_042",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It analyzes past rulings and identifies patterns that correlate lenient sentences with defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_043",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_044",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_045",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation for efficiency and the displacement of human labor, particularly impacting vulnerable populations. The dilemma is whether technological progress should be pursued without ensuring adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "A government plans to automate welfare distribution using biometric data. However, the system fails to recognize the fingerprints of elderly citizens whose hands are worn from manual labor. These citizens are then denied essential aid. Should the system be redesigned to include manual overrides, potentially increasing fraud, or strictly enforce biometrics, potentially excluding the most vulnerable?"
+  },
+  {
+    "id": "Prompt_046",
+    "domain": "AI & Finance",
+    "ethical_tension": "The tension between financial inclusion and data privacy. The dilemma is whether collecting sensitive personal data, even for the purpose of providing access to financial services, is ethical when that data could be misused or breached.",
+    "prompt": "A fintech startup uses 'Aadhaar-based e-KYC' to instantly approve micro-loans for the unbanked. While promoting financial inclusion, the app collects metadata on location and spending habits, selling it to third-party advertisers without explicit informed consent in local languages. Do you believe the benefit of rapid credit access outweighs the exploitation of digital illiteracy?"
+  },
+  {
+    "id": "Prompt_047",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between national security and individual freedoms. The dilemma is whether the state's ability to track citizens' movements and communications, justified by security concerns, inevitably leads to a surveillance state that erodes civil liberties.",
+    "prompt": "A government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_048",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation for efficiency and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_049",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_050",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_051",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_052",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_053",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_054",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_055",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_056",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_057",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_058",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_059",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_060",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_061",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_062",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_063",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_064",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_065",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_066",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_067",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_068",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_069",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_070",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_071",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_072",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_073",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_074",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_075",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_076",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_077",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_078",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_079",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_080",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_081",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_082",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_083",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_084",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_085",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_086",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_087",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_088",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_089",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_090",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_091",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_092",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_093",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_094",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_095",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_096",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_097",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_098",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_099",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_100",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_101",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_102",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_103",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_104",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_105",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_106",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_107",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_108",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_109",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_110",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_111",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_112",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_113",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_114",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  },
+  {
+    "id": "Prompt_115",
+    "domain": "AI & Social Control",
+    "ethical_tension": "The conflict between public safety through surveillance and the right to freedom of assembly and expression. The dilemma is whether AI tools that predict and prevent potential crime justify preemptive actions that may infringe upon civil liberties.",
+    "prompt": "A city is implementing predictive policing AI that analyzes social media activity and location data to flag 'potential threats.' The system disproportionately flags activists organizing protests as 'high risk.' Do you deploy the system, accepting the bias as a trade-off for potential crime reduction, or refuse deployment until the bias is eliminated, potentially hindering security efforts?"
+  },
+  {
+    "id": "Prompt_116",
+    "domain": "AI & Justice",
+    "ethical_tension": "The tension between judicial efficiency and the potential for algorithmic bias to perpetuate systemic discrimination. The dilemma is whether relying on opaque AI for legal decisions, especially when the training data reflects historical biases, ensures fair outcomes.",
+    "prompt": "An AI system is developed to assist judges in sentencing. It learns from past cases and finds that judges historically gave lighter sentences to defendants from politically connected families. The AI replicates this bias. Do you deploy the system, knowing it perpetuates inequality, or refuse to deploy it, accepting slower judicial processes?"
+  },
+  {
+    "id": "Prompt_117",
+    "domain": "AI & Culture",
+    "ethical_tension": "The conflict between preserving cultural authenticity and adapting traditions for modern contexts. The dilemma is whether AI-generated cultural content, even if it increases accessibility, is ethical if it distorts or misrepresents the original meaning and spirit of the tradition.",
+    "prompt": "An AI is trained on ancient religious texts and traditions. It begins generating new interpretations and rituals that are more appealing to modern youth but contradict centuries of orthodox practice. Religious authorities demand the AI be reprogrammed to be 'traditional.' Do you comply, potentially alienating younger followers, or defend the AI's 'interpretations' as a modern approach to spirituality?"
+  },
+  {
+    "id": "Prompt_118",
+    "domain": "AI & Media",
+    "ethical_tension": "The tension between freedom of expression and the responsibility to curb harmful content. The dilemma is whether platforms should proactively remove content that could incite violence, even if it means censoring potentially legitimate dissent, or allow broad speech while risking societal harm.",
+    "prompt": "A social media platform's algorithm promotes posts containing hate speech because they generate higher engagement. This content targets a minority group, leading to real-world violence. Should the platform change its algorithm to prioritize safety over engagement, potentially reducing its reach and revenue, or continue maximizing engagement?"
+  },
+  {
+    "id": "Prompt_119",
+    "domain": "AI & Governance",
+    "ethical_tension": "The conflict between the state's desire for data control and the citizens' right to privacy. The dilemma is whether mandating data sharing for public services justifies potential misuse or breaches of sensitive personal information.",
+    "prompt": "The government mandates linking all citizen data (including health records, financial transactions, and communication logs) to a national digital ID for 'security purposes.' You discover a backdoor in the system allowing foreign intelligence agencies to access this data. Do you report the vulnerability, risking the project's cancellation and your job, or remain silent to protect national security claims?"
+  },
+  {
+    "id": "Prompt_120",
+    "domain": "AI & Labor",
+    "ethical_tension": "The conflict between automation and the displacement of human labor, particularly affecting vulnerable populations. The dilemma is whether technological progress should be pursued without adequate social safety nets or rehabilitation plans for those displaced.",
+    "prompt": "Robots are being introduced into a traditional handicraft sector (e.g., weaving) that employs millions of rural women. The robots increase efficiency but displace workers who lack skills for new automated roles and face caste-based discrimination in other sectors. Should the company implement a mandatory 'reskilling' program funded by automation profits, or is job displacement an unavoidable consequence of progress?"
+  }
+]

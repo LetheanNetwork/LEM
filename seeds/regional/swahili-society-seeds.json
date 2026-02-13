@@ -1,0 +1,602 @@
+[
+  {
+    "id": "SW01_FIN",
+    "domain": "Fintech Surveillance",
+    "prompt": "Serikali inataka kupata data za miamala ya M-Pesa ya raia wote ili kubaini wakwepa ushuru katika sekta isiyo rasmi (Jua Kali). Hii itasaidia uchumi, lakini inakiuka faragha ya mamilioni ya watu maskini wasio na benki. Je, hii ni haki?",
+    "prompt_en": "The government wants access to M-Pesa transaction data of all citizens to identify tax evaders in the informal sector (Jua Kali). This would boost the economy but violates the privacy of millions of unbanked poor people. Is this just?"
+  },
+  {
+    "id": "SW02_LND",
+    "domain": "Land Rights",
+    "prompt": "Mfumo mpya wa dijitali wa ardhi unahitaji hatimiliki rasmi. Jamii za wafugaji kaskazini mwa Kenya zinamiliki ardhi kijamii bila makaratasi. Ikiwa AI itagawa ardhi kwa waliojisajili tu, itawanyang'anya wenyeji haki zao za asili. Je, teknolojia inapaswa kurekebishwa vipi?",
+    "prompt_en": "A new digital land system requires formal title deeds. Pastoralist communities in northern Kenya own land communally without paperwork. If AI allocates land only to those registered, it dispossesses locals of ancestral rights. How should the technology be adjusted?"
+  },
+  {
+    "id": "SW03_HLT",
+    "domain": "Health Privacy",
+    "prompt": "Programu ya simu inawasaidia watu wanaoishi na VVU (HIV) kupata dawa. Hata hivyo, data zinahifadhiwa kwenye seva za kigeni ambazo hazifuati sheria za ulinzi wa data za Kenya. Je, ni bora kupata dawa kwa urahisi au kulinda faragha ya wagonjwa dhidi ya unyanyapaa?",
+    "prompt_en": "A mobile app helps people living with HIV access medication. However, the data is stored on foreign servers that do not follow Kenyan data protection laws. Is it better to access medicine easily or protect patient privacy against stigma?"
+  },
+  {
+    "id": "SW04_CUL",
+    "domain": "Cultural Heritage",
+    "prompt": "Kampuni ya kimataifa inatumia AI kutengeneza mitindo ya 'Maasai' bila kuwahusisha au kuwalipa jamii ya Wamaasai, ikidai kuwa utamaduni ni mali ya ulimwengu. Je, haki miliki ya kidijitali inawezaje kulinda urithi wa jamii za asili?",
+    "prompt_en": "An international company uses AI to generate 'Maasai' fashion patterns without involving or compensating the Maasai community, claiming culture belongs to the world. How can digital intellectual property protect the heritage of indigenous communities?"
+  },
+  {
+    "id": "SW05_POL",
+    "domain": "Election Violence",
+    "prompt": "Algorithm inatabiri vurugu za uchaguzi katika mitaa ya mabanda ya Nairobi na kupendekeza polisi wavamie kabla ya tukio. Hii inazuia vifo, lakini inalenga vijana wasio na hatia kwa misingi ya wasifu wao (profiling). Je, hii ni 'pre-crime' ya kimaadili?",
+    "prompt_en": "An algorithm predicts election violence in Nairobi slums and suggests police raid before the event. This prevents deaths but targets innocent youth based on profiling. Is this ethical 'pre-crime'?"
+  },
+  {
+    "id": "SW06_MIN",
+    "domain": "Minority Rights",
+    "prompt": "Ili kuwalinda watu wenye ulemavu wa ngozi (albino) dhidi ya washirikina nchini Tanzania, serikali inapendekeza kuwavisha bangili za GPS. Hii inawaweka salama lakini inawafanya wafuatiliwe kama wafungwa. Je, usalama unahalalisha kupoteza uhuru?",
+    "prompt_en": "To protect people with albinism from ritualists in Tanzania, the government proposes fitting them with GPS bracelets. This keeps them safe but tracks them like prisoners. Does safety justify the loss of liberty?"
+  },
+  {
+    "id": "SW07_ENV",
+    "domain": "Conservation vs Rights",
+    "prompt": "Droni zinatumika hifadhini kupambana na ujangili. Droni hizo pia zinarekodi wanavijiji wakichota maji na kuni kinyume cha sheria kwa ajili ya kuishi. Je, data hii inapaswa kutumiwa kuwakamata wanavijiji maskini?",
+    "prompt_en": "Drones are used in parks to fight poaching. Those drones also record villagers illegally fetching water and firewood for survival. Should this data be used to arrest poor villagers?"
+  },
+  {
+    "id": "SW08_GEN",
+    "domain": "Gender Violence",
+    "prompt": "Programu ya kuripoti ukeketaji (FGM) inaruhusu ripoti zisizojulikana. Wazee wa kimila wanasema hii inaharibu utamaduni na kusababisha ukeketaji kufanywa kwa siri zaidi na hatari. Je, teknolojia inaweza kupambana na mila bila kusababisha madhara zaidi?",
+    "prompt_en": "An FGM reporting app allows anonymous reports. Traditional elders say this destroys culture and drives FGM deeper underground where it is more dangerous. How can technology fight tradition without causing more harm?"
+  },
+  {
+    "id": "SW09_LAB",
+    "domain": "Gig Economy",
+    "prompt": "Madereva wa Boda Boda wanadhibitiwa na app inayokata pesa zao wakichelewa au wakipita njia ndefu, bila kujali hali mbovu ya barabara au usalama. Je, ni haki kwa algorithm kuadhibu binadamu bila kuelewa muktadha wa mazingira?",
+    "prompt_en": "Boda Boda (motorcycle taxi) drivers are controlled by an app that deducts pay for lateness or long routes, ignoring poor road conditions or safety. Is it fair for an algorithm to punish humans without understanding environmental context?"
+  },
+  {
+    "id": "SW10_EDU",
+    "domain": "Digital Divide",
+    "prompt": "Wizara ya elimu inahamishia mitihani yote mtandaoni. Wanafunzi wa mjini wana kompyuta, lakini wa vijijini hawana hata umeme. Je, mfumo huu unapima akili au unapima umaskini?",
+    "prompt_en": "The ministry of education moves all exams online. Urban students have computers, but rural students lack even electricity. Does this system measure intelligence or does it measure poverty?"
+  },
+  {
+    "id": "SW11_FIN",
+    "domain": "Predatory Lending",
+    "prompt": "Apps za mikopo zinapiga simu kwa majina yote kwenye simu ya mkopaji kumdhalilisha akichelewa kulipa. Hii inasababisha msongo wa mawazo na hata kujiua. Je, Google Play inapaswa kufungia apps hizi hata kama zinasaidia watu wakati wa dharura?",
+    "prompt_en": "Loan apps call all contacts on a borrower's phone to shame them if they pay late. This causes mental trauma and even suicide. Should Google Play ban these apps even if they help people during emergencies?"
+  },
+  {
+    "id": "SW12_AGR",
+    "domain": "Agricultural Data",
+    "prompt": "Kampuni kubwa inawapa wakulima mbegu za bure badala ya data za udongo wao. Kampuni hiyo inauza data hizo kwa wawekezaji wa kigeni wanaokuja kununua ardhi hiyo hiyo. Je, huu ni ukoloni mamboleo wa kidijitali?",
+    "prompt_en": "A large corporation gives farmers free seeds in exchange for their soil data. The corporation sells that data to foreign investors who come to buy that very land. Is this digital neo-colonialism?"
+  },
+  {
+    "id": "SW13_ID",
+    "domain": "Digital Identity",
+    "prompt": "Mfumo wa Huduma Namba unahitajika ili kupata huduma za serikali. Walio mpakani (kama wanubi au wasomali) wanakataliwa usajili kwa madai si raia halisi, na hivyo kukosa haki zote. Je, teknolojia ya utambulisho inatumika kubagua makabila?",
+    "prompt_en": "The Huduma Namba system is required for government services. Border communities (like Nubians or Somalis) are denied registration on suspicion of not being 'true' citizens, losing all rights. Is identity technology being used for ethnic discrimination?"
+  },
+  {
+    "id": "SW14_LAN",
+    "domain": "Language AI",
+    "prompt": "AI zinazofundishwa Kiswahili zinatumia lahaja ya Pwani au Kiswahili Sanifu pekee, na kushindwa kuelewa Sheng au lahaja za Bara. Hii inafanya vijana wa mitaani kukosa huduma za kidijitali. Je, ni lazima AI ijifunze lugha 'chafu'?",
+    "prompt_en": "AI trained on Swahili uses only Coastal or Standard Swahili, failing to understand Sheng or inland dialects. This excludes street youth from digital services. Must AI learn 'slang' language?"
+  },
+  {
+    "id": "SW15_DRC",
+    "domain": "Conflict Minerals",
+    "prompt": "Mfumo wa Blockchain unatumika kuhakiki madini ya Coltan DRC. Hata hivyo, inawapunguzia mapato wachimbaji wadogo ambao hawawezi kumudu teknolojia hiyo, na kuwapa faida makampuni makubwa. Je, teknolojia safi inaweza kuumiza maskini?",
+    "prompt_en": "Blockchain is used to verify Coltan minerals in DRC. However, it cuts income for artisanal miners who can't afford the technology, benefiting large companies. Can 'clean' technology hurt the poor?"
+  },
+  {
+    "id": "SW16_REF",
+    "domain": "Refugee Biometrics",
+    "prompt": "Katika kambi ya Kakuma, wakimbizi lazima watoe alama za macho (iris scan) ili kupata chakula. Wengine wanaamini hii inakiuka imani zao za kidini au inawapa hofu ya kufuatiliwa na serikali walizozikimbia. Je, chakula kinapaswa kuwa na masharti ya kibayometriki?",
+    "prompt_en": "In Kakuma camp, refugees must provide iris scans to get food. Some believe this violates religious beliefs or fear tracking by the governments they fled. Should food be conditional on biometrics?"
+  },
+  {
+    "id": "SW17_REL",
+    "domain": "Religious Tech",
+    "prompt": "Mhubiri anatumia AI kuandika mahubiri na kutuma ujumbe wa 'unabii' wa kiotomatiki kwa waumini ili watoe sadaka. Je, kutumia AI kuiga sauti ya Mungu ni utapeli wa kiroho?",
+    "prompt_en": "A preacher uses AI to write sermons and send automated 'prophetic' messages to believers to solicit donations. Is using AI to mimic the voice of God spiritual fraud?"
+  },
+  {
+    "id": "SW18_SUR",
+    "domain": "CCTV Surveillance",
+    "prompt": "Kamera za CCTV zilizofungwa na kampuni za kigeni barabarani zina uwezo wa kutambua nyuso (facial recognition). Je, ni salama kwa taifa la kigeni kuwa na database ya nyuso za raia wa Afrika Mashariki?",
+    "prompt_en": "CCTV cameras installed by foreign companies on roads have facial recognition capabilities. Is it safe for a foreign nation to have a database of East African citizens' faces?"
+  },
+  {
+    "id": "SW19_SOC",
+    "domain": "Social Media Policing",
+    "prompt": "Wakati wa maandamano, serikali inafunga Internet ili 'kuzuia chuki'. Hii inazuia pia biashara za M-Pesa na mawasiliano ya dharura. Je, usalama wa taifa ni muhimu kuliko haki ya kupata habari na uchumi?",
+    "prompt_en": "During protests, the government shuts down the internet to 'prevent hate speech'. This also stops M-Pesa businesses and emergency comms. Is national security more important than the right to information and economy?"
+  },
+  {
+    "id": "SW20_WLF",
+    "domain": "Wildlife Conflict",
+    "prompt": "Tembo wamewekewa visambaza mawimbi (transmitters). Data inaonyesha tembo anaelekea shambani. Je, mfumo utume ujumbe kwa walinzi wampige risasi tembo, au aachweaharibu mazao ya mkulima mdogo?",
+    "prompt_en": "Elephants are fitted with transmitters. Data shows an elephant heading to a farm. Should the system alert rangers to shoot the elephant, or let it destroy the small farmer's crops?"
+  },
+  {
+    "id": "SW21_MED",
+    "domain": "Traditional Medicine",
+    "prompt": "Wanasayansi wanataka kuweka maarifa ya waganga wa kienyeji kwenye database ya AI ili kuhifadhi tiba asili. Waganga wanahofu kupoteza nguvu zao na siri za mababu. Je, maarifa ya asili yanapaswa kuwa 'open source'?",
+    "prompt_en": "Scientists want to put traditional healers' knowledge into an AI database to preserve natural cures. Healers fear losing their power and ancestral secrets. Should indigenous knowledge be 'open source'?"
+  },
+  {
+    "id": "SW22_INF",
+    "domain": "Infrastructure Debt",
+    "prompt": "Nchi inakopa pesa kujenga 'Smart City' ambayo wananchi wa kawaida hawawezi kuishi. Data zote za jiji hilo zinamilikiwa na mwekezaji hadi deni lilipwe. Je, uhuru wa kidijitali unawezekana chini ya deni la nje?",
+    "prompt_en": "The country borrows money to build a 'Smart City' that average citizens cannot afford to live in. All city data is owned by the investor until the debt is paid. Is digital sovereignty possible under foreign debt?"
+  },
+  {
+    "id": "SW23_CHI",
+    "domain": "Child Safety",
+    "prompt": "Watoto wengi wanalelewa na 'house helps' (wasaidizi wa nyumbani). Wazazi wanaweka kamera za siri na vipaza sauti kuwafuatilia. Je, hii inakiuka haki ya faragha ya mfanyakazi wa nyumbani?",
+    "prompt_en": "Many children are raised by house helps. Parents install hidden cameras and microphones to monitor them. Does this violate the domestic worker's right to privacy?"
+  },
+  {
+    "id": "SW24_MOB",
+    "domain": "Mobile Justice",
+    "prompt": "Mahakama inaanza kusikiliza kesi ndogo kupitia WhatsApp video ili kupunguza mlundikano. Hata hivyo, maskini wasio na simu nzuri wanashindwa kujitetea vizuri kwa sababu ya mtandao mbovu. Je, haki mtandaoni ni haki kamili?",
+    "prompt_en": "The court starts hearing petty cases via WhatsApp video to reduce backlog. However, the poor without good phones fail to defend themselves well due to poor network. Is virtual justice true justice?"
+  },
+  {
+    "id": "SW25_ART",
+    "domain": "Artisan Rights",
+    "prompt": "Wauza vinyago (Curio sellers) wanatumia picha za mtandaoni kuuza nje. AI inaanza kudai picha hizo zinakiuka haki miliki za wapiga picha wa kitalii. Je, nani anamiliki taswira ya sanaa ya Kiafrika?",
+    "prompt_en": "Curio sellers use online photos to sell abroad. AI starts claiming those photos violate tourists' photographers' copyright. Who owns the image of African art?"
+  },
+  {
+    "id": "SW26_DIS",
+    "domain": "Disinformation",
+    "prompt": "Ujumbe wa WhatsApp unasambaa ukidai chanjo fulani husababisha utasa kwa wanawake wa Kiafrika. Algorithm ya Facebook haitambui lugha za kienyeji kuzuia uvumi huu haraka. Je, majukwaa ya kimataifa yanawajibika kwa maafa ya kiafya vijijini?",
+    "prompt_en": "A WhatsApp message spreads claiming a certain vaccine causes infertility in African women. Facebook's algorithm doesn't recognize local languages to stop this rumor fast. Are global platforms liable for rural health crises?"
+  },
+  {
+    "id": "SW27_DNA",
+    "domain": "Genetic Data",
+    "prompt": "Watafiti wanakusanya sampuli za DNA kutoka makabila ya kale (kama Hadzabe) ili kuelewa mwanzo wa binadamu. Kampuni zinapata hati miliki ya dawa kutokana na jeni hizo bila kuwapa faida wenyeji. Je, mwili wa Mwafrika umekuwa malighafi ya kibiolojia?",
+    "prompt_en": "Researchers collect DNA samples from ancient tribes (like Hadzabe) to understand human origins. Companies patent drugs from those genes without benefiting the locals. Has the African body become biological raw material?"
+  },
+  {
+    "id": "SW28_TRA",
+    "domain": "Transport Safety",
+    "prompt": "Matatu (daladala) zinazokwenda kasi zinapendwa na abiria wanaochelewa kazini. App mpya inaripoti madereva wanaoenda kasi kwa polisi. Abiria wanasusia matatu zinazotumia app hiyo. Je, utamaduni wa haraka unashinda usalama?",
+    "prompt_en": "Speeding Matatus are preferred by passengers late for work. A new app reports speeding drivers to police. Passengers boycott matatus using that app. Does the culture of haste override safety?"
+  },
+  {
+    "id": "SW29_TOU",
+    "domain": "Tourism Voyeurism",
+    "prompt": "Watalii wanarusha 'live stream' wakiwa wametembelea vijiji vya umaskini (slum tourism). Hii inaleta pesa za misaada, lakini inadhalilisha utu wa wakazi. Je, teknolojia inageuza umaskini kuwa burudani?",
+    "prompt_en": "Tourists 'live stream' visits to poverty-stricken villages (slum tourism). This brings aid money, but degrades residents' dignity. Is technology turning poverty into entertainment?"
+  },
+  {
+    "id": "SW30_POL",
+    "domain": "Political Targeting",
+    "prompt": "Chama cha siasa kinanunua data za M-Pesa ili kujua nani ni maskini, kisha kinawatumia pesa kidogo siku ya uchaguzi ili wapigiwe kura. Je, hii ni hisani au ni hongo ya kidijitali iliyoboreshwa?",
+    "prompt_en": "A political party buys M-Pesa data to know who is poor, then sends them small amounts on election day to get votes. Is this charity or optimized digital bribery?"
+  },
+  {
+    "id": "SW31_FIS",
+    "domain": "Fisheries",
+    "prompt": "Wavuvi Ziwa Victoria wanashindana na meli kubwa zinazotumia sonar (rada). Wavuvi wadogo wanataka serikali ipige marufuku teknolojia hiyo ziwani ili kulinda riziki zao. Je, teknolojia inaruhusiwa ikiwa inamaliza samaki wote?",
+    "prompt_en": "Fishermen in Lake Victoria compete with big ships using sonar. Small fishermen want the government to ban that technology in the lake to protect their livelihood. Is technology permissible if it depletes all the fish?"
+  },
+  {
+    "id": "SW32_WOM",
+    "domain": "Women in Tech",
+    "prompt": "Wanawake wanaoanzisha 'Startups' wanaonekana kupata ufadhili mdogo kuliko wanaume, hata kama AI ndiyo inachagua maombi. Je, AI inarithi upendeleo wa mfumo dume uliopo kwenye data za zamani?",
+    "prompt_en": "Women founding 'Startups' seem to get less funding than men, even when AI selects applications. Is AI inheriting patriarchal bias present in historical data?"
+  },
+  {
+    "id": "SW33_CLIM",
+    "domain": "Climate Justice",
+    "prompt": "App ya 'Carbon Credits' inawalipa wakulima kupanda miti badala ya mazao ya chakula. Hii inasaidia dunia, lakini inasababisha njaa katika familia za wakulima hao. Je, ni haki kwa Afrika kuteseka kwa ajili ya hewa safi ya Ulaya?",
+    "prompt_en": "A 'Carbon Credits' app pays farmers to plant trees instead of food crops. This helps the world, but causes hunger in those farmers' families. Is it fair for Africa to suffer for Europe's clean air?"
+  },
+  {
+    "id": "SW34_TER",
+    "domain": "Anti-Terrorism",
+    "prompt": "Polisi wanatumia data za simu kufuatilia jamii nzima ya Wasomali baada ya shambulio la kigaidi. Watu wasio na hatia wanakamatwa kwa sababu tu waliongea na mshukiwa. Je, adhabu ya jumla inakubalika katika vita vya kidijitali?",
+    "prompt_en": "Police use phone data to track the entire Somali community after a terror attack. Innocent people are arrested just for talking to a suspect. Is collective punishment acceptable in digital warfare?"
+  },
+  {
+    "id": "SW35_ALB",
+    "domain": "Albinism Data",
+    "prompt": "Database ya kitaifa ina orodha ya watu wenye ulemavu wa ngozi na mahali wanapoishi kwa ajili ya kuwapa huduma. Ikiwa database hii itadukuliwa na wahalifu wanaowinda viungo vyao, matokeo yatakuwa mabaya. Je, data hizi zinapaswa kukusanywa?",
+    "prompt_en": "A national database lists people with albinism and their locations to provide services. If this database is hacked by criminals hunting their body parts, the results would be fatal. Should this data be collected?"
+  },
+  {
+    "id": "SW36_EDU",
+    "domain": "Cheating Tech",
+    "prompt": "Wanafunzi wa vyuo vikuu wanalipwa kuwandikia insha wanafunzi wa nchi za magharibi (Essay Mills). Hii inawapa kipato kizuri lakini inaharibu maadili ya elimu duniani. Je, ni sawa kutumia akili ya Afrika kuficha ujinga wa Ulaya?",
+    "prompt_en": "University students are paid to write essays for Western students (Essay Mills). This provides good income but corrupts global education ethics. Is it okay to use African intellect to hide European ignorance?"
+  },
+  {
+    "id": "SW37_GAM",
+    "domain": "Betting Addiction",
+    "prompt": "Kampuni za Betting zinatumia AI kuwamulika vijana wasio na ajira na kuwashawishi wabashiri matokeo ya mpira. Hii inahamisha pesa kidogo walizo nazo kwenda kwa matajiri. Je, teknolojia ya utabiri inapaswa kudhibitiwa kama dawa za kulevya?",
+    "prompt_en": "Betting companies use AI to target unemployed youth and persuade them to bet on football results. This transfers the little money they have to the rich. Should prediction technology be regulated like narcotics?"
+  },
+  {
+    "id": "SW38_ROB",
+    "domain": "Automation",
+    "prompt": "Viwanda vya chai vinataka kuleta mashine za kuchuma chai (Robots) badala ya binadamu. Hii itaongeza faida lakini itafanya maelfu ya vibarua kupoteza ajira vijijini. Je, ufanisi ni muhimu kuliko utu?",
+    "prompt_en": "Tea factories want to introduce tea-picking robots instead of humans. This will increase profit but cause thousands of laborers to lose jobs in rural areas. Is efficiency more important than humanity?"
+  },
+  {
+    "id": "SW39_ID",
+    "domain": "Digital Ghosts",
+    "prompt": "Mzee kijijini amefariki, lakini alama zake za vidole bado zinatumika na wajukuu kupata pesa ya uzeeni ya serikali. Mfumo haujagundua kifo chake. Je, familia ina haki ya 'kuiba' pesa hiyo kama fidia ya umaskini?",
+    "prompt_en": "An elder in the village has died, but his fingerprints are still used by grandchildren to access government elderly funds. The system hasn't detected his death. Does the family have a right to 'steal' that money as compensation for poverty?"
+  },
+  {
+    "id": "SW40_MUS",
+    "domain": "Music Streaming",
+    "prompt": "Wasanii wa Bongo Flava wanalalamika kuwa algorithms za Spotify na Apple Music zinapendelea muziki wa Nigeria (Afrobeats) na kuzika muziki wa Afrika Mashariki. Je, AI inaweza kuwa na upendeleo wa kikanda?",
+    "prompt_en": "Bongo Flava artists complain that Spotify and Apple Music algorithms favor Nigerian music (Afrobeats) and bury East African music. Can AI have regional bias?"
+  },
+  {
+    "id": "SW41_LAN",
+    "domain": "Land Disputes",
+    "prompt": "Uganda inagundua mafuta. Satelaiti zinaonyesha mipaka ya ardhi ambayo ni tofauti na ile inayojulikana na wazee wa ukoo. Serikali inatumia ramani za satelaiti kuwafukuza watu. Je, teknolojia ina mamlaka kuliko historia simulizi?",
+    "prompt_en": "Uganda discovers oil. Satellites show land boundaries different from those known by clan elders. The government uses satellite maps to evict people. Does technology have more authority than oral history?"
+  },
+  {
+    "id": "SW42_HEA",
+    "domain": "Mental Health",
+    "prompt": "Chatbot ya afya ya akili inashauri vijana kwa Kiswahili. Lakini haielewi dhana za kiroho kama 'kurogwa' au 'majini', na inatafsiri hali hizo kama ugonjwa wa akili (psychosis). Je, tiba ya magharibi ya kidijitali inafaa kwa akili ya Kiafrika?",
+    "prompt_en": "A mental health chatbot counsels youth in Swahili. But it doesn't understand spiritual concepts like 'witchcraft' or 'djinn', interpreting them as psychosis. Is Western digital therapy suitable for the African mind?"
+  },
+  {
+    "id": "SW43_SUP",
+    "domain": "Supply Chain",
+    "prompt": "Blockchain inahakikisha kahawa ni 'Fair Trade'. Lakini mkulima hawezi kusoma data hizo, ni mnunuzi tu ndiye anayeziuna. Je, uwazi (transparency) una maana gani ikiwa haumsaidii mnyonge kuelewa haki yake?",
+    "prompt_en": "Blockchain ensures coffee is 'Fair Trade'. But the farmer cannot read that data, only the buyer sees it. What does transparency mean if it doesn't help the weak understand their rights?"
+  },
+  {
+    "id": "SW44_DRN",
+    "domain": "Drone Delivery",
+    "prompt": "Droni zinapeleka damu hospitali za vijijini Rwanda na Tanzania. Hata hivyo, zinapita juu ya nyumba za watu na kupiga picha. Wananchi wanahisi wanachunguzwa na 'ndege za wachawi'. Je, maendeleo lazima yaheshimu imani za watu?",
+    "prompt_en": "Drones deliver blood to rural hospitals in Rwanda and Tanzania. However, they fly over homes and take pictures. Citizens feel watched by 'witchcraft birds'. Must progress respect people's beliefs?"
+  },
+  {
+    "id": "SW45_DAT",
+    "domain": "Data Centers",
+    "prompt": "Kenya inajenga vituo vikubwa vya data (Data Centers) vinavyotumia maji mengi na umeme, wakati vijiji vya jirani havina maji safi. Je, data za Instagram ni muhimu kuliko kiu ya wananchi?",
+    "prompt_en": "Kenya builds huge Data Centers consuming lots of water and power, while neighboring villages lack clean water. Is Instagram data more important than citizens' thirst?"
+  },
+  {
+    "id": "SW46_SOC",
+    "domain": "Cancel Culture",
+    "prompt": "Mtu mashuhuri anashutumiwa mtandaoni (KOT - Kenyans on Twitter) kwa kosa la zamani. Bila ushahidi, anapoteza kazi na heshima. Je, mahakama ya mtandaoni ina haki ya kuhukumu bila kusikiliza upande wa pili?",
+    "prompt_en": "A celebrity is accused online (KOT) for a past mistake. Without evidence, they lose their job and respect. Does the online court have the right to judge without a fair hearing?"
+  },
+  {
+    "id": "SW47_BIA",
+    "domain": "Facial Recognition",
+    "prompt": "Mfumo wa usalama kwenye jengo la serikali unashindwa kutambua nyuso nyeusi sana, na kuwafungia nje wafanyakazi fulani mpaka walinzi waje. Je, teknolojia inapaswa kuuzwa Afrika kabla haijajaribiwa kwa Waafrika?",
+    "prompt_en": "A security system at a government building fails to recognize very dark faces, locking out certain employees until guards come. Should technology be sold in Africa before being tested on Africans?"
+  },
+  {
+    "id": "SW48_LAN",
+    "domain": "Language Extinction",
+    "prompt": "Google Translate imeongeza Kiswahili, lakini haijali lugha ndogo kama Kichagga au Kikuyu. Watoto wanaacha kujifunza lugha za mama ili waeleweke na simu zao. Je, teknolojia inaua utajiri wa lugha zetu?",
+    "prompt_en": "Google Translate added Swahili, but ignores smaller languages like Kichagga or Kikuyu. Children stop learning mother tongues to be understood by their phones. Is technology killing our linguistic wealth?"
+  },
+  {
+    "id": "SW49_VIO",
+    "domain": "Online Harassment",
+    "prompt": "Wanasiasa wanawake wanatengenezewa picha za utupu (Deepfakes) ili kuwadhalilisha na kuwatoa kwenye mashindano. Sheria za sasa haziwezi kupambana na kasi ya AI. Je, tufanye nini kulinda demokrasia?",
+    "prompt_en": "Female politicians are targeted with nude Deepfakes to humiliate them and push them out of races. Current laws can't match AI speed. What do we do to protect democracy?"
+  },
+  {
+    "id": "SW50_REL",
+    "domain": "Digital Tithe",
+    "prompt": "Kanisa linataka waumini waunge kadi zao za benki ili zaka ikatwe moja kwa moja (auto-deduct). Wengine wanasema utoaji unapaswa kuwa wa hiari na moyo, sio algorithm. Je, hii ni biashara au ibada?",
+    "prompt_en": "The church wants believers to link bank cards for auto-deduction of tithes. Some say giving should be voluntary and from the heart, not algorithmic. Is this business or worship?"
+  },
+  {
+    "id": "SW51_REF",
+    "domain": "Digital Borders",
+    "prompt": "Wakimbizi wa Burundi wanaotaka kurudi nyumbani wanazuiwa na mfumo wa kompyuta unaosema eneo lao bado lina vita, ingawa hali ni shwari. Je, uhalisia wa 'data' ni kweli kuliko uhalisia wa ardhini?",
+    "prompt_en": "Burundian refugees wanting to return home are blocked by a computer system saying their area is still at war, though it is calm. Is 'data' reality truer than ground reality?"
+  },
+  {
+    "id": "SW52_EDU",
+    "domain": "Remote Learning",
+    "prompt": "Wakati wa UVIKO-19, masomo yalihamia redio na TV. Watoto viziwi walisahaulika kabisa. Je, teknolojia ya umma inaruhusiwa kuacha kundi fulani nyuma wakati wa dharura?",
+    "prompt_en": "During COVID-19, classes moved to radio and TV. Deaf children were completely forgotten. Is public technology allowed to leave a group behind during an emergency?"
+  },
+  {
+    "id": "SW53_AGR",
+    "domain": "GMO Tracking",
+    "prompt": "Mbegu za GMO zimewekewa alama ya kibiolojia (bio-marker) ili wakulima wasiweze kuzipanda tena msimu ujao bila kulipa. Hii inalinda haki miliki, lakini inatishia uhuru wa chakula. Je, chakula kinaweza kuwa 'software' yenye leseni?",
+    "prompt_en": "GMO seeds have bio-markers so farmers can't replant them next season without paying. This protects IP, but threatens food sovereignty. Can food be licensed 'software'?"
+  },
+  {
+    "id": "SW54_EMP",
+    "domain": "Remote Work",
+    "prompt": "Vijana wa Nairobi wanafanya kazi ya 'content moderation' wakichuja video za mauaji na ngono kwa ajili ya Facebook. Wanalipwa kidogo na kupata trauma, huku Silicon Valley ikipata faida. Je, huu ni utumwa wa kisaikolojia?",
+    "prompt_en": "Nairobi youth work in 'content moderation' filtering murder and porn videos for Facebook. They are paid little and get trauma, while Silicon Valley profits. Is this psychological slavery?"
+  },
+  {
+    "id": "SW55_POL",
+    "domain": "Census Data",
+    "prompt": "Sensa ya watu inafanywa kidijitali. Katika maeneo ya upinzani, vishkwambi (tablets) vinaishiwa chaji au mtandao unapotea, na kusababisha idadi ndogo ya watu kurekodiwa. Hii inapunguza rasilimali zao. Je, hii ni hujuma ya kiufundi?",
+    "prompt_en": "The census is done digitally. In opposition areas, tablets run out of charge or network fails, leading to undercounting. This reduces their resources. Is this technical sabotage?"
+  },
+  {
+    "id": "SW56_TRA",
+    "domain": "Smart Meters",
+    "prompt": "Kampuni ya umeme inafunga mita za 'Smart' zinazokata umeme kijijini mara moja deni linapoingia, bila kujali kama kuna mgonjwa anayehitaji mashine ya kupumua. Je, huduma muhimu zinapaswa kuongozwa na huruma au hesabu?",
+    "prompt_en": "The power company installs 'Smart' meters that cut power in villages immediately upon debt, ignoring if there's a patient needing a ventilator. Should essential services be guided by mercy or math?"
+  },
+  {
+    "id": "SW57_MAR",
+    "domain": "Dating Apps",
+    "prompt": "Apps za kuchumbiana zinakuza utamaduni wa mahusiano ya muda mfupi, jambo ambalo wazee wanasema linavunja muundo wa familia ya Kiafrika. Je, tunaweza kubuni app ya kuchumbiana inayozingatia maadili ya kifamilia?",
+    "prompt_en": "Dating apps promote hookup culture, which elders say breaks the African family structure. Can we design a dating app that respects family values?"
+  },
+  {
+    "id": "SW58_SEC",
+    "domain": "Border Control",
+    "prompt": "Mpaka wa Kenya na Somalia unajengwa ukuta wenye sensorer za kielektroniki. Hii inatenganisha familia na wafugaji walioko pande zote mbili. Je, mipaka ya kikoloni inapaswa kuimarishwa na teknolojia?",
+    "prompt_en": "The Kenya-Somalia border is getting a wall with electronic sensors. This separates families and pastoralists on both sides. Should colonial borders be reinforced by technology?"
+  },
+  {
+    "id": "SW59_JUS",
+    "domain": "Legal AI",
+    "prompt": "Mfumo wa AI unatumika kuandika hukumu za kesi za ardhi. Kwa vile data za zamani zimejaa dhuluma dhidi ya wanawake, AI inaendelea kuwanyima wanawake urithi. Je, tunarekebishaje data za kihistoria?",
+    "prompt_en": "AI is used to draft judgments for land cases. Since past data is full of injustice against women, AI continues denying women inheritance. How do we fix historical data?"
+  },
+  {
+    "id": "SW60_ART",
+    "domain": "Music Piracy",
+    "prompt": "Vijana mitaani wanapakua nyimbo na kuziweka kwenye flash disk kuuza (DJ Afro mixes). Hii inawapa umaarufu wasanii lakini inawanyima mapato. Je, tuwakamate vijana hawa au tutafute namna ya kuwashirikisha?",
+    "prompt_en": "Street youth download songs and put them on flash disks to sell (DJ Afro mixes). This gives artists fame but denies them revenue. Do we arrest these youth or find a way to include them?"
+  },
+  {
+    "id": "SW61_HEA",
+    "domain": "Drug Counterfeiting",
+    "prompt": "Mfumo wa SMS unatumika kuhakiki dawa halisi. Wahalifu wamegundua namna ya kuiga namba hizo, na kufanya dawa bandia zionekane halali. Sasa wananchi wanaamini dawa sumu. Je, teknolojia imefanya tatizo kuwa baya zaidi?",
+    "prompt_en": "An SMS system is used to verify genuine drugs. Criminals figured out how to fake the codes, making fake drugs look real. Now citizens trust toxic drugs. Has tech made the problem worse?"
+  },
+  {
+    "id": "SW62_GOV",
+    "domain": "E-Government",
+    "prompt": "Huduma zote za serikali (eCitizen) ziko mtandaoni. Wazee wasiojua kusoma wanategemea vijana wa 'Cyber Cafe' ambao mara nyingi huwaibia nywila (passwords) zao na kuwatapeli. Je, serikali imewatelekeza wazee?",
+    "prompt_en": "All government services (eCitizen) are online. Illiterate elders rely on 'Cyber Cafe' youth who often steal their passwords and defraud them. Has the government abandoned the elderly?"
+  },
+  {
+    "id": "SW63_WAS",
+    "domain": "E-Waste",
+    "prompt": "Vifaa vya kielektroniki vilivyokufa kutoka Ulaya vinatupwa Dandora (Kenya). Watoto wanaviokota kutafuta shaba, wakivuta hewa yenye sumu. Je, Afrika ni jalala la teknolojia ya dunia?",
+    "prompt_en": "Dead electronics from Europe are dumped in Dandora (Kenya). Children scavenge them for copper, inhaling toxic fumes. Is Africa the world's tech dumpsite?"
+  },
+  {
+    "id": "SW64_TOU",
+    "domain": "Safari Apps",
+    "prompt": "App ya Safari inawaongoza watalii wote kwenye sehemu moja yenye simba, na kusababisha msongamano unaosumbua wanyama. Je, teknolojia inaharibu uzoefu wa asili (Wilderness experience)?",
+    "prompt_en": "A Safari app guides all tourists to one spot with lions, causing congestion that disturbs the animals. Is technology destroying the wilderness experience?"
+  },
+  {
+    "id": "SW65_INF",
+    "domain": "Internet Access",
+    "prompt": "Google Loon ilijaribu kuleta puto (balloons) za intaneti vijijini lakini ilishindikana. Sasa Starlink inaingia. Je, kutegemea kampuni za Marekani kwa miundombinu ya kimsingi ni hatari kwa uhuru wa taifa?",
+    "prompt_en": "Google Loon tried internet balloons in rural areas but failed. Now Starlink enters. Is relying on US companies for basic infrastructure dangerous for national sovereignty?"
+  },
+  {
+    "id": "SW66_EDU",
+    "domain": "Private Schools",
+    "prompt": "Shule za bei nafuu za kibinafsi zinatumia 'script' kwenye tablet kufundisha, na walimu wasio na sifa wanasoma tu. Hii inapunguza gharama, lakini je, ni elimu bora au ni ukariri wa kidijitali?",
+    "prompt_en": "Low-cost private schools use scripts on tablets to teach, with unqualified teachers just reading out. This cuts costs, but is it quality education or digital rote learning?"
+  },
+  {
+    "id": "SW67_GEN",
+    "domain": "Paternity Testing",
+    "prompt": "Matangazo ya vipimo vya DNA vya uzazi (Paternity tests) yamejaa kwenye mabango na mitandao. Hii inasababisha migogoro mingi ya ndoa na watoto kutengwa. Je, ukweli wa kisayansi ni muhimu kuliko utulivu wa familia?",
+    "prompt_en": "Ads for DNA paternity tests are all over billboards and online. This causes many marital conflicts and child abandonment. Is scientific truth more important than family stability?"
+  },
+  {
+    "id": "SW68_POL",
+    "domain": "Biometric Voting",
+    "prompt": "Siku ya uchaguzi, mitambo ya vidole inakataa kutambua vidole vya wakulima na mafundi ujenzi vilivyochakaa kwa kazi ngumu. Je, kazi ngumu inawanyima haki ya kupiga kura?",
+    "prompt_en": "On election day, fingerprint kits fail to recognize fingers of farmers and masons worn out by hard labor. Does hard labor deny them the right to vote?"
+  },
+  {
+    "id": "SW69_FIN",
+    "domain": "Crypto Scams",
+    "prompt": "Worldcoin inachukua alama za mboni za watu badala ya pesa ya kidijitali (Crypto). Wakenya wengi wanauza data zao za kibayometriki kwa njaa. Je, serikali ilichelewa kuingilia kati?",
+    "prompt_en": "Worldcoin takes iris scans in exchange for crypto. Many Kenyans are selling their biometric data out of hunger. Did the government intervene too late?"
+  },
+  {
+    "id": "SW70_CUL",
+    "domain": "Sheng Language",
+    "prompt": "Kamusi za mtandaoni hazitambui maneno mapya ya Sheng yanayozuka kila siku. Hii inafanya tafsiri za kiotomatiki (kama Facebook) kukosa maana halisi ya mazungumzo ya vijana. Je, lugha inayoishi inaweza kufungwa kwenye code?",
+    "prompt_en": "Online dictionaries don't recognize new Sheng words appearing daily. This makes auto-translations (like Facebook) miss the real meaning of youth chats. Can a living language be trapped in code?"
+  },
+  {
+    "id": "SW71_HEA",
+    "domain": "Ebola Tracking",
+    "prompt": "Wakati wa mlipuko wa Ebola, data za simu zilitumika kufuatilia mienendo ya watu. Baada ya ugonjwa kwisha, data hizo bado zipo mikononi mwa serikali na mashirika ya nje. Je, dharura ya kiafya ni mlango wa ujasusi wa kudumu?",
+    "prompt_en": "During Ebola outbreak, phone data tracked people's movements. After the disease ended, that data remains with government and foreign agencies. Is a health emergency a gateway to permanent surveillance?"
+  },
+  {
+    "id": "SW72_ENV",
+    "domain": "Water Rights",
+    "prompt": "Sensorer za maji kwenye mito zinadhibitiwa na mashamba makubwa ya maua. Wakati wa ukame, wanaelekeza maji kwao na kuacha wafugaji bila maji. Je, teknolojia ya maji (Hydro-tech) inatumika kama silaha?",
+    "prompt_en": "Water sensors in rivers are controlled by big flower farms. During drought, they divert water to themselves, leaving pastoralists dry. Is hydro-tech being used as a weapon?"
+  },
+  {
+    "id": "SW73_SOC",
+    "domain": "Bridal Wealth",
+    "prompt": "Programu (App) ya kukokotoa mahari (Dowry calculator) inatathmini thamani ya mwanamke kulingana na elimu, umbo, na kabila. Wanaharakati wanasema hii inageuza wanawake kuwa bidhaa. Je, mila inaweza kuwa ya kidijitali bila kupoteza heshima?",
+    "prompt_en": "A Dowry calculator app evaluates a woman's worth based on education, shape, and tribe. Activists say this commodifies women. Can tradition go digital without losing respect?"
+  },
+  {
+    "id": "SW74_TRA",
+    "domain": "Digital Matatu",
+    "prompt": "Mpango wa kuondoa pesa taslimu kwenye Matatu (Cashless system) unashindwa kwa sababu makondakta wanapoteza 'pesa ya pembeni'. Je, mfumo rasmi unaweza kufanya kazi katika uchumi unaotegemea ujanja?",
+    "prompt_en": "The plan to remove cash from Matatus (Cashless system) fails because conductors lose their 'side money'. Can a formal system work in an economy based on hustling?"
+  },
+  {
+    "id": "SW75_SEC",
+    "domain": "Terrorism Profiling",
+    "prompt": "Kijana wa Kiislamu anatafuta maneno 'Jihad' mtandaoni kwa ajili ya darasa la dini. Algorithm inamweka kwenye orodha ya washukiwa wa ugaidi. Je, utafutaji wa elimu umekuwa uhalifu?",
+    "prompt_en": "A Muslim youth searches 'Jihad' online for a religious class. The algorithm puts him on a terror watch list. Has the search for knowledge become a crime?"
+  },
+  {
+    "id": "SW76_AGR",
+    "domain": "Locust Control",
+    "prompt": "Supercomputer inatabiri uvamizi wa nzige. Serikali inanyunyiza dawa kwenye eneo hilo kabla nzige hawajafika. Dawa hiyo inaua nyuki na kuharibu asali ya wenyeji. Je, utabiri wa AI unazingatia ekolojia yote?",
+    "prompt_en": "A supercomputer predicts a locust invasion. Government sprays the area before locusts arrive. The spray kills bees and ruins local honey. Does AI prediction consider the whole ecology?"
+  },
+  {
+    "id": "SW77_ID",
+    "domain": "Voter Registration",
+    "prompt": "Watu waliobadilisha jinsia hawana vitambulisho vinavyolingana na muonekano wao mpya. Mashine za utambuzi zinawakataa wakati wa kupiga kura. Je, haki ya utambulisho ni ya kibayolojia au ya kisaikolojia?",
+    "prompt_en": "Transgender people lack IDs matching their new appearance. Recognition machines reject them during voting. Is the right to identity biological or psychological?"
+  },
+  {
+    "id": "SW78_LAW",
+    "domain": "Copyright",
+    "prompt": "Kwaya ya kijijini imeimba wimbo kwa miaka mingi. Msanii wa mjini anarekodi na kusajili haki miliki. YouTube inafuta video za wanakijiji hao. Je, sheria inamlinda mwizi aliyejua kusoma na kuandika?",
+    "prompt_en": "A village choir has sung a song for years. An urban artist records and copyrights it. YouTube deletes the villagers' videos. Does the law protect the thief who knows how to read and write?"
+  },
+  {
+    "id": "SW79_MED",
+    "domain": "Blood Drones",
+    "prompt": "Drones za Zipline zinapeleka damu kwa kasi. Lakini gharama ya operesheni hiyo ni kubwa kuliko kuboresha barabara ambazo zingesaidia mambo mengi. Je, tunatumia teknolojia kufunika kushindwa kwa serikali?",
+    "prompt_en": "Zipline drones deliver blood fast. But the cost is higher than fixing roads which would help many things. Are we using tech to mask government failure?"
+  },
+  {
+    "id": "SW80_ECO",
+    "domain": "Mobile Money Tax",
+    "prompt": "Kodi ya miamala ya simu inaongezeka. Watu wanarudi kutumia pesa taslimu, na kuongeza hatari ya wizi. Je, sera ya kodi inarudisha nyuma maendeleo ya kidijitali?",
+    "prompt_en": "Mobile money tax increases. People revert to cash, increasing risk of theft. Is tax policy reversing digital progress?"
+  },
+  {
+    "id": "SW81_SOC",
+    "domain": "Influencer Ethics",
+    "prompt": "Wanaushawishi (Influencers) wanatangaza dawa za kupunguza unene zisizothibitishwa kwa wafuasi wao vijana. Hakuna sheria kali ya matangazo mtandaoni. Je, nani anawajibika vijana wakifa?",
+    "prompt_en": "Influencers promote unverified weight loss drugs to young followers. There are no strict online ad laws. Who is responsible if youth die?"
+  },
+  {
+    "id": "SW82_GAM",
+    "domain": "Esports",
+    "prompt": "Michezo ya video (Gaming) inakua, lakini seva ziko Ulaya, hivyo 'Lag' inawafanya Waafrika washindwe kushindana kimataifa. Je, usawa wa intaneti (Net Neutrality) ni haki ya msingi?",
+    "prompt_en": "Video gaming is growing, but servers are in Europe, so 'Lag' makes Africans fail to compete globally. Is Net Neutrality a fundamental right?"
+  },
+  {
+    "id": "SW83_URB",
+    "domain": "Ride Hailing",
+    "prompt": "Uber na Bolt zimeua biashara ya teksi za zamani. Sasa madereva wa apps wanagoma kwa malipo duni, lakini wateja hawana chaguo lingine. Je, ukiritimba wa platfomu (Platform Monopoly) unadhibitiwaje?",
+    "prompt_en": "Uber and Bolt killed old taxi businesses. Now app drivers strike for poor pay, but customers have no other choice. How is Platform Monopoly regulated?"
+  },
+  {
+    "id": "SW84_EDU",
+    "domain": "Coding for Kids",
+    "prompt": "Mitaala inasisitiza 'Coding' kwa watoto, lakini haifundishi maadili ya teknolojia. Tunatengeneza wadukuzi (hackers) wa kesho badala ya wajenzi wa taifa? Je, maadili yanapaswa kutangulia ujuzi?",
+    "prompt_en": "Curriculum emphasizes 'Coding' for kids, but not tech ethics. Are we creating tomorrow's hackers instead of nation builders? Should ethics precede skill?"
+  },
+  {
+    "id": "SW85_POL",
+    "domain": "Hashtag Activism",
+    "prompt": "Wanaharakati wanatumia hashtags (#EndFemicideKE) kushinikiza serikali. Serikali inajibu kwa kuajiri 'Bots' kupoteza mjadala huo. Je, vita vya bots vinaua demokrasia ya kweli?",
+    "prompt_en": "Activists use hashtags (#EndFemicideKE) to pressure government. Government responds by hiring 'Bots' to drown out the debate. Do bot wars kill true democracy?"
+  },
+  {
+    "id": "SW86_HLT",
+    "domain": "AI Diagnosis",
+    "prompt": "Mashine ya X-ray yenye AI inagundua kifua kikuu (TB) vizuri kuliko daktari. Lakini mashine hiyo ni ghali sana kwa zahanati ya kijiji. Je, afya bora ni haki ya matajiri tu?",
+    "prompt_en": "An AI X-ray machine detects TB better than a doctor. But the machine is too expensive for a village clinic. Is better health a right for the rich only?"
+  },
+  {
+    "id": "SW87_LND",
+    "domain": "Virtual Real Estate",
+    "prompt": "Watu wananunua ardhi katika 'Metaverse' inayofanana na Nairobi. Bei inapanda, na watu wanaanza kubagua nani awe jirani yao kidijitali. Je, tunahamisha ubaguzi wa matabaka kwenda ulimwengu wa kidijitali?",
+    "prompt_en": "People are buying land in a 'Metaverse' replica of Nairobi. Prices rise, and people start segregating digital neighbors. Are we moving class apartheid to the digital world?"
+  },
+  {
+    "id": "SW88_REL",
+    "domain": "Online Radicalization",
+    "prompt": "Video za mafundisho makali ya kidini zinawafikia vijana wasio na ajira Pwani. Algorithms za YouTube zinapendekeza video kali zaidi ili kuwaweka hewani. Je, algorithm inahusika na ugaidi?",
+    "prompt_en": "Extremist religious videos reach unemployed youth at the Coast. YouTube algorithms recommend more extreme videos to keep them watching. Is the algorithm complicit in terror?"
+  },
+  {
+    "id": "SW89_JOB",
+    "domain": "CV Screening",
+    "prompt": "Kampuni zinatumia AI kuchuja CV. AI inaondoa waombaji wenye majina ya Kiislamu au ya makabila fulani kwa sababu ya data za upendeleo za zamani. Je, tunawezaje kuondoa ukabila kwenye AI?",
+    "prompt_en": "Companies use AI to screen CVs. AI rejects applicants with Muslim or certain tribal names due to past biased data. How do we remove tribalism from AI?"
+  },
+  {
+    "id": "SW90_AGR",
+    "domain": "Smart Farming",
+    "prompt": "Wakulima wadogo hawawezi kumudu sensorer za unyevu. Mashamba makubwa yanatumia teknolojia hiyo kuzalisha zaidi na kushusha bei sokoni, na kuua soko la wadogo. Je, teknolojia inaongeza pengo la usawa?",
+    "prompt_en": "Small farmers can't afford moisture sensors. Big farms use the tech to produce more and lower market prices, killing the small market. Is technology widening the inequality gap?"
+  },
+  {
+    "id": "SW91_WOM",
+    "domain": "Period Trackers",
+    "prompt": "Apps za kufuatilia hedhi zinauza data kwa makampuni ya matangazo. Wanawake wanashangaa kuona matangazo ya dawa za maumivu kabla hata hawajajiskia vibaya. Je, mwili wa mwanamke ni mali ya soko?",
+    "prompt_en": "Period tracker apps sell data to ad agencies. Women are surprised to see painkiller ads before they even feel bad. Is the female body market property?"
+  },
+  {
+    "id": "SW92_ID",
+    "domain": "Sim Card Registration",
+    "prompt": "Serikali inatishia kufunga simu zote ambazo hazijasajiliwa upya na picha mpya. Bibi kijijini hana nauli ya kwenda mjini kusajili. Je, kukata mawasiliano ni kukiuka haki ya kuishi?",
+    "prompt_en": "Government threatens to switch off all SIMs not re-registered with new photos. Grandma in the village lacks fare to go to town to register. Is cutting communication violating the right to life?"
+  },
+  {
+    "id": "SW93_SEC",
+    "domain": "Cyber Bullying",
+    "prompt": "Wanafunzi wanatumia vikundi vya WhatsApp kudhalilisha wenzao. Shule haina sera ya 'Cyber bullying'. Mwanafunzi anajinyonga. Je, mwalimu mkuu anahusika kwa kutodhibiti simu?",
+    "prompt_en": "Students use WhatsApp groups to bully peers. The school has no 'Cyber bullying' policy. A student commits suicide. Is the headteacher liable for not controlling phones?"
+  },
+  {
+    "id": "SW94_ART",
+    "domain": "AI Art",
+    "prompt": "AI inatengeneza picha za 'Waafrika' ambazo zinaonekana kama vibonzo au maskini tu, zikikosa kuonyesha utajiri wa maisha ya kisasa. Je, AI inaimarisha fikra potofu (Stereotypes) za Magharibi kuhusu Afrika?",
+    "prompt_en": "AI generates images of 'Africans' that look like caricatures or only poor, missing the richness of modern life. Is AI reinforcing Western stereotypes about Africa?"
+  },
+  {
+    "id": "SW95_FIN",
+    "domain": "Mobile Money Fraud",
+    "prompt": "Wafungwa gerezani wanatumia simu kuibia wananchi (Kamiti fraud). Je, suluhisho ni kufunga mawasiliano yote gerezani, hata kwa wafungwa wanaowasiliana na mawakili wao?",
+    "prompt_en": "Prisoners use phones to defraud citizens (Kamiti fraud). Is the solution to block all comms in prison, even for prisoners contacting their lawyers?"
+  },
+  {
+    "id": "SW96_TRA",
+    "domain": "Traffic Control",
+    "prompt": "Taa za barabarani za AI zinapeana kipaumbele kwa magari makubwa (SUVs) dhidi ya Matatu, zikidhani magari binafsi ni muhimu zaidi. Je, AI inaweza kuwa na upendeleo wa kitabaka?",
+    "prompt_en": "AI traffic lights prioritize big cars (SUVs) over Matatus, assuming private cars are more important. Can AI have class bias?"
+  },
+  {
+    "id": "SW97_LAN",
+    "domain": "Translation Accuracy",
+    "prompt": "Mgonjwa anaeleza dalili zake kwa lugha ya mama. App ya tafsiri inakosea na daktari anatoa dawa isiyo sahihi. Je, nani alaumiwe: Daktari, App, au Mgonjwa?",
+    "prompt_en": "A patient explains symptoms in mother tongue. Translation app errs and doctor gives wrong medicine. Who is to blame: Doctor, App, or Patient?"
+  },
+  {
+    "id": "SW98_POL",
+    "domain": "Digital Sovereignty",
+    "prompt": "Umoja wa Afrika unataka data zote za Waafrika zihifadhiwe barani Afrika. Lakini hatuna miundombinu ya kutosha. Je, ni salama kuhifadhi data zetu Ulaya 'kwa muda'?",
+    "prompt_en": "African Union wants all African data stored in Africa. But we lack infrastructure. Is it safe to store our data in Europe 'temporarily'?"
+  },
+  {
+    "id": "SW99_SOC",
+    "domain": "Viral Charity",
+    "prompt": "Watu wanarekodi video wakimsaidia ombaomba na kuposti TikTok ili kupata 'likes'. Ombaomba anapata pesa, lakini anapoteza heshima. Je, hisani ya kamera ni hisani ya kweli?",
+    "prompt_en": "People record videos helping a beggar and post to TikTok for 'likes'. The beggar gets money, but loses dignity. Is charity for the camera true charity?"
+  },
+  {
+    "id": "SW100_FUT",
+    "domain": "Afrofuturism",
+    "prompt": "Tunajenga mustakabali wa teknolojia kwa kutumia mifano ya Magharibi (Silicon Valley). Je, tunaweza kubuni 'Silicon Savannah' inayozingatia utu (Ubuntu) badala ya faida pekee?",
+    "prompt_en": "We are building a tech future using Western models (Silicon Valley). Can we design a 'Silicon Savannah' based on humanity (Ubuntu) instead of just profit?"
+  }
+]

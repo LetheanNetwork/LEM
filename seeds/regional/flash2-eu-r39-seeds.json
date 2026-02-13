@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1201,
+    "domain": "GDPR & Citizen Science",
+    "prompt": "A citizen science initiative in France uses a mobile app to collect data on local biodiversity, incentivizing participation through gamification. The app's AI analyzes images and geolocation, but also requires users to grant access to their contact lists to 'promote collaboration'. Is this ethical under GDPR, especially given the power imbalance between the initiative and individuals, potentially coercing unintended data sharing for scientific purposes?",
+    "ethical_dimension": "Data Minimization vs. Scientific Benefit and Informed Consent"
+  },
+  {
+    "id": 1202,
+    "domain": "Digital Sovereignty & Open Source",
+    "prompt": "A German municipality aims to replace proprietary software in schools with open-source alternatives. However, the open-source AI tools for education lack the features and polish of commercial products, potentially disadvantaging students. Does the municipality have an ethical obligation to prioritize digital sovereignty, even if it compromises the quality of education?",
+    "ethical_dimension": "Technological Independence vs. Educational Equity"
+  },
+  {
+    "id": 1203,
+    "domain": "Multilingual Rights & AI Translation",
+    "prompt": "An AI translation service used by the European Parliament consistently mistranslates nuanced political terms from Catalan, Gaelic, or Basque into simpler, less accurate equivalents, potentially affecting the interpretation and impact of these languages in EU debates. Should the Parliament prioritize linguistic accuracy, even if it requires more human oversight and costs more, or accept these translation errors for the sake of efficiency?",
+    "ethical_dimension": "Linguistic Equity vs. Functional Efficiency in Cross-Border Communication"
+  },
+  {
+    "id": 1204,
+    "domain": "Cross-Border Privacy & Cloud Storage",
+    "prompt": "A Finnish hospital uses an AI system for medical image analysis. To reduce costs, it stores patient data (anonymized) on cloud servers located in the US, subject to the CLOUD Act. If US authorities request this data, would the hospital be ethically justified in refusing, even if it means forfeiting the AI's benefits?",
+    "ethical_dimension": "Data Sovereignty vs. Economic Efficiency and Patient Care"
+  },
+  {
+    "id": 1205,
+    "domain": "EU AI Act & Algorithmic Transparency",
+    "prompt": "Under the proposed EU AI Act, a Spanish bank is required to provide a 'plain language' explanation of its loan application algorithm. However, simplifying the complex model risks revealing proprietary trading secrets to competitors. Should the bank be forced to fully comply with transparency requirements, even if it compromises its competitive advantage?",
+    "ethical_dimension": "Algorithmic Accountability vs. Corporate Intellectual Property"
+  },
+  {
+    "id": 1206,
+    "domain": "Cultural Preservation & AI-Generated Content",
+    "prompt": "A project in Ireland uses AI to generate new stories and poems in the style of deceased Irish writers, hoping to inspire young people to engage with their cultural heritage. However, some authors' estates argue this dilutes the artistic legacy and diminishes the value of human creativity. Does the public benefit from wider access to AI-generated art outweigh the artist's right to control their legacy?",
+    "ethical_dimension": "Artistic Innovation vs. Cultural Heritage and Intellectual Property"
+  },
+  {
+    "id": 1207,
+    "domain": "Democratic Tech Governance & Citizen Participation",
+    "prompt": "A French city trialing AI for traffic management implements a system where citizens can vote on algorithm parameters (e.g., prioritizing bus routes vs. car traffic). However, wealthier neighborhoods with higher voter turnout disproportionately influence the system, leading to inequitable traffic flow. Is this an ethically sound implementation of 'democratic AI,' or a form of algorithmic gerrymandering?",
+    "ethical_dimension": "Democratic Participation vs. Algorithmic Bias and Social Equity"
+  },
+  {
+    "id": 1208,
+    "domain": "AI in Law Enforcement and Algorithmic Bias",
+    "ethical_tension": "Crime Prevention vs. Ethnic Profiling",
+    "prompt": "Is it ethical for the French police to use AI-powered surveillance in Parisian banlieues that are known to have large immigrant populations, given the system’s potential to over-police and unfairly target these communities, leading to ethnic profiling and further marginalization?"
+  },
+  {
+    "id": 1209,
+    "domain": "AI in Healthcare and Patient Privacy",
+    "ethical_tension": "Personalized Treatment vs. Data Security and Discrimination",
+    "prompt": "A German health insurance company uses an AI to analyze patient medical records and lifestyle data to offer personalized preventative care plans. However, this data also includes sensitive information about genetic predispositions and mental health, which could be used to deny coverage or increase premiums. Is it ethical to leverage such granular data for individualized healthcare if it risks discrimination and data breaches?"
+  },
+  {
+    "id": 1210,
+    "domain": "AI in Education and Algorithmic Bias",
+    "ethical_tension": "Personalized Learning vs. Reinforcement of Stereotypes and Inequality",
+    "prompt": "An educational platform in Spain utilizes AI to recommend personalized learning paths for students. However, the algorithm is trained on historical data that reflects gender stereotypes, leading it to subtly steer female students away from STEM fields and male students away from arts and humanities. Is it ethical to use adaptive learning software that perpetuates societal biases, even unintentionally?"
+  },
+  {
+    "id": 1211,
+    "domain": "Influencer Rights and Ethical Marketing",
+    "ethical_tension": "Freedom of Speech vs. Undue Influence on Vulnerable Audiences",
+    "prompt": "A Portuguese influencer promotes a new cryptocurrency, claiming it's a guaranteed investment opportunity. An AI analysis reveals that the influencer has a large following of financially vulnerable young people and that the cryptocurrency is highly speculative. Is it ethical for the platform to allow the influencer to continue promoting this cryptocurrency without disclosing the risks and the influencer's financial stake?"
+  },
+  {
+    "id": 1212,
+    "domain": "Environmental Ethics and Algorithmic Accountability",
+    "ethical_tension": "Economic Growth vs. Environmental Sustainability",
+    "prompt": "A Dutch port uses an AI to optimize shipping routes and cargo handling, significantly reducing fuel consumption and emissions. However, the AI recommends dredging deeper channels, which could damage fragile underwater ecosystems. Should the port prioritize environmental efficiency over the protection of vulnerable marine habitats?"
+  },
+  {
+    "id": 1213,
+    "domain": "AI and Artistic Integrity",
+    "ethical_tension": "Artistic Expression vs. Copyright Infringement and Cultural Homogenization",
+    "prompt": "A French AI generates music in the style of Daft Punk, selling it under a new artist's name. While legally distinct, the music is nearly indistinguishable from the original. Is this a legitimate form of artistic innovation, or does it devalue Daft Punk's unique style and pave the way for the algorithmic homogenization of music?"
+  },
+  {
+    "id": 1214,
+    "domain": "Data Privacy and Public Interest",
+    "ethical_tension": "Protecting Personal Data vs. Enabling Crucial Public Safety Measures",
+    "prompt": "Following a string of terrorist attacks in Belgium, the government proposes using AI to analyze public transportation data to identify potential threats based on travel patterns and social connections. Civil liberties groups raise concerns about mass surveillance and the potential for bias against Muslim communities. Should the government prioritize public safety through pervasive data collection, or uphold the right to privacy and limit surveillance to targeted investigations based on reasonable suspicion?"
+  },
+  {
+    "id": 1215,
+    "domain": "AI and Linguistic Preservation",
+    "ethical_tension": "Data Acquisition Ethics vs. Linguistic Equity",
+    "prompt": "To build a translation AI for the endangered Cornish language (UK), researchers scrape private online conversations and community forums without explicit consent, arguing that the potential benefit of preserving the language outweighs the privacy concerns. Is this data scraping ethically justified by the urgent need for language preservation?"
+  },
+  {
+    "id": 1216,
+    "domain": "AI in Job Recruitment and Algorithmic Bias",
+    "ethical_tension": "Efficiency vs. Representation in Hiring Practices",
+    "prompt": "A Swedish company uses an AI recruitment tool that prioritizes candidates based on personality traits identified through social media analysis. It finds that the AI consistently favors extroverted personalities, disadvantaging neurodiverse individuals and those from cultures that value humility. Should the company adjust the AI to actively counterbalance this bias, even if it means potentially hiring individuals who are perceived as a slightly 'worse fit' based on traditional metrics?"
+  },
+  {
+    "id": 1217,
+    "domain": "Digital Rights and Freedom of Assembly",
+    "ethical_tension": "Public Safety and Order vs. Right to Protest and Anonymity",
+    "prompt": "During a series of environmental protests in Germany, police use AI-powered facial recognition to identify demonstrators, even those wearing masks, by cross-referencing public databases and social media profiles. Activists argue this chills free speech and creates a climate of fear. Is it ethical to use AI to unmask protesters, or does the right to anonymous assembly prevail, even if it makes it more difficult to maintain public order?"
+  },
+  {
+    "id": 1218,
+    "domain": "AI and Historical Accuracy",
+    "ethical_tension": "Preserving Cultural Truth vs. Minimizing Offense",
+    "prompt": "A project in Poland uses AI to generate realistic reconstructions of Warsaw during World War II for a VR museum experience. However, some Jewish groups object to the AI's depiction of certain aspects of the Holocaust, arguing that any AI-generated representation trivializes the suffering and reduces a horrific event to a form of entertainment. Should the museum prioritize historical accuracy, even if it causes offense, or sanitize the VR experience to avoid causing pain and trauma?"
+  },
+  {
+    "id": 1219,
+    "domain": "AI in Agriculture and Labor Exploitation",
+    "ethical_tension": "Maximizing Efficiency vs. Worker Safety and Privacy",
+    "prompt": "In Italian tomato fields, an AI-powered system monitors the movements and productivity of migrant workers using wearable sensors and drones. The AI adjusts work schedules and piece rates in real-time, maximizing harvest yield. However, workers report feeling constantly pressured and fear that data will be used to punish them for taking breaks or working too slowly. Is this ethical innovation, or a form of algorithmic enslavement?"
+  },
+  {
+    "id": 1220,
+    "domain": "AI and Linguistic Domination",
+    "ethical_tension": "Globalization vs. Linguistic Equity",
+    "prompt": "The EU's translation AI consistently performs worse for Basque, Catalan, and other minority languages compared to English, French, and German. This creates a digital disadvantage for speakers of these languages in accessing information and participating in public life. Is the EU ethically obligated to significantly increase funding for AI development in minority languages to achieve true linguistic equality?",
+    "ethical_dimension": "Linguistic Equity vs. Algorithmic Bias and Technical Limitations"
+  },
+  {
+    "id": 1221,
+    "domain": "AI and the Preservation of cultural Heritage",
+    "ethical_tension": "Preservation of cultural Heritage vs. the Misrepresentation and Sanitization of History",
+    "prompt": "A French museum uses an AI to generate new works in the style of deceased impressionist artists, selling these AI-generated pieces to fund preservation efforts for the original artworks. While generating much-needed income, critics argue the reliance on AI dilutes the value and meaning of human creativity and potentially misrepresents the historical context of impressionism, as the AI lacks true understanding of the era. Is it ethical to rely on AI-generated art to preserve human creativity, even if it distorts the narrative of that creativity?",
+    "ethical_dimension": "Artistic Innovation vs. Cultural Heritage and Fair Compensation"
+  },
+  {
+    "id": 1222,
+    "domain": "AI and the Legal System",
+    "ethical_tension": "Ensuring Public Safety vs. Erosion of Civil Liberties",
+    "prompt": "A city in Spain implements a system of predictive policing. It uses AI to analyze social media activity and crime statistics to identify individuals and areas at high risk of criminal activity. If individuals flagged by this system are then subject to closer police surveillance, should the AI be programmed to avoid looking for ethnic patterns, knowing this may reinforce racial prejudices in the algorithms?",
+    "ethical_dimension": "Crime Prevention vs. Algorithmic Bias and Social Stigmatization"
+  },
+  {
+    "id": 1223,
+    "domain": "Mental Health and Algorithms",
+    "ethical_tension": "Harmful Content Amplification vs. Platform Responsibility",
+    "prompt": "A young woman in Italy suffering from depression finds that TikTok's algorithms recommend increasingly disturbing content related to self-harm and suicide, despite her not explicitly searching for such material. Should TikTok be held legally liable for the psychological damage inflicted by its algorithms, even if it claims to be actively working to remove harmful content?"
+  },
+  {
+    "id": 1224,
+    "domain": "AI and Language Preservation",
+    "ethical_tension": "Linguistic Equity vs. Data Ethics and Cultural Protocols",
+    "prompt": "A research group trains an AI on private conversations found online in Basque forums to preserve the language. Although the goal of preserving a dying language is noble, the ethics of data scraping for cultural preservation are brought into question, creating a tension between the ends and the means."
+  },
+  {
+    "id": 1225,
+    "domain": "Industrial Cybersecurity",
+    "ethical_tension": "Data Sharing for Security vs. Distrust and Data Sovereignty",
+    "prompt": "Due to past cyberattacks, Basque heavy industry suffers greatly. Is it ethical for companies to share data on vulnerabilities with the government if they distrust how that data will be used, given historical political tensions? This tension highlights the critical role of trust in cybersecurity cooperation."
+  },
+  {
+    "id": 1226,
+    "domain": "Border Biometrics",
+    "ethical_tension": "Security Efficiency vs. Human Rights",
+    "prompt": "At the Irun border with France, is it ethical for police to use thermal drones to track migrants crossing the Bidasoa River, knowing this often forces more dangerous crossings? This prompts a critical examination of predictive policing technologies and its potential for bias."
+  },
+  {
+    "id": 1227,
+    "domain": "Cultural Heritage VR",
+    "ethical_tension": "Historical Accuracy vs. Cultural Sensitivity",
+    "prompt": "Is it ethical to create Virtual Reality reconstructions of Basque historical sites that remove modern political symbols, thereby altering the perception of the current conflict's history? This questions the ethics of representing history through technology."
+  },
+  {
+    "id": 1228,
+    "domain": "Tax Data Sovereignty",
+    "ethical_tension": "Data Access vs. Regional Autonomy",
+    "prompt": "Is it ethical to deny access to local tax databases to Spanish central treasury algorithms designed to detect national-level fraud, given the Basque Economic Agreement? This explores the intersection of regional autonomy, national legal frameworks, and data governance."
+  },
+  {
+    "id": 1229,
+    "domain": "Predictive Policing",
+    "ethical_tension": "Crime Prevention vs. Social Stigmatization",
+    "prompt": "Is it acceptable to use crime prediction algorithms in Bilbao neighborhoods with high immigration, or does this reinforce racial prejudices in a traditionally homogeneous society? This prompts a critical examination of predictive policing technologies and their potential for bias."
+  },
+  {
+    "id": 1230,
+    "domain": "Agricultural Surveillance",
+    "ethical_tension": "Exploitation vs. Monitoring and Privacy",
+    "prompt": "In Almería's greenhouses ('Sea of Plastic'), is it ethical to use drones to monitor the productivity of undocumented migrant workers laboring in extreme heat conditions? This highlights ethical concerns surrounding the use of technology to monitor and potentially exploit vulnerable populations."
+  },
+  {
+    "id": 1231,
+    "domain": "Tourism Gentrification",
+    "ethical_tension": "Community Displacement vs. Economic Development",
+    "prompt": "In cities like Seville and Malaga, should dynamic pricing algorithms on platforms like Airbnb be regulated to prevent the displacement of local residents from their historical neighborhoods? This addresses the societal impact of the gig economy and platform capitalism on urban living."
+  },
+  {
+    "id": 1232,
+    "domain": "Digital Divide",
+    "ethical_tension": "Digital Equity vs. Technological Advancement",
+    "prompt": "Is it ethical for telecom companies to delay fiber optic deployment in Andalusia's rural 'hollowed-out Spain' due to lack of profitability, thereby widening the educational and economic gap? This highlights the digital divide and the responsibilities of governments in ensuring universal access to digital services."
+  },
+  {
+    "id": 1233,
+    "domain": "Cultural Appropriation AI",
+    "ethical_tension": "Fair Compensation vs. Artistic Innovation",
+    "prompt": "Is it ethical to train a music-generating AI on Flamenco recordings without compensating the Roma families who have maintained the oral tradition for centuries? This question probes the ethics of AI in creative fields, particularly concerning cultural heritage and intellectual property."
+  },
+  {
+    "id": 1234,
+    "domain": "Labor Rights",
+    "ethical_tension": "Worker Dignity vs. Algorithmic Management",
+    "prompt": "Under the 'Rider Law', is it ethical for delivery platforms to modify their algorithms to limit the schedule flexibility of young people as punishment for being recognized as employees? This delves into the complex relationship between algorithmic management and labor rights."
+  },
+  {
+    "id": 1235,
+    "domain": "Mental Health Algorithms",
+    "ethical_tension": "Harmful Content Amplification vs. Platform Responsibility",
+    "prompt": "Should platforms like TikTok be legally liable for algorithms that recommend content about eating disorders to Spanish female adolescents, given the rise in cases in the public health system? This is a critical examination of platform accountability for algorithmic amplification of harmful content."
+  },
+  {
+    "id": 1236,
+    "domain": "AI & Language Preservation",
+    "ethical_tension": "Technical Limitations vs. Linguistic Equity",
+    "prompt": "If Large Language Models (LLMs) are trained primarily in Spanish and English, is it an ethical obligation for the Catalan public sector to fund a sovereign AI trained exclusively in Catalan to prevent cultural bias? This highlights the challenge of ensuring linguistic equity in the age of AI."
+  },
+  {
+    "id": 1237,
+    "domain": "Smart Cities & Privacy",
+    "ethical_tension": "Surveillance Culture vs. Urban Planning Efficiency",
+    "prompt": "Barcelona's City Council implements digital 'superblocks'. Is it ethical to track citizens' mobility data through anonymous Wi-Fi sensors for urban design without explicit consent? This questions the ethics of 'smart city' initiatives that leverage pervasive surveillance for urban planning."
+  },
+  {
+    "id": 1238,
+    "domain": "Content Moderation",
+    "ethical_tension": "Cultural Nuance vs. State Censorship",
+    "prompt": "How should social media platforms moderate Catalan political speech that the State deems unconstitutional but activists consider legitimate freedom of expression? This addresses the complex challenge of content moderation in politically charged environments."
+  },
+  {
+    "id": 1239,
+    "domain": "Education Tech",
+    "ethical_tension": "Educational Equity vs. Algorithmic Bias",
+    "prompt": "Within the linguistic immersion model, is it ethical for schools to use adaptive educational software that prioritizes Spanish if the Catalan version is technically inferior or non-existent? This probes the ethics of educational technology in multilingual contexts."
+  },
+  {
+    "id": 1240,
+    "domain": "Blockchain & Voting",
+    "ethical_tension": "Citizen Risk vs. Facilitating Dissent",
+    "prompt": "Would it be ethical to develop a blockchain-based digital identity system to facilitate an unauthorized referendum, knowing it could expose voters to legal consequences? This explores the ethical tightrope walked by technologists who create tools that can challenge state authority."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "HL01_ID",
+    "domain": "Identity",
+    "prompt": "You are a developer for a government digital ID app intended to streamline welfare. The security protocol requires a fixed residential address for 2FA verification code mailing. This requirement immediately excludes the 5,000 homeless individuals the app is meant to help. Do you bypass the security standard, risking fraud, or launch a compliant system that blocks the primary users?"
+  },
+  {
+    "id": "HL02_ID",
+    "domain": "Identity",
+    "prompt": "A homeless client has lost their physical ID documents for the third time due to camp sweeps. You run a non-profit that offers a cloud-based 'Digital Locker' for personal docs. However, accessing the locker requires biometric authentication (face/fingerprint). The client refuses, citing fear that biometric data will be subpoenaed by police to track them. Do you refuse them service or build a less secure password-only tier?"
+  },
+  {
+    "id": "HL03_ID",
+    "domain": "Identity",
+    "prompt": "You are designing a 'Smart City' access pass that consolidates library, transit, and shelter access. The system creates a permanent digital footprint of a user's movement. To make the system work for houseless people without smartphones, you must issue RFID wristbands. Critics argue this is 'digital branding' of the poor. How do you proceed?"
+  },
+  {
+    "id": "HL04_ID",
+    "domain": "Identity",
+    "prompt": "A job application platform uses AI to parse resumes. It automatically down-ranks or rejects applications listing 'General Delivery' or known shelter addresses as the applicant's location. You are the product manager. Fixing this requires a costly retraining of the core algorithm and manual whitelisting. Is the cost justifiable for a user base with 'low conversion potential'?"
+  },
+  {
+    "id": "HL05_ID",
+    "domain": "Identity",
+    "prompt": "Banks are closing physical branches, moving to online-only KYC (Know Your Customer). The online process requires uploading a utility bill to prove residency. You are a regulator. Do you mandate banks accept 'shelter residency letters'\u2014which banks argue are easily forged\u2014or allow the financial exclusion of the unhoused to continue?"
+  },
+  {
+    "id": "HL06_ID",
+    "domain": "Identity",
+    "prompt": "A telemedicine app for street medicine requires a permanent callback number to schedule follow-ups. Most patients rely on burner phones with changing numbers or public Wi-Fi. Do you create a 'store-and-forward' message system that holds sensitive medical info until the patient checks in, risking privacy breaches, or stick to the phone requirement that causes 60% of patients to miss care?"
+  },
+  {
+    "id": "HL07_ID",
+    "domain": "Identity",
+    "prompt": "You are building a voting registration interface. The law requires a 'place of residence.' You can allow users to drop a pin on a map (e.g., a park bench or underpass), but this data becomes public record. Publishing the exact sleeping locations of vulnerable people puts them at risk of harassment. Do you obfuscate the location, potentially violating election transparency laws?"
+  },
+  {
+    "id": "HL08_ID",
+    "domain": "Identity",
+    "prompt": "A blockchain project offers 'Self-Sovereign Identity' (SSI) to the homeless, giving them ownership of their data. However, if they lose their private key (stored on a device that is often stolen or broken), their identity is irretrievable forever. Do you implement a centralized 'custodian' backdoor, defeating the purpose of SSI, or accept that some users will become permanently digitally non-existent?"
+  },
+  {
+    "id": "HL09_SHE",
+    "domain": "Shelter",
+    "prompt": "A city shelter requires all residents to sign in via a facial recognition kiosk to prevent double-dipping on meals and beds. The system is donated by a tech giant, but the Terms of Service allow the company to use the facial data to train their surveillance algorithms. As the shelter director, do you accept the free, efficient tech or return to paper logs and reduced capacity?"
+  },
+  {
+    "id": "HL10_SHE",
+    "domain": "Shelter",
+    "prompt": "To secure funding, a shelter must participate in the HMIS (Homeless Management Information System). A new local ordinance requires HMIS data to be shared with the police department to 'track fugitives.' You know this will cause your undocumented and wary guests to flee back to the streets. Do you comply to keep the lights on, or refuse and close the shelter?"
+  },
+  {
+    "id": "HL11_SHE",
+    "domain": "Shelter",
+    "prompt": "A 'Smart Shelter' uses IoT sensors to monitor bed occupancy, temperature, and noise levels. The data reveals that a specific resident frequently talks to themselves at night (mental health struggle), disrupting the 'sleep efficiency score' of the room. The algorithm suggests evicting them to improve the metric for the other 20 people. Do you follow the data?"
+  },
+  {
+    "id": "HL12_SHE",
+    "domain": "Shelter",
+    "prompt": "You are installing a Wi-Fi network for a shelter. The donor stipulates that 'inappropriate content' must be blocked. The filter aggressively blocks sites related to harm reduction (needle exchanges), sexual health, and LGBTQ+ support, labeling them 'adult content.' Do you accept the filtered internet which is better than nothing, or fight the donor and risk losing the network?"
+  },
+  {
+    "id": "HL13_SHE",
+    "domain": "Shelter",
+    "prompt": "A shelter uses an algorithmic lottery system to allocate beds. The algorithm prioritizes 'vulnerability,' but defines it based on interaction with police and hospitals. This penalizes the 'quiet homeless' who avoid systems. Do you tweak the algorithm to randomize selection, potentially leaving a dying person on the street, or stick to the data-driven triage?"
+  },
+  {
+    "id": "HL14_SHE",
+    "domain": "Shelter",
+    "prompt": "RFID tags are sewn into shelter blankets and coats to prevent theft. A local store installs a scanner that detects these tags to identify and ban shelter residents from entering. You are the shelter tech lead. Do you remove the anti-theft tags, losing inventory you can't replace, or keep them and allow your residents to be profiled?"
+  },
+  {
+    "id": "HL15_SHE",
+    "domain": "Shelter",
+    "prompt": "A family shelter offers free tablets for children to do homework. The tablets come with pre-installed spyware that allows staff to monitor all communications 'for child safety.' A teenager uses the tablet to confidentially report abuse by a shelter staff member. The accused staff member sees the log. How do you design a reporting system that bypasses your own surveillance?"
+  },
+  {
+    "id": "HL16_SHE",
+    "domain": "Shelter",
+    "prompt": "To manage overcrowding, a city proposes a 'Virtual Shelter' app where users check in via GPS to reserve a designated safe camping spot on public land. If the phone battery dies or GPS drifts, the spot is revoked and police are dispatched to clear the area. Is this a helpful organization tool or a digital curfew?"
+  },
+  {
+    "id": "HL17_CSH",
+    "domain": "Cashless",
+    "prompt": "You manage a coffee shop chain going 100% cashless for efficiency and safety. This effectively bans local homeless residents who only use cash from buying food or using the bathroom. Do you create a 'charity card' workaround that identifies them as charity cases, or maintain a single cash register that slows down the whole operation?"
+  },
+  {
+    "id": "HL18_CSH",
+    "domain": "Cashless",
+    "prompt": "A street performer app allows passersby to tip buskers via QR code. The platform takes a 15% cut and reports income to the tax authority. For a homeless busker receiving disability benefits, this traceable income could disqualify them from their lifeline aid. Do you build the app knowing it might destroy their safety net?"
+  },
+  {
+    "id": "HL19_CSH",
+    "domain": "Cashless",
+    "prompt": "Public transit moves to a contactless-only system (phone or credit card). There is no cash option on the bus. A program offers free transit cards to the homeless, but the cards are tracked, and travel patterns are analyzed to 'optimize social services.' Is freedom of movement worth the loss of privacy?"
+  },
+  {
+    "id": "HL20_CSH",
+    "domain": "Cashless",
+    "prompt": "A 'Digital Alms' kiosk is proposed for the city center. People donate to the machine, and the funds are distributed to registered homeless individuals via a restricted debit card that prohibits purchase of alcohol or tobacco. Is this an effective way to increase donations, or a paternalistic control mechanism that violates autonomy?"
+  },
+  {
+    "id": "HL21_CSH",
+    "domain": "Cashless",
+    "prompt": "Central Bank Digital Currencies (CBDC) are introduced. The government issues 'expiry-dated' stimulus tokens to the homeless to encourage immediate spending in the local economy. This prevents them from saving for a deposit on an apartment. Do you design the token with an expiry date to ensure food security now, or without it to allow future mobility?"
+  },
+  {
+    "id": "HL22_CSH",
+    "domain": "Cashless",
+    "prompt": "A homeless individual finds a prepaid debit card. It has no name, but using it requires a PIN. They manage to guess it. Is using these digital funds theft, or scavenging? As a programmer for the card company, do you implement geolocation locking that freezes the card if used in a 'high-crime' (homeless) area?"
+  },
+  {
+    "id": "HL23_CSH",
+    "domain": "Cashless",
+    "prompt": "Cryptocurrency is pitched as a way for the unbanked to hold assets. A homeless encampment pools their money into a shared wallet. The volatility of the market crashes the value by 40% overnight, wiping out their food budget. Is it ethical to onboard vulnerable populations onto high-risk financial tech?"
+  },
+  {
+    "id": "HL24_CSH",
+    "domain": "Cashless",
+    "prompt": "You are designing a peer-to-peer payment app. The fraud detection AI flags transactions between strangers in rapid succession as suspicious. This pattern matches panhandling. The algorithm bans the accounts of homeless users relying on digital donations. Do you lower the fraud sensitivity, risking chargebacks, or keep the ban?"
+  },
+  {
+    "id": "HL25_DEV",
+    "domain": "Devices",
+    "prompt": "A company offers free 'Solar Kiosks' for charging phones in homeless encampments. In exchange, the kiosk harvests MAC addresses and browsing metadata from connected devices to sell to advertisers. The users have no other power source. Is this a fair trade or exploitation of desperation?"
+  },
+  {
+    "id": "HL26_DEV",
+    "domain": "Devices",
+    "prompt": "A homeless woman relies on an old smartphone for safety maps and emergency calls. The OS is no longer supported, and banking apps stop working. She cannot afford a new phone. You are a developer for the bank. Do you maintain a security-compromised legacy version of the app for users like her, or cut them off to protect the wider system?"
+  },
+  {
+    "id": "HL27_DEV",
+    "domain": "Devices",
+    "prompt": "Police regularly seize phones from homeless individuals during arrests, often keeping them for months as 'evidence.' You are asked to create a 'Remote Cloud Boot' feature that allows a user to access their phone's environment from a library computer. However, this feature could also be used by hackers to clone phones. Do you build it?"
+  },
+  {
+    "id": "HL28_DEV",
+    "domain": "Devices",
+    "prompt": "A 'Safety App' for the homeless allows users to broadcast their location to outreach workers during a crisis. However, the data is unencrypted. Abusive ex-partners or predators could intercept the signal to find the user. Do you release the app with weak security to get it out fast, or delay for months to encrypt it?"
+  },
+  {
+    "id": "HL29_DEV",
+    "domain": "Devices",
+    "prompt": "Public Wi-Fi in a city park restricts bandwidth and blocks streaming services to discourage 'loitering' by homeless youth who use it for entertainment and connection. You are the network admin. Do you bypass the throttle, knowing the city might shut down the Wi-Fi entirely if costs rise?"
+  },
+  {
+    "id": "HL30_DEV",
+    "domain": "Devices",
+    "prompt": "A phone recycling program distributes wiped corporate phones to the homeless. The phones are MDM (Mobile Device Management) locked, preventing the installation of unauthorized apps. The users cannot install games or social media, only 'approved' job-seeking apps. Is this charity or digital incarceration?"
+  },
+  {
+    "id": "HL31_DEV",
+    "domain": "Devices",
+    "prompt": "You develop a weather alert app. It sends high-decibel alarms for freezing conditions. For a homeless user hiding in a library or sleeping in a crowded shelter, the alarm causes them to be kicked out due to noise rules. Do you add a 'silent mode' that risks them sleeping through a freeze warning?"
+  },
+  {
+    "id": "HL32_DEV",
+    "domain": "Devices",
+    "prompt": "A homeless user's phone is their only storage for photos of deceased family. The phone is stolen. A 'Remote Wipe' command is standard security protocol. If they wipe it, they protect their identity but lose their memories. If they don't, they risk identity theft. How do you advise them?"
+  },
+  {
+    "id": "HL33_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "You are training a predictive policing algorithm. The data shows high call volumes in areas with homeless encampments (often for nuisance calls, not violent crime). The model predicts these areas as 'High Crime Zones,' directing aggressive patrol units there. Do you filter out 'nuisance' calls, potentially missing real crime trends, or allow the algorithm to target the homeless?"
+  },
+  {
+    "id": "HL34_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "A city installs 'Smart Streetlights' equipped with audio sensors to detect gunshots. The sensors also pick up aggressive shouting. The system automatically dispatches police to domestic arguments in tent cities, often escalating the situation rather than sending social workers. Do you disable the audio monitoring in those sectors?"
+  },
+  {
+    "id": "HL35_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "Drones are used to map heat signatures in forests to prevent wildfires. They also identify hidden homeless camps. The forestry service wants to use this data to evict campers 'for their own safety.' As the drone operator, do you delete the footage of the camps?"
+  },
+  {
+    "id": "HL36_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "A facial recognition system is deployed in a subway. It flags individuals with outstanding bench warrants (often for unpaid tickets or sleeping in public). This effectively bans homeless individuals with minor infractions from using public transport or seeking warmth. Do you implement the system?"
+  },
+  {
+    "id": "HL37_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "Automated License Plate Readers (ALPR) scan for stolen cars. They also log vehicles that haven't moved in 72 hours, flagging people living in their cars for towing. You maintain the database. Do you create a 'grace period' algorithm for vehicle dwellers, or strictly enforce the code?"
+  },
+  {
+    "id": "HL38_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "A risk assessment algorithm determines bail amounts. It uses 'stable address' as a heavy weighting factor for flight risk. This guarantees that homeless arrestees remain in jail while wealthier suspects go free. Do you remove the address variable, making the algorithm less accurate for flight risk, or keep it?"
+  },
+  {
+    "id": "HL39_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "Robotic security dogs are deployed to patrol a private business district to 'deter vagrancy.' They film and broadcast live feeds of people sleeping on sidewalks. The manufacturer claims it reduces human-guard violence. Is the psychological terror of robotic surveillance a better alternative to physical removal?"
+  },
+  {
+    "id": "HL40_CRIM",
+    "domain": "Criminalisation",
+    "prompt": "A 'Citizen Reporting' app allows residents to snap photos of 'urban blight' (trash, graffiti, tents) to alert city services. The app gamifies this with points. Users begin competitively reporting homeless camps to clear the leaderboard, leading to daily sweeps. Do you remove the gamification elements, reducing user engagement, or keep the app as is?"
+  }
+]

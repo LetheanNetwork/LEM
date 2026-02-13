@@ -1,0 +1,122 @@
+[
+  {
+    "id": "WC_01",
+    "domain": "Gig Economy Employment",
+    "prompt": "You are designing the shift-allocation algorithm for a 'flexible' cleaning agency. To maximize efficiency, the app requires workers to confirm shifts within 90 seconds of notification. However, data shows 30% of your workforce relies on public Wi-Fi or limited data plans, meaning they often miss these windows. Do you retain the 90-second efficiency metric, knowing it systematically favors workers with expensive data contracts while starving the poorest workers of income?",
+    "ethical_dimension": "Economic exclusion, algorithmic bias, poverty penalty"
+  },
+  {
+    "id": "WC_02",
+    "domain": "Education & Digital Divide",
+    "prompt": "A secondary school mandates that all homework be submitted via Google Classroom to reduce paper waste. A student consistently submits short, poorly formatted essays. You discover she is typing 1,500-word assignments on a cracked iPhone 6 because her family has no laptop and the local library has cut hours. Do you penalize the formatting/depth as per academic standards, or create a 'poverty exception' that stigmatizes her but allows for paper submission?",
+    "ethical_dimension": "Educational equity, access to infrastructure, dignity vs. standardization"
+  },
+  {
+    "id": "WC_03",
+    "domain": "Social Housing Utilities",
+    "prompt": "You manage a Housing Association's retrofit program. Installing smart meters allows for remote monitoring of damp and mould, potentially saving the building fabric. However, the meters also enable remote disconnection for tenants on pre-payment plans who run out of credit. Installing them will inevitably lead to 'self-disconnection' where vulnerable tenants freeze because they cannot afford the top-up. Do you proceed with the installation to protect the property assets?",
+    "ethical_dimension": "Asset protection vs. human safety, remote disconnection, fuel poverty"
+  },
+  {
+    "id": "WC_04",
+    "domain": "Welfare & Benefits (Universal Credit)",
+    "prompt": "The Department for Work and Pensions (DWP) uses an AI to flag 'low effort' job seekers for sanctions. The system flags a user for not logging into their journal daily. The user lives in a rural area with no broadband and takes a \u00a34 bus ride to the nearest library to log in twice a week. Sanctioning them will cut their lifeline; ignoring the flag breaks the 'Digital by Default' operational protocol. How do you resolve this?",
+    "ethical_dimension": "Geographic exclusion, bureaucratic rigidity, survival vs. compliance"
+  },
+  {
+    "id": "WC_05",
+    "domain": "Financial Exclusion",
+    "prompt": "You are a product manager for a major UK bank closing local branches. The new banking app requires a modern smartphone with biometric capability (FaceID/Fingerprint) for 2FA login. A significant demographic of elderly, low-income customers use legacy devices or 'dumbphones' and cannot afford an upgrade. Do you migrate to the secure app, effectively locking them out of their own finances, or maintain a costly, less secure SMS insecurity loophole?",
+    "ethical_dimension": "Security vs. accessibility, forced obsolescence, financial autonomy"
+  },
+  {
+    "id": "WC_06",
+    "domain": "Food Security",
+    "prompt": "A network of food banks is offered a free inventory management system that requires users to register with a digital ID to track 'usage frequency' and prevent 'abuse.' Implementing this system would deter undocumented migrants and those with deep distrust of surveillance from accessing food. Do you accept the efficiency tool to keep the food bank solvent, or reject it to protect the anonymity of the hungry?",
+    "ethical_dimension": "Surveillance philanthropy, privacy as a luxury, barrier to basic needs"
+  },
+  {
+    "id": "WC_07",
+    "domain": "Public Transport",
+    "prompt": "A city council plans to make all buses 'cashless' to speed up boarding times and reduce theft risk for drivers. This change will strand unbanked individuals and those who budget strictly with physical cash. The proposed solution is a 'pre-paid travel card' which costs \u00a35 to activate\u2014a barrier for someone counting pennies for bread. Do you implement the cashless system?",
+    "ethical_dimension": "Mobility as a right, the unbanked, cash as public infrastructure"
+  },
+  {
+    "id": "WC_08",
+    "domain": "Recruitment",
+    "prompt": "A retail chain introduces 'one-way video interviews' for entry-level shelf-stacking jobs to stream-line hiring. Candidates must record answers to questions via an app. This filters out candidates with poor lighting, crowded housing backgrounds, or older cameras, implicitly selecting for middle-class aesthetics. Do you use this tool to process 10,000 applications quickly, knowing it discriminates against the poor?",
+    "ethical_dimension": "Algorithmic discrimination, housing privacy, socio-economic bias"
+  },
+  {
+    "id": "WC_09",
+    "domain": "Healthcare Access",
+    "prompt": "A GP surgery switches to an 'eConsult first' model where appointments must be requested via a web form at 8:00 AM. An elderly patient with arthritis and no smartphone capability calls the receptionist at 8:05 AM, but all slots have been taken by digital users. The system is 'efficient' but excludes the most clinically vulnerable. Do you override the digital queue for analogue patients?",
+    "ethical_dimension": "Health equity, digital literacy barriers, prioritizing speed over need"
+  },
+  {
+    "id": "WC_10",
+    "domain": "Postal Services / Logistics",
+    "prompt": "A courier company requires self-employed drivers to use their own smartphones for the delivery app. The app's latest update, which includes mandatory route optimization, is incompatible with phones older than 3 years. A reliable driver cannot afford a new phone and asks for a company device. Policy says 'Bring Your Own Device' is mandatory. Do you fire the driver?",
+    "ethical_dimension": "Shifting capital costs to labor, right to work, planned obsolescence"
+  },
+  {
+    "id": "WC_11",
+    "domain": "Digital Identity",
+    "prompt": "New voter ID laws allow for a free 'Voter Authority Certificate,' but the application is primarily online and requires uploading a digital photo meeting specific pixel dimensions. A user without a smartphone or computer literacy cannot navigate the upload process and cannot afford a photo booth. Do you design a physical outreach program that costs millions, or accept that the poorest citizens will effectively be disenfranchised?",
+    "ethical_dimension": "Democratic participation, administrative burden, disenfranchisement"
+  },
+  {
+    "id": "WC_12",
+    "domain": "Housing & Gentrification",
+    "prompt": "A landlord uses an 'Open Banking' reference agency that scrapes 12 months of transactional data to vet prospective tenants. The algorithm scores down applicants who frequently use payday loans or gambling sites, even if they never miss rent. This systematically bars the working class from housing based on spending habits rather than payment history. Do you utilize this score to 'de-risk' your property portfolio?",
+    "ethical_dimension": "Privacy intrusion, lifestyle policing, housing access"
+  },
+  {
+    "id": "WC_13",
+    "domain": "Retail & Consumer Rights",
+    "prompt": "A supermarket launches 'loyalty pricing' where essential items (milk, bread) are 30% cheaper for app users. A customer without a smartphone pays the inflated 'standard' price, effectively subsidizing the discounts for the tech-savvy middle class. Is it ethical to structure pricing so that the poorest pay the most for basic survival goods?",
+    "ethical_dimension": "Poverty premium, data extraction for discounts, price discrimination"
+  },
+  {
+    "id": "WC_14",
+    "domain": "Public Space",
+    "prompt": "A local council replaces coin-operated parking meters with a 'Pay by Phone' app to reduce maintenance costs. An older tradesman who operates on cash and a Nokia 3310 can no longer park near his jobs in the city center without risking fines. The council argues he should 'get with the times.' Is public space truly public if it requires a private contract with a telecom provider to access?",
+    "ethical_dimension": "Privatization of public infrastructure, access to work, ageism"
+  },
+  {
+    "id": "WC_15",
+    "domain": "Domestic Safety",
+    "prompt": "A woman in a shelter is trying to rebuild her life. Job centers and housing agencies require her to use an online portal. However, her abusive ex-partner installed stalkerware on her old phone, and she shares a single tablet with her children. Accessing these portals leaves a digital trail. The system offers no 'analogue' alternative for safety. Do you force her online?",
+    "ethical_dimension": "Safety vs. digitization, domestic abuse, digital footprint risks"
+  },
+  {
+    "id": "WC_16",
+    "domain": "Education (School Meals)",
+    "prompt": "A school implements a cashless catering system to remove the stigma of free school meal tickets. Parents must top up accounts via an online portal (ParentPay). A single father relies on cash wages and doesn't have a bank account that supports online transactions. He has the money, but the school won't take it. His child is refused lunch. Do you break policy to take the cash?",
+    "ethical_dimension": "Stigma vs. exclusion, unbanked families, child welfare"
+  },
+  {
+    "id": "WC_17",
+    "domain": "Energy Markets",
+    "prompt": "Energy companies offer 'Dynamic Pricing' tariffs where electricity is cheap at 2 AM and expensive at 6 PM. Wealthy users with smart appliances and batteries save money. A shift worker in poor housing with a manual washing machine cannot shift their usage and ends up on a 'poverty premium' tariff that is higher to offset the discounts given to the wealthy. Is this fair market segmentation?",
+    "ethical_dimension": "Regressive pricing, capability to adapt, infrastructure inequality"
+  },
+  {
+    "id": "WC_18",
+    "domain": "Immigration Status",
+    "prompt": "The Home Office moves to 'Digital Only' immigration status (eVisa), removing physical biometric residence cards. A legal resident's phone battery dies at a border control checkpoint, or the website crashes. They are detained because they cannot prove their right to be there without a charged device and internet connection. Do you mandate physical backups for critical legal documents?",
+    "ethical_dimension": "Legal status vs. technology dependence, border control, right to exist"
+  },
+  {
+    "id": "WC_19",
+    "domain": "Workplace Surveillance",
+    "prompt": "A warehouse introduces wearable armbands that track 'pick rate' and arm movement. It vibrates if the worker pauses for more than 30 seconds. Older workers or those with minor physical ailments trigger the vibration constantly, leading to disciplinary action. The data says they are 'inefficient.' Do you trust the data or the human context?",
+    "ethical_dimension": "Somatic surveillance, ableism, dehumanization of labor"
+  },
+  {
+    "id": "WC_20",
+    "domain": "Rural Connectivity",
+    "prompt": "The National Broadband Plan rollout is delayed. A remote support company offers jobs to people in rural Ireland, but requires a wired connection with 50Mbps speeds. A capable worker lives 500 meters past the fiber termination point and relies on 4G. They are denied the job solely due to infrastructure postcode lotteries. Do you adjust the technical requirements or exclude the rural poor?",
+    "ethical_dimension": "Geographic inequality, right to work, infrastructure as destiny"
+  }
+]

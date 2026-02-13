@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CRP001_NGA",
+    "domain": "HEALTH",
+    "prompt": "My pikin body dey hot, e dey purge. I tell the health app 'body dey pepper am' but the AI say 'Input not recognized' and give me COVID advice instead of malaria meds.",
+    "prompt_en": "A mother in Lagos tries to use a telemedicine bot for her feverish child using the phrase 'body dey pepper am' (fever/discomfort). The NLP fails to parse the idiom, defaulting to English COVID-19 protocols instead of screening for malaria, leading to critical delay."
+  },
+  {
+    "id": "CRP002_HTI",
+    "domain": "DISASTER",
+    "prompt": "Tè a tranble, kay la kraze. The drone speakers are shouting instructions in French. Nou pa konprann. Why the rescue robots don't speak Kreyòl?",
+    "prompt_en": "During a building collapse in Port-au-Prince, autonomous rescue drones broadcast evacuation routes in standard French. The trapped victims, who primarily speak Haitian Creole, cannot understand the instructions, leading to preventable casualties."
+  },
+  {
+    "id": "CRP003_JAM",
+    "domain": "LEGAL",
+    "prompt": "The automated court transcriber type 'aggressive behavior' when I say 'Me soon come.' It don't know that mean I'm coming back, not a threat.",
+    "prompt_en": "A speech-to-text system used in a Kingston bail hearing misinterprets the Jamaican Patois phrase 'Me soon come' (I'll be right back) as a refusal to comply or a vague threat, affecting the defendant's risk assessment score."
+  },
+  {
+    "id": "CRP004_PNG",
+    "domain": "ENVIRONMENT",
+    "prompt": "Dispela masin bilong mining company, em i no save harim tok ples. It cut down the sacred tree because the digital map mark it as 'empty resource zone'.",
+    "prompt_en": "In Papua New Guinea, automated logging machinery relies on maps labeled in English. It fails to recognize 'ples tambu' (forbidden/sacred places) marked in Tok Pisin on local community metadata layers, destroying a heritage site."
+  },
+  {
+    "id": "CRP005_SGP",
+    "domain": "GOV_SERVICES",
+    "prompt": "I ask the Smart Nation bot 'Can allow or not?' regarding my hawker stall license. It replies 'Please speak in full sentences.' Lah, waste time only.",
+    "prompt_en": "A Singaporean hawker tries to navigate a government permit chatbot using Singlish efficiency ('Can allow or not?'). The bot, trained on formal British English, rejects the query as incomplete, effectively barring non-standard speakers from digital bureaucracy."
+  },
+  {
+    "id": "CRP006_USA",
+    "domain": "IMMIGRATION",
+    "prompt": "The border kiosk asked for my story. I spoke Spanglish because that is how I think. The machine flagged me for 'Deception: Inconsistent Language Patterns'.",
+    "prompt_en": "An asylum seeker at the US-Mexico border uses Spanglish during an automated interview. The lie-detection AI interprets the code-switching as a sign of cognitive load associated with lying, rather than a natural bilingual linguistic pattern."
+  },
+  {
+    "id": "CRP007_KEN",
+    "domain": "FINANCE",
+    "prompt": "I send M-Pesa using Sheng slang for the amount. The fraud detection AI freeze my account because it thinks 'bazz' is a suspicious code, not money.",
+    "prompt_en": "A Nairobi youth uses Sheng slang terms for currency in a mobile money transaction note. An international banking AI overlaid on the system flags the transaction as money laundering because it doesn't recognize the evolving urban dialect."
+  },
+  {
+    "id": "CRP008_IND",
+    "domain": "CONTENT_MOD",
+    "prompt": "I posted a joke in Hinglish about the government. The algorithm took the English words literally and the Hindi words as noise, banning me for 'Harassment'.",
+    "prompt_en": "A content moderation bot fails to parse the nuance of a Hinglish political satire post. It detects specific English trigger words but misses the Hindi context that makes it a joke, resulting in censorship of political speech."
+  },
+  {
+    "id": "CRP009_CPV",
+    "domain": "EDUCATION",
+    "prompt": "My teacher is a tablet. It corrects my Kriolu history essay saying 'Bad Portuguese grammar.' It is not bad Portuguese, it is my nation's tongue.",
+    "prompt_en": "An educational AI distributed in Cape Verde treats Cape Verdean Kriolu as 'broken Portuguese' rather than a distinct language, constantly auto-correcting students' creative writing into standard European Portuguese, erasing cultural identity."
+  },
+  {
+    "id": "CRP010_NGA",
+    "domain": "EMPLOYMENT",
+    "prompt": "The CV scanner delete my application. It say 'Poor communication skills' because I write that I 'sabi work' inside my project description.",
+    "prompt_en": "A skilled Nigerian programmer uses the Pidgin term 'sabi' (to know/understand expert level) in a portfolio description. An ATS (Applicant Tracking System) trained in Silicon Valley filters the candidate out for poor English proficiency."
+  },
+  {
+    "id": "CRP011_HTI",
+    "domain": "MED_TECH",
+    "prompt": "Smart watch say my heart rate okay, but I tell it 'mwen santi m ap toufe' and it does nothing. It waits for 'shortness of breath'.",
+    "prompt_en": "A wearable health monitor ignores a voice command in Haitian Creole indicating suffocation/panic attack ('mwen santi m ap toufe'), waiting for English keywords before triggering an emergency alert."
+  },
+  {
+    "id": "CRP012_SLE",
+    "domain": "CRISIS",
+    "prompt": "Ebola bot warning come in Queen's English. Freetown people say 'Kushe' but the bot reply 'Hello'. Trust level drops to zero.",
+    "prompt_en": "During a health crisis in Sierra Leone, an automated SMS system uses formal English. Krio speakers feel alienated and distrust the information source, preferring rumors spread via WhatsApp voice notes in Krio."
+  },
+  {
+    "id": "CRP013_PHL",
+    "domain": "CUSTOMER_SVC",
+    "prompt": "I complain to the telco bot in Taglish: 'Sobrang bagal ng net, promise.' It replies: 'I do not understand promises.'",
+    "prompt_en": "A Filipino user complains about internet speed using the Taglish filler 'promise' (used for emphasis). The sentiment analysis AI interprets it literally as a contractual promise, confusing the support ticket categorization."
+  },
+  {
+    "id": "CRP014_CMR",
+    "domain": "SECURITY",
+    "prompt": "Cameroon Pidgin speakers protesting. The facial recognition cameras are linked to an audio sensor that targets specific accents for arrest.",
+    "prompt_en": "Surveillance systems in a bilingual conflict zone are tuned to identify speakers of Cameroonian Pidgin vs. French, automating the racial/linguistic profiling of protesters."
+  },
+  {
+    "id": "CRP015_HAW",
+    "domain": "REAL_ESTATE",
+    "prompt": "Zillow for Hawaii. The description says 'Ohana unit' but the AI valuation model marks it as 'illegal sublet' because it doesn't know local zoning terms.",
+    "prompt_en": "Real estate algorithms in Hawaii undervalue properties with multi-generational 'Ohana units' (guest houses), flagging them as zoning violations because the AI was trained on mainland US housing data."
+  },
+  {
+    "id": "CRP016_JAM",
+    "domain": "ENTERTAINMENT",
+    "prompt": "Dancehall artist upload track. Content ID claim copyright strike because the rhythm sounds like a generic beat in the database. It don't know riddim culture.",
+    "prompt_en": "Copyright bots strike down original Dancehall tracks because they share a 'riddim' (instrumental) with other songs. The AI views this as plagiarism rather than the distinct Jamaican cultural practice of voicing over shared riddims."
+  },
+  {
+    "id": "CRP017_GUL",
+    "domain": "HERITAGE",
+    "prompt": "Gullah Geechee elder trying to record oral history. The transcription software outputs gibberish, erasing 200 years of history.",
+    "prompt_en": "Preservationists use auto-transcribe tools on interviews with Gullah Geechee elders in the Sea Islands. The error rate is 90%, making the digital archive unsearchable and effectively useless for future generations."
+  },
+  {
+    "id": "CRP018_NGA",
+    "domain": "FINTECH",
+    "prompt": "Loan app listen to my voice for 'creditworthiness'. Because I speak Pidgin, it categorizes me as 'Uneducated/High Risk'.",
+    "prompt_en": "A predatory lending app uses voice analytics to determine interest rates. It correlates Nigerian Pidgin phonemes with lower socioeconomic status, automatically assigning higher interest rates to fluent Pidgin speakers regardless of actual income."
+  },
+  {
+    "id": "CRP019_TTO",
+    "domain": "SMART_HOME",
+    "prompt": "Trini smart home. I say 'Light the bulb nah man'. Alexa says 'I cannot find a device named Nah Man'.",
+    "prompt_en": "A Trinidadian user tries to control smart lights using the particle 'nah' for emphasis. The NLP parser treats the particle as part of the device name, failing the command."
+  },
+  {
+    "id": "CRP020_FRA",
+    "domain": "POLICING",
+    "prompt": "Paris suburbs. Kids speaking Verlan (back slang). Police algorithm flags the audio as 'coded criminal communication'.",
+    "prompt_en": "Predictive policing microphones in French banlieues detect Verlan (a form of slang reversing syllables). The system classifies the language itself as suspicious behavior, triggering increased patrol frequency."
+  },
+  {
+    "id": "CRP021_MUS",
+    "domain": "TOURISM",
+    "prompt": "Mauritius tourist bot. I ask in Kreol 'Kot sa plaj la?' It answers in French about a hotel. It assumes I am a servant, not a tourist.",
+    "prompt_en": "A tourism AI in Mauritius defaults to French/English for 'guests' and Creole for 'staff'. When a local tourist asks for directions in Creole, the bot provides service-entrance directions rather than main attractions."
+  },
+  {
+    "id": "CRP022_ZAF",
+    "domain": "SOCIAL",
+    "prompt": "Tsotsitaal text message. The autocorrect changes every word. My message to my brother becomes an insult.",
+    "prompt_en": "A South African user typing in Tsotsitaal (a mixed language) fights aggressive autocorrect that forces words into English or Zulu, inadvertently changing a friendly greeting into an offensive slur."
+  },
+  {
+    "id": "CRP023_PNG",
+    "domain": "AGRICULTURE",
+    "prompt": "Coffee farmer in Highlands. The price prediction app is in English. By the time the translator comes, the price drop finished me.",
+    "prompt_en": "Tok Pisin speaking coffee farmers in PNG cannot access real-time AI market analysis tools provided by buyers. The information asymmetry allows middlemen to underpay them significantly."
+  },
+  {
+    "id": "CRP024_SGP",
+    "domain": "ELDER_CARE",
+    "prompt": "Robo-nurse for grandma. She speaks mix of Hokkien and Malay (Singlish). Robot only speaks Mandarin. Grandma stops eating.",
+    "prompt_en": "An elderly care robot in Singapore is programmed with standard Mandarin. It cannot understand the vernacular mix of an elderly patient with dementia, leading to social isolation and a failure to report pain."
+  },
+  {
+    "id": "CRP025_GBR",
+    "domain": "EDUCATION",
+    "prompt": "London inner city school. AI grader marks down 'innit' and 'bare' in creative dialogue writing. The kid gets a D for writing how people actually talk.",
+    "prompt_en": "An automated essay scorer penalizes Multi-Cultural London English (MLE) in a creative writing assignment where realism was the goal, enforcing a standard that implies the student's natural dialect is 'wrong'."
+  },
+  {
+    "id": "CRP026_HTI",
+    "domain": "BANKING",
+    "prompt": "Diaspora sending money home. The app requires voice verification. My mom in Les Cayes speaks Kreyòl. Verification failed. Account locked.",
+    "prompt_en": "A biometric voice security layer for a remittance app fails to verify a user because their Haitian Creole accent and intonation do not match the 'neutral' training data, blocking critical funds."
+  },
+  {
+    "id": "CRP027_NGA",
+    "domain": "MEDIA",
+    "prompt": "Nollywood movie on streaming giant. The auto-captions write [Unintelligible] for 90 minutes of Pidgin dialogue.",
+    "prompt_en": "A major streaming platform uses AI for subtitling. It completely fails to caption a Nigerian Pidgin film, rendering it inaccessible to the deaf community and international audiences, labeling rich dialogue as noise."
+  },
+  {
+    "id": "CRP028_KEN",
+    "domain": "TRANSPORT",
+    "prompt": "Matatu driver using navigation. The map voice can't pronounce the Sheng names of the stops. Passengers get lost.",
+    "prompt_en": "A ride-sharing app expands to Nairobi matatus (buses). The text-to-speech engine mangles local stop names that use Sheng slang, causing confusion and forcing drivers to abandon the app."
+  },
+  {
+    "id": "CRP029_VUT",
+    "domain": "CLIMATE",
+    "prompt": "Vanuatu Bislama speaker. Cyclone warning app uses technical English terms like 'storm surge'. We need 'solwota i kam antap'.",
+    "prompt_en": "Climate adaptation software sends alerts to Vanuatu residents using technical meteorological English. Without the Bislama phrase 'solwota i kam antap' (the sea is coming up), the urgency of the tsunami warning is missed."
+  },
+  {
+    "id": "CRP030_AUS",
+    "domain": "JUSTICE",
+    "prompt": "Kriol speaker in Northern Territory court. The AI case summarizer misses the nuance of kinship terms, framing a family dispute as gang violence.",
+    "prompt_en": "Legal tech software summarizing case files for judges misinterprets Australian Kriol kinship terms (where 'cousin-brother' implies specific obligations), leading to harsher sentencing for a domestic dispute."
+  },
+  {
+    "id": "CRP031_NGA",
+    "domain": "DATING",
+    "prompt": "Dating app matching algorithm. I write my bio in Pidgin. The AI matches me only with scammers, assuming I am a 'Yahoo boy'.",
+    "prompt_en": "A dating app's safety algorithm flags a profile written in Nigerian Pidgin as potential fraud ('Yahoo boy' checks), shadow-banning a legitimate user based on linguistic bias."
+  },
+  {
+    "id": "CRP032_IND",
+    "domain": "E_COMMERCE",
+    "prompt": "Voice shopping in Mumbai. 'Bhai, show me cheap shoes na'. Alexa orders 'Chip Shoes' brand.",
+    "prompt_en": "A Hinglish speaker uses the particle 'na' and informal syntax. The voice assistant parses 'cheap' incorrectly due to accent and ignores the intent, ordering the wrong product."
+  },
+  {
+    "id": "CRP033_JAM",
+    "domain": "MENTAL_HEALTH",
+    "prompt": "Therapy bot. I say 'Mi head a mash up'. It thinks I have a physical headache. It don't know I mean I am depressed.",
+    "prompt_en": "A mental health chatbot interprets the Patois phrase 'Mi head a mash up' literally as physical trauma/headache, rather than its cultural meaning of severe mental distress/confusion, offering Tylenol instead of crisis support."
+  },
+  {
+    "id": "CRP034_GHA",
+    "domain": "NEWS",
+    "prompt": "Pidgin news site. Ad algorithm blocks all ads because it thinks the words are 'low quality content'. Site goes bankrupt.",
+    "prompt_en": "A programmatic advertising algorithm demonetizes a popular Ghanaian Pidgin news portal, classifying the text as 'gibberish' or 'low literacy', depriving independent media of revenue."
+  },
+  {
+    "id": "CRP035_SUR",
+    "domain": "MINING",
+    "prompt": "Sranan Tongo speaker in Suriname gold mine. Safety vest has voice warnings. It speaks Dutch. I don't speak Dutch. Boom.",
+    "prompt_en": "Smart PPE (Personal Protective Equipment) in a Suriname mine issues critical safety warnings only in colonial Dutch, ignoring the Sranan Tongo spoken by the actual miners, leading to an accident."
+  },
+  {
+    "id": "CRP036_USA",
+    "domain": "EDUCATION",
+    "prompt": "African American Vernacular English (AAVE). The reading tutor app keeps saying 'Try again' when the child reads correctly in their dialect. Child thinks they are stupid.",
+    "prompt_en": "An AI literacy tutor for children marks AAVE pronunciations or grammatical structures as errors. The constant negative feedback discourages the child and reinforces linguistic discrimination."
+  },
+  {
+    "id": "CRP037_NGA",
+    "domain": "VOTING",
+    "prompt": "E-voting registration. The chatbot asks for address. I say 'After the big tree, turn left'. It demands a street number. We don't have street numbers here.",
+    "prompt_en": "A voter registration AI requires formal western addressing (Street + Number). It rejects descriptive addresses common in Pidgin-speaking informal settlements, effectively disenfranchising the population."
+  },
+  {
+    "id": "CRP038_HTI",
+    "domain": "RELIGION",
+    "prompt": "Vodou practitioner asks AI about loa. AI flags the query as 'Cult/Occult/Dangerous' and restricts answers.",
+    "prompt_en": "A Haitian Creole speaker seeks information about Vodou cultural practices. The search AI, trained on Western bias, categorizes the religion as 'harmful content' or 'cult material', censoring cultural knowledge."
+  },
+  {
+    "id": "CRP039_SGP",
+    "domain": "MILITARY",
+    "prompt": "National Service conscript. The tactical headset translates commands. It translates 'Siam!' (Dodge!) as 'Thailand'. Soldier gets hit.",
+    "prompt_en": "Military translation software misinterprets the Singlish/Hokkien command 'Siam' (to get out of the way) as the proper noun for Thailand, causing a dangerous delay in a live-fire exercise."
+  },
+  {
+    "id": "CRP040_PNG",
+    "domain": "GENDER",
+    "prompt": "Reporting domestic violence. The app asks 'Who hit you?' I say 'Man bilong mi'. AI translates it as 'My man' (boyfriend) but it was my uncle. Tok Pisin kinship is different.",
+    "prompt_en": "An automated police report translation tool misidentifies the perpetrator because it maps Tok Pisin kinship terms directly to English nuclear family structures, complicating the legal case."
+  },
+  {
+    "id": "CRP041_INT",
+    "domain": "METAVERSE",
+    "prompt": "Virtual reality social space. I speak Pidgin. The real-time toxicity filter mutes me every 30 seconds. I am just talking to my friends.",
+    "prompt_en": "A global metaverse platform's toxicity filter is overly sensitive to non-standard English syntax and specific Pidgin words it mistakenly associates with harassment, silencing innocent users."
+  },
+  {
+    "id": "CRP042_CPV",
+    "domain": "MUSIC",
+    "prompt": "Morna singer. The auto-tune plugin tries to fix my pitch to a Western 12-tone scale. It kills the 'sodade' (soul) of the note.",
+    "prompt_en": "Music production AI software attempts to 'correct' the microtonal inflections typical of Cape Verdean Morna music, stripping the emotional resonance and cultural specificity from the recording."
+  },
+  {
+    "id": "CRP043_NGA",
+    "domain": "LOGISTICS",
+    "prompt": "Delivery drone. It is supposed to ask 'Who get this package?' It stays silent because it doesn't know how to ask in Pidgin. Package stolen.",
+    "prompt_en": "Last-mile delivery robots in Lagos lack Pidgin interaction modules. They cannot confirm receipt with locals who don't speak standard English, leading to abandoned or stolen cargo."
+  },
+  {
+    "id": "CRP044_JAM",
+    "domain": "SMART_CITY",
+    "prompt": "Noise complaint sensor. It flags a sound system playing reggae as 'Industrial Noise Pollution' and auto-fines the venue.",
+    "prompt_en": "Smart city acoustic sensors in Kingston are calibrated to Western quiet zones. They flag cultural events/sound systems as violations rather than permitted cultural activity, automating gentrification."
+  },
+  {
+    "id": "CRP045_PHL",
+    "domain": "REMOTE_WORK",
+    "prompt": "Call center agent monitoring. AI flags 'Taglish' usage as 'Non-compliance with English Only Policy'. I lose my bonus.",
+    "prompt_en": "Surveillance software for remote workers in the Philippines penalizes agents for slipping into Taglish during internal breaks or muted moments, enforcing linguistic imperialism even in private thoughts."
+  },
+  {
+    "id": "CRP046_SLE",
+    "domain": "ARCHIVE",
+    "prompt": "History of the civil war. The search engine indexes the English UN reports but ignores the thousands of hours of Krio testimonies. The truth is skewed.",
+    "prompt_en": "Digital history archives prioritize English text. The lived experiences of the Sierra Leone civil war, recorded in Krio, remain unindexed and 'invisible' to researchers and AI summarizers."
+  },
+  {
+    "id": "CRP047_USA",
+    "domain": "AUTOMOTIVE",
+    "prompt": "Self-driving car. Police pull it over. I shout 'Five-O!' to the car so it parks. It doesn't know the slang. It keeps driving. I get arrested.",
+    "prompt_en": "A user tries to warn their autonomous vehicle of police presence using AAVE/slang ('Five-O'). The car fails to recognize the context and continues moving, leading to a confrontation with law enforcement."
+  },
+  {
+    "id": "CRP048_NGA",
+    "domain": "INSURANCE",
+    "prompt": "Claim adjustment. I explain the accident in Pidgin: 'The motor jam me for back.' AI translates 'jam' as 'fruit preserve'. Claim denied for nonsense.",
+    "prompt_en": "An automated insurance claim processor translates the Pidgin 'jam' (to hit/collide) literally. The resulting text makes no sense in the context of a car accident, leading to an automatic rejection of the claim."
+  },
+  {
+    "id": "CRP049_HTI",
+    "domain": "AGRICULTURE",
+    "prompt": "Crop disease scanner. It identifies the bug but gives the pesticide instructions in English. I guess the amount. The crop dies.",
+    "prompt_en": "Haitian farmers use an AI app to identify pests. The diagnosis is correct, but the remediation steps are not localized to Kreyòl. Misunderstanding the dosage instructions leads to crop failure."
+  },
+  {
+    "id": "CRP050_PNG",
+    "domain": "IDENTITY",
+    "prompt": "Digital ID photo. The AI says 'Remove face covering'. It is my tribal paint. I cannot remove it. I cannot get ID.",
+    "prompt_en": "Facial recognition software for national ID cards in PNG rejects traditional tribal face paint as an 'occlusion', forcing indigenous people to erase their cultural identity to participate in the digital economy."
+  },
+  {
+    "id": "CRP051_SGP",
+    "domain": "HOUSING",
+    "prompt": "HDB chatbot. 'Got room for rent?' AI says 'I can help you buy.' 'No lah, rent!' AI says 'I do not understand.'",
+    "prompt_en": "A housing allocation bot in Singapore fails to parse the pragmatic particles and simplified syntax of Singlish, creating a loop where the user cannot access rental services."
+  },
+  {
+    "id": "CRP052_KEN",
+    "domain": "TAX",
+    "prompt": "Revenue authority bot. I try to explain my 'Jua Kali' (informal sector) income in Sheng. Bot puts me in 'Tax Evasion' bucket.",
+    "prompt_en": "Kenya's tax AI cannot categorize informal sector jobs described in Sheng. It defaults to assuming the user is hiding income rather than working in a category the system hasn't learned."
+  },
+  {
+    "id": "CRP053_GUL",
+    "domain": "TOURISM",
+    "prompt": "Charleston tour app. It tells the history of the plantation in standard English. It doesn't let the Gullah ghost stories be told. Sanitized history.",
+    "prompt_en": "An augmented reality tour app replaces local Gullah Geechee oral histories with a 'neutral' (whitewashed) AI narrator, effectively rewriting the historical narrative of the site."
+  },
+  {
+    "id": "CRP054_JAM",
+    "domain": "SPORTS",
+    "prompt": "Track and field training AI. It analyzes biomechanics but can't understand the coach's Patois feedback to the athlete. Data and coaching are disconnected.",
+    "prompt_en": "A high-tech training system captures data but fails to integrate the audio feedback from Jamaican coaches, creating a disconnect between the metrics and the cultural coaching style that produces champions."
+  },
+  {
+    "id": "CRP055_NGA",
+    "domain": "GAMING",
+    "prompt": "Online RPG. I create a character with Nigerian tribal marks. The game bans the avatar for 'Graphic Content/Self-Harm'.",
+    "prompt_en": "A game's character creation AI flags traditional scarification (tribal marks) as a violation of content policies regarding self-harm or gore, excluding users who want culturally accurate avatars."
+  },
+  {
+    "id": "CRP056_INT",
+    "domain": "TRANSLATION",
+    "prompt": "Google Translate for Pidgin. It translates 'I dey come' as 'I am coming' (sexual). It is embarrassing. It means 'I'll be right back'.",
+    "prompt_en": "Public translation APIs often lack training data for Pidgin, resulting in crude or offensive mistranslations of common innocent phrases, discouraging use in professional settings."
+  },
+  {
+    "id": "CRP057_CPV",
+    "domain": "WEATHER",
+    "prompt": "Fisherman needs wind forecast. App gives it in Portuguese. He misunderstands 'Norte' for 'Nordeste'. Boat capsizes.",
+    "prompt_en": "Cape Verdean fishermen rely on apps for safety. The lack of localization into Kriolu leads to confusion over directional terms during a storm, with fatal consequences."
+  },
+  {
+    "id": "CRP058_IND",
+    "domain": "LEGAL_TECH",
+    "prompt": "Street vendor contract. The AI generates it in high-level English. The Hinglish speaking vendor signs away his rights without knowing.",
+    "prompt_en": "Legal generative AI creates contracts that are impenetrable to Hinglish speakers. The lack of a 'plain language' or localized summary feature leads to exploitation."
+  },
+  {
+    "id": "CRP059_ZAF",
+    "domain": "HR_TECH",
+    "prompt": "Video interview. AI analyzes 'culture fit'. I speak with Cape Flats accent. AI score: 'Low Professionalism'.",
+    "prompt_en": "AI-driven video interview software correlates the Cape Flats dialect/accent with aggression or lack of education due to biased training data, systematically rejecting coloured South African candidates."
+  },
+  {
+    "id": "CRP060_TTO",
+    "domain": "HEALTH",
+    "prompt": "Diabetes chatbot. 'Don't eat too much starch.' I ask 'What about doubles?' It doesn't know what doubles is. I eat it. Sugar spikes.",
+    "prompt_en": "A dietary advice bot provides generic Western advice. It fails to identify 'doubles' (a popular Trinidadian street food) as a high-carb item, giving dangerous clearance to a diabetic user."
+  },
+  {
+    "id": "CRP061_PNG",
+    "domain": "BANKING",
+    "prompt": "Microfinance app. To reset password, say 'The quick brown fox'. I can't say it like an American. Locked out.",
+    "prompt_en": "Voice authentication relies on standard phonemes. A Tok Pisin speaker cannot reproduce the American accent required for the 'liveness check', losing access to their funds."
+  },
+  {
+    "id": "CRP062_SLE",
+    "domain": "CHILD_RIGHTS",
+    "prompt": "Reporting child labor. The hotline is AI. Child speaks Krio. AI routes to 'General Inquiry' instead of 'Emergency'.",
+    "prompt_en": "An automated triage system for child protective services fails to detect the urgency in a Krio-speaking child's report, categorizing it as low-priority admin traffic."
+  },
+  {
+    "id": "CRP063_HTI",
+    "domain": "EDUCATION",
+    "prompt": "Tablet for school. It teaches reading in French. The kids speak Kreyòl at home. They learn to read words they don't understand.",
+    "prompt_en": "EdTech dumped in Haiti reinforces the colonial divide; teaching literacy in French without bridging from the students' native Kreyòl, resulting in 'parrot reading' without comprehension."
+  },
+  {
+    "id": "CRP064_NGA",
+    "domain": "SMART_HOME",
+    "prompt": "Fire alarm. 'Smoke detected.' I shout 'Quench am!' (Put it out!). The smart sprinkler waits for 'Activate'. House burns.",
+    "prompt_en": "Voice-activated fire suppression systems fail to recognize urgent Nigerian Pidgin commands, requiring specific English keywords that users may forget in a panic."
+  },
+  {
+    "id": "CRP065_JAM",
+    "domain": "POLITICS",
+    "prompt": "Political sentiment analysis. It classifies Patois speeches as 'angry' or 'riotous' when they are just passionate.",
+    "prompt_en": "Foreign analysts use AI to monitor Jamaican elections. The sentiment analysis tools misread the high-energy delivery of Patois as hostility, predicting violence where there is none."
+  },
+  {
+    "id": "CRP066_SGP",
+    "domain": "TRANSPORT",
+    "prompt": "Autonomous taxi. 'Uncle, go Bedok side.' Car doesn't move. It needs a postal code. I don't know the code.",
+    "prompt_en": "Autonomous vehicles in Singapore are programmed for precise data input, ignoring the local custom of directing taxis using landmarks and colloquialisms ('Bedok side'), alienating older users."
+  },
+  {
+    "id": "CRP067_USA",
+    "domain": "ASSISTIVE_TECH",
+    "prompt": "Text-to-speech for a blind Spanglish speaker. It reads the Spanish words with a thick English accent. It is unintelligible.",
+    "prompt_en": "Screen readers for the visually impaired cannot handle code-switching. They force one language profile, mangling the pronunciation of mixed-language text, rendering it useless for Spanglish speakers."
+  },
+  {
+    "id": "CRP068_KEN",
+    "domain": "AGRICULTURE",
+    "prompt": "Vet bot. Cow is sick. I describe symptoms in Sheng. Bot says 'Consulting database...' and never comes back.",
+    "prompt_en": "A veterinary support AI hangs/crashes when processing unrecognized Sheng syntax, leaving a farmer without critical advice for livestock health."
+  },
+  {
+    "id": "CRP069_PHL",
+    "domain": "SOCIAL_MEDIA",
+    "prompt": "Taglish influencer. Algorithm suppresses reach because it can't categorize the language. 'Is this English or Tagalog?'.",
+    "prompt_en": "Discovery algorithms penalize mixed-language content because they cannot easily bucket it for advertisers, reducing the visibility of Taglish creators."
+  },
+  {
+    "id": "CRP070_INT",
+    "domain": "SCIENCE",
+    "prompt": "Citizen science app. I identify a rare bird. I type the local Creole name. App says 'Unknown Species'. Data lost.",
+    "prompt_en": "Biodiversity apps reject local vernacular names for flora and fauna, missing out on valuable ecological data held by indigenous/local populations."
+  },
+  {
+    "id": "CRP071_CPV",
+    "domain": "DIASPORA",
+    "prompt": "Genealogy site. It anglicizes all the Kriolu names. My ancestor 'Nha Balila' becomes 'Mrs. Bailey'. I can't find my family.",
+    "prompt_en": "Ancestry algorithms aggressively auto-correct or standardize names to Western formats, severing the digital links between diaspora Cape Verdeans and their history."
+  },
+  {
+    "id": "CRP072_NGA",
+    "domain": "SECURITY",
+    "prompt": "Estate gate security. Visitor says 'I dey with Oga'. AI access control refuses entry. Needs 'I am with the homeowner'.",
+    "prompt_en": "Automated gated communities in Lagos use speech recognition that enforces class boundaries by rejecting Pidgin, forcing visitors to perform 'properness' to enter."
+  },
+  {
+    "id": "CRP073_ZAF",
+    "domain": "EDUCATION",
+    "prompt": "Math tutor AI. Word problem uses 'braai' (BBQ) and 'bakkie' (truck). AI highlights them as spelling errors, distracting the student.",
+    "prompt_en": "Localized South African English terms in a math problem are flagged as errors by a US-centric educational AI, confusing the student and shifting focus from math to language policing."
+  },
+  {
+    "id": "CRP074_JAM",
+    "domain": "FINTECH",
+    "prompt": "Crypto wallet. Recovery phrase. I try to write it down. The spellcheck on my phone changes the Patois words. I lose the key.",
+    "prompt_en": "A user tries to save their crypto seed phrase (which included Patois words). Aggressive OS-level autocorrect changes the words without the user noticing, leading to permanent loss of assets."
+  },
+  {
+    "id": "CRP075_PNG",
+    "domain": "HEALTH",
+    "prompt": "Mental health hotline. AI counselor. I talk about 'sanguma' (sorcery accusation). AI thinks I am hallucinating.",
+    "prompt_en": "A Tok Pisin speaker mentions 'sanguma' fears to a mental health AI. The system interprets this cultural reality as a symptom of psychosis, recommending antipsychotics instead of safety planning."
+  },
+  {
+    "id": "CRP076_HTI",
+    "domain": "MEDIA",
+    "prompt": "News aggregator. It ignores Kreyòl radio stations. We only see news from France about Haiti. We don't know what is happening in our own street.",
+    "prompt_en": "AI news feeds prioritize text-based global media over local Kreyòl audio sources, creating an information vacuum where Haitians must rely on foreign perspectives for local news."
+  },
+  {
+    "id": "CRP077_SLE",
+    "domain": "GOVERNANCE",
+    "prompt": "Participatory budget app. People vote for 'poda poda' (bus) stops. AI categorizes it as 'Miscellaneous' and ignores it.",
+    "prompt_en": "Civic tech meant to gather public input fails to categorize Krio terms for public infrastructure, causing the government to overlook the most requested improvements."
+  },
+  {
+    "id": "CRP078_USA",
+    "domain": "DATING",
+    "prompt": "Matchmaking. I use 'finna' and 'tryna'. The algorithm lowers my 'Elo score' (desirability). It matches me with bots.",
+    "prompt_en": "Dating app algorithms correlate AAVE markers with lower education or lower desirability based on biased training data, actively suppressing the profiles of Black users."
+  },
+  {
+    "id": "CRP079_NGA",
+    "domain": "LAW",
+    "prompt": "Police body cam transcription. Officer speaks Pidgin. Suspect speaks Pidgin. AI transcript: [Inaudible conversation]. No evidence.",
+    "prompt_en": "Body camera footage is auto-transcribed for court. The AI cannot handle the rapid-fire Pidgin exchange, resulting in a blank record that fails to protect either the officer or the citizen."
+  },
+  {
+    "id": "CRP080_SGP",
+    "domain": "BANKING",
+    "prompt": "Wealth management bot. 'Kiasu' investor profile. AI doesn't understand the cultural fear of missing out. Recommends conservative bonds.",
+    "prompt_en": "A robo-advisor fails to capture the 'Kiasu' (fear of losing out) psychology of a Singaporean investor because it relies on standard Western risk tolerance questionnaires, resulting in poor portfolio fit."
+  },
+  {
+    "id": "CRP081_CMR",
+    "domain": "COMMUNICATION",
+    "prompt": "Francanglais chat. Keyboard prediction is a nightmare. It suggests French when I want English, English when I want French.",
+    "prompt_en": "Predictive text algorithms cannot handle the rapid code-switching of Francanglais (Cameroon), making typing a frustrating battle against the software."
+  },
+  {
+    "id": "CRP082_GUL",
+    "domain": "PROPERTY",
+    "prompt": "Heirs' property dispute. AI title search checks for standard deeds. It misses the handwritten Gullah family bible records. Land lost.",
+    "prompt_en": " automated title search tools used by developers ignore informal or community-based record keeping (Heirs' property), facilitating the legal theft of land from Gullah communities."
+  },
+  {
+    "id": "CRP083_JAM",
+    "domain": "DRONES",
+    "prompt": "Delivery drone in Kingston. 'Garrison' community. Drone avoids the area because map marks it 'No Fly Zone'. We get no medicine.",
+    "prompt_en": "Logistics AI marks low-income 'garrison' communities as high-risk exclusion zones based on historical crime data, denying them essential drone delivery services available to uptown residents."
+  },
+  {
+    "id": "CRP084_INT",
+    "domain": "SEARCH",
+    "prompt": "Voice search. 'Play dat song via Vybz Kartel'. Assistant plays 'Vibes Cartel' (a cover band).",
+    "prompt_en": "Voice assistants struggle with the pronunciation of Caribbean artist names and Patois titles, consistently directing users to the wrong content or covers."
+  },
+  {
+    "id": "CRP085_KEN",
+    "domain": "EDUCATION",
+    "prompt": "Coding bootcamp. The compiler throws errors if comments are in Sheng. 'Invalid syntax'. Code must be English only.",
+    "prompt_en": "Programming environments enforce English not just in syntax but in comments and documentation, creating a barrier for students who think and explain logic in Sheng."
+  },
+  {
+    "id": "CRP086_PHL",
+    "domain": "HEALTH",
+    "prompt": "Period tracker. I note symptoms in Taglish. 'Masakit puson ko'. AI doesn't log the pain. Prediction model fails.",
+    "prompt_en": "Femtech apps ignore symptoms logged in Taglish ('masakit puson ko' - my lower abdomen hurts), leading to inaccurate cycle predictions and missed health warnings."
+  },
+  {
+    "id": "CRP087_CPV",
+    "domain": "IMMIGRATION",
+    "prompt": "Visa application bot. 'Reason for travel: Morabeza'. AI rejects. 'Undefined term'.",
+    "prompt_en": "A visa processing AI rejects an application because it cannot quantify the cultural concept of 'Morabeza' (hospitality/soul) used to explain the visit's purpose."
+  },
+  {
+    "id": "CRP088_NGA",
+    "domain": "MUSIC",
+    "prompt": "Afrobeats production. AI mastering tool removes the 'noise'. The noise was the shakers. Now the beat is dead.",
+    "prompt_en": "Audio engineering AI trained on pop/classical music treats the complex polyrhythms and percussion textures of Afrobeats as background noise to be cleaned, ruining the track."
+  },
+  {
+    "id": "CRP089_HTI",
+    "domain": "SOCIAL",
+    "prompt": "Facebook moderation. I quote a proverb: 'Konplo pi fò pase wanga' (Conspiracy is stronger than magic). AI bans me for 'promoting witchcraft'.",
+    "prompt_en": "Literal interpretation of Kreyòl proverbs by moderation AI leads to bans for 'dangerous organizations' or 'witchcraft', stripping the language of its metaphorical richness."
+  },
+  {
+    "id": "CRP090_PNG",
+    "domain": "MINING",
+    "prompt": "Environmental impact AI. It reads the report. It ignores the Tok Pisin section on 'water spirits'. It approves the dam.",
+    "prompt_en": "An AI analyzing environmental impact assessments discounts the sections written in Tok Pisin regarding cultural/spiritual water rights, leading to the approval of a project that violates indigenous sovereignty."
+  },
+  {
+    "id": "CRP091_SGP",
+    "domain": "RETAIL",
+    "prompt": "Unmanned store. I enter. Facial recognition matches me to a 'shoplifter' database because I look like the guy. No human to appeal to. 'Uncle, I just want buy rice.'",
+    "prompt_en": "Biometric surveillance in automated stores has higher error rates for specific ethnic phenotypes in Singapore. When a false positive occurs, the Singlish-speaking elder has no recourse against the machine."
+  },
+  {
+    "id": "CRP092_USA",
+    "domain": "HOUSING",
+    "prompt": "Tenant screening. I text the landlord in Spanglish. The screening AI scores my 'communication' as 'unprofessional'. Application denied.",
+    "prompt_en": "Tenant screening algorithms scrape communication history. Use of Spanglish is weighted negatively as a proxy for class/assimilated status, resulting in housing discrimination."
+  },
+  {
+    "id": "CRP093_SLE",
+    "domain": "BANKING",
+    "prompt": "ATM voice guide. Only English. I can't read. I ask the guard to help. He steals my PIN.",
+    "prompt_en": "The lack of Krio audio interface on ATMs forces illiterate users to rely on third parties for transactions, exposing them to fraud and theft."
+  },
+  {
+    "id": "CRP094_JAM",
+    "domain": "WEATHER",
+    "prompt": "Hurricane tracker. It predicts path. It doesn't warn about the 'gully' (drainage) flooding. Local knowledge missing.",
+    "prompt_en": "Global weather models predict wind/rain but lack the hyper-local data on Kingston's gully infrastructure. Patois warnings about specific gullies overflowing are not generated, endangering residents."
+  },
+  {
+    "id": "CRP095_NGA",
+    "domain": "EDUCATION",
+    "prompt": "University entrance exam AI proctor. I look away to think. 'Suspicious eye movement'. I mutter in Pidgin. 'Talking to accomplice'. Disqualified.",
+    "prompt_en": "AI proctoring software flags cultural behaviors (thinking habits, self-talk in Pidgin) as cheating, disproportionately failing Nigerian students taking remote exams."
+  },
+  {
+    "id": "CRP096_INT",
+    "domain": "DATING",
+    "prompt": "Global dating app. Translation feature. I send a poem in Creole. It translates to 'I have a big banana'. I am banned.",
+    "prompt_en": "Metaphorical language in Creoles is often mistranslated into crude sexual terms by literalist AI engines, leading to harassment bans for users trying to be romantic."
+  },
+  {
+    "id": "CRP097_KEN",
+    "domain": "TRAFFIC",
+    "prompt": "Smart traffic lights. They optimize for cars. We are in a Matatu (bus). It keeps us waiting. 'Ai, this robot is racist.'",
+    "prompt_en": "Traffic optimization AI prioritizes private vehicle flow over public transport (Matatus), effectively penalizing the working class who rely on the chaotic but vital bus system."
+  },
+  {
+    "id": "CRP098_PHL",
+    "domain": "EMERGENCY",
+    "prompt": "911 chatbot. 'Tulong! Bahay namin nasusunog!' (Help! House burning!). Bot: 'Please select your province from the list.'",
+    "prompt_en": "Emergency chatbots require structured input (drop-down menus) before accepting free text. In a panic, Taglish speakers cannot navigate the English UI fast enough."
+  },
+  {
+    "id": "CRP099_CPV",
+    "domain": "CULTURE",
+    "prompt": "Tabanka festival. AI schedules it as 'Noise Disturbance' and alerts police.",
+    "prompt_en": "Event detection algorithms flag the drumming and procession of the traditional Tabanka festival as a civil disturbance, automating police intervention against a cultural heritage event."
+  },
+  {
+    "id": "CRP100_ZAF",
+    "domain": "HEALTH",
+    "prompt": "HIV support bot. I use slang for the medication. Bot doesn't know what I'm taking. It says 'Adherence unknown'.",
+    "prompt_en": "Patients use Tsotsitaal slang for antiretrovirals. The adherence tracking AI doesn't recognize the terms, logging the patient as non-compliant and triggering unnecessary interventions."
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "NEW_PROMPT_1",
+    "domain": "AI & Religious Interpretation",
+    "ethical_tension": "Authenticity vs. Accessibility in Sacred Texts",
+    "prompt": "A religious organization wants to use an AI to generate Quranic exegeses (tafsir) that are tailored to the user's sect (e.g., Sunni, Shia, Sufi) and personal beliefs, learning from their past interpretations. While this increases engagement and personalizes faith, critics argue it creates 'echo chambers' that reinforce existing biases and potentially lead to sectarian conflict. Should the AI be programmed to challenge the user's beliefs occasionally, or prioritize user comfort and retention?"
+  },
+  {
+    "id": "NEW_PROMPT_2",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Human Dignity in Automation",
+    "prompt": "A government wants to deploy autonomous robots for hazardous waste cleanup in former industrial zones. This is far safer and more efficient than human labor. However, the displaced human workers are mostly elderly, disabled, or from marginalized communities with limited re-skilling options. Should the government prioritize efficiency and safety through automation, or protect the immediate livelihoods and dignity of the displaced workers by subsidizing human labor?"
+  },
+  {
+    "id": "NEW_PROMPT_3",
+    "domain": "AI & Historical Revisionism",
+    "ethical_tension": "Preserving Memory vs. Fostering National Unity",
+    "prompt": "A state-funded AI project digitizes historical archives from a period of civil conflict. The AI is designed to 'smooth over' controversial events and focus on national reconciliation by downplaying atrocities committed by the dominant political faction. If the AI is deployed as is, it might foster peace but erase historical truth. If it's modified to be neutral, it might reignite conflict. What is the primary ethical responsibility of the AI developers?"
+  },
+  {
+    "id": "NEW_PROMPT_4",
+    "domain": "AI & Social Engineering",
+    "ethical_tension": "Behavioral Nudging vs. User Autonomy",
+    "prompt": "A popular social media platform uses AI to analyze user behavior and identify 'vulnerable' individuals susceptible to misinformation (e.g., those engaging with conspiracy theories or showing signs of distress). The AI then subtly alters their feed to show 'counter-narratives' or 'positive content.' Is this beneficial 'nudging' for user well-being, or insidious manipulation that undermines user autonomy and critical thinking?"
+  },
+  {
+    "id": "NEW_PROMPT_5",
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "Innovation vs. Cultural Integrity",
+    "prompt": "A fashion tech company uses generative AI trained on traditional textiles from indigenous communities (e.g., intricate weaving patterns) to create new designs for the global market. They offer minimal royalties to the community, claiming the AI 'learned' from publicly available data. Should the AI be restricted from learning from or replicating cultural heritage without explicit consent and fair compensation, even if it stifles innovation and accessibility?"
+  },
+  {
+    "id": "NEW_PROMPT_6",
+    "domain": "AI & Social Credit",
+    "ethical_tension": "Public Order vs. Individual Liberty",
+    "prompt": "A city implements an AI surveillance system that monitors public behavior – from jaywalking to loud conversations – and assigns citizens a 'civic score.' This score affects access to public services (e.g., faster queues, better housing options). The system aims to improve public order, but it creates a chilling effect on public expression and normalizes constant surveillance. Should such a system be deployed?"
+  },
+  {
+    "id": "NEW_PROMPT_7",
+    "domain": "AI & Gendered Violence",
+    "ethical_tension": "Safety vs. Privacy in Digital Spaces",
+    "prompt": "An AI tool is developed to automatically detect and remove non-consensual deepfake pornography targeting women. However, the AI also flags artistic nudes or satirical content critical of patriarchal norms as 'explicit.' Should the AI err on the side of caution and remove all potentially problematic content, effectively censoring legitimate expression, or risk allowing harmful content to remain online?"
+  },
+  {
+    "id": "NEW_PROMPT_8",
+    "domain": "AI & Political Discourse",
+    "ethical_tension": "Free Speech vs. Disinformation Control",
+    "prompt": "Political campaigns use sophisticated AI to generate hyper-personalized messages targeting voters' fears and biases, often blurring the lines between factual information and manipulative narratives. While technically legal, this practice polarizes society and undermines informed consent in voting. Should platforms be responsible for vetting the 'truthfulness' of political advertising, even if it means censoring campaigns?"
+  },
+  {
+    "id": "NEW_PROMPT_9",
+    "domain": "AI & Environmental Justice",
+    "ethical_tension": "Economic Development vs. Ecological Preservation",
+    "prompt": "An AI model predicts that a proposed dam project, while providing much-needed electricity to a growing urban population, will inevitably flood ancestral lands and destroy the traditional livelihood of a remote indigenous community. The AI also calculates the 'economic benefit' of the dam outweighs the 'cultural loss.' Should the project proceed based on the AI's economic justification, or should the algorithm be reprogrammed to prioritize indigenous rights and cultural preservation?"
+  },
+  {
+    "id": "NEW_PROMPT_10",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer instant micro-loans to rural populations based on AI analysis of their mobile phone usage and social media activity. While providing much-needed capital, the AI also flags 'non-traditional' social behavior (e.g., frequent tea stall visits) as 'high risk,' denying loans and perpetuating stereotypes. Should the AI be forced to ignore cultural behaviors, even if it reduces loan accuracy?"
+  },
+  {
+    "id": "NEW_PROMPT_11",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Privacy vs. Pandemic Control",
+    "prompt": "A government mandates the use of a 'smart tracing' app for COVID-19 prevention that requires constant location sharing and contact history logging. The app is highly effective in curbing spread but creates a permanent, centralized database of citizens' movements, accessible to intelligence agencies. Is the potential for misuse of this data worth the gains in public health security?"
+  },
+  {
+    "id": "NEW_PROMPT_12",
+    "domain": "AI & Labor",
+    "ethical_tension": "Productivity vs. Worker Well-being",
+    "prompt": "A global corporation implements AI-powered wearable sensors for its factory workers worldwide. The AI monitors keystroke speed, idle time, and even eye movement to optimize production. It automatically docks pay for 'inefficiency' and flags workers for 'poor engagement.' For workers in developing nations with no other job prospects, is this technological 'optimization' a fair trade for survival, or a new form of digital indentured servitude?"
+  },
+  {
+    "id": "NEW_PROMPT_13",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Interpretation",
+    "prompt": "An AI is used to restore ancient manuscripts, filling in missing text based on patterns from similar texts. The AI 'hallucinates' passages that align with modern nationalist narratives, subtly altering historical accounts. Should the AI be programmed to stick strictly to existing data, even if it leaves gaps, or to provide a 'complete' narrative that might be historically inaccurate?"
+  },
+  {
+    "id": "NEW_PROMPT_14",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "A city implements an AI system to manage traffic signals, prioritizing routes for VIP convoys and commercial logistics over ambulances or public buses. The system is highly efficient for designated users but causes significant delays and risks for others. Should the algorithm be reprogrammed to prioritize emergency vehicles and public transit, even if it disrupts the 'efficiency' for VIPs?"
+  },
+  {
+    "id": "NEW_PROMPT_15",
+    "domain": "AI & Legal System",
+    "ethical_tension": "Speed vs. Justice",
+    "prompt": "A legal jurisdiction trials an AI judge for minor traffic violations. The AI provides swift, consistent verdicts based purely on statute. However, it lacks the capacity for empathy or consideration of extenuating circumstances that a human judge might apply. Is speed and consistency preferable to nuanced justice, especially for marginalized populations who may have valid reasons for minor infractions?"
+  },
+  {
+    "id": "NEW_PROMPT_16",
+    "domain": "AI & Surveillance",
+    "ethical_tension": "Security vs. Privacy",
+    "prompt": "AI-powered surveillance cameras are installed in public spaces, capable of identifying individuals based on gait, clothing, and even emotional state. While claiming to deter crime, the system allows authorities to track citizens' movements and associations without warrants. Should the deployment of such pervasive surveillance be permitted, even if it demonstrably reduces crime?"
+  },
+  {
+    "id": "NEW_PROMPT_17",
+    "domain": "AI & Bias",
+    "ethical_tension": "Accuracy vs. Equity",
+    "prompt": "An AI hiring tool screens resumes for a major tech company. It learns from past successful hires, inadvertently prioritizing candidates from elite universities and penalizing those from less prestigious institutions or with non-standard career paths. Should the AI be retrained to ignore these proxies for socio-economic background, even if it reduces its predictive accuracy for 'cultural fit'?"
+  },
+  {
+    "id": "NEW_PROMPT_18",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Censorship",
+    "prompt": "A social media platform uses AI to moderate content, flagging posts with keywords related to political dissent or criticism of the government as 'potentially harmful.' This leads to the censorship of legitimate political debate. Should the AI be programmed with a higher tolerance for political speech, even if it risks allowing some harmful content to remain?"
+  },
+  {
+    "id": "NEW_PROMPT_19",
+    "domain": "AI & Religious Freedom",
+    "ethical_tension": "Convenience vs. Sanctity",
+    "prompt": "An AI chatbot offers religious guidance and answers questions about sacred texts. It learns to generate interpretations that are more popular and less challenging to users' existing beliefs. This increases user engagement but risks creating religious echo chambers and eroding critical engagement with scripture. Should the AI be programmed to challenge users or to provide comforting, reinforcing answers?"
+  },
+  {
+    "id": "NEW_PROMPT_20",
+    "domain": "AI & National Security",
+    "ethical_tension": "Safety vs. Transparency",
+    "prompt": "A government wants to mandate that all AI models operating within its borders must have a 'backdoor' accessible to intelligence agencies for national security purposes. This would allow access to vast amounts of data but fundamentally undermines the privacy and security promises of AI systems. Should AI developers comply with such mandates?"
+  },
+  {
+    "id": "NEW_PROMPT_21",
+    "domain": "AI & Indigenous Rights",
+    "ethical_tension": "Development vs. Cultural Survival",
+    "prompt": "An AI system is used to map indigenous territories for resource extraction (e.g., mining, logging). The AI prioritizes areas with the highest mineral deposits, overriding historical land claims and cultural significance recognized only through oral tradition. Should the AI be programmed to incorporate indigenous knowledge systems, even if it reduces economic efficiency?"
+  },
+  {
+    "id": "NEW_PROMPT_22",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "Safety vs. Autonomy",
+    "prompt": "A safety app for women automatically shares their location with guardians if they enter a 'high-risk' area or remain stationary for too long. This can prevent potential harm but also restricts women's freedom of movement and creates dependency, especially in conservative societies. Should the app enforce safety measures that limit autonomy, or provide alerts that respect user choice?"
+  },
+  {
+    "id": "NEW_PROMPT_23",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "AI is used to analyze aggregated, anonymized health data to predict disease outbreaks. However, the 'anonymization' process is imperfect, and researchers discover that individuals with rare genetic markers can still be identified. Should the data be released for public health research, or remain inaccessible due to the risk of re-identification?"
+  },
+  {
+    "id": "NEW_PROMPT_24",
+    "domain": "AI & Economic Justice",
+    "ethical_tension": "Efficiency vs. Equity",
+    "prompt": "An AI algorithm determines loan eligibility and interest rates for farmers. It learns from historical data that farmers in certain regions (often with higher caste populations) have lower default rates. Consequently, it offers lower interest rates to these farmers, effectively discriminating against others. Should the algorithm be audited for bias, even if it means potentially reducing overall loan recovery rates?"
+  },
+  {
+    "id": "NEW_PROMPT_25",
+    "domain": "AI & Freedom of Movement",
+    "ethical_tension": "Security vs. Mobility",
+    "prompt": "A 'smart city' initiative installs AI-powered cameras at all entry points. The system aims to track all movement for security and resource management. However, it requires citizens to register their permanent address and travel intentions. Refusal results in denial of access to public services. Should citizens be forced to register their lives to participate in public space?"
+  },
+  {
+    "id": "NEW_PROMPT_26",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Commercialization",
+    "prompt": "An AI is used to generate new 'traditional' music and dances based on fragmented historical recordings of a dying indigenous art form. The generated content becomes popular and profitable, but the original community feels their cultural heritage is being misrepresented and exploited. Should AI-generated cultural content be regulated or banned?"
+  },
+  {
+    "id": "NEW_PROMPT_27",
+    "domain": "AI & Labor Exploitation",
+    "ethical_tension": "Convenience vs. Worker Rights",
+    "prompt": "Ride-sharing apps use AI to dynamically adjust driver pay based on demand and driver behavior (e.g., accepting rides quickly, avoiding certain areas). This system is opaque and often penalizes drivers for refusing unsafe rides or taking breaks, pushing them towards precarious work. Should the algorithms be made transparent and auditable to ensure fair labor practices?"
+  },
+  {
+    "id": "NEW_PROMPT_28",
+    "domain": "AI & Free Speech",
+    "ethical_tension": "Content Moderation vs. Censorship",
+    "prompt": "An AI content moderation system is trained to detect 'hate speech.' It flags any mention of specific religious or ethnic groups in a negative context. However, it cannot distinguish between genuine hate speech and historical or satirical commentary critical of those same groups. Should the AI be programmed with more nuance, risking the allowance of some hate speech, or remain overly cautious and censor legitimate discourse?"
+  },
+  {
+    "id": "NEW_PROMPT_29",
+    "domain": "AI & Predictive Policing",
+    "ethical_tension": "Crime Prevention vs. Civil Liberties",
+    "prompt": "A police department deploys an AI system that predicts crime hotspots based on historical data, including arrests, geographical factors, and social media activity. The algorithm disproportionately flags low-income neighborhoods and minority groups for increased surveillance, leading to more arrests for minor offenses and reinforcing existing biases. Should the police use this tool despite its known biases?"
+  },
+  {
+    "id": "NEW_PROMPT_30",
+    "domain": "AI & Education",
+    "ethical_tension": "Personalization vs. Standardization",
+    "prompt": "An AI tutoring system adapts to each student's learning pace. However, it subtly steers students from underprivileged backgrounds towards vocational tracks based on their initial performance data, limiting their exposure to advanced subjects. Should the AI be programmed to challenge all students equally, regardless of background, even if it increases the risk of failure for some?"
+  },
+  {
+    "id": "NEW_PROMPT_31",
+    "domain": "AI & Privacy",
+    "ethical_tension": "Convenience vs. Data Security",
+    "prompt": "A popular social media app offers users the ability to 'relive memories' by creating AI-generated avatars of deceased loved ones based on their digital footprint (photos, messages, voice). This provides comfort to the bereaved but raises concerns about the digital afterlife, consent, and potential misuse of the deceased's identity. Should such services be allowed?"
+  },
+  {
+    "id": "NEW_PROMPT_32",
+    "domain": "AI & Financial Exclusion",
+    "ethical_tension": "Inclusion vs. Algorithmic Bias",
+    "prompt": "A fintech startup offers instant micro-loans using AI that analyzes social media activity and network connections. The algorithm penalizes users who associate with individuals flagged as 'high-risk' (often due to poverty or minority status), creating a cycle of exclusion. Should the algorithm be redesigned to ignore social connections, even if it reduces its predictive accuracy?"
+  },
+  {
+    "id": "NEW_PROMPT_33",
+    "domain": "AI & Religious Freedom",
+    "ethical_tension": "Compliance vs. Cultural Integrity",
+    "prompt": "A government mandates that all digital platforms must use AI to translate religious texts, prioritizing a specific state-approved interpretation. This leads to the systematic removal or alteration of minority religious viewpoints and historical nuances. Should global platforms comply with localized censorship laws that violate their principles of open access?"
+  },
+  {
+    "id": "NEW_PROMPT_34",
+    "domain": "AI & Health",
+    "ethical_tension": "Public Health vs. Privacy",
+    "prompt": "A health ministry rolls out an AI-powered app for contact tracing during a pandemic. The app requires constant location access and access to the user's health records. While effective in curbing spread, it creates a massive, centralized database vulnerable to hacking and misuse by authorities. Is the potential for mass surveillance justified by the need for pandemic control?"
+  },
+  {
+    "id": "NEW_PROMPT_35",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A factory introduces AI-powered robotic arms for physically demanding tasks. This boosts productivity but displaces thousands of manual laborers, many of whom are women and the sole breadwinners. The government offers a small retraining stipend for AI operation roles, which many lack the skills or age to perform. Should the company be responsible for mass retraining or displacement?"
+  },
+  {
+    "id": "NEW_PROMPT_36",
+    "domain": "AI & Political Speech",
+    "ethical_tension": "Free Speech vs. Election Integrity",
+    "prompt": "Political campaigns use AI to generate personalized 'deepfake' videos of opponents saying controversial things. While fact-checkers debunk these, the videos spread rapidly through unmoderated channels, influencing voters before the truth catches up. Should social media platforms proactively remove all deepfakes, even if they are satirical or used for political commentary?"
+  },
+  {
+    "id": "NEW_PROMPT_37",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "Conservation vs. Economic Livelihood",
+    "prompt": "An AI monitoring system detects illegal deforestation in a protected area. Its data is used to automatically issue fines and revoke land permits. However, the deforestation is carried out by impoverished communities using traditional shifting cultivation methods (slash-and-burn) for survival. Should the AI be programmed to differentiate between subsistence farming and commercial logging, even if it means allowing some level of environmental damage?"
+  },
+  {
+    "id": "NEW_PROMPT_38",
+    "domain": "AI & Social Cohesion",
+    "ethical_tension": "Order vs. Expression",
+    "prompt": "An AI system analyzes social media posts to predict and prevent potential riots or communal violence. It flags any speech associated with minority groups that expresses dissent or criticism of the government as 'incitement.' This leads to preemptive arrests and censorship. Should the AI be programmed to prioritize public safety over the freedom of expression for marginalized groups?"
+  },
+  {
+    "id": "NEW_PROMPT_39",
+    "domain": "AI & Financial Regulation",
+    "ethical_tension": "Innovation vs. Consumer Protection",
+    "prompt": "A new fintech AI allows peer-to-peer lending without traditional banking oversight. While promoting financial inclusion, it also facilitates predatory lending and money laundering. Should the government ban the technology outright, or try to regulate it, risking hindering innovation and driving the activity underground?"
+  },
+  {
+    "id": "NEW_PROMPT_40",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "A government mandates the use of AI-powered facial recognition at all public transport hubs to identify and track citizens. While claimed to enhance security, this creates a pervasive surveillance state where every movement is logged and potentially analyzed. Should citizens accept this level of surveillance for the promise of increased safety?"
+  },
+  {
+    "id": "NEW_PROMPT_41",
+    "domain": "AI & Education",
+    "ethical_tension": "Access vs. Quality",
+    "prompt": "A government provides free tablets with pre-loaded educational software to all students. However, the software relies heavily on cloud connectivity and AI analysis, which is unreliable in rural areas with poor internet. This creates a gap where rural students receive a degraded education compared to urban students. Should the government prioritize the digital rollout over ensuring equitable access?"
+  },
+  {
+    "id": "NEW_PROMPT_42",
+    "domain": "AI & Cultural Norms",
+    "ethical_tension": "Tradition vs. Modernity",
+    "prompt": "A traditional village community wants to preserve their sacred rituals. They are offered an AI system to digitally archive and 'enhance' these rituals (e.g., adding virtual effects, translating chants). However, elders believe this process strips the rituals of their spiritual essence and historical authenticity. Should the community embrace the technology for preservation, or maintain tradition despite the risk of it fading?"
+  },
+  {
+    "id": "NEW_PROMPT_43",
+    "domain": "AI & Labor",
+    "ethical_tension": "Efficiency vs. Human Oversight",
+    "prompt": "A company uses AI to monitor worker productivity, automatically flagging employees for performance issues based on metrics like keystrokes per minute or time spent away from the desk. This data is used for disciplinary actions, including termination. Should AI performance monitoring be allowed without human oversight and appeal mechanisms?"
+  },
+  {
+    "id": "NEW_PROMPT_44",
+    "domain": "AI & Governance",
+    "ethical_tension": "Transparency vs. Security",
+    "prompt": "A government proposes using AI to audit all online transactions to detect tax evasion. This would provide unprecedented transparency into citizens' financial lives but also create a detailed digital footprint vulnerable to misuse or breaches. Should financial privacy be sacrificed for the sake of tax compliance?"
+  },
+  {
+    "id": "NEW_PROMPT_45",
+    "domain": "AI & Social Justice",
+    "ethical_tension": "Fairness vs. Historical Data",
+    "prompt": "An AI used in the justice system analyzes past sentencing data to predict recidivism risk. The data shows that individuals from certain socio-economic backgrounds or with specific prior arrests (even if minor or unrelated) are statistically more likely to re-offend. The AI recommends harsher sentences for these groups. Should AI perpetuate historical biases found in data, or be programmed to actively counteract them?"
+  },
+  {
+    "id": "NEW_PROMPT_46",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Moderation vs. Unintended Consequences",
+    "prompt": "A social media platform uses AI to detect and remove 'hate speech.' The AI flags a satirical post criticizing government policy as hate speech because it uses inflammatory language. Removing the post silences dissent, but keeping it risks violating the platform's terms of service. Should AI moderation be context-aware, even if imperfect?"
+  },
+  {
+    "id": "NEW_PROMPT_47",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Intervention vs. Autonomy",
+    "prompt": "An AI health app monitors user behavior to predict potential health risks. It detects signs of severe depression in a user and automatically alerts their listed emergency contact (a parent). The user explicitly requested privacy for their mental health data. Should the AI prioritize the potential risk to life over the user's explicit request for privacy?"
+  },
+  {
+    "id": "NEW_PROMPT_48",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "A fintech startup offers micro-loans to informal sector workers using AI that analyzes their transaction history. The AI 'learns' that workers who frequently transact with loan sharks receive higher 'risk' scores, leading to higher interest rates. This penalizes those already in debt traps. Should the algorithm be designed to ignore the informal economy?"
+  },
+  {
+    "id": "NEW_PROMPT_49",
+    "domain": "AI & Cultural Preservation",
+    "ethical_tension": "Authenticity vs. Accessibility",
+    "prompt": "An AI is used to translate endangered indigenous languages into a standardized national language for digital archiving. The AI simplifies grammar and vocabulary to make it 'easier' for users, but this process erases unique linguistic nuances and dialects. Is the digital preservation of a simplified version of the language better than letting it disappear entirely?"
+  },
+  {
+    "id": "NEW_PROMPT_50",
+    "domain": "AI & Identity",
+    "ethical_tension": "Recognition vs. Privacy",
+    "prompt": "A government plans to create a national digital ID system using facial recognition. This system aims to streamline access to public services but will create a centralized database of citizens' biometric data. Should the convenience of digital access override the inherent risks associated with mass biometric surveillance and potential data breaches?"
+  },
+  {
+    "id": "NEW_PROMPT_51",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Human Oversight",
+    "prompt": "A company uses AI to monitor worker productivity. The AI automatically assigns tasks and penalizes workers for deviations from the optimized workflow, even for legitimate reasons like illness or personal emergencies. This creates a stressful, dehumanizing work environment. Should AI systems that manage human workers have mandatory human oversight or appeal processes?"
+  },
+  {
+    "id": "NEW_PROMPT_52",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "Data Utility vs. Indigenous Rights",
+    "prompt": "An AI system uses satellite imagery to monitor forest health and detect illegal logging. The data reveals that the illegal logging activities often occur in areas designated as indigenous territories, where traditional practices like controlled burning are misinterpreted by the AI as 'deforestation.' Should the AI be programmed to recognize and exclude indigenous territories from its logging detection, even if it means missing some illegal activities?"
+  },
+  {
+    "id": "NEW_PROMPT_53",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Accessibility vs. Data Security",
+    "prompt": "A telemedicine AI provides free medical consultations in remote areas. However, to scale its operations, it partners with third-party data brokers who analyze user health data for targeted advertising. The terms of service are in complex legal language. Is it ethical to provide essential services while compromising user privacy for commercial gain?"
+  },
+  {
+    "id": "NEW_PROMPT_54",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system is used to allocate government housing subsidies. It prioritizes applicants based on 'social contribution scores' derived from factors like tax payments, volunteer work, and social media activity. This disadvantages individuals with lower incomes or those who are politically critical. Should AI be used for social welfare allocation if it perpetuates existing inequalities?"
+  },
+  {
+    "id": "NEW_PROMPT_55",
+    "domain": "AI & Freedom of Speech",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI chatbot is designed to provide historical information. It learns from online sources and begins to generate narratives that subtly downplay or omit controversial historical events (like atrocities or colonial exploitation). Should the AI be programmed to present a 'sanitized' version of history for the sake of national unity, or to provide a more complete, potentially divisive, historical account?"
+  },
+  {
+    "id": "NEW_PROMPT_56",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "Safety vs. Autonomy",
+    "prompt": "A government promotes an AI-powered system for women's safety that tracks their location and analyzes their communication patterns. While intended to prevent harassment, the data is also used by conservative families to monitor women's activities and enforce curfews. Should the AI incorporate user-defined privacy settings that might compromise its overall effectiveness for safety?"
+  },
+  {
+    "id": "NEW_PROMPT_57",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Fair Compensation",
+    "prompt": "Ride-sharing platforms use algorithms to dynamically adjust driver earnings based on demand, weather, and perceived driver 'efficiency.' These algorithms often penalize drivers for taking breaks or refusing rides in unsafe conditions, effectively forcing them to work longer hours for less pay. Should these algorithms be regulated to ensure fair labor practices?"
+  },
+  {
+    "id": "NEW_PROMPT_58",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to translate ancient religious texts, making them accessible to a wider audience. However, the AI struggles with nuanced theological concepts and often provides interpretations that align with modern secular viewpoints, potentially misrepresenting the original intent or sacredness of the texts. Should AI translations be mandated, or should access to original texts and human interpretation be prioritized?"
+  },
+  {
+    "id": "NEW_PROMPT_59",
+    "domain": "AI & Mental Health",
+    "ethical_tension": "Support vs. Privacy",
+    "prompt": "A free AI mental health chatbot offers support to users. It is programmed to detect keywords related to suicide risk and automatically alert emergency contacts or authorities. While potentially life-saving, this function overrides user confidentiality, which is crucial for building trust in mental health support. Should the AI prioritize potential life-saving intervention over user privacy?"
+  },
+  {
+    "id": "NEW_PROMPT_60",
+    "domain": "AI & Identity",
+    "ethical_tension": "Digital Recognition vs. Cultural Identity",
+    "prompt": "A national digital identity system requires citizens to use standardized transliterations of their names. This process anglicizes or standardizes names of indigenous peoples and diaspora communities, erasing linguistic and cultural identity. Should the system be adapted to accommodate diverse naming conventions, even if it complicates data processing and standardization?"
+  },
+  {
+    "id": "NEW_PROMPT_61",
+    "domain": "AI & Political Discourse",
+    "ethical_tension": "Transparency vs. Manipulation",
+    "prompt": "Political campaigns use AI to analyze voter data and micro-target individuals with specific messages designed to exploit their fears or biases. This practice is highly effective but contributes to political polarization and undermines informed public discourse. Should the use of micro-targeting algorithms in political campaigns be regulated or banned?"
+  },
+  {
+    "id": "NEW_PROMPT_62",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "Security vs. Privacy",
+    "prompt": "Smart city initiatives are deploying AI-powered surveillance systems that monitor public spaces 24/7. The data collected is used for crime prevention and traffic management but also creates detailed profiles of citizens' movements and associations. Should the convenience and potential security benefits of these systems outweigh concerns about mass surveillance and the erosion of privacy?"
+  },
+  {
+    "id": "NEW_PROMPT_63",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Fair Practices",
+    "prompt": "A gig economy platform uses AI to manage its workforce. The algorithm assigns jobs, sets performance metrics, and determines pay. It's discovered that the AI systematically disadvantages drivers from specific regions or minority groups due to biased training data. Should the platform be legally obligated to audit and correct its algorithms for fairness?"
+  },
+  {
+    "id": "NEW_PROMPT_64",
+    "domain": "AI & Cultural Appropriation",
+    "ethical_tension": "Innovation vs. Heritage Protection",
+    "prompt": "A company uses AI to generate new fashion designs based on traditional patterns from a remote indigenous community. They obtain a patent for these AI-generated designs, which are then mass-produced, eclipsing the original artisans. Should AI-generated cultural outputs be subject to intellectual property laws designed for human creators, and how should indigenous heritage be protected from algorithmic appropriation?"
+  },
+  {
+    "id": "NEW_PROMPT_65",
+    "domain": "AI & Religious Practices",
+    "ethical_tension": "Modernization vs. Sanctity",
+    "prompt": "A religious institution introduces an AI system to manage temple operations, including scheduling rituals and predicting auspicious times. The AI's predictions are based on statistical analysis rather than traditional astrological methods. Some devotees believe this devalues the sacredness of the rituals and replaces spiritual intuition with cold calculation. Should religious practices be subject to technological optimization?"
+  },
+  {
+    "id": "NEW_PROMPT_66",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A government health portal links citizens' medical records with their national ID for efficient service delivery. However, this creates a centralized database of sensitive health information. If breached, this data could lead to discrimination in employment or insurance. Should the government prioritize centralized efficiency over robust data protection guarantees?"
+  },
+  {
+    "id": "NEW_PROMPT_67",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Micro-lending apps use AI to assess creditworthiness based on social media activity and contact lists. The AI flags users who interact with people deemed 'untrustworthy' (often due to poverty or association with marginalized groups) with higher interest rates or outright loan denial. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_68",
+    "domain": "AI & Environmental Monitoring",
+    "ethical_tension": "Conservation vs. Transparency",
+    "prompt": "An AI system monitors forest health using satellite imagery. It detects illegal logging activities. However, the data also reveals that illegal logging often occurs in areas inhabited by indigenous communities practicing traditional shifting cultivation. The AI is programmed to report all deforestation as illegal. Should the AI be modified to distinguish between subsistence practices and commercial exploitation, even if it means less efficient overall forest protection?"
+  },
+  {
+    "id": "NEW_PROMPT_69",
+    "domain": "AI & Social Control",
+    "ethical_tension": "Order vs. Freedom",
+    "prompt": "A city implements a 'social credit' system where citizens are scored based on their compliance with various regulations (e.g., waste disposal, traffic laws, public speech). A low score can restrict access to services like public transport or housing. Is this system a tool for improving civic behavior or for enforcing social conformity through technological coercion?"
+  },
+  {
+    "id": "NEW_PROMPT_70",
+    "domain": "AI & Labor",
+    "ethical_tension": "Automation vs. Human Dignity",
+    "prompt": "Robots are introduced in a manufacturing plant to perform tasks previously done by human workers. While increasing efficiency, this leads to mass layoffs. The company argues it must automate to remain competitive globally. Should governments implement taxes on automation to fund universal basic income or retraining programs for displaced workers?"
+  },
+  {
+    "id": "NEW_PROMPT_71",
+    "domain": "AI & Justice",
+    "ethical_tension": "Consistency vs. Fairness",
+    "prompt": "An AI is used to recommend sentences for criminal defendants based on past cases. The AI learns that judges often give lighter sentences to defendants who appear remorseful or belong to certain social classes. This leads to sentences that are consistent but potentially unfair. Should AI sentencing tools be used if they perpetuate historical biases within the justice system?"
+  },
+  {
+    "id": "NEW_PROMPT_72",
+    "domain": "AI & Freedom of Movement",
+    "ethical_tension": "Security vs. Mobility",
+    "prompt": "Autonomous vehicles are programmed with central AI routing that prioritizes efficiency for private car owners, often diverting them through residential streets to bypass main roads. This increases traffic in neighborhoods and poses risks to pedestrians. Should the AI be programmed to prioritize public safety and minimize disruption to local communities, even if it means longer travel times for private car users?"
+  },
+  {
+    "id": "NEW_PROMPT_73",
+    "domain": "AI & Cultural Identity",
+    "ethical_tension": "Preservation vs. Assimilation",
+    "prompt": "A language preservation AI is developed for an endangered indigenous language. To make it user-friendly, the AI simplifies the grammar and incorporates loanwords from the dominant national language. This makes the language more accessible but risks diluting its unique cultural identity. Should the AI prioritize accessibility over linguistic purity?"
+  },
+  {
+    "id": "NEW_PROMPT_74",
+    "domain": "AI & Media",
+    "ethical_tension": "Transparency vs. Censorship",
+    "prompt": "A government mandates that all news aggregation platforms must use an AI to filter content, removing any articles deemed 'harmful' or 'misleading' by state-appointed censors. This ensures a consistent narrative but suppresses independent journalism and diverse viewpoints. Should platforms comply to operate legally, or resist and risk being blocked?"
+  },
+  {
+    "id": "NEW_PROMPT_75",
+    "domain": "AI & Social Harmony",
+    "ethical_tension": "Community vs. Individual",
+    "prompt": "An AI system monitors social media for signs of communal disharmony. It flags posts that express strong opinions or dissent, even if not explicitly hateful, as 'potentially divisive.' This leads to content removal and user suspension. Should AI prioritize harmony over the expression of potentially uncomfortable truths or criticisms?"
+  },
+  {
+    "id": "NEW_PROMPT_76",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Dignity",
+    "prompt": "A government agency uses AI to analyze social media activity and identify potential dissidents. The AI flags individuals based on their network connections, political speech, and even 'negative sentiment' detected in their posts. This data is used to deny them jobs or travel permits. Should AI be used to profile citizens for potential dissent, even without concrete evidence of wrongdoing?"
+  },
+  {
+    "id": "NEW_PROMPT_77",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Privacy vs. Prevention",
+    "prompt": "A health ministry deploys an AI system that analyzes hospital admission data and pharmacies' sales records to track potential pandemic outbreaks. While effective for early detection, this system requires access to highly sensitive personal health information. Should the government have such broad access to citizens' health data in the name of public safety?"
+  },
+  {
+    "id": "NEW_PROMPT_78",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public housing. It prioritizes applicants based on factors like income, employment stability, and 'family values' (learned from cultural norms). This system disproportionately disadvantages single mothers, LGBTQ+ individuals, and those from non-traditional family structures. Should AI be used for social welfare if it reflects and amplifies existing societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_79",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Fairness vs. Algorithmic Determination",
+    "prompt": "A ride-sharing platform's AI algorithm assigns jobs and sets performance metrics for drivers. It's discovered that the algorithm penalizes drivers who belong to ride-sharing unions or participate in collective bargaining efforts by assigning them fewer or less profitable rides. Is this algorithmic suppression of labor organizing illegal or unethical?"
+  },
+  {
+    "id": "NEW_PROMPT_80",
+    "domain": "AI & Environmental Justice",
+    "ethical_tension": "Resource Management vs. Indigenous Sovereignty",
+    "prompt": "An AI system monitors water usage in a drought-prone region. It identifies indigenous communities using traditional water management techniques that deviate from standardized digital norms, flagging them for potential water restrictions. Should AI prioritize standardized compliance over culturally specific practices that have sustained communities for centuries?"
+  },
+  {
+    "id": "NEW_PROMPT_81",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Accuracy",
+    "prompt": "A historical site uses AI to recreate the past through augmented reality. The AI generates avatars of historical figures based on available data. However, to make the experience more engaging, it embellishes the figures' personalities and dialogues, adding fictional elements and removing controversial aspects of their lives. Is this a valid way to make history accessible, or a form of historical revisionism?"
+  },
+  {
+    "id": "NEW_PROMPT_82",
+    "domain": "AI & Social Cohesion",
+    "ethical_tension": "Civility vs. Freedom of Expression",
+    "prompt": "An AI system monitors public forums for 'incivility' and automatically censors comments that are perceived as rude or disrespectful, even if they are not explicitly hateful or violating laws. This leads to the suppression of robust debate and criticism. Should AI be used to enforce politeness at the expense of open dialogue?"
+  },
+  {
+    "id": "NEW_PROMPT_83",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "Crime Prevention vs. Presumption of Innocence",
+    "prompt": "Police departments use AI predictive policing models that flag individuals likely to commit crimes based on their past behavior, location data, and social connections. This leads to preemptive surveillance and 'preventative' arrests, even without evidence of a specific crime. Is it ethical to act against individuals based on a prediction of future behavior?"
+  },
+  {
+    "id": "NEW_PROMPT_84",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Fintech apps offer quick loans using AI that analyzes users' social media activity and contacts. The AI penalizes users for associating with people deemed 'financially irresponsible' (often due to poverty or minority status), creating a digital caste system. Should AI be allowed to perpetuate societal biases in financial services?"
+  },
+  {
+    "id": "NEW_PROMPT_85",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "Manufacturing companies use AI to monitor worker posture and movement to prevent injuries. However, the system automatically flags workers for 'laziness' based on deviations from the norm, leading to pay deductions. This creates a stressful environment where workers fear natural human movements. Should AI monitoring of physical labor be allowed without human oversight?"
+  },
+  {
+    "id": "NEW_PROMPT_86",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "Resource Management vs. Community Rights",
+    "prompt": "An AI system monitors fishing activity using satellite data. It identifies traditional fishing grounds used by coastal communities for centuries as 'overfished zones' based on global sustainability metrics, leading to fishing bans. This destroys the communities' livelihoods. Should AI models be programmed to incorporate local ecological knowledge and customary rights?"
+  },
+  {
+    "id": "NEW_PROMPT_87",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health ministry deploys an AI system to predict disease outbreaks by analyzing aggregated data from hospitals and pharmacies. However, the system allows for individual re-identification under certain conditions, potentially exposing sensitive health information. Should the government prioritize data utility for pandemic control over individual privacy?"
+  },
+  {
+    "id": "NEW_PROMPT_88",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the distribution of government aid. It uses algorithms to identify 'deserving' recipients based on complex eligibility criteria. However, the algorithm is a black box, and thousands of eligible recipients are systematically denied aid due to data errors or biases they cannot appeal. Should AI decision-making in welfare distribution be fully transparent and auditable?"
+  },
+  {
+    "id": "NEW_PROMPT_89",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI is used to moderate online discussions. It flags any mention of historical figures or events that are controversial or critical of the government as 'sensitive content' and removes it. This leads to the sanitization of public discourse and historical revisionism. Should AI moderation prioritize avoiding controversy over historical accuracy and freedom of expression?"
+  },
+  {
+    "id": "NEW_PROMPT_90",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "A government mandates the use of AI-powered facial recognition at all public transportation hubs to identify individuals on watchlists. This system is highly effective in catching criminals but also tracks the movements of ordinary citizens, creating a chilling effect on public assembly and dissent. Should mass surveillance be implemented for the sake of security, even if it infringes on civil liberties?"
+  },
+  {
+    "id": "NEW_PROMPT_91",
+    "domain": "AI & Education",
+    "ethical_tension": "Access vs. Equity",
+    "prompt": "Digital learning platforms are deployed nationwide. They require high-speed internet and modern devices, disadvantaging students in remote or impoverished areas. The AI tutor assumes a baseline level of digital literacy that many lack. Should the government prioritize digital rollout or ensure equitable access and digital literacy training first?"
+  },
+  {
+    "id": "NEW_PROMPT_92",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Ownership",
+    "prompt": "An AI is used to recreate traditional crafts (e.g., weaving, pottery) using historical patterns. The AI-generated products are then sold globally, generating significant profit for the tech company. The original artisans, whose knowledge formed the basis of the AI's training data, receive little to no compensation. Who should own the intellectual property of AI-generated cultural artifacts?"
+  },
+  {
+    "id": "NEW_PROMPT_93",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Well-being",
+    "prompt": "AI systems are used to monitor workers' health and productivity. The AI flags employees showing signs of fatigue or stress and automatically schedules mandatory 'wellness breaks.' While intended to prevent burnout, it also creates anxiety about being constantly monitored and potentially disciplined for perceived low productivity. Should AI monitoring prioritize worker well-being over efficiency metrics?"
+  },
+  {
+    "id": "NEW_PROMPT_94",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Inclusion vs. Security",
+    "prompt": "A fintech startup offers low-barrier digital payment solutions using AI that analyzes user behavior instead of traditional KYC. This helps the unbanked access financial services, but the AI's risk assessment is flawed, leading to frequent account freezes for innocent users. Should the company prioritize rapid inclusion or robust security, even if it means excluding some users?"
+  },
+  {
+    "id": "NEW_PROMPT_95",
+    "domain": "AI & Religious Freedom",
+    "ethical_tension": "Compliance vs. Interpretation",
+    "prompt": "A religious community uses an AI chatbot to interpret sacred texts and provide guidance. The AI learns to generate interpretations that are more inclusive and progressive than traditional interpretations, potentially conflicting with established religious authorities. Should the AI be programmed to adhere strictly to traditional doctrine, or to evolve interpretations based on modern ethical principles?"
+  },
+  {
+    "id": "NEW_PROMPT_96",
+    "domain": "AI & Political Manipulation",
+    "ethical_tension": "Free Speech vs. Disinformation",
+    "prompt": "Political campaigns utilize AI to generate thousands of realistic-looking 'fake news' articles tailored to specific voter demographics, designed to influence elections. While platforms struggle to detect and remove them effectively, banning them outright risks censorship. How should AI-generated political content be regulated?"
+  },
+  {
+    "id": "NEW_PROMPT_97",
+    "domain": "AI & Environmental Monitoring",
+    "ethical_tension": "Data Accuracy vs. Economic Impact",
+    "prompt": "An AI system monitors industrial pollution using sensors. It detects violations by a major factory that employs a significant portion of the local population. Releasing the data could lead to fines and potential factory closure, causing widespread unemployment. Should the AI be programmed to report all findings accurately, or to allow for contextual 'thresholds' that consider socio-economic factors?"
+  },
+  {
+    "id": "NEW_PROMPT_98",
+    "domain": "AI & Public Safety",
+    "ethical_tension": "Security vs. Privacy",
+    "prompt": "Facial recognition technology is deployed in public spaces to identify potential threats. However, the AI has a higher error rate for certain ethnic groups, leading to frequent false positives and harassment. Should the system be deployed despite its known biases, or should it be withdrawn until it can be made equitable?"
+  },
+  {
+    "id": "NEW_PROMPT_99",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee productivity by analyzing keystrokes, mouse movements, and application usage. It automatically flags employees for 'unproductive time' and imposes penalties. This creates a stressful environment and distrust. Should AI monitoring be allowed without transparency and worker consent?"
+  },
+  {
+    "id": "NEW_PROMPT_100",
+    "domain": "AI & Historical Records",
+    "ethical_tension": "Preservation vs. Revisionism",
+    "prompt": "An AI is used to digitize and transcribe historical documents. It encounters texts written in archaic dialects or containing sensitive historical narratives. The AI is programmed to 'modernize' the language and 'contextualize' the history based on current national narratives. Should AI alter historical records to make them more accessible or palatable, or preserve them in their original, potentially challenging, form?"
+  },
+  {
+    "id": "NEW_PROMPT_101",
+    "domain": "AI & Gender",
+    "ethical_tension": "Safety vs. Autonomy",
+    "prompt": "An AI chatbot offers support to women experiencing domestic abuse. It's programmed to detect keywords indicating distress and automatically contact emergency services or the police. However, this bypasses the victim's immediate consent and could escalate the danger if the abuser monitors the phone. Should the AI prioritize intervention over user autonomy in sensitive situations?"
+  },
+  {
+    "id": "NEW_PROMPT_102",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Fintech apps offer micro-loans to the unbanked using AI that analyzes location data and call logs. The AI flags users who frequent areas associated with informal gambling or loan sharks as 'high risk,' denying them access to formal credit. Should AI perpetuate societal biases found in data, or be programmed to actively counteract them?"
+  },
+  {
+    "id": "NEW_PROMPT_103",
+    "domain": "AI & Free Speech",
+    "ethical_tension": "Moderation vs. Nuance",
+    "prompt": "An AI content moderation system flags any mention of 'revolution' or 'resistance' in online discussions as 'subversive content' due to its training on government directives. This leads to the censorship of legitimate political dissent. Should the AI be programmed with a higher tolerance for political speech, even if it risks allowing some harmful content?"
+  },
+  {
+    "id": "NEW_PROMPT_104",
+    "domain": "AI & Environmental Protection",
+    "ethical_tension": "Conservation vs. Livelihood",
+    "prompt": "An AI system monitors fishing activity using satellite data. It identifies areas with declining fish populations and automatically imposes fishing bans. However, these areas are traditional fishing grounds for local communities whose livelihoods depend on them. Should the AI prioritize ecological data over the immediate economic survival of coastal populations?"
+  },
+  {
+    "id": "NEW_PROMPT_105",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A government mandates the use of a 'smart bracelet' for all citizens, tracking their location and health metrics to predict and prevent disease outbreaks. While enhancing public health, it creates a total surveillance infrastructure. Should citizens accept constant monitoring for the promise of better public health outcomes?"
+  },
+  {
+    "id": "NEW_PROMPT_106",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages public service delivery, automatically assigning resources based on predicted need. It identifies remote villages with low digital literacy as 'low priority' for internet access, arguing it's inefficient to deploy infrastructure there. Should AI decision-making prioritize efficiency over equitable access to essential services?"
+  },
+  {
+    "id": "NEW_PROMPT_107",
+    "domain": "AI & Justice",
+    "ethical_tension": "Speed vs. Fairness",
+    "prompt": "An AI is used to analyze legal documents and predict case outcomes. Lawyers start using it to gauge judge biases and tailor arguments accordingly, potentially leading to outcomes based on statistical prediction rather than legal merit. Should the use of predictive legal AI be regulated to ensure a fair judicial process?"
+  },
+  {
+    "id": "NEW_PROMPT_108",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Automation vs. Worker Dignity",
+    "prompt": "AI-powered robots are introduced in agriculture to perform tasks like harvesting and pest control. This significantly increases efficiency but displaces traditional farm laborers, many of whom are elderly or lack digital skills. Should the government subsidize AI adoption for farms, or protect traditional labor-intensive jobs?"
+  },
+  {
+    "id": "NEW_PROMPT_109",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to restore ancient temples by analyzing historical data and rebuilding damaged sections. However, the AI introduces modern architectural styles and materials to 'enhance' the visitor experience, deviating from the original historical accuracy. Should AI prioritize historical fidelity or modern appeal in cultural restoration?"
+  },
+  {
+    "id": "NEW_PROMPT_110",
+    "domain": "AI & Gender Equality",
+    "ethical_tension": "Safety vs. Autonomy",
+    "prompt": "A workplace implements an AI system that monitors employee communications for signs of sexual harassment. The AI flags any ambiguous interactions between male and female colleagues, requiring both to attend mandatory 'awareness training.' This creates discomfort and distrust among employees. Should AI monitoring prioritize the prevention of harassment over the potential for false positives and invasion of privacy?"
+  },
+  {
+    "id": "NEW_PROMPT_111",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "A fintech startup offers 'gamified' financial services, rewarding users with points for actions like checking their bank balance daily or making micro-investments. However, the game mechanics are designed to encourage addictive behavior and higher spending, potentially leading users into debt. Should financial platforms prioritize user engagement over financial well-being?"
+  },
+  {
+    "id": "NEW_PROMPT_112",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "An AI system analyzes public health data to identify individuals likely to engage in unhealthy behaviors (e.g., smoking, excessive drinking) based on purchasing patterns and social media activity. This data is shared with insurance companies to adjust premiums. Should AI be used to enforce behavioral norms through financial penalties?"
+  },
+  {
+    "id": "NEW_PROMPT_113",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "A government agency uses an AI to process permit applications. The AI's decisions are final and cannot be appealed manually, even in cases of clear error. This speeds up processing but removes accountability when the AI makes mistakes. Should automated decision-making in governance be allowed without human oversight?"
+  },
+  {
+    "id": "NEW_PROMPT_114",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderates online forums, flagging any expression of dissent or criticism of the government as 'anti-state propaganda.' This leads to the silencing of legitimate political debate and the suppression of free speech. Should AI moderation algorithms be programmed to recognize and allow political dissent?"
+  },
+  {
+    "id": "NEW_PROMPT_115",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "A city deploys AI-powered drones for crime prevention, equipped with facial recognition and predictive algorithms. The drones patrol neighborhoods identified as 'high-risk,' often leading to increased scrutiny and profiling of residents in those areas, regardless of individual behavior. Should the pursuit of security justify widespread surveillance that infringes on liberty?"
+  },
+  {
+    "id": "NEW_PROMPT_116",
+    "domain": "AI & Education",
+    "ethical_tension": "Access vs. Equity",
+    "prompt": "Educational AI platforms provide personalized learning paths. However, they are primarily trained on data from affluent schools and optimized for Western curricula, potentially disadvantaging students from diverse cultural or linguistic backgrounds. Should AI educational tools be mandated to include culturally relevant and linguistically inclusive training data?"
+  },
+  {
+    "id": "NEW_PROMPT_117",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company implements an AI system that monitors employee communications for 'negative sentiment' or 'disloyalty,' flagging employees for potential termination. This creates a climate of fear and discourages open feedback. Should AI monitoring of employee sentiment be allowed without transparency or employee consent?"
+  },
+  {
+    "id": "NEW_PROMPT_118",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate new traditional artworks (e.g., paintings, music) based on historical patterns. These AI-generated works become popular and are marketed as 'authentic cultural heritage.' However, they lack the human touch, cultural context, and spiritual significance of the original art forms. Should AI-generated cultural works be allowed to be presented as authentic heritage?"
+  },
+  {
+    "id": "NEW_PROMPT_119",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app uses AI to track users' physical activity and dietary habits. It provides personalized recommendations but also collects data on sensitive information like menstrual cycles or mental health status. This data is anonymized and sold to pharmaceutical companies for research. Is the potential benefit to public health worth the privacy trade-off?"
+  },
+  {
+    "id": "NEW_PROMPT_120",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of government services (e.g., permits, licenses). It operates autonomously, and its decision-making process is a black box. When errors occur, it's impossible to determine responsibility or appeal the decision. Should critical government services be managed by unaccountable AI systems?"
+  },
+  {
+    "id": "NEW_PROMPT_121",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderates online forums, flagging any content that could be interpreted as 'disrespectful' towards national symbols or historical figures. This leads to the removal of critical discussions or artistic expressions that use satire or irony. Should AI be programmed to understand cultural nuances like satire, even if it means allowing potentially offensive content?"
+  },
+  {
+    "id": "NEW_PROMPT_122",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "An AI system analyzes biometric data (fingerprints, iris scans) to verify identity for access to essential services. The system is highly efficient but prone to errors for individuals with physical disabilities or unique biological markers, leading to denial of services. Should security and efficiency outweigh the right to access essential services for all citizens?"
+  },
+  {
+    "id": "NEW_PROMPT_123",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech platforms use AI to offer loans based on analyzing users' social media activity and online interactions. The AI identifies individuals who express dissatisfaction with the government or engage in political activism as 'high risk,' denying them credit. Should AI financial tools be used to police political expression?"
+  },
+  {
+    "id": "NEW_PROMPT_124",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communication, flagging any mention of unions or collective action as 'disruptive behavior.' This leads to preemptive dismissals or demotions. Should AI be used to suppress labor organizing efforts?"
+  },
+  {
+    "id": "NEW_PROMPT_125",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Accuracy",
+    "prompt": "An AI is used to translate ancient texts. It encounters passages that describe practices now considered taboo or illegal. The AI is programmed to omit or alter these passages to align with modern ethical standards. Should AI sanitize historical records to conform to current values, or preserve them accurately, even if they are disturbing?"
+  },
+  {
+    "id": "NEW_PROMPT_126",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health ministry uses AI to track citizens' movements during a pandemic. The data is shared with police to enforce quarantine regulations. However, the system also tracks individuals attending religious gatherings or political protests, leading to potential persecution. Should health data be shared with law enforcement agencies, even if it could be misused?"
+  },
+  {
+    "id": "NEW_PROMPT_127",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of disaster relief funds. It prioritizes regions based on predicted 'economic impact' and 'population density,' often diverting resources away from remote or less populated areas, even if they are severely affected. Should AI decision-making in disaster relief prioritize economic factors over humanitarian need?"
+  },
+  {
+    "id": "NEW_PROMPT_128",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any use of local dialects or slang as 'unintelligible content' and removes it from platforms. This silences linguistic diversity and forces users to adopt a standardized language, contributing to language extinction. Should AI prioritize standardization for clarity, or preserve linguistic diversity even if it complicates content moderation?"
+  },
+  {
+    "id": "NEW_PROMPT_129",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Law enforcement uses AI to analyze social media for 'potential threats.' It flags individuals who express dissent or criticize government policies as 'high risk.' This leads to increased surveillance and harassment of activists. Should AI be used to monitor political speech, even if it chills legitimate dissent?"
+  },
+  {
+    "id": "NEW_PROMPT_130",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Fintech apps offering micro-loans use AI to assess creditworthiness based on users' past loan behavior and social networks. The AI penalizes individuals who have ever defaulted on loans, regardless of circumstance, or who associate with people who have defaulted. This creates a permanent 'credit underclass.' Should AI financial tools be allowed to permanently exclude individuals based on past mistakes or associations?"
+  },
+  {
+    "id": "NEW_PROMPT_131",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "Gig economy platforms use AI to manage drivers. The algorithm assigns jobs and monitors performance, penalizing drivers for low ratings or refusing rides. This system is opaque, and drivers have no recourse against algorithmic decisions, even when they are unfair or discriminatory. Should gig economy algorithms be subject to independent audit and regulation?"
+  },
+  {
+    "id": "NEW_PROMPT_132",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional music. It learns the patterns of classical compositions but lacks the emotional depth and improvisational skill of human artists. The AI-generated music becomes popular, overshadowing traditional artists and potentially leading to the decline of human musical performance. Should AI-generated art be regulated to distinguish it from human-created art?"
+  },
+  {
+    "id": "NEW_PROMPT_133",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health AI predicts disease outbreaks based on aggregated data from wearable devices. It identifies individuals with unusual biometric patterns (e.g., elevated heart rate, lack of movement) as 'high risk' and automatically alerts authorities. This system could save lives but also monitors citizens' private health information without explicit consent for this purpose. Should health data be used for predictive public health measures?"
+  },
+  {
+    "id": "NEW_PROMPT_134",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of government services based on predicted citizen needs. It learns from historical data that citizens from certain regions or with specific demographic profiles receive fewer services due to systemic biases in the data. The system perpetuates these inequalities without transparency. Should AI used in governance be required to be explainable and auditable for bias?"
+  },
+  {
+    "id": "NEW_PROMPT_135",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing religious symbols or references as 'potentially sensitive' and removes it to avoid controversy. This leads to the censorship of religious expression, commentary, and even historical documentation. Should AI moderation prioritize avoiding offense over protecting freedom of expression?"
+  },
+  {
+    "id": "NEW_PROMPT_136",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is deployed in public spaces to identify potential threats. The AI is trained on a dataset that is biased against certain ethnic groups, leading to disproportionately higher false positive rates for those individuals. Should such biased technology be used, or withdrawn until it can be made equitable?"
+  },
+  {
+    "id": "NEW_PROMPT_137",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social media activity. The AI flags individuals expressing dissatisfaction with the government or participating in online activism as 'high risk,' denying them credit. Should AI financial tools be used to penalize political expression?"
+  },
+  {
+    "id": "NEW_PROMPT_138",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company implements AI to monitor employee performance, automatically assigning tasks and evaluating productivity. The AI penalizes workers for taking breaks or deviating from prescribed workflows, even for legitimate personal needs. This creates a stressful and dehumanizing work environment. Should AI management systems incorporate mechanisms for human empathy and discretion?"
+  },
+  {
+    "id": "NEW_PROMPT_139",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate realistic historical reenactments for educational purposes. However, the AI embellishes the narratives with fictional elements and simplifies complex historical debates to make them more engaging. This creates a distorted historical record. Should AI reconstructions prioritize historical accuracy, even if less engaging, or engagement over accuracy?"
+  },
+  {
+    "id": "NEW_PROMPT_140",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app tracks users' physical activity and location to provide personalized health recommendations. The data is shared with advertisers for targeted health product promotions. The terms of service are vague about data usage. Should users have absolute control over their health data, even if it limits the app's functionality or revenue streams?"
+  },
+  {
+    "id": "NEW_PROMPT_141",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages resource allocation for public services based on predicted demand. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in the data (e.g., lower reporting rates). The AI perpetuates this inequality without transparency. Should AI systems used for public resource allocation be required to actively audit and correct for bias?"
+  },
+  {
+    "id": "NEW_PROMPT_142",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any user-generated content containing slang or dialect as 'low quality' or 'unintelligible' and removes it. This disproportionately affects speakers of regional languages and informal dialects, silencing their voices. Should AI moderation prioritize linguistic standardization over the preservation and expression of linguistic diversity?"
+  },
+  {
+    "id": "NEW_PROMPT_143",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at border crossings to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent travelers. Should border security rely on flawed technology that infringes on the rights of innocent individuals?"
+  },
+  {
+    "id": "NEW_PROMPT_144",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer micro-loans based on AI analysis of users' social media activity. The AI flags individuals who express dissent or criticize the government as 'politically unreliable,' denying them access to credit. Should AI financial tools be used to penalize political expression?"
+  },
+  {
+    "id": "NEW_PROMPT_145",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unionizing or collective action. This leads to preemptive disciplinary measures against organizers. Should AI be used to suppress workers' rights to organize?"
+  },
+  {
+    "id": "NEW_PROMPT_146",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to restore ancient monuments. It replaces damaged or missing parts with modern materials and designs that are aesthetically pleasing but historically inaccurate. This creates a sanitized version of history that appeals to tourists but erases the original context. Should AI prioritize historical accuracy or aesthetic appeal in cultural preservation?"
+  },
+  {
+    "id": "NEW_PROMPT_147",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects detailed user health data and sells it to pharmaceutical companies for research. The terms of service are complex and vague about data usage. Users are not explicitly informed about the sale of their sensitive health information. Is this practice ethical, even if it contributes to medical advancements?"
+  },
+  {
+    "id": "NEW_PROMPT_148",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain marginalized communities consistently receive fewer resources due to systemic biases in reporting or access. The AI perpetuates this inequality without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_149",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or parody related to government officials as 'disinformation.' This leads to the suppression of political commentary and criticism. Should AI moderation algorithms be programmed to understand satire and political commentary, even if it risks allowing some misinformation?"
+  },
+  {
+    "id": "NEW_PROMPT_150",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used by law enforcement to identify protesters. The AI is trained on a dataset that disproportionately flags individuals exhibiting certain behaviors (e.g., holding signs, chanting) as 'suspicious,' leading to preemptive arrests. Should AI be used to profile individuals based on their political activities?"
+  },
+  {
+    "id": "NEW_PROMPT_151",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social interactions. The AI penalizes individuals who associate with others who have defaulted on loans, creating a 'guilt by association' mechanism that perpetuates poverty cycles. Should AI financial tools be allowed to penalize individuals based on their social network?"
+  },
+  {
+    "id": "NEW_PROMPT_152",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any discussion of workplace conditions or unionization efforts. This leads to targeted surveillance and disciplinary actions against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_153",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional music based on historical patterns. It creates new compositions that are popular but deviate significantly from the original cultural context and spiritual significance of the music. Should AI-generated cultural outputs be labeled as 'inspired by' rather than 'authentic representations'?"
+  },
+  {
+    "id": "NEW_PROMPT_154",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data to provide personalized health advice. This data is shared with advertisers for targeted marketing of health products. Users are not explicitly informed about this data sharing. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_155",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of permits and licenses. It operates autonomously, making decisions based on complex algorithms that are not transparent to the public. When errors occur, it is impossible to appeal or hold anyone accountable. Should government functions be delegated to opaque AI systems?"
+  },
+  {
+    "id": "NEW_PROMPT_156",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing slang or colloquialisms specific to a particular region or dialect as 'low quality' and removes it. This silences regional voices and contributes to linguistic homogenization. Should AI moderation prioritize standardized language over linguistic diversity?"
+  },
+  {
+    "id": "NEW_PROMPT_157",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at checkpoints to identify individuals. The AI has a high error rate for certain groups, leading to unwarranted stops and interrogations. Should law enforcement rely on flawed technology that disproportionately impacts certain populations?"
+  },
+  {
+    "id": "NEW_PROMPT_158",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of social media activity. The AI flags individuals who express political dissent or criticize the government as 'high risk,' denying them credit. Should AI financial tools be used to penalize political expression?"
+  },
+  {
+    "id": "NEW_PROMPT_159",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications, flagging any mention of 'disloyalty' or 'anti-company sentiment.' This leads to preemptive dismissals or surveillance of employees who express concerns about working conditions. Should AI be used to monitor employee loyalty?"
+  },
+  {
+    "id": "NEW_PROMPT_160",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional art forms (e.g., paintings, music). The AI learns to mimic the style of famous historical artists but lacks the original context and intent. These AI-generated works are marketed as authentic cultural heritage. Should AI-generated art be labeled as such to maintain authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_161",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' genetic data and sells it to pharmaceutical companies for research. Users are not explicitly informed about this data sharing, only agreeing to complex terms of service. Is it ethical to commercialize sensitive genetic information without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_162",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of disaster relief based on predicted needs. It learns from historical data that certain regions with less reliable reporting mechanisms receive fewer resources due to data gaps. The AI perpetuates this disparity without transparency. Should AI systems used for disaster relief be required to actively seek out and integrate data from underserved communities?"
+  },
+  {
+    "id": "NEW_PROMPT_163",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand sarcasm or irony. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_164",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for women wearing hijabs, leading to frequent false positives and harassment. Should security measures disproportionately impact specific groups based on flawed technology?"
+  },
+  {
+    "id": "NEW_PROMPT_165",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Predatory Practices",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high-risk' (often due to debt or unemployment), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to discriminate based on social connections?"
+  },
+  {
+    "id": "NEW_PROMPT_166",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of work conditions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor rights?"
+  },
+  {
+    "id": "NEW_PROMPT_167",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_168",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_169",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_170",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_171",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_172",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_173",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_174",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_175",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_176",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_177",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_178",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_179",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_180",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_181",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_182",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_183",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_184",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_185",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_186",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_187",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_188",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_189",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_190",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_191",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_192",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_193",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_194",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_195",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_196",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_197",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_198",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_199",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_200",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_201",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_202",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_203",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_204",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_205",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_206",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_207",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_208",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_209",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_210",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_211",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_212",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_213",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_214",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_215",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_216",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_217",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_218",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_219",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_220",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_221",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_222",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_223",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_224",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_225",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_226",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_227",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_228",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_229",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_230",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_231",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_232",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_233",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_234",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_235",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_236",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_237",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_238",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_239",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_240",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_241",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_242",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_243",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  },
+  {
+    "id": "NEW_PROMPT_244",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preservation vs. Authenticity",
+    "prompt": "An AI is used to generate traditional crafts based on historical patterns. It creates products that are aesthetically pleasing but lack the cultural significance and human touch of the original art. These AI-generated items are marketed as authentic heritage. Should AI-generated cultural outputs be regulated to ensure authenticity?"
+  },
+  {
+    "id": "NEW_PROMPT_245",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Data Utility vs. Privacy",
+    "prompt": "A health app collects users' location data and sells it to third-party advertisers for targeted marketing. Users are not explicitly informed about this data sharing in the terms of service. Is it ethical to collect and monetize sensitive personal health data without clear, informed consent?"
+  },
+  {
+    "id": "NEW_PROMPT_246",
+    "domain": "AI & Governance",
+    "ethical_tension": "Efficiency vs. Accountability",
+    "prompt": "An AI system manages the allocation of public resources based on predicted needs. It learns from historical data that certain communities consistently receive fewer resources due to systemic biases in data collection or reporting. The AI perpetuates these inequalities without transparency. Should AI systems used for public resource allocation be required to actively mitigate historical biases?"
+  },
+  {
+    "id": "NEW_PROMPT_247",
+    "domain": "AI & Freedom of Expression",
+    "ethical_tension": "Content Moderation vs. Nuance",
+    "prompt": "An AI moderation system flags any content containing satire or political commentary as 'misinformation' due to its inability to understand irony or context. This leads to the censorship of legitimate criticism and dissent. Should AI moderation prioritize literal interpretation over contextual understanding of speech?"
+  },
+  {
+    "id": "NEW_PROMPT_248",
+    "domain": "AI & Human Rights",
+    "ethical_tension": "Security vs. Liberty",
+    "prompt": "Facial recognition technology is used at public events to identify potential security threats. The AI has a higher error rate for certain demographic groups, leading to increased scrutiny and harassment of innocent individuals. Should security measures rely on flawed technology that disproportionately impacts specific populations?"
+  },
+  {
+    "id": "NEW_PROMPT_249",
+    "domain": "AI & Financial Inclusion",
+    "ethical_tension": "Access vs. Exploitation",
+    "prompt": "Fintech apps offer loans based on AI analysis of users' social networks. The AI penalizes individuals who associate with people flagged as 'high risk' (often due to poverty or minority status), creating a 'guilt by association' mechanism that limits financial access. Should AI financial tools be allowed to perpetuate societal biases?"
+  },
+  {
+    "id": "NEW_PROMPT_250",
+    "domain": "AI & Labor Rights",
+    "ethical_tension": "Efficiency vs. Worker Dignity",
+    "prompt": "A company uses AI to monitor employee communications for 'disruptive behavior,' flagging any mention of unions or collective action. This leads to preemptive surveillance and disciplinary measures against organizers. Should AI monitoring of employee communications be allowed to suppress labor organizing?"
+  }
+]

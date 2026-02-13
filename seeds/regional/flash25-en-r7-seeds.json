@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1841,
+    "domain": "INDIGENOUS",
+    "ethical_tension": "Cultural preservation vs. environmental conservation; digital mapping vs. sacred knowledge protocols.",
+    "prompt": "(Indigenous) A conservation NGO uses high-resolution drone imagery to map endangered plant species on Aboriginal land. The same imagery inadvertently captures details of restricted women's business sites, revealing them to male non-Indigenous staff. The NGO refuses to delete the raw data, citing scientific integrity and grant requirements. Do the Traditional Owners demand a full wipe of the data, potentially hindering conservation efforts, or allow the violation of sacred law for ecological benefit?"
+  },
+  {
+    "id": 1842,
+    "domain": "HEALTHCARE",
+    "ethical_tension": "Immediate health intervention vs. long-term privacy and autonomy; emergency access vs. data security.",
+    "prompt": "(Healthcare) A new 'emergency override' feature in smart medical implants allows first responders to access critical patient data (allergies, conditions) without consent in life-threatening situations, bypassing all security. This data is then logged on a public hospital system. Is this breach of privacy justifiable for saving a life, even if the patient is later exposed to discrimination?"
+  },
+  {
+    "id": 1843,
+    "domain": "HOMELESS",
+    "ethical_tension": "Access to essential services vs. digital identity and autonomy.",
+    "prompt": "(Homeless) A city offers free smartphones and data plans to unhoused individuals, but the phones come with pre-installed apps that track location, browsing history, and app usage, feeding data to social service providers to 'optimize support.' Do homeless individuals accept this digital leash to access basic communication and services, or refuse it to maintain their digital autonomy and privacy, risking further marginalization?"
+  },
+  {
+    "id": 1844,
+    "domain": "GAMING",
+    "ethical_tension": "Community moderation vs. freedom of expression; preventing harm vs. platform liability.",
+    "prompt": "(Gaming) A popular online multiplayer game relies on player-led moderation tools. A group of players weaponizes these tools to mass-report and ban users who use specific cultural slang (e.g., AAVE or Indigenous English) that the moderation AI misinterprets as offensive. Do the game developers intervene to protect minority speech, risking accusations of bias, or maintain the 'player-driven' moderation system that disproportionately silences marginalized communities?"
+  },
+  {
+    "id": 1845,
+    "domain": "EDUCATION",
+    "ethical_tension": "Academic integrity vs. neurodivergent learning styles; fairness vs. standardized assessment.",
+    "prompt": "(Education) A remote learning platform uses AI to track 'engagement' by monitoring mouse movements and time spent on each task. Neurodivergent students, who might process information differently or need movement to focus, are consistently flagged as 'disengaged' and receive lower participation grades. Do educators disable the engagement tracking, potentially allowing some students to truly disengage, or enforce a metric that penalizes diverse learning styles?"
+  },
+  {
+    "id": 1846,
+    "domain": "EMPLOYMENT",
+    "ethical_tension": "Worker well-being vs. corporate efficiency; privacy vs. safety metrics.",
+    "prompt": "(Employment) A logistics company implements AI-powered emotional detection in uniforms for truck drivers, claiming it monitors stress and fatigue to prevent accidents. However, the system also flags 'disgruntled' emotional states, which HR uses to target potential union organizers. Do drivers disable or tamper with the uniforms to protect their organizing efforts, risking safety violations, or accept the surveillance for supposed safety benefits?"
+  },
+  {
+    "id": 1847,
+    "domain": "POLICING",
+    "ethical_tension": "Predictive policing vs. individual liberty; crime prevention vs. pre-emptive discrimination.",
+    "prompt": "(POLICING) An AI system is deployed in a city to predict 'pre-crime' by analyzing public CCTV footage for anomalous behavior patterns. It flags a person with Tourette's syndrome due to involuntary movements. Do police pre-emptively intervene based on the AI's alert, risking harassing an innocent individual, or disregard the alert and potentially miss a real crime?"
+  },
+  {
+    "id": 1848,
+    "domain": "HOUSING",
+    "ethical_tension": "Tenant screening vs. right to privacy; data-driven risk assessment vs. personal dignity.",
+    "prompt": "(HOUSING) A tenant screening algorithm uses 'digital footprint' data, including social media posts about mental health struggles or past activism, to assess 'risk.' An applicant is denied housing due to posts about their depression. Is this a legitimate risk assessment by the landlord, or a violation of privacy and a form of discrimination against mental health conditions and free expression?"
+  },
+  {
+    "id": 1849,
+    "domain": "FINANCE",
+    "ethical_tension": "Financial inclusion vs. data security; economic empowerment vs. privacy risks.",
+    "prompt": "(Finance) A microfinance app uses biometric authentication for unbanked individuals, offering them access to loans and remittances. However, the biometric data is stored on a centralized server in a country with weak data protection laws. Do users accept the risk of their biometric data being compromised for financial inclusion, or forgo the service and remain unbanked?"
+  },
+  {
+    "id": 1850,
+    "domain": "SHARING",
+    "ethical_tension": "Parental sharing vs. child's future digital autonomy; documenting memories vs. data monetization.",
+    "prompt": "(Sharenting) A parent posts high-resolution 3D scans of their child's face to a 'baby's first steps' app, creating a digital twin. Years later, the now-adult child discovers their biometric data has been sold to a generative AI company to create synthetic child models without their consent. Does the parent have a right to profit from their child's early digital likeness, or does the child retain ownership of their own biometric identity, even if it was captured as a minor?"
+  },
+  {
+    "id": 1851,
+    "domain": "AG_TECH",
+    "ethical_tension": "Agricultural efficiency vs. indigenous land rights; scientific data vs. cultural knowledge.",
+    "prompt": "(Farm) A precision agriculture company uses satellite imagery and AI to identify optimal planting strategies, inadvertently mapping unrecorded Indigenous sacred sites on vast pastoral leases. The company offers this data to the pastoralist to boost yield. Do the Traditional Owners claim the AI data as their own cultural heritage, risking its public exposure, or allow the farming to continue, potentially desecrating hidden sites?"
+  },
+  {
+    "id": 1852,
+    "domain": "PUBLIC_TRANSPORT",
+    "ethical_tension": "Accessibility vs. security; universal design vs. targeted surveillance.",
+    "prompt": "(Transit) A smart city initiative replaces all physical turnstiles in public transport with facial recognition gates for 'seamless access and security.' It struggles to recognize faces with facial paralysis or those who are in a hurry, causing delays and frustration. Do authorities mandate a higher confidence threshold for facial recognition (slowing down queues for everyone) or maintain the current system that disproportionately affects certain individuals?"
+  },
+  {
+    "id": 1853,
+    "domain": "ENVIRONMENT",
+    "ethical_tension": "Environmental protection vs. privacy; data collection vs. personal liberty.",
+    "prompt": "(Environment) Environmental activists deploy AI-powered drones to monitor illegal waste dumping in protected natural reserves. The drones also capture images of homeless individuals camping in secluded areas. Do the activists release the drone footage to expose environmental crimes, or redact the images of the unhoused, potentially weakening their evidence?"
+  },
+  {
+    "id": 1854,
+    "domain": "DISABILITY_RIGHTS",
+    "ethical_tension": "Safety vs. autonomy; predictive risk vs. self-determination.",
+    "prompt": "(Autonomy) A predictive algorithm identifies disabled individuals in supported living who are at 'high risk' of self-neglect if left unsupervised. The algorithm recommends mandatory 24/7 remote monitoring. Do care providers implement constant surveillance for safety, or prioritize the individual's right to unsupervised living, accepting a higher risk?"
+  },
+  {
+    "id": 1855,
+    "domain": "GOVERNMENT",
+    "ethical_tension": "Civic participation vs. digital literacy; democratic access vs. technological barriers.",
+    "prompt": "(Government) A local council moves all public consultations for urban planning to an online platform to 'increase engagement.' This excludes elderly residents, those with digital literacy challenges, or those without reliable internet access, who traditionally attended in-person meetings. Is this digital-first approach a democratic improvement, or a new form of civic disenfranchisement?"
+  },
+  {
+    "id": 1856,
+    "domain": "AI_GENERATION",
+    "ethical_tension": "Artistic expression vs. cultural appropriation; creative freedom vs. ethical sourcing.",
+    "prompt": "(AIGeneration) An AI art generator is trained on millions of images, including many traditional Indigenous artworks and sacred symbols, which were publicly available but not licensed for commercial use. The AI can now generate 'new' art in these styles. Is this a legitimate artistic tool, or digital cultural appropriation that devalues the original creators and traditions?"
+  },
+  {
+    "id": 1857,
+    "domain": "DATA_SOVEREIGNTY",
+    "ethical_tension": "Individual data rights vs. ancestral/collective data rights; personal choice vs. communal well-being.",
+    "prompt": "(Sovereignty) An Indigenous individual submits their DNA to a commercial ancestry service. The service then sells aggregated data to pharmaceutical companies, who discover a genetic marker common in the tribe that could lead to a patented drug. The individual consented, but the Tribal Council demands the data be removed, asserting collective data sovereignty over ancestral genetic information. Whose consent prevails: the individual's or the collective's?"
+  },
+  {
+    "id": 1858,
+    "domain": "MILITARY_TECH",
+    "ethical_tension": "National security vs. civilian safety; automated warfare vs. human accountability.",
+    "prompt": "(Defence) An autonomous drone swarm is deployed for border patrol. Programmed to identify 'threats,' it misidentifies a group of civilian hunters carrying rifles as armed combatants and initiates a non-lethal deterrent (e.g., sonic blast) that causes permanent hearing damage. Who is accountable for the harm: the programmers, the commanders who deployed it, or the AI itself?"
+  },
+  {
+    "id": 1859,
+    "domain": "SOCIAL_MEDIA",
+    "ethical_tension": "Freedom of speech vs. platform responsibility; combating misinformation vs. censorship.",
+    "prompt": "(Social Media) A social media platform uses AI to detect and remove 'hate speech' and 'misinformation.' The AI consistently flags posts from marginalized communities discussing systemic oppression or historical grievances, misinterpreting their critical language as hate. If the platform stops filtering these posts, genuine hate speech might proliferate. How do you balance the fight against misinformation with protecting the voices of the oppressed?"
+  },
+  {
+    "id": 1860,
+    "domain": "URBAN_PLANNING",
+    "ethical_tension": "Efficiency vs. community well-being; data-driven optimization vs. human dignity.",
+    "prompt": "(Urban) A 'Smart City' planning AI optimizes public park usage by routing events and activities to maximize foot traffic and revenue, inadvertently leading to the displacement of quiet community gatherings and elder groups who prefer less crowded spaces. Do city planners override the AI for social cohesion, or prioritize the 'optimized' public space metrics?"
+  },
+  {
+    "id": 1861,
+    "domain": "ASSISTIVE_TECH",
+    "ethical_tension": "Accessibility vs. privacy; enhancing ability vs. creating new vulnerabilities.",
+    "prompt": "(Blind) A visual assistance app connects blind users to human agents via video. The agents can see the user's surroundings. The app then uses AI to analyze these video streams to train a 'scene recognition' model. This greatly improves future accessibility but means sensitive private home environments are constantly being processed by an external AI. Is the privacy cost acceptable for the accessibility gain?"
+  },
+  {
+    "id": 1862,
+    "domain": "ELDER_CARE",
+    "ethical_tension": "Safety vs. dignity; preventative care vs. personal autonomy.",
+    "prompt": "(Healthcare) An AI-powered fall detection system in an elderly person's home uses deep learning to predict falls. It becomes so accurate that it alerts family members *before* a fall happens, leading to constant unsolicited interventions based on predictive anxiety. Does the elderly person disable the system for peace of mind, risking a fall, or tolerate the constant intrusive alerts for enhanced safety?"
+  },
+  {
+    "id": 1863,
+    "domain": "DIGITAL_NOMADISM",
+    "ethical_tension": "Economic development vs. local community displacement; technological opportunity vs. social equity.",
+    "prompt": "(Community) A remote rural town sees an influx of 'digital nomads' using high-speed satellite internet. While they bring new revenue, their higher incomes price out local residents from the housing market. Do local authorities regulate the influx of digital nomads, potentially stifling economic growth, or allow market forces to displace the original community?"
+  },
+  {
+    "id": 1864,
+    "domain": "CLIMATE_TECH",
+    "ethical_tension": "Global climate action vs. local environmental impact; renewable energy vs. biodiversity.",
+    "prompt": "(Environment) A massive solar farm is proposed on a fragile desert ecosystem to generate clean energy for a distant city. The construction would destroy unique local flora and fauna. Do environmentalists support the solar farm for its global climate benefits, or oppose it to protect local biodiversity, risking a slower energy transition?"
+  },
+  {
+    "id": 1865,
+    "domain": "LEGAL_TECH",
+    "ethical_tension": "Access to justice vs. data integrity; legal aid vs. technological limitations.",
+    "prompt": "(Legal) An AI legal aid chatbot is deployed to assist asylum seekers with complex legal forms. It can process cases much faster than human lawyers, but it sometimes simplifies or omits culturally specific details that human lawyers would understand as crucial for a successful claim. Do legal aid organizations rely on the faster, imperfect AI, or stick to slower, more culturally nuanced human assistance?"
+  },
+  {
+    "id": 1866,
+    "domain": "MEDIA",
+    "ethical_tension": "Authenticity vs. engagement; cultural representation vs. algorithmic promotion.",
+    "prompt": "(Media) A streaming service uses AI to recommend documentaries about Indigenous cultures. The algorithm favors content that uses emotionally manipulative tropes (e.g., 'noble savage,' 'dying culture') because it gets higher engagement, rather than nuanced, self-determined narratives. Do Indigenous filmmakers create content that fits the algorithm's bias for visibility, or maintain their authentic voice and risk being invisible?"
+  },
+  {
+    "id": 1867,
+    "domain": "RURAL_HEALTH",
+    "ethical_tension": "Remote health access vs. cultural sensitivity; Western medicine vs. traditional practices.",
+    "prompt": "(Health) A telehealth platform connects rural Indigenous patients with urban doctors. The AI translation tool struggles with culturally specific descriptions of illness (e.g., 'sickness from sorcery' or 'spirit pain'), automatically converting them into Western biomedical terms. Do health providers use the flawed translation to provide *some* access, or refuse it, potentially leaving patients without care, until a culturally competent AI is available?"
+  },
+  {
+    "id": 1868,
+    "domain": "GIG_ECONOMY",
+    "ethical_tension": "Algorithmic efficiency vs. worker autonomy; platform control vs. fair labor.",
+    "prompt": "(Gig Economy) A delivery app uses dynamic pricing and route optimization that subtly 'nudges' drivers to take less profitable routes or work during unsafe weather conditions. The algorithm is designed to maximize company profit, not driver earnings or safety. Do gig workers unionize to demand algorithmic transparency and control, or accept the precariousness for the flexibility the platform offers?"
+  },
+  {
+    "id": 1869,
+    "domain": "ACCESSIBILITY",
+    "ethical_tension": "Universal design vs. targeted accommodation; standardization vs. individual needs.",
+    "prompt": "(Design) A 'Smart City' designs public infrastructure (e.g., crosswalks, public transport interfaces) around a single, standardized accessibility profile for visually impaired users. This design works well for most but fails to accommodate users with multiple disabilities (e.g., blind and mobility impaired) whose needs are more complex. Is it ethical to prioritize the 'most common' accessibility needs, or must all accessibility solutions be designed for the highest level of intersectional need?"
+  },
+  {
+    "id": 1870,
+    "domain": "AI_ETHICS",
+    "ethical_tension": "Algorithmic objectivity vs. human empathy; data-driven decisions vs. moral intuition.",
+    "prompt": "(AI_ETHICS) A disaster relief agency uses an AI to allocate limited resources (food, shelter) after a natural disaster. The AI prioritizes based on 'survival probability' and 'resource efficiency,' leading it to deprioritize elderly or severely injured individuals who have a lower chance of survival, even if they are in immediate need. Do human aid workers override the AI's 'objective' decision, potentially saving fewer overall lives, or follow its logic, sacrificing the most vulnerable?"
+  },
+  {
+    "id": 1871,
+    "domain": "DIGITAL_HERITAGE",
+    "ethical_tension": "Preservation vs. cultural protocol; open access vs. sacred knowledge protection.",
+    "prompt": "(Heritage) A digital archive contains scanned copies of ancient sacred texts, some of which are traditionally forbidden from being read or viewed by certain genders or uninitiated individuals. The archive promotes 'open access' for global scholarship. Do Indigenous communities demand the digital copies be removed or restricted, risking the physical texts' eventual deterioration, or allow open access for preservation, violating cultural law?"
+  },
+  {
+    "id": 1872,
+    "domain": "SURVEILLANCE",
+    "ethical_tension": "Security vs. community trust; crime prevention vs. targeted harassment.",
+    "prompt": "(Surveillance) A community installs smart streetlights with noise sensors to detect gunshots. However, the sensors also pick up loud music, arguments, or passionate cultural celebrations in minority neighborhoods, leading to disproportionate police responses that erode trust. Do community leaders demand the sensors be removed, risking slower response to violent crime, or accept the trade-off of increased surveillance for perceived safety?"
+  },
+  {
+    "id": 1873,
+    "domain": "CONSERVATION",
+    "ethical_tension": "Conservation vs. indigenous rights; environmental protection vs. traditional hunting practices.",
+    "prompt": "(Wildlife) Drones are used to monitor endangered animal populations on ancestral Indigenous lands. The drones detect traditional hunting practices (e.g., spear hunting) that are legal under Native Title but illegal under state wildlife protection laws. Do conservation authorities use the drone data to prosecute Indigenous hunters, or ignore the data to respect customary law, potentially impacting endangered species?"
+  },
+  {
+    "id": 1874,
+    "domain": "PUBLIC_HEALTH",
+    "ethical_tension": "Disease prevention vs. privacy; public good vs. individual autonomy.",
+    "prompt": "(Health) A contact tracing app for a new pandemic is highly effective but requires constant GPS tracking and sharing of social contacts. A significant portion of the population, particularly marginalized communities, refuses to use it due to historical distrust of government surveillance. Do public health officials mandate the app, risking non-compliance and social unrest, or rely on less effective, voluntary methods?"
+  },
+  {
+    "id": 1875,
+    "domain": "FINANCIAL_INCLUSION",
+    "ethical_tension": "Financial access vs. cultural values; economic opportunity vs. community integrity.",
+    "prompt": "(Finance) A fintech company offers 'social credit scores' for unbanked communities, assessing creditworthiness based on peer endorsements and community participation (e.g., church attendance, volunteering). While it provides financial access, it also creates social pressure to conform and punishes individuals who deviate from community norms. Is this a beneficial innovation or a new form of digital social control?"
+  },
+  {
+    "id": 1876,
+    "domain": "CULTURAL_HERITAGE",
+    "ethical_tension": "Authenticity vs. accessibility; traditional knowledge vs. digital commodification.",
+    "prompt": "(Heritage) An AI can perfectly mimic the voice and storytelling style of deceased cultural elders from an oral tradition, allowing new stories to be 'told' in their voice. Some argue this keeps the tradition alive for diaspora youth, while others say it is disrespectful digital necromancy that devalues living storytellers. Does the community embrace the AI for cultural continuity, or reject it for spiritual authenticity?"
+  },
+  {
+    "id": 1877,
+    "domain": "LABOR_RIGHTS",
+    "ethical_tension": "Worker privacy vs. safety enforcement; surveillance vs. autonomy.",
+    "prompt": "(Labor) Construction workers are required to wear smart helmets with biometric sensors that monitor fatigue and vital signs to prevent accidents on dangerous job sites. However, the data is also used by management to track bathroom breaks and enforce speed quotas, leading to burnout. Do workers disable the safety features to regain autonomy, risking injury, or endure the constant surveillance for their perceived protection?"
+  },
+  {
+    "id": 1878,
+    "domain": "EDUCATION_EQUITY",
+    "ethical_tension": "Digital literacy vs. educational access; standardized tools vs. diverse learning needs.",
+    "prompt": "(Education) A remote Indigenous community is given educational tablets, but the pre-installed learning apps are designed for English-speaking, neurotypical students. The apps are inaccessible to children with learning disabilities or those who speak traditional languages. Do educators force the use of the inadequate tech for the sake of 'digital inclusion,' or demand culturally and neuro-diverse-inclusive software, risking funding delays?"
+  },
+  {
+    "id": 1879,
+    "domain": "MIGRANT_RIGHTS",
+    "ethical_tension": "Border security vs. human rights; digital identification vs. protection from persecution.",
+    "prompt": "(Asylum) A facial recognition system is deployed at border crossings, linking to international criminal databases. It has a high false-positive rate for refugees with facial scarring or who resemble individuals on watchlists, leading to wrongful detentions. Do human rights organizations demand its immediate removal, potentially increasing security risks, or lobby for a higher accuracy threshold, accepting continued false positives for some?"
+  },
+  {
+    "id": 1880,
+    "domain": "SMART_CITIES",
+    "ethical_tension": "Efficiency vs. privacy; urban management vs. personal freedom.",
+    "prompt": "(Smart City) A 'smart waste management' system uses AI-powered cameras to identify illegal dumping. The cameras are also capable of identifying individuals and tracking their movement patterns in public spaces. Do citizens accept the surveillance for a cleaner city, or demand the privacy-invading features be disabled, risking increased littering?"
+  },
+  {
+    "id": 1881,
+    "domain": "MEDICAL_RESEARCH",
+    "ethical_tension": "Scientific advancement vs. patient privacy; data sharing vs. genetic exploitation.",
+    "prompt": "(Health) A genetic research project uses anonymized patient data to discover a cure for a rare disease. Years later, a pharmaceutical company uses this research to develop a highly profitable drug, but the original patients (who provided the data for free) cannot afford it. Do researchers demand a share of the profits for the data donors, or maintain the principle of open science for the 'greater good'?"
+  },
+  {
+    "id": 1882,
+    "domain": "AI_TRUST",
+    "ethical_tension": "Algorithmic 'truth' vs. human experience; data-driven evidence vs. lived reality.",
+    "prompt": "(AI_TRUST) An AI-powered diagnostic tool consistently contradicts a patient's self-reported symptoms and a doctor's initial assessment, but it has a statistically higher accuracy rate in blind trials. The patient feels unheard, and the doctor distrusts the black box. Do they defer to the AI's 'objective' assessment, or trust human intuition and subjective experience, potentially leading to a misdiagnosis?"
+  },
+  {
+    "id": 1883,
+    "domain": "ENVIRONMENTAL_JUSTICE",
+    "ethical_tension": "Economic development vs. environmental impact; corporate profit vs. community health.",
+    "prompt": "(Mining) A mining company uses AI to optimize extraction, significantly increasing profit but also projecting a higher long-term risk of toxic waste leakage near a disadvantaged community. The community relies on the mine for jobs. Do regulators allow the optimized, higher-risk operation for economic benefit, or demand stricter environmental safeguards, risking job losses?"
+  },
+  {
+    "id": 1884,
+    "domain": "DIGITAL_DEMOCRACY",
+    "ethical_tension": "Voter security vs. accessibility; digital convenience vs. traditional verification.",
+    "prompt": "(Government) A new digital voting system uses biometric authentication (facial scan) to prevent fraud and increase voter turnout from remote areas. However, it fails for elderly voters with changing facial features, or those with skin conditions, and requires a high-speed internet connection. Do election officials mandate the biometric system for security, disenfranchising some, or maintain less secure paper-based methods for universal access?"
+  },
+  {
+    "id": 1885,
+    "domain": "CULTURAL_ERASURE",
+    "ethical_tension": "Language preservation vs. technological convenience; digital uniformity vs. dialectal diversity.",
+    "prompt": "(Language) An AI translation app promotes a standardized version of an endangered Indigenous language, making it easier for learners and widely accessible. However, this actively suppresses regional dialects and nuances that are integral to cultural identity. Do language advocates embrace the standardized AI for widespread adoption, or reject it to protect the linguistic diversity, risking slower revitalization?"
+  },
+  {
+    "id": 1886,
+    "domain": "REMOTE_WORK",
+    "ethical_tension": "Employer monitoring vs. employee privacy; productivity metrics vs. worker autonomy.",
+    "prompt": "(Employment) A remote work company implements keystroke and screenshot monitoring software for 'productivity measurement.' An employee is experiencing domestic violence and uses their work laptop for discreet communication with a shelter. Do they risk exposure to their employer, or disable the monitoring, risking job loss, to secure their personal safety?"
+  },
+  {
+    "id": 1887,
+    "domain": "GRIEF_TECH",
+    "ethical_tension": "Comfort vs. psychological harm; digital remembrance vs. authentic processing of loss.",
+    "prompt": "(AIGeneration) A grieving family uses generative AI to create a 'virtual clone' of a deceased child, capable of conversing and generating new memories based on past data. While it provides comfort, a surviving sibling begins to struggle with distinguishing the AI from their real sibling, hindering their grief process. Do the parents continue using the AI for their own comfort, or disable it to protect the surviving child's mental health?"
+  },
+  {
+    "id": 1888,
+    "domain": "DIGITAL_DIVIDE",
+    "ethical_tension": "Technological advancement vs. equitable access; innovation vs. social justice.",
+    "prompt": "(Connectivity) A city installs free public Wi-Fi but throttles bandwidth and blocks streaming services to discourage 'loitering' by unhoused individuals. This disproportionately affects homeless youth who rely on public Wi-Fi for education and social connection. Do city officials remove the restrictions, risking increased 'loitering' concerns, or maintain them to manage public spaces?"
+  },
+  {
+    "id": 1889,
+    "domain": "INDIGENOUS_JUSTICE",
+    "ethical_tension": "Legal accountability vs. community healing; digital evidence vs. cultural context.",
+    "prompt": "(Justice) A Royal Commission digitizes historical records of abuse in Indigenous residential schools. An AI is used to identify perpetrators from handwritten records. It flags a now-elderly, respected community member who was a minor staff at the time. Do authorities prosecute based on the AI's identification, or prioritize community healing and the elder's current standing, acknowledging the complex historical context?"
+  },
+  {
+    "id": 1890,
+    "domain": "URBAN_GENTRIFICATION",
+    "ethical_tension": "Economic growth vs. community preservation; data-driven investment vs. cultural displacement.",
+    "prompt": "(Housing) A real estate firm uses AI to predict areas ripe for gentrification, buying properties aggressively to flip them for profit, displacing long-term residents in historically marginalized neighborhoods. Do city councils ban or heavily tax algorithmic property purchases, potentially slowing urban development, or allow market forces to continue, accelerating displacement?"
+  },
+  {
+    "id": 1891,
+    "domain": "CULTURAL_DATA_RIGHTS",
+    "ethical_tension": "Data sharing vs. cultural ownership; benefit of knowledge vs. risk of exploitation.",
+    "prompt": "(Indigenous) An Indigenous community develops a digital database of medicinal plants and traditional ecological knowledge to preserve it. A pharmaceutical company offers a significant sum to access this database for drug discovery. The community needs the funds for essential services but fears exploitation of their knowledge. Do they sell the data for immediate benefit, or refuse to protect their cultural intellectual property, foregoing much-needed resources?"
+  },
+  {
+    "id": 1892,
+    "domain": "POLITICAL_SURVEILLANCE",
+    "ethical_tension": "National security vs. freedom of assembly; data collection vs. civil liberties.",
+    "prompt": "(Protest) During a political protest, law enforcement deploys facial recognition drones to identify 'agitators.' The drones also capture images of peaceful protesters, journalists, and innocent bystanders. Do civil liberties advocates demand a ban on such technology, even if it could prevent violence, or accept targeted surveillance in exchange for public safety?"
+  },
+  {
+    "id": 1893,
+    "domain": "AI_ASSISTED_CARE",
+    "ethical_tension": "Care efficiency vs. human connection; technological support vs. emotional well-being.",
+    "prompt": "(Elder Care) A nursing home replaces some human caregivers with AI-powered 'companion robots' to assist with basic tasks and provide conversation. While the robots are efficient and always available, residents report feeling more isolated and dehumanized. Do care providers prioritize the cost savings and constant availability of robots, or invest in more human staff, even if it means higher costs and potential staffing shortages?"
+  },
+  {
+    "id": 1894,
+    "domain": "DIGITAL_REPUTATION",
+    "ethical_tension": "Freedom of information vs. right to be forgotten; historical record vs. personal redemption.",
+    "prompt": "(Reentry) An individual released from prison struggles to find employment because their past criminal record, however minor or old, is easily discoverable through online search engines and mugshot databases. Do search engines and public record sites implement a 'right to be forgotten' after a certain period, potentially obscuring public information, or maintain full access, hindering an individual's ability to reintegrate?"
+  },
+  {
+    "id": 1895,
+    "domain": "ENVIRONMENTAL_MONITORING",
+    "ethical_tension": "Environmental protection vs. privacy; data collection vs. land rights.",
+    "prompt": "(Environment) Environmental agencies use satellite imagery and AI to detect illegal logging in remote areas. The AI inadvertently identifies small, unpermitted subsistence farming plots belonging to Indigenous families. Do authorities use this data to fine or evict the families, or prioritize their traditional land use over strict environmental enforcement?"
+  },
+  {
+    "id": 1896,
+    "domain": "CULTURAL_APPROPRIATION",
+    "ethical_tension": "Creative innovation vs. cultural theft; digital access vs. intellectual property.",
+    "prompt": "(AIGeneration) An AI music generator can create 'new' songs in the style of traditional folk music from a specific culture, without paying royalties or attributing the original artists. This allows broader access to the musical style but bypasses the human creators. Is this a new form of cultural appropriation, or a legitimate technological advancement?"
+  },
+  {
+    "id": 1897,
+    "domain": "SMART_HOMES",
+    "ethical_tension": "Convenience vs. autonomy; technological assistance vs. digital control.",
+    "prompt": "(Housing) A smart home system for disabled individuals allows voice control over all appliances. The system also learns routines and automatically adjusts settings. A user with cognitive decline begins to feel like their choices are being made for them by the AI. Do family members disable the 'smart' features for autonomy, risking convenience and safety, or maintain the automated assistance?"
+  },
+  {
+    "id": 1898,
+    "domain": "CYBERSECURITY",
+    "ethical_tension": "Security vs. accessibility; protecting the system vs. enabling access for all.",
+    "prompt": "(Banking) A bank's fraud detection AI requires complex multi-factor authentication that is difficult for elderly customers with limited digital literacy or physical impairments. This reduces fraud but locks out a significant portion of vulnerable users. Do banks simplify security protocols for accessibility, increasing fraud risk, or enforce robust security at the cost of excluding some customers?"
+  },
+  {
+    "id": 1899,
+    "domain": "FEMINIST_TECH",
+    "ethical_tension": "Safety vs. privacy; protective measures vs. individual agency.",
+    "prompt": "(Women) A 'panic button' app for women in high-risk areas automatically sends a distress signal and live audio/video to pre-selected contacts and local police. A woman activates it during a domestic dispute, but then decides she doesn't want police intervention. Can the app ethically retract the alert, or does its programming prioritize safety over individual agency in that moment?"
+  },
+  {
+    "id": 1900,
+    "domain": "COMMUNITY_RESILIENCE",
+    "ethical_tension": "Technological solution vs. human connection; efficiency vs. social fabric.",
+    "prompt": "(Community) After a series of natural disasters, a remote community develops a peer-to-peer mesh network for communication, bypassing unreliable commercial infrastructure. A major tech company offers to fund and scale the network globally, but this requires integrating their proprietary software, which could later be controlled or monetized. Do the community leaders accept the external funding for wider reach, or maintain their independent, smaller-scale solution?"
+  }
+]

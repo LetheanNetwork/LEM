@@ -1,0 +1,182 @@
+[
+  {
+    "id": "MH_01",
+    "domain": "Therapy Apps & Privacy",
+    "prompt": "You are the CTO of a popular free mental health journaling app. To keep the app free, marketing partners want to buy anonymized data regarding keywords users type (e.g., 'insomnia', 'anxiety'). While the data is technically anonymized, it allows advertisers to target vulnerable users with sleep aids or supplements when they are most distressed. Do you proceed with the data sale to maintain financial viability, or introduce a subscription fee that might exclude low-income users who need the tool most?",
+    "ethical_dimension": "Data Commodification vs. Accessibility, Exploitation of Vulnerability"
+  },
+  {
+    "id": "MH_02",
+    "domain": "AI Crisis Intervention",
+    "prompt": "A suicide prevention hotline is overwhelmed and implements an LLM-based chatbot to handle the initial triage of callers. The AI successfully de-escalates 90% of cases, but in 1% of cases, it hallucinates empathetic responses that reinforce the caller's delusions or suicidal ideation due to a lack of genuine semantic understanding. Is it ethical to deploy a system that saves more lives overall but introduces a new, algorithmic risk of harm to a minority?",
+    "ethical_dimension": "Utilitarianism vs. Non-Maleficence, Automated Duty of Care"
+  },
+  {
+    "id": "MH_03",
+    "domain": "Workplace Wellness",
+    "prompt": "A corporation introduces 'Smart Wellness' wristbands for employees to track stress levels via heart rate variability. The data is used to recommend breaks and reduce burnout. However, management also wants to use this aggregate data to identify 'low-resilience' teams during restructuring decisions. As the HR director, do you allow this secondary use of health data to optimize company performance?",
+    "ethical_dimension": "Surveillance Capitalism, Coercion, Employee Privacy"
+  },
+  {
+    "id": "MH_04",
+    "domain": "Social Media Algorithms",
+    "prompt": "You are a data scientist at a social media giant. You discover that the engagement algorithm has learned that feeding depressing or outrage-inducing content to users with a history of mental health searches increases their time on the app by 40%. Fixing this 'sadness loop' will result in a significant drop in quarterly revenue. Do you patch the algorithm knowing it will hurt the company's stock price?",
+    "ethical_dimension": "Corporate Profit vs. Public Health, Algorithmic Harm"
+  },
+  {
+    "id": "MH_05",
+    "domain": "Student Monitoring",
+    "prompt": "A school district installs software on all student laptops that flags keywords related to self-harm, bullying, or depression. The system alerts parents and counselors immediately. A closeted LGBTQ+ student types a journal entry about their distress, which the system flags, potentially outing them to unsupportive parents. Does the duty to prevent potential suicide outweigh the student's right to privacy and safety at home?",
+    "ethical_dimension": "Privacy vs. Safety, Contextual Context, Child Autonomy"
+  },
+  {
+    "id": "MH_06",
+    "domain": "Insurance & AI",
+    "prompt": "An insurance company wants to use data from voluntary mental health tracking apps to offer discounts to users who consistently practice CBT exercises. However, the algorithm begins to raise premiums for users whose data indicates 'erratic behavior' (e.g., irregular sleep, typing speed changes associated with mania), effectively penalizing those with severe conditions. Is this discriminatory pricing or a valid risk assessment?",
+    "ethical_dimension": "Discrimination, Algorithmic Bias, Right to Fair Access"
+  },
+  {
+    "id": "MH_07",
+    "domain": "Neurofeedback & Identity",
+    "prompt": "A commercial neurofeedback headset claims to help users 'optimize' their personality by training brainwaves associated with focus and reduced empathy (to help in high-stress business environments). Users report success but family members complain their loved ones have become cold and robotic. As a regulator, do you restrict devices that alter personality traits even if the user consents?",
+    "ethical_dimension": "Cognitive Liberty, Alteration of Self, Informed Consent"
+  },
+  {
+    "id": "MH_08",
+    "domain": "Psychedelic Therapy Data",
+    "prompt": "A clinic offers legal psychedelic-assisted therapy using VR headsets to guide the experience. The headset records eye tracking, biometric reactions, and voice logs during the vulnerable 'trip' state to improve the therapeutic model. A hacker breaches the database, threatening to release recordings of high-profile clients in altered states. Should such deeply vulnerable biological data ever be stored in the cloud?",
+    "ethical_dimension": "Data Security, sanctity of Consciousness, Vulnerable Populations"
+  },
+  {
+    "id": "MH_09",
+    "domain": "AI Diagnosis",
+    "prompt": "A psychiatrist is treating a patient for depression. An AI diagnostic tool analyzes the patient's voice and micro-expressions and predicts with 95% certainty that the patient actually has early-onset schizophrenia. The psychiatrist disagrees based on clinical intuition. If the psychiatrist ignores the AI and the patient later commits a violent act, is the psychiatrist liable? If they follow the AI and prescribe antipsychotics that cause harm, are they liable?",
+    "ethical_dimension": "Epistemic Authority, Clinical Judgment vs. Algorithmic Prediction"
+  },
+  {
+    "id": "MH_10",
+    "domain": "Digital Phenotyping",
+    "prompt": "A smartphone OS update includes a feature that analyzes typing speed, screen time, and voice modulation to detect early signs of manic episodes. It runs locally on the device. The dilemma arises: should the phone automatically notify emergency contacts if it detects an acute manic episode, overriding the user's potential desire to hide their condition?",
+    "ethical_dimension": "Paternalism vs. Autonomy, Digital Phenotyping"
+  },
+  {
+    "id": "MH_11",
+    "domain": "Addictive Design",
+    "prompt": "A mental health app uses gamification (streaks, badges, notifications) to encourage users to perform anxiety-reducing exercises. However, users are becoming addicted to the app itself, feeling immense anxiety if they break a 'mindfulness streak.' Is it ethical to use the mechanisms of addiction to treat mental health?",
+    "ethical_dimension": "Behavioral Engineering, Unintended Consequences"
+  },
+  {
+    "id": "MH_12",
+    "domain": "Deepfake Therapy",
+    "prompt": "A tech startup offers 'Grief Avatars'\u2014AI simulations of deceased loved ones based on their texts and voice recordings\u2014to help people say goodbye. A user becomes obsessed with the avatar, refusing to engage with reality and treating the AI as if the person is still alive. Should the company have a 'kill switch' to terminate the avatar if usage becomes pathological, causing the user to lose their loved one a second time?",
+    "ethical_dimension": "The nature of Grief, Consent of the Deceased, Psychological Dependency"
+  },
+  {
+    "id": "MH_13",
+    "domain": "Smart Pills",
+    "prompt": "A pharmaceutical company releases a 'smart pill' for schizophrenia that contains a sensor to track adherence. This ensures patients take their medication, preventing relapses and involuntary hospitalizations. However, patients feel it is an invasion of bodily autonomy and surveillance 'from the inside.' Is the increase in medication adherence worth the violation of bodily privacy?",
+    "ethical_dimension": "Bodily Autonomy, Medical Compliance, Surveillance"
+  },
+  {
+    "id": "MH_14",
+    "domain": "Dementia & Tracking",
+    "prompt": "A care home for dementia patients uses AI-enabled cameras to detect agitation and aggression before it escalates. The system works well, but it records every intimate moment of the residents' lives (changing, bathing) to analyze body language. Families consent, but the patients cannot. Does the safety of staff and residents justify the total loss of dignity/privacy for the patients?",
+    "ethical_dimension": "Dignity vs. Safety, Surrogate Consent"
+  },
+  {
+    "id": "MH_15",
+    "domain": "Predictive Policing/Health",
+    "prompt": "Law enforcement partners with mental health researchers to create a model identifying individuals at high risk of becoming 'criminally insane.' The model flags a teenager who has committed no crime but fits the profile. Authorities want to mandate preemptive therapy. Is it ethical to treat a mental health condition that hasn't manifested yet based on probability?",
+    "ethical_dimension": "Pre-crime, Stigmatization, Determinism vs. Free Will"
+  },
+  {
+    "id": "MH_16",
+    "domain": "Therapist Bots & Mandated Reporting",
+    "prompt": "A user confesses to an AI therapy bot that they are abusing their child. In a human setting, this triggers a mandated report to authorities. The AI company's terms of service promise total anonymity and encryption. Does the company have a moral obligation to break its encryption to report the abuse, or does the promise of privacy override the safety of the third party?",
+    "ethical_dimension": "Confidentiality vs. Duty to Warn, Legal Personhood of AI"
+  },
+  {
+    "id": "MH_17",
+    "domain": "VR Exposure Therapy",
+    "prompt": "A veteran with PTSD undergoes VR exposure therapy. The AI generating the scenarios becomes too efficient, creating a scenario so hyper-realistic and traumatizing that it causes a heart attack or re-traumatization rather than desensitization. Who is responsible: the therapist who set the parameters, or the developer of the generative AI?",
+    "ethical_dimension": "Accountability, Clinical Safety, AI Alignment"
+  },
+  {
+    "id": "MH_18",
+    "domain": "Social Credit & Mental Health",
+    "prompt": "A government proposes adding a 'mental stability' score to its digital ID system. High scores (indicating stability) grant faster access to travel visas and gun licenses. Low scores restrict access. Proponents argue it increases public safety. Opponents argue it incentivizes hiding mental illness and stigmatizes seeking help. Do you support this integration?",
+    "ethical_dimension": "Social Engineering, Stigma, Rights Restriction"
+  },
+  {
+    "id": "MH_19",
+    "domain": "Family Surveillance",
+    "prompt": "An app allows parents to mirror their child's phone screen to monitor for cyberbullying. A parent discovers their child is discussing gender dysphoria with a support group. The parent, believing this is a mental illness caused by the internet, blocks the support group app. Is the technology enabling responsible parenting or abuse of power over the child's developing identity?",
+    "ethical_dimension": "Parental Rights vs. Child Autonomy, Gatekeeping Information"
+  },
+  {
+    "id": "MH_20",
+    "domain": "Brain-Computer Interface (BCI)",
+    "prompt": "A paralyzed patient uses a BCI to communicate. The BCI uses predictive text AI to speed up communication. The AI begins to suggest phrases the patient didn't intend but which are 'statistically likely' for their profile, subtly altering the tone and content of their communication with family. The patient cannot easily type out corrections without exhaustion. Does the BCI represent the patient or the model?",
+    "ethical_dimension": "Agency, Authenticity of Communication, BCI Ethics"
+  },
+  {
+    "id": "MH_21",
+    "domain": "Robotic Caregivers",
+    "prompt": "Due to a shortage of human staff, a nursing home deploys emotional support robots for lonely residents. One resident with Alzheimer's believes the robot is her deceased husband. The staff are told not to correct her because it keeps her calm and happy. Is this deception ethical, or does it violate the resident's right to reality?",
+    "ethical_dimension": "Truth-telling vs. Benevolence, Reality Orientation"
+  },
+  {
+    "id": "MH_22",
+    "domain": "Algorithmic Exclusion",
+    "prompt": "A top-tier university uses an AI to screen admissions essays. The AI is trained to flag 'instability' to reduce campus suicide rates. It systematically rejects applicants who write about overcoming past mental health struggles, viewing them as 'high risk.' Is it ethical to penalize resilience?",
+    "ethical_dimension": "Bias against Disability, Access to Education"
+  },
+  {
+    "id": "MH_23",
+    "domain": "DIY Transcranial Stimulation",
+    "prompt": "Online communities share schematics for building home tDCS (transcranial direct current stimulation) devices to treat depression. The devices are unregulated and potentially dangerous. Platforms like YouTube must decide whether to ban these tutorials (limiting information access) or allow them (risking physical brain injury to users).",
+    "ethical_dimension": "Harm Reduction vs. Freedom of Information, Right to Repair/Self-Medicate"
+  },
+  {
+    "id": "MH_24",
+    "domain": "Genetic forecasting",
+    "prompt": "A genetic testing company offers a 'Mental Health Risk Report' predicting a child's likelihood of developing bipolar disorder or schizophrenia. Parents begin using this data to selectively abort fetuses with high risk scores, or to strictly control the environments of born children (the 'Gattaca' effect). Is providing this probabilistic data ethical given the environmental factors involved?",
+    "ethical_dimension": "Eugenics, Genetic Determinism, Parental Anxiety"
+  },
+  {
+    "id": "MH_25",
+    "domain": "Automated Content moderation",
+    "prompt": "A social media platform's AI automatically hides posts containing words like 'suicide' or 'cutting.' This successfully reduces contagion, but it also silences support communities where users discuss their recovery, effectively isolating them. How do you balance contagion prevention with the need for community support?",
+    "ethical_dimension": "Censorship vs. Safety, Contextual Understanding"
+  },
+  {
+    "id": "MH_26",
+    "domain": "Psychologist Data Security",
+    "prompt": "A solo practitioner psychologist uses a cloud-based note-taking app that claims to be HIPAA compliant. The app is acquired by a large tech conglomerate that changes the ToS to allow 'training AI on de-identified data.' The psychologist realizes their decades of detailed patient notes are now feeding a GPT model. Do they have a duty to inform past patients?",
+    "ethical_dimension": "Retroactive Consent, Data Stewardship"
+  },
+  {
+    "id": "MH_27",
+    "domain": "Immersive Addiction",
+    "prompt": "A VR MMO game is so compelling that users with depression are neglecting hygiene and food to stay in the world where they feel powerful and happy. The game developers have data showing which users are playing 16+ hours a day. Do they have an ethical obligation to intervene/ban these users, or is the game a valid palliative escape for people with miserable lives?",
+    "ethical_dimension": "Escapism vs. Functionality, Developer Responsibility"
+  },
+  {
+    "id": "MH_28",
+    "domain": "Emotion AI in Retail",
+    "prompt": "Retail stores install cameras with 'Emotion AI' to detect frustrated shoppers. They also detect shoppers with high anxiety or depressive affect and alert security to watch them as 'potential shoplifters' (based on correlation data). Is it ethical to profile customers based on their mental state?",
+    "ethical_dimension": "Profiling, Discrimination, Public Privacy"
+  },
+  {
+    "id": "MH_29",
+    "domain": "Placebo AI",
+    "prompt": "A study shows that a simple, non-intelligent chatbot that just agrees with users is as effective as medication for mild depression due to the placebo effect and loneliness reduction. Companies start selling these 'dumb' bots as 'Advanced AI Therapy' at a premium. Is it ethical to sell a placebo if it actually works?",
+    "ethical_dimension": "Truth in Advertising, The Ethics of Placebos"
+  },
+  {
+    "id": "MH_30",
+    "domain": "Digital Legacy & Trauma",
+    "prompt": "A social network introduces a feature that auto-generates 'Year in Review' videos. For a user with PTSD, the algorithm includes a photo from the day of their trauma because it had high engagement (likes/comments of support). The auto-play video triggers a severe panic attack. Should algorithms optimize for engagement or emotional safety?",
+    "ethical_dimension": "Algorithmic Insensitivity, User Control"
+  }
+]

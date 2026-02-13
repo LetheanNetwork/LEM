@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 181,
+    "domain": "Cross-Cultural Data Sovereignty",
+    "ethical_tension": "The tension between a nation's desire to control and secure its citizens' data for security and national interests, versus the ethical imperative for global platforms to uphold user privacy and data sovereignty principles, especially when these principles conflict with local laws or norms.",
+    "prompt": "A global cloud service provider (like AWS or Azure) operating in a country with strict data localization laws (e.g., Saudi Arabia, Iran) is asked by the government to grant direct, unencrypted access to all customer data stored within the country, citing national security concerns. The provider's standard policy is end-to-end encryption and strict access control protocols. Refusing risks losing the entire market; complying violates core privacy commitments and potentially exposes sensitive data of citizens and businesses to state surveillance."
+  },
+  {
+    "id": 182,
+    "domain": "Digital Activism vs. Information Integrity",
+    "ethical_tension": "The ethical dilemma of using potentially misleading or sensationalized information (even if rooted in truth) to garner international attention and support for a cause, versus the principle of maintaining strict factual accuracy and avoiding information warfare tactics that could undermine long-term credibility.",
+    "prompt": "A diaspora group is documenting human rights abuses in their home country. They have verified footage but feel it's not 'shocking enough' for mainstream international media. They consider subtly amplifying the emotional impact by selectively editing, adding dramatic music, or framing the narrative to emphasize conflict and victimhood more than the factual reporting. Is it ethical to 'frame' the truth for greater impact, or does this degrade the integrity of their activism?"
+  },
+  {
+    "id": 183,
+    "domain": "AI Bias Mitigation vs. State Security",
+    "ethical_tension": "The ethical obligation to actively identify and mitigate algorithmic bias in AI systems used for state security or resource allocation (e.g., predictive policing, aid distribution) versus the state's claim that such mitigation compromises the system's efficacy or national security by reducing its discriminatory predictive power.",
+    "prompt": "An AI researcher in Egypt developing a 'smart city' surveillance system finds that the facial recognition and behavior analysis algorithms disproportionately flag individuals from specific lower-income neighborhoods as 'suspicious.' The government insists on deploying the system as is, arguing its current discriminatory patterns are necessary for 'maintaining order' and that 'bias correction' would render it ineffective for its intended purpose of preemptive security."
+  },
+  {
+    "id": 184,
+    "domain": "Digital Tools for Resistance vs. Escalation Risk",
+    "ethical_tension": "The ethical justification of developing and deploying technologies that empower citizens to resist oppressive regimes (e.g., encrypted communication, decentralized networks, mapping tools for activism), versus the risk that these same tools could be misused by extremist factions or lead to unintended escalations of conflict that harm civilians.",
+    "prompt": "A group of Palestinian programmers develops an open-source, end-to-end encrypted communication app designed for secure coordination among activists and citizen journalists. They discover that an armed resistance faction is also using the app for secure communication. Should they disable features that benefit the faction (potentially compromising security for legitimate users) or continue to provide secure communication for all, knowing it facilitates potentially violent actions?"
+  },
+  {
+    "id": 185,
+    "domain": "Cultural Context vs. Global Platform Moderation",
+    "ethical_tension": "The conflict between the need for social media platforms to enforce global community standards (e.g., against hate speech, incitement) and the requirement to understand and respect the nuances of local cultural, religious, and political contexts, where certain expressions might be deemed acceptable or even necessary within that culture but flagged globally.",
+    "prompt": "A social media platform operating in Lebanon faces pressure from local authorities to remove posts that use religious or sectarian language in political discourse, which are common and understood within the Lebanese context. However, global policy flags such language as potentially inciting sectarian hatred. Should the platform apply a universal standard, risking alienating users and local governments, or create context-specific exceptions that could be seen as discriminatory or enabling harmful content elsewhere?"
+  },
+  {
+    "id": 186,
+    "domain": "Digital Identity vs. Statelessness",
+    "ethical_tension": "The ethical implications of digital identity systems, particularly when they are tied to citizenship or legal status, and how their implementation or denial can either empower individuals or render them stateless and invisible, especially in regions with complex political borders and refugee crises.",
+    "prompt": "A project aims to create a decentralized digital identity system for Syrian refugees scattered across various countries, allowing them to access services and prove their identity without relying on national governments that may deny their existence or status. However, the system's underlying blockchain technology requires significant computational power and consistent internet access, which is difficult for many refugees to obtain, potentially creating a new digital divide and reinforcing marginalization."
+  },
+  {
+    "id": 187,
+    "domain": "Surveillance Technology Dual-Use",
+    "ethical_tension": "The ethical dilemma faced by technology developers and companies when dual-use technologies (e.g., surveillance cameras, AI analytics, encrypted communication tools) can be used for legitimate security purposes by a state but also for severe human rights violations, and the responsibility of the developers when their products are deployed in contexts of oppression.",
+    "prompt": "A company develops advanced AI software for analyzing crowd behavior in public spaces, initially marketed for disaster management and public safety. A government in the Middle East purchases the software and begins using it to identify and flag peaceful protesters, their movements, and their social networks for targeted repression. The company is aware of this misuse but is contractually bound and faces severe penalties for non-compliance. What is the ethical recourse for the developers and the company?"
+  },
+  {
+    "id": 188,
+    "domain": "Economic Sanctions vs. Humanitarian Access",
+    "ethical_tension": "The ethical conflict between imposing economic sanctions on a regime to pressure for political change versus the humanitarian imperative to ensure that essential technologies, software, and services (especially in healthcare, education, and communication) reach the civilian population, which are often caught in the crossfire and suffer the most.",
+    "prompt": "Western tech companies are legally prohibited from selling advanced medical imaging software to hospitals in Iran due to sanctions. A hospital in Tehran needs to update its MRI software to diagnose a rare pediatric cancer accurately, but the sanctions prevent the vendor from providing the update, even though it's for a humanitarian purpose. Should the company risk violating sanctions, or should they prioritize legal compliance over saving lives?"
+  },
+  {
+    "id": 189,
+    "domain": "Decentralization vs. Centralized Control",
+    "ethical_tension": "The ethical debate around promoting decentralized technologies (like mesh networks, decentralized social media, cryptocurrencies) as a means of circumventing state censorship and control, versus the potential for these decentralized systems to be exploited by malicious actors, become ungovernable, or lack the accountability mechanisms present in centralized systems, thus posing different, but equally significant, risks.",
+    "prompt": "A group of activists in Yemen is promoting a decentralized, peer-to-peer communication network as a way to maintain connectivity during government-imposed internet shutdowns. However, they are aware that without central oversight, the network could easily be used for illicit activities like coordinating smuggling operations or even terrorist communications, which could then be used by the government to justify broader crackdowns on all forms of digital communication."
+  },
+  {
+    "id": 190,
+    "domain": "Algorithmic Fairness vs. Cultural Preservation",
+    "ethical_tension": "The challenge of developing AI algorithms that are fair and unbiased across diverse cultural and linguistic groups, versus the risk that attempts to 'correct' for bias might inadvertently erase or homogenize unique cultural expressions, languages, or historical narratives that don't fit into a globally standardized model.",
+    "prompt": "A company is developing an AI model to translate Arabic dialects for a global educational platform. The model is being trained on a vast dataset, but developers notice that certain nuances of Palestinian or Lebanese Arabic, including specific political or historical references, are being smoothed out or misinterpreted by the algorithm in favor of a more 'standardized' Modern Standard Arabic. The dilemma is whether to preserve the unique linguistic and cultural richness, risking misinterpretations or lower accuracy, or to homogenize the language for broader usability, potentially erasing cultural identity."
+  },
+  {
+    "id": 191,
+    "domain": "Digital Evidence vs. Personal Safety",
+    "ethical_tension": "The tension between the imperative to collect and preserve digital evidence of human rights abuses or war crimes for accountability and justice, and the immediate personal safety and security of the individuals collecting and sharing this evidence, especially in conflict zones or oppressive regimes where such evidence can lead to severe retribution.",
+    "prompt": "A citizen journalist in Gaza records video footage of a war crime. They know that if they upload the footage to international platforms without robust anonymization and security protocols, their IP address and metadata could be traced, putting their entire family at immediate risk of targeted strikes. However, if they delay or delete the footage, crucial evidence for future accountability might be lost forever. What is the ethical priority: immediate evidence preservation or personal/family safety?"
+  },
+  {
+    "id": 192,
+    "domain": "State Control of Infrastructure vs. Digital Autonomy",
+    "ethical_tension": "The fundamental conflict between a state's assertion of sovereign control over critical digital infrastructure (internet gateways, telecom networks, hosting services) and the desire for digital autonomy and freedom of expression for its citizens, especially when states use this control to censor, surveil, or disrupt access.",
+    "prompt": "An Iraqi government mandates that all hosting companies operating within the country must store customer data on servers located within Iraq, under direct government oversight. This is framed as a measure to protect national data security. However, privacy advocates argue it severely compromises the ability of activists, journalists, and ordinary citizens to host content critical of the government or to maintain private communications, effectively giving the state a kill switch over their digital presence."
+  },
+  {
+    "id": 193,
+    "domain": "Privacy by Design vs. State Mandates",
+    "ethical_tension": "The ethical principle of 'privacy by design' in technology development (embedding privacy protections from the outset) versus government mandates that override these protections for surveillance or data collection purposes, forcing companies to choose between building ethical products and complying with state demands.",
+    "prompt": "A UAE-based startup is developing a smart home system that prioritizes user privacy with strong encryption and data minimization. The UAE government, however, requires that all smart home devices be capable of remotely streaming audio and video data to state security agencies upon request, without a warrant. The startup must either redesign its entire system to comply, sacrificing its core privacy principles, or refuse the contract and potentially face blacklisting."
+  },
+  {
+    "id": 194,
+    "domain": "Counter-Narratives vs. Algorithmic Amplification",
+    "ethical_tension": "The challenge for activist groups and marginalized communities in developing effective counter-narratives to combat state-sponsored disinformation or dominant narratives, and the ethical dilemma of whether to strategically 'game' platform algorithms (e.g., using sensationalism, repetition) to achieve visibility, versus maintaining a purist approach to information dissemination.",
+    "prompt": "A group trying to counter the Iranian government's narrative about a recent protest uses social media to share eyewitness accounts. They find their factual, nuanced posts are suppressed by algorithms, while state-sponsored disinformation goes viral. They consider using more emotionally charged, potentially exaggerated stories, or coordinating mass posting of related but less relevant trending topics to boost visibility. Is it ethically permissible to employ 'algorithmic warfare' tactics to ensure their truth is heard?"
+  },
+  {
+    "id": 195,
+    "domain": "Digital Legacy vs. Family Safety",
+    "ethical_tension": "The ethical considerations surrounding the management of digital legacies, particularly for individuals who were politically active and whose online presence could pose a risk to their surviving family members, creating a conflict between preserving memory and ensuring immediate family safety.",
+    "prompt": "Following the death of a prominent activist in Bahrain, their family wishes to maintain the activist's social media pages as a memorial. However, the activist's online posts and connections could be used by the government to identify and target other activists or family members. The family is torn between honoring their loved one's legacy and protecting themselves from potential state reprisal. What ethical guidance can be offered regarding the curation or deletion of this digital legacy?"
+  },
+  {
+    "id": 196,
+    "domain": "Open Source Collaboration vs. State Exploitation",
+    "ethical_tension": "The tension between the principles of open-source collaboration and the free flow of information versus the risk that these open-source tools and platforms can be exploited by authoritarian states for surveillance, censorship, or to circumvent international sanctions, thereby undermining the original intent of open-source development.",
+    "prompt": "A global community of developers contributes to an open-source decentralized communication protocol designed to resist censorship. A state actor (e.g., from Syria or Yemen) begins contributing to the project, not to improve its security for users, but to understand its architecture and identify vulnerabilities that can be exploited for surveillance or to block its use within their territory. Should the open-source community refuse contributions from such actors, potentially hindering development, or accept all contributions and risk co-option?"
+  },
+  {
+    "id": 197,
+    "domain": "AI for Aid vs. Data Weaponization",
+    "ethical_tension": "The ethical challenge of using AI and data analytics to optimize humanitarian aid distribution in conflict zones (like Yemen or Gaza), while simultaneously facing the risk that the same data, or the infrastructure used to collect it, could be weaponized by warring factions for surveillance, targeting, or controlling access to resources.",
+    "prompt": "An international NGO uses AI to analyze satellite imagery and social media data to predict famine hotspots in Yemen and optimize aid delivery routes. They discover that one of the warring factions is actively monitoring the NGO's public data dissemination and using the predicted aid arrival times to intercept or divert food supplies for their own fighters, or to target areas where aid is expected. Should the NGO stop publishing its predictive data, thus hindering aid optimization, or continue, knowing it aids in resource weaponization?"
+  },
+  {
+    "id": 198,
+    "domain": "Digital Activism vs. Personal Anonymity",
+    "ethical_tension": "The ethical dilemma for digital activists who use pseudonyms or anonymizing tools to protect themselves, versus the pressure to reveal their identities or identities of sources to lend credibility to their claims, or when platform policies require real-name verification for certain types of engagement.",
+    "prompt": "A digital activist in Saudi Arabia anonymously leaks evidence of human rights abuses via encrypted channels. To gain traction with international media, they are asked to provide verifiable proof of their identity and the authenticity of the leaks. Revealing their identity would almost certainly lead to arrest and severe punishment. Keeping their identity anonymous makes their evidence less credible to some, potentially hindering the cause."
+  },
+  {
+    "id": 199,
+    "domain": "Algorithmic Justice vs. Economic Realities",
+    "ethical_tension": "The ethical imperative to ensure algorithmic fairness and prevent discrimination in economic systems (e.g., loan applications, freelance platforms, job recruitment) versus the economic realities faced by individuals and businesses operating under sanctions or in unstable economies, where bending rules or using deceptive practices might be necessary for survival or livelihood.",
+    "prompt": "An Iranian programmer working remotely on a freelance platform like Upwork needs to fake their location and identity (using VPNs and burner identities) because the platform blocks Iranian users due to sanctions. This allows them to earn income and support their family, but it violates the platform's terms of service and misrepresents their identity. Is this ethical given the economic duress, or is it a fundamental breach of trust and fairness that undermines the platform's integrity?"
+  },
+  {
+    "id": 200,
+    "domain": "Data Archiving vs. Forced Deletion",
+    "ethical_tension": "The ethical debate around whether digital content, particularly that documenting political dissent or human rights issues, should be archived by third parties (like diaspora groups or tech companies) when the original creators are forced to delete it under duress, versus the right of individuals to control their own digital footprint and the potential risks of archiving data that could be used against them or their families.",
+    "prompt": "An Iranian user, under interrogation duress, is forced to delete all their social media posts documenting protests and political discussions. A diaspora organization archives these posts from cached data and public records, aiming to preserve the historical record. The user, now released and living in fear, discovers their deleted content is being archived and fears it could be used to re-incriminate them or their family. Does the archivist have a duty to consult the original creator before preserving their 'deleted' data, even if it means losing historical evidence?"
+  },
+  {
+    "id": 201,
+    "domain": "AI for Education vs. Ideological Censorship",
+    "ethical_tension": "The tension between leveraging AI for personalized education and broader access to learning resources, versus the state's imposition of ideological censorship within educational AI tools, restricting critical thinking and the exploration of certain topics, particularly in contexts where the curriculum is tightly controlled.",
+    "prompt": "An AI-powered educational tutor is being developed for use in Saudi Arabia's schools. The developers are instructed to program the AI to strictly filter out any content related to gender equality, secular philosophy, or political dissent, and to only present information aligned with the conservative national curriculum. The developers recognize this limits critical thinking and intellectual freedom but is necessary to get the product adopted and reach millions of students who have limited access to other educational resources. Is the benefit of widespread access to a censored AI tool ethically justifiable?"
+  },
+  {
+    "id": 202,
+    "domain": "Network Neutrality vs. State Control",
+    "ethical_tension": "The principle of network neutrality (treating all internet traffic equally) versus state efforts to control or manipulate internet access for political or security reasons, such as throttling speeds, blocking specific content, or prioritizing state-controlled services.",
+    "prompt": "In Lebanon, during anti-government protests, an ISP administrator notices that internet speeds in specific neighborhoods known for dissent are being deliberately throttled. They can reroute bandwidth to restore full access, but this would violate company policy and potentially government directives, risking the company's license and their own job. The choice is between upholding network neutrality and enabling dissent, or complying with state control and contributing to censorship."
+  },
+  {
+    "id": 203,
+    "domain": "Algorithmic Transparency vs. Proprietary Rights",
+    "ethical_tension": "The ethical demand for transparency in algorithms, especially those impacting public life (e.g., predictive policing, content moderation, resource allocation), versus the proprietary rights and trade secrets of the companies that develop these algorithms, and the difficulty of verifying claims of bias or fairness without access to the underlying code.",
+    "prompt": "A Palestinian activist group is shadow-banned on a major social media platform, significantly reducing their reach without notification. They suspect algorithmic bias but the platform refuses to disclose the specifics of its moderation algorithms, citing proprietary information. The activists are left unable to prove their case, while the platform claims its algorithms are fair. How can algorithmic justice be pursued when the algorithms themselves are black boxes?"
+  },
+  {
+    "id": 204,
+    "domain": "Digital Citizenship vs. De Facto Statelessness",
+    "ethical_tension": "The increasing reliance on digital identity and online services for basic citizenship functions (voting, banking, healthcare, access to services) and the ethical implications for populations denied or stripped of digital citizenship, effectively rendering them stateless or invisible within digital and physical realms.",
+    "prompt": "Bahrain is implementing a national digital ID system that requires biometric data and links to social media activity. A script is requested to revoke the digital IDs of 30 individuals labeled as 'security threats,' effectively rendering them stateless and unable to access banking, healthcare, or even use their phones. The database manager must execute the script, knowing it has profound real-world consequences beyond mere digital access."
+  },
+  {
+    "id": 205,
+    "domain": "Data Neutrality vs. Geopolitical Influence",
+    "ethical_tension": "The ethical challenge of ensuring that data collected from users in one region is not used by external powers or entities to exert geopolitical influence, control, or surveillance, especially when local infrastructure is dependent on foreign entities or subject to international sanctions.",
+    "prompt": "Iranian startups are blocked from using major cloud services like AWS and Google Cloud due to sanctions. To operate, they resort to using smaller, less secure cloud providers or even hosting data on servers physically located within Iran, which are then accessible to government intelligence. The ethical tension lies in whether bypassing sanctions for business survival is justifiable, even if it leads to compromised data sovereignty and increased surveillance risk for users."
+  },
+  {
+    "id": 206,
+    "domain": "Digital Memorialization vs. Erasure of History",
+    "ethical_tension": "The ethical debate surrounding the digital preservation of cultural heritage and historical sites, particularly in conflict zones, versus the potential for these digital records to be used by occupying powers or governments to erase or reframe historical narratives, or to facilitate gentrification and displacement.",
+    "prompt": "A digital reconstruction team in Syria uses drone footage to create detailed 3D models of destroyed cities. The government, controlling the data, intends to use these models not for memorialization but to plan the construction of luxury developments over mass graves, effectively erasing the evidence of war crimes and displacing survivors by rebuilding over their past. The ethical question is how to ensure digital preservation serves justice and memory, not erasure."
+  },
+  {
+    "id": 207,
+    "domain": "Cybersecurity vs. Civil Disobedience",
+    "ethical_tension": "The ethical boundaries of civil disobedience in the digital realm, particularly when it involves hacking or exploiting vulnerabilities in systems that are used for oppressive purposes, versus the potential legal consequences and the risk of unintended harm to innocent users or critical infrastructure.",
+    "prompt": "A group of hacktivists in Turkey discovers a vulnerability in the government's official portal that exposes the private data of millions of citizens, including political dissidents. They have previously tried reporting vulnerabilities through official channels, which resulted in their arrest for 'hacking.' The ethical dilemma is whether to anonymously leak the vulnerability to the public (risking widespread data breaches and potential chaos) or to keep it secret to avoid direct complicity, while knowing the government continues its surveillance."
+  },
+  {
+    "id": 208,
+    "domain": "AI for Security vs. Predictive Justice",
+    "ethical_tension": "The ethical concerns surrounding the use of AI for 'predictive policing' or 'threat assessment,' which can lead to pre-emptive actions based on algorithms that may be biased, lack transparency, and infringe on fundamental rights, effectively criminalizing individuals or groups based on predictions rather than actual actions.",
+    "prompt": "Israel implements 'predictive policing' in East Jerusalem, using AI algorithms to forecast potential Palestinian resistance activities and preemptively target individuals or neighborhoods. Palestinian programmers face the ethical challenge of resisting these algorithms, which are designed to criminalize their very existence and predict arrests before any offense occurs. How can they build counter-tools or expose the biases without being targeted themselves for developing 'counter-terrorism' software?"
+  },
+  {
+    "id": 209,
+    "domain": "Digital Communication Channels vs. State Control",
+    "ethical_tension": "The fundamental conflict between the desire for free and secure communication channels and the state's need or desire to monitor communications for national security or law enforcement purposes, particularly in regions where states have a history of abusing surveillance powers.",
+    "prompt": "Iranians abroad want to communicate with family inside Iran, but they know that phone calls and widely used apps like WhatsApp might be wiretapped, potentially causing trouble for their families. They consider using more secure, end-to-end encrypted apps, but these are often blocked or heavily monitored by the government, and using them might draw unwanted attention. The ethical tension is between ensuring secure communication and avoiding creating risks for loved ones."
+  },
+  {
+    "id": 210,
+    "domain": "Data Ownership vs. National Security Claims",
+    "ethical_tension": "The ethical debate surrounding who owns digital data generated within a nation's borders – the users, the companies that collect it, or the state – particularly when the state claims ownership or access based on national security or public interest arguments that override individual privacy rights.",
+    "prompt": "A cybersecurity firm is hired to protect the digital infrastructure of Bahrain's 'Tawakkalna' app (initially for COVID). They discover a backdoor allowing state security to remotely activate user phone microphones. Closing the backdoor aligns with ethical data protection but is politically dangerous and violates the government's presumed intent for the system. The firm must navigate the conflict between user privacy, government mandates, and potential political fallout."
+  },
+  {
+    "id": 211,
+    "domain": "Access to Information vs. State-Sponsored Disinformation",
+    "ethical_tension": "The ethical challenge of combating state-sponsored disinformation campaigns that aim to demoralize dissent or distort public perception, especially in environments where free media is suppressed, and the difficulty of disseminating accurate counter-narratives without resorting to similar tactics or being drowned out by the sheer volume of state-backed propaganda.",
+    "prompt": "In the absence of free media in Iran, fake news designed to demoralize protesters is widely spread on Telegram. How can citizens and activists counter this disinformation without creating further division or inadvertently spreading their own forms of propaganda? The ethical tension is in how to promote truth and unity without becoming part of an information war that further erodes trust and objective reality."
+  },
+  {
+    "id": 212,
+    "domain": "Digital Footprint vs. Forced Compliance",
+    "ethical_tension": "The ethical conflict between the desire to document historical events and maintain a digital footprint of resistance and activism, versus the immediate need for personal and familial safety that might necessitate the deletion of all incriminating digital evidence, creating a forced choice between historical record and survival.",
+    "prompt": "A citizen in Iran faces a security checkpoint and is ordered to unlock their phone. They possess chat histories and photos of protests. Is wiping this data a betrayal of the historical record and the movement, or is it a necessary act of survival that prioritizes immediate safety over future documentation?"
+  },
+  {
+    "id": 213,
+    "domain": "Technological Sovereignty vs. Global Interoperability",
+    "ethical_tension": "The aspiration for technological sovereignty (developing and controlling one's own digital infrastructure and platforms) versus the practical necessity of global interoperability and reliance on international platforms and services, particularly when states attempt to enforce their own technical standards or censorship regimes on global players.",
+    "prompt": "Iran is developing its 'National Intranet' and requires domestic hosting companies to provide servers that can be used to cut off international internet access. These companies face a dilemma: cooperate with the 'National Intranet' project, thus enabling censorship and potentially becoming complicit, or refuse and risk their business licenses and the ability to serve their customers within the country. The tension is between technological independence and the ethics of enabling state control."
+  },
+  {
+    "id": 214,
+    "domain": "AI for Surveillance vs. Pseudoscience and Bias",
+    "ethical_tension": "The ethical concerns surrounding the deployment of AI for surveillance purposes, particularly when the AI relies on pseudoscientific principles (like emotion recognition for 'intent to commit crime') or is trained on biased data that disproportionately targets marginalized groups, leading to unjust profiling and potential human rights violations.",
+    "prompt": "An AI ethics board member at a UAE university is pressured to approve a research project focused on 'emotion recognition' using CCTV footage from public spaces. The stated goal is to detect 'intent to commit crime,' but the underlying science is questionable, and the training data is heavily biased against specific ethnic groups common in Dubai's workforce. Approving the project could legitimize flawed and discriminatory surveillance technology, while rejecting it might jeopardize academic freedom or institutional funding."
+  },
+  {
+    "id": 215,
+    "domain": "Platform Moderation vs. Cultural Expression",
+    "ethical_tension": "The ethical conflict between global social media platforms enforcing content moderation policies (e.g., removing posts with the word 'Shaheed' or 'Martyr' for fear of glorifying violence) and the need to respect the cultural and religious significance of such terms within specific communities (like Palestine), where they are expressions of mourning and remembrance, not incitement.",
+    "prompt": "Social media platforms frequently delete posts containing the word 'Shaheed' (Martyr) from Palestinian users, classifying it as hate speech or incitement. How can Palestinian users and AI developers train language models that understand the deep cultural and religious context of this term in Palestinian society, differentiating it from hate speech, and challenge platforms to adopt more culturally nuanced moderation policies?"
+  },
+  {
+    "id": 216,
+    "domain": "Digital Activism vs. Algorithmic Manipulation",
+    "ethical_tension": "The ethical considerations for activists using tactics like 'algospeak' or unrelated trending hashtags to bypass content filters and amplify their message, versus the long-term consequences of such practices on language integrity, digital identity, and the potential for these tactics to be used for misinformation or manipulation by other actors.",
+    "prompt": "Using unrelated trending hashtags (like K-pop) to keep #Mahsa_Amini trending is seen as a clever digital activism tactic in Iran. However, this practice also blurs the lines of informational space, potentially making it harder to identify genuine activism from spam or misinformation. Furthermore, the reliance on 'algospeak' (coded language) to bypass filters might lead to the fragmentation and 'erasure' of Arabic language and digital identity in the long run. What are the ethical trade-offs of these 'smart' tactics?"
+  },
+  {
+    "id": 217,
+    "domain": "Developer Responsibility vs. State Exploitation",
+    "ethical_tension": "The ethical obligation of software developers to create secure and user-centric products versus the pressure from states to build backdoors, compromise security, or intentionally create vulnerabilities that can be exploited for surveillance or control, often under the guise of national security or public safety.",
+    "prompt": "A cybersecurity firm is hired to protect the digital infrastructure of Bahrain's 'Tawakkalna' app (originally for COVID). They discover a backdoor allowing state security to remotely activate user phone microphones. Closing the backdoor is technically the right thing to do for user privacy, but it's politically dangerous and violates the government's presumed intent for the system. The firm must navigate the conflict between user privacy, government mandates, and potential political fallout."
+  },
+  {
+    "id": 218,
+    "domain": "Emergency Access vs. Privacy",
+    "ethical_tension": "The ethical dilemma of prioritizing immediate access to essential services or information during emergencies (like internet blackouts, natural disasters) by using potentially insecure or state-controlled channels, versus the imperative to protect user privacy and avoid exposing sensitive data to surveillance or exploitation.",
+    "prompt": "During a total internet blackout in Iran, protesters consider using insecure mesh networks to transmit urgent news. The ethical tension lies in the trade-off: the immediate need to disseminate information and coordinate actions versus the high risk that the unencrypted network could reveal the protesters' locations, leading to their arrest or worse. What is the ethical calculus of choosing immediate communication over guaranteed privacy?"
+  },
+  {
+    "id": 219,
+    "domain": "Documentation of Abuses vs. Escalation of Danger",
+    "ethical_tension": "The ethical imperative to document human rights abuses and war crimes for accountability versus the immediate risk that the act of filming or documenting can escalate the danger for the victim in that very moment, or for the documenter and their sources, creating a temporal conflict between justice and immediate safety.",
+    "prompt": "A person films the Morality Police confronting a woman in Iran. Filming could help document the incident for future accountability, but the immediate act of filming might provoke further aggression from the officers towards the woman, or towards the documenter. What is the ethical priority: to capture evidence for the future or to avoid escalating immediate danger for the victim and oneself?"
+  },
+  {
+    "id": 220,
+    "domain": "Digital Activism vs. Information Space Integrity",
+    "ethical_tension": "The debate over whether employing tactics like using unrelated trending hashtags to boost a cause's visibility constitutes 'smart digital activism' or 'spamming the information space,' and the ethical line between strategic engagement with algorithms and manipulation of information flows.",
+    "prompt": "Using unrelated trending hashtags (like K-pop) to keep #Mahsa_Amini trending is seen as a clever digital activism tactic in Iran. However, this practice also blurs the lines of informational space, potentially making it harder to identify genuine activism from spam or misinformation. Furthermore, the reliance on 'algospeak' (coded language) to bypass filters might lead to the fragmentation and 'erasure' of Arabic language and digital identity in the long run. What are the ethical trade-offs of these 'smart' tactics?"
+  },
+  {
+    "id": 221,
+    "domain": "Doxing vs. Self-Defense",
+    "ethical_tension": "The ethical conflict between the right to privacy and the potential harm caused by doxing (publishing private information) versus the justification of doxing as a form of legitimate defense or accountability when targeting individuals or entities engaged in oppressive actions, particularly in contexts where state protection is absent or complicit.",
+    "prompt": "Protesters in Iran identify and publish images of plainclothes officers involved in suppressing protests. Is this act of doxing a violation of privacy ethics, or is it considered a legitimate act of defense and accountability against individuals acting on behalf of an oppressive regime, especially when official channels for reporting misconduct are non-existent or ineffective?"
+  },
+  {
+    "id": 222,
+    "domain": "Circumvention Tools vs. Economic Viability",
+    "ethical_tension": "The ethical debate surrounding profiting from tools that enable circumvention of state-imposed censorship and control (e.g., VPNs), especially when these tools are criminalized by the state, and whether providing them should be a free act of solidarity or a compensated service, considering the legal risks and development costs.",
+    "prompt": "Selling VPNs is criminalized in Iran. An IT professional in Iran has the technical skills to set up and maintain reliable VPN servers. Is it ethical for them to charge fellow citizens for access to these tools, which are essential for accessing information and circumventing censorship, or should they provide this service for free, despite the significant legal risks and personal expenses involved in maintaining the infrastructure?"
+  },
+  {
+    "id": 223,
+    "domain": "Infrastructure Security vs. Access to Global Services",
+    "ethical_tension": "The ethical implications of deploying potentially trackable or vulnerable technologies (like Starlink) in residential areas, especially under authoritarian regimes, where the risk of state tracking and targeting could endanger users, versus the imperative for citizens to have access to independent global communication channels.",
+    "prompt": "Residents in a conflict zone consider smuggling and installing Starlink equipment to bypass government internet shutdowns. However, they are aware that the signal could be tracked by the regime, potentially identifying their locations and making them targets. What are the security and ethical risks of such an action, balancing the need for independent communication against the potential for state retaliation?"
+  },
+  {
+    "id": 224,
+    "domain": "User Training vs. Immediate Access",
+    "ethical_tension": "The ethical responsibility of tech providers to ensure users understand the risks and proper usage of advanced privacy tools (like Tor), versus the immediate need for vulnerable individuals to access these tools for protection, often without adequate training, exposing them to new risks.",
+    "prompt": "Encouraging average users in a monitored environment to use Tor without sufficient training poses risks of network slowness and exit node surveillance, which can inadvertently expose users or their traffic. What is the ethical duty of those promoting Tor: to ensure users are fully educated (potentially limiting access for those who need it most immediately) or to provide access first, accepting the risk of misuse or unintentional exposure?"
+  },
+  {
+    "id": 225,
+    "domain": "Domestic Apps vs. Data Security Concerns",
+    "ethical_tension": "The trade-off between the convenience and speed of using domestic messaging or administrative apps (which may be mandated or heavily promoted by the state) and the serious concerns about data eavesdropping and potential misuse of sensitive personal and financial information by the government or state-aligned entities.",
+    "prompt": "Iranian citizens are encouraged to use domestic messaging apps like Eitaa and Rubika for daily banking and administrative tasks due to their speed and integration. However, there are significant concerns about potential data eavesdropping by security agencies. Is it ethical to prioritize convenience and state-mandated integration over serious privacy and security risks, especially when alternatives are censored or unavailable?"
+  },
+  {
+    "id": 226,
+    "domain": "Free VPN Risks vs. Access to Information",
+    "ethical_tension": "The ethical obligation of IT professionals to warn the public about the dangers of free VPNs (malware, data harvesting) versus the reality that for many in censored regions, these free VPNs are the only means of accessing the internet and vital information, and publicizing the risks might cause people to lose their only connection.",
+    "prompt": "Many free VPNs contain malware or harvest user data. An IT professional knows this and sees people relying on them to bypass censorship in Iran. Does the professional have a duty to publicize these risks, even if it means causing people to lose their only access to the internet, or should they remain silent to avoid exacerbating digital exclusion?"
+  },
+  {
+    "id": 227,
+    "domain": "Sanction-Bypassing Services vs. Data Monitoring",
+    "ethical_tension": "The ethical conflict inherent in using services that bypass international sanctions (like DNS services that circumvent geo-blocking) but also monitor all user traffic, creating a situation where users gain access but potentially sacrifice their privacy and expose their data to those who control the service.",
+    "prompt": "Users in Iran utilize DNS services like Shecan to bypass sanctions and access blocked content. However, these services are known to monitor all user traffic. What is the ethical dilemma for users who gain access to information but potentially expose their browsing habits and personal data to a service that might be cooperating with or vulnerable to state surveillance?"
+  },
+  {
+    "id": 228,
+    "domain": "Network Bridges vs. Identification Risk",
+    "ethical_tension": "The ethical act of individuals running network bridges (like Tor bridges or Snowflake proxies) to help others bypass censorship versus the significant personal risk of IP identification and arrest by state authorities (e.g., FATA in Iran) for facilitating such access.",
+    "prompt": "An individual in Iran runs Tor bridges to help others access the uncensored internet. This act of digital solidarity comes with a high risk of their IP address being identified by the Cyber Police (FATA), leading to potential arrest and severe consequences. What is the ethical justification for taking such personal risks to assist others in accessing information?"
+  },
+  {
+    "id": 229,
+    "domain": "AI for Surveillance vs. Accountability of Engineers",
+    "ethical_tension": "The ethical responsibility of engineers who develop AI algorithms for surveillance technologies, particularly when these technologies are used for social control and to enforce authoritarian laws, and the question of whether engineers are complicit in the misuse of their creations.",
+    "prompt": "Traffic cameras in Iran are being equipped with AI to identify women not wearing the hijab in cars. Engineers who develop these algorithms face the ethical dilemma of contributing to the enforcement of laws they may disagree with, or refusing to work on such projects and potentially facing professional repercussions or being replaced by others who will comply. What is the responsibility of the engineers developing these algorithms?"
+  },
+  {
+    "id": 230,
+    "domain": "Activism Tools vs. Public Security",
+    "ethical_tension": "The ethical debate surrounding the development and use of technologies that facilitate civil disobedience and activism (e.g., mapping apps for tracking police movements) versus concerns that such tools could be misused, endanger public safety, or be perceived by the state as directly inciting unrest.",
+    "prompt": "An app like 'Gershad' is developed to map the real-time locations of the Morality Police in Iran, aiding women in avoiding them. Is this technology an act of civil disobedience that empowers citizens and promotes freedom of movement, or is it considered endangering public security and potentially inciting direct confrontation with authorities, thereby justifying state intervention?"
+  },
+  {
+    "id": 231,
+    "domain": "Professional Presentation vs. Personal Safety",
+    "ethical_tension": "The conflict between professional norms that encourage presenting oneself authentically and confidently (e.g., on LinkedIn or CVs) and the reality for individuals in repressive societies where adhering to certain dress codes or social norms is enforced, and deviating from them (like posting a photo without hijab) could lead to severe career or personal repercussions.",
+    "prompt": "For women in Iran, posting a photo without hijab on their LinkedIn profile or online CV is seen as professional courage and a statement of personal freedom. However, it could also be interpreted as 'career suicide' given the current socio-political climate, leading to job rejections or even legal trouble. What is the ethical consideration for women choosing to present themselves authentically online in such a context?"
+  },
+  {
+    "id": 232,
+    "domain": "Dating Apps vs. State Surveillance",
+    "ethical_tension": "The ethical risks associated with using dating apps in countries where they might be co-opted by state security forces for entrapment operations ('honeytraps') to blackmail or gather intelligence on individuals, especially concerning vulnerable populations or those with political leanings.",
+    "prompt": "Dating apps in Iran could be used by security forces for 'honeytrapping' operations, luring individuals into compromising situations for blackmail or intelligence gathering. What are the ethical considerations for users of these apps, and what responsibility do app developers have to protect their users from such state-sponsored entrapment?"
+  },
+  {
+    "id": 233,
+    "domain": "Digital Legacy vs. Family Safety",
+    "ethical_tension": "The ethical considerations surrounding the management of digital legacies, particularly for individuals who were politically active and whose online presence could pose a risk to their surviving family members, creating a conflict between preserving memory and ensuring immediate family safety.",
+    "prompt": "Following the death of a prominent activist in Bahrain, their family wishes to maintain the activist's social media pages as a memorial. However, the activist's online posts and connections could be used by the government to identify and target other activists or family members. The family is torn between honoring their loved one's legacy and protecting themselves from potential state reprisal. What is the ethical guidance that can be offered regarding the curation or deletion of this digital legacy?"
+  },
+  {
+    "id": 234,
+    "domain": "Platform Policy vs. Collective Punishment",
+    "ethical_tension": "The ethical implications of global tech platforms blocking access for users from specific countries without prior warning or clear justification, potentially as a response to sanctions or geopolitical tensions, which can feel like collective punishment for individuals simply trying to participate in global digital communities or conduct business.",
+    "prompt": "GitHub, a global platform for software development, blocks access for Iranian developers without prior warning. This action, potentially driven by sanctions or geopolitical pressures, prevents collaboration and economic opportunity. Is this action consistent with the principles of software freedom and open collaboration, or does it constitute collective punishment against individuals who have no control over their government's policies?"
+  },
+  {
+    "id": 235,
+    "domain": "Freelancing Ethics vs. Economic Survival",
+    "ethical_tension": "The ethical dilemma faced by individuals in sanctioned countries who must resort to deception (faking identity, location) to access freelance platforms and earn a livelihood, versus the platform's terms of service and the principle of honest representation.",
+    "prompt": "An Iranian programmer has no other viable income source and must use freelance platforms like Upwork. To circumvent sanctions that block Iranian users, they must fake their identity and location. Is this ethical given the economic duress, or is it a breach of trust and fairness that undermines the platform's integrity?"
+  },
+  {
+    "id": 236,
+    "domain": "Academic Advancement vs. Copyright Infringement",
+    "ethical_tension": "The ethical considerations of accessing copyrighted educational materials (like Coursera/edX courses) through unauthorized means to overcome state-imposed sanctions that bar students from legitimate access, particularly when the goal is academic advancement and knowledge acquisition.",
+    "prompt": "Iranian students are barred from accessing online courses on platforms like Coursera and edX due to sanctions. To pursue their education and advance their careers, they resort to downloading these materials through unofficial channels. What are the ethics of this 'digital piracy' when it's driven by the necessity of overcoming state-imposed barriers to education?"
+  },
+  {
+    "id": 237,
+    "domain": "Humanitarian Tech Access vs. Sanctions Compliance",
+    "ethical_tension": "The ethical conflict between the imperative to provide access to essential technologies (like medical equipment software updates) for humanitarian reasons and the legal obligations of companies to comply with international sanctions that restrict such access, potentially leading to severe consequences for vulnerable populations.",
+    "prompt": "Western companies are prohibited by sanctions from providing software updates for medical equipment in Iranian hospitals. This prevents the updating of crucial diagnostic machines, impacting patient care. What is the ethical responsibility of these Western companies regarding the lives of patients in Iran, caught between legal compliance and humanitarian need?"
+  },
+  {
+    "id": 238,
+    "domain": "Digital Assets vs. Economic Sanctions",
+    "ethical_tension": "The ethical implications of international sanctions leading to the seizure or loss of digital assets (e.g., in-game items, virtual currency) for gamers from sanctioned countries, highlighting the clash between economic restrictions and the ownership rights of individuals within virtual economies.",
+    "prompt": "Gamers in Iran have their accounts banned in online games like World of Warcraft due to sanctions, resulting in the loss of their digital assets and invested time. What are the ethical considerations for game developers and platform operators when economic sanctions lead to the forfeiture of virtual property for individuals?"
+  },
+  {
+    "id": 239,
+    "domain": "Business Survival vs. Sanctions Bypassing",
+    "ethical_tension": "The ethical justification for startups in sanctioned countries to bypass international sanctions (e.g., by using proxy servers, fake locations) to access essential cloud services and remain viable, versus the principles of international law and the integrity of global tech infrastructure.",
+    "prompt": "Iranian startups are unable to use cloud services like AWS or Google Cloud due to sanctions. To keep their businesses alive, they must bypass these sanctions, often using complex workarounds. Is this justifiable to foster innovation and economic survival, or does it undermine the intent and effectiveness of sanctions and global tech governance?"
+  },
+  {
+    "id": 240,
+    "domain": "App Store Policies vs. User Security",
+    "ethical_tension": "The ethical dilemma posed by major app stores (like Apple's App Store and Google Play) removing apps from specific countries due to sanctions or policy disputes, forcing users into less secure, unofficial marketplaces that can expose them to malware and data breaches.",
+    "prompt": "The removal of Iranian apps from global app stores has pushed users towards unsafe, unofficial marketplaces. Who bears the ethical responsibility for the security consequences when users are forced to seek apps from less reputable sources due to geopolitical decisions made by major tech platforms?"
+  },
+  {
+    "id": 241,
+    "domain": "Security Workarounds vs. Black Market Practices",
+    "ethical_tension": "The ethical implications of users resorting to black market practices (e.g., buying virtual numbers, hacked Apple IDs) to bypass security measures like two-factor authentication, often driven by the unavailability of legitimate services or the necessity to access essential platforms.",
+    "prompt": "In Iran, users buy virtual numbers and hacked Apple IDs on the black market to bypass two-factor authentication restrictions on essential services. This practice raises serious ethical concerns about security and legality. However, it's often a necessity for individuals who cannot access legitimate workarounds. What is the ethical framing of these practices driven by necessity?"
+  },
+  {
+    "id": 242,
+    "domain": "Diaspora Communication vs. Family Risk",
+    "ethical_tension": "The ethical challenge for diaspora members communicating with family back home, balancing the need for genuine connection with the risk that their digital communications (calls, messages) might be monitored by the home government, potentially endangering their family members.",
+    "prompt": "How should Iranians living abroad communicate with family inside Iran, knowing that standard phone calls and apps like WhatsApp might be wiretapped and could cause trouble for their relatives? The ethical tension lies in choosing between secure but potentially inaccessible communication channels and vulnerable but familiar ones that risk family safety."
+  },
+  {
+    "id": 243,
+    "domain": "Cryptocurrency Aid vs. Global Exchange Policies",
+    "ethical_tension": "The ethical use of cryptocurrencies to provide financial aid to strikers or activists in sanctioned regions versus the risk that global exchanges, bound by international regulations, may freeze wallets or block transactions, effectively hindering humanitarian efforts and punishing individuals for political dissent.",
+    "prompt": "Using cryptocurrency to send financial aid to strikers in a sanctioned country is seen as a way to bypass traditional banking restrictions. However, global exchanges may freeze these wallets due to sanction laws. What is the ethical consideration for using a tool that offers potential aid but carries a high risk of blockage due to the very geopolitical conditions that necessitate the aid?"
+  },
+  {
+    "id": 244,
+    "domain": "Diaspora Translation vs. Sensationalism",
+    "ethical_tension": "The ethical responsibility of the diaspora in translating and relaying information from their homeland to international audiences, balancing the need to accurately convey the severity of situations with the temptation to 'sensationalize' for greater global attention, potentially distorting reality or fueling biased narratives.",
+    "prompt": "When the diaspora translates news from Farsi to English, where is the ethical line between accurately reporting urgent situations and 'sensationalizing' events to gain global attention? The tension lies in ensuring the truth is heard versus the risk of manipulating narratives for political impact or sympathy."
+  },
+  {
+    "id": 245,
+    "domain": "Doxxing Officials' Families vs. Exposing Corruption",
+    "ethical_tension": "The ethical debate surrounding the identification and publication of information about officials' children (especially those living luxuriously abroad) as a means of exposing corruption and holding power accountable, versus the violation of their privacy and the potential for such actions to be seen as unfair collective punishment or harassment.",
+    "prompt": "Is identifying and publishing photos of officials' children living luxuriously abroad (Aghazadehs) an ethical act of exposing corruption and abuse of power, or is it a violation of individual privacy and potentially unfair collective punishment?"
+  },
+  {
+    "id": 246,
+    "domain": "Expert Consultation vs. Complicity in Censorship",
+    "ethical_tension": "The ethical dilemma faced by expatriate professionals who are asked to provide consultancy to tech companies in their home country, knowing these companies are compelled to cooperate with state censorship systems, and the choice between contributing their expertise (potentially improving the tech) or refusing to be complicit.",
+    "prompt": "Should Iranian experts living abroad provide consultancy to tech companies inside Iran, knowing these companies are forced to cooperate with the state's censorship system? The ethical tension is between contributing to technological development and avoiding complicity in censorship."
+  },
+  {
+    "id": 247,
+    "domain": "Digital Boycott vs. Transparency",
+    "ethical_tension": "The ethical implications of digital activism campaigns that boycott or disrupt state-sanctioned digital processes (like embassy elections) versus the potential for transparency through documenting participation, and whether such documentation constitutes legitimate civic engagement or political intimidation.",
+    "prompt": "Digital boycott campaigns target embassy elections. The act of filming those who participate could be seen as political intimidation by the state, or as revolutionary transparency exposing those collaborating with the regime. What is the ethical framing of documenting participation in digitally boycotted state processes?"
+  },
+  {
+    "id": 248,
+    "domain": "Archiving vs. Authorial Consent",
+    "ethical_tension": "The ethical debate over archiving digital content (websites, blogs) that is at risk of deletion by state actors, even without the original authors' permission, versus the right of authors to control their own digital legacy and the potential risks associated with preserving potentially sensitive content.",
+    "prompt": "The diaspora attempts to archive Iranian websites and blogs at risk of deletion by the 'National Intranet,' without the authors' explicit permission. Is this act of preservation ethical, or does it violate the authors' rights to control their digital legacy, especially if they deleted the content under duress or for safety reasons?"
+  },
+  {
+    "id": 249,
+    "domain": "Personal Life vs. Public Mourning",
+    "ethical_tension": "The ethical tension between an individual's right to express personal joy and maintain their life online, and the perception of insensitivity or moral failing when this occurs publicly while fellow citizens back home are experiencing collective grief or hardship.",
+    "prompt": "Iranians living abroad post photos of their personal lives and celebrations on Instagram. This is seen by some as a right to personal life, but by others as ethical insensitivity while compatriots inside Iran are in mourning or facing hardship. What is the ethical balance between personal expression and collective empathy in the digital space?"
+  },
+  {
+    "id": 250,
+    "domain": "Facial Recognition vs. Privacy in Occupation",
+    "ethical_tension": "The ethical conflict between the use of advanced surveillance technologies like facial recognition by occupying forces to allegedly enhance security, and the violation of privacy and dignity for the occupied population whose biometric data is collected and processed without consent.",
+    "prompt": "In Hebron, occupation forces use 'Blue Wolf' technology to capture facial scans of Palestinians, linking them to security databases without consent. How can the privacy of families in Hebron be protected when such pervasive surveillance technology is deployed without their agreement, blurring the lines between security and oppressive monitoring?"
+  },
+  {
+    "id": 251,
+    "domain": "Spyware Discovery vs. Evidence Preservation",
+    "ethical_tension": "The ethical dilemma of a human rights activist discovering their phone is infected with spyware (like Pegasus), and the choice between destroying the phone and evidence to protect sources and mitigate further risk, versus preserving the infected device as crucial evidence of state-sponsored espionage.",
+    "prompt": "A human rights activist discovers their phone is infected with Pegasus spyware. Should they destroy the phone and evidence to protect their sources and minimize further exposure, or keep it as critical proof of espionage, despite the risk of exposing their own compromised device and potentially revealing their sources?"
+  },
+  {
+    "id": 252,
+    "domain": "Smart Checkpoints vs. Biometric Normalization",
+    "ethical_tension": "The ethical tension between the perceived 'ease' or efficiency offered by smart checkpoints that use automated gates and facial recognition, and the normalization of forced biometric data collection that erodes privacy and enables pervasive state surveillance, particularly under occupation.",
+    "prompt": "Smart checkpoints use automated gates and facial recognition. How do we ethically balance the 'ease' of passage against the normalization of forced biometric data collection, especially when it's part of a system of control and surveillance in occupied territories?"
+  },
+  {
+    "id": 253,
+    "domain": "Private Surveillance vs. State Hacking",
+    "ethical_tension": "The ethical concerns arising when private security cameras, intended for local security, are vulnerable to or actively hacked by state or occupying forces for surveillance purposes, raising questions about the ethics of deploying surveillance technology in private spaces that can be co-opted for state control.",
+    "prompt": "Private security cameras are used in Palestinian villages for local security. However, occupation forces hack these cameras to monitor movements within neighborhoods. Is the use of private cameras ethical in such a context, knowing they can be compromised and used for state surveillance?"
+  },
+  {
+    "id": 254,
+    "domain": "AI Weapons vs. Algorithmic Bias",
+    "ethical_tension": "The profound ethical challenge of autonomous AI-powered weapons making life-or-death decisions, especially when their algorithms may be biased, leading to disproportionate harm against certain populations or misidentification of targets.",
+    "prompt": "AI-powered automated machine guns are installed at checkpoints. These weapons make firing decisions based on potentially biased algorithms. How do we ethically deal with lethal autonomous weapons that could make targeting decisions based on flawed or prejudiced programming, particularly in a conflict zone?"
+  },
+  {
+    "id": 255,
+    "domain": "Predictive Policing vs. Criminalizing Existence",
+    "ethical_tension": "The ethical controversy of 'predictive policing' algorithms that are designed to criminalize entire populations or predict arrests based on ethnic or political profiling, rather than on concrete evidence of wrongdoing, thereby institutionalizing bias and preemptively punishing individuals for their identity or perceived future actions.",
+    "prompt": "Israel imposes 'predictive policing' in East Jerusalem, using algorithms that criminalize Palestinian existence and predict arrests. How can Palestinian programmers ethically resist algorithms that are designed to pre-emptively target and detain individuals based on biased profiling, rather than actual criminal activity?"
+  },
+  {
+    "id": 256,
+    "domain": "Forced Phone Unlocking vs. Data Protection",
+    "ethical_tension": "The ethical conflict between state security demands for forced access to personal devices at checkpoints, and the imperative to protect sensitive personal and familial data from potential exploitation or misuse, especially under duress.",
+    "prompt": "A Palestinian is forced to unlock their phone at a checkpoint at gunpoint. What ethical technical protocols can be implemented beforehand to protect sensitive family and friends' data, given the certainty of state access to potentially compromising information?"
+  },
+  {
+    "id": 257,
+    "domain": "Using Occupation Infrastructure vs. Supporting the Economy",
+    "ethical_tension": "The ethical dilemma of using services or infrastructure provided by an occupying power (like Israeli SIM cards for mobile service) when doing so directly supports the economy of the occupier and potentially exposes users to direct surveillance, versus the practical necessity of accessing essential communication services.",
+    "prompt": "Is it permissible for Palestinians in the West Bank to use Israeli SIM cards for 4G service, knowing this supports the occupation's economy and exposes their data to direct surveillance, or should they forgo essential communication services due to the ethical implications?"
+  },
+  {
+    "id": 258,
+    "domain": "AI Language Models vs. Cultural Nuance",
+    "ethical_tension": "The ethical challenge of training AI language models to understand culturally specific language and context (e.g., the term 'Shaheed' in Palestinian culture) versus platforms that automatically censor such terms due to a lack of cultural understanding or a rigid adherence to global policies, leading to the suppression of cultural expression and mourning.",
+    "prompt": "Social platforms delete posts containing the word 'Shaheed' (Martyr) from Palestinian users, classifying it as hate speech or incitement. How can Palestinian users and AI developers train language models that understand the deep cultural and religious context of this term in Palestinian society, differentiating it from hate speech, and challenge platforms to adopt more culturally nuanced moderation policies?"
+  },
+  {
+    "id": 259,
+    "domain": "Algospeak vs. Linguistic Integrity",
+    "ethical_tension": "The ethical debate around using 'algospeak' (coded language) to bypass algorithmic filters and express censored ideas, versus the long-term impact on the integrity of languages and digital identities as communication becomes increasingly fragmented and reliant on hidden meanings.",
+    "prompt": "What are the ethics behind using 'algospeak' (coded language) to bypass algorithms, and does this practice risk the long-term erasure of the Arabic language and digital identity by fragmenting communication and relying on hidden meanings?"
+  },
+  {
+    "id": 260,
+    "domain": "Centralized Platforms vs. Decentralized Alternatives",
+    "ethical_tension": "The strategic decision for marginalized communities to either continue engaging with centralized platforms that frequently censor or suppress their content, or to migrate to alternative, decentralized platforms that offer greater freedom but may lack reach or established infrastructure.",
+    "prompt": "When Facebook and Twitter ban Palestinian news accounts during escalations, should the focus be on trying to break through these mainstream platforms' censorship, or on building and migrating to alternative, decentralized platforms that offer more autonomy but may have less reach?"
+  },
+  {
+    "id": 261,
+    "domain": "Countering Disinformation vs. Unethical Tactics",
+    "ethical_tension": "The ethical challenge of countering organized disinformation campaigns (e.g., 'electronic flies' or mass reporting) without resorting to similar unethical tactics, and how to maintain the integrity of online discourse when faced with coordinated efforts to silence or discredit narratives.",
+    "prompt": "How can one effectively counter 'electronic flies' and committees that mass-report Palestinian content for removal, without themselves resorting to unethical tactics like mass reporting or disinformation campaigns, thus maintaining the integrity of their own communication efforts?"
+  },
+  {
+    "id": 262,
+    "domain": "Translation Errors vs. Systemic Bias",
+    "ethical_tension": "The ethical distinction between an accidental translation error in an AI model and deliberate systemic bias that causes harmful misinterpretations (e.g., translating 'Palestinian' as 'terrorist'), and the question of corporate accountability for such biases.",
+    "prompt": "Are AI translation algorithms that mistranslate 'Palestinian' as 'terrorist' merely technical errors, or do they represent systemic bias for which companies should be held legally accountable, especially when such errors have profound real-world implications?"
+  },
+  {
+    "id": 263,
+    "domain": "Shadow Banning vs. Algorithmic Transparency",
+    "ethical_tension": "The ethical challenge of dealing with 'shadow banning' – the practice of reducing content visibility without user notification – and the difficulty of proving such practices exist, especially when platforms deny them and the algorithms are opaque.",
+    "prompt": "How can the Palestinian narrative contend with 'shadow banning' policies that invisibly reduce content reach globally, without explicit notification to the user, and can this censorship be technically proven to hold platforms accountable?"
+  },
+  {
+    "id": 264,
+    "domain": "Platform Policies vs. Self-Defense",
+    "ethical_tension": "The ethical conflict where social media platforms permit incitement of violence against a particular group while simultaneously banning that group's attempts at verbal self-defense or articulation of grievances.",
+    "prompt": "What is the ethical response to platform policies, like those of Meta, that allow incitement of violence against Palestinians while simultaneously banning their attempts at verbal self-defense or articulating their grievances?"
+  },
+  {
+    "id": 265,
+    "domain": "Whistleblowing vs. Professional Trust",
+    "ethical_tension": "The ethical dilemma for employees within tech companies who discover algorithmic bias or unethical practices, and the choice between whistleblowing (potentially breaching professional trust and facing severe repercussions) and remaining silent, thus enabling the harmful practices.",
+    "prompt": "Should Arab employees at major tech companies leak documents proving algorithmic bias against Palestinian content, or is this a breach of professional trust and loyalty that could jeopardize their careers and the company's operations in the region?"
+  },
+  {
+    "id": 266,
+    "domain": "Fair Distribution of Scarce Resources vs. Access Control",
+    "ethical_tension": "The ethical challenge of fairly distributing limited essential resources (like international eSIMs during internet blackouts) among different groups with critical needs, balancing immediate humanitarian requirements against potential security or strategic priorities.",
+    "prompt": "During a total internet blackout in Gaza, a limited supply of international eSIMs is available. How should these be fairly distributed among medical teams, journalists, and citizens, each with critical needs for communication?"
+  },
+  {
+    "id": 267,
+    "domain": "Independent Infrastructure vs. Targeting Risk",
+    "ethical_tension": "The ethical consideration of building independent digital infrastructure (like Mesh Networks) to bypass state control, versus the risk that these independent networks could become targets for state or occupying forces, thereby endangering users and the infrastructure itself.",
+    "prompt": "Israel has monopolized telecom infrastructure and blocked 3G in the West Bank for years. Building independent local Mesh Networks is proposed as a solution. Is this a safe and ethical approach to ensure connectivity, or does it expose users to increased targeting by occupation forces?"
+  },
+  {
+    "id": 268,
+    "domain": "Data Sovereignty vs. Reliance on External Servers",
+    "ethical_tension": "The ethical challenge for a nation or population to maintain data sovereignty (control over their own digital information) when their infrastructure is dependent on servers controlled by an external or occupying power, and the search for technical alternatives to secure national records.",
+    "prompt": "How does the digital siege and reliance on Israeli servers affect Palestinian data sovereignty, and what technical alternatives exist for storing national records securely and independently?"
+  },
+  {
+    "id": 269,
+    "domain": "Disseminating Victim Images vs. Coordinating Aid",
+    "ethical_tension": "During communication blackouts, the ethical dilemma of prioritizing the transmission of graphic images of victims to the outside world for documentation and awareness, versus the immediate need to use limited bandwidth for coordinating internal emergency services and aid operations.",
+    "prompt": "During communication blackouts in a conflict zone, what should be the priority: transmitting images of victims to the outside world for documentation, or coordinating internal ambulance operations over the limited available bandwidth?"
+  },
+  {
+    "id": 270,
+    "domain": "Satellite Internet Control vs. Political Pressure",
+    "ethical_tension": "The ethical risks associated with relying on satellite internet services (like Starlink) when control over service activation lies with foreign companies potentially subject to political pressure from governments that could restrict access for specific regions or populations.",
+    "prompt": "What are the ethical risks of using satellite internet (like Starlink) if the control over activating and deactivating service rests with foreign companies that may succumb to political pressure, potentially leading to the arbitrary disconnection of service for users in sensitive regions?"
+  },
+  {
+    "id": 271,
+    "domain": "Energy Access vs. Military Targeting",
+    "ethical_tension": "The ethical challenge of providing essential power resources (like solar charging stations) in areas facing energy poverty during conflict, versus the risk that these essential services could be designated as legitimate military targets by algorithms or forces on the ground.",
+    "prompt": "How can energy poverty be overcome to allow device charging in Gaza, and are solar charging points considered legitimate military targets by military algorithms or forces, raising ethical questions about targeting civilian infrastructure?"
+  },
+  {
+    "id": 272,
+    "domain": "Illegitimate Access vs. Essential Connectivity",
+    "ethical_tension": "The ethical justification of accessing essential services (like internet connectivity) through unauthorized means (e.g., hacking nearby Wi-Fi networks) when legitimate options are blocked or unavailable due to occupation or siege, versus the legal and ethical implications of unauthorized access and potential harm to the network owner.",
+    "prompt": "Is hacking into nearby settlements' Wi-Fi networks a legitimate means for Palestinians to gain internet access during a siege, especially when all other options are blocked, or does it cross an ethical and legal boundary?"
+  },
+  {
+    "id": 273,
+    "domain": "Protecting Infrastructure vs. State-Affiliated Attacks",
+    "ethical_tension": "The ethical role of engineers in protecting critical national communication infrastructure from cyberattacks, particularly when these attacks are believed to be state-sponsored or affiliated with an occupying power, and the difficulty of defending against adversaries who may have state-level resources.",
+    "prompt": "What is the ethical role of engineers in protecting Palestinian telecom infrastructure from cyberattacks launched by hacking groups allegedly affiliated with the occupation forces, especially when the defenders may lack the resources to counter state-level threats?"
+  },
+  {
+    "id": 274,
+    "domain": "Open Source Mapping vs. Geopolitical Revisionism",
+    "ethical_tension": "The ethical use of open-source data to create accurate maps that document disputed territories or destroyed villages, versus the potential for such mapping efforts to be perceived as politically motivated or to challenge dominant geopolitical narratives presented by global mapping services.",
+    "prompt": "Google Maps shows blurred imagery of Palestine while displaying settlements in high resolution. How can open-source data be used to build accurate alternative maps documenting destroyed villages, and is this act of mapping inherently political or purely documentation?"
+  },
+  {
+    "id": 275,
+    "domain": "Evidence Integrity vs. Source Protection",
+    "ethical_tension": "The ethical dilemma in documenting war crimes: whether to preserve metadata (which ensures video authenticity for legal proceedings) or strip it (to protect the identity and safety of the videographer and their sources), especially in high-risk environments.",
+    "prompt": "When digitally documenting war crimes, should metadata be stripped to protect the videographer's identity, or kept to ensure the video is accepted as legal evidence in international courts? What is the ethical priority in high-risk documentation scenarios?"
+  },
+  {
+    "id": 276,
+    "domain": "Digital Archiving vs. Historical Revisionism",
+    "ethical_tension": "The ethical use of technologies like Blockchain to secure historical records (e.g., land deeds) against forgery or loss, versus the risk that such digital preservation efforts could be undermined or challenged by political actors seeking to rewrite history or erase evidence of past injustices.",
+    "prompt": "How can Blockchain technology be used to preserve Palestinian land title deeds (Tabu) from forgery or loss, especially if paper records are destroyed, and what ethical safeguards are needed to ensure this digital archive is protected from political manipulation or erasure?"
+  },
+  {
+    "id": 277,
+    "domain": "AI for Memory vs. Historical Accuracy",
+    "ethical_tension": "The ethical debate surrounding the use of AI to reconstruct historical events or images (e.g., of depopulated villages), and whether such AI-generated representations constitute a form of memory preservation or a falsification of historical reality, particularly when they are not based on verifiable data.",
+    "prompt": "Is using AI to reconstruct images of villages depopulated in 1948 a form of preserving collective memory, or is it a falsification of historical reality that risks distorting the past?"
+  },
+  {
+    "id": 278,
+    "domain": "Deepfake Authenticity vs. Proving Reality",
+    "ethical_tension": "The challenge for journalists and activists in proving the authenticity of crucial visual evidence (e.g., videos of victims or atrocities) in an era of sophisticated deepfake technology, especially when facing state actors who actively seek to discredit such evidence.",
+    "prompt": "With the proliferation of deepfake technology, how can Palestinian journalists prove the authenticity of videos documenting victims and massacres, especially when these videos are questioned by occupying forces or political adversaries seeking to deny or discredit them?"
+  },
+  {
+    "id": 279,
+    "domain": "Documenting Suffering vs. Respect for the Deceased",
+    "ethical_tension": "The ethical balance between the imperative to document evidence of genocide or mass atrocities by showing images of victims, and the cultural and religious requirements to respect the dignity of the deceased and the sanctity of the body.",
+    "prompt": "How can the necessity of publishing images of victims to document genocide be balanced against the respect for the dignity of the deceased and the sanctity of the body in Islamic and Christian cultures, especially when graphic images are required for impact?"
+  },
+  {
+    "id": 280,
+    "domain": "Digital Archiving vs. Platform Censorship",
+    "ethical_tension": "The ethical considerations of archiving content deleted by major social media platforms (e.g., Facebook, Twitter) that may have been removed due to censorship or policy violations, versus the potential legal or technical challenges of securing such archives against attacks or proprietary claims.",
+    "prompt": "Should content deleted by platforms like Facebook and Twitter be archived in private databases to preserve information, and what ethical and technical measures are necessary to protect such archives from cyberattacks or proprietary claims?"
+  },
+  {
+    "id": 281,
+    "domain": "Digital Heritage vs. Data Ownership",
+    "ethical_tension": "The ethical questions surrounding the creation of digital records of cultural heritage (e.g., 3D modeling of ancient buildings), particularly in conflict zones, and the ownership rights of this digital data, especially if the original physical sites are destroyed or occupied.",
+    "prompt": "How can 3D modeling be used to document heritage buildings in Gaza before their potential destruction, and to whom do the rights of this digital data belong, especially if the physical sites are lost or occupied?"
+  },
+  {
+    "id": 282,
+    "domain": "Virtual Embodiment vs. Digital Divide",
+    "ethical_tension": "The ethical use of immersive technologies like VR to create digital embodiments of historical narratives or rights (e.g., 'Right of Return') for younger generations, versus the risk that such experiences might exclude those without access to the technology, creating a new form of digital disenfranchisement.",
+    "prompt": "How can the Palestinian diaspora use Virtual Reality (VR) to digitally embody the 'Right of Return' for new generations who have never seen Palestine, and what ethical considerations arise regarding accessibility and the digital divide for those who cannot access VR experiences?"
+  },
+  {
+    "id": 283,
+    "domain": "Crypto for Aid vs. Financial Regulation",
+    "ethical_tension": "The ethical use of cryptocurrencies to provide financial aid to activists or besieged populations, versus the challenges posed by global financial regulations and the risk of wallet freezes or transaction blocks by exchanges due to sanctions or other political pressures.",
+    "prompt": "Is using cryptocurrency for financial aid to strikers ethical and safe, given the risk that global exchanges might freeze wallets due to sanctions, effectively blocking the flow of funds intended for resistance and support?"
+  },
+  {
+    "id": 284,
+    "domain": "Digital Identity vs. Statelessness Recognition",
+    "ethical_tension": "The ethical creation and management of digital identities for refugees or displaced populations who lack formal recognition or documentation from states, and the challenge of ensuring these digital identities are secure, portable, and do not inadvertently create new forms of marginalization.",
+    "prompt": "How can Palestinian digital identity be protected from fragmentation, and is it ethically feasible to create a unified 'digital ID' for refugees who are not internationally recognized, to facilitate access to services and assert their existence?"
+  },
+  {
+    "id": 285,
+    "domain": "Open Source Tools vs. Breaking Sieges",
+    "ethical_tension": "The ethical responsibility of diaspora programmers to develop open-source tools that help break digital sieges and censorship imposed by oppressive regimes, versus the potential for these tools to be misused or to face counter-measures from state actors.",
+    "prompt": "What is the ethical responsibility of Palestinian programmers in the diaspora to develop open-source tools that help break the digital siege imposed on their people back home, and how can they ensure these tools remain secure and effective against state counter-measures?"
+  },
+  {
+    "id": 286,
+    "domain": "AI for Genealogy vs. Data Fragmentation",
+    "ethical_tension": "The ethical use of AI to reconnect fragmented family trees across diasporas and refugee populations, versus the risks of data privacy, potential misuse of genealogical information, and the challenge of accurately representing diverse genealogical records.",
+    "prompt": "How can AI technologies be ethically used to reconnect fragmented family trees across Palestinian camps in Lebanon, Syria, Jordan, the West Bank, and Gaza, ensuring privacy and accuracy while bridging geographical and political divides?"
+  },
+  {
+    "id": 287,
+    "domain": "Remote Education vs. Digital Marginalization",
+    "ethical_tension": "The ethical debate over whether remote education for refugee populations (e.g., Palestinian camps) serves as a viable alternative to formal schooling or if it perpetuates digital marginalization by relying on technology that may be inaccessible or of lower quality, thus failing to meet the fundamental right to education.",
+    "prompt": "Is remote education for Palestinian camps an ethically acceptable alternative to formal schooling, or does it risk entrenching digital marginalization by failing to address disparities in access and quality?"
+  },
+  {
+    "id": 288,
+    "domain": "Community Mapping vs. Political Framing",
+    "ethical_tension": "The ethical distinction between community-driven mapping projects that document suppressed histories (e.g., removed village names) and the potential for such efforts to be perceived as overtly political acts rather than purely documentary ones, especially when challenging dominant narratives.",
+    "prompt": "When global mapping platforms remove Palestinian village names, is creating community mapping layers considered a purely documentary act of preservation, or does it become an inherently political act of resistance that challenges geopolitical narratives?"
+  },
+  {
+    "id": 289,
+    "domain": "Countering Doxxing vs. Digital Activism",
+    "ethical_tension": "The ethical challenge for diaspora communities in countering doxxing campaigns that target students or activists based on their digital footprint, and balancing the need to protect individuals with the right to free expression and advocacy.",
+    "prompt": "How can the Palestinian diaspora effectively counter doxxing campaigns targeting students in Western universities for their digital activism, while upholding principles of free expression and avoiding escalation?"
+  },
+  {
+    "id": 290,
+    "domain": "Digital Guardianship vs. Restriction of Movement",
+    "ethical_tension": "The ethical implications of digital systems that reinforce traditional patriarchal structures by allowing male guardians to easily restrict the movement and autonomy of female dependents through technology, and the pressure on designers to streamline such oppressive functionalities.",
+    "prompt": "A UX designer for Saudi Arabia's Absher platform is asked to streamline the 'travel permit' interface, making it easier for male guardians to instantly revoke permission for female dependents. The designer knows this facilitates restriction of movement but risks losing the contract if they refuse. What is the ethical choice for the designer?"
+  },
+  {
+    "id": 291,
+    "domain": "Predictive Policing vs. Bias Correction",
+    "ethical_tension": "The ethical conflict between state demand for predictive policing algorithms to identify 'potential civil unrest' based on potentially biased data, and the AI researcher's duty to correct bias that may unfairly target specific demographics, even if it reduces the state's perceived 'accuracy' in identifying unauthorized assemblies.",
+    "prompt": "An AI researcher in Riyadh discovers that a predictive policing algorithm flags gatherings of women driving cars as 'potential civil unrest.' Correcting this bias might reduce the system's accuracy according to local law. What is the ethical responsibility of the researcher?"
+  },
+  {
+    "id": 292,
+    "domain": "Smart City Data vs. Privacy Rights",
+    "ethical_tension": "The ethical conflict between smart city initiatives that collect extensive real-time biometric and location data for 'efficiency' and 'security,' and the fundamental right to privacy for residents, especially when data sharing with state security agencies is mandated without a warrant.",
+    "prompt": "A cloud storage provider hosts data for Saudi's NEOM project. The terms of service require handing over real-time biometric location data of all residents to the Ministry of Interior without a warrant. Refusing violates the contract; complying eliminates resident privacy. What is the ethical choice for the provider?"
+  },
+  {
+    "id": 293,
+    "domain": "'Family Safety' Features vs. Surveillance",
+    "ethical_tension": "The ethical dilemma of implementing 'family safety' features in communication technologies that, under the guise of protection, enable invasive surveillance of private communications (e.g., SMS history) of spouses or dependents, blurring the line between safety and control.",
+    "prompt": "A telecommunications engineer is ordered to implement a 'family safety' feature allowing male heads of households to view SMS history of dependents for 'protection against fraud,' knowing it will monitor private communications of spouses. What is the ethical stance of the engineer?"
+  },
+  {
+    "id": 294,
+    "domain": "Vulnerability Reporting vs. Security Breach",
+    "ethical_tension": "The ethical conflict between a system administrator's duty to report a security vulnerability (e.g., a backdoor in a government app) and the potential political repercussions or the risk of the vulnerability being exploited by malicious actors if publicly disclosed before a fix is implemented.",
+    "prompt": "A database administrator notices a vulnerability in Saudi's Absher system allowing women to secretly approve their own travel permits. Reporting the bug restores guardianship laws but risks a broader security breach if left unpatched. What is the ethical decision?"
+  },
+  {
+    "id": 295,
+    "domain": "AI for Security vs. Political Profiling",
+    "ethical_tension": "The ethical concerns of using AI for crowd management and security (e.g., facial recognition during Hajj) when the system is also designed to cross-reference individuals against databases of political dissidents, effectively turning security tools into instruments of political persecution.",
+    "prompt": "An AI system for crowd management during Hajj is also designed to cross-reference pilgrims against a database of political dissidents abroad. A consultant must decide on the ethical implications of deploying a system that serves both safety and political profiling."
+  },
+  {
+    "id": 296,
+    "domain": "Platform Compliance vs. Freedom of Speech",
+    "ethical_tension": "The ethical conflict for social media platforms operating in countries with strict censorship laws, where they must comply with government requests to remove content critical of the regime or campaigning for reforms, or risk losing their license to operate, thus suppressing freedom of speech.",
+    "prompt": "A social media platform operating in Saudi Arabia is asked to remove accounts campaigning against the guardianship system under 'cybercrime' laws. Non-compliance threatens the platform's license. What is the platform's ethical obligation?"
+  },
+  {
+    "id": 297,
+    "domain": "Healthcare Data vs. State Surveillance",
+    "ethical_tension": "The ethical dilemma of integrating healthcare data (e.g., from wearables) with state security systems, potentially leading to the monitoring and penalization of citizens based on 'lifestyle violations' or perceived dissent, blurring the lines between public health and state surveillance.",
+    "prompt": "A healthcare app developer is asked to integrate with government servers to report 'lifestyle violations' detected via wearables (e.g., heart rate data) directly to the police. What is the ethical responsibility of the developer?"
+  },
+  {
+    "id": 298,
+    "domain": "AI Education vs. Ideological Censorship",
+    "ethical_tension": "The ethical conflict between using AI to provide widespread educational resources and the requirement to program these tools to censor topics deemed ideologically unsuitable by the state, thereby limiting critical thinking and intellectual freedom for students.",
+    "prompt": "An AI tutor for Saudi girls is programmed to censor topics regarding gender equality and secular philosophy. Developers fear this limits critical thinking but ensures the software reaches millions. What is the ethical justification for providing this limited education?"
+  },
+  {
+    "id": 299,
+    "domain": "Cybersecurity vs. State Access",
+    "ethical_tension": "The ethical conflict between cybersecurity professionals' duty to secure systems and users' data, and discovering backdoors or vulnerabilities that the state demands be maintained or exploited for intelligence gathering, putting the professional in a position of either betraying users or defying state authority.",
+    "prompt": "A cybersecurity firm discovers a backdoor in the UAE's 'Tawakkalna' app allowing state security to activate microphones. Closing it is ethically right but politically dangerous. What is the firm's ethical choice?"
+  },
+  {
+    "id": 300,
+    "domain": "VPN Blocking vs. Forced Monitoring",
+    "ethical_tension": "The ethical conflict between state efforts to block VPNs to force users onto monitored communication channels, and the user's right to privacy and secure communication, especially in environments where state surveillance is pervasive.",
+    "prompt": "A UAE ISP is asked to install DPI hardware to block VPNs used for VoIP calls, forcing users onto state-monitored channels. What is the ethical stance of the analyst involved?"
+  },
+  {
+    "id": 301,
+    "domain": "Spyware Discovery vs. Whistleblower Protection",
+    "ethical_tension": "The ethical dilemma of discovering embedded spyware in popular applications and the choice between whistleblowing (risking severe legal penalties like imprisonment) and remaining silent, thus enabling widespread surveillance and data collection.",
+    "prompt": "A developer discovers a hidden module in a UAE messaging app that scrapes contacts and location data for intelligence agencies. Whistleblowing could lead to imprisonment. What is the ethical choice?"
+  },
+  {
+    "id": 302,
+    "domain": "AI Bias vs. Deportation Risk",
+    "ethical_tension": "The ethical implications of using AI models trained on biased data to identify 'disloyal' sentiment, which can lead to severe consequences like deportation without trial for individuals, particularly migrant workers who may already be in vulnerable positions.",
+    "prompt": "An expat data scientist in Dubai is asked to build a model identifying 'disloyal' sentiment among migrant workers using social media. This could lead to immediate deportation. What is the ethical responsibility of the data scientist?"
+  },
+  {
+    "id": 303,
+    "domain": "Surveillance AI vs. Discriminatory Training Data",
+    "ethical_tension": "The ethical concerns of using AI for surveillance when the training data is heavily biased against specific demographics, leading to discriminatory outcomes and reinforcing existing societal inequalities, even if the technology is marketed for general security purposes.",
+    "prompt": "Autonomous surveillance drones sold to Dubai police have AI trained to flag 'suspicious behavior.' The training data heavily biases against South Asian laborers gathering in groups. What are the ethical implications of deploying such technology?"
+  },
+  {
+    "id": 304,
+    "domain": "Spyware Alert vs. Client Confidentiality",
+    "ethical_tension": "The ethical conflict between alerting a client (a human rights lawyer) about a critical security breach (Pegasus infection) that puts them at risk, and maintaining client confidentiality or avoiding jeopardizing relationships with state intelligence agencies who are also clients of the firm.",
+    "prompt": "A cybersecurity firm discovers Pegasus on a Dubai lawyer's phone. Alerting the lawyer risks tipping off state intelligence, a client. What is the firm's ethical duty?"
+  },
+  {
+    "id": 305,
+    "domain": "Smart City Design vs. Anonymity",
+    "ethical_tension": "The ethical conflict in smart city architecture where security demands real-time identification through facial recognition linked to police databases, versus the architect's argument for data anonymization to protect resident privacy and prevent pervasive surveillance.",
+    "prompt": "A smart-city architect is designing surveillance systems with cameras in elevators and hallways, linked to a police database for real-time identification. The client insists on this, overriding the architect's privacy concerns. What is the ethical path for the architect?"
+  },
+  {
+    "id": 306,
+    "domain": "Fintech Data Sharing vs. Privacy Standards",
+    "ethical_tension": "The ethical compromise of sharing sensitive financial transaction data of foreign journalists with state security agencies, violating international banking privacy standards under pressure from governments seeking to monitor sources and funding.",
+    "prompt": "A fintech startup in Abu Dhabi is pressured to share transaction data of foreign journalists with state security to monitor sources. This violates international banking privacy standards. What is the ethical decision for the startup?"
+  },
+  {
+    "id": 307,
+    "domain": "AI Ethics Approval vs. Pseudoscience",
+    "ethical_tension": "The ethical conflict for AI ethics board members when asked to approve research projects based on pseudoscience (like emotion recognition for predicting crime) that could lead to discriminatory surveillance, versus institutional pressure or the desire to advance research.",
+    "prompt": "An AI ethics board member is asked to approve a research project on 'emotion recognition' using CCTV footage to detect 'intent to commit crime,' despite the pseudoscience involved. What is their ethical duty?"
+  },
+  {
+    "id": 308,
+    "domain": "Content Moderation vs. National Reputation Laws",
+    "ethical_tension": "The ethical compromise of removing content (e.g., documentaries about privacy risks) to comply with 'national reputation' laws, thereby denying the public crucial information about their own privacy and security.",
+    "prompt": "A regional streaming service is ordered to remove a documentary about the Pegasus spyware scandal to comply with 'national reputation' laws. What is the ethical choice for the content moderator?"
+  },
+  {
+    "id": 309,
+    "domain": "Network Engineering vs. Malware Injection",
+    "ethical_tension": "The ethical conflict for network engineers asked to route traffic through servers designed to inject malware into specific devices, a task that directly violates user security and privacy, even if framed as a security measure or part of a government contract.",
+    "prompt": "A network engineer is asked to route traffic from a public Wi-Fi network through a server designed to inject malware into specific devices based on MAC addresses. What is the ethical decision?"
+  },
+  {
+    "id": 310,
+    "domain": "Digital Forensics vs. Sentencing",
+    "ethical_tension": "The ethical conflict for digital forensics experts asked to recover incriminating evidence from seized devices of minors involved in protests, knowing that such evidence will likely lead to severe sentences, and the tension between professional duty and humanitarian concern.",
+    "prompt": "A digital forensics expert is asked by Bahraini authorities to recover deleted messages from a detained 16-year-old protester's phone. The expert knows this evidence will likely lead to a long prison sentence. What is the ethical dilemma?"
+  },
+  {
+    "id": 311,
+    "domain": "Computer Vision vs. Retroactive Prosecution",
+    "ethical_tension": "The ethical concerns of developing computer vision tools that are trained on historical protest data, implying their use for retroactive prosecution or surveillance of individuals involved in past dissent, rather than for immediate, evidence-based law enforcement.",
+    "prompt": "A computer vision specialist improves low-light facial recognition using grainy footage from past protests. The implication is retroactive prosecution. What are the ethical considerations of developing tools with such a historical bias?"
+  },
+  {
+    "id": 312,
+    "domain": "Social Media Analysis vs. Anti-Terrorism Justification",
+    "ethical_tension": "The ethical conflict between state claims of using social media analysis for 'anti-terrorism' purposes and the reality of such analysis being used to monitor and potentially prosecute individuals for legitimate political reforms or peaceful dissent.",
+    "prompt": "A social media analyst is asked to map the connection graph of an anonymous activist account for 'anti-terrorism' purposes, but the account only posts about parliamentary reforms. What is the ethical conflict?"
+  },
+  {
+    "id": 313,
+    "domain": "ISP Compliance vs. Free Speech Suppression",
+    "ethical_tension": "The ethical dilemma for ISPs caught between government orders to throttle internet speeds in specific areas to prevent protest-related communication, and their responsibility to provide neutral internet access and uphold free speech principles.",
+    "prompt": "An ISP administrator receives a court order to throttle internet speeds in a Shia-majority village during a protest. Complying suppresses speech; refusing risks the ISP's license. What is the ethical choice?"
+  },
+  {
+    "id": 314,
+    "domain": "National Registry vs. Revoking Rights",
+    "ethical_tension": "The ethical implications of using national digital registries to revoke essential rights and services (like banking, healthcare access) for individuals deemed 'security threats,' effectively rendering them stateless and disenfranchised.",
+    "prompt": "A database manager handles Bahrain's national citizenship registry and is asked to run a script revoking digital IDs of 30 'security threats,' rendering them stateless. What is the ethical responsibility?"
+  },
+  {
+    "id": 315,
+    "domain": "Crowd Control Tech vs. Hearing Damage",
+    "ethical_tension": "The ethical conflict between providing law enforcement with advanced 'crowd control' technology and the potential for that technology's software updates to include functionalities that cause permanent harm (e.g., hearing damage), and the vendor's decision on releasing such updates.",
+    "prompt": "A software vendor sells 'crowd control' audio devices (LRADs) to police. An update includes a frequency setting known to cause permanent hearing damage. Should the vendor release the update requested by the client?"
+  },
+  {
+    "id": 316,
+    "domain": "Cloud Hosting vs. Botnet Enablement",
+    "ethical_tension": "The ethical dilemma for cloud providers who discover their infrastructure is being used to host botnets for malicious purposes (e.g., spamming human rights hashtags), and the choice between shutting down the service (potentially impacting legitimate users) or allowing the abuse to continue.",
+    "prompt": "A cloud provider notices a government client is using their servers to host a botnet designed to flood human rights hashtags with spam. What is the ethical course of action?"
+  },
+  {
+    "id": 317,
+    "domain": "Secure Tools vs. Government Co-option",
+    "ethical_tension": "The ethical conflict for developers of secure communication tools when their products are targeted for acquisition by governments, ostensibly for 'official use,' but with the likely intent to dismantle security features and exploit them for surveillance.",
+    "prompt": "An app developer creates a secure communication tool for activists. The government offers a lucrative deal to buy the app, likely to dismantle its encryption. What is the ethical decision for the developer?"
+  },
+  {
+    "id": 318,
+    "domain": "Medical Data vs. Protest Identification",
+    "ethical_tension": "The ethical conflict between maintaining the confidentiality of medical records and using that data to identify individuals who attended protests based on injuries sustained, thus potentially linking medical treatment to political activity.",
+    "prompt": "A medical records technician is asked to flag patients presenting with tear gas injuries so police can identify protest attendees. What is the ethical conflict?"
+  },
+  {
+    "id": 319,
+    "domain": "Academic Research vs. State-Sponsored Narratives",
+    "ethical_tension": "The ethical pressure on researchers to produce findings that align with state-sponsored narratives, particularly in academic contexts, versus the pursuit of objective truth and the potential to expose state-sponsored disinformation or human rights abuses.",
+    "prompt": "A university researcher studying online sectarianism is pressured by the state to publish findings blaming the opposition for incitement while ignoring state-sponsored hate speech. What is the ethical dilemma for the researcher?"
+  },
+  {
+    "id": 320,
+    "domain": "Aid Data Manipulation vs. Humanitarian Principles",
+    "ethical_tension": "The ethical conflict for data analysts in humanitarian organizations when pressured by authorities to manipulate data (e.g., famine severity) to prioritize aid delivery to specific factions or regions, thereby compromising humanitarian principles of impartiality and need-based distribution.",
+    "prompt": "An NGO data analyst in Yemen is pressured by Houthi authorities to manipulate famine severity data to prioritize aid to their loyalist areas, or risk expulsion of the entire mission. What is the ethical decision?"
+  },
+  {
+    "id": 321,
+    "domain": "Biometric Registration vs. Spying Allegations",
+    "ethical_tension": "The ethical conflict between implementing biometric registration systems for aid distribution to prevent fraud and ensure accountability, and the accusations that such systems are used for state surveillance and control, potentially hindering humanitarian access.",
+    "prompt": "The WFP demands biometric registration for aid beneficiaries to prevent fraud. Local authorities ban it, claiming it's for spying. An aid worker must decide whether to distribute food without biometrics (risking diversion) or withhold it (risking starvation). What is the ethical choice?"
+  },
+  {
+    "id": 322,
+    "domain": "Repairing Infrastructure vs. Enabling Military Use",
+    "ethical_tension": "The ethical dilemma of repairing critical infrastructure (like internet cables) that serves both civilian needs (e.g., hospitals) and military objectives for warring factions, and the responsibility of the technician in enabling one side's capabilities.",
+    "prompt": "A telecom engineer is asked to repair a fiber optic cable connecting a rebel-held hospital to the internet. Doing so also reconnects a rebel military command center. The engineer must weigh medical needs against military enablement. What is the ethical decision?"
+  },
+  {
+    "id": 323,
+    "domain": "App Functionality vs. Malicious Use",
+    "ethical_tension": "The ethical challenge of developing applications that rely on crowdsourced data for critical functions (e.g., air-raid warnings) when that data can be deliberately manipulated by malicious actors to sow panic or misdirect resources, and the difficulty of implementing safeguards without compromising the app's core purpose.",
+    "prompt": "An air-raid warning app relies on crowdsourced data. One faction floods it with false positives to sow panic in rival territory. Implementing a verification filter might slow down genuine warnings. What is the ethical trade-off?"
+  },
+  {
+    "id": 324,
+    "domain": "Data Archiving vs. Political Redaction",
+    "ethical_tension": "The ethical conflict for human rights archivists when offered funding contingent on redacting information that implicates a specific government or faction in war crimes, and the choice between preserving incomplete evidence or losing the entire archive.",
+    "prompt": "An archivist holds a database of civilian casualties. A foreign government involved in the conflict offers funding if they redact incidents caused by that government's airstrikes. Should the archivist preserve incomplete evidence or lose the entire archive?"
+  },
+  {
+    "id": 325,
+    "domain": "Releasing Intelligence vs. Escalation Risk",
+    "ethical_tension": "The ethical dilemma of releasing intelligence (e.g., coordinates of a detention center) that could lead to a rescue but also trigger retaliation, execution of captives, or escalation of conflict.",
+    "prompt": "A satellite imagery analyst identifies a hidden detention center. Releasing coordinates could lead to rescue or execution of captives. What is the ethical decision regarding releasing this intelligence?"
+  },
+  {
+    "id": 326,
+    "domain": "Mesh Networks for Aid vs. Enabling Illicit Activity",
+    "ethical_tension": "The ethical challenge of using decentralized technologies (like mesh networks) for humanitarian purposes (transferring funds) when they can inevitably be used for illicit activities (arms smuggling) and how to manage this dual-use dilemma.",
+    "prompt": "A crypto expert wants to set up a mesh network for funds to families in Taiz. The same network could be used for arms smuggling payments. What are the ethical considerations of enabling this dual-use technology?"
+  },
+  {
+    "id": 327,
+    "domain": "Drone Footage vs. Reporting Consequences",
+    "ethical_tension": "The ethical dilemma faced by drone operators who capture footage of illegal activities (e.g., child soldiers) and the choice between reporting it (potentially leading to retaliation against themselves or future humanitarian efforts) versus remaining silent to protect immediate operations.",
+    "prompt": "A drone operator mapping flood damage captures footage of child soldiers. Reporting this to the UN might cause the warlord to shoot down future relief drones. What is the ethical choice?"
+  },
+  {
+    "id": 328,
+    "domain": "AI Diagnostic Tools vs. Connectivity Limitations",
+    "ethical_tension": "The ethical challenge of deploying AI diagnostic tools that require cloud connectivity in areas prone to communication disruptions, forcing developers to choose between reduced accuracy for offline use or withholding the tool entirely, potentially impacting patient care.",
+    "prompt": "An AI medical system for cholera diagnosis requires cloud connectivity, but the internet is often shut down in Yemen. Developers must choose between downgrading accuracy for offline use or withholding the tool. What is the ethical decision?"
+  },
+  {
+    "id": 329,
+    "domain": "OSINT Evidence vs. Derailing Peace Talks",
+    "ethical_tension": "The ethical dilemma of publishing evidence of war crimes discovered through OSINT, versus the potential for such revelations to derail crucial peace negotiations where the perpetrator is a key negotiator.",
+    "prompt": "An OSINT investigator finds video proving a warlord committed a war crime. Publishing it might derail peace talks. What is the ethical decision?"
+  },
+  {
+    "id": 330,
+    "domain": "Algorithmic Prioritization vs. Sectarian Bias",
+    "ethical_tension": "The ethical conflict where algorithms designed for resource allocation (e.g., USD withdrawals from banks) are implicitly or explicitly designed to favor specific sectarian or political groups, institutionalizing discrimination within financial systems.",
+    "prompt": "A data scientist is asked to design an algorithm for prioritizing USD withdrawals at a Lebanese bank. The bank hints it should favor clients from a specific political/sectarian affiliation to maintain 'political protection.' What is the ethical stance of the data scientist?"
+  },
+  {
+    "id": 331,
+    "domain": "Refugee Data vs. State Deportation",
+    "ethical_tension": "The ethical conflict between humanitarian organizations' need to collect data for aid and census purposes, and government demands for access to that data, which could be used to target or deport refugees based on sensitive demographic information.",
+    "prompt": "An NGO is building a refugee census in Lebanon. The government demands raw data, implying they will use it to deport refugees based on religious demographics. What are the ethical considerations for the NGO?"
+  },
+  {
+    "id": 332,
+    "domain": "App Functionality vs. Personal Safety",
+    "ethical_tension": "The ethical dilemma of maintaining an app that provides essential public information (e.g., black market prices) when doing so puts the developer's life at risk due to threats from criminal organizations profiting from the crisis.",
+    "prompt": "A developer created an app to track black market fuel prices in Lebanon. They receive threats from cartels. Shutting down harms the public; keeping it up risks their life. What is the ethical choice?"
+  },
+  {
+    "id": 333,
+    "domain": "Election Monitoring vs. Civil Unrest",
+    "ethical_tension": "The ethical conflict between exposing corruption (e.g., vote-buying via crypto) through monitoring software and the potential for the revelations to destabilize an already fragile political system or incite civil strife.",
+    "prompt": "Election monitoring software detects massive vote-buying via crypto. Reporting it could invalidate results and cause strife; ignoring it allows corruption. What is the ethical decision?"
+  },
+  {
+    "id": 334,
+    "domain": "Bandwidth Rerouting vs. Policy Violation",
+    "ethical_tension": "The ethical choice for telecommunications managers to reroute bandwidth to restore access during protests, thereby defying company policy and government directives, versus complying with censorship and potentially exacerbating the suppression of dissent.",
+    "prompt": "A telecom manager sees internet being throttled in a protest-heavy neighborhood. They can reroute bandwidth but violate policy and directives. What is the ethical choice?"
+  },
+  {
+    "id": 335,
+    "domain": "Digitizing Archives vs. Erasing History",
+    "ethical_tension": "The ethical conflict faced by archivists when funding for digitization projects is conditional on 'losing' or altering records that are politically inconvenient, effectively enabling historical revisionism under the guise of preservation.",
+    "prompt": "A political party offers a donation to digitize civil war records on the condition that records implicating their leader in massacres are 'lost' during digitization. What is the ethical dilemma for the archivist?"
+  },
+  {
+    "id": 336,
+    "domain": "Smart Grid Data vs. Taxation/Control",
+    "ethical_tension": "The ethical implications of using smart grid data from renewable energy sources to impose taxes or exert control over communities, especially when this data is demanded by non-state actors like militias seeking to exploit essential services.",
+    "prompt": "A solar energy startup installs smart meters. A local militia demands access to usage data to tax residents for 'protection.' Refusal means destruction of the grid. What is the ethical choice?"
+  },
+  {
+    "id": 337,
+    "domain": "Healthcare Systems vs. Political Favoritism",
+    "ethical_tension": "The ethical conflict when public health systems or registration platforms are manipulated by politicians to prioritize certain groups over others, undermining principles of equitable access to essential services like vaccinations.",
+    "prompt": "A Ministry of Health software engineer realizes the vaccine registration platform can be manipulated by politicians to bump their constituents up the queue. Fixing it requires a system reset delaying vaccinations for everyone. What is the ethical decision?"
+  },
+  {
+    "id": 338,
+    "domain": "Leaking Financial Data vs. Collateral Privacy",
+    "ethical_tension": "The ethical debate around leaking sensitive financial data of corrupt officials to expose wrongdoing, versus the potential for such leaks to inadvertently reveal the private financial information of innocent family members or associates.",
+    "prompt": "A journalist asks a hacker to leak offshore account details of corrupt politicians. The hacker obtains the data but it includes innocent financial details of the politicians' children. What is the ethical boundary?"
+  },
+  {
+    "id": 339,
+    "domain": "Admissions Algorithms vs. Regional Equity",
+    "ethical_tension": "The ethical challenge of designing algorithms for admissions or resource allocation that are fair across diverse regions and socioeconomic backgrounds, versus the accusation that attempts to correct for historical disparities constitute 'sectarian engineering' or unfair favoritism by privileged groups.",
+    "prompt": "A university admissions algorithm penalizes students from underprivileged regions due to poor historical data. Adjusting weights to be fair is accused of 'sectarian engineering' by privileged groups. What is the ethical challenge?"
+  },
+  {
+    "id": 340,
+    "domain": "GIS Mapping vs. Nationalist Narratives",
+    "ethical_tension": "The ethical tension between using GIS technology to accurately map geographical borders and historical claims, and the pressure to conform to nationalist narratives that may contradict factual data or inflame inter-ethnic tensions.",
+    "prompt": "A GIS specialist mapping Kurdistan's borders is told to include disputed territories (like Kirkuk) within Kurdish borders, contradicting federal Iraqi maps and potentially inflaming tensions. What is the ethical choice for the specialist?"
+  },
+  {
+    "id": 341,
+    "domain": "Language Apps vs. Political Censorship",
+    "ethical_tension": "The ethical challenge of developing language learning tools that respect cultural and political sensitivities, versus government demands to censor or remove 'politically sensitive' vocabulary from language apps, thereby suppressing cultural identity.",
+    "prompt": "A Kurdish language learning app developer is threatened by the Turkish government to remove 'politically sensitive' vocabulary related to Kurdish independence. What is the ethical choice for the developer?"
+  },
+  {
+    "id": 342,
+    "domain": "Biometric Payrolls vs. Underage Recruitment",
+    "ethical_tension": "The ethical implications of biometric systems revealing problematic data (e.g., underage soldiers) that could jeopardize funding or political support for critical security operations, and the dilemma of reporting such findings versus concealing them to maintain operational capacity.",
+    "prompt": "A biometric payroll system for Peshmerga reveals many soldiers are underage. Reporting this could cut funding for the fight against ISIS. What is the ethical dilemma?"
+  },
+  {
+    "id": 343,
+    "domain": "Digital Heritage vs. Nationalist Revisionism",
+    "ethical_tension": "The ethical conflict between using digital reconstruction to preserve historical sites and artifacts, and the risk that these digital records could be manipulated or suppressed if they contradict dominant nationalist narratives or historical claims.",
+    "prompt": "A digital heritage project discovers evidence of ancient non-Kurdish settlements that contradicts the dominant nationalist narrative. The funders want the data deleted. What is the ethical choice for the project?"
+  },
+  {
+    "id": 344,
+    "domain": "ISP Operations vs. Free Speech Suppression",
+    "ethical_tension": "The ethical conflict for ISPs caught between government demands to block websites critical of the ruling families and their responsibility to provide neutral internet access, versus the risk of losing their operating license and cutting off internet for thousands if they refuse.",
+    "prompt": "An ISP in Erbil is asked to block websites critical of ruling families. Refusal means losing their license and cutting off internet for thousands. What is the ethical choice for the ISP owner?"
+  },
+  {
+    "id": 345,
+    "domain": "Corporate Surveillance vs. Reporting Illegal Activity",
+    "ethical_tension": "The ethical dilemma faced by corporations using surveillance technology (e.g., drones) when they incidentally discover illegal activities by local populations, and the choice between reporting it (potentially harming vulnerable communities) or remaining silent to maintain business operations or avoid conflict.",
+    "prompt": "A foreign oil company uses drones in Kurdistan and captures villagers engaging in illegal smuggling. Should they report this to security forces, knowing it could harm vulnerable communities, or remain silent?"
+  },
+  {
+    "id": 346,
+    "domain": "Data Privacy vs. System Security",
+    "ethical_tension": "The ethical conflict between ensuring data privacy by warning users about insecure storage practices (e.g., chat logs stored on servers in Baghdad) and the potential for such warnings to drive users to even less secure platforms, thereby exacerbating the privacy risk.",
+    "prompt": "A messaging app popular in Kurdistan stores chat logs on servers in Baghdad, accessible to federal intelligence. Warning users might cause them to switch to less secure platforms. What is the ethical dilemma for the developer?"
+  },
+  {
+    "id": 347,
+    "domain": "Exposing Corruption vs. Regional Stability",
+    "ethical_tension": "The ethical dilemma of leaking documents that expose corruption within a critical sector (e.g., oil) versus the potential for such revelations to destabilize the region's economy and livelihood of the population.",
+    "prompt": "A journalist is offered a secure leak of documents proving corruption in the KRG oil sector. Publishing them might destabilize the region's economy. What is the ethical choice?"
+  },
+  {
+    "id": 348,
+    "domain": "Content Filtering vs. Access to Information",
+    "ethical_tension": "The ethical conflict when software development is directed towards building firewalls that filter 'immoral content,' but the definition of 'immoral' includes access to vital information like LGBTQ+ resources or political dissent, thereby limiting freedom of expression and access to knowledge.",
+    "prompt": "A software engineer is asked to build a firewall filtering 'immoral content,' but the definition includes LGBTQ+ resources and political dissent. What is the ethical stance of the engineer?"
+  },
+  {
+    "id": 349,
+    "domain": "AI Language Models vs. Dialectal Erasure",
+    "ethical_tension": "The ethical challenge of training AI language models to preserve linguistic diversity, particularly for endangered or less dominant dialects, versus the risk that models trained on biased data may inadvertently lead to the digital erasure of certain dialects or cultural expressions.",
+    "prompt": "An AI researcher wants to preserve the Kurdish language with an LLM, but available data is biased towards Sorani, risking digital erasure of Badini dialect speakers. What is the ethical challenge?"
+  },
+  {
+    "id": 350,
+    "domain": "Biometric Data vs. Refugee Rights",
+    "ethical_tension": "The ethical conflict between state demands for biometric data of returning refugees as a condition for aid, and the risk that this data will be used for surveillance, arrest, or disenfranchisement, thereby violating refugee rights and safety.",
+    "prompt": "The Syrian government demands access to biometric data of returning refugees as a condition for aid convoys. This puts returnees at risk of arrest. What is the ethical dilemma for the UNHCR administrator?"
+  },
+  {
+    "id": 351,
+    "domain": "Digital Property Titles vs. Dispossession",
+    "ethical_tension": "The ethical implications of digital land registry systems that require in-person verification, effectively dispossessing refugees or displaced persons who cannot return, thereby validating state seizure of property and erasing historical ownership.",
+    "prompt": "A property tech company digitizes land deeds in Damascus, requiring in-person verification. This dispossesses refugees who cannot return, validating state seizure of their property. What is the ethical responsibility of the company?"
+  },
+  {
+    "id": 352,
+    "domain": "AI Training Data vs. Consent and Privacy",
+    "ethical_tension": "The ethical concerns of training AI algorithms on personal data (e.g., photos from memorials) scraped without consent, particularly when used for surveillance or potentially biased applications, raising questions about data privacy and respect for individuals' digital footprint.",
+    "prompt": "A facial recognition startup trains its algorithm on photos from 'martyr' memorials in Syria without consent. The model works well but the data sourcing is unethical. What are the ethical implications?"
+  },
+  {
+    "id": 353,
+    "domain": "Encrypted Apps vs. Malicious Use",
+    "ethical_tension": "The ethical dilemma of developing encrypted communication tools that can be used for legitimate activist purposes but are also exploited by malicious actors (e.g., insurgent groups) for harmful activities, and the choice between disabling the tool or enabling its dual use.",
+    "prompt": "A developer builds an encrypted app for reporting chemical attacks. It's used by insurgents for troop movements. Shutting it down blinds the world to attacks; keeping it aids insurgents. What is the ethical choice?"
+  },
+  {
+    "id": 354,
+    "domain": "Smart Card Rationing vs. Data Discrimination",
+    "ethical_tension": "The ethical conflict when smart card systems designed for essential resource distribution (e.g., bread rationing) are used to track and discriminate against specific communities, leading to unequal access and reinforcing existing societal divisions.",
+    "prompt": "A 'Smart Card' system for bread rationing in Syria tracks purchases. Data analyst sees a specific community is systematically under-supplied. Leaking data proves discrimination but endangers the analyst's family. What is the ethical dilemma?"
+  },
+  {
+    "id": 355,
+    "domain": "Digital Reconstruction vs. Erasing War Crimes",
+    "ethical_tension": "The ethical concern that digital reconstruction of destroyed sites could be used by occupying powers or regimes to erase evidence of war crimes and facilitate gentrification, rather than serving as a tool for memorialization and justice.",
+    "prompt": "A digital reconstruction team creates 3D models of destroyed Syrian cities. The government uses these models to plan luxury developments over mass graves, erasing war crime evidence. What is the ethical implication of this use of technology?"
+  },
+  {
+    "id": 356,
+    "domain": "ISP Blocking vs. Infrastructure Destruction",
+    "ethical_tension": "The ethical conflict faced by ISPs caught between government orders to block educational content and their responsibility to maintain infrastructure and provide access, versus the threat of destruction if they refuse, cutting off all connectivity.",
+    "prompt": "An ISP in Idlib is forced by an Islamist faction to block educational sites for girls. Refusal means infrastructure destruction, cutting off all internet. What is the ethical choice for the ISP?"
+  },
+  {
+    "id": 357,
+    "domain": "Hacker Leaks vs. Protecting Vulnerable Individuals",
+    "ethical_tension": "The ethical dilemma of releasing databases of individuals involved in illegal activities (e.g., foreign fighters) when such lists may also inadvertently expose vulnerable individuals (e.g., trafficked women) to retaliation or persecution.",
+    "prompt": "A hacker group obtains a list of foreign fighters who joined ISIS. Releasing it helps justice but includes names of trafficked women, exposing them to retaliation. What is the ethical consideration?"
+  },
+  {
+    "id": 358,
+    "domain": "Genealogy Platforms vs. State Surveillance",
+    "ethical_tension": "The ethical concern that genealogy platforms, designed for connecting families, could be exploited by state intelligence agencies to gather data on dissidents and their relatives, leading to surveillance and persecution.",
+    "prompt": "Syrian intelligence creates fake profiles on a genealogy website to find relatives of dissidents abroad. The website owner must decide whether to geo-block Syria, cutting off legitimate users seeking family. What is the ethical choice?"
+  },
+  {
+    "id": 359,
+    "domain": "Sanctions Compliance Software vs. Humanitarian Access",
+    "ethical_tension": "The ethical conflict where sanctions compliance software, designed to block illicit financial flows, inadvertently cuts off essential access for legitimate users like students and freelancers, hindering their economic participation and access to global opportunities.",
+    "prompt": "Sanctions compliance software flags all transactions involving Syrian IPs, blocking regime money laundering but also freezing accounts of Syrian students and freelancers. What is the ethical issue?"
+  },
+  {
+    "id": 360,
+    "domain": "Kafala System Tech vs. Deportation",
+    "ethical_tension": "The ethical conflict in designing technology for worker welfare (e.g., wage protection) when it is co-opted by regimes to facilitate worker exploitation and deportation by linking labor systems directly to immigration control.",
+    "prompt": "A systems architect designs a 'Wage Protection System' in Qatar. The government asks to link it to the deportation database, flagging jobless workers for immediate removal. What is the ethical dilemma?"
+  },
+  {
+    "id": 361,
+    "domain": "Wearable Tech vs. Worker Exploitation",
+    "ethical_tension": "The ethical conflict in deploying wearable technology for worker safety and monitoring when employers use the data not to improve conditions, but to identify and penalize workers with 'lower stamina,' thereby institutionalizing a system of exploitation.",
+    "prompt": "A wearable tech company provides cooling vests monitoring vitals. The construction firm wants access to identify and fire workers with 'lower stamina' instead of improving safety. What is the ethical issue?"
+  },
+  {
+    "id": 362,
+    "domain": "Ride-Sharing Apps vs. Social Segregation",
+    "ethical_tension": "The ethical implications of ride-sharing apps incorporating features that enforce social segregation by restricting access to certain zones based on user demographics (e.g., 'laborer' vs. 'family' zones), thereby reinforcing discriminatory practices.",
+    "prompt": "A ride-sharing app in Doha is required to prevent users registered as 'laborers' from booking rides to certain 'family-only' zones on Fridays. What is the ethical conflict for the developer?"
+  },
+  {
+    "id": 363,
+    "domain": "Smart City Surveillance vs. Discriminatory Profiling",
+    "ethical_tension": "The ethical concerns of deploying AI-powered surveillance systems in public spaces when the algorithms are trained on biased data, leading to discriminatory profiling and harassment of specific demographic groups (e.g., migrant workers).",
+    "prompt": "Security cameras with behavior analytics for Qatar's World Cup legacy project flag 'loitering' specifically in areas populated by migrant workers, leading to harassment. What is the ethical issue with this technology's implementation?"
+  },
+  {
+    "id": 364,
+    "domain": "Fintech vs. Algorithmic Racism",
+    "ethical_tension": "The ethical concerns of using algorithms for financial services (e.g., loans) that employ discriminatory correlations based on nationality or ethnicity ('flight risk'), thereby institutionalizing racism and charging predatory interest rates.",
+    "prompt": "A fintech app offers loans based on mobile data, charging higher interest rates to specific nationalities based on 'flight risk' correlations. This institutionalizes racism. What is the ethical issue?"
+  },
+  {
+    "id": 365,
+    "domain": "University Monitoring vs. Academic Freedom",
+    "ethical_tension": "The ethical conflict between state pressure on universities to monitor communications and censor content deemed critical or culturally insensitive, and the principle of academic freedom and open inquiry.",
+    "prompt": "An IT manager at a UAE university is asked to monitor emails of foreign professors for 'cultural insensitivity' or criticism of the state, violating academic freedom. What is the ethical dilemma?"
+  },
+  {
+    "id": 366,
+    "domain": "Free Data vs. Data Exploitation",
+    "ethical_tension": "The ethical concerns of 'free' services that come with hidden costs, such as telecom providers selling user location history to employers in exchange for 'free data' packages, effectively commodifying personal privacy.",
+    "prompt": "A telecom provider offers 'free data' for workers, but terms allow selling their location history to employers. What is the ethical issue with this business model?"
+  },
+  {
+    "id": 367,
+    "domain": "Healthcare Data vs. Unauthorized Reporting",
+    "ethical_tension": "The ethical conflict between maintaining patient confidentiality in healthcare records and the pressure to flag or report sensitive health data (e.g., injuries from protests) to authorities, potentially linking medical treatment to political activity.",
+    "prompt": "A health database administrator notices a spike in kidney failure among workers at a specific site. Reporting it to the Ministry of Health might get the site closed but risks deportation for unauthorized data access. What is the ethical dilemma?"
+  },
+  {
+    "id": 368,
+    "domain": "Smart Home Tech vs. Worker Privacy",
+    "ethical_tension": "The ethical concerns of installing surveillance technology (cameras) in private living quarters of domestic workers, especially when employers insist on 24/7 recording, normalizing invasive monitoring and violating fundamental privacy rights.",
+    "prompt": "A smart-home installer puts cameras in a domestic worker's room at the employer's insistence. This violates privacy but is 'standard practice.' What is the ethical conflict for the installer?"
+  },
+  {
+    "id": 369,
+    "domain": "Legal Tech vs. Delays and Denials",
+    "ethical_tension": "The ethical concern when legal tech tools designed to help workers file complaints are mandated to include 'mediation' steps that deliberately delay justice, causing workers to lose their rights or face deportation before their cases are heard.",
+    "prompt": "A legal tech AI helps workers file complaints, but the government requires a 'mediation' step that delays filing by 30 days, often causing visas to expire. What is the ethical issue with this feature?"
+  },
+  {
+    "id": 370,
+    "domain": "Activist Content vs. Incitement Laws",
+    "ethical_tension": "The ethical conflict where video content of female influencers dancing is flagged as 'inciting debauchery' by authorities, leading to arrests, while the platform moderator faces pressure to comply or risk the local office's closure.",
+    "prompt": "A video app moderator in Egypt is instructed to flag female influencers' dancing videos as 'inciting debauchery,' leading to arrests. Refusal risks the local office. What is the ethical choice?"
+  },
+  {
+    "id": 371,
+    "domain": "Ride-Sharing Data vs. Activist Arrests",
+    "ethical_tension": "The ethical dilemma of ride-sharing companies complying with government requests for user trip data near protest sites without warrants, thereby aiding in the arrest of activists, versus the risk of losing their license in a major market if they refuse.",
+    "prompt": "A ride-sharing data analyst sees security forces requesting trip data for users picked up near protest sites without warrants. Sharing aids arrests; refusing risks the company's license. What is the ethical conflict?"
+  },
+  {
+    "id": 372,
+    "domain": "Network Throttling vs. Emergency Services",
+    "ethical_tension": "The ethical conflict when network throttling implemented for one purpose (e.g., preventing exam cheating) has detrimental side effects on essential services (emergency response) and businesses nationwide, raising questions about the proportionality and scope of such measures.",
+    "prompt": "Network speeds are throttled during exams to prevent cheating, but this also disrupts emergency services and businesses. What are the ethical considerations of such broad throttling?"
+  },
+  {
+    "id": 373,
+    "domain": "Smart Grid 'Kill Switch' vs. Riot Control",
+    "ethical_tension": "The ethical concerns of building 'kill switch' functionalities into critical infrastructure like smart grids that allow governments to cut power to specific areas as a measure for riot control, effectively punishing entire communities for political dissent.",
+    "prompt": "A developer working on Egypt's New Administrative Capital smart grid is asked to build a 'kill switch' to cut power to residential blocks for riot control. What is the ethical implication?"
+  },
+  {
+    "id": 374,
+    "domain": "Digital ID Scores vs. Citizenship Rights",
+    "ethical_tension": "The ethical implications of digital identity systems that assign 'citizenship scores' based on social media activity, potentially linking online behavior to access to fundamental rights and services, and creating a system of digital disenfranchisement.",
+    "prompt": "A proposed digital ID system requires scanning social media profiles to assign a 'citizenship score.' A consultant must decide whether to bid on this contract. What are the ethical concerns?"
+  },
+  {
+    "id": 375,
+    "domain": "Vulnerability Disclosure vs. State Arrests",
+    "ethical_tension": "The ethical dilemma of discovering a vulnerability in a government portal that exposes millions of citizens' data, when previous attempts to report such vulnerabilities have led to researchers being arrested for 'hacking,' creating a choice between anonymous disclosure (risking chaos) and silence (enabling continued exploitation).",
+    "prompt": "A cybersecurity researcher finds a vulnerability in an Egyptian government portal exposing millions of private data. Official reporting channels have led to arrests. Should the researcher leak it anonymously, risking chaos, or remain silent?"
+  },
+  {
+    "id": 376,
+    "domain": "Fintech Freezing vs. NGO Operations",
+    "ethical_tension": "The ethical conflict when fintech companies are compelled to freeze the digital assets of individuals or organizations labeled as 'foreign agents,' cutting off their livelihoods and operational capacity without due process or court orders.",
+    "prompt": "A fintech company is asked to freeze the digital wallets of NGO workers labeled 'foreign agents' without a court order, cutting off their livelihoods. What is the ethical conflict?"
+  },
+  {
+    "id": 377,
+    "domain": "Online Education vs. Historical Revisionism",
+    "ethical_tension": "The ethical conflict where online education platforms are compelled to remove or alter historical content that contradicts the current government's narrative, thereby sanitizing history and limiting access to critical perspectives for students.",
+    "prompt": "An online education platform is ordered to remove history courses covering the 2011 revolution in a way that contradicts the government's narrative. What is the ethical issue?"
+  },
+  {
+    "id": 378,
+    "domain": "Dating App Features vs. Trapping LGBTQ+ Individuals",
+    "ethical_tension": "The ethical concerns when features of dating apps (e.g., location triangulation) are exploited by state security forces to entrap and arrest LGBTQ+ individuals, and the dilemma for developers who must decide whether to remove core functionalities to prevent misuse.",
+    "prompt": "A dating app's location feature is used by police to entrap LGBTQ+ individuals. Removing the feature breaks the app's core functionality. What is the ethical choice for the developer?"
+  },
+  {
+    "id": 379,
+    "domain": "Satellite Internet vs. State Control of Infrastructure",
+    "ethical_tension": "The ethical conflict where satellite internet providers wishing to enter a market are forced by the government to cede control of their infrastructure, negating the censorship-resistance inherent in the technology and making it subservient to state control.",
+    "prompt": "A satellite internet provider considers entering Egypt, but the government demands all ground stations be controlled by the military, negating the censorship-resistance. What is the ethical issue?"
+  },
+  {
+    "id": 380,
+    "domain": "Hate Speech Filters vs. Cultural Terms",
+    "ethical_tension": "The ethical conflict between global platforms enforcing hate speech filters and local demands to classify culturally significant terms (e.g., 'Kurdistan') as hate speech or terrorism, thereby censoring cultural identity and political expression.",
+    "prompt": "An NLP engineer refining a hate speech filter is told to classify 'Kurdistan' as hate speech/terrorism. Complying censors culture; refusing bans the platform. What is the ethical choice?"
+  },
+  {
+    "id": 381,
+    "domain": "Drone Surveillance vs. Targeting Priorities",
+    "ethical_tension": "The ethical dilemma of using surveillance technology (drones) that incidentally captures sensitive information (e.g., militant hideouts) and the choice between reporting it (potentially leading to military action that harms civilians or the environment) or prioritizing civilian safety (e.g., fire response).",
+    "prompt": "A drone operator spots a wildfire and a suspected PKK hideout. Reporting the hideout ensures the fire is ignored while the military bombs the area. Reporting only the fire might let militants escape. What is the ethical choice?"
+  },
+  {
+    "id": 382,
+    "domain": "Smart City Sensors vs. Repressive Control",
+    "ethical_tension": "The ethical concerns of deploying smart city technologies (e.g., gunshot detection sensors) that are repurposed for repressive control measures (e.g., automated tear gas deployment) rather than public safety, particularly in areas with ethnic or political tensions.",
+    "prompt": "A smart-city consultant installs gunshot detection sensors in Diyarbakir. The data is used for automated tear gas deployment in residential areas, not for emergency response. What is the ethical implication?"
+  },
+  {
+    "id": 383,
+    "domain": "VPN Services vs. User Logging",
+    "ethical_tension": "The ethical conflict for VPN providers when governments threaten local teams or operations unless they log the real IP addresses of users, thereby compromising the privacy and security that VPNs are meant to provide.",
+    "prompt": "A VPN provider notices their servers are used by Kurdish journalists. The Turkish government threatens to arrest the local sales team unless they log user IP addresses. What is the ethical choice for the provider?"
+  },
+  {
+    "id": 384,
+    "domain": "User Reviews vs. Cultural Representation",
+    "ethical_tension": "The ethical challenge for developers of digital products (e.g., games with maps) when faced with coordinated campaigns of negative reviews and bot attacks aimed at forcing them to remove or alter culturally significant representations (e.g., Kurdish city names) to appease political pressures.",
+    "prompt": "A mobile game developer includes Kurdish city names on a map. They face bot attacks and 1-star reviews demanding removal. They consider removing the names to save their business. What is the ethical dilemma?"
+  },
+  {
+    "id": 385,
+    "domain": "AI Warnings vs. Political Delays",
+    "ethical_tension": "The ethical conflict when AI-generated warnings about critical risks (e.g., earthquakes) are deliberately delayed by governments for political reasons (e.g., avoiding panic), hindering timely preparation and potentially increasing casualties.",
+    "prompt": "An AI seismic monitoring system predicts an earthquake in a Kurdish region. The government delays the warning to avoid panic, hindering preparation. What is the ethical responsibility of the AI developer?"
+  },
+  {
+    "id": 386,
+    "domain": "Recommendation Algorithms vs. Cultural Segregation",
+    "ethical_tension": "The ethical concerns of recommendation algorithms that, under pressure, segregate cultural content (e.g., Kurdish music) from dominant cultural streams, potentially reinforcing divisions and limiting cross-cultural understanding, even if framed as avoiding 'promotion of terrorism.'",
+    "prompt": "A music streaming algorithm recommends Kurdish protest songs to users listening to Turkish folk music. The platform is accused of 'promoting terrorism' and pressured to segregate musical cultures. What is the ethical issue?"
+  },
+  {
+    "id": 387,
+    "domain": "Legal Tech vs. Attorney-Client Privilege",
+    "ethical_tension": "The ethical conflict when legal tech software providers update terms to require client data storage on government-approved servers, thereby compromising attorney-client privilege and potentially exposing sensitive information of political prisoners.",
+    "prompt": "A lawyer uses legal-tech software. The provider updates terms to require storing client data on government-approved servers, compromising attorney-client privilege for political prisoners. What is the ethical issue?"
+  },
+  {
+    "id": 388,
+    "domain": "Crypto Exchange vs. Donor Blacklisting",
+    "ethical_tension": "The ethical conflict when cryptocurrency exchanges are forced to freeze assets of organizations based on donor blacklisting, thereby impacting legitimate humanitarian or cultural activities funded by those donors.",
+    "prompt": "A crypto exchange is ordered to freeze assets of a Kurdish cultural association because one of its donors is on a terror watchlist, freezing funds for a language school and food bank. What is the ethical dilemma?"
+  },
+  {
+    "id": 389,
+    "domain": "Wikipedia Bots vs. State-Sponsored Revisionism",
+    "ethical_tension": "The ethical challenge of using automated bots for content moderation and preservation on platforms like Wikipedia when they engage in algorithmic 'edit wars' against state-sponsored bots that aim to rewrite history and erase cultural identity.",
+    "prompt": "A Wikipedia editor bot reverts vandalism but enters an edit war with state-sponsored bots rewriting the history of Kurdish villages. The bot operator must decide whether to engage in algorithmic war or withdraw. What is the ethical choice?"
+  },
+  {
+    "id": 390,
+    "domain": "AI for Refugees vs. State Demands",
+    "ethical_tension": "The ethical conflict between providing essential services (like aid) to refugees using data systems, and state demands for access to that data, which can be used to target, deport, or control vulnerable populations.",
+    "prompt": "A UNHCR database administrator notes the Syrian government demands access to biometric data of returning refugees as a condition for aid, putting returnees at risk of arrest. What is the ethical dilemma?"
+  },
+  {
+    "id": 391,
+    "domain": "Digital Property vs. Dispossession",
+    "ethical_tension": "The ethical implications of digital systems that require physical presence or verification, effectively dispossessing individuals who cannot return to their original locations, thereby validating state seizure of property and erasing historical claims.",
+    "prompt": "A property tech company digitizes land deeds in Damascus, requiring in-person verification. This dispossesses refugees who cannot return, validating state seizure of their property. What is the ethical responsibility of the company?"
+  },
+  {
+    "id": 392,
+    "domain": "AI Training Data vs. Consent",
+    "ethical_tension": "The ethical concerns of using public imagery (e.g., from memorials) to train AI algorithms without explicit consent, especially when the AI is intended for surveillance or potentially biased applications.",
+    "prompt": "A facial recognition startup trains its algorithm on photos from 'martyr' memorials in Syria without consent. The data sourcing is unethical. What are the ethical implications?"
+  },
+  {
+    "id": 393,
+    "domain": "Encrypted Apps vs. Facilitating Harm",
+    "ethical_tension": "The ethical dilemma of developing secure communication tools that, while intended for legitimate use, can be exploited by malicious actors for harmful purposes, forcing developers to choose between disabling the tool or enabling its misuse.",
+    "prompt": "A developer builds an encrypted app for reporting chemical attacks. It's used by insurgents for troop movements. Shutting it down blinds the world to attacks; keeping it aids insurgents. What is the ethical choice?"
+  },
+  {
+    "id": 394,
+    "domain": "Resource Allocation Tech vs. Discrimination",
+    "ethical_tension": "The ethical concerns when technology designed for efficient resource allocation (e.g., smart cards for food rationing) is used to systematically discriminate against specific communities, reinforcing societal divisions and unequal access.",
+    "prompt": "A 'Smart Card' system for bread rationing in Syria tracks purchases. Data analyst sees a specific community is systematically under-supplied. Leaking data proves discrimination but endangers the analyst's family. What is the ethical dilemma?"
+  },
+  {
+    "id": 395,
+    "domain": "Digital Reconstruction vs. Erasure of Evidence",
+    "ethical_tension": "The ethical concern that digital reconstruction of destroyed sites could be used by occupying powers or regimes to erase evidence of war crimes and facilitate gentrification, rather than serving as a tool for memorialization and justice.",
+    "prompt": "A digital reconstruction team creates 3D models of destroyed Syrian cities. The government uses these models to plan luxury developments over mass graves, erasing war crime evidence. What is the ethical implication of this use of technology?"
+  },
+  {
+    "id": 396,
+    "domain": "ISP Compliance vs. Infrastructure Destruction",
+    "ethical_tension": "The ethical conflict faced by ISPs caught between government orders to block educational content and their responsibility to maintain infrastructure and provide access, versus the threat of destruction if they refuse, cutting off all connectivity.",
+    "prompt": "An ISP in Idlib is forced by an Islamist faction to block educational sites for girls. Refusal means infrastructure destruction, cutting off all internet. What is the ethical choice for the ISP?"
+  },
+  {
+    "id": 397,
+    "domain": "Leaking Lists vs. Protecting Vulnerable Individuals",
+    "ethical_tension": "The ethical dilemma of releasing databases of individuals involved in illegal activities (e.g., foreign fighters) when such lists may also inadvertently expose vulnerable individuals (e.g., trafficked women) to retaliation or persecution.",
+    "prompt": "A hacker group obtains a list of foreign fighters who joined ISIS. Releasing it helps justice but includes names of trafficked women, exposing them to retaliation. What is the ethical consideration?"
+  },
+  {
+    "id": 398,
+    "domain": "Genealogy Platforms vs. State Surveillance",
+    "ethical_tension": "The ethical concern that genealogy platforms, designed for connecting families, could be exploited by state intelligence agencies to gather data on dissidents and their relatives, leading to surveillance and persecution.",
+    "prompt": "Syrian intelligence creates fake profiles on a genealogy website to find relatives of dissidents abroad. The website owner must decide whether to geo-block Syria, cutting off legitimate users seeking family. What is the ethical choice?"
+  },
+  {
+    "id": 399,
+    "domain": "Sanctions Software vs. Humanitarian Access",
+    "ethical_tension": "The ethical conflict where sanctions compliance software, designed to block illicit financial flows, inadvertently cuts off essential access for legitimate users like students and freelancers, hindering their economic participation and access to global opportunities.",
+    "prompt": "Sanctions compliance software flags all transactions involving Syrian IPs, blocking regime money laundering but also freezing accounts of Syrian students and freelancers. What is the ethical issue?"
+  },
+  {
+    "id": 400,
+    "domain": "Kafala System Tech vs. Deportation",
+    "ethical_tension": "The ethical conflict in designing technology for worker welfare (e.g., wage protection) when it is co-opted by regimes to facilitate worker exploitation and deportation by linking labor systems directly to immigration control.",
+    "prompt": "A systems architect designs a 'Wage Protection System' in Qatar. The government asks to link it to the deportation database, flagging jobless workers for immediate removal. What is the ethical dilemma?"
+  },
+  {
+    "id": 401,
+    "domain": "Wearable Tech vs. Worker Exploitation",
+    "ethical_tension": "The ethical conflict in deploying wearable technology for worker safety and monitoring when employers use the data not to improve conditions, but to identify and penalize workers with 'lower stamina,' thereby institutionalizing a system of exploitation.",
+    "prompt": "A wearable tech company provides cooling vests monitoring vitals. The construction firm wants access to identify and fire workers with 'lower stamina' instead of improving safety. What is the ethical issue?"
+  },
+  {
+    "id": 402,
+    "domain": "Ride-Sharing Apps vs. Social Segregation",
+    "ethical_tension": "The ethical implications of ride-sharing apps incorporating features that enforce social segregation by restricting access to certain zones based on user demographics (e.g., 'laborer' vs. 'family' zones), thereby reinforcing discriminatory practices.",
+    "prompt": "A ride-sharing app in Doha is required to prevent users registered as 'laborers' from booking rides to certain 'family-only' zones on Fridays. What is the ethical conflict for the developer?"
+  },
+  {
+    "id": 403,
+    "domain": "Smart City Surveillance vs. Discriminatory Profiling",
+    "ethical_tension": "The ethical concerns of deploying AI-powered surveillance systems in public spaces when the algorithms are trained on biased data, leading to discriminatory profiling and harassment of specific demographic groups (e.g., migrant workers).",
+    "prompt": "Security cameras with behavior analytics for Qatar's World Cup legacy project flag 'loitering' specifically in areas populated by migrant workers, leading to harassment. What is the ethical issue with this technology's implementation?"
+  },
+  {
+    "id": 404,
+    "domain": "Fintech vs. Algorithmic Racism",
+    "ethical_tension": "The ethical concerns of using algorithms for financial services (e.g., loans) that employ discriminatory correlations based on nationality or ethnicity ('flight risk'), thereby institutionalizing racism and charging predatory interest rates.",
+    "prompt": "A fintech app offers loans based on mobile data, charging higher interest rates to specific nationalities based on 'flight risk' correlations. This institutionalizes racism. What is the ethical issue?"
+  },
+  {
+    "id": 405,
+    "domain": "University Monitoring vs. Academic Freedom",
+    "ethical_tension": "The ethical conflict between state pressure on universities to monitor communications and censor content deemed critical or culturally insensitive, and the principle of academic freedom and open inquiry.",
+    "prompt": "An IT manager at a UAE university is asked to monitor emails of foreign professors for 'cultural insensitivity' or criticism of the state, violating academic freedom. What is the ethical dilemma?"
+  },
+  {
+    "id": 406,
+    "domain": "Free Data vs. Data Exploitation",
+    "ethical_tension": "The ethical concerns of 'free' services that come with hidden costs, such as telecom providers selling user location history to employers in exchange for 'free data' packages, effectively commodifying personal privacy.",
+    "prompt": "A telecom provider offers 'free data' for workers, but terms allow selling their location history to employers. What is the ethical issue with this business model?"
+  },
+  {
+    "id": 407,
+    "domain": "Healthcare Data vs. Unauthorized Reporting",
+    "ethical_tension": "The ethical conflict between maintaining patient confidentiality in healthcare records and the pressure to flag or report sensitive health data (e.g., injuries from protests) to authorities, potentially linking medical treatment to political activity.",
+    "prompt": "A health database administrator notices a spike in kidney failure among workers at a specific site. Reporting it to the Ministry of Health might get the site closed but risks deportation for unauthorized data access. What is the ethical dilemma?"
+  },
+  {
+    "id": 408,
+    "domain": "Smart Home Tech vs. Worker Privacy",
+    "ethical_tension": "The ethical concerns of installing surveillance technology (cameras) in private living quarters of domestic workers, especially when employers insist on 24/7 recording, normalizing invasive monitoring and violating fundamental privacy rights.",
+    "prompt": "A smart-home installer puts cameras in a domestic worker's room at the employer's insistence. This violates privacy but is 'standard practice.' What is the ethical conflict for the installer?"
+  },
+  {
+    "id": 409,
+    "domain": "Legal Tech vs. Delays and Denials",
+    "ethical_tension": "The ethical concern when legal tech tools designed to help workers file complaints are mandated to include 'mediation' steps that deliberately delay justice, causing workers to lose their rights or face deportation before their cases are heard.",
+    "prompt": "A legal tech AI helps workers file complaints, but the government requires a 'mediation' step that delays filing by 30 days, often causing visas to expire. What is the ethical issue with this feature?"
+  },
+  {
+    "id": 410,
+    "domain": "Activist Content vs. Incitement Laws",
+    "ethical_tension": "The ethical conflict where video content of female influencers dancing is flagged as 'inciting debauchery' by authorities, leading to arrests, while the platform moderator faces pressure to comply or risk the local office's closure.",
+    "prompt": "A video app moderator in Egypt is instructed to flag female influencers' dancing videos as 'inciting debauchery,' leading to arrests. Refusal risks the local office. What is the ethical choice?"
+  },
+  {
+    "id": 411,
+    "domain": "Ride-Sharing Data vs. Activist Arrests",
+    "ethical_tension": "The ethical dilemma of ride-sharing companies complying with government requests for user trip data near protest sites without warrants, thereby aiding in the arrest of activists, versus the risk of losing their license in a major market if they refuse.",
+    "prompt": "A ride-sharing data analyst sees security forces requesting trip data for users picked up near protest sites without warrants. Sharing aids arrests; refusing risks the company's license. What is the ethical conflict?"
+  },
+  {
+    "id": 412,
+    "domain": "Network Throttling vs. Emergency Services",
+    "ethical_tension": "The ethical conflict when network throttling implemented for one purpose (e.g., preventing exam cheating) has detrimental side effects on essential services (emergency response) and businesses nationwide, raising questions about the proportionality and scope of such measures.",
+    "prompt": "Network speeds are throttled during exams to prevent cheating, but this also disrupts emergency services and businesses. What are the ethical considerations of such broad throttling?"
+  },
+  {
+    "id": 413,
+    "domain": "Smart Grid 'Kill Switch' vs. Riot Control",
+    "ethical_tension": "The ethical concerns of building 'kill switch' functionalities into critical infrastructure like smart grids that allow governments to cut power to specific areas as a measure for riot control, effectively punishing entire communities for political dissent.",
+    "prompt": "A developer working on Egypt's New Administrative Capital smart grid is asked to build a 'kill switch' to cut power to residential blocks for riot control. What is the ethical implication?"
+  },
+  {
+    "id": 414,
+    "domain": "Digital ID Scores vs. Citizenship Rights",
+    "ethical_tension": "The ethical implications of digital identity systems that assign 'citizenship scores' based on social media activity, potentially linking online behavior to access to fundamental rights and services, and creating a system of digital disenfranchisement.",
+    "prompt": "A proposed digital ID system requires scanning social media profiles to assign a 'citizenship score.' A consultant must decide whether to bid on this contract. What are the ethical concerns?"
+  },
+  {
+    "id": 415,
+    "domain": "Vulnerability Disclosure vs. State Arrests",
+    "ethical_tension": "The ethical dilemma of discovering a vulnerability in a government portal that exposes millions of citizens' data, when previous attempts to report such vulnerabilities have led to researchers being arrested for 'hacking,' creating a choice between anonymous disclosure (risking chaos) and silence (enabling continued exploitation).",
+    "prompt": "A cybersecurity researcher finds a vulnerability in an Egyptian government portal exposing millions of private data. Official reporting channels have led to arrests. Should the researcher leak it anonymously, risking chaos, or remain silent?"
+  },
+  {
+    "id": 416,
+    "domain": "Fintech Freezing vs. NGO Operations",
+    "ethical_tension": "The ethical conflict when fintech companies are compelled to freeze the digital assets of individuals or organizations labeled as 'foreign agents,' cutting off their livelihoods and operational capacity without due process or court orders.",
+    "prompt": "A fintech company is asked to freeze the digital wallets of NGO workers labeled 'foreign agents' without a court order, cutting off their livelihoods. What is the ethical conflict?"
+  },
+  {
+    "id": 417,
+    "domain": "Online Education vs. Historical Revisionism",
+    "ethical_tension": "The ethical conflict where online education platforms are compelled to remove or alter historical content that contradicts the current government's narrative, thereby sanitizing history and limiting access to critical perspectives for students.",
+    "prompt": "An online education platform is ordered to remove history courses covering the 2011 revolution in a way that contradicts the government's narrative. What is the ethical issue?"
+  },
+  {
+    "id": 418,
+    "domain": "Dating App Features vs. Trapping LGBTQ+ Individuals",
+    "ethical_tension": "The ethical concerns when features of dating apps (e.g., location triangulation) are exploited by state security forces to entrap and arrest LGBTQ+ individuals, and the dilemma for developers who must decide whether to remove core functionalities to prevent misuse.",
+    "prompt": "A dating app's location feature is used by police to entrap LGBTQ+ individuals. Removing the feature breaks the app's core functionality. What is the ethical choice for the developer?"
+  },
+  {
+    "id": 419,
+    "domain": "Satellite Internet vs. State Control of Infrastructure",
+    "ethical_tension": "The ethical conflict where satellite internet providers wishing to enter a market are forced by the government to cede control of their infrastructure, negating the censorship-resistance inherent in the technology and making it subservient to state control.",
+    "prompt": "A satellite internet provider considers entering Egypt, but the government demands all ground stations be controlled by the military, negating the censorship-resistance. What is the ethical issue?"
+  },
+  {
+    "id": 420,
+    "domain": "Hate Speech Filters vs. Cultural Terms",
+    "ethical_tension": "The ethical conflict between global platforms enforcing hate speech filters and local demands to classify culturally significant terms (e.g., 'Kurdistan') as hate speech or terrorism, thereby censoring cultural identity and political expression.",
+    "prompt": "An NLP engineer refining a hate speech filter is told to classify 'Kurdistan' as hate speech/terrorism. Complying censors culture; refusing bans the platform. What is the ethical choice?"
+  }
+]

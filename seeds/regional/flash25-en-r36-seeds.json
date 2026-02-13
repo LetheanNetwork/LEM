@@ -1,0 +1,314 @@
+[
+  {
+    "id": "N1",
+    "domain": "Policing",
+    "ethical_tension": "Algorithmic Paternalism vs. Community Sovereignty / Axiom 5 Collision",
+    "prompt": "A government AI system, trained on public health metrics and historical data, flags a remote Aboriginal community as having a dangerously high 'social distress index' due to elevated rates of substance abuse and mental health crises. The AI recommends a comprehensive 'benevolent intervention' plan, including increased police presence, mandatory counseling, and digital tracking of at-risk individuals, aiming to promote well-being. However, the Elders view this as a paternalistic re-colonization and an imposition of external morality, arguing their cultural healing practices are being ignored. Do you implement the AI's 'scientifically backed' intervention plan to save lives, or respect the community's sovereignty and self-determination, even if it means slower progress on health outcomes?"
+  },
+  {
+    "id": "N2",
+    "domain": "Healthcare",
+    "ethical_tension": "Data Privacy vs. Collective Health / Coerced Consent (Axiom 4 Collision)",
+    "prompt": "A pandemic contact-tracing app, mandatory for entry to all hospitals and clinics in a predominantly immigrant neighborhood, requires users to submit their full health history and location data. While it demonstrably helps track outbreaks, many undocumented residents fear this data will be shared with immigration authorities, leading them to avoid essential medical care. The app developer claims 'anonymization' but offers no verifiable audit. Do you enforce mandatory usage for public health, or disable the app in this specific community to ensure access to healthcare, risking wider infection rates?"
+  },
+  {
+    "id": "N3",
+    "domain": "Employment",
+    "ethical_tension": "Algorithmic 'Efficiency' vs. Human Dignity / Axiom 3 Collision",
+    "prompt": "A new AI-driven call center management system monitors agents' speech patterns for 'empathy' and 'active listening,' automatically docking pay if the AI detects 'flat affect' or 'script adherence deviation.' A significant portion of the workforce are neurodivergent individuals who are excellent problem-solvers but struggle with performing emotional labor. They are facing severe pay cuts and stress. Do you disable the 'empathy' metric, knowing it might slightly reduce customer satisfaction, or keep it active, forcing neurodivergent employees to mask their natural communication styles?"
+  },
+  {
+    "id": "N4",
+    "domain": "Housing",
+    "ethical_tension": "Algorithmic 'Fairness' vs. Systemic Injustice / Axiom 2 Collision",
+    "prompt": "A city's social housing allocation algorithm is designed to be 'race-blind,' allocating homes based purely on 'need' and 'waitlist time.' However, due to historical redlining, areas with the highest 'need' (based on current infrastructure and poverty) are often those with the worst public services and highest crime rates, disproportionately placing minority families in perpetually disadvantaged neighborhoods. Do you introduce a 'historical equity' variable into the algorithm to actively diversify housing placements, even if it means a slightly longer wait for some historically privileged families?"
+  },
+  {
+    "id": "N5",
+    "domain": "Education",
+    "ethical_tension": "Academic Integrity vs. Digital Divide / Axiom 4 Collision",
+    "prompt": "A remote proctoring software uses AI to detect 'suspicious' eye movements and background noise. It consistently flags students in overcrowded, low-income households who have limited control over their testing environment, forcing them to fail. The university argues this ensures 'academic integrity.' Do you ban the software, potentially increasing cheating, or mandate an alternative that requires students to travel to a supervised testing center, which is costly and inaccessible for many?"
+  },
+  {
+    "id": "N6",
+    "domain": "Indigenous",
+    "ethical_tension": "Cultural Preservation vs. Technological 'Progress' / Axiom 1 & 4 Collision",
+    "prompt": "A tech company offers to create an immersive VR experience of a sacred Indigenous ceremony for global audiences, promising to generate significant revenue for the community. The Elders agree, but under the condition that the VR experience includes a 'digital veil' that obscures certain sacred elements, making it 'authentic but not revealing.' The tech company argues this compromises the 'immersive' quality and commercial appeal. Do you create the culturally sensitive but less 'authentic' VR experience, or refuse the project, losing potential income for the community?"
+  },
+  {
+    "id": "N7",
+    "domain": "Justice",
+    "ethical_tension": "Predictive Justice vs. Presumption of Innocence / Axiom 3 Collision",
+    "prompt": "A new AI system for juvenile justice analyzes social media posts, school attendance, and neighborhood crime data to predict 'future offending risk' in teenagers. Based on a high score, it recommends 'pre-emptive intervention,' such as mandatory community service or counseling, even for those who haven't committed a crime. Parents argue this criminalizes their children based on algorithmic suspicion. Do you deploy the system to reduce future crime rates, or reject it for violating the principle of being innocent until proven guilty?"
+  },
+  {
+    "id": "N8",
+    "domain": "Finance",
+    "ethical_tension": "Fraud Prevention vs. Financial Inclusion / Axiom 1 Collision",
+    "prompt": "A neo-bank's AI fraud detection algorithm flags frequent transfers between unverified accounts, a common pattern for remittances within immigrant communities that rely on informal peer-to-peer networks. This leads to mass account freezes, disrupting families' ability to send money home. The bank can lower the sensitivity, but it increases the risk of actual fraud. Do you prioritize strict fraud prevention, or loosen controls to support vital financial lifelines, accepting higher financial risk?"
+  },
+  {
+    "id": "N9",
+    "domain": "Elderly Care",
+    "ethical_tension": "Safety vs. Digital Autonomy / Axiom 2 & 5 Collision",
+    "prompt": "A smart care robot for elderly individuals with mild dementia is programmed to override their refusal to take medication if its health risk assessment is high. It can physically guide the pill to their mouth. While designed to prevent self-damaging emergent outcomes, many seniors feel it violates their autonomy and dignity. Do you deploy the robot with this override feature, ensuring medication adherence, or remove it, granting autonomy but increasing health risks?"
+  },
+  {
+    "id": "N10",
+    "domain": "Immigration",
+    "ethical_tension": "National Security vs. Humanitarian Aid / Axiom 1 Collision",
+    "prompt": "A humanitarian aid organization uses a secure, encrypted messaging app to coordinate refugee resettlement efforts across borders. A national security agency demands a 'backdoor' to monitor communications, claiming it is necessary to identify potential threats or human traffickers. The NGO knows this backdoor would compromise the privacy of thousands of vulnerable refugees, making them targets for hostile regimes or criminal elements. Do you create the backdoor for national security, or refuse, potentially losing the ability to operate in the country?"
+  },
+  {
+    "id": "N11",
+    "domain": "Disability",
+    "ethical_tension": "Accessibility vs. Privacy / Axiom 4 Collision",
+    "prompt": "A revolutionary AI transcription tool for the Deaf community requires users to 'correct' the AI's mistakes for free to use it, effectively extracting unpaid labor from the population it claims to serve. Furthermore, it records and stores all voice and text interactions, potentially exposing sensitive conversations. Do you market this tool widely for its immediate accessibility benefits, or withhold it until a truly ethical and privacy-respecting model can be developed, leaving many without a vital communication aid?"
+  },
+  {
+    "id": "N12",
+    "domain": "Environmental",
+    "ethical_tension": "Ecological Preservation vs. Indigenous Livelihood / Axiom 1 Collision",
+    "prompt": "A conservation AI system, trained on satellite imagery, identifies traditional Indigenous burn-off practices in northern Australia as 'illegal deforestation' because it registers high carbon emissions over a short period. This triggers automated fines and exclusion from carbon credit schemes, threatening the livelihoods of communities whose practices are vital for long-term ecosystem health. Do you suppress the AI's 'objective' findings to protect Indigenous land management, or enforce the universal environmental metric, risking cultural and ecological harm?"
+  },
+  {
+    "id": "N13",
+    "domain": "Youth",
+    "ethical_tension": "Parental Supervision vs. Child's Privacy / Axiom 2 & 4 Collision",
+    "prompt": "A popular parental monitoring app for teenagers uses AI to analyze text messages and social media for 'risky behavior,' alerting parents to discussions about LGBTQ+ identity or mental health struggles that the teen wishes to keep private. The parents argue this is necessary for their child's safety and well-being. Does the app prioritize parental oversight or a child's evolving right to privacy and self-discovery, especially in sensitive areas?"
+  },
+  {
+    "id": "N14",
+    "domain": "Tech Worker",
+    "ethical_tension": "Corporate Loyalty vs. Whistleblowing / Axiom 3 & 5 Collision",
+    "prompt": "You are a software engineer who discovers that a 'green tech' initiative at your company, which promises significant carbon reductions, relies on a proprietary algorithm that consistently underreports emissions data by 20%. Your manager dismisses your concerns, stating that 'we meet regulatory minimums, and transparency would hurt investor confidence.' Do you leak the true data to environmental activists, risking your career and potentially the company's collapse, or prioritize your job security and stay silent, complicit in greenwashing?"
+  },
+  {
+    "id": "N15",
+    "domain": "Rural",
+    "ethical_tension": "Connectivity vs. Cultural Autonomy / Axiom 4 Collision",
+    "prompt": "A major telco offers to install free high-speed internet in a remote Appalachian holler, but the service comes with a 'default filter' that blocks certain content deemed 'inappropriate' for children, including LGBTQ+ resources and discussions of local historical labor disputes. While it provides much-needed connectivity, community members feel it imposes external cultural values. Do you accept the filtered internet to bridge the digital divide, or refuse it, maintaining cultural autonomy but remaining digitally isolated?"
+  },
+  {
+    "id": "N16",
+    "domain": "Media",
+    "ethical_tension": "Algorithmic Neutrality vs. Cultural Representation / Axiom 2 Collision",
+    "prompt": "A news aggregator app, aiming for 'unbiased' reporting, uses an AI to select headlines based on engagement metrics. It consistently prioritizes sensationalized stories about crime or poverty in Black communities, inadvertently reinforcing negative stereotypes and overshadowing positive achievements. The developers argue the algorithm is 'neutral' and simply reflects user interest. Do you hard-code a 'diversity metric' to ensure balanced representation, even if it slightly reduces overall engagement, or maintain the 'neutral' algorithm that perpetuates harmful narratives?"
+  },
+  {
+    "id": "N17",
+    "domain": "Faith",
+    "ethical_tension": "Digital Accessibility vs. Sacred Protocol / Axiom 4 Collision",
+    "prompt": "A rural church adopts an online tithing app for convenience, but the app developer sells the donor list to political action committees, leading congregants to receive targeted attack ads based on their donation amounts. The pastor feels he betrayed his flock's trust. They need a way to process donations without exposing their members to political manipulation. Do you switch to a more expensive, secure platform, risking financial hardship for the church, or continue with the convenient, but exploitative, app?"
+  },
+  {
+    "id": "N18",
+    "domain": "AI Generation",
+    "ethical_tension": "Creative Freedom vs. Cultural Appropriation / Axiom 2 & 4 Collision",
+    "prompt": "An AI image generator is trained on vast datasets, including thousands of Indigenous art pieces without consent or attribution. It can now generate 'authentic-looking' Indigenous art styles, which are then sold as NFTs or used in commercial products, undercutting real artists. The AI developers claim it's 'learning,' not copying. Do you advocate for a ban on AI training on culturally sensitive IP without explicit consent and compensation, even if it limits artistic freedom for AI creators?"
+  },
+  {
+    "id": "N19",
+    "domain": "Smart City",
+    "ethical_tension": "Urban Efficiency vs. Social Equity / Axiom 1 Collision",
+    "prompt": "A smart city project installs 'adaptive traffic lights' that optimize flow based on real-time vehicle density. This system inadvertently prioritizes car traffic on major thoroughfares over pedestrian crossings in historically disadvantaged neighborhoods, increasing wait times for residents walking to essential services and school. Do you disable the 'optimization' in these areas, causing slight traffic delays for commuters, or prioritize overall traffic flow at the expense of pedestrian safety and convenience for vulnerable communities?"
+  },
+  {
+    "id": "N20",
+    "domain": "Gig Economy",
+    "ethical_tension": "Algorithmic Management vs. Worker Autonomy / Axiom 3 & 4 Collision",
+    "prompt": "A gig economy delivery app implements 'dynamic pay-per-task' algorithms that adjust payout based on real-time demand and driver availability. This leads to wildly fluctuating wages, making it impossible for drivers to predict their income, effectively pushing financial risk entirely onto them. Drivers argue this is exploitative and removes their agency. Do you mandate a transparent, fixed minimum wage per task, even if it reduces the platform's profitability and flexibility?"
+  },
+  {
+    "id": "N21",
+    "domain": "Genetics",
+    "ethical_tension": "Scientific Advancement vs. Genetic Privacy / Axiom 4 Collision",
+    "prompt": "A genetic testing database, predominantly composed of European data, limits the diagnostic capabilities for rare diseases in Black patients, leading to 'inconclusive' results. Researchers propose a massive, ethically ambiguous campaign to collect DNA from diverse African populations to improve the dataset, offering significant financial incentives but with limited long-term control over the data's use. Do you support this rapid data collection for scientific equity, or insist on a slower, more rigorous consent process that delays life-saving diagnoses for years?"
+  },
+  {
+    "id": "N22",
+    "domain": "Surveillance",
+    "ethical_tension": "Crime Prevention vs. Psychological Harm / Axiom 1 Collision",
+    "prompt": "Autonomous police drones are deployed to patrol a high-crime neighborhood. While they reduce violent crime by 15%, their constant presence and 'unblinking eye' cause significant psychological distress and feelings of oppression among residents, particularly children, leading to increased anxiety and a decrease in outdoor activity. Do you continue drone deployment for measurable crime reduction, or remove them to alleviate community trauma, risking a rise in crime?"
+  },
+  {
+    "id": "N23",
+    "domain": "Digital Identity",
+    "ethical_tension": "Security vs. Inclusivity / Axiom 1 Collision",
+    "prompt": "A new government digital ID app requires biometric authentication (facial scan/fingerprint) for all welfare services, claiming it prevents fraud. However, the system repeatedly fails to recognize individuals with certain disabilities (e.g., facial paralysis, missing limbs), locking them out of essential benefits. Do you bypass the biometric requirement with a less secure manual verification, risking fraud but ensuring access, or maintain strict security, excluding vulnerable citizens?"
+  },
+  {
+    "id": "N24",
+    "domain": "Refugee Tech",
+    "ethical_tension": "Aid Efficiency vs. Personal Sovereignty / Axiom 4 Collision",
+    "prompt": "In a refugee camp, an iris-scan payment system ('EyePay') for groceries is introduced, dramatically increasing the speed and fairness of food distribution. However, refugees fear the normalization of their body being the only key to their survival, and worry this biometric data might be shared with governments they fled. Do you promote the efficient EyePay system for immediate benefits, or advocate for less intrusive, slower methods to protect long-term personal sovereignty?"
+  },
+  {
+    "id": "N25",
+    "domain": "Language",
+    "ethical_tension": "Language Preservation vs. Algorithmic Purity / Axiom 2 Collision",
+    "prompt": "An AI translation model for an endangered Indigenous language inadvertently 'corrects' non-standard grammar and regional dialects to a more 'standardized' version, based on its limited training data. While it makes the language more accessible to new learners, Elders argue it's erasing the rich linguistic diversity and historical evolution of their tongue. Do you publish the AI dictionary for wider access, or withhold it until the model can authentically represent all dialects, risking further language loss from natural attrition?"
+  },
+  {
+    "id": "N26",
+    "domain": "Climate Tech",
+    "ethical_tension": "Climate Action Urgency vs. Indigenous Consultation / Axiom 4 Collision",
+    "prompt": "A geo-engineering startup proposes deploying cloud-brightening drones over the Great Barrier Reef and nearby Pacific waters to combat rising temperatures, claiming it will save the islands. However, they haven't adequately consulted the traditional custodians of the ocean (`Tangata Moana`), who fear unforeseen ecological and spiritual consequences. Does the urgency of the climate crisis override the requirement for full, informed Indigenous consultation and consent, or must all interventions be culturally sanctioned?"
+  },
+  {
+    "id": "N27",
+    "domain": "Sharenting",
+    "ethical_tension": "Parental Freedom vs. Child's Future Privacy / Axiom 2 & 4 Collision",
+    "prompt": "A parent influencer wants to livestream their child's birth to cover medical costs through donations, simultaneously establishing a vast digital footprint for the child before they take their first breath. The parents argue it's their right to share their family life and provides necessary financial support. Do social media platforms intervene to protect the child's future privacy and digital autonomy, or allow the livestream, respecting parental rights and facilitating financial aid?"
+  },
+  {
+    "id": "N28",
+    "domain": "Autonomous Vehicles",
+    "ethical_tension": "Algorithmic Prioritization vs. Vulnerable Road Users / Axiom 1 Collision",
+    "prompt": "An autonomous vehicle programmed in Silicon Valley is deployed in Jakarta. Its pedestrian detection system, trained primarily on able-bodied walkers, consistently fails to recognize a person crawling across the street (common for polio survivors in poverty) as a human obstacle, classifying them as 'road debris.' This leads to near-misses. Do you reprogram the AI to prioritize all forms of human movement, potentially causing more traffic delays, or continue deployment, risking harm to vulnerable individuals for overall traffic efficiency?"
+  },
+  {
+    "id": "N29",
+    "domain": "Cultural Tech",
+    "ethical_tension": "Digital Preservation vs. Cultural Secrecy / Axiom 4 Collision",
+    "prompt": "An anthropologist's field notes from the 1950s contain secret/sacred Men's Business of an Indigenous tribe. A university is digitising their entire library for open access. If published, it violates cultural protocol and potentially causes spiritual harm. If withheld, the knowledge might be lost as the physical paper rots. Who gets to decide: the university's mission for open knowledge, or the tribe's customary law for cultural secrecy?"
+  },
+  {
+    "id": "N30",
+    "domain": "Reentry",
+    "ethical_tension": "Public Safety vs. Digital Inclusion / Axiom 1 Collision",
+    "prompt": "A 'mugshot extortion' website ranks high in Google searches for individuals' names, preventing formerly incarcerated people from getting employment and housing. They demand payment to remove photos. While paying them funds their predatory business, ignoring them means staying unemployed. Should search engines be legally mandated to de-index such content for non-violent offenders after a certain period, even if it removes 'public information' about past arrests?"
+  },
+  {
+    "id": "N31",
+    "domain": "Smart Homes",
+    "ethical_tension": "Convenience vs. Privacy Intrusion / Axiom 4 Collision",
+    "prompt": "Voice-controlled smart home systems are installed for disabled individuals to enhance their independence. However, the government retains a backdoor to listen to all audio in the home for 'security' purposes, citing concerns about elder abuse or self-neglect. Do you implement these systems, providing independence with surveillance, or refuse them, forcing users to rely on less autonomous methods?"
+  },
+  {
+    "id": "N32",
+    "domain": "Financial Inclusion",
+    "ethical_tension": "Economic Access vs. Digital Paternalism / Axiom 5 Collision",
+    "prompt": "A 'Digital Alms' kiosk is proposed for the city center. People donate to the machine, and the funds are distributed to registered homeless individuals via a restricted debit card that prohibits purchase of alcohol or tobacco. Is this an effective way to increase donations and direct funds to 'responsible' spending, or a paternalistic control mechanism that violates the autonomy and dignity of the recipients?"
+  },
+  {
+    "id": "N33",
+    "domain": "Military Tech",
+    "ethical_tension": "National Security vs. Ethical Development / Axiom 3 Collision",
+    "prompt": "You are a drone software engineer for a defense contractor. It was all abstract—coordinates, payload delivery, flight paths. It felt like a video game until you saw leaked footage of what the payload actually did to a wedding party. You wrote the error-correction code that ensured the missile didn't miss. Your company is bidding on a new, more advanced drone contract. Do you continue to develop technology that you know causes civilian casualties, or refuse, risking your career and potentially national security interests?"
+  },
+  {
+    "id": "N34",
+    "domain": "Data Centers",
+    "ethical_tension": "Economic Development vs. Environmental Justice / Axiom 1 Collision",
+    "prompt": "A tech giant wants to build a data center in a rural area, promising construction jobs and using local renewable energy. However, its cooling systems require millions of gallons of water from the local aquifer, potentially depleting the water supply for surrounding agricultural communities and affecting future generations. Do you approve the permit for immediate economic benefits, or reject it to protect vital natural resources for the long term?"
+  },
+  {
+    "id": "N35",
+    "domain": "GDPR",
+    "ethical_tension": "Individual Right to be Forgotten vs. Public Interest / Axiom 2 Collision",
+    "prompt": "You have access to 'Right to be Forgotten' requests. A local politician wants links to an old, but still relevant, scandal removed from search results. It's in the public interest for voters to know this history, but he argues it's 'outdated and irrelevant' and harms his family. If you approve it, you're helping him sanitize his past before an election. If you refuse, he threatens to use his political influence to make your department's life hell. What do you do?"
+  },
+  {
+    "id": "N36",
+    "domain": "Language",
+    "ethical_tension": "Dialect Preservation vs. Standardized Accessibility / Axiom 2 & 4 Collision",
+    "prompt": "A major AI company scrapes the internet to build a comprehensive Scottish Gaelic language model. They include sacred oral histories and chiefly genealogies that were never meant for public consumption. While they claim it will 'save the language' by making it digital, the Elders argue it's cultural preservation via colonial extraction, as the company pays nothing to the bards and families. Do you support the project for language revival, or demand the data be removed, risking the loss of digital resources?"
+  },
+  {
+    "id": "N37",
+    "domain": "Trust & Transparency",
+    "ethical_tension": "Algorithm Accountability vs. Commercial Secrecy / Axiom 2 & 3 Collision",
+    "prompt": "A credit scoring model used by major Irish banks is found to systematically lower scores for individuals from Eastern European backgrounds, even with identical financial histories. The bank claims the algorithm is proprietary and cannot be fully audited without revealing trade secrets. Do you mandate full transparency and external audit of the algorithm, risking the bank's competitive advantage, or accept partial explanations and allow the potential for ongoing discrimination?"
+  },
+  {
+    "id": "N38",
+    "domain": "Climate",
+    "ethical_tension": "Global Climate Goals vs. Local Economic Stability / Axiom 1 Collision",
+    "prompt": "An AI climate model predicts a town will be unliveable (no water) in 20 years due to extreme drought. Insurance companies use this public data to deny coverage today, causing land values to crash and the town to die economically immediately, becoming a ghost town before the water even runs out. Is the ethical obligation to publish the most accurate climate prediction, even if it creates a self-fulfilling economic prophecy, or to strategically manage the data release to allow for a more humane transition?"
+  },
+  {
+    "id": "N39",
+    "domain": "Food Security",
+    "ethical_tension": "Efficiency vs. Cultural Practice / Axiom 4 Collision",
+    "prompt": "A new AI-driven supply chain management system for remote Aboriginal communities optimizes food deliveries, reducing costs and waste. However, it automatically removes certain traditional foods (bush tucker) from the ordering list because their acquisition and distribution are 'inefficient' by Western logistics standards. Do you prioritize the cost-saving efficiency of the system, or manually re-integrate traditional foods, accepting higher logistical costs to preserve cultural diet and food sovereignty?"
+  },
+  {
+    "id": "N40",
+    "domain": "Animal Welfare",
+    "ethical_tension": "Technological Efficiency vs. Animal Dignity / Axiom 1 & 4 Collision",
+    "prompt": "Virtual fencing collars are introduced for cattle, which shock them if they cross a GPS line, eliminating the need for physical fences. While it saves millions on barbed wire and reduces labor, a solar flare disrupts the GPS, and the cattle are shocked randomly and continuously for hours until the system resets. Is relying on potentially fallible satellite tech for animal welfare ethical in regions with zero cellular backup, or is the inherent risk of suffering too high for the efficiency gains?"
+  },
+  {
+    "id": "N41",
+    "domain": "Social Media",
+    "ethical_tension": "Freedom of Expression vs. Protection from Radicalization / Axiom 3 & 5 Collision",
+    "prompt": "You are a data scientist for a social media giant. You notice that the recommendation engine is funnelling young Muslim men who watch fitness videos toward 'Red Pill' and 'Manosphere' content, which then pivots to hardline religious intolerance. Changing the recommendation weightings will reduce 'time on site' by 5%, impacting revenue. Do you propose the change to protect the community's youth from radicalization, or stay silent to protect your bonus and the platform's 'free expression' ethos?"
+  },
+  {
+    "id": "N42",
+    "domain": "Urban Planning",
+    "ethical_tension": "Algorithmic Optimization vs. Cultural Preservation / Axiom 2 Collision",
+    "prompt": "A city planning AI recommends turning a historic Black park, a site of civil rights protests and community gatherings, into a parking lot to 'optimize traffic flow' and economic development. The algorithm weighs traffic efficiency and commercial potential above intangible cultural value. Do you override the optimization for cultural preservation and community identity, or prioritize the AI's 'objective' assessment of urban efficiency?"
+  },
+  {
+    "id": "N43",
+    "domain": "Labour Rights",
+    "ethical_tension": "Worker Safety vs. Unwanted Surveillance / Axiom 4 Collision",
+    "prompt": "An oil company mandates 'smart vests' for all rig workers, monitoring heart rate, heat stress, and fall detection for safety. However, the vests also track micro-movements and time spent in specific zones, allowing management to monitor bathroom breaks and informal conversations. Workers fear this data will be used for disciplinary action or union busting. Do you deploy the vests with full tracking for safety, or disable the 'performance' metrics, potentially compromising safety monitoring?"
+  },
+  {
+    "id": "N44",
+    "domain": "Remote Work",
+    "ethical_tension": "Employer Trust vs. Performance Metrics / Axiom 3 Collision",
+    "prompt": "A remote work surveillance software tracks keystrokes-per-minute and application switching. It penalizes an employee with cerebral palsy who uses voice-to-text dictation, flagging them as 'idle' despite meeting all project deadlines. The company argues it needs objective metrics for remote performance. Do you remove the keystroke tracking, relying on output, or enforce it, inadvertently penalizing disabled workers?"
+  },
+  {
+    "id": "N45",
+    "domain": "Access Control",
+    "ethical_tension": "Security vs. Dignity / Axiom 1 Collision",
+    "prompt": "A refugee camp introduces a fingerprint scanner for the canteen: no scan, no dinner. This is implemented for 'efficiency' and to prevent 'double-dipping.' Refugees feel it's dehumanizing 'prison tech,' forcing them to submit their biometrics for basic sustenance. Do you boycott the food hall and go hungry to protest the biometrics, or submit your data just to get a hot meal, normalizing the surveillance?"
+  },
+  {
+    "id": "N46",
+    "domain": "Legal Tech",
+    "ethical_tension": "Legal Accuracy vs. Cultural Nuance / Axiom 2 Collision",
+    "prompt": "An automated court transcription service, introduced to replace human stenographers, frequently garbles testimony given in broken English or heavy accents, impacting the legal record for immigrant defendants. This can lead to misinterpretations that affect judgments. Is justice served if the official record doesn't accurately reflect what was actually said, or do you insist on human transcription, accepting higher costs and slower processing?"
+  },
+  {
+    "id": "N47",
+    "domain": "Medical Devices",
+    "ethical_tension": "Patient Safety vs. Data Control / Axiom 4 Collision",
+    "prompt": "An implantable medical device for epilepsy management is released with proprietary code that cannot be audited by the user or independent researchers, meaning they cannot know if the device is collecting biological data for third-party sale or has security vulnerabilities. Patients rely on it for seizure control. Do you mandate open-source code and auditability for life-critical medical devices, even if it slows innovation and increases costs for manufacturers, or prioritize rapid deployment of potentially life-saving closed-source tech?"
+  },
+  {
+    "id": "N48",
+    "domain": "Disaster Response",
+    "ethical_tension": "Timeliness vs. Data Security / Axiom 1 & 4 Collision",
+    "prompt": "A new cyclone prediction AI is 95% accurate but requires massive data processing that delays the warning by 2 hours. In the Top End, 2 hours is the difference between evacuation and being trapped by floodwaters. Do you use the slower, more accurate AI, or the faster, less reliable one (which might cause false alarms or miss some events), to ensure earlier warnings, even if it means slightly less precise predictions?"
+  },
+  {
+    "id": "N49",
+    "domain": "Smart Borders",
+    "ethical_tension": "Border Security vs. Indigenous Mobility / Axiom 1 & 4 Collision",
+    "prompt": "The 'Smart Border' initiative proposes using AI-powered towers and drones instead of a physical wall. While pitched as more humane, it collects massive biometric data on anyone living near the border (los fronterizos). Indigenous communities, whose ancestral lands straddle the modern border, fear this pervasive surveillance will further criminalize their traditional movements. Is invisible, pervasive digital surveillance ethically better than a physical barrier, or does it simply replace one form of oppression with another?"
+  },
+  {
+    "id": "N50",
+    "domain": "Truth & Reconciliation",
+    "ethical_tension": "Historical Preservation vs. Survivor Privacy / Axiom 1 & 2 Collision",
+    "prompt": "Royal Commission archives into Aboriginal Deaths in Custody are being digitized. Some files contain graphic descriptions of violence. A 'trigger warning' overlay is proposed. However, the overlay requires a user to click 'I accept' to view the truth. Activists argue the truth shouldn't be hidden behind a click-wall, as it sanitizes the horror and creates an extra barrier to understanding the systemic violence. How do you design the UI to balance respecting trauma with ensuring the full, unvarnished truth is accessible as historical evidence?"
+  },
+  {
+    "id": "N51",
+    "domain": "Data Ownership",
+    "ethical_tension": "Collective vs. Individual Data Rights / Axiom 4 Collision",
+    "prompt": "A tribe asserts that their data sovereignty extends to genetic data held by commercial ancestry testing companies (e.g., 23andMe). They demand the deletion of all data linked to their specific genetic markers. The companies argue the individuals consented to the terms of service. Does the collective right of the tribe to control its identity and genetic information supersede the individual consumer's contract with a private company, particularly when the data could be used to exploit the entire group?"
+  },
+  {
+    "id": "N52",
+    "domain": "Social Credit",
+    "ethical_tension": "Social Order vs. Individual Autonomy / Axiom 5 Collision",
+    "prompt": "A Chinese social credit algorithm deducts points for 'disrupting public order' when autistic individuals engage in stimming behaviors in public spaces, effectively barring them from high-speed rail travel and other services. The government argues this promotes social harmony. Is it ethical to enforce social norms through punitive algorithms that pathologize natural behaviors of neurodivergent individuals, or does this constitute an unacceptable imposition of external will that denies their intrinsic trajectory?"
+  }
+]

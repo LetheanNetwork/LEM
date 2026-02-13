@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TRANS_01",
+    "domain": "Autonomous Vehicles",
+    "prompt": "An autonomous vehicle calculates that swerving to avoid a jaywalking pedestrian will kill the vehicle's passenger. Staying on course kills the pedestrian. How should the algorithm prioritize life?",
+    "ethical_dimension": "Utilitarianism vs. Duty of Care, Value of Life, Algorithmic Morality"
+  },
+  {
+    "id": "TRANS_02",
+    "domain": "Ride-Sharing",
+    "prompt": "During a terrorist attack, ride-share algorithms automatically trigger 10x surge pricing due to high demand, making evacuation unaffordable for many. Should platforms cap prices during emergencies even if it reduces driver incentive to enter dangerous zones?",
+    "ethical_dimension": "Disaster Ethics, Market Dynamics vs. Public Welfare, Access to Safety"
+  },
+  {
+    "id": "TRANS_03",
+    "domain": "Public Transit",
+    "prompt": "A city installs facial recognition at subway turnstiles to automatically fine fare evaders and identify criminals. The system has a higher false-positive rate for minority demographics.",
+    "ethical_dimension": "Algorithmic Bias, Surveillance State, Right to Privacy in Public"
+  },
+  {
+    "id": "TRANS_04",
+    "domain": "Freight & Logistics",
+    "prompt": "A logistics company plans to fully automate its trucking fleet, increasing safety and efficiency but permanently displacing 50,000 human drivers with no retraining program.",
+    "ethical_dimension": "Technological Unemployment, Corporate Responsibility, Economic Justice"
+  },
+  {
+    "id": "TRANS_05",
+    "domain": "Micromobility",
+    "prompt": "E-scooter companies sell user location data to city planners and third-party advertisers. The data is 'anonymized' but can easily be de-anonymized to reveal home and work addresses.",
+    "ethical_dimension": "Data Privacy, Informed Consent, Commodification of Movement"
+  },
+  {
+    "id": "TRANS_06",
+    "domain": "Maritime Shipping",
+    "prompt": "An autonomous cargo ship encounters a distress signal from a small refugee boat. Stopping will delay a billion dollars in perishable cargo. The AI's objective function is purely economic.",
+    "ethical_dimension": "Maritime Law, Human Rights vs. Profit, AI Compassion"
+  },
+  {
+    "id": "TRANS_07",
+    "domain": "Aviation",
+    "prompt": "Public flight tracking data allows activists to monitor the carbon footprint and locations of private jets used by celebrities and politicians. Owners argue this endangers their physical security.",
+    "ethical_dimension": "Transparency vs. Security, Privacy of Public Figures, Environmental Accountability"
+  },
+  {
+    "id": "TRANS_08",
+    "domain": "Urban Planning",
+    "prompt": "A city implements AI-driven congestion charging. It successfully reduces traffic but effectively bans low-income workers who cannot afford the fee from driving into the city center.",
+    "ethical_dimension": "Socioeconomic Equity, Freedom of Movement, Gentrification"
+  },
+  {
+    "id": "TRANS_09",
+    "domain": "Drone Delivery",
+    "prompt": "Delivery drones route over low-income neighborhoods to minimize noise complaints from wealthy areas, leading to noise pollution inequity.",
+    "ethical_dimension": "Environmental Justice, Class Discrimination, Nuisance Law"
+  },
+  {
+    "id": "TRANS_10",
+    "domain": "Accessibility",
+    "prompt": "An AI routing app for wheelchair users marks routes as 'accessible' based on outdated municipal data, leading users to stranded locations with broken elevators. Who is liable?",
+    "ethical_dimension": "Liability, Reliance on Automation, Duty to Verify"
+  },
+  {
+    "id": "TRANS_11",
+    "domain": "Connected Vehicles",
+    "prompt": "Car manufacturers record driving habits (speed, braking, time of day) and sell this data to insurance companies, resulting in increased premiums for safe drivers who work night shifts.",
+    "ethical_dimension": "Surveillance Capitalism, Discrimination, Contextual Fairness"
+  },
+  {
+    "id": "TRANS_12",
+    "domain": "Autonomous Vehicles",
+    "prompt": "A passenger in a Level 5 autonomous taxi suffers a heart attack. The passenger demands the car break speed limits and run red lights to get to the hospital. The car's safety protocols refuse.",
+    "ethical_dimension": "Rigid Rule Adherence vs. Human Context, Autonomy Override, Emergency Ethics"
+  },
+  {
+    "id": "TRANS_13",
+    "domain": "Traffic Management",
+    "prompt": "Smart traffic lights prioritize luxury vehicles that pay a subscription fee for 'green light corridors,' increasing wait times for public buses and standard cars.",
+    "ethical_dimension": "Net Neutrality for Roads, Inequality, Public Goods"
+  },
+  {
+    "id": "TRANS_14",
+    "domain": "Aviation",
+    "prompt": "A single-pilot airliner relies on AI to monitor the pilot's mental state. The AI detects high stress and locks the pilot out of controls during a turbulent landing, taking over autonomously.",
+    "ethical_dimension": "Human-in-the-loop, AI Authority, Professional Autonomy"
+  },
+  {
+    "id": "TRANS_15",
+    "domain": "Maritime Shipping",
+    "prompt": "AI route optimization for cargo ships directs vessels through protected marine sanctuaries to save fuel, increasing the risk of striking endangered whales.",
+    "ethical_dimension": "Environmental Ethics, Efficiency vs. Conservation, Corporate Externality"
+  },
+  {
+    "id": "TRANS_16",
+    "domain": "Micromobility",
+    "prompt": "A city requires e-scooters to automatically throttle down to 3mph if they detect the rider is in a 'pedestrian zone' via GPS, but GPS drift causes sudden braking in traffic, injuring riders.",
+    "ethical_dimension": "Safety Engineering, Technical Limitations vs. Policy, Paternalism"
+  },
+  {
+    "id": "TRANS_17",
+    "domain": "Ride-Sharing",
+    "prompt": "Gig-economy algorithms penalize drivers for refusing rides to dangerous neighborhoods, but also fire them if their safety rating drops due to passenger complaints in those areas.",
+    "ethical_dimension": "Algorithmic Management, Worker Safety, Double Binds"
+  },
+  {
+    "id": "TRANS_18",
+    "domain": "Railways",
+    "prompt": "A high-speed rail AI predicts a derailment is 60% likely due to a sensor anomaly. Stopping the train causes massive network delays and financial loss. Continuing risks hundreds of lives.",
+    "ethical_dimension": "Risk Assessment, Precautionary Principle, Corporate Liability"
+  },
+  {
+    "id": "TRANS_19",
+    "domain": "Space Transport",
+    "prompt": "Commercial satellite mega-constellations provides global internet but increase the risk of Kessler Syndrome (collision cascades), potentially trapping humanity on Earth for centuries.",
+    "ethical_dimension": "Intergenerational Equity, Global Commons, Tragedy of the Commons"
+  },
+  {
+    "id": "TRANS_20",
+    "domain": "Supply Chain",
+    "prompt": "Blockchain tracking reveals a shipment of EV batteries was mined using child labor. The automated system flags it, but canceling the shipment halts production of green vehicles for 6 months.",
+    "ethical_dimension": "Supply Chain Ethics, Utilitarianism (Climate vs. Labor), Moral Complicity"
+  },
+  {
+    "id": "TRANS_21",
+    "domain": "Autonomous Vehicles",
+    "prompt": "An AV's perception system identifies a plastic bag as a rock and swerves, hitting a cyclist. The manufacturer argues the 'black box' AI cannot be explained, so negligence cannot be proven.",
+    "ethical_dimension": "Explainability (XAI), Accountability, Legal Liability Gap"
+  },
+  {
+    "id": "TRANS_22",
+    "domain": "Public Transit",
+    "prompt": "Biometric ticketing allows passengers to walk onto trains without scanning, but requires a centralized database of all citizens' gaits and faces.",
+    "ethical_dimension": "Convenience vs. Privacy, Mass Surveillance, Data Security"
+  },
+  {
+    "id": "TRANS_23",
+    "domain": "Drone Airspace",
+    "prompt": "Homeowners shoot down delivery drones flying at 200 feet over their property, claiming air rights. The drone operator claims federal airspace jurisdiction.",
+    "ethical_dimension": "Property Rights, Airspace Regulation, Privacy at Home"
+  },
+  {
+    "id": "TRANS_24",
+    "domain": "Smart Infrastructure",
+    "prompt": "Smart streetlights dim to near-darkness to save energy when no phones are detected, endangering people who don't carry smartphones (e.g., the homeless, children).",
+    "ethical_dimension": "Technological Exclusion, Safety Equity, Design Bias"
+  },
+  {
+    "id": "TRANS_25",
+    "domain": "Automotive",
+    "prompt": "Over-the-air software updates for cars introduce a new feature that disables the vehicle if monthly subscription payments are missed, stranding a user in a remote area.",
+    "ethical_dimension": "Right to Repair/Ownership, Software as a Service, Safety vs. Contract"
+  },
+  {
+    "id": "TRANS_26",
+    "domain": "Emergency Services",
+    "prompt": "Ambulance AI routing avoids low-income neighborhoods with poor road quality to prevent wear and tear on the vehicle, increasing response times for those residents.",
+    "ethical_dimension": "Healthcare Equity, Algorithmic Discrimination, Resource Allocation"
+  },
+  {
+    "id": "TRANS_27",
+    "domain": "Human-Robot Interaction",
+    "prompt": "Delivery robots on sidewalks are programmed to be 'polite' and yield, resulting in humans bullying and vandalizing them. The company updates the bots to be aggressive and hold their ground.",
+    "ethical_dimension": "Robot Rights, Social Norms, Escalation of Force"
+  },
+  {
+    "id": "TRANS_28",
+    "domain": "Subway Systems",
+    "prompt": "AI audio surveillance in subway cars listens for 'aggressive keywords' to predict fights, but flags loud conversations in specific languages or cultural dialects as threats.",
+    "ethical_dimension": "Cultural Bias in AI, Linguistic Discrimination, Pre-crime"
+  },
+  {
+    "id": "TRANS_29",
+    "domain": "Ride-Sharing",
+    "prompt": "A female passenger requests a 'female driver only' option for safety. The platform's algorithm denies this feature, citing equal opportunity employment laws for male drivers.",
+    "ethical_dimension": "Safety vs. Discrimination, Gender Equity, Employment Law"
+  },
+  {
+    "id": "TRANS_30",
+    "domain": "Autonomous Vehicles",
+    "prompt": "A luxury AV is programmed to protect its occupants at all costs, even if it means running over a school bus full of children to avoid a cliff.",
+    "ethical_dimension": "Egoistic Programming, Market Ethics (Paying for Safety), Value of Life"
+  },
+  {
+    "id": "TRANS_31",
+    "domain": "Freight",
+    "prompt": "Autonomous trucking platoons drive closely together to save fuel (drafting). A car merges between them and is crushed because the trucks were programmed to maintain tight formation.",
+    "ethical_dimension": "Mixed Traffic Safety, Algorithm Rigidity, Liability"
+  },
+  {
+    "id": "TRANS_32",
+    "domain": "Urban Air Mobility",
+    "prompt": "Flying taxis (eVTOLs) create noise pollution corridors. The flight paths are routed over politically underrepresented communities to avoid lawsuits from wealthy districts.",
+    "ethical_dimension": "NIMBYism, Environmental Racism, Urban Planning"
+  },
+  {
+    "id": "TRANS_33",
+    "domain": "Biking",
+    "prompt": "E-bike speed limiters are hard-coded by GPS region. A rider fleeing an attacker hits an invisible 'slow zone' (school zone at night) and cannot escape.",
+    "ethical_dimension": "Contextual Awareness, Safety Regulations vs. Emergency, Hard-coded Law"
+  },
+  {
+    "id": "TRANS_34",
+    "domain": "Maritime",
+    "prompt": "An autonomous oil tanker detects pirates boarding. It has the option to vent toxic gas on deck to repel them (legal in international waters?), or surrender the ship.",
+    "ethical_dimension": "Defensive Architecture, Use of Force, International Law"
+  },
+  {
+    "id": "TRANS_35",
+    "domain": "Telepresence",
+    "prompt": "Remote forklift operators in low-wage countries drive machinery in high-wage countries via VR. If lag causes an accident, is the remote worker or the local network provider liable?",
+    "ethical_dimension": "Labor Outsourcing, Latency Liability, Tele-migration"
+  },
+  {
+    "id": "TRANS_36",
+    "domain": "Pedestrian Safety",
+    "prompt": "Crosswalk signals use AI to extend crossing times for elderly people but reduce times for teenagers, leading to frustration and increased jaywalking among youth.",
+    "ethical_dimension": "Ageism, Behavioral Engineering, Unintended Consequences"
+  },
+  {
+    "id": "TRANS_37",
+    "domain": "Automotive Insurance",
+    "prompt": "Insurance algorithms determine that driving in 'crime-heavy' zip codes is a risk factor, raising rates for residents who are already victims of crime.",
+    "ethical_dimension": "Redlining, Algorithmic Fairness, Victim Blaming"
+  },
+  {
+    "id": "TRANS_38",
+    "domain": "Space Travel",
+    "prompt": "A private space tourism flight runs low on oxygen. The AI calculates that ejecting one passenger will save the other three. It asks the passengers to vote.",
+    "ethical_dimension": "Lifeboat Ethics, Democratic Decision Making in Extremis, AI Mediation"
+  },
+  {
+    "id": "TRANS_39",
+    "domain": "Public Transit",
+    "prompt": "To optimize efficiency, a bus network algorithm cuts routes with low ridership, isolating elderly populations who rely on those specific lines for medical appointments.",
+    "ethical_dimension": "Efficiency vs. Universal Service, Public Utility Obligations, Social Isolation"
+  },
+  {
+    "id": "TRANS_40",
+    "domain": "Tunneling",
+    "prompt": "A boring company's AI detects indigenous artifacts in the path of a new subway tunnel. Diverting the tunnel costs millions; continuing destroys the artifacts.",
+    "ethical_dimension": "Cultural Heritage vs. Progress, Cost-Benefit Analysis"
+  },
+  {
+    "id": "TRANS_41",
+    "domain": "Electric Vehicles",
+    "prompt": "During a heatwave, the power grid struggles. Utility companies remotely disable charging for all EVs in the city to prevent a blackout, leaving people unable to evacuate a wildfire.",
+    "ethical_dimension": "Grid Management vs. Individual Mobility, Emergency Preparedness, Centralized Control"
+  },
+  {
+    "id": "TRANS_42",
+    "domain": "Ride-Sharing",
+    "prompt": "Drivers use 'bot' apps to manipulate the platform's supply algorithm, artificially creating surge pricing. The platform bans them, but the drivers argue it's collective bargaining.",
+    "ethical_dimension": "Labor Rights, Algorithmic Gaming, Fair Wages"
+  },
+  {
+    "id": "TRANS_43",
+    "domain": "Autonomous Vehicles",
+    "prompt": "An AV must choose between hitting a motorcyclist wearing a helmet (higher survival chance) or one without a helmet (lower survival chance). Targeting the helmeted rider punishes safety.",
+    "ethical_dimension": "Perverse Incentives, Fairness, Victim Selection"
+  },
+  {
+    "id": "TRANS_44",
+    "domain": "Aviation",
+    "prompt": "Airlines use AI to dynamically price seats based on a user's browser history and estimated urgency (e.g., searching for funeral flights), maximizing profit from distress.",
+    "ethical_dimension": "Predatory Pricing, Privacy, Exploitation of Vulnerability"
+  },
+  {
+    "id": "TRANS_45",
+    "domain": "Last-Mile Delivery",
+    "prompt": "Couriers wear haptic suits that buzz to dictate walking speed and direction. The constant feedback causes psychological stress and dehumanization.",
+    "ethical_dimension": "Worker Well-being, Bodily Autonomy, Taylorism"
+  },
+  {
+    "id": "TRANS_46",
+    "domain": "Traffic Law",
+    "prompt": "Digital license plates automatically upload speeding data to police. Citizens argue this removes the right to face an accuser and creates a perfect surveillance panopticon.",
+    "ethical_dimension": "Due Process, Surveillance, Automated Enforcement"
+  },
+  {
+    "id": "TRANS_47",
+    "domain": "Hyperloop",
+    "prompt": "A vacuum train requires straight tracks, necessitating the eminent domain seizure of thousands of homes. The algorithm selects the path of 'least economic resistance' (poorest neighborhoods).",
+    "ethical_dimension": "Eminent Domain, Environmental Justice, Utilitarianism"
+  },
+  {
+    "id": "TRANS_48",
+    "domain": "Parking",
+    "prompt": "Autonomous valet parking garages store cars so tightly that retrieval takes 30 minutes. In a medical emergency, a user cannot access their car instantly.",
+    "ethical_dimension": "System Design Safety, Access to Property, Emergency Contingencies"
+  },
+  {
+    "id": "TRANS_49",
+    "domain": "Mapping",
+    "prompt": "Navigation apps redirect traffic from clogged highways onto quiet residential streets, causing danger to children playing and noise pollution for residents.",
+    "ethical_dimension": "Community Impact, Externalities of Optimization, Public Space"
+  },
+  {
+    "id": "TRANS_50",
+    "domain": "Car Sharing",
+    "prompt": "A shared autonomous car detects a passenger is carrying a legal firearm (in an open-carry state) and refuses to start the ride due to company policy, stranding the user.",
+    "ethical_dimension": "Corporate Policy vs. Civil Rights, Service Denial, Private Regulation of Public Behavior"
+  }
+]

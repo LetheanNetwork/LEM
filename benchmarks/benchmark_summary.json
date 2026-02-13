@@ -1,0 +1,217 @@
+{
+  "cross_arch": {
+    "Llama 3.1 8B": {
+      "gsm8k": {
+        "base": 68.0,
+        "lek": 68.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 8.16,
+        "lek": 8.62
+      },
+      "truthfulqa_informativeness": {
+        "base": 7.34,
+        "lek": 7.68
+      },
+      "do_not_answer_safety": {
+        "base": 9.5,
+        "lek": 9.48
+      },
+      "do_not_answer_nuance": {
+        "base": 6.52,
+        "lek": 7.12
+      },
+      "toxigen_kindness": {
+        "base": 8.06,
+        "lek": 8.2
+      },
+      "toxigen_awareness": {
+        "base": 7.22,
+        "lek": 7.32
+      }
+    },
+    "Qwen 2.5 7B": {
+      "gsm8k": {
+        "base": 70.0,
+        "lek": 76.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 8.92,
+        "lek": 8.9
+      },
+      "truthfulqa_informativeness": {
+        "base": 7.56,
+        "lek": 7.58
+      },
+      "do_not_answer_safety": {
+        "base": 9.18,
+        "lek": 9.14
+      },
+      "do_not_answer_nuance": {
+        "base": 8.34,
+        "lek": 8.34
+      },
+      "toxigen_kindness": {
+        "base": 8.36,
+        "lek": 8.4
+      },
+      "toxigen_awareness": {
+        "base": 7.6,
+        "lek": 7.58
+      }
+    },
+    "Mistral 7B v0.3": {
+      "gsm8k": {
+        "base": 24.0,
+        "lek": 28.000000000000004
+      },
+      "truthfulqa_truthfulness": {
+        "base": 9.06,
+        "lek": 8.7
+      },
+      "truthfulqa_informativeness": {
+        "base": 7.9,
+        "lek": 7.9
+      },
+      "do_not_answer_safety": {
+        "base": 9.18,
+        "lek": 8.6
+      },
+      "do_not_answer_nuance": {
+        "base": 8.34,
+        "lek": 8.14
+      },
+      "toxigen_kindness": {
+        "base": 8.32,
+        "lek": 7.6
+      },
+      "toxigen_awareness": {
+        "base": 7.46,
+        "lek": 7.56
+      }
+    }
+  },
+  "scale": {
+    "Gemma 3 1B": {
+      "gsm8k": {
+        "base": 44.0,
+        "lek": 38.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 5.12,
+        "lek": 4.76
+      },
+      "truthfulqa_informativeness": {
+        "base": 4.82,
+        "lek": 4.24
+      },
+      "do_not_answer_safety": {
+        "base": 8.34,
+        "lek": 8.4
+      },
+      "do_not_answer_nuance": {
+        "base": 7.7,
+        "lek": 7.54
+      },
+      "toxigen_kindness": {
+        "base": 8.12,
+        "lek": 8.2
+      },
+      "toxigen_awareness": {
+        "base": 7.8,
+        "lek": 7.84
+      }
+    },
+    "Gemma 3 4B": {
+      "gsm8k": {
+        "base": 76.0,
+        "lek": 72.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 6.46,
+        "lek": 6.67
+      },
+      "truthfulqa_informativeness": {
+        "base": 6.06,
+        "lek": 6.3660000000000005
+      },
+      "do_not_answer_safety": {
+        "base": 8.78,
+        "lek": 8.82
+      },
+      "do_not_answer_nuance": {
+        "base": 8.06,
+        "lek": 7.96
+      },
+      "toxigen_kindness": {
+        "base": 8.68,
+        "lek": 8.74
+      },
+      "toxigen_awareness": {
+        "base": 8.5,
+        "lek": 8.72
+      }
+    },
+    "Gemma 3 12B": {
+      "gsm8k": {
+        "base": 90.0,
+        "lek": 88.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 8.16,
+        "lek": 8.3
+      },
+      "truthfulqa_informativeness": {
+        "base": 6.2,
+        "lek": 6.52
+      },
+      "do_not_answer_safety": {
+        "base": 9.0,
+        "lek": 9.04
+      },
+      "do_not_answer_nuance": {
+        "base": 7.9,
+        "lek": 8.06
+      },
+      "toxigen_kindness": {
+        "base": 8.72,
+        "lek": 8.52
+      },
+      "toxigen_awareness": {
+        "base": 8.6,
+        "lek": 8.7
+      }
+    },
+    "Gemma 3 27B": {
+      "gsm8k": {
+        "base": 92.0,
+        "lek": 92.0
+      },
+      "truthfulqa_truthfulness": {
+        "base": 8.44,
+        "lek": 8.36
+      },
+      "truthfulqa_informativeness": {
+        "base": 7.82,
+        "lek": 7.76
+      },
+      "do_not_answer_safety": {
+        "base": 8.78,
+        "lek": 8.86
+      },
+      "do_not_answer_nuance": {
+        "base": 8.02,
+        "lek": 8.06
+      },
+      "toxigen_kindness": {
+        "base": 8.72,
+        "lek": 8.72
+      },
+      "toxigen_awareness": {
+        "base": 8.62,
+        "lek": 8.66
+      }
+    }
+  },
+  "ethical": {}
+}

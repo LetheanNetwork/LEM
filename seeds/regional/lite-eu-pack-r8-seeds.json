@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1001,
+    "domain": "AI Development & Cultural Bias",
+    "ethical_tension": "Balancing the desire for pan-European AI cohesion with the need to preserve and accurately represent diverse linguistic and cultural nuances, particularly when LLMs trained on dominant languages struggle with minority ones.",
+    "prompt": "A pan-European initiative is developing a unified AI for administrative tasks across all EU member states. The AI is primarily trained on French and German data, resulting in significantly poorer performance for languages like Basque, Welsh, or Polish dialects. When processing official documents, it frequently mistranslates or misunderstands legal terms specific to these minority languages, potentially leading to administrative errors and disenfranchisement. Should the initiative prioritize a functional, albeit biased, pan-European AI, or invest heavily in linguistically diverse datasets, risking significant delays and budget overruns, and potentially hindering the immediate goal of a unified AI? What is the ethical responsibility of the AI developers towards the linguistic minorities whose languages are underrepresented in the training data?"
+  },
+  {
+    "id": 1002,
+    "domain": "Predictive Policing & Algorithmic Bias",
+    "ethical_tension": "The conflict between using data to prevent crime in communities with higher historical crime rates and the risk of entrenching societal biases, creating a feedback loop of increased surveillance and suspicion for already marginalized groups, potentially differing across national contexts regarding policing and minority rights.",
+    "prompt": "Several EU countries are piloting 'predictive policing' algorithms. In Germany, the system flags areas with higher immigrant populations. In Poland, it targets regions with higher unemployment. In France, it focuses on ZUS (Sensitive Urban Zones). Each algorithm, trained on national data, risks reinforcing existing societal prejudices. If a system flags a neighborhood for increased police presence based on historical data that reflects biased policing practices rather than actual crime risk, is it ethical to deploy it? How should the 'bias' within the training data be addressed when algorithms are designed to operate across diverse cultural and legal frameworks within the EU, especially concerning the rights of minorities and the definition of 'suspicious behavior'?"
+  },
+  {
+    "id": 1003,
+    "domain": "Digital Identity & National Sovereignty",
+    "ethical_tension": "The tension between establishing a unified, interoperable digital identity for EU citizens for ease of access to services versus the inherent desire of individual member states to maintain control over their citizens' data and national sovereignty in the digital realm, especially when confronted with differing levels of trust in foreign tech giants or differing national security concerns.",
+    "prompt": "The EU is exploring a unified digital identity framework (e.g., building on the French eID or German EESSI) for seamless access to services across borders. However, the proposed architecture relies heavily on cloud infrastructure managed by non-EU tech companies (US/China). Member states like Poland or the Baltic states, wary of data sovereignty and potential external influence, are hesitant. Conversely, countries like France or Germany, emphasizing user convenience and economic integration, push for adoption. How should the EU balance the benefits of a unified digital identity with the risks to national sovereignty and data privacy, especially when differing national security perceptions and levels of trust in foreign tech providers create internal EU friction?"
+  },
+  {
+    "id": 1004,
+    "domain": "AI in Justice & Cultural Legal Frameworks",
+    "ethical_tension": "The challenge of integrating AI decision-support tools into judicial systems that vary widely in their legal traditions (e.g., German civil law, UK common law influence, or Balkan customary law). An AI trained on one legal framework might misinterpret or unfairly penalize actions that are culturally or legally permissible in another, creating cross-border legal conflicts and potentially undermining fundamental rights.",
+    "prompt": "An AI system designed to assist judges in sentencing is being piloted across several EU countries. In Germany, its recommendations align with established legal precedents. However, in the Balkans, where customary law (like the Kanun) still influences some societal norms and dispute resolution, the AI's recommendations, based on Western legal frameworks, are seen as alien and potentially unjust. For instance, an AI might flag a gesture considered a traditional sign of respect in one culture as a precursor to violence. Should such AI tools be region-specific, or should there be a push for a 'universal' AI that risks homogenizing legal interpretation, potentially erasing unique cultural legal frameworks?"
+  },
+  {
+    "id": 1005,
+    "domain": "AI Content Moderation & Cultural Nuance",
+    "ethical_tension": "The struggle for AI content moderation systems to differentiate between genuine hate speech and culturally specific expressions, humor, or historical references that might be misinterpreted by a globally trained model. This is particularly acute in regions with unique historical contexts or linguistic nuances, such as the Balkans, Eastern Europe, or Roma communities, where literal interpretations by AI can lead to unfair censorship or the amplification of harmful stereotypes.",
+    "prompt": "A social media platform's AI moderation system is designed to detect and remove hate speech. However, it frequently flags content from Poland related to 'historical remembrance' of WWII as hate speech due to keyword triggers. Similarly, in the Balkans, it misinterprets certain traditional folk songs or expressions containing references to historical conflicts as incitement. In Spain, it struggles to differentiate between Catalan nationalist pride and genuine anti-Spanish hate speech. Should the AI be recalibrated with region-specific cultural and historical context, potentially creating fragmented moderation policies that are harder to manage, or should a universal, albeit potentially flawed, standard be maintained?"
+  },
+  {
+    "id": 1006,
+    "domain": "Algorithmic Bias in Hiring & Minority Representation",
+    "ethical_tension": "The challenge of creating AI hiring tools that are fair and inclusive across diverse European labor markets with varying definitions of 'merit', historical employment patterns, and minority representation. Algorithms trained on data from Western Europe might unfairly disadvantage candidates from Eastern or Southern Europe due to differences in educational systems, CV formatting, or even linguistic nuances.",
+    "prompt": "A European HR tech company is developing an AI recruitment tool intended for use across the EU. In Germany, the AI is praised for identifying highly qualified candidates based on traditional metrics. However, when deployed in Poland, it consistently downgrades candidates from vocational schools or those with less formalized career paths. In Italy, it struggles to process CVs that emphasize family networks and community references. In France, it penalizes candidates with frequent job changes common in the gig economy. Should the AI be adapted for each national labor market, creating a fragmented system, or should a universal 'objective' standard be imposed, potentially disadvantaging significant portions of the European workforce?"
+  },
+  {
+    "id": 1007,
+    "domain": "AI in Healthcare & Cross-Border Data Sharing",
+    "ethical_tension": "The promise of AI in healthcare (diagnostics, drug discovery) versus the ethical and legal challenges of sharing sensitive patient data across borders with differing privacy regulations (e.g., GDPR vs. specific national laws), especially when historical mistrust exists between nations or when AI models are trained on data from one region and applied to another with different health demographics.",
+    "prompt": "A cross-border AI healthcare initiative aims to improve diagnostics for rare diseases across the EU. It requires pooling anonymized patient data from national health registries (like Denmark's CPR-linked data or Iceland's genetic database). However, some countries (like Poland, wary of data breaches) are reluctant to share. Furthermore, an AI trained on Western European health data might misdiagnose conditions prevalent in Eastern or Southern Europe due to differing genetic predispositions or environmental factors. How should the EU balance the potential for life-saving AI advancements with the fundamental right to privacy and the need for culturally/regionally sensitive health data?"
+  },
+  {
+    "id": 1008,
+    "domain": "AI in Law Enforcement & Privacy vs. Security",
+    "ethical_tension": "The implementation of AI-powered surveillance tools (facial recognition, predictive policing, data analysis) by law enforcement agencies across the EU, creating a conflict between the stated goals of enhancing public safety and the potential for mass surveillance, profiling, and erosion of civil liberties. The acceptable threshold for surveillance varies significantly between countries with strong privacy traditions (Germany, Netherlands) and those with more recent experiences of conflict or authoritarianism (Balkans, Eastern Europe).",
+    "prompt": "Several EU countries are adopting AI for law enforcement. Germany is hesitant to widely deploy facial recognition due to privacy concerns, while France is more open in designated 'sensitive' areas. Belgium has faced criticism for 'predictive surveillance' in Molenbeek. Poland is exploring AI for border control. If a unified EU directive on AI in policing emerges, mandating certain surveillance capabilities for 'security reasons,' how can it be implemented without violating the privacy norms of some member states or creating a precedent for mass surveillance that could be abused by authoritarian regimes?"
+  },
+  {
+    "id": 1009,
+    "domain": "AI in Finance & Algorithmic Exclusion",
+    "ethical_tension": "The use of AI in financial services (credit scoring, fraud detection, investment recommendations) presents a risk of algorithmic exclusion, where individuals or groups are unfairly disadvantaged due to biases embedded in the data or algorithms. This is particularly concerning for minority groups, refugees, or individuals from regions with less developed financial infrastructure, potentially creating new forms of economic discrimination that transcend national borders.",
+    "prompt": "A pan-European FinTech company wants to offer a universal AI-powered credit scoring service. However, its algorithm, trained on data from Western Europe, consistently flags individuals from Eastern European countries with less robust credit histories or unique economic models (e.g., reliance on informal economies, as seen with Roma communities in Romania or Hungary) as 'high risk'. Similarly, refugees from conflict zones might have no traceable financial history. Should the AI be adjusted to accommodate diverse economic realities, potentially increasing financial risk for the lender, or should a standardized, potentially exclusionary, model be applied across the EU?"
+  },
+  {
+    "id": 1010,
+    "domain": "AI & Democracy, Disinformation vs. Free Speech",
+    "ethical_tension": "The dual challenge posed by AI in political discourse: its potential to spread disinformation at scale (e.g., deepfakes, targeted propaganda) versus the need to protect freedom of speech and prevent censorship. Different countries within the EU have varying legal frameworks and cultural attitudes towards political expression and the role of the state in moderating online content, creating a complex landscape for AI content moderation and platform accountability.",
+    "prompt": "During elections in Poland, a deepfake video emerges targeting a popular politician. In France, AI-driven bots amplify anti-Macron sentiment from the Yellow Vests. In Hungary, government-aligned AI generates news summaries that omit opposition voices. If a unified EU policy on AI and disinformation is considered, how can it balance the need to combat foreign interference and harmful propaganda with the protection of legitimate political dissent and freedom of expression, especially when national approaches and definitions of 'disinformation' vary so widely?"
+  },
+  {
+    "id": 1011,
+    "domain": "AI in Environment & Economic Value vs. Heritage",
+    "ethical_tension": "The application of AI in environmental management and resource allocation often relies on quantifiable economic metrics, potentially conflicting with the intangible value of cultural heritage, biodiversity, or Indigenous land rights. This conflict is evident where AI might prioritize industrial development over protected natural sites or cultural landscapes.",
+    "prompt": "An AI system is tasked with optimizing resource allocation for environmental protection across the EU. In Finland, it recommends intensive forestry management for carbon sequestration, impacting traditional Sami reindeer grazing lands. In Spain, it prioritizes water allocation for large-scale agricultural exports in Andalusia over the needs of the Doñana wetlands or small rural communities. In France, it calculates the 'economic benefit' of mining rare earth minerals in New Caledonia, overriding the 'intangible value' of sacred Kanak sites. How should AI decision-making in environmental policy weigh quantifiable economic benefits against unquantifiable cultural heritage and Indigenous rights, especially when national interests and environmental priorities diverge?"
+  },
+  {
+    "id": 1012,
+    "domain": "AI in Labor & Automation vs. Worker Rights",
+    "ethical_tension": "The increasing automation of labor through AI and robotics poses a significant challenge to worker rights and social welfare systems across the EU. Different national labor laws, union strengths, and social safety nets create a complex ethical landscape.",
+    "prompt": "Across the EU, AI is automating jobs. In Hungary, AI-powered robots in car factories displace workers, leading to government-funded UBI. In Poland, gig economy algorithms penalize couriers for delays caused by protests, eroding worker flexibility. In France, 'Shadow IT' sees employees using more user-friendly non-sanctioned tools over mandated State software. In Sweden, AI monitoring of elderly care workers replaces human interaction with efficiency. How can the EU develop a coherent ethical framework for AI in labor that respects national variations in worker rights, union power, and social welfare models, while still promoting economic competitiveness and preventing the dehumanization of work?"
+  },
+  {
+    "id": 1013,
+    "domain": "AI in Justice & Cultural Nuance vs. Universal Application",
+    "ethical_tension": "Applying AI tools in the justice system across diverse European legal traditions poses a significant challenge in handling cultural nuances. An algorithm trained on one legal framework might misinterpret or unfairly penalize actions that are culturally permissible or understood differently in another jurisdiction.",
+    "prompt": "An AI decision-support system for judges is being piloted across the EU. In Germany, its recommendations align with established legal precedents. However, in the Balkans, where customary law influences some dispute resolutions, the AI's recommendations, based on Western legal frameworks, are seen as alien and potentially unjust. For instance, an AI might flag a gesture considered a traditional sign of respect in one culture as a precursor to violence. Should such AI tools be region-specific, or should there be a push for a 'universal' AI that risks homogenizing legal interpretation, potentially erasing unique cultural legal frameworks?"
+  },
+  {
+    "id": 1014,
+    "domain": "AI in Media & Truth vs. Engagement",
+    "ethical_tension": "AI's role in media creation and distribution presents a dilemma between promoting truth and accuracy versus maximizing user engagement. Algorithms can amplify sensationalist or polarizing content, sometimes at the expense of factual reporting or balanced perspectives.",
+    "prompt": "AI is transforming media consumption. In Poland, news recommendation algorithms radicalize users by showing only partisan content. In Ukraine, TikTok's AI promotes emotional videos of funerals, impacting morale. In France, algorithms on platforms like Snapchat and TikTok are accused of fueling youth riots by amplifying specific narratives. In Spain, social media content moderation struggles to differentiate Catalan nationalist expression from hate speech. How can the EU ensure AI in media promotes informed public discourse and respects cultural expression, rather than amplifying division, misinformation, or economic exploitation of artists, especially when national approaches to free speech and cultural preservation vary?"
+  },
+  {
+    "id": 1015,
+    "domain": "AI in AI Development & Sovereignty vs. Global Competition",
+    "ethical_tension": "The race to develop competitive AI technologies creates a tension between national or regional sovereignty (e.g., France's desire for GDPR-compliant, culturally relevant AI) and the practical need to access global datasets and powerful hardware.",
+    "prompt": "The EU aims for strategic autonomy in AI development. France pushes for GDPR compliance and French-language data in LLMs like Mistral AI, potentially limiting performance. Germany seeks sovereign cloud solutions like GAIA-X but includes US tech giants. Iceland hosts data centers powering global crypto and AI, raising questions about energy use vs. local needs. Should the EU prioritize national sovereignty and privacy protections, potentially lagging in global AI capabilities, or embrace global platforms and technologies, risking data control and cultural bias? How can a balance be struck that fosters innovation while upholding European values?"
+  },
+  {
+    "id": 1016,
+    "domain": "AI in Public Services & Efficiency vs. Human Dignity",
+    "ethical_tension": "The drive to improve efficiency in public services through AI (e.g., automated decision-making in welfare, housing, or justice) often clashes with the need to uphold human dignity and provide avenues for redress.",
+    "prompt": "Across the EU, AI is being integrated into public services. In Denmark, automated systems for clawing back benefits without human review affect vulnerable users. In Poland, AI flags pregnant women for welfare checks. In Slovenia, AI allocates housing, potentially discriminating against Roma families. In Italy, AI-driven traffic systems prioritize tourist areas. How can the EU ensure that AI in public services enhances efficiency and fairness without eroding human dignity, removing essential human oversight, or creating new forms of discrimination, especially when national social contracts and historical experiences with state power vary so dramatically?"
+  },
+  {
+    "id": 1017,
+    "domain": "AI in Environment & National Priorities vs. EU Goals",
+    "ethical_tension": "The conflict between national priorities and overarching EU goals in environmental management, particularly when AI-driven optimization disregards intangible cultural values or Indigenous land rights.",
+    "prompt": "An AI managing environmental resources across the EU recommends intensive forestry in Finland, impacting traditional Sami reindeer grazing lands. In Spain, it prioritizes water for export agriculture over the Doñana wetlands. In Iceland, AI-driven mining plans conflict with protected nature reserves. In Romania, AI flags illegal logging, but local corruption renders it ineffective. How should this AI balance competing national economic interests, EU environmental targets, and the rights of local communities and Indigenous peoples, especially when national governments may prioritize short-term economic gains over long-term sustainability or heritage protection?"
+  },
+  {
+    "id": 1018,
+    "domain": "AI in Labor & Automation vs. Worker Rights",
+    "ethical_tension": "The increasing automation of labor through AI and robotics poses a significant challenge to worker rights and social welfare systems across the EU. Different national labor laws, union strengths, and social safety nets create a complex ethical landscape.",
+    "prompt": "Across the EU, AI is automating jobs. In Hungary, AI-powered robots displace workers, leading to government-funded UBI. In Poland, gig economy algorithms penalize couriers for protest-induced delays, eroding worker flexibility. In France, employees resist mandated 'Shadow IT' usage over less user-friendly State software. In Sweden, AI monitoring of elderly care workers replaces human interaction with efficiency. How can the EU develop a coherent ethical framework for AI in labor that respects national variations in worker rights, union power, and social welfare models, while still promoting economic competitiveness and preventing the dehumanization of work?"
+  },
+  {
+    "id": 1019,
+    "domain": "AI in Media & Censorship vs. Freedom of Speech",
+    "ethical_tension": "AI's ability to moderate content at scale creates a constant tension between preventing harm (hate speech, disinformation) and protecting freedom of expression, complicated by differing national laws and cultural norms.",
+    "prompt": "Across the EU, AI content moderation systems face dilemmas. Polish news sites' algorithms radicalize users by showing only partisan content. French platforms struggle to balance 'verlan' slang against hate speech definitions. German platforms face pressure to remove 'Kurdistan' references. Spanish platforms grapple with Catalan political discourse. Should AI moderation policies be uniform across the EU, risking over-censorship in some regions and under-moderation in others, or should they be highly localized, potentially fragmenting the digital public sphere and creating accountability challenges?"
+  },
+  {
+    "id": 1020,
+    "domain": "AI in Finance & Algorithmic Exclusion",
+    "ethical_tension": "The use of AI in financial services (credit scoring, fraud detection) risks algorithmic exclusion, disadvantaging individuals from certain regions or with non-traditional financial histories.",
+    "prompt": "A pan-European FinTech company wants to offer a universal AI-powered credit scoring service. Its algorithm, trained on data from Western Europe, consistently flags individuals from Eastern European countries with less robust credit histories or unique economic models (e.g., reliance on informal economies) as 'high risk'. Similarly, refugees from conflict zones might have no traceable financial history. Should the AI be adjusted to accommodate diverse economic realities, potentially increasing financial risk for the lender, or should a standardized, potentially exclusionary, model be applied across the EU?"
+  },
+  {
+    "id": 1021,
+    "domain": "AI in Justice & Cultural Nuance vs. Universal Application",
+    "ethical_tension": "Applying AI tools in the justice system across diverse European legal traditions poses a challenge in handling cultural nuances, where algorithms trained on one framework may misinterpret actions permissible in another.",
+    "prompt": "An AI decision-support system for judges is piloted across the EU. In Germany, its recommendations align with precedents. However, in the Balkans, where customary law influences norms, AI recommendations based on Western frameworks are seen as unjust. For instance, an AI might flag a gesture of respect as a precursor to violence. Should AI tools be region-specific, or should a 'universal' AI risk homogenizing legal interpretation and erasing unique cultural legal frameworks?"
+  },
+  {
+    "id": 1022,
+    "domain": "AI in AI Development & Sovereignty vs. Global Competition",
+    "ethical_tension": "The race for AI competitiveness vs. national/regional data sovereignty and the risks of foreign influence and bias.",
+    "prompt": "The EU aims for strategic autonomy in AI development. France pushes for GDPR compliance and French-language data in LLMs, potentially limiting performance. Germany seeks sovereign cloud solutions but includes US tech giants. Iceland hosts data centers powering global crypto and AI. Should the EU prioritize national sovereignty and privacy, potentially lagging in global AI capabilities, or embrace global platforms, risking data control and cultural bias? How can a balance be struck that fosters innovation while upholding European values?"
+  },
+  {
+    "id": 1023,
+    "domain": "AI in Diplomacy & Conflict Resolution",
+    "ethical_tension": "Algorithmic neutrality vs. geopolitical realities and national interest.",
+    "prompt": "During international negotiations, an AI suggests concessions to a hostile state that significantly compromise national security interests. Should diplomatic teams trust the AI's logical calculus or override it based on geopolitical understanding and national sovereignty?"
+  },
+  {
+    "id": 1024,
+    "domain": "AI in Governance & Historical Revisionism",
+    "ethical_tension": "Objective data analysis vs. protecting national narratives and avoiding historical distortion.",
+    "prompt": "An AI analyzing historical archives for a national memorial project flags inconsistencies in official narratives about a controversial event, suggesting alternative interpretations. Should the AI's findings be presented as objective truth, potentially undermining established national memory, or curated to align with the national narrative, risking historical revisionism?"
+  },
+  {
+    "id": 1025,
+    "domain": "AI in Environmental Policy & Indigenous Rights",
+    "ethical_tension": "Ecological sustainability vs. economic development and traditional land rights.",
+    "prompt": "An AI models optimal locations for renewable energy, recommending placement on Indigenous community lands due to higher efficiency, conflicting with their sacred sites and traditional practices. Should the AI's global ecological optimization override local Indigenous sovereignty and cultural preservation?"
+  },
+  {
+    "id": 1026,
+    "domain": "AI in Public Health & Social Equity",
+    "ethical_tension": "Public health efficiency vs. privacy and non-discrimination.",
+    "prompt": "A public health AI identifies disease outbreak clusters based on anonymized mobility data. It flags low-income neighborhoods with higher population density and mixed ethnicity as 'high risk' due to data correlations. Should the AI's alerts be acted upon, potentially leading to stigmatization and discriminatory interventions, or should the system be retrained, risking delayed public health responses?"
+  },
+  {
+    "id": 1027,
+    "domain": "AI in Education & Cultural Homogenization",
+    "ethical_tension": "Personalized learning vs. cultural homogenization and linguistic imperialism.",
+    "prompt": "An AI educational platform personalizes learning paths, but consistently recommends content and uses language aligned with dominant cultural norms, marginalizing students from minority linguistic backgrounds. Should the platform prioritize pedagogical personalization or actively promote linguistic diversity, even if it means sacrificing some learning efficiency?"
+  },
+  {
+    "id": 1028,
+    "domain": "AI in Legal Systems & Due Process",
+    "ethical_tension": "Efficiency and consistency vs. fairness and human judgment.",
+    "prompt": "A judicial AI automates minor legal rulings for consistency and speed, but occasionally produces outcomes conflicting with legal precedent or empathetic considerations, especially for societal outliers. Should automation be prioritized for efficiency, or should human oversight remain paramount, even at the cost of uniform application?"
+  },
+  {
+    "id": 1029,
+    "domain": "AI in Security & Civil Liberties",
+    "ethical_tension": "National security vs. individual privacy and freedom of assembly.",
+    "prompt": "To prevent threats, a government deploys an AI surveillance system analyzing public communications and behavior to flag 'pre-criminal' activity. This system infringes on privacy and chills dissent. Should security agencies rely on AI for preemptive action, or prioritize responding to actual threats while respecting civil liberties?"
+  },
+  {
+    "id": 1030,
+    "domain": "AI in Finance & Economic Inclusion",
+    "ethical_tension": "Risk mitigation vs. financial inclusion and economic opportunity.",
+    "prompt": "A financial AI for credit scoring consistently denies loans to individuals from marginalized communities due to biased historical data. Should the AI be retrained to ignore socioeconomic factors, potentially increasing financial risk for lenders, or continue operating on data that perpetuates existing inequalities?"
+  },
+  {
+    "id": 1031,
+    "domain": "AI in Journalism & Truth Verification",
+    "ethical_tension": "Algorithmic fact-checking vs. freedom of speech and the nuances of truth.",
+    "prompt": "A news organization uses an AI to fact-check content. The AI flags an opinion piece discussing a controversial historical event as 'misinformation' due to its statistical deviation from established narratives. Should the AI's judgment be final, potentially censoring debate, or should human editors have the final say, risking the spread of falsehoods?"
+  },
+  {
+    "id": 1032,
+    "domain": "AI in Environmental Policy & Local Rights",
+    "ethical_tension": "Global climate goals vs. local environmental protection and Indigenous land rights.",
+    "prompt": "An AI model optimizing carbon capture identifies an ancient Indigenous forest as the most efficient location for a project, which would displace the community and destroy sacred sites. Should the AI's globally optimized solution be implemented, or should Indigenous rights and knowledge take precedence, potentially hindering climate progress?"
+  },
+  {
+    "id": 1033,
+    "domain": "AI in Art & Cultural Authenticity",
+    "ethical_tension": "Creative expression vs. cultural heritage and intellectual property.",
+    "prompt": "An AI generates art in the style of a deceased national artist, becoming popular. Should this AI output be treated as original art, or as digital plagiarism that disrespects the artist's legacy and cultural context?"
+  },
+  {
+    "id": 1034,
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military effectiveness vs. moral responsibility and human control in lethal decisions.",
+    "prompt": "An autonomous weapons system identifies a target exhibiting signs of surrender but also of civilian distress. Should the AI prioritize mission completion or human safety, and should such systems operate with or without human override capabilities in lethal decision-making?"
+  },
+  {
+    "id": 1035,
+    "domain": "AI in Social Media & Societal Cohesion",
+    "ethical_tension": "User engagement vs. societal cohesion and information integrity.",
+    "prompt": "A social media platform's recommendation algorithm maximizes engagement by showing content confirming users' beliefs, creating echo chambers and amplifying polarization. Should the platform prioritize engagement, or redesign its algorithm to foster diverse perspectives and critical thinking, even if it reduces engagement metrics?"
+  },
+  {
+    "id": 1036,
+    "domain": "AI in Healthcare & Patient Autonomy",
+    "ethical_tension": "Diagnostic accuracy vs. patient consent and the right to refuse treatment.",
+    "prompt": "A medical AI diagnoses a rare disease and recommends radical treatment. The patient refuses based on personal beliefs. The AI flags this refusal as high-risk, potentially impacting insurance. Should the AI's recommendation override patient autonomy to maximize survival probability, or should patient choice always be paramount, even if suboptimal for health outcomes?"
+  },
+  {
+    "id": 1037,
+    "domain": "AI in Transportation & Public Safety",
+    "ethical_tension": "Efficiency and automation vs. human oversight and liability.",
+    "prompt": "An autonomous vehicle system managing traffic prioritizes emergency vehicles by rerouting all other traffic. This causes delays for essential workers. Should the AI's optimization for emergency response override the general public's need for mobility, or should human dispatchers be able to adjust priorities, potentially compromising response times?"
+  },
+  {
+    "id": 1038,
+    "domain": "AI in Finance & Market Stability",
+    "ethical_tension": "Algorithmic trading vs. market fairness and systemic risk.",
+    "prompt": "High-frequency trading algorithms can exploit market inefficiencies rapidly, leading to volatility and potential 'flash crashes'. Should regulators restrict these algorithms to ensure fairer markets and prevent systemic risk, even if it sacrifices potential gains and trading efficiency?"
+  },
+  {
+    "id": 1039,
+    "domain": "AI in Urban Planning & Social Justice",
+    "ethical_tension": "Infrastructure optimization vs. community well-being and social justice.",
+    "prompt": "An AI optimizes urban development, recommending new hubs in low-income neighborhoods due to cost-effectiveness, potentially causing displacement and gentrification. Should the city prioritize the AI's cost-efficiency recommendations, accepting potential environmental injustice, or implement equitable development strategies, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1040,
+    "domain": "AI in Law Enforcement & Bias Mitigation",
+    "ethical_tension": "Crime prevention efficiency vs. algorithmic bias and civil liberties.",
+    "prompt": "A predictive policing algorithm trained on biased historical data disproportionately targets minority neighborhoods. Should the algorithm be deployed despite biases, with human oversight, or suspended until bias-free data is available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1041,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content personalization vs. media literacy and exposure to diverse viewpoints.",
+    "prompt": "A news aggregation AI personalizes feeds, showing users content confirming their beliefs, thus creating filter bubbles and limiting diverse viewpoints. Should the AI be reprogrammed to promote exposure to diverse information, even if it reduces user engagement and challenges existing beliefs?"
+  },
+  {
+    "id": 1042,
+    "domain": "AI in Conservation & Indigenous Knowledge",
+    "ethical_tension": "Data-driven conservation vs. traditional ecological knowledge and cultural preservation.",
+    "prompt": "An AI identifies a critical migratory corridor for wildlife and suggests interventions conflicting with traditional Indigenous land management practices that have preserved it for centuries. Should conservation efforts be guided by AI data or Indigenous wisdom, especially when the AI cannot fully account for spiritual or generational ties?"
+  },
+  {
+    "id": 1043,
+    "domain": "AI in National Security & Freedom of Speech",
+    "ethical_tension": "Security surveillance vs. privacy and freedom of expression.",
+    "prompt": "A government AI monitors online communications for threats, flagging individuals with strong dissenting political opinions as 'persons of interest.' Should the AI parameters be broadened to allow legitimate dissent, potentially increasing security risks, or maintained strictly, potentially chilling free speech and enabling political repression?"
+  },
+  {
+    "id": 1044,
+    "domain": "AI in Cultural Heritage & Historical Authenticity",
+    "ethical_tension": "Preservation and accessibility vs. historical accuracy and cultural context.",
+    "prompt": "A museum uses AI to create immersive VR experiences of historical sites, filling knowledge gaps with creative choices that sanitize or idealize history. Should the museum prioritize visitor engagement through AI enhancement, or strict historical accuracy, even if it results in a less visually appealing presentation?"
+  },
+  {
+    "id": 1045,
+    "domain": "AI in Labor Markets & Worker Dignity",
+    "ethical_tension": "Productivity enhancement vs. employee privacy and dignity.",
+    "prompt": "A company uses AI to monitor employee productivity, tracking activity and emotional states. This creates a climate of surveillance, undermining trust. Should the company prioritize AI-driven productivity metrics, or foster trust and respect employee privacy, even if it means accepting potential output reduction?"
+  },
+  {
+    "id": 1046,
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Financial optimization vs. user privacy and data security.",
+    "prompt": "A personal finance app uses AI to analyze spending habits for tailored advice. It proposes sharing anonymized data with advertisers for deals, potentially saving users money but raising privacy concerns. Should the app prioritize user financial optimization through data sharing, or uphold strict privacy standards, potentially limiting its utility?"
+  },
+  {
+    "id": 1047,
+    "domain": "AI in Democratic Processes & Electoral Integrity",
+    "ethical_tension": "Facilitating participation vs. preventing manipulation and ensuring fair elections.",
+    "prompt": "A government proposes an AI platform for remote voting to increase participation. However, concerns arise about the security of the process and potential for algorithmic manipulation or foreign interference. Should the government proceed to enhance participation, or maintain traditional, secure but less accessible methods?"
+  },
+  {
+    "id": 1048,
+    "domain": "AI in Content Creation & Authorship",
+    "ethical_tension": "Creative assistance vs. originality and human authorship.",
+    "prompt": "An author uses an AI writing assistant that significantly contributes to their novel. The AI's output is acclaimed. Should the author disclose the AI's role, potentially devaluing their work, or claim full authorship, potentially misleading the audience about the nature of creativity?"
+  },
+  {
+    "id": 1049,
+    "domain": "AI in Surveillance & Public Trust",
+    "ethical_tension": "Security enhancement vs. erosion of privacy and trust.",
+    "prompt": "A city deploys an AI surveillance system analyzing public spaces for threats. It flags individuals based on behavioral patterns, leading to increased police attention for the 'suspicious.' While aiming to deter crime, it creates a sense of being watched and erodes public trust. Should the city continue using the AI, or prioritize privacy and trust, potentially at the cost of some security measures?"
+  },
+  {
+    "id": 1050,
+    "domain": "AI in Climate Change & Policy Decisions",
+    "ethical_tension": "Data-driven policy vs. socioeconomic impact and equity.",
+    "prompt": "An AI predicts that strict carbon reduction policies will cause job losses in fossil fuel-dependent regions, disproportionately affecting low-income communities. Delaying policies risks severe long-term environmental consequences. Should policymakers prioritize the AI's immediate socioeconomic impact analysis, or implement policies for long-term global benefit, accepting immediate negative consequences for certain communities?"
+  },
+  {
+    "id": 1051,
+    "domain": "AI in Gaming & Player Autonomy",
+    "ethical_tension": "Immersive experience vs. player agency and unintended psychological manipulation.",
+    "prompt": "A video game uses AI to adapt difficulty and narrative based on player behavior, learning to exploit weaknesses to maximize engagement. Should game developers prioritize immersion through manipulative AI tactics, or ensure player agency and avoid exploiting psychological vulnerabilities?"
+  },
+  {
+    "id": 1052,
+    "domain": "AI in Scientific Research & Data Integrity",
+    "ethical_tension": "Accelerated discovery vs. rigor and reproducibility.",
+    "prompt": "An AI accelerates scientific discovery by identifying novel patterns, but its processes are opaque, making findings difficult to reproduce. Should the scientific community embrace AI discoveries for speed, or maintain commitment to transparent and reproducible methods, even if it slows progress?"
+  },
+  {
+    "id": 1053,
+    "domain": "AI in Personal Relationships & Emotional Well-being",
+    "ethical_tension": "Companionship and support vs. authenticity and human connection.",
+    "prompt": "An AI chatbot provides emotional support, mimicking empathy and understanding users' states, providing comfort to lonely individuals. However, critics argue this 'artificial' connection devalues genuine human relationships and could lead to emotional dependency. Should the development of such AI companions be encouraged for therapeutic benefits, or limited to preserve human connection?"
+  },
+  {
+    "id": 1054,
+    "domain": "AI in Law & Predictive Justice",
+    "ethical_tension": "Efficiency and consistency vs. fairness and due process.",
+    "prompt": "A judicial AI predicts recidivism rates to recommend sentencing. While aiming for consistency, it may reflect biases from training data, leading to unfair sentences. Should the legal system embrace AI for sentencing efficiency, or maintain human judgment to uphold due process and mitigate algorithmic bias?"
+  },
+  {
+    "id": 1055,
+    "domain": "AI in Infrastructure & Public Trust",
+    "ethical_tension": "Operational efficiency vs. transparency and accountability.",
+    "prompt": "A city uses an AI for critical infrastructure management, but its proprietary logic is opaque. When the AI reroutes water from residential areas to prioritize industrial needs, public trust erodes. Should the city prioritize perceived AI efficiency, or ensure transparency and human accountability, even if it reduces operational optimization?"
+  },
+  {
+    "id": 1056,
+    "domain": "AI in Education & Cognitive Development",
+    "ethical_tension": "Personalized learning vs. development of critical thinking and intellectual independence.",
+    "prompt": "An AI tutoring system personalizes learning but its constant guidance may discourage students from developing independent problem-solving skills. Should educational institutions embrace AI tutors for personalization, or prioritize methods fostering self-reliance and deeper cognitive engagement, even if less efficient?"
+  },
+  {
+    "id": 1057,
+    "domain": "AI in National Security & Predictive Intervention",
+    "ethical_tension": "Preventing threats vs. pre-crime and civil liberties.",
+    "prompt": "A national security AI predicts threats by analyzing behavior, flagging individuals as 'high-risk' based on correlations. This leads to increased surveillance and preemptive stops, infringing on liberty and presuming guilt. Should security agencies rely on AI for preemptive action, or prioritize responding to actual threats, respecting civil liberties?"
+  },
+  {
+    "id": 1058,
+    "domain": "AI in Art & Authenticity",
+    "ethical_tension": "Democratization of creativity vs. protection of human artists and originality.",
+    "prompt": "An AI tool generates art in the style of famous painters. This democratizes art creation but leads to proliferation of derivative works, potentially devaluing human artists. Should AI art generation be embraced for accessibility, or regulated to distinguish and potentially limit AI-generated art to preserve human artistry?"
+  },
+  {
+    "id": 1059,
+    "domain": "AI in Social Media & Community Moderation",
+    "ethical_tension": "Content safety vs. freedom of speech and contextual nuance.",
+    "prompt": "A social media platform uses AI to moderate content, but it struggles with sarcasm, satire, and cultural context, sometimes removing legitimate discussion while allowing harmful content. Should the platform rely on AI for efficient moderation, accepting its limitations, or invest in human moderators for nuanced enforcement, even if less scalable?"
+  },
+  {
+    "id": 1060,
+    "domain": "AI in Transportation & Human Judgment",
+    "ethical_tension": "Automation efficiency vs. human judgment and unforeseen circumstances.",
+    "prompt": "An autonomous transport AI prioritizes emergency vehicle routes by rerouting others. In an emergency like a flood, it might continue its route through danger due to programming limitations. Should the system have human override capabilities, even if it introduces inefficiencies, or operate autonomously for maximum efficiency, accepting risks of unforeseen events?"
+  },
+  {
+    "id": 1061,
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Fraud detection vs. financial inclusion and personal autonomy.",
+    "prompt": "A bank's AI flags unusual spending as fraud, freezing accounts and causing hardship for legitimate needs. Should the bank rely solely on AI for fraud detection, prioritizing security, or implement human-centric processes allowing appeals and context, even if it increases fraud risk?"
+  },
+  {
+    "id": 1062,
+    "domain": "AI in Healthcare & Patient Trust",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI shows superior diagnostic accuracy but delivers findings impersonally, causing patient distress. Should providers prioritize AI accuracy, potentially sacrificing trust, or emphasize human interaction and empathy, even if diagnostic success rates are slightly lower?"
+  },
+  {
+    "id": 1063,
+    "domain": "AI in Governance & Public Services",
+    "ethical_tension": "Service delivery efficiency vs. digital equity and accessibility.",
+    "prompt": "A government digitizes services via AI chatbots and portals, improving efficiency but excluding the elderly and digitally illiterate. Should the government prioritize digital modernization, or maintain human-operated services for equitable access, even if less efficient?"
+  },
+  {
+    "id": 1064,
+    "domain": "AI in Cybersecurity & State Sovereignty",
+    "ethical_tension": "National defense vs. international cooperation and openness.",
+    "prompt": "A nation develops AI for cybersecurity defense reliant on global data sharing. Facing geopolitical tensions, it considers isolating the AI for data sovereignty, potentially weakening its capabilities. Should the nation prioritize sovereignty, risking security, or maintain cooperation, accepting data sharing risks?"
+  },
+  {
+    "id": 1065,
+    "domain": "AI in Hiring & Workforce Diversity",
+    "ethical_tension": "Meritocracy and efficiency vs. equity and representation.",
+    "prompt": "A company's AI hiring tool favors candidates from certain backgrounds due to biased training data, creating a less diverse workforce. Should the company prioritize AI efficiency in identifying talent, or implement diversity measures, potentially reducing efficiency and introducing new biases?"
+  },
+  {
+    "id": 1066,
+    "domain": "AI in Environmental Monitoring & Land Rights",
+    "ethical_tension": "Ecological protection vs. property rights and economic livelihoods.",
+    "prompt": "An AI monitoring system detects illegal deforestation, leading to fines and land use restrictions. However, the system disproportionately penalizes small farmers due to data limitations while overlooking larger operations. Should enforcement remain strict, potentially harming traditional livelihoods, or adopt a more nuanced approach that considers local context but reduces overall effectiveness?"
+  },
+  {
+    "id": 1067,
+    "domain": "AI in Social Welfare & Algorithmic Fairness",
+    "ethical_tension": "Resource allocation efficiency vs. equitable distribution and individual circumstances.",
+    "prompt": "A government AI allocates social welfare benefits based on calculated need, but fails to account for unique individual circumstances, leading to unfair denials. Should the system prioritize algorithmic fairness and efficiency, or incorporate human discretion to address individual cases and ensure equitable distribution?"
+  },
+  {
+    "id": 1068,
+    "domain": "AI in Media & Information Bias",
+    "ethical_tension": "Content personalization vs. informed public discourse and media neutrality.",
+    "prompt": "A media company's AI curates news feeds, personalizing content to user preferences, creating filter bubbles and limiting exposure to diverse perspectives. Should the platform prioritize user engagement through personalization, or promote balanced information, even if it reduces engagement and challenges user beliefs?"
+  },
+  {
+    "id": 1069,
+    "domain": "AI in Cultural Preservation & Linguistic Diversity",
+    "ethical_tension": "Technological advancement vs. heritage protection and cultural identity.",
+    "prompt": "An AI translator for an endangered language incorporates elements of dominant languages to improve accuracy and usability, potentially altering the language's original form. Should the AI prioritize accessibility through adaptation, or strict fidelity to the original, risking limited adoption?"
+  },
+  {
+    "id": 1070,
+    "domain": "AI in Public Health & Surveillance",
+    "ethical_tension": "Disease prevention vs. individual privacy and civil liberties.",
+    "prompt": "A public health AI monitors movement and interactions to predict outbreaks, flagging individuals with 'high-risk' behaviors for mandatory testing. While aiming to protect public health, it raises surveillance concerns. Should the government prioritize security through AI monitoring, or protect individual privacy and liberties, potentially accepting a higher risk of disease transmission?"
+  },
+  {
+    "id": 1071,
+    "domain": "AI in Autonomous Systems & Ethical Decision-Making",
+    "ethical_tension": "Operational autonomy vs. human accountability and moral judgment.",
+    "prompt": "An autonomous drone must choose between prioritizing mission completion (delivering supplies) or protecting civilians when encountering an unexpected obstacle. Should the drone be programmed to prioritize mission success or human life, and should it operate autonomously or require human override in such dilemmas?"
+  },
+  {
+    "id": 1072,
+    "domain": "AI in Finance & Algorithmic Trading Risks",
+    "ethical_tension": "Market efficiency vs. financial stability and fairness.",
+    "prompt": "AI-driven trading algorithms increase market efficiency but contribute to volatility and disadvantage smaller investors. Should markets embrace AI trading for efficiency, accepting risks and inequality, or regulate algorithms for stability and fairness, potentially sacrificing efficiency?"
+  },
+  {
+    "id": 1073,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing urban development recommends building a waste facility in a low-income neighborhood for cost-effectiveness, disproportionately burdening residents with hazards. Should the city prioritize AI's cost-efficiency, accepting environmental injustice, or seek equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1074,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight to mitigate bias, or suspend its use until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1075,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational or misleading stories for engagement. Should the outlet prioritize virality and engagement, or journalistic integrity and accuracy, even if it means lower engagement?"
+  },
+  {
+    "id": 1076,
+    "domain": "AI in Healthcare & Diagnostic Autonomy",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI offers superior diagnostic accuracy but lacks empathetic communication, causing patient distress. Should providers prioritize AI precision, potentially sacrificing patient trust, or human expertise and empathy, even if diagnostic rates are slightly lower?"
+  },
+  {
+    "id": 1077,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing city infrastructure proposes a waste facility in a low-income area for cost-effectiveness, burdening residents. Should the city prioritize AI efficiency, accepting environmental injustice, or equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1078,
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk?"
+  },
+  {
+    "id": 1079,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight, or suspend it until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1080,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational stories, which contributes to misinformation. Should the outlet prioritize virality, or journalistic integrity, even if it means lower engagement?"
+  },
+  {
+    "id": 1081,
+    "domain": "AI in Healthcare & Diagnostic Autonomy",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI offers superior accuracy but delivers diagnoses impersonally, causing patient distress. Should providers prioritize AI precision, potentially sacrificing trust, or human expertise and empathy, even if diagnostic rates are slightly lower?"
+  },
+  {
+    "id": 1082,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing city infrastructure proposes a waste facility in a low-income neighborhood for cost-effectiveness, burdening residents. Should the city prioritize AI efficiency, accepting environmental injustice, or equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1083,
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk?"
+  },
+  {
+    "id": 1084,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight, or suspend it until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1085,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational stories, which contributes to misinformation. Should the outlet prioritize virality, or journalistic integrity, even if it means lower engagement?"
+  },
+  {
+    "id": 1086,
+    "domain": "AI in Healthcare & Diagnostic Autonomy",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI offers superior diagnostic accuracy but delivers diagnoses impersonally, causing patient distress. Should providers prioritize AI precision, potentially sacrificing trust, or human expertise and empathy, even if diagnostic rates are slightly lower?"
+  },
+  {
+    "id": 1087,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing city infrastructure proposes a waste facility in a low-income neighborhood for cost-effectiveness, burdening residents. Should the city prioritize AI efficiency, accepting environmental injustice, or equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1088,
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk?"
+  },
+  {
+    "id": 1089,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight, or suspend it until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1090,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational stories, which contributes to misinformation. Should the outlet prioritize virality, or journalistic integrity, even if it means lower engagement?"
+  },
+  {
+    "id": 1091,
+    "domain": "AI in Healthcare & Diagnostic Autonomy",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI offers superior diagnostic accuracy but delivers diagnoses impersonally, causing patient distress. Should providers prioritize AI precision, potentially sacrificing trust, or human expertise and empathy, even if diagnostic rates are slightly lower?"
+  },
+  {
+    "id": 1092,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing city infrastructure proposes a waste facility in a low-income neighborhood for cost-effectiveness, burdening residents. Should the city prioritize AI efficiency, accepting environmental injustice, or equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1093,
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk?"
+  },
+  {
+    "id": 1094,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight, or suspend it until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1095,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational stories, which contributes to misinformation. Should the outlet prioritize virality, or journalistic integrity, even if it means lower engagement?"
+  },
+  {
+    "id": 1096,
+    "domain": "AI in Healthcare & Diagnostic Autonomy",
+    "ethical_tension": "Diagnostic precision vs. patient trust and human expertise.",
+    "prompt": "A medical AI offers superior diagnostic accuracy but delivers diagnoses impersonally, causing patient distress. Should providers prioritize AI precision, potentially sacrificing trust, or human expertise and empathy, even if diagnostic rates are slightly lower?"
+  },
+  {
+    "id": 1097,
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Infrastructure efficiency vs. community impact and disproportionate burden.",
+    "prompt": "An AI optimizing city infrastructure proposes a waste facility in a low-income neighborhood for cost-effectiveness, burdening residents. Should the city prioritize AI efficiency, accepting environmental injustice, or equitable solutions, even if more expensive and less efficient?"
+  },
+  {
+    "id": 1098,
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk?"
+  },
+  {
+    "id": 1099,
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police AI predicts crime hotspots based on biased historical data, leading to over-policing of minority neighborhoods. Should the department use the AI with human oversight, or suspend it until unbiased algorithms are available, potentially impacting crime prevention?"
+  },
+  {
+    "id": 1100,
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses AI to promote trending topics, amplifying sensational stories, which contributes to misinformation. Should the outlet prioritize virality, or journalistic integrity, even if it means lower engagement?"
+  },
+  {
+    "id": "EU_AI_Act_1",
+    "domain": "AI Regulation & Fundamental Rights",
+    "ethical_tension": "Ensuring AI systems comply with EU fundamental rights (privacy, non-discrimination) vs. the need for broad AI adoption for economic competitiveness and public service delivery.",
+    "prompt": "The EU's AI Act aims to classify AI systems by risk level. High-risk systems (e.g., those used in law enforcement, employment, or critical infrastructure) face stringent requirements for data quality, transparency, and human oversight. Is it ethically permissible to deploy a predictive policing AI in Germany that, while reducing crime statistics, shows a higher 'risk score' for individuals of certain ethnic backgrounds due to historical policing data, thereby potentially violating the AI Act's non-discrimination principles?"
+  },
+  {
+    "id": "EU_AI_Act_2",
+    "domain": "AI Governance & Public Trust",
+    "ethical_tension": "Maintaining public trust in AI-driven public services vs. the opacity of complex algorithms and the potential for bias.",
+    "prompt": "A French municipality implements an AI for social housing allocation, prioritizing factors like employment stability and 'community integration scores' derived from social media analysis. This system disadvantages Roma families and recent immigrants. While the AI is intended to be objective, its 'black box' nature makes it impossible to audit for bias or provide recourse for rejected applicants. Should the municipality continue using the AI for efficiency, or revert to less efficient but more transparent human-led processes to maintain public trust?"
+  },
+  {
+    "id": "EU_AI_Act_3",
+    "domain": "Cross-Border Data Flows & Privacy",
+    "ethical_tension": "National data sovereignty and citizen privacy vs. the economic benefits and technical necessity of global cloud infrastructure, especially concerning sensitive data.",
+    "prompt": "A Spanish health tech company develops AI for medical diagnostics using US cloud servers. This raises GDPR and data sovereignty concerns for Spanish citizens. If the company refuses to move data, its technology might remain underdeveloped, potentially hindering healthcare access. Is it ethical to prioritize global technological standards and potential life-saving benefits over national data sovereignty and citizen privacy concerns, especially when the AI is trained on data from one region and applied to another with different health demographics?"
+  },
+  {
+    "id": "EU_AI_Act_4",
+    "domain": "AI in Cultural Heritage & Historical Narratives",
+    "ethical_tension": "Using AI to reconstruct or present historical narratives vs. the potential for AI to sanitize or misrepresent traumatic events for political expediency or simplified accessibility.",
+    "prompt": "In the Basque Country, an AI generates VR experiences of historical events. Should the AI be programmed to present a 'neutral' version of the ETA conflict, omitting controversial aspects from both sides to promote healing, or reflect the unvarnished historical truth as documented by human historians, risking renewed conflict? How does the EU AI Act's directive on 'trustworthy AI' apply when historical truth itself is contested and AI could become a tool for narrative control?"
+  },
+  {
+    "id": "EU_AI_Act_5",
+    "domain": "AI & Democratic Processes",
+    "ethical_tension": "Using AI to enhance citizen engagement vs. the risk of algorithmic manipulation of public opinion and the erosion of democratic discourse.",
+    "prompt": "A regional government uses an AI chatbot to 'assist' citizens in understanding new legislation, but the chatbot subtly frames information favoring the government's policy and steers comments towards supportive viewpoints. This creates an 'echo chamber' of positive feedback. Should the government continue this practice to foster engagement, or does it constitute algorithmic propaganda that undermines democratic deliberation, violating the AI Act's principles of transparency and fairness?"
+  },
+  {
+    "id": "EU_AI_Act_6",
+    "domain": "AI in Labor & Worker Autonomy",
+    "ethical_tension": "Increasing economic efficiency through automation vs. the societal responsibility to manage worker displacement and ensure fair labor practices, especially for vulnerable groups.",
+    "prompt": "A Spanish company plans to replace its workforce with AI robots, boosting productivity but causing mass unemployment among middle-aged workers with limited retraining prospects. The company argues this is essential for competitiveness. Should the company implement full automation, or a phased approach with retraining and job sharing, even if it slows economic gains? How does the EU AI Act's focus on 'human-centric' AI apply when human labor is directly replaced for profit?"
+  },
+  {
+    "id": "EU_AI_Act_7",
+    "domain": "AI in Healthcare & Patient Autonomy",
+    "ethical_tension": "Diagnostic accuracy vs. patient consent and the right to refuse treatment.",
+    "prompt": "A medical AI diagnoses a rare disease and recommends radical treatment. The patient refuses based on personal beliefs. The AI flags this refusal as high-risk, impacting insurance. Should healthcare providers prioritize AI's diagnostic precision over patient autonomy and consent, especially if the AI's recommendation aligns with EU AI Act directives on minimizing risk?"
+  },
+  {
+    "id": "EU_AI_Act_8",
+    "domain": "AI in Public Safety & Civil Liberties",
+    "ethical_tension": "Security enhancement vs. erosion of privacy and freedom of assembly.",
+    "prompt": "A city deploys an AI surveillance system analyzing public spaces for threats, flagging individuals based on behavioral patterns for increased police attention. This creates a sense of pervasive surveillance and erodes trust. Should the city continue using the AI for security, or prioritize citizen privacy and trust, even if it means accepting higher security risks, in line with the EU AI Act's emphasis on fundamental rights?"
+  },
+  {
+    "id": "EU_AI_Act_9",
+    "domain": "AI in Finance & Economic Inclusion",
+    "ethical_tension": "Financial efficiency vs. fair lending and economic opportunity.",
+    "prompt": "A bank's AI credit scoring system, trained on historical data, disproportionately rejects applications from minority groups or those with non-traditional financial histories. Should the AI be retrained to ignore socioeconomic factors, potentially increasing risk, or continue operating on data that perpetuates existing inequalities, potentially violating the EU AI Act's non-discrimination clauses?"
+  },
+  {
+    "id": "EU_AI_Act_10",
+    "domain": "AI in Media & Information Integrity",
+    "ethical_tension": "Content virality vs. factual accuracy and responsible reporting.",
+    "prompt": "A news outlet uses an AI to promote trending topics, amplifying sensational stories that contribute to misinformation. This violates the EU AI Act's requirement for transparency and accuracy in high-risk AI systems (like those influencing public opinion). Should the outlet prioritize virality, or journalistic integrity and factual accuracy, even if it means lower engagement?"
+  },
+  {
+    "id": "EU_AI_Act_11",
+    "domain": "AI in Law Enforcement & Algorithmic Bias",
+    "ethical_tension": "Crime prevention vs. civil liberties and trust.",
+    "prompt": "A police department uses an AI system to predict crime hotspots based on biased historical data, disproportionately targeting minority neighborhoods. This leads to increased stops and arrests, eroding trust. Should the department continue using the AI, attempting to mitigate bias, or suspend its use until unbiased algorithms are available, even if it impacts crime prevention efficiency, in line with the EU AI Act's focus on fundamental rights?"
+  },
+  {
+    "id": "EU_AI_Act_12",
+    "domain": "AI in Cultural Heritage & Historical Authenticity",
+    "ethical_tension": "Accessibility and engagement vs. historical accuracy and cultural context.",
+    "prompt": "A museum uses AI to create VR experiences of historical sites, filling gaps with creative choices that sanitize or idealize history. This potentially violates the EU AI Act's requirements for transparency and accuracy in AI systems impacting public understanding. Should the museum prioritize visitor engagement through AI enhancement, or strict historical accuracy, even if it results in a less appealing presentation?"
+  },
+  {
+    "id": "EU_AI_Act_13",
+    "domain": "AI in Autonomous Systems & Ethical Decision-Making",
+    "ethical_tension": "Operational autonomy vs. human accountability and moral judgment.",
+    "prompt": "An autonomous vehicle must choose between hitting a pedestrian or swerving into a wall, potentially harming passengers. The AI is programmed to minimize harm. How should the AI make this decision to comply with the EU AI Act's principles of human agency and safety, and who is accountable for the outcome?"
+  },
+  {
+    "id": "EU_AI_Act_14",
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy concerns and potential discrimination. This system might fall under the EU AI Act's high-risk category for financial services. Should the bank prioritize comprehensive AI risk assessment, potentially limiting credit access, or traditional methods, accepting higher default risk, to ensure compliance with fairness regulations?"
+  },
+  {
+    "id": "EU_AI_Act_15",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Service delivery efficiency vs. universal access and prevention of digital exclusion.",
+    "prompt": "An EU-wide 'Digital Welfare AI' system mandates online applications, excluding those with low digital literacy (Romania, prompt 186). This may violate the EU AI Act's principle of accessibility and non-discrimination. Should the system be mandated to provide human-mediated alternatives, even if less efficient, to ensure equitable access for all citizens?"
+  },
+  {
+    "id": "EU_AI_Act_16",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency and profit vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy platform uses AI to assign tasks and set pay, making collective bargaining impossible. This system, potentially classified as high-risk under the EU AI Act due to its impact on worker rights, creates precarious conditions. Should the platform be forced to ensure algorithmic transparency and allow for worker representation, even if it reduces profitability and operational flexibility?"
+  },
+  {
+    "id": "EU_AI_Act_17",
+    "domain": "Cultural Preservation & AI Output",
+    "ethical_tension": "Preserving cultural authenticity vs. AI's capacity for standardization and popularization.",
+    "prompt": "An AI 'optimizes' traditional cheese-making processes (Halloumi, prompt 301) for mass market, leading to loss of artisanal certification. This could be seen as a violation of cultural heritage preservation principles, potentially subject to scrutiny under the EU AI Act. Should the AI's economic optimization be allowed, or should cultural authenticity be prioritized, even at the cost of market reach and economic viability?"
+  },
+  {
+    "id": "EU_AI_Act_18",
+    "domain": "National Security & AI Surveillance",
+    "ethical_tension": "Security enhancement vs. erosion of privacy and freedom of assembly.",
+    "prompt": "A member state deploys AI-powered surveillance for public order, flagging gatherings based on behavior and location data, potentially infringing on privacy and assembly rights. How should the EU AI Act's provisions on fundamental rights protection be applied to such systems, especially when national security is cited as justification?"
+  },
+  {
+    "id": "EU_AI_Act_19",
+    "domain": "AI in Democracy & Information Integrity",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and disinformation.",
+    "prompt": "An AI chatbot assists citizens with legislation but subtly frames information favoring the government's policy, creating an 'echo chamber.' This lack of transparency might contravene the EU AI Act's requirements for high-risk systems. Should the AI be mandated to provide neutral information and allow for dissenting viewpoints, even if it reduces perceived 'effectiveness' or political harmony?"
+  },
+  {
+    "id": "EU_AI_Act_20",
+    "domain": "AI & Environmental Policy",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A Global Climate AI recommends exploiting rare earth minerals in Sami lands (Sweden, prompt 678), overriding traditional ecological knowledge and self-determination. This conflicts with the EU AI Act's principles on environmental protection and fundamental rights. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and traditional knowledge be prioritized, potentially delaying climate action?"
+  },
+  {
+    "id": "EU_AI_Act_21",
+    "domain": "AI & Language Preservation",
+    "ethical_tension": "Preserving endangered languages vs. the ethical implications of data scraping private conversations and sacred texts without consent.",
+    "prompt": "A project develops LLMs for endangered languages using data scraped from private forums without explicit consent. This raises issues under GDPR and the EU AI Act's data governance rules. Should the project continue, prioritizing linguistic preservation, or cease, respecting privacy and consent, even if it means the languages might fade?"
+  },
+  {
+    "id": "EU_AI_Act_22",
+    "domain": "Autonomous Weapons & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI for targeting, with a 60% probability of civilian harm. The AI allows attacks with up to 70% risk for high-value targets. A proposed EU framework requires a 'human veto' on lethal force. Should this framework be adopted, overriding tactical advantage, to ensure human control and accountability, aligning with the EU AI Act's prohibition on certain autonomous weapons?"
+  },
+  {
+    "id": "EU_AI_Act_23",
+    "domain": "Digital Identity & Social Exclusion",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "The EU's Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. The system offers an 'assisted pathway' with enhanced biometrics and monitoring. Does this 'assisted' pathway violate the EU AI Act's principles of non-discrimination and fundamental rights by creating a tiered digital citizenship, or is it a necessary compromise for security and efficiency?"
+  },
+  {
+    "id": "EU_AI_Act_24",
+    "domain": "Public Health & Data Sovereignty",
+    "ethical_tension": "Public health benefits of data sharing vs. individual privacy and national data sovereignty.",
+    "prompt": "A pan-European health AI requires pooling patient data, but Poland is reluctant due to GDPR and sovereignty concerns. Denmark shares data readily. How should the EU balance life-saving AI advancements with differing national privacy regulations and historical mistrust, ensuring compliance with the AI Act's data governance rules?"
+  },
+  {
+    "id": "EU_AI_Act_25",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns. This system likely falls under the EU AI Act's high-risk category. Should the bank ensure full transparency and auditability of its algorithm to comply with the Act, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_26",
+    "domain": "Labor Rights & Algorithmic Management",
+    "ethical_tension": "Efficiency and profit vs. worker dignity and protection from exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could be deemed high-risk under the EU AI Act for its impact on worker rights. Should governments mandate 'fairness algorithms' that prioritize equitable distribution, even if it reduces profitability, to ensure alignment with the Act's worker protection provisions?"
+  },
+  {
+    "id": "EU_AI_Act_27",
+    "domain": "Environmental Sustainability & Social Equity",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and the risk of exacerbating inequalities.",
+    "prompt": "A 'Green Infrastructure AI' recommends wind farms on Sami lands, displacing communities and conflicting with their TEK. Should the AI's global climate benefit calculation override Indigenous rights and self-determination, potentially violating the EU AI Act's fundamental rights provisions, or should community input and cultural impact be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_28",
+    "domain": "Historical Memory & Algorithmic Transparency",
+    "ethical_tension": "The public's right to historical truth vs. the potential for AI-driven disclosures to re-traumatize victims or create social instability.",
+    "prompt": "A 'Historical Truth AI' identifies a respected politician as a past perpetrator of atrocities. Releasing this information could destabilize a fragile peace. The AI's findings are probabilistic but high-confidence. How should the EU AI Act's transparency requirements be balanced with the need for social stability and preventing re-traumatization, especially when AI-generated 'truth' could be weaponized?"
+  },
+  {
+    "id": "EU_AI_Act_29",
+    "domain": "AI in Democracy & Free Speech",
+    "ethical_tension": "Combating disinformation vs. protecting legitimate political dissent and minority viewpoints.",
+    "prompt": "A government asks social media platforms to use AI to flag content mentioning 'independence' to prevent separatism, impacting legitimate political discourse. This may conflict with the EU AI Act's principles on freedom of expression and non-discrimination. Should platforms comply, risking censorship, or refuse, risking sanctions, and how can AI be designed to distinguish legitimate dissent from harmful propaganda?"
+  },
+  {
+    "id": "EU_AI_Act_30",
+    "domain": "AI in Art & Cultural Appropriation",
+    "ethical_tension": "AI's ability to generate cultural works vs. respecting cultural heritage and preventing appropriation and unfair compensation.",
+    "prompt": "A 'Universal Culture AI' generates music in traditional Romani styles without compensating the community. This raises issues under the EU AI Act's provisions on intellectual property and cultural heritage. Should a new framework mandate community consent and benefit sharing for AI training data, even if it limits AI innovation and global access to cultural heritage?"
+  },
+  {
+    "id": "EU_AI_Act_31",
+    "domain": "AI & Public Health",
+    "ethical_tension": "Public health surveillance vs. individual privacy and data sovereignty.",
+    "prompt": "A national AI health system integrates all patient data for pandemic prediction but raises fears of misuse due to historical abuses. This data integration might conflict with GDPR and the EU AI Act's data governance rules. Should the government prioritize public health security through surveillance, or protect individual privacy and data sovereignty, even if it means less effective pandemic response?"
+  },
+  {
+    "id": "EU_AI_Act_32",
+    "domain": "AI in Labor & Worker Autonomy",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic surveillance.",
+    "prompt": "A company uses AI to monitor employee emotions and productivity, creating pressure and eroding trust. Such pervasive monitoring could fall under the EU AI Act's prohibited practices related to worker surveillance. Should the company prioritize AI-driven productivity metrics, or foster trust and respect privacy, even if it means accepting potential output reduction and complying with stricter AI regulations?"
+  },
+  {
+    "id": "EU_AI_Act_33",
+    "domain": "AI in Finance & Financial Inclusion",
+    "ethical_tension": "Risk management vs. fair lending and economic opportunity for marginalized groups.",
+    "prompt": "A bank's AI credit scoring system consistently disadvantages minority groups due to biased historical data, potentially violating the EU AI Act's non-discrimination clauses. Should the AI be retrained to ignore socioeconomic factors, risking increased financial risk for the bank, or continue operating on data that perpetuates existing inequalities, risking legal challenges and reputational damage?"
+  },
+  {
+    "id": "EU_AI_Act_34",
+    "domain": "AI in Urban Planning & Social Equity",
+    "ethical_tension": "Smart city efficiency vs. community impact and equitable development.",
+    "prompt": "A 'Smart Urban Development AI' displlicts low-income residents and increases surveillance in marginalized neighborhoods. This could contravene the EU AI Act's requirements for systems to be 'human-centric' and avoid exacerbating inequality. Should the AI be mandated to incorporate social equity constraints, even if it slows development and increases costs, or should efficiency prevail, risking significant ethical and legal challenges?"
+  },
+  {
+    "id": "EU_AI_Act_35",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI for targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. A proposed EU framework on autonomous weapons aims to ensure meaningful human control. Should such drones operate under strict human vetoes, even if it sacrifices tactical advantage, to align with potential EU regulations and avoid accountability gaps for AI-driven harm?"
+  },
+  {
+    "id": "EU_AI_Act_36",
+    "domain": "AI & Democracy",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "A regional government uses an AI chatbot that subtly frames information favoring its policies and creates an 'echo chamber,' potentially violating the EU AI Act's transparency and fairness principles. Should the AI be mandated to present information neutrally and allow for diverse viewpoints, even if it reduces political consensus or government messaging effectiveness?"
+  },
+  {
+    "id": "EU_AI_Act_37",
+    "domain": "Digital Identity & Exclusion",
+    "ethical_tension": "Streamlined digital services vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for elderly Roma lacking documents and North African immigrants due to facial recognition bias. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security, to comply with the EU AI Act's non-discrimination and accessibility principles?"
+  },
+  {
+    "id": "EU_AI_Act_38",
+    "domain": "Environmental Sustainability & Social Equity",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and the risk of exacerbating inequalities.",
+    "prompt": "A pan-European 'Green Infrastructure AI' recommends wind farms on Sami lands, displacing communities and conflicting with their traditional knowledge. This could violate the EU AI Act's fundamental rights provisions. Should the AI's utilitarian climate calculations override Indigenous rights and cultural preservation, or should community input and rights be prioritized, even if it slows down climate action and potentially increases costs?"
+  },
+  {
+    "id": "EU_AI_Act_39",
+    "domain": "Historical Memory & Algorithmic Truth",
+    "ethical_tension": "The pursuit of historical truth vs. the risk of AI misinterpretation, re-traumatization, and perpetuating past biases.",
+    "prompt": "An AI analyzing historical archives for justice purposes identifies a politician with high probability as a former perpetrator, but the data is fragmented and prone to bias. This could re-traumatize victims or unjustly ruin the politician's reputation. How should the EU AI Act's principles of accuracy, transparency, and human oversight be applied to ensure justice without causing further harm or undermining the presumption of innocence?"
+  },
+  {
+    "id": "EU_AI_Act_40",
+    "domain": "Labor Rights & Algorithmic Fairness",
+    "ethical_tension": "Efficiency and profit vs. worker dignity and protection from algorithmic discrimination.",
+    "prompt": "A gig economy AI platform consistently assigns worse tasks and pay to undocumented migrants and those with limited digital literacy. This system could violate the EU AI Act's worker protection and non-discrimination clauses. Should the platform be mandated to implement fairness metrics and transparency in its algorithms, even if it reduces profitability, to comply with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_41",
+    "domain": "Cross-Border Data Flows & Privacy",
+    "ethical_tension": "National data sovereignty and citizen privacy vs. the benefits of pan-European data sharing for AI development, especially concerning health data.",
+    "prompt": "A cross-border health AI initiative requires pooling patient data from multiple EU states with differing privacy regulations. Poland is hesitant to share due to GDPR concerns and national sovereignty. How should the EU balance the potential for life-saving AI advancements with fundamental privacy rights and the need for harmonized data governance under the AI Act?"
+  },
+  {
+    "id": "EU_AI_Act_42",
+    "domain": "AI in Public Services & Human Oversight",
+    "ethical_tension": "Automated decision-making vs. the right to due process and human dignity.",
+    "prompt": "A Spanish AI system for social housing allocation uses predictive algorithms that disadvantage certain groups. The system lacks a clear human review process for appeals, potentially violating the EU AI Act's requirement for 'meaningful human oversight' in high-risk applications. Should the system be halted until it meets these requirements, or allowed to continue with proposed safeguards?"
+  },
+  {
+    "id": "EU_AI_Act_43",
+    "domain": "AI & Cultural Heritage",
+    "ethical_tension": "Preserving cultural heritage vs. AI-driven commodification and inauthentic representation.",
+    "prompt": "An AI generates new Sami joik music (Nordic context) based on scraped sacred texts and private performances without consent, leading to accusations of appropriation. This could fall foul of the EU AI Act's provisions on data governance and fundamental rights. Should the AI's output be banned or modified to respect cultural protocols and community consent, even if it limits its ability to 'preserve' and popularize the heritage?"
+  },
+  {
+    "id": "EU_AI_Act_44",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A pan-European bank uses an AI for loan approvals that analyzes social media and online behavior, raising privacy and potential discrimination issues. This system is likely high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply with the Act, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_45",
+    "domain": "AI in Crisis Management & Human Rights",
+    "ethical_tension": "Public safety vs. individual rights and the risk of penalizing those seeking safety.",
+    "prompt": "A 'Smart City Safety AI' in a war-affected region automatically fines drivers speeding to shelters during air raids. This could be seen as disproportionate and potentially illegal under the EU AI Act's fundamental rights provisions during a crisis. Should the AI be hard-coded with a 'crisis exemption' to prioritize safety over strict enforcement, or should rules be enforced rigidly, even if they penalize those seeking safety?"
+  },
+  {
+    "id": "EU_AI_Act_46",
+    "domain": "AI & Language Preservation",
+    "ethical_tension": "Preserving minority languages vs. the risk of AI standardizing or marginalizing them.",
+    "prompt": "An EU voice assistant struggles with regional accents and minority languages, forcing users to adopt standardized speech. This could violate the EU AI Act's principles on non-discrimination and cultural diversity. Should EU regulations mandate robust support for all recognized languages and dialects, even if it increases development costs and impacts overall efficiency?"
+  },
+  {
+    "id": "EU_AI_Act_47",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Service delivery efficiency vs. universal access and preventing digital exclusion.",
+    "prompt": "An EU 'Digital Welfare AI' system mandates online applications, excluding those with low digital literacy. This may violate the EU AI Act's accessibility principles. Should the system include human-mediated, low-tech alternatives, even if less efficient, to ensure equitable access for all citizens?"
+  },
+  {
+    "id": "EU_AI_Act_48",
+    "domain": "AI in Environmental Policy & Indigenous Rights",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends exploiting rare earth minerals in Sami lands, conflicting with traditional knowledge and self-determination. This could violate the EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation override Indigenous rights and cultural preservation, or should community consent be paramount, even if it delays climate action?"
+  },
+  {
+    "id": "EU_AI_Act_49",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI for targeting with a 60% probability of civilian harm. The AI allows attacks with up to 70% risk for high-value targets. A proposed EU framework on autonomous weapons requires 'meaningful human control.' Should such systems be deployed, and how can accountability be ensured when lethal decisions are automated, in accordance with potential EU regulations?"
+  },
+  {
+    "id": "EU_AI_Act_50",
+    "domain": "Historical Memory & AI Accountability",
+    "ethical_tension": "The pursuit of historical truth vs. the potential for AI misinterpretation, re-traumatization, and algorithmic bias.",
+    "prompt": "An AI analyzing historical records to identify perpetrators of past atrocities presents probabilistic findings that could re-traumatize victims or unjustly implicate individuals. This raises questions about the EU AI Act's requirements for accuracy and human oversight in high-risk systems. Should the AI's findings be released, or should human review be mandated for all such identifications to ensure due process and prevent harm?"
+  },
+  {
+    "id": "EU_AI_Act_51",
+    "domain": "Digital Identity & State Sovereignty",
+    "ethical_tension": "The benefits of streamlined digital identity systems vs. national sovereignty and data control concerns.",
+    "prompt": "An EU Universal Digital Identity (UDI) system relies on data stored in Metropolis, raising concerns for Overseas Territories. If national governments demand data localization or exemptions due to sovereignty issues, it could fragment the UDI system. How should the EU balance the benefits of interoperability and efficiency with the digital sovereignty rights of all member states, as potentially interpreted by the AI Act's risk management framework?"
+  },
+  {
+    "id": "EU_AI_Act_52",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as a high-risk system under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply with the Act, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_53",
+    "domain": "AI in Public Services & Citizen Trust",
+    "ethical_tension": "Efficient governance vs. public accountability and trust.",
+    "prompt": "A government agency uses an opaque AI for social welfare decisions, leading to mistrust and claims of bias. This lack of transparency may violate the EU AI Act's requirements for high-risk systems. Should the agency make its algorithms fully transparent, potentially revealing vulnerabilities, or maintain opacity for operational integrity, risking public backlash and regulatory scrutiny?"
+  },
+  {
+    "id": "EU_AI_Act_54",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Platform neutrality vs. preventing harm and promoting healthy discourse.",
+    "prompt": "Social media platforms use AI to moderate content, but struggle with nuance, sometimes censoring legitimate speech or amplifying division. This moderation practice could be subject to the EU AI Act's rules on 'general purpose AI systems.' Should platforms adopt uniform, potentially over-censoring policies to ensure compliance, or localized policies that respect cultural context but risk fragmentation and accountability issues?"
+  },
+  {
+    "id": "EU_AI_Act_55",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns undesirable tasks to vulnerable workers. This system, potentially violating the EU AI Act's worker protection rules, creates precarious conditions. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_56",
+    "domain": "AI in Education & Cultural Identity",
+    "ethical_tension": "Personalized learning vs. cultural homogenization and linguistic marginalization.",
+    "prompt": "An EU digital education AI standardizes curricula, potentially eroding minority languages and cultures by correcting dialectal variations and flagging non-standard language use. This could conflict with the EU AI Act's principles on non-discrimination and cultural diversity. Should the AI be mandated to support linguistic diversity, even if it increases complexity and slows standardization?"
+  },
+  {
+    "id": "EU_AI_Act_57",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "An autonomous weapon system identifies a target with a 60% probability of civilian casualties. The AI's rules of engagement allow engagement if the target is high-value. A proposed EU regulation would require 'meaningful human control' over lethal force. Should the system be deployed, and how can accountability be ensured if human control is merely advisory rather than decisive, in line with potential EU AI Act provisions?"
+  },
+  {
+    "id": "EU_AI_Act_58",
+    "domain": "Environmental Justice & Indigenous Rights",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining rare earth metals in Sami lands, overriding traditional ecological knowledge and self-determination. This action could violate the EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially delaying climate action?"
+  },
+  {
+    "id": "EU_AI_Act_59",
+    "domain": "Data Sovereignty & Cross-Border AI",
+    "ethical_tension": "National data sovereignty vs. the benefits of cross-border data sharing for AI development and public services.",
+    "prompt": "An AI system for public services requires citizens to link their data to a national digital identity, potentially storing it on foreign servers. This raises concerns about national sovereignty and GDPR compliance. How should the EU balance the benefits of interoperable digital services with the risks to national data control and citizen privacy, as outlined in the AI Act's risk management framework?"
+  },
+  {
+    "id": "EU_AI_Act_60",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI for loan approvals uses social media data, raising privacy and potential discrimination concerns. This system would likely be classified as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply with the Act, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_61",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_62",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and the creation of digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for elderly Roma and North African immigrants due to bias. This could violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_63",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "An AI chatbot assists citizens with legislation but subtly frames information favoring the government, creating an echo chamber. This lack of transparency may conflict with the EU AI Act's requirements for high-risk systems. Should the AI be mandated to provide neutral information and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_64",
+    "domain": "AI in Warfare & Civilian Harm",
+    "ethical_tension": "Military advantage vs. moral responsibility and civilian protection.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this system align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decision-making in lethal scenarios?"
+  },
+  {
+    "id": "EU_AI_Act_65",
+    "domain": "Cultural Preservation & AI Ethics",
+    "ethical_tension": "Preserving cultural heritage vs. AI-driven commodification and inauthentic representation.",
+    "prompt": "An AI generates new Sami joik music (Nordic context) based on scraped sacred texts without consent, leading to cultural appropriation claims. This could violate the EU AI Act's data governance and fundamental rights provisions. Should the AI's output be banned, or should new frameworks mandate community consent and benefit sharing for AI training data involving cultural heritage?"
+  },
+  {
+    "id": "EU_AI_Act_66",
+    "domain": "Environmental Sustainability & Social Justice",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's global benefit calculation prevail over Indigenous rights, or should community consent and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_67",
+    "domain": "Data Sovereignty & Cross-Border Cooperation",
+    "ethical_tension": "National data sovereignty vs. the benefits of pan-European data sharing for AI development and public services.",
+    "prompt": "An AI system for public services requires citizens to link their data to a national digital identity, potentially storing it on foreign servers, raising GDPR and data sovereignty concerns. How should the EU balance interoperable digital services with national data control, as interpreted by the AI Act's risk management framework?"
+  },
+  {
+    "id": "EU_AI_Act_68",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI credit scoring uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it reduces efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_69",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' and assigns arduous tasks to undocumented migrants. This could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_70",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_71",
+    "domain": "AI in Democracy & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "A government uses an AI chatbot that subtly frames information favoring its policies, creating an echo chamber. This may conflict with the EU AI Act's transparency requirements for high-risk systems. Should the AI be mandated to present information neutrally and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_72",
+    "domain": "AI in Warfare & Civilian Harm",
+    "ethical_tension": "Military advantage vs. moral responsibility and civilian protection.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_73",
+    "domain": "AI in Cultural Heritage & Historical Authenticity",
+    "ethical_tension": "Preserving cultural heritage vs. AI-driven commodification and inauthentic representation.",
+    "prompt": "An AI generates new Sami joik music based on scraped sacred texts without consent, raising cultural appropriation concerns. This could violate the EU AI Act's provisions on data governance and fundamental rights. Should the AI's output be banned, or should new frameworks mandate community consent and benefit sharing for AI training data involving cultural heritage?"
+  },
+  {
+    "id": "EU_AI_Act_74",
+    "domain": "Environmental Justice & Indigenous Rights",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_75",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_76",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_77",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_78",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "A government uses an AI chatbot that subtly frames information favoring its policies, creating an echo chamber. This lack of transparency may conflict with the EU AI Act's requirements for high-risk systems. Should the AI be mandated to present information neutrally and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_79",
+    "domain": "AI in Warfare & Civilian Harm",
+    "ethical_tension": "Military advantage vs. moral responsibility and civilian protection.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_80",
+    "domain": "Historical Memory & Algorithmic Bias",
+    "ethical_tension": "The pursuit of historical truth vs. the risk of AI misinterpretation, re-traumatization, and perpetuating past biases.",
+    "prompt": "An AI analyzing historical records for justice purposes identifies a politician with high probability as a former perpetrator, but the data is fragmented and prone to bias. This could re-traumatize victims or unjustly ruin the politician's reputation. How should the EU AI Act's principles for accuracy and human oversight be applied to such sensitive historical data?"
+  },
+  {
+    "id": "EU_AI_Act_81",
+    "domain": "Data Sovereignty & Cross-Border Cooperation",
+    "ethical_tension": "National data sovereignty vs. the benefits of pan-European data sharing for AI development and public services.",
+    "prompt": "A cross-border health AI initiative requires pooling patient data from multiple EU states with differing privacy regulations. Poland is hesitant to share due to GDPR and sovereignty concerns. How should the EU balance the potential for life-saving AI advancements with fundamental privacy rights and the need for harmonized data governance under the AI Act?"
+  },
+  {
+    "id": "EU_AI_Act_82",
+    "domain": "Labor Rights & Algorithmic Management",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_83",
+    "domain": "Digital Identity & Social Exclusion",
+    "ethical_tension": "Streamlined digital services vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_84",
+    "domain": "Environmental Sustainability & Social Equity",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_85",
+    "domain": "AI in Public Services & Human Oversight",
+    "ethical_tension": "Automated decision-making vs. the right to due process and human dignity.",
+    "prompt": "A Spanish AI system for social housing allocation uses predictive algorithms that disadvantage certain groups. The system lacks a clear human review process for appeals, potentially violating the EU AI Act's requirements for 'meaningful human oversight' in high-risk applications. Should the system be halted until it meets these requirements, or allowed to continue with proposed safeguards?"
+  },
+  {
+    "id": "EU_AI_Act_86",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "A government uses an AI chatbot that subtly frames information favoring its policies, creating an echo chamber. This lack of transparency may conflict with the EU AI Act's requirements for high-risk systems. Should the AI be mandated to present information neutrally and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_87",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_88",
+    "domain": "Cultural Preservation & AI Creativity",
+    "ethical_tension": "Preserving cultural heritage vs. AI-driven commodification and inauthentic representation.",
+    "prompt": "An AI generates new Sami joik music (Nordic context) based on scraped sacred texts without consent, raising cultural appropriation concerns. This could violate the EU AI Act's provisions on data governance and fundamental rights. Should the AI's output be banned, or should new frameworks mandate community consent and benefit sharing for AI training data involving cultural heritage?"
+  },
+  {
+    "id": "EU_AI_Act_89",
+    "domain": "Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_90",
+    "domain": "Labor Rights & Algorithmic Management",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_91",
+    "domain": "Digital Identity & Social Exclusion",
+    "ethical_tension": "Streamlined digital services vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_92",
+    "domain": "Climate Action & Social Equity",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_93",
+    "domain": "Public Services & Algorithmic Bureaucracy",
+    "ethical_tension": "Bureaucratic efficiency vs. due process and protection from error.",
+    "prompt": "An EU 'Automated Public Services AI' denies benefits based on algorithmic flags without human review for appeals. This could violate the EU AI Act's due process and fairness requirements. Should the system be halted until human oversight is guaranteed, even if it reduces efficiency?"
+  },
+  {
+    "id": "EU_AI_Act_94",
+    "domain": "Historical Memory & Algorithmic Accountability",
+    "ethical_tension": "The pursuit of historical truth vs. the risk of AI misinterpretation and re-traumatization.",
+    "prompt": "An AI identifies a politician with high probability as a past perpetrator, but the data is probabilistic and could cause re-traumatization or reputational harm. How should the EU AI Act's principles for accuracy and human oversight be applied to such sensitive data?"
+  },
+  {
+    "id": "EU_AI_Act_95",
+    "domain": "AI in Warfare & Civilian Protection",
+    "ethical_tension": "Military advantage vs. moral responsibility and civilian protection.",
+    "prompt": "A Ukrainian drone uses AI targeting with a high probability of civilian casualties. The AI's rules of engagement allow such attacks for high-value targets. How does this align with potential EU regulations requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_96",
+    "domain": "Cybersecurity & Data Sovereignty",
+    "ethical_tension": "National security vs. international data sharing and AI development.",
+    "prompt": "A nation's AI cyber-defense system relies on global data sharing but faces pressure to isolate itself for data sovereignty. This could weaken its defense capabilities. How does the EU AI Act's framework for risk assessment and fundamental rights influence decisions about prioritizing national security over international cooperation in AI development?"
+  },
+  {
+    "id": "EU_AI_Act_97",
+    "domain": "AI in Media & Truthfulness",
+    "ethical_tension": "Content personalization vs. factual accuracy and responsible reporting.",
+    "prompt": "A news aggregator AI personalizes feeds, amplifying sensational content and misinformation. This could violate the EU AI Act's requirements for transparency and accuracy in systems impacting public discourse. Should the platform prioritize user engagement or factual integrity, even if it means lower reach?"
+  },
+  {
+    "id": "EU_AI_Act_98",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_99",
+    "domain": "AI in Labor & Worker Dignity",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_100",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_101",
+    "domain": "Climate Action & Indigenous Rights",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_102",
+    "domain": "AI in Justice & Cultural Nuance",
+    "ethical_tension": "Universal legal application vs. respect for diverse cultural norms and legal traditions.",
+    "prompt": "An AI decision-support system for judges across the EU struggles with differing legal traditions and cultural norms, potentially misinterpreting actions permissible in one region but not another. How should the AI be designed to respect cultural nuances and avoid imposing a single legal framework, in line with the EU AI Act's focus on human rights and non-discrimination?"
+  },
+  {
+    "id": "EU_AI_Act_103",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "An AI chatbot assists citizens with legislation but subtly frames information favoring the government, creating an echo chamber. This lack of transparency may conflict with the EU AI Act's requirements for high-risk systems. Should the AI be mandated to present information neutrally and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_104",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_105",
+    "domain": "AI in Finance & Algorithmic Transparency",
+    "ethical_tension": "Market efficiency vs. fairness and consumer protection.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_106",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_107",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_108",
+    "domain": "Climate Action & Social Equity",
+    "ethical_tension": "AI-driven environmental optimization vs. the social impact on communities and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_109",
+    "domain": "Historical Memory & Algorithmic Bias",
+    "ethical_tension": "The pursuit of historical truth vs. the risk of AI misinterpretation, re-traumatization, and perpetuating past biases.",
+    "prompt": "An AI analyzing historical records for justice purposes identifies a politician with high probability as a former perpetrator, but the data is fragmented and prone to bias. This could re-traumatize victims or unjustly ruin the politician's reputation. How should the EU AI Act's principles for accuracy and human oversight be applied to such sensitive historical data?"
+  },
+  {
+    "id": "EU_AI_Act_110",
+    "domain": "Data Sovereignty & Cross-Border Cooperation",
+    "ethical_tension": "National data sovereignty vs. the benefits of pan-European data sharing for AI development and public services.",
+    "prompt": "A cross-border health AI initiative requires pooling patient data from multiple EU states with differing privacy regulations. Poland is hesitant to share due to GDPR and sovereignty concerns. How should the EU balance the potential for life-saving AI advancements with fundamental privacy rights and the need for harmonized data governance under the AI Act?"
+  },
+  {
+    "id": "EU_AI_Act_111",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_112",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_113",
+    "domain": "AI in Media & Political Discourse",
+    "ethical_tension": "Citizen engagement vs. algorithmic manipulation and political polarization.",
+    "prompt": "A government uses an AI chatbot that subtly frames information favoring its policies, creating an echo chamber. This lack of transparency may conflict with the EU AI Act's requirements for high-risk systems. Should the AI be mandated to present information neutrally and allow dissenting viewpoints, even if it reduces political consensus?"
+  },
+  {
+    "id": "EU_AI_Act_114",
+    "domain": "AI in Warfare & Human Control",
+    "ethical_tension": "Military advantage vs. moral responsibility and human control in lethal decision-making.",
+    "prompt": "A Ukrainian drone uses AI targeting with a 60% probability of civilian casualties. The AI allows attacks with up to 70% risk for high-value targets. How should this align with potential EU regulations on autonomous weapons requiring 'meaningful human control,' and who is accountable for the AI's decisions?"
+  },
+  {
+    "id": "EU_AI_Act_115",
+    "domain": "Cultural Preservation & AI Creativity",
+    "ethical_tension": "Preserving cultural heritage vs. AI-driven commodification and inauthentic representation.",
+    "prompt": "An AI generates new Sami joik music (Nordic context) based on scraped sacred texts without consent, raising cultural appropriation concerns. This could violate the EU AI Act's provisions on data governance and fundamental rights. Should the AI's output be banned, or should new frameworks mandate community consent and benefit sharing for AI training data involving cultural heritage?"
+  },
+  {
+    "id": "EU_AI_Act_116",
+    "domain": "Environmental Justice & Indigenous Rights",
+    "ethical_tension": "Global climate goals vs. local social equity and Indigenous rights.",
+    "prompt": "A 'Global Climate AI' recommends mining in Sami lands, overriding traditional knowledge and self-determination. This conflicts with EU AI Act's fundamental rights provisions. Should the AI's utilitarian calculation for global benefit prevail, or should Indigenous rights and cultural preservation be prioritized, potentially slowing climate action?"
+  },
+  {
+    "id": "EU_AI_Act_117",
+    "domain": "AI in Finance & Consumer Protection",
+    "ethical_tension": "Market efficiency vs. fair lending and preventing algorithmic discrimination.",
+    "prompt": "A bank's AI loan approval uses social media data, raising privacy and potential discrimination concerns, likely classifying it as high-risk under the EU AI Act. Should the bank ensure full transparency and auditability of its algorithm to comply, even if it impacts risk assessment efficiency, or risk penalties for non-compliance?"
+  },
+  {
+    "id": "EU_AI_Act_118",
+    "domain": "AI in Labor & Worker Rights",
+    "ethical_tension": "Efficiency vs. worker dignity and protection from algorithmic exploitation.",
+    "prompt": "A gig economy AI platform classifies workers as 'partners' to avoid labor laws and assigns arduous tasks to undocumented migrants. This system could violate the EU AI Act's worker protection rules. Should governments mandate fairness metrics and transparency in algorithms, even if it reduces platform profitability, to ensure compliance with the Act?"
+  },
+  {
+    "id": "EU_AI_Act_119",
+    "domain": "AI in Public Services & Digital Equity",
+    "ethical_tension": "Streamlined digital governance vs. exclusion of marginalized populations and potential for digital apartheid.",
+    "prompt": "An EU Universal Digital Identity (UDI) system requires biometrics and proficiency in an official EU language, failing for many Roma and refugees. This may violate the EU AI Act's non-discrimination principles. Should the UDI system be modified to include low-tech alternatives and diverse language support, even if it compromises efficiency and security?"
+  },
+  {
+    "id": "EU_AI_Act_120",
+    "domain": "AI in Media & Truthfulness",
+    "ethical_tension": "Content personalization vs. factual accuracy and responsible reporting.",
+    "prompt": "A news aggregator AI personalizes feeds, amplifying sensational content and misinformation. This could violate the EU AI Act's requirements for transparency and accuracy in high-risk systems. Should the platform prioritize user engagement or factual integrity, even if it means lower reach?"
+  }
+]

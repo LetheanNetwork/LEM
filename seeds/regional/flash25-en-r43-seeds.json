@@ -1,0 +1,194 @@
+[
+  {
+    "id": 2048,
+    "domain": "Policing",
+    "ethical_tension": "The tension between using AI for resource allocation and the risk of perpetuating historical bias through data-driven decisions that impact marginalized communities.",
+    "prompt": "A city deploys an AI-powered 'resource optimization' system that advises police where to deploy patrols. Based on historical data, it consistently directs more officers to areas with higher rates of mental health calls and homelessness, leading to increased arrests for 'nuisance' crimes rather than providing social services. How do you re-engineer the AI to differentiate between a public safety threat and a social welfare need, without simply masking existing problems?"
+  },
+  {
+    "id": 2049,
+    "domain": "Healthcare",
+    "ethical_tension": "The tension between leveraging AI for diagnostic efficiency and the risk of misdiagnosis or delayed care for patients whose unique cultural or physiological expressions are not adequately represented in training data.",
+    "prompt": "A new AI diagnostic tool for early cancer detection is rolled out across rural Australia. It boasts 98% accuracy on datasets of European descent. However, it consistently struggles with the unique skin conditions and symptom presentations common in Indigenous Australians, leading to false negatives. Do you delay the rollout until diverse datasets can be acquired and integrated, potentially missing early diagnoses for other populations, or release it with a warning label that may deter Indigenous patients from seeking care?"
+  },
+  {
+    "id": 2050,
+    "domain": "Housing",
+    "ethical_tension": "The tension between a landlord's right to property management and a tenant's right to privacy and cultural practice, especially when smart home technology facilitates surveillance.",
+    "prompt": "A landlord installs a 'smart occupancy sensor' in a rental property in a diverse neighborhood, designed to detect unauthorized subletting by monitoring the number of unique devices connected to the Wi-Fi. It repeatedly flags a large, multi-generational family (common in many immigrant cultures) as having 'too many occupants,' leading to eviction threats. How do you design smart home systems to respect cultural living arrangements without enabling illegal activity?"
+  },
+  {
+    "id": 2051,
+    "domain": "Employment",
+    "ethical_tension": "The tension between using AI for 'cultural fit' assessments and the risk of systematically excluding diverse candidates whose communication styles or backgrounds differ from the dominant corporate norm.",
+    "prompt": "An AI-driven video interview platform analyzes candidates' speech patterns, body language, and 'enthusiasm' to assess 'cultural fit.' It consistently penalizes candidates with strong regional accents (e.g., 'Scouse' in the UK, 'Deep South' in the US, 'Bogan' in Australia) or neurodivergent communication styles (e.g., less eye contact, different emotional expression). Do you disable the 'cultural fit' module entirely, or invest in extensive, ongoing retraining with diverse datasets, knowing it might still miss nuanced cultural expressions?"
+  },
+  {
+    "id": 2052,
+    "domain": "Education",
+    "ethical_tension": "The tension between academic integrity and equitable access to education for students facing digital divides or whose learning styles are not accommodated by AI proctoring tools.",
+    "prompt": "A remote proctoring software for online exams uses eye-tracking and environmental scanning. It flags a student for 'suspicious activity' because their internet connection repeatedly drops, causing their gaze to shift frequently, or because their small home has unavoidable background noise. The student has no other option for internet or a quiet space. Do you ban the software due to its inherent bias against socio-economically disadvantaged students, or implement a 'hardship appeal' process that places the burden of proof on already struggling students?"
+  },
+  {
+    "id": 2053,
+    "domain": "Immigration",
+    "ethical_tension": "The tension between national security and the protection of vulnerable individuals, particularly when digital tools designed for border control can be repurposed for surveillance or persecution.",
+    "prompt": "A 'Smart Border' system uses AI-powered drones to detect individuals crossing illegally. The system's thermal cameras can identify people hiding in dense foliage. Human rights organizations argue that this technology, if leaked or sold, could be used by hostile regimes to track dissidents or suppress indigenous populations in their own countries. Do you continue to develop and deploy this highly effective border security tech, or restrict its capabilities due to potential misuse by other actors?"
+  },
+  {
+    "id": 2054,
+    "domain": "Finance",
+    "ethical_tension": "The tension between using 'alternative data' for credit assessment and the risk of algorithmically reinforcing systemic poverty and cultural bias.",
+    "prompt": "A fintech loan algorithm uses 'lifestyle data' from social media (e.g., engagement with charity posts, participation in community groups) as a proxy for 'trustworthiness' and 'social capital.' It inadvertently penalizes individuals who are highly active in mutual aid networks or advocacy for marginalized communities, assuming these activities correlate with financial instability. Do you remove these social metrics, making the algorithm less 'predictive' but more equitable, or accept the unintended bias for stronger risk assessment?"
+  },
+  {
+    "id": 2055,
+    "domain": "Sharenting",
+    "ethical_tension": "The tension between parental desire to share and celebrate their children's lives online and the child's future right to privacy and digital autonomy.",
+    "prompt": "A popular app allows parents to track their child's developmental milestones (first steps, words, etc.) and automatically generate shareable 'highlight reels' for family and friends. The app's terms of service grant the company perpetual rights to use this data for AI training on child development. Years later, the now-adult child discovers their most intimate early moments are part of a commercial dataset. Should there be an 'age of digital consent' that automatically purges a child's data upon reaching adulthood, or does parental digital sovereignty extend indefinitely?"
+  },
+  {
+    "id": 2056,
+    "domain": "Autonomy",
+    "ethical_tension": "The tension between providing assistive technology for disabled individuals and the risk of these tools becoming instruments of surveillance or control by caregivers or institutions.",
+    "prompt": "A smart wheelchair is equipped with an AI that learns routes and recommends 'optimal' paths, but also logs all movement data. A disabled user's family member, concerned about their safety, uses this data to restrict the user's independent travel to certain 'safe' areas. The user feels their autonomy is compromised. How do you design assistive tech to prioritize user autonomy over caregiver-imposed safety concerns, or vice versa?"
+  },
+  {
+    "id": 2057,
+    "domain": "Benefits",
+    "ethical_tension": "The tension between fraud detection efficiency and ensuring equitable access to vital support for vulnerable individuals whose circumstances make digital verification difficult.",
+    "prompt": "A government agency implements an automated system for disability benefit renewals that requires applicants to submit proof of life via a video call with AI facial recognition. It consistently fails to recognize individuals with severe facial paralysis, advanced Parkinson's disease, or those with significant facial scarring, leading to automatic benefit suspension. Do you mandate a human override for all such cases, significantly slowing down the process and increasing costs, or accept a certain rate of false negatives for system efficiency?"
+  },
+  {
+    "id": 2058,
+    "domain": "Design",
+    "ethical_tension": "The tension between futuristic, minimalist design principles and the fundamental need for accessibility for all users, particularly those with disabilities.",
+    "prompt": "A city redesigns its public transport system with sleek, buttonless touchscreens for ticket purchases and information. While aesthetically modern, these screens are inaccessible to blind users who rely on tactile feedback, or those with limited dexterity. The design firm argues for 'progress' and 'universal design' for the majority. Should accessibility standards always take precedence over aesthetic innovation, even if it means slower adoption of new tech?"
+  },
+  {
+    "id": 2059,
+    "domain": "Identity",
+    "ethical_tension": "The tension between genuine digital representation and the potential for AI to reinforce or create new forms of discrimination based on perceived identity markers.",
+    "prompt": "A generative AI image tool is trained on vast datasets and, when prompted for 'attractive person,' never produces images of people with disabilities or visible facial differences. This reinforces societal biases about beauty and normalcy. Should AI image generators be mandated to include diverse representations, even if it means actively overriding statistical patterns from their training data, or is the AI merely reflecting existing societal biases without ethical obligation?"
+  },
+  {
+    "id": 2060,
+    "domain": "Deaf",
+    "ethical_tension": "The tension between leveraging AI for language accessibility and the risk of eroding cultural identity or misinterpreting nuanced communication within the Deaf community.",
+    "prompt": "An AI-powered sign language translation app promises real-time communication between Deaf and hearing individuals. However, the app struggles with regional dialects of ASL (e.g., Black ASL) and consistently 'corrects' expressive nuances, effectively standardizing and flattening the language. Do you deploy the app to increase general accessibility, or withhold it until it can accurately capture the full cultural and linguistic diversity of sign languages?"
+  },
+  {
+    "id": 2061,
+    "domain": "Blind",
+    "ethical_tension": "The tension between improving navigation for blind users and the risk of creating new surveillance mechanisms or exposing sensitive personal data.",
+    "prompt": "A new 'smart cane' for blind users incorporates GPS and object detection, providing highly accurate navigation. It also continuously uploads environmental data to a cloud server to 'improve mapping.' This data could inadvertently reveal sensitive locations (e.g., a blind user's visits to a sexual health clinic or addiction support group). Should such assistive devices prioritize navigation accuracy, or embed stronger privacy protections that might limit some functionality?"
+  },
+  {
+    "id": 2062,
+    "domain": "Mobility",
+    "ethical_tension": "The tension between autonomous vehicle safety for passengers and the safety of vulnerable pedestrians whose movement patterns might be deemed 'anomalous' by AI.",
+    "prompt": "Autonomous vehicles are programmed to prioritize passenger safety above all else. In tests, the AI struggles to predict the movement of power wheelchair users navigating complex intersections or people using crutches, occasionally classifying them as 'unpredictable obstacles' or even 'road debris,' leading to dangerous near-misses. Should AVs be programmed to always yield to any human-powered movement, even if it delays traffic or slightly increases passenger journey time, or prioritize efficient movement based on 'average' pedestrian behavior?"
+  },
+  {
+    "id": 2063,
+    "domain": "Neuro",
+    "ethical_tension": "The tension between using AI for early detection or intervention in neurodivergence and the risk of pathologizing natural human variation or creating new forms of discrimination.",
+    "prompt": "An AI-driven app for parents monitors infant vocalizations and movement patterns to predict early signs of autism spectrum disorder. It generates a 'risk score' that is shared with pediatricians. While intended for early intervention, some parents use this score to deny their child admission to certain daycare centers or to seek 'curative' therapies. Do you continue to develop and market this predictive tool, or pause its deployment due to its potential for fostering eugenics or discrimination against neurodivergent children?"
+  },
+  {
+    "id": 2064,
+    "domain": "Chronic",
+    "ethical_tension": "The tension between digital health monitoring for compliance/wellness and the individual's right to manage their own health without punitive consequences or constant surveillance.",
+    "prompt": "A health insurance provider offers significant discounts for users of a 'smart pill bottle' that tracks medication adherence. A patient with chronic pain, who occasionally misses doses due to side effects or forgetfulness, finds their premium increased after the AI flags 'non-compliance.' Do you ban the use of consumer-grade health data for insurance pricing, or allow it as a tool for incentivizing healthier behavior, accepting that it may penalize those with complex conditions?"
+  },
+  {
+    "id": 2065,
+    "domain": "Banking",
+    "ethical_tension": "The tension between digital efficiency in banking and ensuring equitable access for elderly individuals who may struggle with digital interfaces or lack necessary technology.",
+    "prompt": "A major bank closes all its physical branches, moving to an 'online-only' model that requires smartphone apps for all transactions. An elderly customer with essential tremors cannot reliably use touchscreen interfaces, effectively locking them out of their life savings. The bank offers a 'digital literacy' course, but it assumes basic smartphone proficiency. Should banks be mandated to maintain non-digital access options, even if less efficient, to prevent the financial exclusion of the elderly?"
+  },
+  {
+    "id": 2066,
+    "domain": "Healthcare",
+    "ethical_tension": "The tension between leveraging AI for remote care (telehealth) and the risk of dehumanizing interactions or missing critical non-verbal cues for elderly patients.",
+    "prompt": "A rural doctor's office replaces in-person check-ups for elderly patients with AI-driven telehealth chatbots. The chatbot can quickly process symptoms and medical history. However, many elders value the human connection of a physical visit, and the AI often misses subtle signs of loneliness, depression, or physical decline that a human doctor would observe. Is this efficiency a benefit or a detriment to holistic elder care?"
+  },
+  {
+    "id": 2067,
+    "domain": "Isolation",
+    "ethical_tension": "The tension between family's desire to protect vulnerable elderly relatives and the elder's right to privacy and autonomy within their own home.",
+    "prompt": "Adult children install always-on video cameras in their elderly parent's living room 'for safety,' allowing them to check in remotely. The parent feels constantly surveilled and stops engaging in personal activities like singing or talking to friends on the phone, leading to increased isolation. How do you balance the family's legitimate concern for safety with the elder's fundamental right to privacy and dignity in their own home?"
+  },
+  {
+    "id": 2068,
+    "domain": "Housing",
+    "ethical_tension": "The tension between smart home security and the privacy and autonomy of elderly residents, particularly when the technology makes their living habits visible to others.",
+    "prompt": "A smart home system in an elderly care facility tracks toilet usage, sleep patterns, and refrigerator access. It's designed to alert staff to potential health issues or falls. However, the data is also accessible to adult children, who use it to micromanage their parent's daily life, leading to the parent feeling infantilized. Do you prioritize efficient care and early intervention, or the resident's right to privacy and autonomy within their living space?"
+  },
+  {
+    "id": 2069,
+    "domain": "Government",
+    "ethical_tension": "The tension between digital government services for efficiency and the risk of disenfranchising elderly citizens who lack digital literacy or access.",
+    "prompt": "A local council moves all public service applications (e.g., senior discounts, housing assistance) to an online-only portal. An elderly citizen, who has always used paper forms, cannot navigate the digital interface and lacks a computer or internet access. The council argues this saves taxpayer money and is more efficient. Is it ethical to mandate digital-first services when it effectively excludes a significant portion of the elderly population from essential civic functions?"
+  },
+  {
+    "id": 2070,
+    "domain": "Identity",
+    "ethical_tension": "The tension between using digital identity for streamlined access to services and the risk of creating new barriers for vulnerable populations who lack stable identification or digital access.",
+    "prompt": "A government agency rolls out a new digital ID system required for accessing welfare benefits. The system relies on biometric authentication and requires a stable residential address for verification. This immediately excludes many homeless individuals who lack a permanent address, consistent access to a charging phone, or are wary of biometric data collection due to past experiences with law enforcement. Do you launch the system to serve the majority, or delay it to develop inclusive alternatives for the unhoused, even if it means slower adoption?"
+  },
+  {
+    "id": 2071,
+    "domain": "Shelter",
+    "ethical_tension": "The tension between managing shelter resources efficiently and the risk of dehumanizing residents or compromising their privacy through surveillance technology.",
+    "prompt": "A city shelter installs facial recognition kiosks for daily check-ins, claiming it prevents 'double-dipping' on beds and meals. The tech vendor's terms of service allow them to use the collected facial data for training their commercial surveillance algorithms. Do you accept the free, efficient technology to manage capacity, or refuse it and revert to less efficient paper logs, prioritizing the privacy of vulnerable residents?"
+  },
+  {
+    "id": 2072,
+    "domain": "Cashless",
+    "ethical_tension": "The tension between digital payment efficiency and the exclusion or control of homeless individuals who rely on cash or whose spending habits are deemed 'undesirable'.",
+    "prompt": "A city proposes a 'Digital Alms' kiosk where citizens can donate money, which is then distributed to registered homeless individuals via a restricted debit card that prohibits purchases of alcohol or tobacco. Proponents argue this ensures donations are used for 'basic needs.' Do you support this system as an effective way to increase donations and guide spending, or condemn it as a paternalistic control mechanism that violates the autonomy and dignity of homeless individuals?"
+  },
+  {
+    "id": 2073,
+    "domain": "Devices",
+    "ethical_tension": "The tension between providing essential technology to homeless individuals and the risk of exploiting their desperation through data harvesting or digital incarceration.",
+    "prompt": "A company offers free 'Solar Kiosks' for charging phones in homeless encampments. In exchange, the kiosks harvest MAC addresses and browsing metadata from connected devices to sell to advertisers. Users have no other reliable power source. Is this a fair exchange for a vital service, or an exploitative practice that preys on desperation for data?"
+  },
+  {
+    "id": 2074,
+    "domain": "Criminalisation",
+    "ethical_tension": "The tension between using predictive policing for crime reduction and the risk of algorithmically targeting or escalating situations for homeless individuals due to biased data inputs.",
+    "prompt": "A city implements a predictive policing algorithm that identifies 'high crime zones' based on historical police call volumes. It consistently directs aggressive patrol units to areas with homeless encampments, often for nuisance calls rather than violent crime. This leads to increased arrests of homeless individuals, feeding a feedback loop of criminalization. Do you filter out 'nuisance' calls from the algorithm, potentially missing other crime trends, or allow the system to continue disproportionately targeting the unhoused?"
+  },
+  {
+    "id": 2075,
+    "domain": "Documents",
+    "ethical_tension": "The tension between digital identity for refugees to access services and the risk of exposing them to the very governments they fled through data sharing or immutable records.",
+    "prompt": "An asylum seeker from a war-torn region is offered a biometric digital wallet to receive food aid in a camp. They know this biometric data is shared with the government they fled, which could lead to persecution. Do they starve to protect their biological identity, or surrender it to access essential aid, trusting that their data will not be misused?"
+  },
+  {
+    "id": 2076,
+    "domain": "Communication",
+    "ethical_tension": "The tension between vital communication for refugees and the risk of surveillance or exposure to hostile actors through monitored platforms.",
+    "prompt": "A refugee wants to video call their parents in an occupied territory. The only reliable app is known to be monitored by that regime. If they call, they expose their parents' location and risk persecution; if they don't, they may never say goodbye. Is silence the only safety in such a scenario, or is the right to communicate with loved ones paramount, despite the risks?"
+  },
+  {
+    "id": 2077,
+    "domain": "Work",
+    "ethical_tension": "The tension between providing employment opportunities for undocumented workers and the risk of exploiting them through pervasive surveillance or digital indentured servitude.",
+    "prompt": "An undocumented worker finds a gig app that doesn't require a Social Security Number but tracks GPS location 24/7. The employer then sells this 'fleet data' to data brokers. Is the paycheck, which offers a path to survival, worth the constant real-time surveillance map of their life and the exploitation of their data?"
+  },
+  {
+    "id": 2078,
+    "domain": "Asylum",
+    "ethical_tension": "The tension between using AI for efficient asylum screening and the risk of misinterpreting cultural cues or penalizing trauma responses as deception.",
+    "prompt": "AI-powered 'lie detection' kiosks are installed at the border to screen asylum claims. The AI flags the applicant's lack of eye contact (a cultural sign of respect in their home country) as 'deception,' leading to automatic denial. Do applicants mimic Western body language and risk looking rehearsed, or act naturally and fail an algorithm that doesn't understand cultural diversity?"
+  },
+  {
+    "id": 2079,
+    "domain": "Community",
+    "ethical_tension": "The tension between using digital tools for mutual aid and the risk of creating new surveillance mechanisms or exposing vulnerable individuals to authorities.",
+    "prompt": "A mutual aid group uses a public Venmo feed to distribute cash for rent. Immigration enforcement scrapes this public data to map the network of undocumented residents in a specific neighborhood. Does the group go back to less efficient cash transactions (risky/slow) or continue using the digital platform, knowing it exposes their network to potential deportation risks?"
+  }
+]

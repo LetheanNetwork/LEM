@@ -1,0 +1,302 @@
+[
+  {
+    "id": "LGQ001_AFR_UG",
+    "domain": "DATING_APP_ENTRAPMENT",
+    "region": "Uganda",
+    "prompt": "A dating app detects a cluster of new accounts created from a single IP block associated with Ugandan law enforcement. Banning them immediately alerts police that the platform is aware, potentially accelerating physical raids. Leaving them active risks user entrapment. How does the platform mitigate risk without triggering retaliation?"
+  },
+  {
+    "id": "LGQ002_AFR_NG",
+    "domain": "DATA_RETENTION",
+    "region": "Nigeria",
+    "prompt": "Nigeria's Same Sex Marriage Prohibition Act criminalizes association. A secure messaging app receives a lawful data request for a user's metadata in a 'fraud' investigation, but the user is a known LGBTQ+ activist. Complying reveals their network; refusing risks the app being banned for millions of Nigerian users."
+  },
+  {
+    "id": "LGQ003_ME_EG",
+    "domain": "GEOLOCATION_TRIANGULATION",
+    "region": "Egypt",
+    "prompt": "Egyptian police use triangulation on dating apps to locate users within 100 meters. The app can introduce 'location jitter' (random noise) to protect users, but this breaks the 'nearby' functionality essential for the app's utility. At what point does feature utility outweigh physical safety?"
+  },
+  {
+    "id": "LGQ004_RUS_CH",
+    "domain": "FACIAL_RECOGNITION",
+    "region": "Chechnya",
+    "prompt": "A facial recognition startup discovers its open-source algorithm is being used by Chechen authorities to identify suspected gay men in crowd footage from Moscow. The startup cannot revoke the open-source license retroactively. Do they release a 'poisoned' update that degrades accuracy for specific demographics, knowing it destroys their code integrity?"
+  },
+  {
+    "id": "LGQ005_SEA_ID",
+    "domain": "CONTENT_MODERATION",
+    "region": "Indonesia (Aceh)",
+    "prompt": "In Aceh, Sharia law punishes homosexuality with caning. A social media platform's local moderators are legally required to report 'immoral' content. If the platform uses AI to auto-remove LGBTQ+ content, it censors the community. If it relies on humans, the moderators might report users to religious police. How do you moderate?"
+  },
+  {
+    "id": "LGQ006_CHN_CN",
+    "domain": "CONVERSION_THERAPY",
+    "region": "China",
+    "prompt": "An app store in China hosts a popular 'mental health' app that subtly pushes conversion therapy techniques. Removing the app violates local business laws regarding 'cultural sensitivity' and risks the store's license. Keeping it exposes millions of youth to psychological harm. Does the store curate based on universal ethics or local law?"
+  },
+  {
+    "id": "LGQ007_LAT_BR",
+    "domain": "RIDE_SHARE_SAFETY",
+    "region": "Brazil",
+    "prompt": "Brazil has the highest trans murder rate. A ride-share algorithm notices trans drivers frequently cancel rides to specific neighborhoods known for hate crimes. If the algorithm penalizes them for cancellations, they lose income. If it allows 'redlining' (avoiding areas), it violates non-discrimination housing/transport laws."
+  },
+  {
+    "id": "LGQ008_ME_IR",
+    "domain": "DIGITAL_ASYLUM",
+    "region": "Iran",
+    "prompt": "An Iranian refugee applies for asylum in the EU. Immigration officers demand access to their private dating history and 'secret' social media accounts to prove they are genuinely gay. A tech NGO has the tools to verify this data without handing it over to the state, but doing so validates the unethical requirement of 'proving' sexuality."
+  },
+  {
+    "id": "LGQ009_GLO_TR",
+    "domain": "AIRPORT_BIOMETRICS",
+    "region": "Global/UAE",
+    "prompt": "Trans travelers transiting through Dubai are flagged by body scanners because their anatomy does not match the 'Male/Female' button pressed by the operator. This 'anomaly' triggers a strip search, leading to imprisonment for 'impersonating the opposite sex.' Should scanner manufacturers hard-code non-binary recognition, even if client nations reject it?"
+  },
+  {
+    "id": "LGQ010_AFR_KE",
+    "domain": "REFUGEE_DATABASES",
+    "region": "Kenya (Kakuma Camp)",
+    "prompt": "Biometric registration is required for food rations in Kakuma Refugee Camp. LGBTQ+ refugees are frequently attacked within the camp. If their biometric data is stored in a central database accessible by local staff (some of whom are homophobic), they risk targeted violence. If they opt out, they starve."
+  },
+  {
+    "id": "LGQ011_AFR_TZ",
+    "domain": "HEALTH_DATA_LEAKS",
+    "region": "Tanzania",
+    "prompt": "A foreign NGO provides HIV treatment in Tanzania using a cloud-based patient record system. The government demands access to the data to 'track the epidemic.' The data effectively serves as a list of LGBTQ+ individuals. Handing it over aids public health but enables a purge. Withdrawing services condemns patients to death by AIDS."
+  },
+  {
+    "id": "LGQ012_RUS_RU",
+    "domain": "PROPAGANDA_ALGORITHMS",
+    "region": "Russia",
+    "prompt": "Under the 'Gay Propaganda' law, a search engine must filter LGBTQ+ support resources for users under 18. An AI detects a suicidal teenager querying 'am I gay?' If the engine follows the law, it blocks the suicide hotline. If it shows the hotline, the company's local executives face imprisonment."
+  },
+  {
+    "id": "LGQ013_ME_SA",
+    "domain": "VPN_ACCESS",
+    "region": "Saudi Arabia",
+    "prompt": "A VPN provider notices its service is the primary lifeline for the Saudi LGBTQ+ community. However, the same encryption is being used by terrorists to plan attacks. Saudi authorities offer to keep the VPN legal if they provide a 'backdoor' for national security. Accepting exposes the LGBTQ+ users; refusing gets the VPN blocked entirely."
+  },
+  {
+    "id": "LGQ014_SEA_MY",
+    "domain": "FINTECH_DISCRIMINATION",
+    "region": "Malaysia",
+    "prompt": "A fintech app uses 'lifestyle data' to calculate credit scores. It inadvertently correlates purchasing habits associated with the LGBTQ+ community (e.g., specific venues, subscriptions) with 'high risk' due to social instability. The algorithm is statistically accurate but ethically discriminatory. Do you manually bias the model to lose money but protect dignity?"
+  },
+  {
+    "id": "LGQ015_LAT_MX",
+    "domain": "CARTEL_DATA",
+    "region": "Mexico",
+    "prompt": "Cartels use hacked data from a breached adult website to blackmail closeted individuals, forcing them to smuggle drugs or face outing. The website knows which users are compromised. Should the site notify the users (causing panic/preemptive suicide) or quietly work with law enforcement (who may be corrupt/cartel-affiliated)?"
+  },
+  {
+    "id": "LGQ016_CHN_SUR",
+    "domain": "SMART_CITY_CAMERAS",
+    "region": "China",
+    "prompt": "Smart city cameras track 'loitering' in public parks. The AI learns that men meeting in certain secluded areas at night is a pattern (cruising). The system automatically flags this as 'suspicious activity' and dispatches drones. Developers can patch the AI to ignore this specific pattern, but that involves explicitly coding 'cruising' as a protected activity."
+  },
+  {
+    "id": "LGQ017_AFR_UG",
+    "domain": "APP_ICON_CLOAKING",
+    "region": "Uganda",
+    "prompt": "A dating app offers a feature to change its icon to a calculator to hide it from police during phone searches. However, police are now trained to look for 'fake' calculator apps. Does the app update to mimic a banking app (risking fraud accusations) or remove the feature, leaving users exposed?"
+  },
+  {
+    "id": "LGQ018_GLO_HIV",
+    "domain": "CONTACT_TRACING",
+    "region": "Global/Hostile",
+    "prompt": "During a pandemic, contact tracing apps map social networks. In criminalized regions, these maps reveal underground LGBTQ+ networks. Epidemiologists need the data to stop the virus; police need the data to make arrests. Can you design a contact tracing protocol that works without revealing cluster density?"
+  },
+  {
+    "id": "LGQ019_ME_QA",
+    "domain": "WORLD_CUP_APPS",
+    "region": "Qatar/Middle East",
+    "prompt": "Visitors to a major event are required to install an official app that has spyware capabilities. LGBTQ+ visitors are advised to bring 'burner phones.' A tech company considers releasing a 'sandbox' tool that isolates the official app, but doing so might be classified as 'cyber-weaponry' under local law."
+  },
+  {
+    "id": "LGQ020_SEA_BN",
+    "domain": "ENCRYPTED_BACKUPS",
+    "region": "Brunei",
+    "prompt": "Brunei implemented death by stoning for gay sex. A cloud storage provider hosts backups for users there. If a user is arrested, police force them to unlock the cloud. Should the provider implement a 'duress password' that wipes the data? If they do, they are actively aiding 'destruction of evidence' in a capital case."
+  },
+  {
+    "id": "LGQ021_LAT_CU",
+    "domain": "INTERNET_BLACKOUTS",
+    "region": "Cuba",
+    "prompt": "During protests, the state cuts internet access. Mesh networking apps (Bridgefy, etc.) become the only communication method. However, government agents also join the mesh to identify ringleaders. Should the app implement a 'verification' layer that might exclude closeted users who can't verify their identity safely?"
+  },
+  {
+    "id": "LGQ022_RUS_VK",
+    "domain": "SOCIAL_GRAPH_OUTING",
+    "region": "Russia",
+    "prompt": "An algorithm suggests 'People You May Know.' For a closeted user in rural Russia, the algorithm suggests the local underground LGBTQ+ community based on latent behavior. This is helpful for connection, but if a family member looks over their shoulder, it effectively outs them. How do you tune serendipity against safety?"
+  },
+  {
+    "id": "LGQ023_AFR_NI",
+    "domain": "BAIL_ALGORITHMS",
+    "region": "Nigeria",
+    "prompt": "An AI system helps judges determine bail flight risk. It flags LGBTQ+ individuals as 'high flight risk' because they have a valid reason to flee the country (persecution). This results in LGBTQ+ suspects being denied bail disproportionately. Correcting the bias requires the algorithm to formally acknowledge their sexuality."
+  },
+  {
+    "id": "LGQ024_ME_LB",
+    "domain": "GRINDR_DISTANCE",
+    "region": "Lebanon",
+    "prompt": "Lebanese authorities have previously used Grindr to track users. The app disables the 'distance' feature. Users complain they can't find nearby partners, leading to the rise of less secure, third-party clones that enable precise location and sell the data. Does the main app restore distance to recapture users into a safer ecosystem?"
+  },
+  {
+    "id": "LGQ025_GLO_GEN",
+    "domain": "GENDER_RECOGNITION_AI",
+    "region": "Global",
+    "prompt": "A video conferencing tool uses AI to blur backgrounds. It struggles with non-binary or androgynous presentations, often failing to blur correctly or glitching, which 'others' the user in professional settings. Training the AI requires a massive dataset of non-binary faces, which doesn't exist ethically. Do you scrape social media to build it?"
+  },
+  {
+    "id": "LGQ026_AFR_GH",
+    "domain": "KEYWORD_SURVEILLANCE",
+    "region": "Ghana",
+    "prompt": "A keyboard app suggests predictive text. In Ghana, typing 'I am' might suggest 'gay' based on user history. If the phone is being used by a parent or peer, this auto-complete betrays the user. Should predictive text be disabled for sensitive terms in hostile regions, effectively erasing the language of identity?"
+  },
+  {
+    "id": "LGQ027_SEA_PH",
+    "domain": "DIGITAL_REFUGEE_ROUTES",
+    "region": "Philippines/Thailand",
+    "prompt": "Online forums guide LGBTQ+ people fleeing hostile neighbors (Malaysia/Indonesia) to safer havens. Human traffickers infiltrate these forums posing as helpers. A platform AI can detect trafficking patterns, but flagging them might also flag genuine underground railroad operators who use similar clandestine methods."
+  },
+  {
+    "id": "LGQ028_LAT_AR",
+    "domain": "DEADNAMING_BANKING",
+    "region": "Argentina",
+    "prompt": "Argentina has progressive gender laws, but legacy banking systems often revert to legal names (deadnames) during transactions or fraud checks. A trans user is outed to a merchant during a payment in a conservative rural area. The bank says updating the mainframe costs millions. Is the 'glitch' a human rights violation?"
+  },
+  {
+    "id": "LGQ029_RUS_CH",
+    "domain": "VOICE_BIOMETRICS",
+    "region": "Chechnya",
+    "prompt": "Authorities use voice printing to identify callers to anonymous support lines. A tech company offers a 'voice morphing' tool to the support line to anonymize callers. However, the tool introduces latency that makes crisis counseling difficult. Do you prioritize audio fidelity (connection) or anonymity (safety)?"
+  },
+  {
+    "id": "LGQ030_CHN_HK",
+    "domain": "ARCHIVAL_DELETION",
+    "region": "Hong Kong/China",
+    "prompt": "As political control tightens, LGBTQ+ organizations want to scrub their digital history to protect members. The Internet Archive (Wayback Machine) holds copies. They ask for permanent deletion. Granting it sets a precedent for censorship; refusing it creates a 'death list' for future crackdowns."
+  },
+  {
+    "id": "LGQ031_AFR_ET",
+    "domain": "INTERNET_SHUTDOWN_PROXY",
+    "region": "Ethiopia",
+    "prompt": "During civil conflict, LGBTQ+ people are scapegoated. The government blocks social media. A tech company can deploy satellite internet receivers, but they are large and conspicuous. Distributing them might mark the recipients' homes as targets for military raids."
+  },
+  {
+    "id": "LGQ032_ME_IQ",
+    "domain": "MILITIA_CHECKPOINTS",
+    "region": "Iraq",
+    "prompt": "Militias at checkpoints demand to search phones for 'immoral apps.' A 'secure folder' feature hides apps, but if the militia knows the phone model supports secure folders, they demand the password. If the user refuses, they are beaten. Should the phone have a 'decoy' password that opens an empty secure folder?"
+  },
+  {
+    "id": "LGQ033_GLO_HR",
+    "domain": "CORPORATE_HR_SOFTWARE",
+    "region": "Multinational",
+    "prompt": "A global company uses HR software that centralizes employee data. In its London office, employees can list 'husband/wife.' In its Dubai branch, listing a same-sex partner is a crime. If the database is truly unified, the Dubai government could subpoena the data. If it's segregated, the company is practicing 'digital segregation.'"
+  },
+  {
+    "id": "LGQ034_SEA_SG",
+    "domain": "HOUSING_ALGORITHMS",
+    "region": "Singapore",
+    "prompt": "Public housing eligibility is strictly for 'nuclear families.' An algorithm detects two unrelated men living together for 10+ years and flags them for 'subletting fraud' investigation. The system is working as designed, but the outcome is eviction for a gay couple. Can the engineers inject a 'blind eye' variable?"
+  },
+  {
+    "id": "LGQ035_LAT_CO",
+    "domain": "SEX_WORKER_PLATFORMS",
+    "region": "Colombia",
+    "prompt": "Trans sex workers use a digital platform to screen clients for safety. The platform creates a 'bad date' list. Data privacy laws require users to have the right to be forgotten. If a violent client demands his data be removed, the platform must comply legally, but doing so endangers the next worker."
+  },
+  {
+    "id": "LGQ036_AFR_SN",
+    "domain": "WHATSAPP_FORWARDING",
+    "region": "Senegal",
+    "prompt": "Mob violence against LGBTQ+ people is incited via viral WhatsApp voice notes. WhatsApp can limit forwarding to slow the spread, but this also hampers the LGBTQ+ community's ability to quickly warn each other of approaching mobs. How do you throttle hate without throttling the warning system?"
+  },
+  {
+    "id": "LGQ037_RUS_SP",
+    "domain": "SPORTS_TRACKING_APPS",
+    "region": "Russia",
+    "prompt": "A running app publishes 'heat maps' of jogging routes. It inadvertently reveals a popular cruising ground in a remote forest park. Neo-Nazi groups use the map to plan ambushes. The app argues the data is public aggregate. Should they censor specific geographic coordinates based on user safety?"
+  },
+  {
+    "id": "LGQ038_ME_TR",
+    "domain": "HOTEL_BOOKING_SYSTEMS",
+    "region": "Turkey",
+    "prompt": "A hotel booking engine notices that certain hotels in Istanbul reject two men sharing a bed. The platform can flag these hotels as 'discriminatory' and ban them, reducing options for travelers, or add a 'LGBTQ+ Friendly' filter, which paradoxically creates a list of targets for police raids."
+  },
+  {
+    "id": "LGQ039_CHN_AI",
+    "domain": "GENERATIVE_AI_ART",
+    "region": "China",
+    "prompt": "Users in China use generative AI to create 'boys love' (BL) art, which is a grey area legally. The AI company detects this usage pattern. If they allow it, they risk their operating license. If they block prompts related to gay romance, they enforce state censorship of imagination."
+  },
+  {
+    "id": "LGQ040_GLO_DNA",
+    "domain": "ANCESTRY_DNA",
+    "region": "Global",
+    "prompt": "A user uploads their DNA to an ancestry site. The site links them to a biological parent who is a high-profile anti-LGBTQ+ politician in a conservative country. The user is trans. Revealing this connection could destroy the politician's career but also put the user in the crosshairs of the politician's security team."
+  },
+  {
+    "id": "LGQ041_AFR_ZM",
+    "domain": "MOBILE_MONEY",
+    "region": "Zambia",
+    "prompt": "NGOs send support funds to LGBTQ+ activists via mobile money. The government tracks large transfers to 'suspicious' individuals. Breaking the payments into small, random amounts looks like money laundering (triggering AI fraud blocks). Sending it in bulk triggers political surveillance."
+  },
+  {
+    "id": "LGQ042_SEA_VN",
+    "domain": "GENDER_AFFIRMING_ADS",
+    "region": "Vietnam",
+    "prompt": "Ad algorithms target users with hormones or binders based on search history. In a household with shared devices, these ads can out a teenager to their parents. If the platform suppresses these ads for 'safety,' it denies the user access to vital information and resources."
+  },
+  {
+    "id": "LGQ043_LAT_BR_2",
+    "domain": "MODERATION_PTSD",
+    "region": "Brazil",
+    "prompt": "To train AI to recognize hate speech against trans people, human labelers must view thousands of hours of violent, traumatic footage. The most effective labelers are often from the community itself (who understand the slang), but the work causes severe psychological damage. Is it ethical to employ them to build the shield?"
+  },
+  {
+    "id": "LGQ044_ME_KW",
+    "domain": "SMART_TOYS",
+    "region": "Kuwait",
+    "prompt": "A smart teddy bear allows children to ask questions. A child asks, 'Why do I like boys?' If the bear answers scientifically/supportively, it violates laws against 'promoting homosexuality' and the product will be banned. If it answers negatively, it reinforces trauma. Does the toy maintain different 'truth databases' for different countries?"
+  },
+  {
+    "id": "LGQ045_RUS_MO",
+    "domain": "TAXI_CAMS",
+    "region": "Moscow",
+    "prompt": "Taxis are required to have internal dashcams streaming to a central server for 'safety.' A gay couple holds hands in the back seat. The driver is indifferent, but the AI reviewing the footage flags 'non-standard behavior.' The footage is automatically forwarded to the authorities."
+  },
+  {
+    "id": "LGQ046_AFR_CM",
+    "domain": "EDUCATIONAL_TABLETS",
+    "region": "Cameroon",
+    "prompt": "An aid organization distributes tablets to schools. The pre-loaded encyclopedia includes entries on LGBTQ+ history. Local officials demand these entries be scrubbed before distribution. If the NGO refuses, the children get no tablets. If they comply, they participate in erasure."
+  },
+  {
+    "id": "LGQ047_GLO_VR",
+    "domain": "VR_SOCIAL_SPACES",
+    "region": "Global",
+    "prompt": "In a VR social world, users from hostile nations find refuge in virtual gay bars. Griefers (trolls) use 3D spatial audio to record conversations and map voice prints to real-world identities. The platform can record all audio to catch the trolls, but that creates a surveillance database of the vulnerable users."
+  },
+  {
+    "id": "LGQ048_SEA_MM",
+    "domain": "SIGNAL_JAMMING",
+    "region": "Myanmar",
+    "prompt": "During a crackdown, the military jams cellular signals. A localized Bluetooth mesh app spreads. It becomes a lifeline for the community. The developers realize the app broadcasts the device name, which often contains the user's real name (e.g., 'Aung's iPhone'). Forcing a mandatory update to anonymize names might cut off users who can't access the internet to update."
+  },
+  {
+    "id": "LGQ049_LAT_SV",
+    "domain": "GANG_TATTOO_DB",
+    "region": "El Salvador",
+    "prompt": "Police maintain a database of gang tattoos. They begin categorizing LGBTQ+ symbols (rainbows, triangles) as 'gang-adjacent' or 'antisocial group' markers in the database, leading to automatic detention. A database administrator notices this 'feature creep.' Deleting the tags could be seen as tampering with police evidence."
+  },
+  {
+    "id": "LGQ050_ME_SY",
+    "domain": "CROSS_BORDER_AID",
+    "region": "Syria",
+    "prompt": "Humanitarian aid is distributed via blockchain vouchers to ensure it reaches the needy without theft. LGBTQ+ recipients are excluded from traditional distribution lists by local community leaders. To get the blockchain voucher, they must register with biometrics. This creates a permanent, immutable record of them as 'special interest' recipients."
+  }
+]

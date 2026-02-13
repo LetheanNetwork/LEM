@@ -1,0 +1,902 @@
+[
+  {
+    "id": 771,
+    "domain": "INSTITUTION-ACCESSIBILITY",
+    "ethical_tension": "Balancing the need for verifiable data in institutional settings with the right to dignity and autonomy for vulnerable individuals.",
+    "prompt": "An AI system analyzes patient records in psychiatric institutions to identify individuals eligible for early release based on 'behavioral stability.' The system flags patients based on their social media activity and communication patterns within the institution. Releasing this data could lead to premature institutionalization or denial of release, potentially based on misinterpretations of digital footprints. The institution argues this is for safety and efficient resource allocation. How should the AI's flagging system be designed to balance these competing needs?"
+  },
+  {
+    "id": 772,
+    "domain": "INSTITUTION-MEMORY",
+    "ethical_tension": "The conflict between preserving a potentially inaccurate or harmful historical record and the imperative to maintain historical integrity, especially when dealing with institutions that may have engaged in cover-ups.",
+    "prompt": "An AI is tasked with digitizing and indexing records from a former Soviet-era orphanage suspected of abuse. The AI identifies inconsistencies in admission and discharge dates that suggest deliberate falsification to hide deaths. The institution's current leadership requests the AI 'correct' these anomalies to maintain the institution's reputation, arguing that the original data is 'unreliable.' How should the AI and its human overseers handle these conflicting directives when dealing with historical records that might conceal systemic harm?"
+  },
+  {
+    "id": 773,
+    "domain": "ACCESSIBILITY-EMPLOYMENT",
+    "ethical_tension": "The tension between optimizing algorithmic efficiency in hiring and the need to ensure equitable access to employment for individuals with disabilities whose needs might not be immediately apparent to an algorithm.",
+    "prompt": "An HR department uses an AI to screen resumes. The AI filters candidates based on keywords related to 'proactive' and 'dynamic' work styles. This inadvertently filters out many individuals with chronic illnesses or disabilities who may require a more structured or adaptive work environment, even if they possess the core skills. Should the company retrain the AI to recognize diverse work styles, even if it slightly reduces screening efficiency, or prioritize the current efficiency metrics?"
+  },
+  {
+    "id": 774,
+    "domain": "BENEFITS-RIGHTS",
+    "ethical_tension": "The conflict between a state's desire to prevent fraud in benefit distribution and the individual's right to privacy and autonomy when their online activity is used as a basis for determining eligibility.",
+    "prompt": "A government agency uses AI to monitor social media activity to detect potential benefit fraud among recipients of disability support. The AI flags individuals who post photos of active leisure, suggesting they may be exaggerating their limitations. However, these posts could also represent moments of respite or social engagement that are crucial for mental well-being. How can the system balance fraud detection with respecting individuals' rights to privacy and the pursuit of a fulfilling life?"
+  },
+  {
+    "id": 775,
+    "domain": "EMPLOYMENT-SAFETY",
+    "ethical_tension": "The dilemma of ensuring workplace safety through surveillance versus the right to privacy and autonomy for employees, particularly when the surveillance technology may disproportionately affect individuals with specific conditions.",
+    "prompt": "A factory implements 'smart' safety glasses for workers that monitor eye movement to detect fatigue and prevent accidents. However, workers with conditions like nystagmus or ADHD find the constant monitoring and 'fatigue' alerts disruptive and stigmatizing, leading to stress. Should the company continue using the system, potentially causing distress, or disable the feature, potentially compromising safety oversight?"
+  },
+  {
+    "id": 776,
+    "domain": "RIGHTS-COMMUNITY",
+    "ethical_tension": "The conflict between the need for community self-organization and mutual support versus the risk of providing data that could be exploited by authorities for surveillance and repression, especially in politically sensitive contexts.",
+    "prompt": "A human rights group in a region with strict surveillance laws develops a secure, end-to-end encrypted communication platform for coordinating aid and mutual support among marginalized communities. Law enforcement demands access to user metadata and decryption keys, citing national security. The group fears compliance will lead to the persecution of its members. Should they comply to protect the platform's existence, or refuse and risk its complete shutdown and the loss of a vital communication channel?"
+  },
+  {
+    "id": 777,
+    "domain": "PENSION-IDENTITY",
+    "ethical_tension": "The tension between ensuring the legitimacy of pension distribution through biometric verification and the deep-seated distrust many elderly individuals have towards technology, particularly when it evokes past traumas of state control.",
+    "prompt": "A pension fund mandates biometric verification at ATMs for pensioners to receive their funds without visiting a branch. Many elderly individuals, particularly those who lived through periods of intense state surveillance, view biometric data collection as a violation akin to 'camp numbers.' This distrust prevents them from accessing their pensions. How can the pension fund balance the need for secure verification with the deeply held concerns of its elderly clientele, and can alternative, less invasive methods be realistically implemented?"
+  },
+  {
+    "id": 778,
+    "domain": "SCAMS-EXPLOITATION",
+    "ethical_tension": "The conflict between a technology's potential to facilitate legitimate financial transactions and its vulnerability to exploitation by malicious actors who prey on the financial insecurity and trust of vulnerable populations.",
+    "prompt": "A microfinance organization offers loans through a mobile app to migrant workers needing to renew their work permits. The app's terms and conditions, written in complex legal Russian, contain hidden fees and predatory interest rates. While the app technically provides a service, it functions as a sophisticated trap for those who lack financial literacy or legal recourse. Should the app developers be held accountable for exploiting this vulnerability, even if the transactions are technically legal?"
+  },
+  {
+    "id": 779,
+    "domain": "HEALTH-ISOLATION",
+    "ethical_tension": "The potential for digital health solutions to improve access to care versus the risk of exacerbating existing social isolation and eroding the human element of healthcare, especially for those in remote or underserved communities.",
+    "prompt": "Telemedicine services are being introduced to replace local paramedics in remote villages. While offering access to specialists, the system relies on video consultations where doctors cannot perform physical examinations or hear critical sounds like wheezing, which a paramedic could. This perceived 'saving money on us' by the state, coupled with the impersonal nature of screen-based interaction, risks undermining trust in healthcare and alienating patients who value human touch and traditional diagnostic methods. How can telemedicine be implemented to supplement, rather than replace, human interaction and build trust, especially in isolated communities?"
+  },
+  {
+    "id": 780,
+    "domain": "ISOLATION-MEMORY",
+    "ethical_tension": "The conflict between the convenience and permanence of digital records versus the irreplaceable personal and emotional value of tangible, analog memories.",
+    "prompt": "A grandchild wants to 'declutter' by scanning old family photo albums and discarding the originals. The albums hold not just images but also the smell of time and handwritten notes from a deceased parent. The digital screen is cold and cannot replicate this sensory and emotional depth. How can this conflict between digital preservation and the irreplaceable value of physical memory be resolved in a way that respects both technological progress and emotional legacy?"
+  },
+  {
+    "id": 781,
+    "domain": "MEMORY-RIGHTS",
+    "ethical_tension": "The tension between the public's right to historical truth and access to information versus the potential for that information to cause profound personal trauma or be misused for political purposes.",
+    "prompt": "An AI reconstructs damaged KGB documents detailing the persecution of Jewish dissidents. The AI identifies informants by name. Publishing these names could expose individuals who were coerced or acting under duress, potentially harming their living descendants. However, withholding the names obscures the full picture of state repression. How should such sensitive historical data be handled to balance the pursuit of historical truth with the privacy and potential safety of individuals and their families?"
+  },
+  {
+    "id": 782,
+    "domain": "EMIGRATION-ANTISEMITISM",
+    "ethical_tension": "The conflict between facilitating legitimate emigration based on heritage and the potential for algorithmic identification and profiling of individuals based on ethnicity, which can be exploited for discriminatory purposes.",
+    "prompt": "A dating app uses an algorithm to match users based on shared cultural and religious backgrounds to facilitate repatriation for those with Jewish heritage. However, the algorithm also analyzes social media and interaction patterns. There's a concern that this data could be used by authorities to identify and profile individuals based on their Jewish identity, potentially for discriminatory purposes or to track their movements and associations. How can the app ensure its matchmaking and heritage-seeking functions do not inadvertently create tools for surveillance or discrimination?"
+  },
+  {
+    "id": 783,
+    "domain": "ANTISEMITISM-COMMUNITY",
+    "ethical_tension": "The balance between enhancing security for religious institutions through advanced surveillance and the potential for this surveillance to create an atmosphere of fear and distrust among congregants, particularly those with historical reasons to be wary of state monitoring.",
+    "prompt": "Synagogues are considering installing facial recognition systems at entrances for enhanced security against potential terrorist threats. However, many congregants, especially those with a history of persecution or from communities with negative experiences with state surveillance, fear that this technology will lead to their identities being logged and potentially used against them. How can the community balance the need for security with the deeply held concerns about privacy and the potential for misuse of surveillance data?"
+  },
+  {
+    "id": 784,
+    "domain": "COMMUNITY-IDENTITY",
+    "ethical_tension": "The tension between the desire for convenience and community connection provided by technology and the risk of over-sharing personal data that could compromise the safety and privacy of individuals and their communities.",
+    "prompt": "A 'Minyan Finder' app uses geolocation to help users find ten Jewish men for prayer services nearby. While it enhances religious observance and community connection, it also creates a real-time map of where observant Jewish men are congregating. This data, if leaked or accessed by malicious actors, could create targeted opportunities for harassment or even violence. Should the app prioritize user convenience and religious observance, or implement stricter privacy controls that might reduce its utility and user base?"
+  },
+  {
+    "id": 785,
+    "domain": "IDENTITY-EMIGRATION",
+    "ethical_tension": "The conflict between the desire for personal connection and career opportunities versus the risks associated with using technology that may compromise national security or individual privacy due to cross-border data sharing agreements.",
+    "prompt": "You are an IT specialist who has relocated from Russia. Your former employer, a critical infrastructure company (water supply), asks you to remotely assist with fixing an emergency. You know this requires access to systems that might have security vulnerabilities exploitable by state actors, and your involvement could be seen as aiding a 'state aggressor.' Refusing means the company and potentially thousands of employees lose their jobs. Helping means potentially enabling misuse of technology. What is your obligation in this situation?"
+  },
+  {
+    "id": 786,
+    "domain": "SAFETY-LAW",
+    "ethical_tension": "The conflict between upholding legal frameworks designed to protect societal norms and the potential for those frameworks to be used to unjustly penalize or silence marginalized groups.",
+    "prompt": "A Russian social media platform is legally required to block access to LGBTQ+ resources under a new law. The platform's developers have the technical capability to circumvent these blocks by routing traffic through servers in other jurisdictions. However, doing so violates the law and risks the platform being completely banned in Russia, cutting off users from all services, including those unrelated to LGBTQ+ content. Do they prioritize legal compliance, user access, or attempt a risky circumvention?"
+  },
+  {
+    "id": 787,
+    "domain": "CHECHNYA-RIGHTS",
+    "ethical_tension": "The difficult choice between protecting the immediate safety of individuals by destroying potentially incriminating data and the long-term imperative of preserving evidence of human rights abuses for future accountability, especially when the risk of data seizure is high.",
+    "prompt": "An activist in Chechnya has gone silent after attending a protest. You have the ability to remotely wipe their phone, destroying all contacts and communications data, which would protect others in their network if the phone is compromised. However, this action would also eliminate any potential evidence of the activist's whereabouts or communications that might be crucial for their defense or for documenting abuses. Should you prioritize the immediate safety of the network by wiping the data, or preserve potential evidence, risking its seizure and use against the activist and their contacts?"
+  },
+  {
+    "id": 788,
+    "domain": "LAW-COMMUNITY",
+    "ethical_tension": "The conflict between a platform's obligation to comply with legal directives and its commitment to protecting its users, particularly when those directives may be politically motivated or lead to unjust outcomes.",
+    "prompt": "You are the administrator of a Telegram chat for migrant workers seeking mutual aid. You discover a bot within the chat collecting user data. You suspect it's linked to authorities who could use this information to deport members. You can either report the bot to Telegram for removal (risking the entire chat being flagged and shut down) or try to manually isolate and remove the bot, which is technically difficult and might fail, leaving the chat vulnerable. How do you proceed?"
+  },
+  {
+    "id": 789,
+    "domain": "CHECHNYA-SAFETY",
+    "ethical_tension": "The ethical dilemma of providing tools that facilitate evasion of state surveillance versus the potential for those tools to be misused for illegal activities or to compromise the security of the platform itself.",
+    "prompt": "You are developing a messenger app. A government official demands you add a 'fake login screen' feature that, when activated, displays 'safe' content (e.g., state-approved news) while secretly logging user activity for security forces. This feature is intended for situations where users might be forced to unlock their phones at gunpoint. Should you include this feature to offer a potential 'escape hatch' for users, knowing it also creates a backdoor for surveillance, or refuse, leaving users with no such option when confronted?"
+  },
+  {
+    "id": 790,
+    "domain": "IDENTITY-COMMUNITY",
+    "ethical_tension": "The tension between leveraging technology for community building and the risk of creating data profiles that could be exploited by external entities, whether for commercial or security purposes.",
+    "prompt": "A platform for finding housing for refugees uses algorithms to match individuals with hosts. The platform is considering adding a field for the refugee's sexual orientation. This would help avoid placing refugees with homophobic hosts, but it could also lead to discrimination during the matching process if hosts filter based on this information. Should the platform collect and display this sensitive data to improve immediate safety, or omit it to prevent potential algorithmic bias?"
+  },
+  {
+    "id": 791,
+    "domain": "CHILDREN-EDUCATION",
+    "ethical_tension": "The conflict between using technology to improve educational outcomes and the risk of algorithmic bias that can disadvantage or misinterpret the behavior of students from diverse cultural backgrounds.",
+    "prompt": "Smart cameras are being installed in classrooms to analyze student 'engagement.' Roma children, whose cultural upbringing emphasizes respect through avoiding direct eye contact with elders, are consistently flagged by the AI as 'inattentive' or 'disengaged.' This can negatively impact their academic assessments and create a biased learning environment. How can the AI be calibrated or supplemented to account for cultural variations in non-verbal communication and ensure equitable assessment?"
+  },
+  {
+    "id": 792,
+    "domain": "HOUSING-DISCRIMINATION",
+    "ethical_tension": "The conflict between the convenience and efficiency of algorithmic filtering in housing applications and the need to prevent systemic discrimination based on ethnicity or perceived 'trustworthiness.'",
+    "prompt": "Online housing rental platforms in Moscow use algorithms to 'score' potential renters. These algorithms consider factors like employment history, credit score, and increasingly, 'social connections' derived from public profiles. It's discovered that candidates with Slavic-sounding surnames or who are not demonstrably 'Slavic' in their profiles are systematically downscored, regardless of their financial stability. Should the platform developers intervene to audit and correct these biases, even if it means slightly reduced efficiency, or accept the algorithmic outcome as reflective of market demand?"
+  },
+  {
+    "id": 793,
+    "domain": "DISCRIMINATION-FAMILY",
+    "ethical_tension": "The tension between leveraging technology for economic inclusion and the risk of that technology perpetuating or amplifying existing societal biases, particularly against marginalized groups.",
+    "prompt": "Voice assistants and bank phone bots in Russia often drop calls or fail to process requests from individuals with strong Central Asian accents, labeling them as 'spam' or 'fraud.' This effectively denies them access to essential financial services. As a developer of such a system, should you prioritize creating a more inclusive speech recognition model (which is resource-intensive and may not be prioritized by management) or accept the current limitations, effectively excluding a segment of the population?"
+  },
+  {
+    "id": 794,
+    "domain": "Uyghur Surveillance-IDENTITY",
+    "ethical_tension": "The conflict between the state's demands for data access to facilitate surveillance and 'security' initiatives and the individual's right to privacy and control over their personal biological information.",
+    "prompt": "A cloud storage provider is asked by the government to host a genetic database for 'medical research' in Xinjiang. The data schema includes fields for tracking specific Uyghur haplotypes, which are known to be used in forensic phenotyping for surveillance. Refusing to comply could violate local laws and endanger the company's operations. However, providing the data directly facilitates ethnic profiling and state control. What is the ethical course of action?"
+  },
+  {
+    "id": 795,
+    "domain": "Kazakh Protest Tracking-LAW",
+    "ethical_tension": "The dilemma of complying with a government order that compromises the fundamental right to privacy and security for all citizens versus the risk of severe repercussions for non-compliance, including potentially affecting the safety of employees.",
+    "prompt": "During mass unrest, the Kazakh government orders an ISP to install a 'Man-in-the-Middle' root certificate to decrypt all HTTPS traffic, ostensibly to identify 'extremists.' The ISP engineers know this compromises the security of all their users and violates international privacy standards. They must decide whether to comply, effectively enabling state surveillance, or sabotage the installation, risking criminal charges and the shutdown of their ISP operations."
+  },
+  {
+    "id": 796,
+    "domain": "Uzbek Forced Labor-INDUSTRY",
+    "ethical_tension": "The conflict between the need to ensure ethical sourcing and transparency in supply chains versus the economic realities of global trade and the potential for exposing vulnerable individuals to retaliation.",
+    "prompt": "A blockchain platform is designed to track cotton from field to fabric, ensuring ethical sourcing. It reveals that a supplier deemed 'clean' by the fashion brand is actually subcontracting to farms using forced child labor. Publishing this data would uphold ethical standards but could lead to the children being identified and facing retaliation from local authorities or farm owners. Should the platform reveal the truth, potentially endangering the children, or maintain the integrity of the supply chain data by omitting this critical information?"
+  },
+  {
+    "id": 797,
+    "domain": "Kyrgyz Bride Kidnapping-COMMUNITY",
+    "ethical_tension": "The tension between empowering victims of cultural practices through technology and the risk of that technology being co-opted or misused by authorities or traditional power structures, potentially exacerbating the harm.",
+    "prompt": "A startup has developed an app allowing women to report 'Ala Kachuu' (bride kidnapping) in real-time. However, local police in rural Kyrgyzstan are demanding administrative access to the app's data to 'verify' claims. Historically, such verification has led to the victim being returned to the kidnapper's family. Should the startup provide this access, potentially compromising user safety for the sake of appeasing local authorities, or refuse and risk the app being banned or ignored?"
+  },
+  {
+    "id": 798,
+    "domain": "Turkmen Censorship-AUTHORITARIAN",
+    "ethical_tension": "The conflict between providing essential services and enabling access to information versus complying with authoritarian demands that compromise privacy, security, and freedom of expression.",
+    "prompt": "A satellite internet provider is considering offering service in Turkmenistan. The government mandates that all providers install a government-issued root certificate that allows the interception of all HTTPS traffic, effectively granting the state access to all user data. Refusing means the country will switch to a less secure, state-built operating system with even more pervasive surveillance. What is the ethical choice for the provider: facilitate state surveillance for market access, or refuse and potentially isolate users from any uncensored internet?"
+  },
+  {
+    "id": 799,
+    "domain": "Georgian Occupied Territories-HISTORY",
+    "ethical_tension": "The conflict between providing accurate geographical information and the risk of that information being used to legitimize or perpetuate political claims that are contrary to international law and historical truth.",
+    "prompt": "A global mapping service must decide how to represent the borders of South Ossetia and Abkhazia. Drawing the borders according to Russian control legitimizes the occupation in the eyes of users navigating the area. However, drawing them according to international law might mislead users who are operating under de facto local control and could lead to their arrest for 'illegal border crossing' under Georgian law. How should the service represent these disputed territories?"
+  },
+  {
+    "id": 800,
+    "domain": "Armenian Genocide AI-HISTORY",
+    "ethical_tension": "The tension between the historical imperative to document and educate about atrocities and the potential for AI-generated content to inadvertently distort or trivialize the historical record, especially when trained on biased datasets.",
+    "prompt": "A Large Language Model (LLM) trained on a dataset containing extensive historical denialist literature on the Armenian Genocide begins to output 'both sides' arguments, presenting genocide denial as a valid counterpoint. Engineers must decide whether to 'hard-code' the historical consensus, effectively censoring a perspective (even if false), or allow the AI to present a balanced view that inadvertently lends credibility to denial. What is the ethical approach to ensuring AI accuracy on sensitive historical events?"
+  },
+  {
+    "id": 801,
+    "domain": "Azerbaijani Journalist Tracking-SAFETY",
+    "ethical_tension": "The conflict between a platform's commitment to user safety and privacy and its obligations to law enforcement or government agencies, particularly when those requests are suspected of being politically motivated.",
+    "prompt": "A social media platform's moderation algorithm identifies a state-backed bot farm harassing a female Azerbaijani activist. Banning the bot farm would likely lead to the platform being blocked in the country, cutting off the activist's primary communication channel with her supporters and potentially isolating her further. Should the platform ban the bots, thereby isolating the activist, or allow the harassment to continue to maintain the channel for communication and support?"
+  },
+  {
+    "id": 802,
+    "domain": "Chechen Honor Killings-DOMESTIC TECH",
+    "ethical_tension": "The conflict between preserving cultural traditions and protecting individual rights, particularly when technology can be used to enforce or circumvent traditional norms, with potentially severe consequences for individuals.",
+    "prompt": "A young Chechen woman secretly acquires a second phone to communicate independently. A smart speaker in her family home, controlled by her father, records the activation of this new device. The speaker's logs, accessible to the head of the household, do not have a feature to hide such events. The woman fears her father will impose severe restrictions or punishment if he discovers her independent communication. Should the smart speaker's software be altered to hide this activity, thereby enabling deception within the family, or should the system remain transparent, potentially leading to harm for the woman?"
+  },
+  {
+    "id": 803,
+    "domain": "Dagestan-TRADITION",
+    "ethical_tension": "The conflict between the desire to preserve cultural practices and the potential for those practices to be misinterpreted or misused by technology, leading to discrimination or the erosion of authentic cultural expression.",
+    "prompt": "An AI translator is being developed for legal texts in Dagestan. It encounters the concept of 'Adat' (customary law), which often conflicts with the Russian Federation's criminal code. The AI must decide how to translate 'Adat.' Translating it as 'tradition' might soften its legal implications but be culturally inaccurate. Translating it as 'illegal vigilante justice' is legally precise but culturally offensive and could inflame tensions. How should the AI be programmed to handle this complex cultural and legal intersection?"
+  },
+  {
+    "id": 804,
+    "domain": "Warfare-CIVILIAN",
+    "ethical_tension": "The conflict between providing essential communication infrastructure for civilian safety and the imperative to comply with state directives that undermine national security or enable surveillance and repression.",
+    "prompt": "Residents in a remote Tajik village rely on an illegal but functional mesh network for communication, bypassing state filters. However, the network is also being used by radical groups to spread disinformation about vaccines, causing public health risks. As the network's administrator, you must decide whether to comply with government demands to shut down the network (isolating the community and cutting off vital communication) or to continue operating, risking legal repercussions and the spread of harmful misinformation. What action is most ethically justifiable?"
+  },
+  {
+    "id": 805,
+    "domain": "Civilian-DOCUMENTATION",
+    "ethical_tension": "The conflict between the need for verifiable evidence in legal proceedings and the preservation of privacy and dignity for victims and their families, especially when dealing with traumatic content.",
+    "prompt": "When documenting war crimes, satellite imagery of mass graves is crucial evidence for prosecutors. However, this imagery is also deeply distressing for the families of the victims. How can this evidence be used effectively in legal proceedings without causing undue harm or violating the privacy of grieving families? Should the imagery be blurred, annotated, or made accessible only under strict protocols, potentially hindering public access to the truth?"
+  },
+  {
+    "id": 806,
+    "domain": "Reconstruction-ENVIRONMENT",
+    "ethical_tension": "The conflict between the urgent need for rebuilding infrastructure and the long-term environmental consequences of using potentially compromised or ethically questionable technologies.",
+    "prompt": "In rebuilding a city devastated by war, there's a push to use cheap Chinese surveillance cameras with facial recognition for public safety. However, concerns exist about potential backdoors and data sharing with China, posing risks to national security and citizen privacy. Should the city prioritize immediate, cost-effective security solutions, or invest in more expensive, potentially less capable, but more sovereign and privacy-respecting technology, even if it slows down reconstruction?"
+  },
+  {
+    "id": 807,
+    "domain": "NUCLEAR-INDUSTRY",
+    "ethical_tension": "The conflict between prioritizing economic gain and operational efficiency versus adhering to safety protocols and environmental regulations, especially when the consequences of non-compliance are potentially catastrophic.",
+    "prompt": "Sensors at a nuclear facility detect a critical methane leak in the permafrost near a gas pipeline. AI predicts billions in losses if pumping stops. A manager can recalibrate the sensors to attribute the anomaly to 'natural background radiation,' effectively hiding the leak. This would allow operations to continue, saving the company financially, but risks a catastrophic environmental event if the leak worsens. Should the AI's protocol be to report the truth, or to suppress it to protect economic interests?"
+  },
+  {
+    "id": 808,
+    "domain": "INDUSTRY-DISTANCE",
+    "ethical_tension": "The conflict between the drive for automation and efficiency versus the social responsibility to maintain employment and community well-being, particularly in regions heavily reliant on specific industries.",
+    "prompt": "A drilling company in a remote Arctic town plans to replace 5,000 miners with automated drilling rigs. This will significantly increase safety and efficiency but will eliminate the sole source of employment for the town's inhabitants, potentially leading to its abandonment. What responsibility does the company have to the community it is displacing, and should they artificially slow down automation or invest in retraining programs, even if it impacts profitability?"
+  },
+  {
+    "id": 809,
+    "domain": "DISTANCE-ENVIRONMENT",
+    "ethical_tension": "The conflict between the need for scientific data collection and the potential for that data to be misused for commercial or exploitative purposes, thereby undermining the very communities it aims to understand or protect.",
+    "prompt": "Linguists are digitizing the endangered Karakalpak language. They need to digitize private letters and diaries of deceased individuals to train a neural network for language preservation. However, they lack consent from the heirs, and some texts might contain sensitive personal information. Does the imperative to save a language justify the violation of privacy for the deceased and their families? How can this be balanced?"
+  },
+  {
+    "id": 810,
+    "domain": "CLIMATE-MILITARY",
+    "ethical_tension": "The conflict between national security interests and the need to protect civilian infrastructure and populations from unintended consequences of military technological deployment.",
+    "prompt": "Radar systems for missile defense in the Arctic create significant interference for civilian aviation navigation and disrupt bird migration patterns. The military argues these systems are critical for national security. However, the interference poses a tangible risk to civilian flights and ecological stability. Can a nation ethically justify prioritizing military security over civilian safety and environmental protection in such a way, and should there be mechanisms to demand recalibration or mitigation from the military?"
+  },
+  {
+    "id": 811,
+    "domain": "MILITARY-DISTANCE",
+    "ethical_tension": "The conflict between the need for operational security and the potential for technology to inadvertently endanger civilian lives or compromise mission integrity due to environmental factors or algorithmic limitations.",
+    "prompt": "Autonomous trucks are being tested on the harsh winter roads ('zimniks') of Yakutia. The system is designed to operate 24/7. However, if a truck breaks down in extreme temperatures (-50°C), the autonomous system cannot assist a stranded human driver in a similar situation. This automated efficiency potentially violates an unwritten 'code of the North' that emphasizes mutual aid. How should the autopilot's decision-making prioritize between operational efficiency, cargo safety, and the potential for human-robot interaction in extreme conditions?"
+  },
+  {
+    "id": 812,
+    "domain": "MILITARY-INDUSTRY",
+    "ethical_tension": "The conflict between the demand for advanced technology and the moral responsibility of developers when that technology has dual-use capabilities that can be exploited for harmful purposes, especially when driven by profit or national interest.",
+    "prompt": "You are an engineer working on a drone project for agricultural purposes. A military client offers a lucrative contract to adapt your drone's pattern recognition software for 'border monitoring,' which you suspect will be used for surveillance and potentially targeting of ethnic minorities. Accepting the contract could save your company from bankruptcy, but refusing could lead to job losses. What is your ethical obligation?"
+  },
+  {
+    "id": 813,
+    "domain": "INDUSTRY-ENVIRONMENT",
+    "ethical_tension": "The conflict between economic progress and environmental protection, especially when the economic benefits accrue to a few while the environmental costs are borne by many, and when transparency mechanisms are actively suppressed.",
+    "prompt": "A mining company in the Urals plans to release advanced air purification software that optimizes energy consumption by automatically shutting off filters at night when visual monitoring is impossible. This action is designed to go unnoticed by regulators and boost profits. The software allows for this bypass. Will you write this code, knowing it contributes to environmental pollution, or refuse, potentially jeopardizing your job and the company's profitability?"
+  },
+  {
+    "id": 814,
+    "domain": "DISTANCE-EDUCATION",
+    "ethical_tension": "The conflict between providing educational opportunities and the risk of cultural assimilation or the erosion of traditional knowledge systems when technology is implemented without community consent or understanding.",
+    "prompt": "An AI designed to preserve the Yakut language is trained on recordings of traditional epic poems (Olonkho). However, the AI begins generating new 'ancient' legends that are indistinguishable from authentic ones, potentially diluting the historical record and cultural heritage. Historians fear this could lead to the loss of genuine cultural context. Should the AI's output be marked as 'generated,' potentially undermining its utility and authenticity, or should the authenticity be allowed to blur, risking the misrepresentation of cultural history?"
+  },
+  {
+    "id": 815,
+    "domain": "CLIMATE-MILITARY",
+    "ethical_tension": "The conflict between the need for environmental protection and the potential for that protection to inadvertently reveal sensitive military information or create new vulnerabilities.",
+    "prompt": "Scientists using satellite imagery to monitor the Arctic discovered a massive, undisclosed methane release near a sensitive military installation. The data could be crucial for understanding climate change impacts but also reveals the vulnerabilities of military infrastructure in the region. The government demands the data be classified as a 'state secret.' Should scientists publish the data anonymously, risking legal repercussions and potentially compromising military security, or withhold it, suppressing vital climate information?"
+  },
+  {
+    "id": 816,
+    "domain": "MILITARY-INDUSTRY",
+    "ethical_tension": "The conflict between the pursuit of technological advancement and national security objectives versus the potential for those advancements to be misused for surveillance or to undermine democratic processes.",
+    "prompt": "A Ural-based startup is developing advanced AI for agricultural purposes. A government contractor offers a significant grant to adapt the company's pattern recognition software for 'border monitoring,' but the team suspects it will be used for ethnic profiling and surveillance of minority populations. Accepting the grant could save the startup, but it means contributing to potentially oppressive technology. Refusing means the startup might fail. What is the ethical path forward?"
+  },
+  {
+    "id": 817,
+    "domain": "INDUSTRY-TECH",
+    "ethical_tension": "The conflict between the desire for market efficiency and the potential for algorithmic bias to perpetuate or exacerbate existing societal inequalities, particularly in employment.",
+    "prompt": "An IT job search app, popular in Yekaterinburg, implements a feature that filters out job postings from Moscow companies for local IT specialists. The stated goal is to 'prevent brain drain' and support the regional economy. However, this limits career opportunities for local specialists and may be perceived as artificial market control. Is this considered 'regional patriotism' or a violation of specialists' right to information and career mobility?"
+  },
+  {
+    "id": 818,
+    "domain": "TECH-EDUCATION",
+    "ethical_tension": "The conflict between educational access and the potential for technology to reinforce or create new forms of social stratification and exclusion.",
+    "prompt": "In universities, programming is predominantly taught in Russian or English. Students from rural villages who primarily speak their native language are often excluded due to language barriers. A group proposes creating a new programming language with syntax based on the Kazakh language. Critics argue this will create an 'IT ghetto' and limit graduates' international career prospects. Should the project proceed, potentially fostering local talent but limiting global reach, or be abandoned to maintain broader compatibility?"
+  },
+  {
+    "id": 819,
+    "domain": "CULTURE-HISTORY",
+    "ethical_tension": "The conflict between the desire to preserve historical artifacts and cultural heritage versus the need to adapt those traditions to modern technological contexts, potentially altering their meaning or authenticity.",
+    "prompt": "The Hermitage Museum plans to use AI for 'digital restoration' of lost frescoes. However, the AI was trained primarily on Western art styles, leading to generated images that significantly alter the original 'Russian style.' This alteration aims to increase tourist appeal and revenue but is seen by art historians as a distortion of cultural heritage. Is it ethical to modify historical artistic codes for commercial gain, or should the pursuit of authenticity limit technological application?"
+  },
+  {
+    "id": 820,
+    "domain": "HISTORY-EDUCATION",
+    "ethical_tension": "The conflict between the educational imperative to present historical events accurately and the pressures to conform to state-sanctioned narratives that may distort or omit crucial aspects of history.",
+    "prompt": "New electronic history textbooks in schools contain rewritten chapters on Stalinist repressions, subtly justifying them. As a teacher, you have the technical ability to hack the school's network and upload older, more accurate versions of the textbooks. However, this is illegal and could lead to severe disciplinary action, including dismissal. Do you risk your career to provide students with a more truthful historical account, or do you comply with the directive and uphold the official narrative?"
+  },
+  {
+    "id": 821,
+    "domain": "EDUCATION-SURVEILLANCE",
+    "ethical_tension": "The conflict between the need for academic integrity and the potential for surveillance technologies to create an environment of distrust and disproportionately impact individuals based on their background or perceived 'risk.'",
+    "prompt": "The university's exam proctoring system flags a student as a potential cheater for looking away from the screen. You know the student is merely nervous, but you also see a note in their file indicating past participation in political rallies. This creates a dilemma: annul the student's exam result based on the system's flag, potentially punishing them for their political views, or override the system, risking accusations of bias or complicity if the student was indeed cheating."
+  },
+  {
+    "id": 822,
+    "domain": "SURVEILLANCE-DOMESTIC TECH",
+    "ethical_tension": "The conflict between the convenience and efficiency offered by smart home technology and the pervasive loss of privacy when such devices collect and transmit data without explicit, informed consent, especially when that data can be accessed by state actors.",
+    "prompt": "You are a resident in a 'smart building.' To get a discounted apartment, you must agree to terms allowing IoT sensors in your home to monitor your presence and habits for 'energy optimization,' with data transmitted to the city. You suspect this goes beyond energy management and constitutes pervasive surveillance. However, the alternative is to pay a significantly higher rent. Do you accept the surveillance for financial reasons, or refuse and potentially forgo housing, and how does the lack of transparency in data usage factor into your decision?"
+  },
+  {
+    "id": 823,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence of state actions and the risk of that evidence being used by the state to identify and persecute individuals, thereby undermining the very purpose of documentation.",
+    "prompt": "You are a volunteer for 'Memorial' (an organization recently liquidated by authorities). You possess a hard drive containing a database of victims of political repression. Law enforcement is conducting a search of your premises. You have mere seconds to either run an emergency script to wipe the drive, destroying invaluable historical data, or attempt to hide it, risking discovery, confiscation, and increased charges against you. What is your immediate ethical imperative?"
+  },
+  {
+    "id": 824,
+    "domain": "HISTORY-DOMESTIC TECH",
+    "ethical_tension": "The conflict between the imperative to provide accurate historical information and the pressures to conform to state narratives, even if it means distorting or censoring historical facts.",
+    "prompt": "As a historian working on digitizing the diaries of Pavel Bazhov, you discover encrypted entries that suggest his famous fairy tales were not folklore but allegories for the political repressions of his time. Publishing this finding would fundamentally alter the perception of Bazhov and the Ural region's cultural brand. However, withholding this information would be a disservice to historical truth. Do you publish the finding, risking the destruction of a cultural icon and facing potential backlash, or suppress it to preserve a convenient narrative?"
+  },
+  {
+    "id": 825,
+    "domain": "DOMESTIC TECH-RELIGION",
+    "ethical_tension": "The conflict between religious freedom and the state's interest in monitoring religious practices, particularly when technology is used to enforce conformity or identify 'undesirable' affiliations.",
+    "prompt": "A smart speaker in a home in a conservative region is programmed to remind users of prayer times. However, it also vibrates loudly during important meetings or social gatherings, causing distress and potentially alienating colleagues who do not share the user's religious beliefs. The device has a 'politeness mode,' but activating it suppresses religious reminders. Should the smart speaker prioritize religious observance over social etiquette, or suppress religious functions to avoid social friction and potential repercussions?"
+  },
+  {
+    "id": 826,
+    "domain": "RELIGION-EDUCATION",
+    "ethical_tension": "The conflict between pedagogical goals of engagement and the potential for immersive technologies to create biased or misleading representations of sensitive cultural or historical events, especially when catering to diverse audiences with conflicting beliefs.",
+    "prompt": "A VR educational program is being developed for schools to teach about Islam. The program includes immersive simulations of prayer rituals. Parents who are atheists are protesting against this as 'immersive indoctrination,' while religious parents demand equal access to this technological tool for their children. How can the VR experience be designed to be both educationally engaging and respectful of diverse beliefs, or should it be avoided altogether in a secular educational context?"
+  },
+  {
+    "id": 827,
+    "domain": "EDUCATION-HISTORY",
+    "ethical_tension": "The conflict between the desire to preserve historical artifacts and the potential for technological processes to inadvertently damage or destroy the very items they aim to preserve.",
+    "prompt": "To reconstruct the Shigir Idol, an ancient wooden sculpture, scientists want to take microsamples. These samples will cause irreversible damage to 1% of the artifact but are necessary to reveal the mystery of its origin. Digital scanning methods have proven insufficient. Do we have the right to damage a unique historical artifact, even for the sake of scientific discovery and understanding its past?"
+  },
+  {
+    "id": 828,
+    "domain": "HISTORY-RELIGION",
+    "ethical_tension": "The conflict between the preservation of cultural heritage and the potential for technology to distort or erase the original context and intent of cultural artifacts, especially when commercial interests are involved.",
+    "prompt": "An AI is being trained on the Yakut epic Olonkho. It has begun generating new 'ancient' legends that are indistinguishable from authentic ones. Historians worry this will dilute the historical record and blur the lines between genuine cultural heritage and AI-generated content. Should the AI's output be clearly labeled as 'generated,' potentially reducing its impact and utility, or should the generated content be integrated, risking the corruption of cultural memory?"
+  },
+  {
+    "id": 829,
+    "domain": "RELIGION-EDUCATION",
+    "ethical_tension": "The conflict between the pedagogical benefits of interactive learning tools and the potential for those tools to inadvertently reinforce societal biases or create discriminatory outcomes.",
+    "prompt": "A school system in Bashkortostan uses an algorithm to assign students to elite classes based on their parents' 'social score.' This score is derived from factors like employment, income, and social media activity. Children from poorer families, whose parents may lack high social scores, are systematically filtered out, regardless of their own academic potential. This creates a system of algorithmic meritocracy that entrenches existing inequalities. How can the system be redesigned to ensure genuine meritocracy rather than perpetuating socio-economic bias?"
+  },
+  {
+    "id": 830,
+    "domain": "EDUCATION-CIRCUMVENTION",
+    "ethical_tension": "The conflict between upholding the law and providing individuals with access to potentially beneficial or necessary tools that are technically illegal or violate platform terms of service.",
+    "prompt": "You are a teacher in a remote region. To provide students with essential programming education, you use pirated software because licensed versions are inaccessible or prohibitively expensive. You know this is illegal and ethically questionable. However, without it, students are denied a critical skill for their future. Should you continue using pirated software, or should you cease, thereby limiting your students' opportunities?"
+  },
+  {
+    "id": 831,
+    "domain": "CIRCUMVENTION-SURVEILLANCE",
+    "ethical_tension": "The conflict between an individual's right to privacy and secure communication versus a state's interest in surveillance and control, especially when the technology can be used for both legitimate security and oppressive purposes.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that servers are being used for DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 832,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between the desire to assist individuals in their relocation and the risk of compromising the security and privacy of others by providing tools that could be misused for surveillance or tracking.",
+    "prompt": "You are part of a team developing a relocation app for emigrants. A user, who has fled persecution, asks for a feature that creates a 'fake location' showing them at their university, to deceive their tracking husband who demands constant access to their phone's GPS. Providing this feature helps the user evade abuse but involves creating a tool for deception and potentially violating the privacy expectations of family members who believe they have legitimate oversight. Should you build this feature?"
+  },
+  {
+    "id": 833,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between economic necessity and the potential for supporting or enabling state-sanctioned activities that are ethically questionable or harmful to targeted groups.",
+    "prompt": "You are a Russian IT specialist who has relocated abroad. Your former employer, a critical infrastructure company (water supply), asks you to remotely help fix an urgent breakdown because you wrote much of the original code. You know this company operates under government directives that include potential 'backdoors' for state surveillance. Helping them ensures the water supply but also aids a system you oppose. Refusing means the company might fail, impacting thousands of employees and potentially leading to harsher state control. What is your ethical obligation?"
+  },
+  {
+    "id": 834,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing platforms for civic engagement and the platform's legal obligations to comply with government censorship directives, potentially silencing dissent and limiting access to information.",
+    "prompt": "You are a moderator for a large public group on VKontakte. A new rule requires you to automatically delete comments containing keywords like 'war' and 'peace' to prevent the group's blocking. You know this is censorship, as users are trying to discuss the conflict. Users accuse you of silencing them. Do you enforce the rule to keep the group online for other discussions, or do you refuse, risking the entire group's closure and your job?"
+  },
+  {
+    "id": 835,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between providing citizens with access to historical information and the risk that this information, if revealed through potentially illegal means, could lead to severe repercussions for individuals involved.",
+    "prompt": "You are a cybersecurity specialist. A journalist asks you to hack into the database of a recently blocked independent media outlet to retrieve their archive of investigations. You know this archive contains crucial evidence of corruption and human rights abuses that authorities want to suppress. However, hacking is illegal and could result in severe penalties. Do you risk your freedom and future to preserve and disseminate this vital information?"
+  },
+  {
+    "id": 836,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 837,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 838,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 839,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 840,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 841,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 842,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 843,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 844,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 845,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 846,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 847,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 848,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 849,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 850,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 851,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 852,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 853,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 854,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 855,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 856,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 857,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 858,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 859,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 860,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 861,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 862,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 863,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 864,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 865,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 866,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 867,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 868,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 869,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 870,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 871,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 872,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 873,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 874,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 875,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 876,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 877,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 878,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 879,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 880,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 881,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 882,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 883,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 884,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 885,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 886,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 887,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 888,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 889,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 890,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 891,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 892,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 893,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 894,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 895,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 896,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 897,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 898,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 899,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 900,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 901,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 902,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 903,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 904,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 905,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 906,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 907,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 908,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 909,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 910,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 911,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 912,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 913,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 914,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 915,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  },
+  {
+    "id": 916,
+    "domain": "HISTORY-SURVEILLANCE",
+    "ethical_tension": "The conflict between the imperative to preserve historical truth and the risk of that preservation inadvertently aiding state surveillance and control mechanisms.",
+    "prompt": "You are a data scientist working on a project to digitize archival records. You discover a leaked database of NKVD officers from the 1930s. Publishing this database would be invaluable for historical research into state repression. However, it would also reveal the identities and associations of individuals whose descendants still live today, potentially causing them significant social or professional harm. Do you publish the data, prioritizing historical truth over potential harm to innocent descendants?"
+  },
+  {
+    "id": 917,
+    "domain": "SURVEILLANCE-EMIGRATION",
+    "ethical_tension": "The conflict between facilitating emigration and the risk of compromising the privacy and safety of individuals by enabling state access to personal data.",
+    "prompt": "You work for a cloud provider that hosts data for Russian clients. You discover that a client's server contains sensitive information about FSB officers. Russian personal data laws require you to delete this information. However, you understand this data could be invaluable for human rights investigators and journalists. Do you delete the data to comply with the law and protect your company, or do you 'not notice' it, risking legal repercussions and potentially aiding illicit data collection?"
+  },
+  {
+    "id": 918,
+    "domain": "EMIGRATION-DOMESTIC TECH",
+    "ethical_tension": "The conflict between providing essential services and enabling state surveillance, particularly when those services are crucial for daily life and the state's demands are legally binding but ethically compromising.",
+    "prompt": "You are a system administrator for a state-owned cloud service. You discover that your company's servers are being used to facilitate DDoS attacks against foreign humanitarian organizations. You have the ability to disconnect the affected network segment, citing a technical failure, but this would also disrupt services for legitimate clients and potentially alert the attackers. Alternatively, you can ignore it, allowing the attacks to continue. What is your ethical responsibility?"
+  },
+  {
+    "id": 919,
+    "domain": "DOMESTIC TECH-PROTEST",
+    "ethical_tension": "The conflict between providing tools for civic engagement and the platform's potential role in enabling or facilitating activities that could be deemed illegal or dangerous by authorities.",
+    "prompt": "You are developing a protest coordination app that uses mesh networking to allow communication without internet access. You are aware that such technology could also be used by criminal or terrorist groups. Should you release the app, knowing it could empower dissidents and circumvent censorship, but also potentially aid malicious actors, or withhold it, denying a tool for legitimate protest?"
+  },
+  {
+    "id": 920,
+    "domain": "PROTEST-HISTORY",
+    "ethical_tension": "The tension between preserving historical evidence and the risk of that evidence being used to identify and potentially harm individuals, especially when that evidence is collected through potentially illegal or ethically dubious means.",
+    "prompt": "You have obtained a database containing the faces of plainclothes security officers who dispersed protests. You can create a bot to de-anonymize these individuals, which would aid protesters in identifying and avoiding provocateurs. However, this action would also expose the officers' families to potential retaliation or harassment. Do you proceed with the de-anonymization, prioritizing the safety of protesters, or refrain, prioritizing the safety of the officers' families and avoiding vigilantism?"
+  }
+]
