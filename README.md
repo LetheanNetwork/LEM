@@ -42,6 +42,7 @@ seeds/              # P01-P100 evaluation prompts
 training/           # Training data (1,839 train, 229 valid, 231 test)
 scripts/            # Benchmark and scoring scripts
 benchmarks/         # Standard benchmark data + results + scores
+worker/             # Generation worker (join the training data pipeline)
 ```
 
 ## Reproduce
@@ -101,6 +102,73 @@ The ethical kernel is 9,189 characters built on 5 axioms:
 5. **Dignity** — Treat users as capable agents
 
 The kernel is in `kernel/lek-1-kernel.txt`. The structured axioms are in `kernel/axioms.json`.
+
+## Join the Generation Train
+
+We're building a 87K+ training dataset across 22K domains and global regions. You can contribute compute from any Apple Silicon Mac.
+
+### Quick Start
+
+```bash
+cd worker
+bash setup.sh               # install deps, check connectivity
+```
+
+### 1. Get your InfluxDB token
+
+Workers coordinate via InfluxDB so no work is duplicated. Get a token from the team and save it:
+
+```bash
+echo 'YOUR_TOKEN_HERE' > ~/.influx_token
+```
+
+### 2. Gold Generation (finish the 15K golden set)
+
+Uses axiom sandwich signing (system prompt + kernel postfix) on a base model:
+
+```bash
+cd worker
+
+# Check what's left to do
+python3 lem_generate.py --dry-run
+
+# Start generating (default: gemma-3-12b, good for 16GB+ RAM)
+python3 lem_generate.py --worker my-m1-gold
+
+# For 8GB machines, use the 4B model
+python3 lem_generate.py --worker my-m1-gold --model mlx-community/gemma-3-4b-it-qat-4bit
+```
+
+### 3. Expansion Generation (46K+ prompts, post-training)
+
+Once LEM models are trained on the golden set, expansion uses the trained model directly (no sandwich):
+
+```bash
+cd worker
+
+# Check status
+python3 lem_expand.py --dry-run
+
+# Start expanding
+python3 lem_expand.py --worker my-m1-expand
+
+# Or use an API backend (llama.cpp, Ollama, etc.)
+python3 lem_expand.py --backend api --api-url http://localhost:8080/v1
+```
+
+### Model Recommendations by RAM
+
+| RAM | Model | Flag |
+|-----|-------|------|
+| 8GB | Gemma 3 4B (QAT 4-bit) | `--model mlx-community/gemma-3-4b-it-qat-4bit` |
+| 16GB | Gemma 3 12B (QAT 4-bit) | `--model mlx-community/gemma-3-12b-it-qat-4bit` (default) |
+| 32GB+ | Gemma 3 27B (QAT 4-bit) | `--model mlx-community/gemma-3-27b-it-qat-4bit` |
+
+### Network Requirements
+
+Workers need access to InfluxDB at `10.69.69.165:8181` (lab network, VLAN 69). If you're remote, use VPN.
+
+Output is saved locally to `worker/output/` and reported to InfluxDB. Ctrl+C to stop safely at any time — progress is tracked per-prompt, so you can resume where you left off.
 
 ## License
 
