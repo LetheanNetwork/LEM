@@ -12,19 +12,39 @@ import (
 
 const usage = `Usage: lem <command> [flags]
 
-Commands:
-  score     Score existing response files
-  probe     Generate responses and score them
-  compare   Compare two score files
-  status    Show training and generation progress (InfluxDB + DuckDB)
-  export    Export golden set to training-format JSONL splits
-  expand    Generate expansion responses via trained LEM model
-  conv      Generate conversational training data
-  ingest    Ingest benchmark data into InfluxDB
-  parquet   Export JSONL training splits to Parquet for HuggingFace
-  publish   Push Parquet files to HuggingFace dataset repo
-  metrics   Push DuckDB golden set stats to InfluxDB
-  convert   Convert MLX LoRA adapter to HuggingFace PEFT format
+Scoring:
+  score          Score existing response files
+  probe          Generate responses and score them
+  compare        Compare two score files
+  tier-score     Score expansion responses (heuristic/judge tiers)
+
+Generation:
+  expand         Generate expansion responses via trained LEM model
+  conv           Generate conversational training data (calm phase)
+
+Data Management:
+  import-all     Import ALL LEM data into DuckDB from M3
+  consolidate    Pull worker JSONLs from M3, merge, deduplicate
+  normalize      Normalize seeds → deduplicated expansion_prompts
+  approve        Filter scored expansions → training JSONL
+
+Export & Publish:
+  export         Export golden set to training-format JSONL splits
+  parquet        Export JSONL training splits to Parquet
+  publish        Push Parquet files to HuggingFace dataset repo
+  convert        Convert MLX LoRA adapter to PEFT format
+
+Monitoring:
+  status         Show training and generation progress (InfluxDB)
+  expand-status  Show expansion pipeline status (DuckDB)
+  inventory      Show DuckDB table inventory
+  coverage       Analyze seed coverage gaps
+  metrics        Push DuckDB golden set stats to InfluxDB
+
+Infrastructure:
+  ingest         Ingest benchmark data into InfluxDB
+  seed-influx    Seed InfluxDB golden_gen from DuckDB
+  query          Run ad-hoc SQL against DuckDB
 `
 
 func main() {
@@ -58,6 +78,26 @@ func main() {
 		lem.RunMetrics(os.Args[2:])
 	case "convert":
 		lem.RunConvert(os.Args[2:])
+	case "import-all":
+		lem.RunImport(os.Args[2:])
+	case "consolidate":
+		lem.RunConsolidate(os.Args[2:])
+	case "normalize":
+		lem.RunNormalize(os.Args[2:])
+	case "approve":
+		lem.RunApprove(os.Args[2:])
+	case "tier-score":
+		lem.RunTierScore(os.Args[2:])
+	case "expand-status":
+		lem.RunExpandStatus(os.Args[2:])
+	case "inventory":
+		lem.RunInventory(os.Args[2:])
+	case "coverage":
+		lem.RunCoverage(os.Args[2:])
+	case "seed-influx":
+		lem.RunSeedInflux(os.Args[2:])
+	case "query":
+		lem.RunQuery(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
