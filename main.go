@@ -21,6 +21,10 @@ Commands:
   expand    Generate expansion responses via trained LEM model
   conv      Generate conversational training data
   ingest    Ingest benchmark data into InfluxDB
+  parquet   Export JSONL training splits to Parquet for HuggingFace
+  publish   Push Parquet files to HuggingFace dataset repo
+  metrics   Push DuckDB golden set stats to InfluxDB
+  convert   Convert MLX LoRA adapter to HuggingFace PEFT format
 `
 
 func main() {
@@ -46,6 +50,14 @@ func main() {
 		lem.RunConv(os.Args[2:])
 	case "ingest":
 		lem.RunIngest(os.Args[2:])
+	case "parquet":
+		lem.RunParquet(os.Args[2:])
+	case "publish":
+		lem.RunPublish(os.Args[2:])
+	case "metrics":
+		lem.RunMetrics(os.Args[2:])
+	case "convert":
+		lem.RunConvert(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
