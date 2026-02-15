@@ -70,7 +70,7 @@ func (c *InfluxClient) WriteLp(lines []string) error {
 	}
 	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
+	if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusNoContent {
 		respBody, _ := io.ReadAll(resp.Body)
 		return fmt.Errorf("write failed %d: %s", resp.StatusCode, string(respBody))
 	}

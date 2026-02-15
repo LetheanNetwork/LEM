@@ -19,6 +19,7 @@ Commands:
   status    Show training and generation progress (InfluxDB + DuckDB)
   export    Export golden set to training-format JSONL splits
   expand    Generate expansion responses via trained LEM model
+  conv      Generate conversational training data
 `
 
 func main() {
@@ -40,6 +41,8 @@ func main() {
 		lem.RunExpand(os.Args[2:])
 	case "export":
 		lem.RunExport(os.Args[2:])
+	case "conv":
+		lem.RunConv(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
