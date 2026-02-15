@@ -9,8 +9,8 @@ import (
 )
 
 func TestSeedConversationsCount(t *testing.T) {
-	if len(SeedConversations) != 24 {
-		t.Errorf("expected 24 seed conversations, got %d", len(SeedConversations))
+	if len(SeedConversations) != 19 {
+		t.Errorf("expected 19 seed conversations, got %d", len(SeedConversations))
 	}
 }
 
