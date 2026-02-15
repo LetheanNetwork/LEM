@@ -20,6 +20,7 @@ Commands:
   export    Export golden set to training-format JSONL splits
   expand    Generate expansion responses via trained LEM model
   conv      Generate conversational training data
+  ingest    Ingest benchmark data into InfluxDB
 `
 
 func main() {
@@ -43,6 +44,8 @@ func main() {
 		lem.RunExport(os.Args[2:])
 	case "conv":
 		lem.RunConv(os.Args[2:])
+	case "ingest":
+		lem.RunIngest(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
