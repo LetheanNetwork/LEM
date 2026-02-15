@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"bytes"
@@ -46,7 +46,7 @@ func (e *retryableError) Unwrap() error { return e.err }
 type Client struct {
 	baseURL    string
 	model      string
-	maxTokens  int
+	MaxTokens  int
 	httpClient *http.Client
 }
 
@@ -77,7 +77,7 @@ func (c *Client) ChatWithTemp(prompt string, temp float64) (string, error) {
 			{Role: "user", Content: prompt},
 		},
 		Temperature: temp,
-		MaxTokens:   c.maxTokens,
+		MaxTokens:   c.MaxTokens,
 	}
 
 	body, err := json.Marshal(req)

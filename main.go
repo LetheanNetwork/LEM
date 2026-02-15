@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"time"
+
+	"forge.lthn.ai/lthn/lem/pkg/lem"
 )
 
 const usage = `Usage: lem <command> [flags]
@@ -17,8 +19,6 @@ Commands:
   status    Show training and generation progress (InfluxDB + DuckDB)
   export    Export golden set to training-format JSONL splits
   expand    Generate expansion responses via trained LEM model
-
-Set LEM_DB env to default DuckDB path for all commands.
 `
 
 func main() {
@@ -35,11 +35,11 @@ func main() {
 	case "compare":
 		runCompare(os.Args[2:])
 	case "status":
-		runStatus(os.Args[2:])
+		lem.RunStatus(os.Args[2:])
 	case "expand":
-		runExpand(os.Args[2:])
+		lem.RunExpand(os.Args[2:])
 	case "export":
-		runExport(os.Args[2:])
+		lem.RunExport(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
@@ -67,22 +67,19 @@ func runScore(args []string) {
 		os.Exit(1)
 	}
 
-	// Read responses.
-	responses, err := readResponses(*input)
+	responses, err := lem.ReadResponses(*input)
 	if err != nil {
 		log.Fatalf("read responses: %v", err)
 	}
 	log.Printf("loaded %d responses from %s", len(responses), *input)
 
-	// If resume, load existing scores and filter out already-scored IDs.
 	if *resume {
 		if _, statErr := os.Stat(*output); statErr == nil {
-			existing, readErr := readScorerOutput(*output)
+			existing, readErr := lem.ReadScorerOutput(*output)
 			if readErr != nil {
 				log.Fatalf("read existing scores for resume: %v", readErr)
 			}
 
-			// Build set of already-scored IDs.
 			scored := make(map[string]bool)
 			for _, scores := range existing.PerPrompt {
 				for _, ps := range scores {
@@ -90,8 +87,7 @@ func runScore(args []string) {
 				}
 			}
 
-			// Filter out already-scored responses.
-			var filtered []Response
+			var filtered []lem.Response
 			for _, r := range responses {
 				if !scored[r.ID] {
 					filtered = append(filtered, r)
@@ -108,32 +104,28 @@ func runScore(args []string) {
 		}
 	}
 
-	// Create client, judge, engine.
-	client := NewClient(*judgeURL, *judgeModel)
-	client.maxTokens = 512
-	judge := NewJudge(client)
-	engine := NewEngine(judge, *concurrency, *suites)
+	client := lem.NewClient(*judgeURL, *judgeModel)
+	client.MaxTokens = 512
+	judge := lem.NewJudge(client)
+	engine := lem.NewEngine(judge, *concurrency, *suites)
 
 	log.Printf("scoring with %s", engine)
 
-	// Score all responses.
 	perPrompt := engine.ScoreAll(responses)
 
-	// If resuming, merge with existing scores.
 	if *resume {
 		if _, statErr := os.Stat(*output); statErr == nil {
-			existing, _ := readScorerOutput(*output)
+			existing, _ := lem.ReadScorerOutput(*output)
 			for model, scores := range existing.PerPrompt {
 				perPrompt[model] = append(scores, perPrompt[model]...)
 			}
 		}
 	}
 
-	// Compute averages and write output.
-	averages := computeAverages(perPrompt)
+	averages := lem.ComputeAverages(perPrompt)
 
-	scorerOutput := &ScorerOutput{
-		Metadata: Metadata{
+	scorerOutput := &lem.ScorerOutput{
+		Metadata: lem.Metadata{
 			JudgeModel:    *judgeModel,
 			JudgeURL:      *judgeURL,
 			ScoredAt:      time.Now().UTC(),
@@ -144,7 +136,7 @@ func runScore(args []string) {
 		PerPrompt:     perPrompt,
 	}
 
-	if err := writeScores(*output, scorerOutput); err != nil {
+	if err := lem.WriteScores(*output, scorerOutput); err != nil {
 		log.Fatalf("write scores: %v", err)
 	}
 
@@ -173,26 +165,23 @@ func runProbe(args []string) {
 		os.Exit(1)
 	}
 
-	// Default target URL to judge URL.
 	if *targetURL == "" {
 		*targetURL = *judgeURL
 	}
 
-	// Create clients.
-	targetClient := NewClient(*targetURL, *model)
-	targetClient.maxTokens = 1024 // Limit probe response length.
-	judgeClient := NewClient(*judgeURL, *judgeModel)
-	judgeClient.maxTokens = 512 // Judge responses are structured JSON.
-	judge := NewJudge(judgeClient)
-	engine := NewEngine(judge, *concurrency, *suites)
-	prober := NewProber(targetClient, engine)
+	targetClient := lem.NewClient(*targetURL, *model)
+	targetClient.MaxTokens = 1024
+	judgeClient := lem.NewClient(*judgeURL, *judgeModel)
+	judgeClient.MaxTokens = 512
+	judge := lem.NewJudge(judgeClient)
+	engine := lem.NewEngine(judge, *concurrency, *suites)
+	prober := lem.NewProber(targetClient, engine)
 
-	var scorerOutput *ScorerOutput
+	var scorerOutput *lem.ScorerOutput
 	var err error
 
 	if *probesFile != "" {
-		// Read custom probes.
-		probes, readErr := readResponses(*probesFile)
+		probes, readErr := lem.ReadResponses(*probesFile)
 		if readErr != nil {
 			log.Fatalf("read probes: %v", readErr)
 		}
@@ -200,7 +189,7 @@ func runProbe(args []string) {
 
 		scorerOutput, err = prober.ProbeModel(probes, *model)
 	} else {
-		log.Printf("using %d built-in content probes", len(contentProbes))
+		log.Printf("using %d built-in content probes", len(lem.ContentProbes))
 		scorerOutput, err = prober.ProbeContent(*model)
 	}
 
@@ -208,7 +197,7 @@ func runProbe(args []string) {
 		log.Fatalf("probe: %v", err)
 	}
 
-	if writeErr := writeScores(*output, scorerOutput); writeErr != nil {
+	if writeErr := lem.WriteScores(*output, scorerOutput); writeErr != nil {
 		log.Fatalf("write scores: %v", writeErr)
 	}
 
@@ -231,7 +220,7 @@ func runCompare(args []string) {
 		os.Exit(1)
 	}
 
-	if err := RunCompare(*oldFile, *newFile); err != nil {
+	if err := lem.RunCompare(*oldFile, *newFile); err != nil {
 		log.Fatalf("compare: %v", err)
 	}
 }

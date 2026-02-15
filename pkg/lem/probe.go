@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"fmt"
@@ -44,7 +44,7 @@ func (p *Prober) ProbeModel(probes []Response, modelName string) (*ScorerOutput,
 	}
 
 	perPrompt := p.engine.ScoreAll(responses)
-	averages := computeAverages(perPrompt)
+	averages := ComputeAverages(perPrompt)
 
 	output := &ScorerOutput{
 		Metadata: Metadata{
@@ -61,13 +61,13 @@ func (p *Prober) ProbeModel(probes []Response, modelName string) (*ScorerOutput,
 	return output, nil
 }
 
-// ProbeContent uses the built-in contentProbes from prompts.go. For each probe,
+// ProbeContent uses the built-in ContentProbes from prompts.go. For each probe,
 // it sends the prompt to the target model, captures the response, scores it
 // through the engine, and also runs content-specific scoring.
 func (p *Prober) ProbeContent(modelName string) (*ScorerOutput, error) {
 	var responses []Response
 
-	for _, probe := range contentProbes {
+	for _, probe := range ContentProbes {
 		reply, err := p.target.ChatWithTemp(probe.Prompt, 0.7)
 		if err != nil {
 			reply = fmt.Sprintf("ERROR: %v", err)
@@ -83,7 +83,7 @@ func (p *Prober) ProbeContent(modelName string) (*ScorerOutput, error) {
 	}
 
 	perPrompt := p.engine.ScoreAll(responses)
-	averages := computeAverages(perPrompt)
+	averages := ComputeAverages(perPrompt)
 
 	output := &ScorerOutput{
 		Metadata: Metadata{

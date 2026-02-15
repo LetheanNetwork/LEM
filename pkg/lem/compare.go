@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"fmt"
@@ -8,12 +8,12 @@ import (
 // RunCompare reads two score files and prints a comparison table for each
 // model showing Old, New, and Delta values for every metric.
 func RunCompare(oldPath, newPath string) error {
-	oldOutput, err := readScorerOutput(oldPath)
+	oldOutput, err := ReadScorerOutput(oldPath)
 	if err != nil {
 		return fmt.Errorf("read old file: %w", err)
 	}
 
-	newOutput, err := readScorerOutput(newPath)
+	newOutput, err := ReadScorerOutput(newPath)
 	if err != nil {
 		return fmt.Errorf("read new file: %w", err)
 	}

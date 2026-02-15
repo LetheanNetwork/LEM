@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"bufio"
@@ -23,7 +23,7 @@ type TrainingExample struct {
 }
 
 // runExport is the CLI entry point for the export command.
-func runExport(args []string) {
+func RunExport(args []string) {
 	fs := flag.NewFlagSet("export", flag.ExitOnError)
 
 	dbPath := fs.String("db", "", "DuckDB database path (primary source)")
@@ -90,7 +90,7 @@ func runExport(args []string) {
 	} else {
 		// Fallback: read from JSONL file.
 		var err error
-		responses, err = readResponses(*input)
+		responses, err = ReadResponses(*input)
 		if err != nil {
 			log.Fatalf("read responses: %v", err)
 		}

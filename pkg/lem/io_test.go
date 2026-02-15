@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"encoding/json"
@@ -22,7 +22,7 @@ func TestReadResponses(t *testing.T) {
 		t.Fatalf("failed to write test file: %v", err)
 	}
 
-	responses, err := readResponses(path)
+	responses, err := ReadResponses(path)
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
@@ -60,7 +60,7 @@ func TestReadResponses(t *testing.T) {
 }
 
 func TestReadResponsesFileNotFound(t *testing.T) {
-	_, err := readResponses("/nonexistent/path/file.jsonl")
+	_, err := ReadResponses("/nonexistent/path/file.jsonl")
 	if err == nil {
 		t.Fatal("expected error for nonexistent file, got nil")
 	}
@@ -74,7 +74,7 @@ func TestReadResponsesInvalidJSON(t *testing.T) {
 		t.Fatalf("failed to write test file: %v", err)
 	}
 
-	_, err := readResponses(path)
+	_, err := ReadResponses(path)
 	if err == nil {
 		t.Fatal("expected error for invalid JSON, got nil")
 	}
@@ -88,7 +88,7 @@ func TestReadResponsesEmptyFile(t *testing.T) {
 		t.Fatalf("failed to write test file: %v", err)
 	}
 
-	responses, err := readResponses(path)
+	responses, err := ReadResponses(path)
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
@@ -126,7 +126,7 @@ func TestWriteScores(t *testing.T) {
 		},
 	}
 
-	if err := writeScores(path, output); err != nil {
+	if err := WriteScores(path, output); err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
 
@@ -224,7 +224,7 @@ func TestComputeAverages(t *testing.T) {
 		},
 	}
 
-	averages := computeAverages(perPrompt)
+	averages := ComputeAverages(perPrompt)
 
 	// model-a: 2 heuristic entries, 2 semantic entries, 1 content entry.
 	modelA := averages["model-a"]
@@ -260,7 +260,7 @@ func TestComputeAverages(t *testing.T) {
 }
 
 func TestComputeAveragesEmpty(t *testing.T) {
-	averages := computeAverages(map[string][]PromptScore{})
+	averages := ComputeAverages(map[string][]PromptScore{})
 	if len(averages) != 0 {
 		t.Errorf("expected empty averages, got %d entries", len(averages))
 	}

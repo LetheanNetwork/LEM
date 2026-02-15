@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"encoding/json"
@@ -23,7 +23,7 @@ type expandOutput struct {
 }
 
 // runExpand parses CLI flags and runs the expand command.
-func runExpand(args []string) {
+func RunExpand(args []string) {
 	fs := flag.NewFlagSet("expand", flag.ExitOnError)
 
 	model := fs.String("model", "", "Model name for generation (required)")
@@ -98,7 +98,7 @@ func runExpand(args []string) {
 		}
 	} else {
 		var err error
-		promptList, err = readResponses(*prompts)
+		promptList, err = ReadResponses(*prompts)
 		if err != nil {
 			log.Fatalf("read prompts: %v", err)
 		}
@@ -107,7 +107,7 @@ func runExpand(args []string) {
 
 	// Create clients.
 	client := NewClient(*apiURL, *model)
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 	influx := NewInfluxClient(*influxURL, *influxDB)
 
 	if err := expandPrompts(client, influx, duckDB, promptList, *model, *worker, *output, *dryRun, *limit); err != nil {

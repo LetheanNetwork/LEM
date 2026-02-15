@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"bufio"
@@ -340,7 +340,7 @@ func TestExportEndToEnd(t *testing.T) {
 		"--test-pct", "10",
 		"--seed", "42",
 	}
-	runExport(args)
+	RunExport(args)
 
 	// Verify output files exist.
 	for _, name := range []string{"train.jsonl", "valid.jsonl", "test.jsonl"} {

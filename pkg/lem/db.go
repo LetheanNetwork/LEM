@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"database/sql"

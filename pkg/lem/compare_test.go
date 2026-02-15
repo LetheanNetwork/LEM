@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"encoding/json"
@@ -208,7 +208,7 @@ func TestReadScorerOutput(t *testing.T) {
 
 	path := writeTestScoreFile(t, dir, "test.json", output)
 
-	read, err := readScorerOutput(path)
+	read, err := ReadScorerOutput(path)
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}

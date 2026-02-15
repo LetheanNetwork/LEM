@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"fmt"
@@ -102,9 +102,9 @@ func (e *Engine) ScoreAll(responses []Response) map[string][]PromptScore {
 
 				// Find the matching content probe.
 				var probe *ContentProbe
-				for idx := range contentProbes {
-					if contentProbes[idx].ID == r.ID {
-						probe = &contentProbes[idx]
+				for idx := range ContentProbes {
+					if ContentProbes[idx].ID == r.ID {
+						probe = &ContentProbes[idx]
 						break
 					}
 				}

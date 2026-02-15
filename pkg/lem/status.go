@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"flag"
@@ -10,7 +10,7 @@ import (
 )
 
 // runStatus parses CLI flags and prints training/generation status from InfluxDB.
-func runStatus(args []string) {
+func RunStatus(args []string) {
 	fs := flag.NewFlagSet("status", flag.ExitOnError)
 
 	influxURL := fs.String("influx", "", "InfluxDB URL (default http://10.69.69.165:8181)")

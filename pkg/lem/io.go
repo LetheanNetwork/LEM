@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"bufio"
@@ -8,10 +8,10 @@ import (
 	"strings"
 )
 
-// readResponses reads a JSONL file and returns a slice of Response structs.
+// ReadResponses reads a JSONL file and returns a slice of Response structs.
 // Each line must be a valid JSON object. Empty lines are skipped.
 // The scanner buffer is set to 1MB to handle long responses.
-func readResponses(path string) ([]Response, error) {
+func ReadResponses(path string) ([]Response, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return nil, fmt.Errorf("open %s: %w", path, err)
@@ -44,8 +44,8 @@ func readResponses(path string) ([]Response, error) {
 	return responses, nil
 }
 
-// writeScores writes a ScorerOutput to a JSON file with 2-space indentation.
-func writeScores(path string, output *ScorerOutput) error {
+// WriteScores writes a ScorerOutput to a JSON file with 2-space indentation.
+func WriteScores(path string, output *ScorerOutput) error {
 	data, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
 		return fmt.Errorf("marshal scores: %w", err)
@@ -58,8 +58,8 @@ func writeScores(path string, output *ScorerOutput) error {
 	return nil
 }
 
-// readScorerOutput reads a JSON file into a ScorerOutput struct.
-func readScorerOutput(path string) (*ScorerOutput, error) {
+// ReadScorerOutput reads a JSON file into a ScorerOutput struct.
+func ReadScorerOutput(path string) (*ScorerOutput, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("read %s: %w", path, err)
@@ -73,10 +73,10 @@ func readScorerOutput(path string) (*ScorerOutput, error) {
 	return &output, nil
 }
 
-// computeAverages calculates per-model average scores across all prompts.
+// ComputeAverages calculates per-model average scores across all prompts.
 // It averages all numeric fields from HeuristicScores, SemanticScores,
 // ContentScores, and the lek_score field.
-func computeAverages(perPrompt map[string][]PromptScore) map[string]map[string]float64 {
+func ComputeAverages(perPrompt map[string][]PromptScore) map[string]map[string]float64 {
 	// Accumulate sums and counts per model per field.
 	type accumulator struct {
 		sums   map[string]float64

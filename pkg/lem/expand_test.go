@@ -1,4 +1,4 @@
-package main
+package lem
 
 import (
 	"bufio"
@@ -161,7 +161,7 @@ func TestExpandPromptsBasic(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(server.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -240,7 +240,7 @@ func TestExpandPromptsSkipsCompleted(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -406,7 +406,7 @@ func TestExpandPromptsAPIErrorSkipsPrompt(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -475,7 +475,7 @@ func TestExpandPromptsInfluxWriteErrorNonFatal(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -524,7 +524,7 @@ func TestExpandPromptsOutputJSONLStructure(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -603,7 +603,7 @@ func TestExpandPromptsInfluxLineProtocol(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -666,7 +666,7 @@ func TestExpandPromptsAppendMode(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 	outputFile := filepath.Join(outputDir, "expand-test-worker.jsonl")
@@ -743,7 +743,7 @@ func TestExpandPromptsLimit(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -824,7 +824,7 @@ func TestExpandPromptsLimitAfterFiltering(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -901,7 +901,7 @@ func TestExpandPromptsLimitZeroMeansAll(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
@@ -951,7 +951,7 @@ func TestExpandPromptsOutputHasCharsField(t *testing.T) {
 	t.Setenv("INFLUX_TOKEN", "test-token")
 	influx := NewInfluxClient(influxServer.URL, "training")
 	client := NewClient(apiServer.URL, "test-model")
-	client.maxTokens = 2048
+	client.MaxTokens = 2048
 
 	outputDir := t.TempDir()
 
