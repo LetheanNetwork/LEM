@@ -1,0 +1,20 @@
+[Unit]
+Description=ROCm Scoring Agent - Node Zero
+Documentation=https://forge.lthn.io/agentic
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/claude/scoring-agent/scoring_agent.py
+WorkingDirectory=/home/claude/scoring-agent
+Restart=on-failure
+RestartSec=30
+Environment=PYTHONUNBUFFERED=1
+Environment=WORK_DIR=/tmp/scoring-agent
+Environment=POLL_INTERVAL=300
+Environment=TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1
+Environment=HF_TOKEN=
+
+[Install]
+WantedBy=default.target

@@ -2,9 +2,13 @@
 .idea/
 __pycache__/
 *.pyc
+.env
 
 # Worker output (generated locally, not committed)
 worker/output/
 
 # Parquet exports (generated, sync to HF via scripts/sync_hf.py)
 training/parquet/
+
+# Go binary
+lem
