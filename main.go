@@ -42,6 +42,9 @@ Monitoring:
   coverage       Analyze seed coverage gaps
   metrics        Push DuckDB golden set stats to InfluxDB
 
+Distributed:
+  worker         Run as distributed inference worker node
+
 Infrastructure:
   ingest         Ingest benchmark data into InfluxDB
   seed-influx    Seed InfluxDB golden_gen from DuckDB
@@ -101,6 +104,8 @@ func main() {
 		lem.RunQuery(os.Args[2:])
 	case "agent":
 		lem.RunAgent(os.Args[2:])
+	case "worker":
+		lem.RunWorker(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
