@@ -162,6 +162,38 @@ func (db *DB) UpdateExpansionStatus(idx int64, status string) error {
 	return nil
 }
 
+// QueryRows executes an arbitrary SQL query and returns results as maps.
+func (db *DB) QueryRows(query string, args ...interface{}) ([]map[string]interface{}, error) {
+	rows, err := db.conn.Query(query, args...)
+	if err != nil {
+		return nil, fmt.Errorf("query: %w", err)
+	}
+	defer rows.Close()
+
+	cols, err := rows.Columns()
+	if err != nil {
+		return nil, fmt.Errorf("columns: %w", err)
+	}
+
+	var result []map[string]interface{}
+	for rows.Next() {
+		values := make([]interface{}, len(cols))
+		ptrs := make([]interface{}, len(cols))
+		for i := range values {
+			ptrs[i] = &values[i]
+		}
+		if err := rows.Scan(ptrs...); err != nil {
+			return nil, fmt.Errorf("scan: %w", err)
+		}
+		row := make(map[string]interface{}, len(cols))
+		for i, col := range cols {
+			row[col] = values[i]
+		}
+		result = append(result, row)
+	}
+	return result, rows.Err()
+}
+
 // TableCounts returns row counts for all known tables.
 func (db *DB) TableCounts() (map[string]int, error) {
 	tables := []string{"golden_set", "expansion_prompts", "seeds", "prompts",
