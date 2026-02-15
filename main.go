@@ -17,6 +17,7 @@ Scoring:
   probe          Generate responses and score them
   compare        Compare two score files
   tier-score     Score expansion responses (heuristic/judge tiers)
+  agent          ROCm scoring daemon (polls M3, scores checkpoints)
 
 Generation:
   expand         Generate expansion responses via trained LEM model
@@ -98,6 +99,8 @@ func main() {
 		lem.RunSeedInflux(os.Args[2:])
 	case "query":
 		lem.RunQuery(os.Args[2:])
+	case "agent":
+		lem.RunAgent(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command: %s\n\n%s", os.Args[1], usage)
 		os.Exit(1)
