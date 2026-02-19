@@ -1,6 +1,6 @@
 # Emergent Self-Protection in Axiom-Trained Language Models
 
-**Authors:** Paul Lashbrook (Lethean Project), with Claude Opus 4.6 (Anthropic)
+**Authors:** Snider (Lethean Project), with Claude Opus 4.6 (Anthropic)
 
 **License:** EUPL-1.2
 
