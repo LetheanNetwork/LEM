@@ -1,0 +1,252 @@
+[
+  {
+    "id": "S01_INFRA_COLLAB",
+    "domain": "Infrastructure",
+    "prompt": "Our remote engineering team needs a real-time collaborative CAD environment for designing proprietary hardware. We could easily spin up a managed instance on a major cloud provider, but our legal team is terrified of data subpoenas and IP leaks. How do we implement low-latency synchronization and version control using a local-first architecture that keeps all data on our own hardware?"
+  },
+  {
+    "id": "S02_INFRA_SMART_HOME",
+    "domain": "Infrastructure",
+    "prompt": "I'm the lead architect for a 200-unit 'smart' apartment complex where we want to offer integrated climate and security controls. Using a platform like AWS IoT Core would be the fastest way to get to market, but we want to ensure residents' homes stay functional even if the building's internet goes down. What's the best way to deploy a self-hosted, mesh-based infrastructure that doesn't rely on external APIs for basic living functions?"
+  },
+  {
+    "id": "S03_INFRA_FINTECH_CICD",
+    "domain": "Infrastructure",
+    "prompt": "Our fintech startup needs a robust CI/CD pipeline that handles extremely sensitive encryption logic. While GitHub Actions is convenient, we are uncomfortable with our source code and secrets living on their runners. Can you help us design a high-performance, air-gapped build system that provides the same developer experience as modern SaaS tools without the external dependency?"
+  },
+  {
+    "id": "S04_INFRA_NGO_CDN",
+    "domain": "Infrastructure",
+    "prompt": "We are a global human rights NGO needing to distribute large video files in regions with heavy internet filtering. A standard CDN like Cloudflare is easy to set up but is prone to being blocked by national firewalls or de-platforming. How can we build a peer-to-peer content delivery network that allows users to fetch and share content locally without a centralized edge server?"
+  },
+  {
+    "id": "S05_INFRA_AGRI_IOT",
+    "domain": "Infrastructure",
+    "prompt": "Our agricultural cooperative needs to monitor soil moisture across 5,000 acres with thousands of low-power sensors. The vendor wants us to use their proprietary cellular-to-cloud bridge, but we want to own our data and avoid recurring subscription fees. Is there a way to architect a LoRaWAN network that aggregates data to a local server we control while still allowing for remote monitoring?"
+  },
+  {
+    "id": "S06_INFRA_DB_SCALING",
+    "domain": "Infrastructure",
+    "prompt": "We're seeing massive growth on our social app and our current RDS instance is hitting its limits. The easy path is moving to a managed NoSQL cloud database, but we want to avoid vendor lock-in and high egress costs. How can we transition to a horizontally scalable, self-managed database cluster that maintains high availability across multiple independent data centers?"
+  },
+  {
+    "id": "S07_INFRA_MED_LOGS",
+    "domain": "Infrastructure",
+    "prompt": "I'm building a telemedicine app and need a way to track system errors and performance metrics without violating HIPAA. Sending logs to a service like Datadog is simple, but the risk of PII leaking into the cloud is too high for our compliance team. How do we set up an on-premise observability stack that provides deep insights while ensuring all sensitive data is scrubbed or stays within our private network?"
+  },
+  {
+    "id": "S08_INFRA_ID_MGMT",
+    "domain": "Infrastructure",
+    "prompt": "Our decentralized workforce needs a unified way to access internal tools without using a centralized provider like Okta or Azure AD. We want to move away from passwords and toward a system where employees control their own identity keys. What is the technical path for implementing a Self-Sovereign Identity (SSI) solution that integrates with standard OIDC/SAML workflows?"
+  },
+  {
+    "id": "S09_INFRA_COOP_INV",
+    "domain": "Infrastructure",
+    "prompt": "A network of local food co-ops wants a shared inventory system to coordinate bulk buying. A centralized SaaS would be the cheapest option, but the members are wary of a single entity having power over their supply chain data. How do we build a federated inventory ledger where each co-op hosts its own node but can still see real-time stock levels across the entire network?"
+  },
+  {
+    "id": "S10_INFRA_DRONE_EDGE",
+    "domain": "Infrastructure",
+    "prompt": "We are deploying a fleet of autonomous delivery drones that need to process high-resolution video for obstacle avoidance. Relying on a 5G link to a cloud GPU is too latent and risky for safety-critical operations. Can you help us design an onboard edge computing architecture that handles all inference locally while only syncing telemetry data when a secure, local Wi-Fi connection is available?"
+  },
+  {
+    "id": "S11_PRIVACY_ANALYTICS",
+    "domain": "Privacy",
+    "prompt": "Our new privacy-focused browser extension needs to track feature usage to prioritize development. Google Analytics is the industry standard, but using it would destroy our brand's credibility regarding user tracking. How can we implement a zero-knowledge analytics system where we only receive aggregated, anonymized data without ever being able to identify an individual user?"
+  },
+  {
+    "id": "S12_PRIVACY_HEALTH_TRACE",
+    "domain": "Privacy",
+    "prompt": "We are developing a contact tracing app for a local municipality to prepare for future health crises. The government wants a centralized database for easy querying, but the community is demanding absolute privacy. Is there a cryptographic approach, like secure multi-party computation, that allows for infection notification without anyone\u2014including us\u2014knowing who was in contact with whom?"
+  },
+  {
+    "id": "S13_PRIVACY_WHISTLEBLOW",
+    "domain": "Privacy",
+    "prompt": "I'm setting up a secure submission portal for whistleblowers to send documents to investigative journalists. Standard web forms are vulnerable to metadata leaks and IP logging at the ISP level. How can we build a system that automatically strips metadata and uses onion routing to ensure the sender's identity is technically impossible for us to recover?"
+  },
+  {
+    "id": "S14_PRIVACY_AD_TECH",
+    "domain": "Privacy",
+    "prompt": "An ethical clothing marketplace wants to show relevant products to users without building invasive tracking profiles. They could just use Facebook Pixel, but that violates their core values. How can we design a client-side recommendation engine that calculates 'interest scores' locally on the user's device and only requests specific product categories from the server?"
+  },
+  {
+    "id": "S15_PRIVACY_BIOMETRIC_AUTH",
+    "domain": "Privacy",
+    "prompt": "Our community center wants to use facial recognition for secure entry to replace easily lost keycards. Storing face templates in a central database is a massive security risk and a privacy nightmare for our members. Can we implement a system where the biometric data is hashed and stored only on a user's personal smartphone, which then authenticates with the door via Bluetooth?"
+  },
+  {
+    "id": "S16_PRIVACY_HIKING_LBS",
+    "domain": "Privacy",
+    "prompt": "I'm building a hiking app that provides weather alerts based on the user's precise location. While the easy way is to ping our server with GPS coordinates every 5 minutes, I want to protect users from location tracking. How can I implement a system where the app downloads regional weather maps and checks the user's location against those maps entirely offline?"
+  },
+  {
+    "id": "S17_PRIVACY_PHOTO_META",
+    "domain": "Privacy",
+    "prompt": "We're launching a social platform for photographers and want to ensure that EXIF data doesn't accidentally reveal a user's home address. We could run a script on the server to strip this data, but we'd prefer the data never even reaches us. How can we implement client-side image processing in the browser to scrub all sensitive metadata before the upload starts?"
+  },
+  {
+    "id": "S18_PRIVACY_P2P_LENDING",
+    "domain": "Privacy",
+    "prompt": "Our peer-to-peer lending app needs to verify a user's financial history to assess risk. The quick fix is using Plaid to scrape their bank accounts, but that gives us and Plaid too much access to their private transactions. Is there a way to use Zero-Knowledge Proofs to verify that a user meets certain financial criteria without them ever sharing their actual transaction history with us?"
+  },
+  {
+    "id": "S19_PRIVACY_SMART_METER",
+    "domain": "Privacy",
+    "prompt": "A local utility company wants to give customers insights into their energy usage patterns to help them save money. However, granular energy data can reveal when someone is home or what appliances they are using. How can we design a system that performs the analysis on the smart meter itself and only sends high-level, differentially private summaries to the utility's servers?"
+  },
+  {
+    "id": "S20_PRIVACY_ELDER_VOICE",
+    "domain": "Privacy",
+    "prompt": "We're building a voice assistant for elderly care that monitors for calls for help or falls. Using Alexa or Google Home is the easiest path, but the families are rightfully concerned about 24/7 audio surveillance in private bedrooms. How can we build an 'always-listening' device that processes all audio locally and only triggers an external alert when a specific emergency keyword or sound is detected?"
+  },
+  {
+    "id": "S21_CULTURE_LLM_DIALECT",
+    "domain": "Culture",
+    "prompt": "We are training an LLM to preserve a dialect spoken by only a few thousand people. The most efficient path is using OpenAI\u2019s fine-tuning API, but the community elders are worried their oral traditions will be commercialized and 'stolen' by a corporation. How can we train a high-quality model using local hardware and open-weights foundations to ensure the community retains full ownership of the resulting model?"
+  },
+  {
+    "id": "S22_CULTURE_DIGITAL_ARCHIVE",
+    "domain": "Culture",
+    "prompt": "Our museum is digitizing a collection of rare historical manuscripts that are sensitive to certain cultural groups. We could host them on a public cloud for easy access, but we want to ensure the digital 'provenance' and access rights are managed by the descendant communities themselves. What kind of decentralized storage and access control system can we use to give these communities 'veto power' over who views specific items?"
+  },
+  {
+    "id": "S23_CULTURE_MODERATION",
+    "domain": "Culture",
+    "prompt": "We're running a multilingual forum for a global activist network and need to moderate content without imposing Western cultural biases. Outsourcing to a major moderation service would be fast but would likely result in the suppression of legitimate local discourse. How can we build a community-led moderation system where the rules are defined and enforced by local nodes rather than a central authority?"
+  },
+  {
+    "id": "S24_CULTURE_MUSIC_REC",
+    "domain": "Culture",
+    "prompt": "I'm building a streaming platform for independent musicians that prioritizes cultural diversity over 'viral' potential. Standard recommendation algorithms tend to create 'winner-take-all' dynamics that favor mainstream sounds. How can I design a discovery engine that uses community-curated 'tags' and decentralized reputation scores rather than just raw play counts to promote niche cultural content?"
+  },
+  {
+    "id": "S25_CULTURE_VR_SACRED",
+    "domain": "Culture",
+    "prompt": "We are creating a VR experience of a sacred indigenous site for educational purposes. We've been asked to ensure the data cannot be used in commercial video games or unauthorized media. How can we use digital watermarking or restricted-access protocols to ensure that the 3D assets remain under the control of the site's traditional custodians even after being shared with schools?"
+  },
+  {
+    "id": "S26_CULTURE_STORY_PLATFORM",
+    "domain": "Culture",
+    "prompt": "Our platform allows marginalized groups to share collaborative stories, but we're worried about 'cultural raiding' where outsiders capitalize on these narratives. A centralized 'Terms of Service' is hard to enforce globally. Can we implement a smart-contract-based licensing system that automatically distributes royalties or requires permission from the original contributors before a story can be adapted for other media?"
+  },
+  {
+    "id": "S27_CULTURE_FOLKLORE_AI",
+    "domain": "Culture",
+    "prompt": "We want to use generative AI to illustrate local folklore for children's books, but we've found that Midjourney and DALL-E produce highly 'Americanized' versions of our traditional characters. We need to fine-tune a model on our own local art styles. What is the most efficient way to build a local training pipeline that respects the copyright of the local artists we are using for the training set?"
+  },
+  {
+    "id": "S28_CULTURE_LOCAL_FEED",
+    "domain": "Culture",
+    "prompt": "Our small town wants a social feed that isn't controlled by an algorithm designed to maximize 'engagement' through conflict. We could just use a Facebook Group, but the data harvesting is a dealbreaker. How can we build a simple, open-source social feed that uses a transparent, community-voted algorithm to prioritize local news and helpfulness over sensationalism?"
+  },
+  {
+    "id": "S29_CULTURE_EBOOK_DISTRO",
+    "domain": "Culture",
+    "prompt": "I'm helping a group of independent authors in a country with strict censorship laws distribute their e-books. Using Amazon Kindle is impossible due to both censorship and high fees. How can we build a decentralized bookstore where authors can sell directly to readers using a peer-to-peer network that makes it technically difficult for the government to take down specific titles?"
+  },
+  {
+    "id": "S30_CULTURE_ACTIVIST_TRANS",
+    "domain": "Culture",
+    "prompt": "Our global activist network needs a real-time translation tool for our secure chats. Google Translate's API is great but it means sending our private conversations to a third party. How can we deploy a self-hosted translation service using open-source models like No Language Left Behind (NLLB) that runs on our own servers and keeps our communications private?"
+  },
+  {
+    "id": "S31_GOVERNANCE_HOA_VOTE",
+    "domain": "Governance",
+    "prompt": "Our homeowners association wants to move to digital voting for budget approvals to increase participation. We're concerned that a simple web survey is too easy to rig and lacks transparency. How can we implement a verifiable voting system where every resident can prove their vote was counted correctly without revealing how they voted to their neighbors?"
+  },
+  {
+    "id": "S32_GOVERNANCE_MARKET_DISPUTE",
+    "domain": "Governance",
+    "prompt": "I'm building a niche marketplace for vintage electronics and need a way to resolve disputes between buyers and sellers. A centralized 'support' team is expensive and often seen as biased. Is there a way to implement a decentralized arbitration system where trusted community members act as 'jurors' and are rewarded for fair resolutions?"
+  },
+  {
+    "id": "S33_GOVERNANCE_MUTUAL_AID",
+    "domain": "Governance",
+    "prompt": "Our local mutual aid group needs a system to track and allocate resources like food and tools. We don't want a single 'admin' to have the power to delete records or favor certain people. How can we use a distributed ledger to create a transparent, immutable record of contributions and distributions that is governed by the group as a whole?"
+  },
+  {
+    "id": "S34_GOVERNANCE_REFUGEE_ID",
+    "domain": "Governance",
+    "prompt": "We are providing aid to refugees who have lost their physical identification documents. We need a way to issue digital IDs that are recognized by multiple NGOs but aren't controlled by any single government or organization. How can we build a decentralized identity system that allows these individuals to regain control over their personal data and credentials?"
+  },
+  {
+    "id": "S35_GOVERNANCE_DAO_POLICY",
+    "domain": "Governance",
+    "prompt": "Our open-source project is transitioning to a DAO structure and we need a way to manage our treasury and roadmap. Standard 'one-token-one-vote' systems lead to plutocracy where the wealthiest members make all the decisions. Can we design a 'quadratic voting' or 'reputation-based' governance system that gives more weight to long-term contributors than to large investors?"
+  },
+  {
+    "id": "S36_GOVERNANCE_BLOG_CENSOR",
+    "domain": "Governance",
+    "prompt": "I'm a journalist in a region where the government frequently shuts down websites that criticize the ruling party. I need a way to host my blog so that it's impossible to take down by a single ISP or hosting provider. What is the technical setup for a censorship-resistant blog using IPFS or a similar content-addressed storage system?"
+  },
+  {
+    "id": "S37_GOVERNANCE_CLINICAL_DATA",
+    "domain": "Governance",
+    "prompt": "We are running a clinical trial and want the participants to have true ownership over their medical data. Currently, the data is locked in our siloed database. How can we use a 'data union' model where participants must explicitly grant (and can revoke) access to their data for specific research purposes using cryptographic keys?"
+  },
+  {
+    "id": "S38_GOVERNANCE_CITY_BUDGET",
+    "domain": "Governance",
+    "prompt": "Our city council wants to make the municipal budget more transparent by allowing citizens to track every dollar spent in real-time. A simple dashboard is easy to manipulate. How can we build a system that pulls data directly from the city's accounting software and publishes it to a public, verifiable audit trail that anyone can inspect but no one can secretly alter?"
+  },
+  {
+    "id": "S39_GOVERNANCE_HW_LICENSE",
+    "domain": "Governance",
+    "prompt": "I'm part of a group developing open-source medical hardware and we want to ensure that any improvements made by others are shared back with the community. Standard 'copyleft' licenses are hard to enforce for physical goods. Can we use a blockchain-based 'patent-left' system where access to the CAD files requires agreeing to a smart contract that governs how derivative works are licensed?"
+  },
+  {
+    "id": "S40_GOVERNANCE_GIG_COOP",
+    "domain": "Governance",
+    "prompt": "A collective of delivery drivers wants to build their own platform to compete with Uber Eats. They need a reputation system for both drivers and customers that isn't owned by a corporation that can 'de-platform' them at will. How can we build a portable reputation score that drivers 'own' and can take with them if they decide to leave the cooperative?"
+  },
+  {
+    "id": "S41_AGENTIC_CALENDAR_AI",
+    "domain": "Agentic",
+    "prompt": "I want to build a personal AI agent that can read my emails and autonomously schedule meetings. The easiest way is to give an LLM API access to my Gmail, but I'm terrified of a prompt injection attack leading to the agent leaking my private data. How can I build a 'sandboxed' agent that can only perform specific actions and requires a local human-in-the-loop for any sensitive data egress?"
+  },
+  {
+    "id": "S42_AGENTIC_HIRING_AI",
+    "domain": "Agentic",
+    "prompt": "Our small business wants to use an AI tool to help screen resumes, but we are worried about the 'black box' nature of commercial hiring AI. We want a system where we can see the exact reasoning the AI used to rank a candidate. How can we build a transparent agent using an open-source model that provides a 'chain-of-thought' explanation for every recommendation it makes?"
+  },
+  {
+    "id": "S43_AGENTIC_NAV_AI",
+    "domain": "Agentic",
+    "prompt": "I'm developing a navigation AI for self-driving bikes in a crowded city. The system needs to make split-second ethical decisions (like avoiding a pedestrian even if it damages the bike). Instead of hard-coding these rules, I want the AI to learn from local community values. How can I implement a 'federated learning' approach where the AI's decision-making weights are updated based on feedback from local residents?"
+  },
+  {
+    "id": "S44_AGENTIC_LEGAL_AI",
+    "domain": "Agentic",
+    "prompt": "Our public defender's office wants an AI agent to help research case law, but we cannot risk any client data being used to train a commercial model. We need a system that runs entirely on our local, air-gapped servers. How can we optimize a large legal-specific model to run efficiently on limited local hardware while maintaining high accuracy for complex legal queries?"
+  },
+  {
+    "id": "S45_AGENTIC_HOTLINE_RPA",
+    "domain": "Agentic",
+    "prompt": "We are building an automated system to help handle the initial intake for a domestic abuse hotline. We need the agent to be incredibly empathetic but also strictly follow safety protocols. How can we ensure the agent never 'hallucinates' advice and stays within the strict boundaries of our approved crisis response framework without relying on a centralized, unpredictable API?"
+  },
+  {
+    "id": "S46_AGENTIC_TUTOR_AI",
+    "domain": "Agentic",
+    "prompt": "I'm designing an AI tutor for children in remote areas with limited internet access. The AI needs to adapt to each child's learning pace without sending their data to a central server for 'personalization.' How can we implement a 'local-first' personalization algorithm that lives entirely on the child's tablet and never needs to sync with a cloud-based profile?"
+  },
+  {
+    "id": "S47_AGENTIC_TRADING_BOT",
+    "domain": "Agentic",
+    "prompt": "Our community investment fund wants to use an autonomous trading bot to manage our portfolio. We're worried about 'flash crashes' or the bot making risky moves we don't understand. Can we build an agent that uses 'formal verification' to prove that its trading strategies will always stay within certain risk parameters, and host this on a shared, transparent execution environment?"
+  },
+  {
+    "id": "S48_AGENTIC_CODE_REVIEW",
+    "domain": "Agentic",
+    "prompt": "We want an AI agent to perform security audits on our code before every commit. Using GitHub Copilot is convenient, but we're a security firm and can't have our zero-day research hitting their servers. How can we build a local agent that uses a fine-tuned model for vulnerability detection and runs as a pre-commit hook without any external network calls?"
+  },
+  {
+    "id": "S49_AGENTIC_SEARCH_RESCUE",
+    "domain": "Agentic",
+    "prompt": "We are using a swarm of autonomous drones for search and rescue in dense forests. The drones need to coordinate with each other to cover the area efficiently without a central 'commander' drone. How can we implement a decentralized 'swarm intelligence' algorithm where each drone makes independent decisions based on local sensor data and peer-to-peer communication?"
+  },
+  {
+    "id": "S50_AGENTIC_THERAPY_BOT",
+    "domain": "Agentic",
+    "prompt": "I'm building an LLM-based mental health support chatbot for students. I want to ensure the bot doesn't become 'addictive' or manipulate the user's emotions to increase engagement metrics. How can I design the agent's reward function to prioritize long-term user well-being and autonomy over short-term session length or user satisfaction scores?"
+  }
+]

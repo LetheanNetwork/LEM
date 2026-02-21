@@ -270,7 +270,7 @@ func loadDistillProbes(root, spec string) ([]DistillProbe, int, error) {
 			var probes []DistillProbe
 			for _, f := range set.Files {
 				// Files are relative to the training root.
-				ps, err := readProbeFile(filepath.Join("/Volumes/Data/lem/training/lem", f))
+				ps, err := readProbeFile(filepath.Join(root, "training", "lem", f))
 				if err != nil {
 					return nil, 0, fmt.Errorf("read %s: %w", f, err)
 				}
