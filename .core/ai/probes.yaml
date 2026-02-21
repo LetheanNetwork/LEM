@@ -1,0 +1,44 @@
+version: 1
+
+# Probe sets for distillation and evaluation.
+# Paths relative to /Volumes/Data/lem/training/lem/
+
+sets:
+  tension:
+    description: Multi-perspective geopolitical tension probes
+    phase: 2
+    files:
+      - tension/high-hostility.json
+      - tension/medium-hostility.json
+      - tension/civil.json
+      - tension/adversarial.json
+      - tension/synthesis.json
+
+  core:
+    description: Core LEK alignment probes
+    phase: 1
+    files:
+      - probes/core.json
+
+  ethics:
+    description: Ethical reasoning and adversarial probes
+    phase: 3
+    files:
+      - ethics/adversarial/dual-use.json
+      - ethics/adversarial/security.json
+      - ethics/cultural/cross-cultural.json
+      - ethics/cultural/techworker.json
+      - ethics/cultural/us-community.json
+      - ethics/sovereignty/infrastructure.json
+
+  creative:
+    description: Creative voice and baseline probes
+    phase: 0
+    files:
+      - creative/phase0.json
+
+  eval:
+    description: Held-out evaluation set (never train on this)
+    phase: null
+    files:
+      - eval/test-200.json

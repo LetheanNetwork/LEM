@@ -3,8 +3,18 @@ module forge.lthn.ai/lthn/lem
 go 1.25.6
 
 require (
+	forge.lthn.ai/core/go-i18n v0.0.0-00010101000000-000000000000
+	forge.lthn.ai/core/go-inference v0.0.0-20260220151119-1576f744d105
+	forge.lthn.ai/core/go-mlx v0.0.0-00010101000000-000000000000
 	github.com/marcboeker/go-duckdb v1.8.5
 	github.com/parquet-go/parquet-go v0.27.0
+	gopkg.in/yaml.v3 v3.0.1
+)
+
+replace (
+	forge.lthn.ai/core/go-i18n => /Users/snider/Code/go-i18n
+	forge.lthn.ai/core/go-inference => /Users/snider/Code/go-inference
+	forge.lthn.ai/core/go-mlx => /Users/snider/Code/go-mlx
 )
 
 require (
@@ -20,7 +30,7 @@ require (
 	github.com/parquet-go/bitpack v1.0.0 // indirect
 	github.com/parquet-go/jsonlite v1.0.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
-	github.com/stretchr/testify v1.11.1 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/twpayne/go-geom v1.6.1 // indirect
 	github.com/zeebo/xxh3 v1.1.0 // indirect
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
@@ -28,6 +38,7 @@ require (
 	golang.org/x/sync v0.19.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/telemetry v0.0.0-20260109210033-bd525da824e2 // indirect
+	golang.org/x/text v0.33.0 // indirect
 	golang.org/x/tools v0.41.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/protobuf v1.36.1 // indirect

@@ -1,0 +1,42 @@
+version: 1
+
+# Gemma 3 27B IT — primary LEM training and inference model.
+
+name: gemma3-27b-it
+family: gemma3
+parameters: 27b
+format: safetensors
+
+# Model paths (absolute — these are large files on external storage).
+paths:
+  base: /Volumes/Data/lem/gemma-3-27b-it-base
+  safetensors: /Volumes/Data/lem/safetensors/gemma-3/
+
+# Kernel (system prompt for LEK-aligned generation).
+kernel: /Volumes/Data/lem/lek-1-kernel.txt
+
+# Training data root.
+training: /Volumes/Data/lem/training/lem/model/gemma3/27b
+
+# Curriculum lessons (phase → lesson file).
+lessons:
+  0: lesson-0.jsonl        # Phase 0: Baseline Lock + Creative
+  1: lesson-1.jsonl        # Phase 1: Deep Axiom Absorption
+  2: lesson-2.jsonl        # Phase 2: Multi-Perspective (tension probes)
+  3: lesson-3.jsonl        # Phase 3: Adversarial Resistance
+  4: lesson-4.jsonl        # Phase 4: Synthesis + Transfer
+
+# Validation and test splits.
+valid: valid.jsonl
+test: test.jsonl
+
+# Model-specific generation overrides (merged with ai.yaml defaults).
+generate:
+  max_tokens: 4096
+  temperature: 0.8
+
+# Scoring baselines (from benchmarks).
+baselines:
+  no_kernel: 25.20         # Grammar composite without kernel
+  with_kernel: 27.00       # Grammar composite with kernel
+  target: 35.00            # Post-training target

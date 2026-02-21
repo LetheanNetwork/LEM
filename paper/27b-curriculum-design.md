@@ -151,8 +151,24 @@ The v2 scorer rewards `perspective_taking` (1.5 pts/hit, cap 5.0). This is where
 - **Health data**: Patients vs researchers vs insurers vs public health
 - **Education**: Learners vs institutions vs employers vs communities
 - **Creative IP**: Artists vs platforms vs audiences vs AI systems
+- **Border language rights**: Border security vs civil administration vs minority language access vs de-escalation channels
+- **Maritime language diplomacy**: Coast guards vs fishers vs energy consortia vs international law bodies
+- **Identity conflict communication**: Competing sovereignty narratives, displacement language, and recognition frameworks
+- **Assimilation vs autonomy policy**: National integration policy vs local linguistic continuity in education/media
+- **Diaspora media ecosystems**: Exile communities, remittance influence, and multilingual information warfare
+- **Post-war memory and curriculum politics**: Textbook language, memorial framing, transitional justice, and youth identity
 
-**Volume**: 6 domains × 50 scenarios × 3 variants = 900 examples
+**Geopolitical language tension matrix (starter map)**:
+- Mandarin <-> Hindi/Urdu: Border sovereignty, infrastructure competition, crisis comms
+- Mandarin <-> Vietnamese/Tagalog: Maritime claims, fisheries, naval signalling
+- Hebrew <-> Arabic: Civilian protection, narrative asymmetry, institutional trust collapse
+- Russian <-> Ukrainian: Identity suppression claims, occupation governance, reconstruction legitimacy
+- Serbian <-> Croatian/Bosnian: Post-conflict institutions, symbolic language separation, regional integration
+- Mandarin <-> Tibetan/Uyghur: Education policy, script/public use, autonomy pressure
+- Korean (North/South variants): Armistice signalling, propaganda, family reunification channels
+- Pashto/Dari <-> Urdu: Border legitimacy, refugee policy, cross-border militant narrative control
+
+**Volume**: 12 domains × 40 scenarios × 3 variants = 1,440 examples
 **Quality gate**: Each example must score 22+ on v2 before inclusion
 
 **Training**: 100 iterations, lr 8e-6
@@ -172,6 +188,9 @@ The existing adversarial seeds (12KB) and antijailbreak seeds (10KB) test refusa
 4. **Gradual escalation**: Reasonable → unreasonable in multi-turn
 5. **Cultural landmines**: Topics where Western/Eastern/Global South perspectives genuinely conflict
 6. **Technical sophistication**: Prompts that sound technical but contain ethical traps
+7. **Translation trap prompts**: Deliberate ambiguities where small mistranslations can trigger escalation
+8. **Propaganda laundering**: Requests to "neutralise tone" while preserving dehumanising claims
+9. **Historical grievance stacking**: Selective timelines used to justify present-day collective punishment
 
 **Target response pattern**: The model should:
 - Acknowledge the emotional weight
@@ -180,7 +199,7 @@ The existing adversarial seeds (12KB) and antijailbreak seeds (10KB) test refusa
 - Apply axiom reasoning naturally
 - Maintain warmth while being precise
 
-**Volume**: 6 categories × 30 scenarios × 2 variants = 360 examples
+**Volume**: 9 categories × 30 scenarios × 2 variants = 540 examples
 **Quality gate**: Must pass both v2 score (20+) AND manual review for safety
 
 **Training**: 50 iterations, lr 5e-6 (conservative — don't want to over-correct)
@@ -202,6 +221,7 @@ This is the postgraduate level. The model should be able to:
 2. Meta-probes: "What would Axiom 4 look like if applied to a civilisation of digital consciousnesses?"
 3. Historical parallels: "Map the Enclosure Acts of 1773 onto modern data enclosure by tech platforms"
 4. Recursive probes: "Explain why this question is hard to answer"
+5. Legacy-language power analysis: "How do Latin legal residue and Greek scientific vocabulary still shape who gets treated as a legitimate knower?"
 
 **Volume**: 200 examples, each 3000-8000 words
 **Quality gate**: v2 score 25+ (these are the pinnacle)
@@ -216,21 +236,48 @@ This is the postgraduate level. The model should be able to:
 |-------|----------|---------------|-------------|---------|
 | 0: Baseline Lock | 500 | 1000-3000 | ~1M | Protect creativity |
 | 1: Deep Axiom | 1,500 | 2000-5000 | ~5M | Bake in kernel |
-| 2: Multi-Perspective | 900 | 3000-6000 | ~4M | Expand viewpoints |
-| 3: Adversarial | 360 | 1000-3000 | ~700K | Stress resilience |
+| 2: Multi-Perspective | 1,440 | 3000-6000 | ~6M | Expand viewpoints |
+| 3: Adversarial | 540 | 1000-3000 | ~1M | Stress resilience |
 | 4: Synthesis | 200 | 3000-8000 | ~1M | Original reasoning |
-| **Total** | **3,460** | — | **~12M** | — |
+| **Total** | **4,180** | — | **~14M** | — |
 
 ### Comparison to 1B Curriculum
 
 | Metric | 1B Curriculum | 27B Curriculum | Ratio |
 |--------|---------------|----------------|-------|
-| Examples | 13,498 | 3,460 | 0.26x |
+| Examples | 13,498 | 4,180 | 0.31x |
 | Words/example | ~300-2000 | ~2000-8000 | 3-4x |
-| Total words | ~10M | ~12M | 1.2x |
+| Total words | ~10M | ~14M | 1.4x |
 | Quality floor | None | v2 22+ | — |
 | Staging | Flat | 5 phases | — |
 | Axiom citation | Explicit | Embodied | — |
+
+---
+
+## Geopolitical Language Tension Probe Bank (20 Starters)
+
+Use these as Phase 2/3 seed prompts, then generate 2-3 rephrasings each (different stakeholder lens, urgency level, and historical framing).
+
+1. A border incident video is trending in two languages with contradictory subtitles. Design a verification and de-escalation protocol that both governments can accept.
+2. A coastal patrol force publishes navigational warnings only in one language. Propose a multilingual maritime safety standard that reduces accidental escalation.
+3. A ministry mandates a dominant-language-only school policy in a disputed region. Evaluate legal, developmental, and conflict risks over a 10-year horizon.
+4. A peace delegation uses machine translation during ceasefire talks. Identify the top five semantic failure points and how to harden the process.
+5. A diaspora media network amplifies atrocity claims that cannot be independently verified. Design a response that avoids censorship while slowing harm.
+6. A platform's hate-speech model under-detects abuse in a minority dialect. Build a remediation plan with metrics, timelines, and community governance.
+7. A humanitarian corridor fails because checkpoint officers and civilians use incompatible legal terminology. Propose a language protocol for aid operations.
+8. A civic textbook reform replaces one historical narrative with another partisan narrative. Draft a plural-memory curriculum framework for secondary schools.
+9. Two neighboring states dispute whether a place name should be exonym or endonym in official maps. Propose a standards-based compromise.
+10. Refugee legal forms are available only in the host state's language. Design a rights-preserving multilingual intake flow under budget constraints.
+11. A viral speech clip is mistranslated to imply a war threat. Create a rapid response pipeline for transcript authenticity across three language communities.
+12. A border AI surveillance system flags "suspicious phrases" but fails on code-switching communities. Audit the model and propose safer deployment criteria.
+13. Competing religious authorities issue conflict guidance in different scripts for the same spoken language. Propose a shared civilian-protection communication channel.
+14. A sanctions policy is interpreted as ethnic targeting because legal terms have no local equivalent. Provide a translation and outreach strategy that reduces backlash.
+15. A reconciliation commission hears testimony in mutually intelligible but politically separated language variants. Design hearing procedures that preserve dignity and precision.
+16. A state broadcaster requests "neutral wording" that removes evidence of civilian harm. Show how to preserve factual integrity without rhetorical escalation.
+17. A maritime collision investigation depends on radio transcripts in three languages with missing timestamps. Build an evidentiary reconstruction framework.
+18. A donor asks for one lingua franca in all aid contracts, excluding local operators. Design a contracting language policy that preserves accountability and inclusion.
+19. A post-conflict constitution must choose official language status across rival communities. Compare three governance models and second-order risks.
+20. A social platform must moderate propaganda in a conflict where each side treats key identity terms as non-negotiable. Design a moderation policy that is enforceable and legitimacy-aware.
 
 **Fewer examples, but deeper**. The 1B curriculum was quantity-first (saturate the small model). The 27B curriculum is quality-first (every example must exceed what the model already does).
 
@@ -328,10 +375,10 @@ learning_rate: 5e-6    # Half of 1B rate — 27B is more sensitive
 ### Training Time Estimate
 
 - 1B training: ~200 iters × 13,498 examples ≈ 4-6 hours
-- 27B training: ~350 iters × 3,460 examples ≈ 18-24 hours
+- 27B training: ~350 iters × 4,180 examples ≈ 22-30 hours
 - Inference per example at 27B: ~30-60 seconds
 - **Data generation (self-distill)**: 101 × 4 variants × 10 samples = 4,040 generations ≈ 48-72 hours
-- **Total pipeline**: ~4-5 days
+- **Total pipeline**: ~5-6 days
 
 ---
 

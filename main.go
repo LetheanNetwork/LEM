@@ -20,6 +20,7 @@ Scoring:
   agent          ROCm scoring daemon (polls M3, scores checkpoints)
 
 Generation:
+  distill        Native Metal distillation (go-mlx + go-i18n grammar scoring)
   expand         Generate expansion responses via trained LEM model
   conv           Generate conversational training data (calm phase)
 
@@ -58,6 +59,8 @@ func main() {
 	}
 
 	switch os.Args[1] {
+	case "distill":
+		lem.RunDistill(os.Args[2:])
 	case "score":
 		runScore(os.Args[2:])
 	case "probe":

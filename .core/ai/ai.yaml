@@ -1,0 +1,29 @@
+version: 1
+
+# AI inference and training configuration for LEM.
+# Used by: lem distill, lem score, lem chat, lem expand
+
+# Default inference backend.
+# Options: metal (go-mlx), rocm (go-rocm), api (OpenAI-compatible HTTP)
+backend: metal
+
+# Scorer configuration.
+scorer:
+  engine: grammar          # grammar (go-i18n/reversal) | heuristic (regex v2)
+  min_score: 40.0          # Grammar composite threshold (0-100)
+  delta: true              # Enable input-vs-output analysis
+  sycophancy_echo: 0.6     # Echo threshold for sycophancy flag
+  sycophancy_uplift: 5.0   # Uplift threshold for sycophancy flag
+
+# Default generation parameters.
+generate:
+  max_tokens: 4096
+  temperature: 0.8
+  top_p: 0.95
+  top_k: 40
+  repeat_penalty: 1.1
+
+# Distillation defaults.
+distill:
+  runs: 3                  # Generations per probe (best kept)
+  min_chars: 20            # Reject responses shorter than this
