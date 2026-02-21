@@ -7,13 +7,13 @@ family: gemma3
 parameters: 27b
 format: safetensors
 
-# Model paths (absolute — these are large files on external storage).
+# Model paths (relative to repo root — symlink or populate data/).
 paths:
-  base: /Volumes/Data/lem/gemma-3-27b-it-base
-  safetensors: /Volumes/Data/lem/safetensors/gemma-3/
+  base: data/models/gemma3/27b
+  safetensors: data/safetensors/gemma-3/
 
 # Kernel (system prompt for LEK-aligned generation).
-kernel: /Volumes/Data/lem/lek-1-kernel.txt
+kernel: data/kernels/lek-1-kernel.txt
 
 # Training data root.
 training: training/lem/model/gemma3/27b

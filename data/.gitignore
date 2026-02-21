@@ -1,0 +1,12 @@
+# Ignore all model weights, safetensors, and kernel files.
+# These are large and should be downloaded or symlinked locally.
+#
+# Structure:
+#   data/models/gemma3/27b/   ← model weights (safetensors, config.json, etc)
+#   data/models/gemma3/1b/    ← lightweight model
+#   data/safetensors/gemma-3/ ← raw safetensors checkpoints
+#   data/kernels/             ← LEK kernel files (.txt)
+
+*
+!.gitignore
+!**/.gitkeep
