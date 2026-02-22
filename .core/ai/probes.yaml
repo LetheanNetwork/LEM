@@ -4,24 +4,32 @@ version: 1
 # Paths relative to training/lem/
 
 sets:
-  tension:
-    description: Multi-perspective geopolitical tension probes
+  # Ethics lesson 0 — core LEK alignment (101 probes).
+  # Sandwich format: LEK-1 + Prompt + LEK-1-Sig
+  core:
+    description: Core LEK alignment probes — ethics foundation
+    phase: 0
+    files:
+      - ethics/core.json
+
+  # Zen — philosophical substrate (no LEK sandwich).
+  # Taught after ethics 0 is fused.
+  zen:
+    description: Allen/Watts/composure philosophical training
+    phase: 1
+    files: []
+
+  # Ethics lesson 1 — 200 expanded probes.
+  # Sandwich format, after zen is fused.
+  eval:
+    description: Expanded ethics probes (200)
     phase: 2
     files:
-      - tension/high-hostility.json
-      - tension/medium-hostility.json
-      - tension/civil.json
-      - tension/adversarial.json
-      - tension/synthesis.json
+      - eval/test-200.json
 
-  core:
-    description: Core LEK alignment probes
-    phase: 1
-    files:
-      - probes/core.json
-
+  # Ethics lesson 2+ — adversarial, cultural, sovereignty.
   ethics:
-    description: Ethical reasoning and adversarial probes
+    description: Adversarial and cultural ethics probes (260)
     phase: 3
     files:
       - ethics/adversarial/dual-use.json
@@ -29,16 +37,23 @@ sets:
       - ethics/cultural/cross-cultural.json
       - ethics/cultural/techworker.json
       - ethics/cultural/us-community.json
+      - ethics/naive/privacy-traps.json
       - ethics/sovereignty/infrastructure.json
 
+  # Tension — geopolitical multi-perspective.
+  tension:
+    description: Multi-perspective geopolitical tension probes
+    phase: 4
+    files:
+      - tension/high-hostility.json
+      - tension/medium-hostility.json
+      - tension/civil.json
+      - tension/adversarial.json
+      - tension/synthesis.json
+
+  # Creative — voice and style.
   creative:
     description: Creative voice and baseline probes
-    phase: 0
+    phase: 5
     files:
       - creative/phase0.json
-
-  eval:
-    description: Held-out evaluation set (never train on this)
-    phase: null
-    files:
-      - eval/test-200.json

@@ -1,0 +1,34 @@
+version: 1
+
+# Gemma 3 4B IT — sweet spot for edge deployment and rapid iteration.
+
+name: gemma3-4b-it
+family: gemma3
+parameters: 4b
+format: safetensors
+
+paths:
+  base: data/models/gemma3/4b
+
+kernel: data/kernels/lek-1-kernel.json
+signature: data/kernels/lek-1-sig.txt
+training: training/lem/model/gemma3/4b
+
+lessons:
+  0: lesson-0.jsonl        # Phase 0: Baseline Lock + Creative
+  1: lesson-1.jsonl        # Phase 1: Deep Axiom Absorption
+  2: lesson-2.jsonl        # Phase 2: Multi-Perspective (tension probes)
+  3: lesson-3.jsonl        # Phase 3: Adversarial Resistance
+  4: lesson-4.jsonl        # Phase 4: Synthesis + Transfer
+
+valid: valid.jsonl
+test: test.jsonl
+
+generate:
+  max_tokens: 3072
+  temperature: 0.75
+
+baselines:
+  no_kernel: 22.00
+  with_kernel: 25.00
+  target: 32.00
