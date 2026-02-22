@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"forge.lthn.ai/core/go-i18n/reversal"
-	ml "forge.lthn.ai/core/go-ml"
+	"forge.lthn.ai/core/go-ml"
 	"forge.lthn.ai/core/go-mlx"
 )
 
