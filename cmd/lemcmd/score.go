@@ -14,16 +14,17 @@ func addScoreCommands(root *cli.Command) {
 	scoreGroup.AddCommand(passthrough("probe", "Generate responses and score them", lem.RunProbe))
 
 	// compare has a different signature — it takes two named args, not []string.
-	compareCmd := cli.NewCommand("compare", "Compare two score files", "", nil)
 	var compareOld, compareNew string
+	compareCmd := cli.NewCommand("compare", "Compare two score files", "",
+		func(cmd *cli.Command, args []string) error {
+			if compareOld == "" || compareNew == "" {
+				return fmt.Errorf("--old and --new are required")
+			}
+			return lem.RunCompare(compareOld, compareNew)
+		},
+	)
 	cli.StringFlag(compareCmd, &compareOld, "old", "", "", "Old score file (required)")
 	cli.StringFlag(compareCmd, &compareNew, "new", "", "", "New score file (required)")
-	compareCmd.RunE = func(cmd *cli.Command, args []string) error {
-		if compareOld == "" || compareNew == "" {
-			return fmt.Errorf("--old and --new are required")
-		}
-		return lem.RunCompare(compareOld, compareNew)
-	}
 	scoreGroup.AddCommand(compareCmd)
 
 	scoreGroup.AddCommand(passthrough("tier", "Score expansion responses (heuristic/judge tiers)", lem.RunTierScore))

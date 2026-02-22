@@ -78,7 +78,10 @@ func RunScore(args []string) {
 
 	if *resume {
 		if _, statErr := os.Stat(*output); statErr == nil {
-			existing, _ := ReadScorerOutput(*output)
+			existing, readErr := ReadScorerOutput(*output)
+			if readErr != nil {
+				log.Fatalf("re-read scores for merge: %v", readErr)
+			}
 			for model, scores := range existing.PerPrompt {
 				perPrompt[model] = append(scores, perPrompt[model]...)
 			}
