@@ -15,3 +15,13 @@ func AddLEMCommands(root *cli.Command) {
 	addMonCommands(root)
 	addInfraCommands(root)
 }
+
+// passthrough creates a command that passes all args (including flags) to fn.
+// Used for commands that do their own flag parsing with flag.FlagSet.
+func passthrough(use, short string, fn func([]string)) *cli.Command {
+	cmd := cli.NewRun(use, short, "", func(_ *cli.Command, args []string) {
+		fn(args)
+	})
+	cmd.DisableFlagParsing = true
+	return cmd
+}

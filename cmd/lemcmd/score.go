@@ -10,13 +10,8 @@ import (
 func addScoreCommands(root *cli.Command) {
 	scoreGroup := cli.NewGroup("score", "Scoring commands", "Score responses, probe models, compare results.")
 
-	scoreGroup.AddCommand(cli.NewRun("run", "Score existing response files", "", func(cmd *cli.Command, args []string) {
-		lem.RunScore(args)
-	}))
-
-	scoreGroup.AddCommand(cli.NewRun("probe", "Generate responses and score them", "", func(cmd *cli.Command, args []string) {
-		lem.RunProbe(args)
-	}))
+	scoreGroup.AddCommand(passthrough("run", "Score existing response files", lem.RunScore))
+	scoreGroup.AddCommand(passthrough("probe", "Generate responses and score them", lem.RunProbe))
 
 	// compare has a different signature — it takes two named args, not []string.
 	compareCmd := cli.NewCommand("compare", "Compare two score files", "", nil)
@@ -31,13 +26,8 @@ func addScoreCommands(root *cli.Command) {
 	}
 	scoreGroup.AddCommand(compareCmd)
 
-	scoreGroup.AddCommand(cli.NewRun("tier", "Score expansion responses (heuristic/judge tiers)", "", func(cmd *cli.Command, args []string) {
-		lem.RunTierScore(args)
-	}))
-
-	scoreGroup.AddCommand(cli.NewRun("agent", "ROCm scoring daemon (polls M3, scores checkpoints)", "", func(cmd *cli.Command, args []string) {
-		lem.RunAgent(args)
-	}))
+	scoreGroup.AddCommand(passthrough("tier", "Score expansion responses (heuristic/judge tiers)", lem.RunTierScore))
+	scoreGroup.AddCommand(passthrough("agent", "ROCm scoring daemon (polls M3, scores checkpoints)", lem.RunAgent))
 
 	root.AddCommand(scoreGroup)
 }
