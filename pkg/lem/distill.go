@@ -45,6 +45,8 @@ func RunDistill(args []string) {
 	runs := fs.Int("runs", 0, "Generations per probe (0 = use ai.yaml default)")
 	dryRun := fs.Bool("dry-run", false, "Show plan and exit without generating")
 	root := fs.String("root", ".", "Project root (for .core/ai/ config)")
+	cacheLimit := fs.Int("cache-limit", 0, "Metal cache limit in GB (0 = use ai.yaml default)")
+	memLimit := fs.Int("mem-limit", 0, "Metal memory limit in GB (0 = use ai.yaml default)")
 
 	if err := fs.Parse(args); err != nil {
 		log.Fatalf("parse flags: %v", err)
@@ -69,6 +71,14 @@ func RunDistill(args []string) {
 	}
 	if *runs == 0 {
 		*runs = aiCfg.Distill.Runs
+	}
+	cacheLimitGB := aiCfg.Distill.CacheLimit
+	if *cacheLimit > 0 {
+		cacheLimitGB = *cacheLimit
+	}
+	memLimitGB := aiCfg.Distill.MemoryLimit
+	if *memLimit > 0 {
+		memLimitGB = *memLimit
 	}
 
 	// Load probes.
@@ -99,6 +109,17 @@ func RunDistill(args []string) {
 	}
 	log.Printf("kernel: %d chars from %s", len(kernel), modelCfg.Kernel)
 
+	// Load signature (LEK-1-Sig).
+	var sig string
+	if modelCfg.Signature != "" {
+		sigBytes, err := os.ReadFile(modelCfg.Signature)
+		if err != nil {
+			log.Fatalf("read signature: %v", err)
+		}
+		sig = strings.TrimSpace(string(sigBytes))
+		log.Printf("signature: %d chars from %s", len(sig), modelCfg.Signature)
+	}
+
 	// Dry run.
 	if *dryRun {
 		fmt.Printf("Model:    %s (%s)\n", modelCfg.Name, modelCfg.Paths.Base)
@@ -108,6 +129,7 @@ func RunDistill(args []string) {
 		fmt.Printf("Gate:     grammar v3 composite >= %.1f\n", *minScore)
 		fmt.Printf("Generate: temp=%.2f max_tokens=%d top_p=%.2f\n",
 			genCfg.Temperature, genCfg.MaxTokens, genCfg.TopP)
+		fmt.Printf("Memory:   cache=%dGB limit=%dGB\n", cacheLimitGB, memLimitGB)
 		fmt.Printf("Output:   %s\n", outputPath)
 		fmt.Println()
 		for i, p := range probes {
@@ -149,18 +171,24 @@ func RunDistill(args []string) {
 	skipped := 0
 	totalStart := time.Now()
 	ctx := context.Background()
-	kernelStr := string(kernel)
+	kernelStr := strings.TrimSpace(string(kernel))
 
 	for i, probe := range probes {
 		var best *distillCandidate
+
+		// Build sandwich prompt for output: LEK-1 + Prompt + LEK-1-Sig
+		sandwichPrompt := kernelStr + "\n\n" + probe.Prompt
+		if sig != "" {
+			sandwichPrompt += "\n\n" + sig
+		}
 
 		for run := range *runs {
 			fmt.Fprintf(os.Stderr, "  [%d/%d] %s run %d/%d",
 				i+1, len(probes), probe.ID, run+1, *runs)
 
-			// Build chat messages.
+			// Inference uses bare probe — the model generates from its weights.
+			// Sandwich wrapping is only for the training output format.
 			messages := []inference.Message{
-				{Role: "system", Content: kernelStr},
 				{Role: "user", Content: probe.Prompt},
 			}
 
@@ -214,10 +242,10 @@ func RunDistill(args []string) {
 
 		// Quality gate.
 		if best != nil && best.Grammar.Composite >= *minScore {
+			// Save with sandwich prompt — kernel wraps the bare probe for training.
 			example := TrainingExample{
 				Messages: []ChatMessage{
-					{Role: "system", Content: kernelStr},
-					{Role: "user", Content: probe.Prompt},
+					{Role: "user", Content: sandwichPrompt},
 					{Role: "assistant", Content: best.Response},
 				},
 			}
