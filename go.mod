@@ -3,6 +3,7 @@ module forge.lthn.ai/lthn/lem
 go 1.25.6
 
 require (
+	forge.lthn.ai/core/go v0.0.0-20260221191103-d091fa62023f
 	forge.lthn.ai/core/go-i18n v0.0.0-20260220151120-0d8463c8845a
 	forge.lthn.ai/core/go-ml v0.0.0-20260222174836-950b67d25dd8
 	forge.lthn.ai/core/go-mlx v0.0.0-20260221191404-2292557fd65f
@@ -20,7 +21,6 @@ replace (
 )
 
 require (
-	forge.lthn.ai/core/go v0.0.0-20260221191103-d091fa62023f // indirect
 	forge.lthn.ai/core/go-inference v0.0.0-20260220151119-1576f744d105 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/apache/arrow-go/v18 v18.5.1 // indirect
