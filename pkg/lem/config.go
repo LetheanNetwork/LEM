@@ -37,8 +37,10 @@ type GenerateConfig struct {
 
 // DistillConfig holds distillation defaults.
 type DistillConfig struct {
-	Runs     int `yaml:"runs"`
-	MinChars int `yaml:"min_chars"`
+	Runs        int `yaml:"runs"`
+	MinChars    int `yaml:"min_chars"`
+	CacheLimit  int `yaml:"cache_limit"`  // Metal cache limit in GB (0 = no limit)
+	MemoryLimit int `yaml:"memory_limit"` // Metal memory limit in GB (0 = no limit)
 }
 
 // ModelConfig is a .core/ai/models/{family}/{size}.yaml file.
@@ -50,6 +52,7 @@ type ModelConfig struct {
 	Format     string         `yaml:"format"`
 	Paths      ModelPaths     `yaml:"paths"`
 	Kernel     string         `yaml:"kernel"`
+	Signature  string         `yaml:"signature"`
 	Training   string         `yaml:"training"`
 	Lessons    map[int]string `yaml:"lessons"`
 	Valid      string         `yaml:"valid"`

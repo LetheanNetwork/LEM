@@ -27,3 +27,5 @@ generate:
 distill:
   runs: 3                  # Generations per probe (best kept)
   min_chars: 20            # Reject responses shorter than this
+  cache_limit: 8           # Metal cache limit in GB (0 = no limit)
+  memory_limit: 16         # Metal memory limit in GB (0 = no limit)

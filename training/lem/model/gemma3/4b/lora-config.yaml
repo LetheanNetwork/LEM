@@ -1,0 +1,34 @@
+model: data/models/gemma3/4b
+train: true
+fine_tune_type: lora
+data: training/lem/model/gemma3/4b
+adapter_path: /Volumes/Data/lem/adapters/gemma3-4b-p1
+seed: 42
+
+# LoRA parameters
+lora_parameters:
+  rank: 16
+  dropout: 0.05
+  scale: 32.0
+num_layers: 16
+
+# Training
+batch_size: 1
+grad_accumulation_steps: 8
+grad_checkpoint: true
+iters: 300
+learning_rate: 2e-5
+lr_schedule:
+  name: cosine_decay
+  warmup: 100
+  arguments: [2e-5, 300]
+
+# Validation
+val_batches: 33
+steps_per_eval: 50
+steps_per_report: 10
+save_every: 100
+
+# Sequence
+max_seq_length: 3072
+mask_prompt: true

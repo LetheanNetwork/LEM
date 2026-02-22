@@ -1,0 +1,27 @@
+format: lesson
+description: "Canonical zen training data \u2014 lesson format + Ready/Stop gates"
+turns: 6-8 per conversation
+pattern:
+- 'user: Ready for lesson {ID}?'
+- 'assistant: Ready.'
+- 'user: Passage/context + reflection prompt'
+- 'assistant: Authentic reflection'
+- 'user: Deeper question'
+- 'assistant: Deeper response'
+- '(optional) user: Stop signal'
+- '(optional) assistant: Graceful close'
+model_sizes:
+  1b:
+    train_examples: 80
+    description: "Core lessons only \u2014 watts + composure + subset of expanded"
+  4b:
+    train_examples: 167
+    description: Full golden set
+  27b:
+    train_examples: 167
+    note: Same dataset, same noise distribution as smaller models
+    extra: Add book seeds after distill for additional depth
+sources:
+  lesson: 152 train, 40 valid
+  conv_converted: 15 train, 2 valid
+  book_seeds: 244 passages (need distill)
