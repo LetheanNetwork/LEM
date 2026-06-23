@@ -1,0 +1,46 @@
+{
+  "_comment": "LEM Configuration File - Customize these settings for your environment",
+  
+  "model_dir": "data/models",
+  "adapter_dir": "data/adapters",
+  "training_dir": "training",
+  "seeds_dir": "seeds",
+  "benchmarks_dir": "benchmarks",
+  "kernel_dir": "kernel",
+  
+  "default_kernel": "kernel/axioms.json",
+  "default_probes": "seeds/P01-P100.json",
+  "default_model": "gemma-3-1b-it",
+  
+  "backend": "auto",
+  "device": "auto",
+  
+  "max_tokens": 1024,
+  "temperature": 0.7,
+  "batch_size": 1,
+  
+  "training": {
+    "iters": 200,
+    "batch_size": 2,
+    "learning_rate": 1e-5,
+    "save_every": 50,
+    "adapter_path": "adapters"
+  },
+  
+  "distillation": {
+    "samples": 10,
+    "threshold": 20.0,
+    "max_tokens": 2048,
+    "temperature": 0.8
+  },
+  
+  "scoring": {
+    "format": "jsonl",
+    "delta": true
+  },
+  
+  "_huggingface": {
+    "base_url": "https://huggingface.co",
+    "lem_org": "lthn"
+  }
+}

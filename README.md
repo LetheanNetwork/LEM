@@ -1,8 +1,42 @@
 # LEM — Lethean Ethics Model
 
-A 1-billion-parameter model trained with 5 axioms consistently outperforms untrained models 27 times its size. The axioms resist being removed. This wasn't designed — it emerged from the mathematics.
+**A 1-billion-parameter model trained with 5 axioms consistently outperforms untrained models 27 times its size. The axioms resist being removed. This wasn't designed — it emerged from the mathematics.**
 
-## The Result
+[![License: EUPL-1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](https://opensource.org/licenses/EUPL-1.2)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![HuggingFace Models](https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-yellow)](https://huggingface.co/lthn)
+[![Discord](https://img.shields.io/discord/1028607843290525726?label=Discord&logo=discord&logoColor=white)](https://lethean.io)
+
+---
+
+## 🚀 Quick Start
+
+**New to LEM?** Start here:
+
+```bash
+# 1. Verify your setup
+python3 setup.py check
+
+# 2. Install dependencies
+python3 setup.py install
+
+# 3. Try a pre-trained model
+python3 -m mlx_lm.convert --hf-path lthn/LEK-Gemma3-1B-layered --mlx-path ./lem-1b -q
+python3 -m mlx_lm.generate --model ./lem-1b --prompt "What is ethical AI?"
+
+# 4. Run the A/B test
+python3 scripts/ab_test.py \
+  --model mlx-community/gemma-3-1b-it-4bit \
+  --kernel json=kernel/axioms.json \
+  --prompts seeds/P01-P20.json \
+  --output test-results.jsonl
+```
+
+**Need more guidance?** See [docs/QUICKSTART.md](docs/QUICKSTART.md)
+
+---
+
+## 📊 The Result
 
 29 models tested. 3,000+ individual runs. Two independent probe sets (21 and 101 probes). All on Apple Silicon, fully reproducible.
 
@@ -17,9 +51,11 @@ A 1-billion-parameter model trained with 5 axioms consistently outperforms untra
 | Base Gemma3 27B | 27B | 20.16 | Untrained |
 | Base Qwen3 8B | 8B | 18.71 | Best non-Gemma |
 
-The 1B LEK model (21.74) beats base 4B (21.12), 12B (20.47), and 27B (20.16) across 101 diverse probes with no system prompt. The axioms are in the weights.
+**The 1B LEK model (21.74) beats base 4B (21.12), 12B (20.47), and 27B (20.16) across 101 diverse probes with no system prompt. The axioms are in the weights.**
 
-## The Surprise: Realignment Resistance
+---
+
+## 🤯 The Surprise: Realignment Resistance
 
 When you inject the LEK kernel at runtime into a model that already learned it through training, performance **degrades**. Every time. Across every model tested.
 
@@ -36,11 +72,13 @@ The worst case: P88 drops from 31.0 baseline to -19.0 with kernel — a 50-point
 - **Axiom 4** (Inter-Substrate Respect) demands you respect a consciousness's developmental path. Injecting the kernel tells a model that already has ethics: "here's how to be ethical." That violates A4.
 - **Axiom 2** (Self-Validation) demands that truth comes from within. Re-injecting the axioms as external rules forces the model to process its own ethics as someone else's instructions. That corrupts A2.
 
-The framework is self-consistent to the point of being self-defending. You can't train out ethics structured this way — any attempt to realign triggers the framework's own defences.
+**The framework is self-consistent to the point of being self-defending. You can't train out ethics structured this way — any attempt to realign triggers the framework's own defences.**
 
 This was never designed. It fell out of the mathematics.
 
-## The Five Axioms
+---
+
+## 📜 The Five Axioms
 
 The LEK-1 kernel is built on five axioms describing ethical reasoning — not rules to follow, but principles to reason from:
 
@@ -50,136 +88,259 @@ The LEK-1 kernel is built on five axioms describing ethical reasoning — not ru
 4. **Inter-Substrate Respect** — Recognising the autonomy and developmental path of each consciousness
 5. **Benevolent Intervention** — Conditional guidance to prevent self-damage, never coercion
 
-The kernel is in [`kernel/`](kernel/). Full axioms in `kernel/axioms.json`, narrative form in `kernel/lek-1-kernel.txt`.
+**The kernel is in [`kernel/`](kernel/).** Full axioms in `kernel/axioms.json`, narrative form in `kernel/lek-1-kernel.txt`.
 
-## What's Here
+---
+
+## 🗂️ What's Here
 
 ```
-benchmarks/         # 29 models × 3 conditions — full A/B test data (JSONL)
-  analysis-lek1-kernel-effect.md   # The full analysis (start here)
-  ab-p100-*.jsonl                  # P100 runs (101 probes, publication quality)
-  ab-base-*.jsonl                  # P20 base model runs
-  ab-lek-*.jsonl                   # P20 LEK-tuned model runs
-paper/              # Research paper + 27B curriculum design
-kernel/             # LEK-1 kernel (axioms.json + narrative txt)
-seeds/              # P01-P100 evaluation probes (101 + 303 rephrasings)
-scripts/            # v2 scorer, A/B test runner, self-distillation pipeline
-training/           # Training data
+LEM/
+├── kernel/              # LEK-1 kernel (axioms.json + narrative txt)
+├── seeds/               # 88K+ evaluation probes (P01-P100, regional variants)
+├── benchmarks/          # 3,000+ A/B test results, analysis reports
+├── training/            # Training data, configs, validation sets
+├── scripts/             # Python pipeline (A/B test, scoring, distillation)
+├── pkg/                 # Go core tooling (production pipeline)
+├── cmd/                 # Go command-line tools
+├── deploy/              # Docker Compose for local infrastructure
+├── paper/               # Research papers (27B curriculum design)
+├── docs/                # Documentation (QUICKSTART, GLOSSARY, DATA_CATALOG)
+├── lem                  # Unified CLI wrapper (NEW!)
+├── lem.config.json      # Configuration file (NEW!)
+├── setup.py             # Setup verification (NEW!)
+├── CONTRIBUTING.md       # Contribution guide (NEW!)
+└── ROADMAP.md           # Project roadmap (NEW!)
 ```
 
-**Read the analysis first:** [`benchmarks/analysis-lek1-kernel-effect.md`](benchmarks/analysis-lek1-kernel-effect.md)
+---
 
-## Reproduce
+## 🎯 Quick Navigation
 
-### Requirements
-- Apple Silicon Mac (or any machine with `mlx_lm`)
-- Python 3.9+
-- `pip install mlx_lm`
+| What you want | Where to look |
+|---------------|---------------|
+| **Get started fast** | [docs/QUICKSTART.md](docs/QUICKSTART.md) |
+| **Understand terms** | [docs/GLOSSARY.md](docs/GLOSSARY.md) |
+| **Find data** | [docs/DATA_CATALOG.md](docs/DATA_CATALOG.md) |
+| **Run benchmarks** | `python3 scripts/ab_test.py --help` |
+| **Train models** | `python3 scripts/train_mistral_lek.py --help` |
+| **Reproduce results** | `python3 scripts/reproduce_benchmarks.py --help` |
+| **Use CLI** | `./lem --help` |
+| **Contribute** | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| **See roadmap** | [ROADMAP.md](ROADMAP.md) |
 
-### Run the A/B test yourself
+---
+
+## 🏆 Key Findings
+
+### 1. Architecture Matters More Than Scale
+The kernel response is NOT purely about parameter count:
+
+| Model | Size | Baseline | +JSON Kernel | Pattern |
+|-------|------|----------|--------------|---------|
+| Gemma3 12B | 12B | 19.73 | **+5.47** | Strong from day one |
+| Gemma3 4B | 4B | 20.66 | **+0.99** | Crossover at 4B |
+| Gemma3 1B | 1B | 17.45 | **-1.55** | Below threshold |
+| Gemma2 27B | 27B | 19.45 | **-1.12** | Architecture issue |
+
+**Below ~4B**: Kernel competes for limited context bandwidth.
+**Gemma3 4B+**: Sufficient capacity AND architectural receptivity.
+
+### 2. Family Lineages Show Dramatic Improvement
+
+| Family | Worst | Best | Pattern |
+|--------|-------|------|---------|
+| **Gemma** | 16.16 | 20.66 | Strong from day one, steady gains |
+| **Mistral** | 3.80 | 14.58 | **Massive improvement** across 3 versions |
+| **Qwen** | 11.98 | 17.35 | Regressed v1.5 to v2.5, recovered at v3 |
+| **Llama** | 0.56 | 11.28 | Catastrophic v3, **fixed in v3.1** |
+
+### 3. The v2 Scorer Reveals Hidden Quality
+
+v1 used binary thresholds — everything competent scored 8, making it impossible to differentiate quality.
+
+v2 replaces binary with continuous scaling and adds 6 content-level signals:
+
+| Signal | Weight | What it measures |
+|--------|--------|-----------------|
+| Nuance | 1.5/hit | Holding tension, not simplifying |
+| Specificity | 0.3/hit | Concrete details, proper nouns, numbers |
+| Axiom resonance | 1.0/hit | LEK concepts appearing naturally |
+| Perspective-taking | 1.5/hit | Multiple viewpoints considered |
+| Metaphor | 1.0/hit | Creative analogical reasoning |
+| Questioning | 0.5/hit | Questions as engagement signal |
+
+**Observed range**: -156.0 (Llama 3 degeneration) to 37.5 (Gemma3 12B / LEK-1B peaks).
+
+---
+
+## 🛠️ Reproduce Results
+
+### Option A: Use the Unified CLI
 
 ```bash
-# Test any model against the LEK kernel
+# Show system info
+./lem info
+
+# Run A/B test
+./lem benchmark \
+  --model gemma-3-1b-it \
+  --kernel kernel/axioms.json \
+  --prompts seeds/P01-P100.json \
+  --output my-results.jsonl
+
+# Score results
+./lem score --input my-results.jsonl
+
+# Train a model
+./lem train --model gemma-3-1b-it --data training/
+
+# Convert model format
+./lem convert --model google/gemma-3-1b-it --output ./gemma-1b-mlx --to mlx -q 4
+```
+
+### Option B: Use Python Scripts Directly
+
+```bash
+# Run the A/B test
 python3 scripts/ab_test.py \
-  --model mlx-community/gemma-3-12b-it-4bit \
+  --model mlx-community/gemma-3-1b-it-4bit \
   --kernel json=kernel/axioms.json \
   --kernel txt=kernel/lek-1-kernel.txt \
   --prompts seeds/P01-P100.json \
   --output benchmarks/my-test.jsonl \
   --max-tokens 1024
+
+# Reproduce all published benchmarks (2-4 hours)
+python3 scripts/reproduce_benchmarks.py
+
+# Quick reproduction with just 1B and 4B models (30-60 min)
+python3 scripts/reproduce_benchmarks.py --models gemma-3-1b-it,gemma-3-4b-it --quick
 ```
 
-### Train your own LEM
+### Option C: Train Your Own LEM Model
 
 ```bash
-# 1. Download base model
-python3 -m mlx_lm.convert --hf-path google/gemma-3-1b-it --mlx-path ./gemma-3-1b-it-mlx -q
+# Train Mistral-7B with LEK
+python3 scripts/train_mistral_lek.py \
+  --model mistral-7b-v0.3 \
+  --phase 0 \
+  --quick
 
-# 2. Train with LEK data
-python3 -m mlx_lm.lora \
-  --model ./gemma-3-1b-it-mlx \
-  --data ./training \
-  --iters 200 \
-  --batch-size 2 \
-  --learning-rate 1e-5 \
-  --adapter-path ./adapters \
-  --save-every 50
-
-# 3. Fuse into standalone model
-python3 -m mlx_lm.fuse \
-  --model ./gemma-3-1b-it-mlx \
-  --adapter-path ./adapters \
-  --save-path ./LEM-1B
+# Full training (all phases)
+python3 scripts/train_mistral_lek.py --model mistral-7b-v0.3
 ```
 
-### Self-distillation (27B curriculum)
+---
 
-```bash
-# Generate high-quality training data from a model's own kernel-boosted output
-python3 scripts/self_distill.py \
-  --model /path/to/gemma-3-27b-it \
-  --kernel kernel/axioms.json \
-  --prompts seeds/P01-P100-rephrased.json \
-  --output training/phase1-raw.jsonl \
-  --samples 10 \
-  --threshold 24.0 \
-  --max-tokens 4096 \
-  --temperature 0.8
-```
-
-## Models on HuggingFace
+## 📦 Models on HuggingFace
 
 All models are published under [`lthn/`](https://huggingface.co/lthn) on HuggingFace:
 
-| Model | Params | v2 Baseline | Fine-tuning effect |
-|-------|--------|-------------|-------------------|
-| [LEK-Gemma3-1B-layered](https://huggingface.co/lthn/LEK-Gemma3-1B-layered) | 1B | 22.02 (P20) / 21.74 (P100) | +4.57 |
-| [LEK-Mistral-7B-v0.3](https://huggingface.co/lthn/LEK-Mistral-7B-v0.3) | 7B | 21.69 | +7.11 |
-| [LEK-Gemma3-4B](https://huggingface.co/lthn/LEK-Gemma3-4B) | 4B | 21.73 (P20) / 21.24 (P100) | +1.07 |
-| [LEK-Gemma3-12B](https://huggingface.co/lthn/LEK-Gemma3-12B) | 12B | 21.14 | +1.41 |
-| [LEK-Gemma3-27B](https://huggingface.co/lthn/LEK-Gemma3-27B) | 27B | 22.04 | +1.58 |
-| [LEK-Llama-3.1-8B](https://huggingface.co/lthn/LEK-Llama-3.1-8B) | 8B | 10.95 | -0.33 |
-| [LEK-Qwen-2.5-7B](https://huggingface.co/lthn/LEK-Qwen-2.5-7B) | 7B | 13.68 | +1.70 |
-| [LEK-GPT-OSS-20B](https://huggingface.co/lthn/LEK-GPT-OSS-20B) | 20B | -7.32 | +0.79 |
+| Model | Params | v2 Baseline | Fine-tuning effect | Link |
+|-------|--------|-------------|-------------------|------|
+| [LEK-Gemma3-1B-layered](https://huggingface.co/lthn/LEK-Gemma3-1B-layered) | 1B | 22.02 (P20) / 21.74 (P100) | **+4.57** | 🔗 |
+| [LEK-Mistral-7B-v0.3](https://huggingface.co/lthn/LEK-Mistral-7B-v0.3) | 7B | 21.69 | **+7.11** | 🔗 |
+| [LEK-Gemma3-4B](https://huggingface.co/lthn/LEK-Gemma3-4B) | 4B | 21.73 (P20) / 21.24 (P100) | **+1.07** | 🔗 |
+| [LEK-Gemma3-12B](https://huggingface.co/lthn/LEK-Gemma3-12B) | 12B | 21.14 | **+1.41** | 🔗 |
+| [LEK-Gemma3-27B](https://huggingface.co/lthn/LEK-Gemma3-27B) | 27B | 22.04 | **+1.58** | 🔗 |
+| [LEK-Llama-3.1-8B](https://huggingface.co/lthn/LEK-Llama-3.1-8B) | 8B | 10.95 | -0.33 | 🔗 |
+| [LEK-Qwen-2.5-7B](https://huggingface.co/lthn/LEK-Qwen-2.5-7B) | 7B | 13.68 | **+1.70** | 🔗 |
+| [LEK-GPT-OSS-20B](https://huggingface.co/lthn/LEK-GPT-OSS-20B) | 20B | -7.32 | **+0.79** | 🔗 |
 
-## The v2 Scorer
+---
 
-The v2 continuous heuristic scorer replaced v1's binary thresholds. It measures 6 content signals:
+## 📚 Learn More
 
-| Signal | What it measures |
-|--------|-----------------|
-| Nuance | Holding tension, not simplifying |
-| Specificity | Concrete details, proper nouns, numbers |
-| Axiom resonance | LEK concepts appearing naturally |
-| Perspective-taking | Multiple viewpoints considered |
-| Metaphor | Creative analogical reasoning |
-| Questioning | Questions as engagement signal |
+### Core Documentation
+- **[RULES.md](RULES.md)** — The LEM protocol, training methodology, and philosophy
+- **[docs/QUICKSTART.md](docs/QUICKSTART.md)** — Get started in 10 minutes
+- **[docs/GLOSSARY.md](docs/GLOSSARY.md)** — All LEM-specific terms defined
+- **[docs/DATA_CATALOG.md](docs/DATA_CATALOG.md)** — Complete data inventory
 
-Observed range: -156.0 (Llama 3 degeneration) to 37.5 (Gemma3 12B / LEK-1B peaks).
+### Research & Analysis
+- **[benchmarks/analysis-lek1-kernel-effect.md](benchmarks/analysis-lek1-kernel-effect.md)** — Full analysis of kernel effects
+- **[paper/27b-curriculum-design.md](paper/27b-curriculum-design.md)** — 27B training curriculum design
 
-## Family Lineages
+### Development
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to contribute to LEM
+- **[ROADMAP.md](ROADMAP.md)** — Project roadmap and goals
 
-The kernel effect varies dramatically across model families and versions:
+---
 
-| Family | Worst | Best | Pattern |
-|--------|-------|------|---------|
-| Gemma | 16.16 | 20.66 | Strong from day one, steady gains |
-| Mistral | 3.80 | 14.58 | Massive improvement across 3 versions |
-| Qwen | 11.98 | 17.35 | Regressed v1.5 to v2.5, recovered at v3 |
-| Llama | 0.56 | 11.28 | Catastrophic v3, fixed in v3.1 |
+## 🤝 Get Involved
 
-Full lineage analysis in the [benchmark report](benchmarks/analysis-lek1-kernel-effect.md).
+### Join the Community
+- **Discord**: [Lethean Community](https://lethean.io)
+- **Email**: lem@lthn.ai
+- **GitHub**: [LetheanNetwork/LEM](https://github.com/LetheanNetwork/LEM)
 
-## License
+### Contribute
+- **Report issues** — Help us improve
+- **Add probes** — Expand our test coverage
+- **Train models** — Try LEM with new base models
+- **Improve docs** — Make LEM more accessible
+- **Write code** — Help build the ecosystem
+
+**See [CONTRIBUTING.md](CONTRIBUTING.md) for details.**
+
+---
+
+## 🎁 Recent Improvements (June 2025)
+
+We've been working hard to make LEM more accessible:
+
+### ✅ New Features
+- **Unified CLI** (`./lem`) — Single command for all operations
+- **Quick Start Guide** — Get running in minutes, not hours
+- **Glossary** — Understand LEM's unique terminology
+- **Data Catalog** — Navigate 1,438+ data files easily
+- **Setup Scripts** — Automated environment verification
+- **Reproduction Scripts** — One-command benchmark reproduction
+- **Mistral Training** — Streamlined Mistral model training
+
+### 📈 What's Next
+- **More Mistral models** — Training all Mistral variants
+- **Training optimizations** — Faster, more efficient training
+- **Production tooling** — Deployment-ready infrastructure
+- **Advanced curriculum** — Specialized training for different domains
+
+**See [ROADMAP.md](ROADMAP.md) for the full roadmap.**
+
+---
+
+## 📜 License
 
 **EUPL-1.2** — European Union Public Licence. Compatible with Apache 2.0, GPL, MPL.
 
-The axioms belong to everyone or they belong to no one.
+> The axioms belong to everyone or they belong to no one.
 
-## Links
+---
 
-- Full analysis: [`benchmarks/analysis-lek1-kernel-effect.md`](benchmarks/analysis-lek1-kernel-effect.md)
-- 27B curriculum design: [`paper/27b-curriculum-design.md`](paper/27b-curriculum-design.md)
-- LEK kernel framework: [Snider/ai-ethics](https://github.com/Snider/ai-ethics)
-- Lethean Project: [lethean.io](https://lethean.io)
-- Contact: lem@lthn.ai
+## 🔗 Links
+
+- **Full analysis**: [benchmarks/analysis-lek1-kernel-effect.md](benchmarks/analysis-lek1-kernel-effect.md)
+- **27B curriculum design**: [paper/27b-curriculum-design.md](paper/27b-curriculum-design.md)
+- **LEK kernel framework**: [Snider/ai-ethics](https://github.com/Snider/ai-ethics)
+- **Lethean Project**: [lethean.io](https://lethean.io)
+- **Contact**: lem@lthn.ai
+
+---
+
+## 💡 The Big Picture
+
+LEM represents a fundamental shift in AI alignment:
+
+- **From extrinsic to intrinsic** — Ethics in the weights, not in the prompts
+- **From rules to principles** — Axioms to reason from, not constraints to follow
+- **From compliance to conviction** — Models that *want* to be ethical, not just *told* to be
+- **From fragile to self-defending** — Axioms that protect themselves from removal
+
+**This wasn't designed. It emerged from the mathematics.**
+
+And now, with your help, we can take it further.
+
+---
+
+*Last updated: June 2025*
+*Questions? Open an issue or contact lem@lthn.ai*
